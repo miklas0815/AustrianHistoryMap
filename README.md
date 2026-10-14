@@ -29,13 +29,36 @@ npm run build      # prüft Daten + Typen, erzeugt dist/
 
 ## Veröffentlichen (easyname)
 
+### Automatisch über GitHub Actions
+
+Bei jedem Push auf den Standard-Branch baut GitHub die Seite, prüft Daten und
+Tests und lädt das Ergebnis per FTP auf den Webspace
+(`.github/workflows/deploy.yml`). Einmalig einzurichten unter
+**GitHub → Settings → Secrets and variables → Actions**:
+
+| Art | Name | Inhalt |
+|---|---|---|
+| Secret | `FTP_SERVER` | FTP-Server laut easyname-Kundenbereich |
+| Secret | `FTP_USERNAME` | FTP-Benutzername |
+| Secret | `FTP_PASSWORD` | FTP-Passwort |
+| Variable | `FTP_TARGET_DIR` | Zielordner am Server, z. B. `/html/zeitleiste` (Standard `/`) |
+| Variable | `FTP_PROTOCOL` | `ftp` (Standard; verschlüsselt per TLS, wenn der Server es anbietet) oder `sftp` |
+
+Solange die Secrets fehlen, wird nur gebaut und nichts hochgeladen. Einen Upload
+kann man auch manuell starten: **Actions → Build und Deploy → Run workflow**.
+Das fertige Paket steht bei jedem Lauf zusätzlich als Download („website“) bereit.
+
+Am Server wird nichts gelöscht; andere Dateien im Zielordner bleiben erhalten.
+Daten bitte nur noch im Repository ändern – direkte Änderungen am Server werden
+beim nächsten Deploy überschrieben.
+
+### Manuell
+
 1. `npm run build`
 2. Den **Inhalt** von `dist/` per FTP/SFTP in das gewünschte Verzeichnis am
    Webspace hochladen (funktioniert auch in einem Unterordner).
 
-Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank. Daten können
-auch nach dem Hochladen direkt in `data/*.json` am Server geändert werden, ohne neu
-zu bauen.
+Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank.
 
 ## Daten pflegen
 

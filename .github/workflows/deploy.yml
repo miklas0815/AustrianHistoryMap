@@ -1,0 +1,92 @@
+# Baut die Seite bei jedem Push, prüft Daten und Tests und überträgt das
+# Ergebnis vom Standard-Branch per FTP/SFTP auf den easyname-Webspace.
+#
+# Einrichtung (GitHub → Settings → Secrets and variables → Actions):
+#   Secrets:   FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+#   Variablen: FTP_TARGET_DIR  Zielordner am Server, z. B. /html/zeitleiste (Standard: /)
+#              FTP_PROTOCOL    ftp (Standard, mit TLS falls angeboten) oder sftp
+# Solange die Secrets fehlen, wird nur gebaut und nichts übertragen.
+
+name: Build und Deploy
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  # Builds von Pull Requests dürfen abgebrochen werden, laufende Uploads nicht.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm test
+      # Prüft die Daten und die Typen und erzeugt dist/
+      - run: npm run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: website
+          path: dist/
+          retention-days: 14
+
+  deploy:
+    needs: build
+    # Nur vom Standard-Branch (bzw. bei manuellem Start) veröffentlichen.
+    if: github.event_name != 'pull_request' && (github.ref_name == github.event.repository.default_branch || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    environment: easyname
+    env:
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+      FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+      FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      # lftp liest das Passwort aus dieser Variable (sicher auch bei Sonderzeichen).
+      LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      FTP_TARGET_DIR: ${{ vars.FTP_TARGET_DIR || '/' }}
+      FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL || 'ftp' }}
+    steps:
+      - name: Zugangsdaten prüfen
+        id: check
+        run: |
+          if [ -z "$FTP_SERVER" ] || [ -z "$FTP_USERNAME" ] || [ -z "$FTP_PASSWORD" ]; then
+            echo "::notice::FTP-Zugangsdaten fehlen (Secrets FTP_SERVER, FTP_USERNAME, FTP_PASSWORD) – Upload übersprungen."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/download-artifact@v4
+        if: steps.check.outputs.ready == 'true'
+        with:
+          name: website
+          path: dist
+
+      - name: lftp installieren
+        if: steps.check.outputs.ready == 'true'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Auf easyname übertragen
+        if: steps.check.outputs.ready == 'true'
+        run: |
+          # mirror -R lädt nur geänderte Dateien hoch. Es wird nichts am Server gelöscht,
+          # damit andere Inhalte im Zielordner unberührt bleiben.
+          lftp --env-password -u "$FTP_USERNAME" "$FTP_PROTOCOL://$FTP_SERVER" -e "
+            set net:max-retries 3;
+            set net:timeout 30;
+            set ftp:ssl-allow true;
+            set sftp:auto-confirm yes;
+            mkdir -p -f '$FTP_TARGET_DIR';
+            mirror --reverse --only-newer --verbose --parallel=4 dist/ '$FTP_TARGET_DIR';
+            bye"
+          echo "### Veröffentlicht nach \`$FTP_TARGET_DIR\` auf $FTP_SERVER" >> "$GITHUB_STEP_SUMMARY"
