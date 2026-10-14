@@ -1,8 +1,9 @@
 # Österreichische Geschichte – Zeitleiste
 
-Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Wiener Bürgermeister,
-Baumeister, Komponisten, Maler, technologische Neuerungen, Ereignisse in Österreich
-und international). Zoomen blendet je nach
+Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Persönlichkeiten in
+Österreich und international, Wiener Bürgermeister, Baumeister, Bildhauer, Maler,
+Komponisten & Musiker, Schriftsteller, technologische Neuerungen, Ereignisse in
+Österreich und international). Zoomen blendet je nach
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
@@ -100,10 +101,11 @@ Ein Eintrag:
 | `description`, `place`, `attributes`, `tags`, `sources` | nein | Detailansicht |
 
 Bei Personen zeigt der Balken je nach Kategorie die Regierungs- bzw. Amtszeit
-(Herrscher, Bürgermeister) oder die Lebensdaten (Baumeister, Komponisten, Maler).
+(Herrscher, Bürgermeister) oder die Lebensdaten (Persönlichkeiten, Künstler,
+Schriftsteller).
 Bei Herrschern und Landesfürsten liegt die Regierungszeit als kräftiger Balken
 über einem blassen Balken der Lebenszeit (Feld `life`).
-Bei Baumeistern, Komponisten und Malern haben in Österreich bzw. am Habsburgerhof
+Bei Baumeistern, Bildhauern, Malern und Musikern haben in Österreich bzw. am Habsburgerhof
 tätige Personen Vorrang (Bedeutung 1–3); internationale Namen dienen als Kontext
 (meist 4–5) und erscheinen erst beim Hineinzoomen. Ungefähre Daten
 (`~`) werden mit auslaufenden Balkenenden dargestellt.

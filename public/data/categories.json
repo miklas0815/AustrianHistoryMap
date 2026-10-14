@@ -2,10 +2,14 @@
   "categories": [
     {"id": "herrscher-hrr", "name": "Röm.-dt. Kaiser & Könige", "color": "#A97C14", "file": "herrscher-hrr.json", "description": "Oberhäupter des Heiligen Römischen Reiches bis 1806 (Regierungszeit, blass: Lebenszeit)."},
     {"id": "herrscher-at", "name": "Herrscher Österreich", "color": "#C8102E", "file": "herrscher-at.json", "description": "Landesfürsten der österreichischen Länder, ab 1804 Kaiser von Österreich, ab 1918 Staatsoberhäupter der Republik (Regierungszeit, blass: Lebenszeit)."},
+    {"id": "persoenlichkeiten-at", "name": "Persönlichkeiten Österreich", "color": "#8B5A2B", "file": "persoenlichkeiten-at.json", "description": "Staatsmänner, Feldherren, Reformer und andere prägende Persönlichkeiten mit Österreichbezug (Lebensdaten)."},
+    {"id": "persoenlichkeiten-int", "name": "Persönlichkeiten international", "color": "#6B7A1F", "file": "persoenlichkeiten-int.json", "description": "International bedeutende Persönlichkeiten als Kontext (Lebensdaten)."},
     {"id": "buergermeister-wien", "name": "Bürgermeister Wien", "color": "#1F5FAD", "file": "buergermeister-wien.json", "description": "Amtszeiten der Wiener Bürgermeister."},
     {"id": "baumeister", "name": "Baumeister & Architekten", "color": "#2E7D4F", "file": "baumeister.json", "description": "Lebensdaten von Baumeistern und Architekten."},
-    {"id": "komponisten", "name": "Komponisten", "color": "#C25E14", "file": "komponisten.json", "description": "Lebensdaten von Komponisten, vor allem an den Habsburgerhöfen."},
+    {"id": "bildhauer", "name": "Bildhauer", "color": "#85775F", "file": "bildhauer.json", "description": "Lebensdaten von Bildhauern."},
     {"id": "maler", "name": "Maler", "color": "#A8326E", "file": "maler.json", "description": "Lebensdaten von Malern, vor allem in Österreich und am Habsburgerhof."},
+    {"id": "komponisten", "name": "Komponisten & Musiker", "color": "#C25E14", "file": "komponisten.json", "description": "Lebensdaten von Komponisten, Minnesängern und Musikern, vor allem mit Österreichbezug."},
+    {"id": "schriftsteller", "name": "Schriftsteller", "color": "#2F4A73", "file": "schriftsteller.json", "description": "Schriftsteller, Dichter und Chronisten mit Bezug zu Österreich (Lebensdaten)."},
     {"id": "technologie", "name": "Technologische Neuerungen", "color": "#4D5D6B", "file": "technologie.json", "description": "Wichtige Entwicklungen aus Technik, Wissenschaft und Forschung."},
     {"id": "ereignisse-at", "name": "Ereignisse Österreich", "color": "#7B3FA0", "file": "ereignisse-at.json", "description": "Bedeutende Ereignisse der österreichischen Geschichte."},
     {"id": "ereignisse-int", "name": "Ereignisse international", "color": "#3B7A86", "file": "ereignisse-int.json", "description": "Bedeutende internationale Ereignisse als Kontext."}

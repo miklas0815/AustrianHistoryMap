@@ -1,0 +1,209 @@
+{
+  "category": "schriftsteller",
+  "note": "Balken zeigen die Lebensdaten. Schriftsteller, Dichter und Chronisten mit Bezug zu Österreich. Minnesänger stehen bei den Komponisten & Musikern.",
+  "items": [
+    {
+      "id": "ulrich-von-liechtenstein", "title": "Ulrich von Liechtenstein", "short": "Ulrich v. Liechtenstein", "start": "~1200", "end": "1275", "importance": 3,
+      "description": "Steirischer Ministeriale und Dichter; sein „Frauendienst“ gilt als erster autobiografischer Roman in deutscher Sprache.",
+      "place": { "name": "Murau", "lat": 47.1086, "lon": 14.17 },
+      "attributes": { "Werke": "Frauendienst" }
+    },
+    {
+      "id": "jans-der-enikel", "title": "Jans der Enikel", "short": "Jans Enikel", "start": "~1240", "end": "~1302", "importance": 3,
+      "description": "Wiener Bürger und Chronist; seine „Weltchronik“ und das „Fürstenbuch“ sind frühe deutschsprachige Geschichtswerke.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Weltchronik, Fürstenbuch" }
+    },
+    {
+      "id": "ottokar-aus-der-gaal", "title": "Ottokar aus der Gaal", "short": "Ottokar aus der Gaal", "start": "~1265", "end": "~1320", "importance": 3,
+      "description": "Verfasser der „Steirischen Reimchronik“ über die Zeit der ersten Habsburger.",
+      "place": { "name": "Steiermark", "lat": 47.3, "lon": 15.0 },
+      "attributes": { "Werke": "Steirische Reimchronik" }
+    },
+    {
+      "id": "peter-suchenwirt", "title": "Peter Suchenwirt", "short": "Suchenwirt", "start": "~1320", "end": "~1395", "importance": 3,
+      "description": "Wiener Herold und Wappendichter am Hof Albrechts III.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "thomas-ebendorfer", "title": "Thomas Ebendorfer", "short": "Ebendorfer", "start": "1388-08-10", "end": "1464-01-12", "importance": 3,
+      "description": "Theologe und Geschichtsschreiber, Professor der Universität Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Chronica Austriae" }
+    },
+    {
+      "id": "enea-silvio", "title": "Enea Silvio Piccolomini", "short": "Piccolomini", "start": "1405-10-18", "end": "1464-08-14", "importance": 2,
+      "description": "Humanist am Hof Friedrichs III. in Wien, schilderte die Stadt anschaulich; ab 1458 Papst Pius II.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "konrad-celtis", "title": "Konrad Celtis", "short": "Celtis", "start": "1459-02-01", "end": "1508-02-04", "importance": 2,
+      "description": "„Erzhumanist“; von Maximilian I. nach Wien berufen, wo er das Collegium poetarum gründete.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "cuspinian", "title": "Johannes Cuspinian", "short": "Cuspinian", "start": "1473-12", "end": "1529-04-19", "importance": 3,
+      "description": "Humanist, Arzt und Diplomat Maximilians I.; Rektor der Universität Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "wolfgang-schmeltzl", "title": "Wolfgang Schmeltzl", "short": "Schmeltzl", "start": "~1500", "end": "~1564", "importance": 3,
+      "description": "Schulmeister und Dichter; sein „Lobspruch der Stadt Wien“ (1548) ist ein frühes Wien-Porträt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Lobspruch der Stadt Wien" }
+    },
+    {
+      "id": "abraham-a-sancta-clara", "title": "Abraham a Sancta Clara", "short": "Abraham a Sancta Clara", "start": "1644-07-02", "end": "1709-12-01", "importance": 2,
+      "description": "Wortgewaltiger Hofprediger in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Merck’s Wien (1680), Auf, auf ihr Christen! (1683)" }
+    },
+    {
+      "id": "schikaneder", "title": "Emanuel Schikaneder", "short": "Schikaneder", "start": "1751-09-01", "end": "1812-09-21", "importance": 2,
+      "description": "Theaterdirektor und Librettist von Mozarts „Zauberflöte“; erbaute das Theater an der Wien.",
+      "place": { "name": "Theater an der Wien", "lat": 48.1996, "lon": 16.3644 },
+      "attributes": { "Werke": "Die Zauberflöte (Libretto)" }
+    },
+    {
+      "id": "blumauer", "title": "Aloys Blumauer", "short": "Blumauer", "start": "1755-12-21", "end": "1798-03-16", "importance": 3,
+      "description": "Wiener Aufklärer, Dichter und Zensor.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Travestie der Aeneis" }
+    },
+    {
+      "id": "raimund", "title": "Ferdinand Raimund", "short": "Raimund", "start": "1790-06-01", "end": "1836-09-05", "importance": 2,
+      "description": "Meister des Wiener Zauber- und Volksstücks.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Bauer als Millionär, Der Alpenkönig und der Menschenfeind" }
+    },
+    {
+      "id": "grillparzer", "title": "Franz Grillparzer", "short": "Grillparzer", "start": "1791-01-15", "end": "1872-01-21", "importance": 1,
+      "description": "Österreichs Nationaldichter; Dramen über Größe und Tragik des Hauses Habsburg.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "König Ottokars Glück und Ende, Der arme Spielmann" }
+    },
+    {
+      "id": "nestroy", "title": "Johann Nestroy", "short": "Nestroy", "start": "1801-12-07", "end": "1862-05-25", "importance": 1,
+      "description": "Schauspieler und satirischer Dramatiker des Wiener Volkstheaters.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Talisman, Der Zerrissene, Lumpazivagabundus" }
+    },
+    {
+      "id": "lenau", "title": "Nikolaus Lenau", "short": "Lenau", "start": "1802-08-13", "end": "1850-08-22", "importance": 2,
+      "description": "Lyriker der Weltschmerz-Romantik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Schilflieder, Faust" }
+    },
+    {
+      "id": "stifter", "title": "Adalbert Stifter", "short": "Stifter", "start": "1805-10-23", "end": "1868-01-28", "importance": 1,
+      "description": "Erzähler aus dem Böhmerwald, Meister der genauen Naturschilderung; lebte in Linz.",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Werke": "Der Nachsommer, Bunte Steine" }
+    },
+    {
+      "id": "anastasius-gruen", "title": "Anastasius Grün", "short": "Grün", "start": "1806-04-11", "end": "1876-09-12", "importance": 3,
+      "description": "Politischer Lyriker des Vormärz (Anton Alexander Graf Auersperg).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Spaziergänge eines Wiener Poeten" }
+    },
+    {
+      "id": "ebner-eschenbach", "title": "Marie von Ebner-Eschenbach", "short": "Ebner-Eschenbach", "start": "1830-09-13", "end": "1916-03-12", "importance": 2,
+      "description": "Bedeutende Erzählerin des Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Krambambuli, Das Gemeindekind" }
+    },
+    {
+      "id": "ferdinand-von-saar", "title": "Ferdinand von Saar", "short": "Saar", "start": "1833-09-30", "end": "1906-07-24", "importance": 3,
+      "description": "Novellist des späten Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "anzengruber", "title": "Ludwig Anzengruber", "short": "Anzengruber", "start": "1839-11-29", "end": "1889-12-10", "importance": 3,
+      "description": "Volksdramatiker des Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Pfarrer von Kirchfeld" }
+    },
+    {
+      "id": "rosegger", "title": "Peter Rosegger", "short": "Rosegger", "start": "1843-07-31", "end": "1918-06-26", "importance": 2,
+      "description": "Steirischer Volksschriftsteller.",
+      "place": { "name": "Krieglach", "lat": 47.5458, "lon": 15.5644 },
+      "attributes": { "Werke": "Als ich noch der Waldbauernbub war" }
+    },
+    {
+      "id": "peter-altenberg", "title": "Peter Altenberg", "short": "Altenberg", "start": "1859-03-09", "end": "1919-01-08", "importance": 3,
+      "description": "Kaffeehausliterat und Meister der kurzen Prosaskizze.",
+      "place": { "name": "Café Central, Wien", "lat": 48.2104, "lon": 16.3654 }
+    },
+    {
+      "id": "schnitzler", "title": "Arthur Schnitzler", "short": "Schnitzler", "start": "1862-05-15", "end": "1931-10-21", "importance": 1,
+      "description": "Arzt und Dichter der Wiener Moderne.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Reigen, Leutnant Gustl, Traumnovelle" }
+    },
+    {
+      "id": "hermann-bahr", "title": "Hermann Bahr", "short": "Bahr", "start": "1863-07-19", "end": "1934-01-15", "importance": 3,
+      "description": "Wortführer des „Jungen Wien“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "felix-salten", "title": "Felix Salten", "short": "Salten", "start": "1869-09-06", "end": "1945-10-08", "importance": 3,
+      "description": "Journalist und Erzähler.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Bambi" }
+    },
+    {
+      "id": "hofmannsthal", "title": "Hugo von Hofmannsthal", "short": "Hofmannsthal", "start": "1874-02-01", "end": "1929-07-15", "importance": 1,
+      "description": "Lyriker, Dramatiker und Librettist von Richard Strauss; Mitbegründer der Salzburger Festspiele (1920).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Jedermann, Der Rosenkavalier, Der Schwierige" }
+    },
+    {
+      "id": "karl-kraus", "title": "Karl Kraus", "short": "Kraus", "start": "1874-04-28", "end": "1936-06-12", "importance": 2,
+      "description": "Satiriker und Herausgeber der „Fackel“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die letzten Tage der Menschheit" }
+    },
+    {
+      "id": "rilke", "title": "Rainer Maria Rilke", "short": "Rilke", "start": "1875-12-04", "end": "1926-12-29", "importance": 2,
+      "description": "In Prag geborener Lyriker.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Werke": "Duineser Elegien, Sonette an Orpheus" }
+    },
+    {
+      "id": "musil", "title": "Robert Musil", "short": "Musil", "start": "1880-11-06", "end": "1942-04-15", "importance": 2,
+      "description": "Romancier der Moderne.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Mann ohne Eigenschaften" }
+    },
+    {
+      "id": "stefan-zweig", "title": "Stefan Zweig", "short": "Zweig", "start": "1881-11-28", "end": "1942-02-23", "importance": 2,
+      "description": "Erzähler und Biograf; lebte ab 1919 in Salzburg.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Die Welt von Gestern, Schachnovelle" }
+    },
+    {
+      "id": "kafka", "title": "Franz Kafka", "short": "Kafka", "start": "1883-07-03", "end": "1924-06-03", "importance": 2,
+      "description": "Prager Schriftsteller, bis 1918 österreichischer Staatsbürger.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Werke": "Der Process, Die Verwandlung" }
+    },
+    {
+      "id": "trakl", "title": "Georg Trakl", "short": "Trakl", "start": "1887-02-03", "end": "1914-11-03", "importance": 2,
+      "description": "Salzburger Lyriker des Expressionismus.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Grodek" }
+    },
+    {
+      "id": "werfel", "title": "Franz Werfel", "short": "Werfel", "start": "1890-09-10", "end": "1945-08-26", "importance": 3,
+      "description": "Lyriker und Romancier aus Prag.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die vierzig Tage des Musa Dagh" }
+    },
+    {
+      "id": "joseph-roth", "title": "Joseph Roth", "short": "Roth", "start": "1894-09-02", "end": "1939-05-27", "importance": 3,
+      "description": "Erzähler des Untergangs der Monarchie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Radetzkymarsch" }
+    }
+  ]
+}

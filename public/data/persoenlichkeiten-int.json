@@ -1,0 +1,181 @@
+{
+  "category": "persoenlichkeiten-int",
+  "note": "Balken zeigen die Lebensdaten. International bedeutende Persönlichkeiten als Kontext; die Bedeutungsstufe richtet sich nach ihrer weltgeschichtlichen Wirkung.",
+  "items": [
+    {
+      "id": "dante", "title": "Dante Alighieri", "short": "Dante", "start": "1265", "end": "1321-09-14", "importance": 3,
+      "description": "Florentiner Dichter der „Göttlichen Komödie“.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
+    },
+    {
+      "id": "jan-hus", "title": "Jan Hus", "short": "Hus", "start": "~1370", "end": "1415-07-06", "importance": 3,
+      "description": "Prager Reformator; auf dem Konzil von Konstanz verbrannt.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 }
+    },
+    {
+      "id": "jeanne-darc", "title": "Jeanne d’Arc", "start": "~1412", "end": "1431-05-30", "importance": 2,
+      "description": "Führte Frankreich im Hundertjährigen Krieg zur Wende; als Ketzerin verbrannt.",
+      "place": { "name": "Orléans", "lat": 47.903, "lon": 1.9093 }
+    },
+    {
+      "id": "mehmed-ii", "title": "Mehmed II.", "start": "1432-03-30", "end": "1481-05-03", "importance": 3,
+      "description": "Osmanischer Sultan, Eroberer Konstantinopels.",
+      "place": { "name": "Istanbul", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "matthias-corvinus", "title": "Matthias Corvinus", "short": "Corvinus", "start": "1443-02-23", "end": "1490-04-06", "importance": 3,
+      "description": "König von Ungarn, Gegenspieler Friedrichs III.; residierte ab 1485 in Wien.",
+      "place": { "name": "Buda", "lat": 47.4979, "lon": 19.0402 }
+    },
+    {
+      "id": "erasmus", "title": "Erasmus von Rotterdam", "short": "Erasmus", "start": "~1466", "end": "1536-07-12", "importance": 3,
+      "description": "Führender Humanist Europas.",
+      "place": { "name": "Basel", "lat": 47.5596, "lon": 7.5886 }
+    },
+    {
+      "id": "luther", "title": "Martin Luther", "short": "Luther", "start": "1483-11-10", "end": "1546-02-18", "importance": 1,
+      "description": "Reformator; seine Lehre verbreitete sich rasch auch in den österreichischen Ländern.",
+      "place": { "name": "Wittenberg", "lat": 51.8664, "lon": 12.6433 }
+    },
+    {
+      "id": "ignatius", "title": "Ignatius von Loyola", "short": "Ignatius", "start": "1491", "end": "1556-07-31", "importance": 3,
+      "description": "Gründer des Jesuitenordens, Träger der Gegenreformation.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "heinrich-viii", "title": "Heinrich VIII.", "start": "1491-06-28", "end": "1547-01-28", "importance": 3,
+      "description": "König von England; trennte die englische Kirche von Rom.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "sueleyman", "title": "Süleyman der Prächtige", "short": "Süleyman", "start": "1494-11-06", "end": "1566-09-06", "importance": 2,
+      "description": "Osmanischer Sultan; belagerte 1529 Wien und starb vor Szigetvár.",
+      "place": { "name": "Istanbul", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "calvin", "title": "Johannes Calvin", "short": "Calvin", "start": "1509-07-10", "end": "1564-05-27", "importance": 3,
+      "description": "Reformator in Genf.",
+      "place": { "name": "Genf", "lat": 46.2044, "lon": 6.1432 }
+    },
+    {
+      "id": "philipp-ii", "title": "Philipp II. von Spanien", "short": "Philipp II.", "start": "1527-05-21", "end": "1598-09-13", "importance": 2,
+      "description": "Sohn Karls V., Haupt der spanischen Habsburger.",
+      "place": { "name": "Madrid", "lat": 40.4168, "lon": -3.7038 }
+    },
+    {
+      "id": "elisabeth-i", "title": "Elisabeth I. von England", "short": "Elisabeth I.", "start": "1533-09-07", "end": "1603-03-24", "importance": 2,
+      "description": "Königin von England, Siegerin über die Armada.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "richelieu", "title": "Kardinal Richelieu", "short": "Richelieu", "start": "1585-09-09", "end": "1642-12-04", "importance": 3,
+      "description": "Leitender Minister Frankreichs, Gegenspieler der Habsburger im Dreißigjährigen Krieg.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "gustav-adolf", "title": "Gustav II. Adolf", "short": "Gustav Adolf", "start": "1594-12-19", "end": "1632-11-16", "importance": 3,
+      "description": "König von Schweden; griff 1630 in den Dreißigjährigen Krieg ein und fiel bei Lützen.",
+      "place": { "name": "Stockholm", "lat": 59.3293, "lon": 18.0686 }
+    },
+    {
+      "id": "cromwell", "title": "Oliver Cromwell", "short": "Cromwell", "start": "1599-04-25", "end": "1658-09-03", "importance": 4,
+      "description": "Lordprotektor der englischen Republik.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "kara-mustafa", "title": "Kara Mustafa", "start": "~1634", "end": "1683-12-25", "importance": 3,
+      "description": "Osmanischer Großwesir, Befehlshaber bei der Belagerung Wiens 1683; nach der Niederlage hingerichtet.",
+      "place": { "name": "Belgrad", "lat": 44.8176, "lon": 20.4569 }
+    },
+    {
+      "id": "peter-der-grosse", "title": "Peter der Große", "start": "1672-06-09", "end": "1725-02-08", "importance": 2,
+      "description": "Zar und Modernisierer Russlands, Gründer von St. Petersburg.",
+      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 }
+    },
+    {
+      "id": "voltaire", "title": "Voltaire", "start": "1694-11-21", "end": "1778-05-30", "importance": 3,
+      "description": "Leitfigur der französischen Aufklärung.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "friedrich-der-grosse", "title": "Friedrich der Große", "short": "Friedrich II.", "start": "1712-01-24", "end": "1786-08-17", "importance": 1,
+      "description": "König von Preußen; entriss Maria Theresia Schlesien und war ihr lebenslanger Gegenspieler.",
+      "place": { "name": "Potsdam", "lat": 52.3906, "lon": 13.0645 }
+    },
+    {
+      "id": "katharina-die-grosse", "title": "Katharina die Große", "short": "Katharina II.", "start": "1729-05-02", "end": "1796-11-17", "importance": 2,
+      "description": "Zarin von Russland; beteiligt an den Teilungen Polens.",
+      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 }
+    },
+    {
+      "id": "george-washington", "title": "George Washington", "short": "Washington", "start": "1732-02-22", "end": "1799-12-14", "importance": 2,
+      "description": "Oberbefehlshaber im Unabhängigkeitskrieg und erster Präsident der USA.",
+      "place": { "name": "Mount Vernon", "lat": 38.7293, "lon": -77.1074 }
+    },
+    {
+      "id": "talleyrand", "title": "Talleyrand", "start": "1754-02-02", "end": "1838-05-17", "importance": 4,
+      "description": "Französischer Außenminister, Verhandler am Wiener Kongress.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "napoleon", "title": "Napoleon Bonaparte", "short": "Napoleon", "start": "1769-08-15", "end": "1821-05-05", "importance": 1,
+      "description": "Kaiser der Franzosen; besetzte zweimal Wien und heiratete 1810 die Kaisertochter Marie Louise.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "wellington", "title": "Herzog von Wellington", "short": "Wellington", "start": "1769-05-01", "end": "1852-09-14", "importance": 4,
+      "description": "Britischer Feldherr, Sieger von Waterloo.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "alexander-i", "title": "Alexander I. von Russland", "short": "Alexander I.", "start": "1777-12-23", "end": "1825-12-01", "importance": 4,
+      "description": "Zar, Gegner Napoleons und Teilnehmer des Wiener Kongresses.",
+      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 }
+    },
+    {
+      "id": "garibaldi", "title": "Giuseppe Garibaldi", "short": "Garibaldi", "start": "1807-07-04", "end": "1882-06-02", "importance": 3,
+      "description": "Freiheitskämpfer der italienischen Einigung.",
+      "place": { "name": "Caprera", "lat": 41.2167, "lon": 9.45 }
+    },
+    {
+      "id": "napoleon-iii", "title": "Napoleon III.", "start": "1808-04-20", "end": "1873-01-09", "importance": 3,
+      "description": "Kaiser der Franzosen; besiegte Österreich 1859 bei Solferino.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "lincoln", "title": "Abraham Lincoln", "short": "Lincoln", "start": "1809-02-12", "end": "1865-04-15", "importance": 2,
+      "description": "Präsident der USA im Bürgerkrieg; schaffte die Sklaverei ab.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 }
+    },
+    {
+      "id": "bismarck", "title": "Otto von Bismarck", "short": "Bismarck", "start": "1815-04-01", "end": "1898-07-30", "importance": 1,
+      "description": "Preußischer Ministerpräsident und erster Reichskanzler; drängte Österreich 1866 aus Deutschland.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
+    },
+    {
+      "id": "karl-marx", "title": "Karl Marx", "short": "Marx", "start": "1818-05-05", "end": "1883-03-14", "importance": 2,
+      "description": "Philosoph und Ökonom, Begründer des Marxismus.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "queen-victoria", "title": "Königin Victoria", "short": "Victoria", "start": "1819-05-24", "end": "1901-01-22", "importance": 2,
+      "description": "Königin des Vereinigten Königreichs, Kaiserin von Indien.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "wilhelm-ii", "title": "Wilhelm II.", "start": "1859-01-27", "end": "1941-06-04", "importance": 3,
+      "description": "Letzter Deutscher Kaiser, Verbündeter Österreich-Ungarns im Ersten Weltkrieg.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
+    },
+    {
+      "id": "woodrow-wilson", "title": "Woodrow Wilson", "short": "Wilson", "start": "1856-12-28", "end": "1924-02-03", "importance": 3,
+      "description": "US-Präsident; seine „14 Punkte“ prägten die Nachkriegsordnung.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 }
+    },
+    {
+      "id": "lenin", "title": "Wladimir Iljitsch Lenin", "short": "Lenin", "start": "1870-04-22", "end": "1924-01-21", "importance": 2,
+      "description": "Anführer der Oktoberrevolution und Gründer Sowjetrusslands.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    }
+  ]
+}

@@ -453,6 +453,43 @@
       "id": "ockeghem", "title": "Johannes Ockeghem", "short": "Ockeghem", "start": "~1410", "end": "1497-02-06", "importance": 5, "tags": ["international"],
       "description": "Franko-flämischer Meister der Polyphonie.",
       "place": { "name": "Tours", "lat": 47.3941, "lon": 0.6848 }
+    },
+    {
+      "id": "walther-von-der-vogelweide", "title": "Walther von der Vogelweide", "short": "Walther v. d. Vogelweide", "start": "~1170", "end": "~1230", "importance": 1,
+      "description": "Bedeutendster Lyriker des deutschen Mittelalters; lernte nach eigenen Worten „in Österreich singen und sagen“ am Babenbergerhof in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Unter der linden, Reichston" }
+    },
+    {
+      "id": "neidhart", "title": "Neidhart von Reuental", "short": "Neidhart", "start": "~1190", "end": "~1240", "importance": 2,
+      "description": "Minnesänger, ab etwa 1230 am Hof Herzog Friedrichs II. in Österreich; Begründer der „höfischen Dorfpoesie“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Sommer- und Winterlieder" }
+    },
+    {
+      "id": "tannhaeuser", "title": "Der Tannhäuser", "short": "Tannhäuser", "start": "~1205", "end": "~1265", "importance": 3,
+      "description": "Minnesänger am Hof Friedrichs des Streitbaren in Wien; später Sagenfigur (Wagner).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "schuppanzigh", "title": "Ignaz Schuppanzigh", "short": "Schuppanzigh", "start": "1776-11-20", "end": "1830-03-02", "importance": 3,
+      "description": "Geiger, Freund Beethovens; mit seinem Quartett begründete er das öffentliche Streichquartettkonzert.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "paganini", "title": "Niccolò Paganini", "short": "Paganini", "start": "1782-10-27", "end": "1840-05-27", "importance": 4, "tags": ["international"],
+      "description": "Teufelsgeiger; seine Wiener Konzerte 1828 lösten einen Begeisterungssturm aus.",
+      "place": { "name": "Genua", "lat": 44.4056, "lon": 8.9463 }
+    },
+    {
+      "id": "hans-richter", "title": "Hans Richter", "short": "Richter", "start": "1843-04-04", "end": "1916-12-05", "importance": 3,
+      "description": "Dirigent der Wiener Hofoper und der Wiener Philharmoniker, Uraufführungsdirigent Wagners in Bayreuth.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "otto-nicolai", "title": "Otto Nicolai", "short": "Nicolai", "start": "1810-06-09", "end": "1849-05-11", "importance": 3,
+      "description": "Gründete 1842 die Wiener Philharmoniker; Komponist der „Lustigen Weiber von Windsor“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     }
   ]
 }
