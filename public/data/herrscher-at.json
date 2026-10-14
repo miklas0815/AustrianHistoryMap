@@ -45,6 +45,72 @@
       "description": "Sohn Karls II., der spätere Kaiser Ferdinand II.; bis 1596 unter Vormundschaft. Setzte ab 1598 die Gegenreformation in Innerösterreich konsequent durch. Das Enddatum markiert seine Nachfolge in den Gesamtländern 1619.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
       "attributes": { "Herrschaftsgebiet": "Innerösterreich", "Geboren": "9. Juli 1578, Graz" }
+    },
+    {
+      "id": "maximilian-iii-tirol", "title": "Maximilian III. (Tirol)", "short": "Maximilian III.", "start": "1602", "end": "1618-11-02", "importance": 4,
+      "description": "Der „Deutschmeister“ verwaltete Tirol und die Vorlande als Regent für das Haus Habsburg.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
+    },
+    {
+      "id": "matthias-at", "title": "Matthias", "start": "1608-06-25", "end": "1619-03-20", "importance": 3,
+      "description": "Übernahm im Vertrag von Lieben (1608) von seinem Bruder Rudolf II. Österreich, Ungarn und Mähren.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Ungarn, Mähren; ab 1611 Böhmen" }
+    },
+    {
+      "id": "ferdinand-ii-at", "title": "Ferdinand II.", "start": "1619-03-20", "end": "1637-02-15", "importance": 2,
+      "description": "Vereinigte nach dem Tod des Matthias die österreichischen Länder wieder in einer Hand und setzte die Gegenreformation durch.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "alle österreichischen Länder (Tirol ab 1626 an Leopold V.)" }
+    },
+    {
+      "id": "leopold-v-tirol", "title": "Leopold V. (Tirol)", "short": "Leopold V.", "start": "1619", "end": "1632-09-13", "importance": 3,
+      "description": "Bruder Ferdinands II.; ab 1619 Statthalter, ab 1626 Landesfürst von Tirol und den Vorlanden. Begründer der jüngeren Tiroler Linie.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
+    },
+    {
+      "id": "claudia-de-medici", "title": "Claudia de’ Medici (Tirol)", "short": "Claudia de’ Medici", "start": "1632-09-13", "end": "1646", "importance": 3,
+      "description": "Witwe Leopolds V.; regierte Tirol als Vormünderin ihres Sohnes und hielt das Land weitgehend aus dem Dreißigjährigen Krieg heraus.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
+    },
+    {
+      "id": "ferdinand-iii-at", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2,
+      "description": "Landesfürst der österreichischen Länder (ohne Tirol) während der letzten Phase des Dreißigjährigen Krieges.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "österreichische Länder ohne Tirol, Böhmen, Ungarn" }
+    },
+    {
+      "id": "ferdinand-karl-tirol", "title": "Ferdinand Karl (Tirol)", "short": "Ferdinand Karl", "start": "1646", "end": "1662-12-30", "importance": 4,
+      "description": "Sohn Leopolds V.; förderte in Innsbruck Oper und Theater (Comödihaus).",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
+    },
+    {
+      "id": "sigismund-franz-tirol", "title": "Sigismund Franz (Tirol)", "short": "Sigismund Franz", "start": "1662-12-30", "end": "1665-06-25", "importance": 5,
+      "description": "Letzter Landesfürst der Tiroler Linie; mit seinem Tod fiel Tirol an Leopold I.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
+    },
+    {
+      "id": "leopold-i-at", "title": "Leopold I.", "start": "1657-04-02", "end": "1705-05-05", "importance": 1,
+      "description": "Ab 1665 wieder Herr aller österreichischen Länder. Nach dem Sieg von 1683 und dem Großen Türkenkrieg kam ganz Ungarn an die Habsburger.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "österreichische Länder (Tirol ab 1665), Böhmen, Ungarn" }
+    },
+    {
+      "id": "joseph-i-at", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3,
+      "description": "Kurze Regierungszeit, geprägt vom Spanischen Erbfolgekrieg und dem Kuruzzenaufstand in Ungarn.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn" }
+    },
+    {
+      "id": "karl-vi-at", "title": "Karl VI.", "start": "1711-04-17", "end": "1740-10-20", "importance": 2,
+      "description": "Erließ 1713 die Pragmatische Sanktion über die Unteilbarkeit der habsburgischen Länder und die weibliche Erbfolge.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn, ab 1714 Spanische Niederlande, Mailand, Neapel" }
     }
   ]
 }

@@ -11,7 +11,7 @@ export interface ViewState {
   sel?: string;
 }
 
-export const DEFAULT_VIEW: ViewState = { from: 1500, to: 1600, cats: null, detail: 0 };
+export const DEFAULT_VIEW: ViewState = { from: 1500, to: 1715, cats: null, detail: 0 };
 
 export function parseViewState(search: string): ViewState {
   const p = new URLSearchParams(search);

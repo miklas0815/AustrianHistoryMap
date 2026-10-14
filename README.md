@@ -6,7 +6,7 @@ und international). Zoomen blendet je nach
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
-Startdatenbestand: 1500–1600.
+Datenbestand: 1500–1715.
 
 ## Bedienung
 

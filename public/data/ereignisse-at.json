@@ -131,6 +131,132 @@
       "id": "gegenreformation-graz-1598", "title": "Gegenreformation in Innerösterreich", "start": "1598-09", "importance": 3,
       "description": "Erzherzog Ferdinand ließ die protestantischen Prediger und Lehrer aus Graz ausweisen. Johannes Kepler, Lehrer an der Grazer Stiftsschule, verließ Graz 1600.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
+    },
+    {
+      "id": "vertrag-lieben-1608", "title": "Vertrag von Lieben („Bruderzwist“)", "short": "Vertrag von Lieben", "start": "1608-06-25", "importance": 4,
+      "description": "Rudolf II. musste Österreich, Ungarn und Mähren an seinen Bruder Matthias abtreten.",
+      "place": { "name": "Lieben (Libeň), Prag", "lat": 50.1025, "lon": 14.474 }
+    },
+    {
+      "id": "prager-fenstersturz-1618", "title": "Prager Fenstersturz", "start": "1618-05-23", "importance": 2,
+      "description": "Protestantische böhmische Stände warfen kaiserliche Statthalter aus der Prager Burg – Auslöser des Dreißigjährigen Krieges.",
+      "place": { "name": "Prager Burg", "lat": 50.091, "lon": 14.4016 }
+    },
+    {
+      "id": "weisser-berg-1620", "title": "Schlacht am Weißen Berg", "start": "1620-11-08", "importance": 1,
+      "description": "Sieg der kaiserlich-ligistischen Truppen über die böhmischen Stände. Folge: Rekatholisierung Böhmens und Festigung der habsburgischen Herrschaft in den Erblanden.",
+      "place": { "name": "Bílá Hora, Prag", "lat": 50.0786, "lon": 14.32 }
+    },
+    {
+      "id": "bauernkrieg-ooe-1626", "title": "Oberösterreichischer Bauernkrieg", "start": "1626-05", "end": "1626-11", "importance": 3,
+      "description": "Aufstand gegen die bayerische Pfandherrschaft und die gewaltsame Gegenreformation, angeführt von Stefan Fadinger; vorausgegangen war 1625 das „Frankenburger Würfelspiel“.",
+      "place": { "name": "Oberösterreich", "lat": 48.2, "lon": 14.0 }
+    },
+    {
+      "id": "universitaet-salzburg-1622", "title": "Gründung der Universität Salzburg", "start": "1622", "importance": 4,
+      "description": "Von Fürsterzbischof Paris Lodron als Benediktineruniversität gegründet.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "wallenstein-1634", "title": "Ermordung Wallensteins", "start": "1634-02-25", "importance": 3,
+      "description": "Der kaiserliche Generalissimus Albrecht von Wallenstein wurde in Eger mit Billigung Ferdinands II. ermordet.",
+      "place": { "name": "Eger (Cheb)", "lat": 50.0796, "lon": 12.3739 }
+    },
+    {
+      "id": "schweden-vor-wien-1645", "title": "Schwedische Truppen vor Wien", "start": "1645", "importance": 4,
+      "description": "Im Dreißigjährigen Krieg stießen schwedische Truppen unter Torstensson bis vor Wien vor (Eroberung der Wolfsschanze an der Donau).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "mogersdorf-1664", "title": "Schlacht bei Mogersdorf", "start": "1664-08-01", "importance": 3,
+      "description": "Sieg eines kaiserlichen und Reichsheeres unter Montecuccoli über die Osmanen an der Raab im heutigen Burgenland.",
+      "place": { "name": "Mogersdorf", "lat": 46.9425, "lon": 16.2306 }
+    },
+    {
+      "id": "juden-vertreibung-1670", "title": "Vertreibung der Juden aus Wien", "start": "1670", "importance": 3,
+      "description": "Leopold I. ließ die jüdische Gemeinde aus dem „Unteren Werd“ vertreiben; das Viertel wurde in „Leopoldstadt“ umbenannt.",
+      "place": { "name": "Leopoldstadt, Wien", "lat": 48.2167, "lon": 16.3833 }
+    },
+    {
+      "id": "universitaet-innsbruck-1669", "title": "Gründung der Universität Innsbruck", "start": "1669", "importance": 4,
+      "description": "Leopold I. gründete die Universität, finanziert durch einen Aufschlag auf das Haller Salz.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
+    },
+    {
+      "id": "pest-1679", "title": "Große Pest in Wien", "start": "1679", "importance": 3,
+      "description": "Eine der schwersten Pestepidemien Wiens; Leopold I. gelobte die Errichtung der Pestsäule am Graben.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "osmanenbelagerung-1683", "title": "Zweite Wiener Osmanenbelagerung", "short": "Osmanenbelagerung 1683", "start": "1683-07-14", "end": "1683-09-12", "importance": 1,
+      "description": "Das osmanische Heer unter Großwesir Kara Mustafa belagerte Wien zwei Monate lang. Ein Entsatzheer unter dem polnischen König Jan III. Sobieski und Karl von Lothringen siegte am 12. September in der Schlacht am Kahlenberg.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Verteidiger": "Ernst Rüdiger von Starhemberg, Bürgermeister Liebenberg", "Angreifer": "Kara Mustafa" }
+    },
+    {
+      "id": "grosser-tuerkenkrieg", "title": "Großer Türkenkrieg", "start": "1683", "end": "1699-01-26", "importance": 2,
+      "description": "Nach dem Entsatz Wiens eroberten kaiserliche Truppen Ungarn zurück (Ofen 1686). Im Frieden von Karlowitz fielen Ungarn, Siebenbürgen und Slawonien an die Habsburger.",
+      "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
+    },
+    {
+      "id": "erstes-kaffeehaus-1685", "title": "Erstes Wiener Kaffeehaus", "start": "1685-01", "importance": 4,
+      "description": "Johannes Diodato erhielt das Privileg zum Ausschank von Kaffee – Beginn der Wiener Kaffeehauskultur.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "akademie-1692", "title": "Malerakademie Peter Strudels", "start": "1692", "importance": 4,
+      "description": "Peter Strudel gründete in Wien eine Akademie für Maler und Bildhauer, Vorläuferin der Akademie der bildenden Künste.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "pestsaeule-1693", "title": "Weihe der Pestsäule am Graben", "short": "Pestsäule", "start": "1693-10-29", "importance": 4,
+      "description": "Barockes Denkmal zur Erinnerung an die Pest von 1679, nach Entwürfen u. a. von Burnacini und Fischer von Erlach.",
+      "place": { "name": "Graben, Wien", "lat": 48.2086, "lon": 16.37 }
+    },
+    {
+      "id": "schoenbrunn-1696", "title": "Baubeginn Schloss Schönbrunn", "start": "1696", "importance": 3,
+      "description": "Nach Plänen Fischer von Erlachs wurde für Joseph I. ein Jagd- und Lustschloss errichtet, später unter Maria Theresia ausgebaut.",
+      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 }
+    },
+    {
+      "id": "zenta-1697", "title": "Schlacht bei Zenta", "start": "1697-09-11", "importance": 3,
+      "description": "Entscheidender Sieg Prinz Eugens über die Osmanen, der den Weg zum Frieden von Karlowitz ebnete.",
+      "place": { "name": "Zenta (Senta)", "lat": 45.9275, "lon": 20.0772 }
+    },
+    {
+      "id": "melk-1702", "title": "Neubau des Stifts Melk", "start": "1702", "end": "1736", "importance": 3,
+      "description": "Jakob Prandtauer errichtete für Abt Berthold Dietmayr das Benediktinerstift Melk als Gesamtkunstwerk des Barock.",
+      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 }
+    },
+    {
+      "id": "kuruzzen-1703", "title": "Kuruzzenaufstand (Rákóczi)", "short": "Kuruzzenaufstand", "start": "1703", "end": "1711-04-30", "importance": 4,
+      "description": "Aufstand ungarischer Adeliger unter Franz II. Rákóczi gegen die Habsburger; Streifzüge bis vor Wien, beendet durch den Frieden von Sathmar.",
+      "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
+    },
+    {
+      "id": "linienwall-1704", "title": "Bau des Linienwalls", "start": "1704", "importance": 5,
+      "description": "Zum Schutz der Vorstädte vor den Kuruzzen wurde ein Erdwall um Wien angelegt – etwa der Verlauf des heutigen Gürtels.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "pragmatische-sanktion-1713", "title": "Pragmatische Sanktion", "start": "1713-04-19", "importance": 2,
+      "description": "Hausgesetz Karls VI.: Unteilbarkeit der habsburgischen Länder und Erbrecht auch für Töchter – Grundlage der Herrschaft Maria Theresias.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 }
+    },
+    {
+      "id": "pest-1713", "title": "Pest und Gelöbnis der Karlskirche", "start": "1713", "importance": 4,
+      "description": "Während der letzten großen Pestepidemie in Wien gelobte Karl VI. den Bau der Karlskirche (Baubeginn 1716).",
+      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 }
+    },
+    {
+      "id": "rastatt-1714", "title": "Frieden von Rastatt", "start": "1714-03-07", "importance": 3,
+      "description": "Beendete den Krieg zwischen Kaiser und Frankreich; Österreich erhielt die Spanischen Niederlande, Mailand, Neapel und Sardinien.",
+      "place": { "name": "Rastatt", "lat": 48.858, "lon": 8.2036 }
+    },
+    {
+      "id": "belvedere-1714", "title": "Baubeginn des Belvedere", "start": "1714", "importance": 4,
+      "description": "Lukas von Hildebrandt begann für Prinz Eugen mit dem Unteren Belvedere; das Obere Belvedere folgte ab 1717.",
+      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
     }
   ]
 }

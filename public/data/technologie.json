@@ -127,6 +127,114 @@
       "description": "Tycho Brahe beobachtete einen „neuen Stern“ und widerlegte damit die Lehre von der Unveränderlichkeit des Himmels.",
       "place": { "name": "Dänemark", "lat": 55.68, "lon": 12.57 },
       "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "fernrohr-1608", "title": "Erfindung des Fernrohrs", "short": "Fernrohr", "start": "1608-10", "importance": 4, "tags": ["international"],
+      "description": "Der Brillenmacher Hans Lipperhey beantragte in den Niederlanden ein Patent auf ein Fernrohr.",
+      "place": { "name": "Middelburg", "lat": 51.4988, "lon": 3.6109 },
+      "attributes": { "Bereich": "Optik" }
+    },
+    {
+      "id": "kepler-astronomia-nova-1609", "title": "Kepler: Astronomia nova", "start": "1609", "importance": 2,
+      "description": "In Prag am Hof Rudolfs II. veröffentlichte Kepler die ersten beiden Planetengesetze (elliptische Bahnen).",
+      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 },
+      "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "galilei-sidereus-1610", "title": "Galilei: Sidereus Nuncius", "short": "Galilei", "start": "1610-03", "importance": 3, "tags": ["international"],
+      "description": "Galileo Galilei berichtete über seine Fernrohrbeobachtungen: Jupitermonde, Mondgebirge, Sterne der Milchstraße.",
+      "place": { "name": "Venedig (Druckort)", "lat": 45.4344, "lon": 12.3388 },
+      "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "napier-logarithmen-1614", "title": "Napier: Logarithmen", "start": "1614", "importance": 5, "tags": ["international"],
+      "description": "John Napier veröffentlichte die Logarithmen, die das Rechnen in Astronomie und Navigation enorm erleichterten.",
+      "place": { "name": "Edinburgh", "lat": 55.9533, "lon": -3.1883 },
+      "attributes": { "Bereich": "Mathematik" }
+    },
+    {
+      "id": "kepler-linz-1619", "title": "Kepler in Linz: Harmonices mundi", "short": "Kepler in Linz", "start": "1619", "importance": 2,
+      "description": "Als Landschaftsmathematiker in Linz (1612–1626) formulierte Kepler sein drittes Planetengesetz.",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "rudolfinische-tafeln-1627", "title": "Rudolfinische Tafeln", "start": "1627", "importance": 3,
+      "description": "Keplers auf Tycho Brahes Beobachtungen beruhende Planetentafeln, benannt nach Rudolf II.; über ein Jahrhundert lang Standard für astronomische Berechnungen.",
+      "place": { "name": "Ulm (Druckort)", "lat": 48.4011, "lon": 9.9876 },
+      "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "harvey-1628", "title": "Harvey: Blutkreislauf", "start": "1628", "importance": 4, "tags": ["international"],
+      "description": "William Harvey beschrieb den großen Blutkreislauf.",
+      "place": { "name": "Frankfurt (Druckort)", "lat": 50.1109, "lon": 8.6821 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "galilei-prozess-1633", "title": "Prozess gegen Galilei", "start": "1633-06-22", "importance": 4, "tags": ["international"],
+      "description": "Die Inquisition zwang Galilei zum Widerruf des kopernikanischen Weltbilds.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Bereich": "Wissenschaft und Kirche" }
+    },
+    {
+      "id": "torricelli-1643", "title": "Torricelli: Barometer", "start": "1643", "importance": 5, "tags": ["international"],
+      "description": "Evangelista Torricelli wies den Luftdruck mit einer Quecksilbersäule nach.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "guericke-1654", "title": "Guericke: Vakuumversuche am Reichstag", "short": "Vakuumversuche", "start": "1654", "importance": 4, "tags": ["international"],
+      "description": "Otto von Guericke führte auf dem Reichstag in Regensburg vor Kaiser Ferdinand III. seine Luftpumpe und die Kraft des Vakuums vor; der berühmte Versuch mit den Magdeburger Halbkugeln folgte 1657.",
+      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "huygens-pendeluhr-1657", "title": "Huygens: Pendeluhr", "start": "1657", "importance": 5, "tags": ["international"],
+      "description": "Christiaan Huygens baute die erste Pendeluhr und steigerte damit die Ganggenauigkeit erheblich.",
+      "place": { "name": "Den Haag", "lat": 52.0705, "lon": 4.3007 },
+      "attributes": { "Bereich": "Feinmechanik" }
+    },
+    {
+      "id": "linzer-wollzeugfabrik-1672", "title": "Linzer Wollzeugfabrik", "start": "1672", "importance": 3,
+      "description": "Gründung der ersten großen Manufaktur in den österreichischen Ländern – Beginn der frühindustriellen Produktion.",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Bereich": "Gewerbe, Manufakturwesen" }
+    },
+    {
+      "id": "becher-tabor-1676", "title": "Kunst- und Werkhaus am Tabor", "short": "Werkhaus am Tabor", "start": "1676", "importance": 4,
+      "description": "Der Ökonom Johann Joachim Becher richtete in Wien ein Manufaktur- und Versuchshaus ein, Ausdruck der merkantilistischen Wirtschaftspolitik.",
+      "place": { "name": "Leopoldstadt, Wien", "lat": 48.2244, "lon": 16.382 },
+      "attributes": { "Bereich": "Wirtschaft, Chemie" }
+    },
+    {
+      "id": "leeuwenhoek-1676", "title": "Leeuwenhoek entdeckt Mikroorganismen", "short": "Leeuwenhoek", "start": "1676", "importance": 5, "tags": ["international"],
+      "description": "Antoni van Leeuwenhoek beobachtete mit selbstgebauten Mikroskopen erstmals Bakterien und Einzeller.",
+      "place": { "name": "Delft", "lat": 52.0116, "lon": 4.3571 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "newton-principia-1687", "title": "Newton: Principia", "start": "1687-07-05", "importance": 3, "tags": ["international"],
+      "description": "Isaac Newton begründete mit dem Gravitationsgesetz und den Bewegungsgesetzen die klassische Mechanik.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
+      "attributes": { "Bereich": "Physik, Mathematik" }
+    },
+    {
+      "id": "wiener-diarium-1703", "title": "Wiennerisches Diarium", "start": "1703-08-08", "importance": 3,
+      "description": "Erste Ausgabe der Zeitung, die heute als „Wiener Zeitung“ zu den ältesten Zeitungen der Welt zählte.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Presse, Kommunikation" }
+    },
+    {
+      "id": "newcomen-1712", "title": "Newcomens Dampfmaschine", "short": "Dampfmaschine", "start": "1712", "importance": 3, "tags": ["international"],
+      "description": "Thomas Newcomen setzte die erste praktisch nutzbare Dampfmaschine zum Wasserpumpen im Bergbau ein – Vorläufer der Industriellen Revolution.",
+      "place": { "name": "Dudley", "lat": 52.5123, "lon": -2.0811 },
+      "attributes": { "Bereich": "Maschinenbau, Energie" }
+    },
+    {
+      "id": "fahrenheit-1714", "title": "Fahrenheits Quecksilberthermometer", "short": "Thermometer", "start": "1714", "importance": 5, "tags": ["international"],
+      "description": "Daniel Gabriel Fahrenheit baute zuverlässige Quecksilberthermometer.",
+      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 },
+      "attributes": { "Bereich": "Messtechnik" }
     }
   ]
 }

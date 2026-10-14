@@ -140,6 +140,86 @@
       "id": "giordano-bruno-1600", "title": "Hinrichtung Giordano Brunos", "start": "1600-02-17", "importance": 5,
       "description": "Der Philosoph wurde von der Inquisition in Rom als Ketzer verbrannt.",
       "place": { "name": "Rom, Campo de’ Fiori", "lat": 41.8956, "lon": 12.4722 }
+    },
+    {
+      "id": "voc-1602", "title": "Gründung der Niederländischen Ostindien-Kompanie", "short": "Ostindien-Kompanie", "start": "1602-03-20", "importance": 3,
+      "description": "Die VOC wurde zur ersten großen Aktiengesellschaft und zum Instrument des niederländischen Welthandels.",
+      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 }
+    },
+    {
+      "id": "jamestown-1607", "title": "Gründung von Jamestown", "start": "1607-05", "importance": 4,
+      "description": "Erste dauerhafte englische Siedlung in Nordamerika.",
+      "place": { "name": "Jamestown, Virginia", "lat": 37.2096, "lon": -76.7774 }
+    },
+    {
+      "id": "dreissigjaehriger-krieg", "title": "Dreißigjähriger Krieg", "start": "1618-05-23", "end": "1648-10-24", "importance": 1,
+      "description": "Konfessioneller und machtpolitischer Krieg in Mitteleuropa mit verheerenden Folgen für die Bevölkerung; endete mit dem Westfälischen Frieden.",
+      "place": { "name": "Mitteleuropa", "lat": 50.5, "lon": 11.0 }
+    },
+    {
+      "id": "mayflower-1620", "title": "Landung der Mayflower", "start": "1620-11", "importance": 4,
+      "description": "Puritanische Siedler gründeten die Plymouth-Kolonie in Neuengland.",
+      "place": { "name": "Plymouth, Massachusetts", "lat": 41.9584, "lon": -70.6673 }
+    },
+    {
+      "id": "luetzen-1632", "title": "Schlacht bei Lützen", "start": "1632-11-16", "importance": 4,
+      "description": "Sieg der Schweden über Wallenstein; König Gustav II. Adolf fiel in der Schlacht.",
+      "place": { "name": "Lützen", "lat": 51.2569, "lon": 12.1383 }
+    },
+    {
+      "id": "englischer-buergerkrieg", "title": "Englischer Bürgerkrieg", "start": "1642-08", "end": "1651-09", "importance": 3,
+      "description": "Krieg zwischen König und Parlament; 1649 wurde Karl I. hingerichtet, England für einige Jahre Republik unter Cromwell.",
+      "place": { "name": "England", "lat": 52.5, "lon": -1.5 }
+    },
+    {
+      "id": "ludwig-xiv", "title": "Herrschaft Ludwigs XIV.", "short": "Ludwig XIV.", "start": "1643-05-14", "end": "1715-09-01", "importance": 2,
+      "description": "Der „Sonnenkönig“ machte Frankreich zur führenden Macht Europas und zum Hauptgegner der Habsburger; Versailles wurde Vorbild für Residenzen in ganz Europa.",
+      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
+    },
+    {
+      "id": "westfaelischer-friede-1648", "title": "Westfälischer Friede", "start": "1648-10-24", "importance": 1,
+      "description": "Friedensschlüsse von Münster und Osnabrück: Ende des Dreißigjährigen Krieges, Anerkennung der Niederlande und der Schweiz, Stärkung der Reichsstände gegenüber dem Kaiser.",
+      "place": { "name": "Münster", "lat": 51.9607, "lon": 7.6261 }
+    },
+    {
+      "id": "brand-london-1666", "title": "Großer Brand von London", "start": "1666-09", "importance": 5,
+      "description": "Ein mehrtägiger Brand zerstörte große Teile der Londoner Innenstadt.",
+      "place": { "name": "London", "lat": 51.5138, "lon": -0.0984 }
+    },
+    {
+      "id": "edikt-fontainebleau-1685", "title": "Edikt von Fontainebleau", "start": "1685-10-18", "importance": 4,
+      "description": "Ludwig XIV. widerrief das Edikt von Nantes; Hunderttausende Hugenotten flohen ins Ausland.",
+      "place": { "name": "Fontainebleau", "lat": 48.4047, "lon": 2.7016 }
+    },
+    {
+      "id": "glorious-revolution-1688", "title": "Glorious Revolution", "start": "1688", "end": "1689", "importance": 3,
+      "description": "Sturz Jakobs II. in England; die Bill of Rights (1689) begründete die parlamentarische Monarchie.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "grosser-nordischer-krieg", "title": "Großer Nordischer Krieg", "start": "1700", "end": "1721", "importance": 3,
+      "description": "Russland unter Peter dem Großen löste Schweden als Vormacht im Ostseeraum ab.",
+      "place": { "name": "Ostseeraum", "lat": 59.0, "lon": 22.0 }
+    },
+    {
+      "id": "spanischer-erbfolgekrieg", "title": "Spanischer Erbfolgekrieg", "start": "1701", "end": "1714", "importance": 2,
+      "description": "Nach dem Aussterben der spanischen Habsburger kämpften Österreich, England und die Niederlande gegen Frankreich um das spanische Erbe; Prinz Eugen wurde zum gefeierten Feldherrn.",
+      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 }
+    },
+    {
+      "id": "st-petersburg-1703", "title": "Gründung von St. Petersburg", "start": "1703-05-27", "importance": 4,
+      "description": "Peter der Große gründete die neue Hauptstadt als „Fenster nach Europa“.",
+      "place": { "name": "St. Petersburg", "lat": 59.9343, "lon": 30.3351 }
+    },
+    {
+      "id": "hoechstaedt-1704", "title": "Schlacht bei Höchstädt", "start": "1704-08-13", "importance": 4,
+      "description": "Sieg Prinz Eugens und Marlboroughs über Frankreich und Bayern – Wendepunkt im Spanischen Erbfolgekrieg.",
+      "place": { "name": "Höchstädt an der Donau", "lat": 48.6106, "lon": 10.5636 }
+    },
+    {
+      "id": "utrecht-1713", "title": "Frieden von Utrecht", "start": "1713-04-11", "importance": 3,
+      "description": "Ende des Spanischen Erbfolgekriegs für England und die Niederlande: Philipp V. (Bourbon) blieb König von Spanien; Grundlage des europäischen Gleichgewichts.",
+      "place": { "name": "Utrecht", "lat": 52.0907, "lon": 5.1214 }
     }
   ]
 }

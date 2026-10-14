@@ -79,6 +79,96 @@
       "description": "Einflussreichster Architekt der Spätrenaissance; seine „Quattro libri dell’architettura“ (1570) wirkten über Jahrhunderte.",
       "place": { "name": "Vicenza", "lat": 45.5455, "lon": 11.5354 },
       "attributes": { "Werke": "Villa Rotonda, Basilica Palladiana, San Giorgio Maggiore (Venedig)" }
+    },
+    {
+      "id": "vincenzo-scamozzi", "title": "Vincenzo Scamozzi", "start": "1548-09-02", "end": "1616-08-07", "importance": 3,
+      "description": "Venezianischer Architekt; lieferte für Fürsterzbischof Wolf Dietrich den ersten (nicht ausgeführten) Entwurf eines Neubaus des Salzburger Doms.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Entwurf Salzburger Dom, Procuratie Nuove (Venedig)" }
+    },
+    {
+      "id": "santino-solari", "title": "Santino Solari", "start": "1576", "end": "1646-04-10", "importance": 2,
+      "description": "Baumeister des Salzburger Doms (1614–1628), des ersten großen frühbarocken Kirchenbaus nördlich der Alpen, und von Schloss Hellbrunn.",
+      "place": { "name": "Salzburger Dom", "lat": 47.7979, "lon": 13.0469 },
+      "attributes": { "Werke": "Salzburger Dom, Schloss Hellbrunn, Befestigung Salzburgs" }
+    },
+    {
+      "id": "filiberto-lucchese", "title": "Filiberto Lucchese", "start": "1606", "end": "1666", "importance": 3,
+      "description": "Kaiserlicher Hofarchitekt; errichtete den Leopoldinischen Trakt der Wiener Hofburg (ab 1660).",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Werke": "Leopoldinischer Trakt der Hofburg" }
+    },
+    {
+      "id": "giovanni-pietro-tencalla", "title": "Giovanni Pietro Tencalla", "start": "1629", "end": "1702", "importance": 3,
+      "description": "Hofarchitekt Leopolds I.; baute den 1668 abgebrannten Leopoldinischen Trakt der Hofburg wieder auf.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Werke": "Wiederaufbau Leopoldinischer Trakt, Schloss Kroměříž (Umbau)" }
+    },
+    {
+      "id": "carlo-antonio-carlone", "title": "Carlo Antonio Carlone", "start": "~1635", "end": "1708-05-03", "importance": 3,
+      "description": "Baumeister aus einer Künstlerfamilie aus dem Intelvi-Tal; prägte den Barock in Ober- und Niederösterreich, u. a. Stift St. Florian und Stift Garsten.",
+      "place": { "name": "Stift St. Florian", "lat": 48.2066, "lon": 14.3787 },
+      "attributes": { "Werke": "Stift St. Florian (Beginn), Stiftskirche Garsten, Passauer Dom (Wiederaufbau)" }
+    },
+    {
+      "id": "lodovico-burnacini", "title": "Lodovico Ottavio Burnacini", "short": "Burnacini", "start": "1636", "end": "1707-12-12", "importance": 2,
+      "description": "Theaterarchitekt und Bühnenbildner am Kaiserhof; schuf das Opernhaus auf der Cortina und den Entwurf der Pestsäule am Graben.",
+      "place": { "name": "Graben, Wien", "lat": 48.2086, "lon": 16.37 },
+      "attributes": { "Werke": "Pestsäule am Graben (Entwurf), Bühnenbilder zu „Il pomo d’oro“ (1668)" }
+    },
+    {
+      "id": "domenico-martinelli", "title": "Domenico Martinelli", "start": "1650-11-30", "end": "1718-09-11", "importance": 3,
+      "description": "Italienischer Architekt; baute für die Fürsten Liechtenstein das Gartenpalais in der Rossau und das Stadtpalais in Wien.",
+      "place": { "name": "Palais Liechtenstein, Wien", "lat": 48.2225, "lon": 16.3595 },
+      "attributes": { "Werke": "Gartenpalais Liechtenstein, Stadtpalais Liechtenstein" }
+    },
+    {
+      "id": "fischer-von-erlach", "title": "Johann Bernhard Fischer von Erlach", "short": "Fischer von Erlach", "start": "1656-07-20", "end": "1723-04-05", "importance": 1,
+      "description": "Der bedeutendste Architekt des österreichischen Barock. Schuf die Karlskirche, die Hofbibliothek und erste Pläne für Schönbrunn sowie in Salzburg die Kollegienkirche.",
+      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 },
+      "attributes": { "Werke": "Karlskirche, Hofbibliothek (Prunksaal), Schloss Schönbrunn (Entwurf), Kollegienkirche Salzburg", "Geboren": "Graz" }
+    },
+    {
+      "id": "jakob-prandtauer", "title": "Jakob Prandtauer", "start": "1660-07-16", "end": "1726-09-16", "importance": 1,
+      "description": "Tiroler Baumeister, Schöpfer des Stifts Melk (ab 1702), eines Hauptwerks des europäischen Barock.",
+      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Werke": "Stift Melk, Stift St. Florian (Vollendung), Stift Herzogenburg" }
+    },
+    {
+      "id": "lukas-von-hildebrandt", "title": "Johann Lukas von Hildebrandt", "short": "Hildebrandt", "start": "1668-11-14", "end": "1745-11-16", "importance": 1,
+      "description": "Hofarchitekt; baute für Prinz Eugen das Belvedere (ab 1714) und das Stadtpalais, außerdem die Peterskirche.",
+      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 },
+      "attributes": { "Werke": "Belvedere, Palais Schwarzenberg (Beginn), Peterskirche, Palais Kinsky" }
+    },
+    {
+      "id": "bernini", "title": "Gian Lorenzo Bernini", "short": "Bernini", "start": "1598-12-07", "end": "1680-11-28", "importance": 4, "tags": ["international"],
+      "description": "Bildhauer und Architekt des römischen Hochbarock.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Werke": "Petersplatz mit Kolonnaden, Baldachin in St. Peter" }
+    },
+    {
+      "id": "borromini", "title": "Francesco Borromini", "short": "Borromini", "start": "1599-09-25", "end": "1667-08-02", "importance": 4, "tags": ["international"],
+      "description": "Architekt des römischen Barock mit kühnen, bewegten Raumformen.",
+      "place": { "name": "Rom", "lat": 41.901, "lon": 12.491 },
+      "attributes": { "Werke": "San Carlo alle Quattro Fontane, Sant’Ivo alla Sapienza" }
+    },
+    {
+      "id": "elias-holl", "title": "Elias Holl", "start": "1573-02-28", "end": "1646-01-06", "importance": 5, "tags": ["international"],
+      "description": "Augsburger Stadtbaumeister der Spätrenaissance.",
+      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 },
+      "attributes": { "Werke": "Augsburger Rathaus" }
+    },
+    {
+      "id": "christopher-wren", "title": "Christopher Wren", "start": "1632-10-30", "end": "1723-02-25", "importance": 5, "tags": ["international"],
+      "description": "Leitete den Wiederaufbau Londons nach dem Großen Brand von 1666.",
+      "place": { "name": "London", "lat": 51.5138, "lon": -0.0984 },
+      "attributes": { "Werke": "St Paul’s Cathedral" }
+    },
+    {
+      "id": "hardouin-mansart", "title": "Jules Hardouin-Mansart", "short": "Hardouin-Mansart", "start": "1646-04-16", "end": "1708-05-11", "importance": 5, "tags": ["international"],
+      "description": "Hofarchitekt Ludwigs XIV.; Versailles wurde zum Vorbild barocker Residenzen, auch für Schönbrunn.",
+      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 },
+      "attributes": { "Werke": "Spiegelsaal von Versailles, Invalidendom" }
     }
   ]
 }

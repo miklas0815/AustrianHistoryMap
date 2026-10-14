@@ -80,6 +80,113 @@
       "id": "hans-leo-hassler", "title": "Hans Leo Hassler", "start": "1564-10-26", "end": "1612-06-08", "importance": 5, "tags": ["international"],
       "description": "Nürnberger Organist und Komponist, ab 1602 auch Kammerorganist Rudolfs II.",
       "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 }
+    },
+    {
+      "id": "giovanni-valentini", "title": "Giovanni Valentini", "start": "~1582", "end": "1649-04-29", "importance": 3,
+      "description": "Italienischer Organist und Komponist; ab 1626 Hofkapellmeister Ferdinands II. in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (ab 1626)" }
+    },
+    {
+      "id": "antonio-bertali", "title": "Antonio Bertali", "start": "1605", "end": "1669-04-17", "importance": 3,
+      "description": "Violinist und Komponist; ab 1649 Hofkapellmeister in Wien, prägte die frühe Oper am Kaiserhof.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (ab 1649)" }
+    },
+    {
+      "id": "johann-jakob-froberger", "title": "Johann Jakob Froberger", "short": "Froberger", "start": "1616-05-19", "end": "1667-05-07", "importance": 2,
+      "description": "Hoforganist in Wien; wichtiger Wegbereiter der Klaviersuite, verband italienische und französische Einflüsse.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hoforganist", "Werke": "Toccaten, Suiten, Lamentation auf den Tod Ferdinands III." }
+    },
+    {
+      "id": "johann-heinrich-schmelzer", "title": "Johann Heinrich Schmelzer", "short": "Schmelzer", "start": "~1620", "end": "1680", "importance": 2,
+      "description": "Erster nicht-italienischer Hofkapellmeister in Wien (1679); Meister der Violinmusik und der Ballettmusik am Hof Leopolds I.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (1679–1680)", "Werke": "Sonatae unarum fidium (1664)" }
+    },
+    {
+      "id": "antonio-cesti", "title": "Antonio Cesti", "start": "1623-08-05", "end": "1669-10-14", "importance": 3,
+      "description": "Opernkomponist; seine Festoper „Il pomo d’oro“ zur Hochzeit Leopolds I. (1668) war eine der aufwendigsten Opernaufführungen des Barock.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Il pomo d’oro (1668)" }
+    },
+    {
+      "id": "johann-caspar-kerll", "title": "Johann Caspar Kerll", "short": "Kerll", "start": "1627-04-09", "end": "1693-02-13", "importance": 3,
+      "description": "Organist und Komponist; nach Jahren als Münchner Hofkapellmeister ab 1677 Hoforganist in Wien. Erlebte die Belagerung von 1683.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hoforganist in Wien" }
+    },
+    {
+      "id": "antonio-draghi", "title": "Antonio Draghi", "start": "~1634", "end": "1700-01-16", "importance": 3,
+      "description": "Ab 1682 Hofkapellmeister Leopolds I.; komponierte über 170 Bühnenwerke für den Wiener Hof.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (ab 1682)" }
+    },
+    {
+      "id": "heinrich-ignaz-franz-biber", "title": "Heinrich Ignaz Franz Biber", "short": "Biber", "start": "1644-08-12", "end": "1704-05-03", "importance": 1,
+      "description": "Violinvirtuose und Kapellmeister am Salzburger Hof; seine Rosenkranzsonaten und die Missa Salisburgensis gehören zu den Gipfelwerken der Barockmusik.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Rosenkranzsonaten, Missa Salisburgensis (zugeschrieben)" }
+    },
+    {
+      "id": "georg-muffat", "title": "Georg Muffat", "start": "1653-06-01", "end": "1704-02-23", "importance": 3,
+      "description": "Organist in Salzburg und Kapellmeister in Passau; vermittelte französischen und italienischen Stil in den deutschsprachigen Raum.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Apparatus musico-organisticus (1690), Florilegium" }
+    },
+    {
+      "id": "johann-joseph-fux", "title": "Johann Joseph Fux", "short": "Fux", "start": "~1660", "end": "1741-02-13", "importance": 1,
+      "description": "Steirischer Komponist und Musiktheoretiker, ab 1715 Hofkapellmeister in Wien. Sein Lehrbuch „Gradus ad Parnassum“ (1725) prägte Generationen von Komponisten bis Haydn und Mozart.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (ab 1715)", "Werke": "Gradus ad Parnassum (1725), Costanza e Fortezza (1723)", "Geboren": "Hirtenfeld (Steiermark)" }
+    },
+    {
+      "id": "marcantonio-ziani", "title": "Marc’Antonio Ziani", "short": "Ziani", "start": "~1653", "end": "1715-01-22", "importance": 3,
+      "description": "Venezianischer Opernkomponist; ab 1700 Vizekapellmeister, ab 1712 Hofkapellmeister in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofkapellmeister (1712–1715)" }
+    },
+    {
+      "id": "monteverdi", "title": "Claudio Monteverdi", "short": "Monteverdi", "start": "1567-05-15", "end": "1643-11-29", "importance": 4, "tags": ["international"],
+      "description": "Schöpfer der ersten Meisterwerke der Oper („L’Orfeo“, 1607); Kapellmeister an San Marco in Venedig.",
+      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 },
+      "attributes": { "Werke": "L’Orfeo, Marienvesper, L’incoronazione di Poppea" }
+    },
+    {
+      "id": "heinrich-schuetz", "title": "Heinrich Schütz", "short": "Schütz", "start": "1585-10-08", "end": "1672-11-06", "importance": 4, "tags": ["international"],
+      "description": "Bedeutendster deutscher Komponist des 17. Jahrhunderts, Hofkapellmeister in Dresden.",
+      "place": { "name": "Dresden", "lat": 51.0504, "lon": 13.7373 }
+    },
+    {
+      "id": "lully", "title": "Jean-Baptiste Lully", "short": "Lully", "start": "1632-11-28", "end": "1687-03-22", "importance": 5, "tags": ["international"],
+      "description": "Hofkomponist Ludwigs XIV., Begründer der französischen Oper.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "purcell", "title": "Henry Purcell", "short": "Purcell", "start": "1659", "end": "1695-11-21", "importance": 5, "tags": ["international"],
+      "description": "Bedeutendster englischer Barockkomponist („Dido and Aeneas“).",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "corelli", "title": "Arcangelo Corelli", "short": "Corelli", "start": "1653-02-17", "end": "1713-01-08", "importance": 5, "tags": ["international"],
+      "description": "Römischer Geiger und Komponist; seine Concerti grossi und Sonaten wurden stilbildend.",
+      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "vivaldi", "title": "Antonio Vivaldi", "short": "Vivaldi", "start": "1678-03-04", "end": "1741-07-28", "importance": 4, "tags": ["international"],
+      "description": "Venezianischer Violinvirtuose und Komponist („Die vier Jahreszeiten“); starb verarmt in Wien.",
+      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 }
+    },
+    {
+      "id": "bach", "title": "Johann Sebastian Bach", "short": "J. S. Bach", "start": "1685-03-31", "end": "1750-07-28", "importance": 4, "tags": ["international"],
+      "description": "Thomaskantor in Leipzig; Höhepunkt und Synthese der Barockmusik.",
+      "place": { "name": "Leipzig", "lat": 51.3397, "lon": 12.3731 }
+    },
+    {
+      "id": "haendel", "title": "Georg Friedrich Händel", "short": "Händel", "start": "1685-02-23", "end": "1759-04-14", "importance": 4, "tags": ["international"],
+      "description": "Opern- und Oratorienkomponist, ab 1712 in London.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
     }
   ]
 }

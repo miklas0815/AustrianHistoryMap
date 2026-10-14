@@ -93,6 +93,83 @@
       "id": "caravaggio", "title": "Caravaggio", "start": "1571-09-29", "end": "1610-07-18", "importance": 5, "tags": ["international"],
       "description": "Wegbereiter der Barockmalerei mit starken Hell-Dunkel-Kontrasten.",
       "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "frans-luycx", "title": "Frans Luycx", "start": "1604", "end": "1668", "importance": 3,
+      "description": "Flämischer Porträtmaler, Hofmaler Ferdinands III.; malte zahlreiche Bildnisse der kaiserlichen Familie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofmaler Ferdinands III." }
+    },
+    {
+      "id": "tobias-pock", "title": "Tobias Pock", "start": "1609", "end": "1683", "importance": 3,
+      "description": "Malte das Hochaltarbild des Wiener Stephansdoms (Steinigung des hl. Stephanus, 1647).",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Hochaltarbild des Stephansdoms" }
+    },
+    {
+      "id": "jan-thomas", "title": "Jan Thomas", "start": "1617", "end": "1678", "importance": 3,
+      "description": "Flämischer Maler und Radierer, Schüler von Rubens; Hofmaler Leopolds I. in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofmaler Leopolds I." }
+    },
+    {
+      "id": "hans-adam-weissenkircher", "title": "Hans Adam Weissenkircher", "short": "Weissenkircher", "start": "1646", "end": "1695", "importance": 3,
+      "description": "Hofmaler der Fürsten Eggenberg; schuf den Gemäldezyklus im Planetensaal von Schloss Eggenberg in Graz.",
+      "place": { "name": "Schloss Eggenberg, Graz", "lat": 47.0738, "lon": 15.3906 },
+      "attributes": { "Werke": "Planetensaal, Schloss Eggenberg" }
+    },
+    {
+      "id": "johann-michael-rottmayr", "title": "Johann Michael Rottmayr", "short": "Rottmayr", "start": "1654-12-11", "end": "1730-10-25", "importance": 1,
+      "description": "Erster bedeutender einheimischer Barockmaler Österreichs; schuf die Kuppelfresken der Karlskirche und Peterskirche sowie Fresken in Melk und Salzburg.",
+      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 },
+      "attributes": { "Werke": "Kuppelfresken Karlskirche und Peterskirche, Fresken Stift Melk", "Geboren": "Laufen an der Salzach" }
+    },
+    {
+      "id": "martino-altomonte", "title": "Martino Altomonte", "start": "1657-05-08", "end": "1745-09-14", "importance": 3,
+      "description": "In Neapel geborener Maler, Hofmaler des polnischen Königs Jan III. Sobieski, ab 1703 in Wien; Altarbilder und Fresken u. a. im Belvedere.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Fresken im Unteren Belvedere" }
+    },
+    {
+      "id": "peter-strudel", "title": "Peter Strudel", "start": "1660", "end": "1714-02-04", "importance": 2,
+      "description": "Kammermaler Leopolds I.; gründete 1692 in Wien eine private Malerakademie, die Keimzelle der Akademie der bildenden Künste.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Hofmaler, Akademiegründer" }
+    },
+    {
+      "id": "andrea-pozzo", "title": "Andrea Pozzo", "start": "1642-11-30", "end": "1709-08-31", "importance": 2,
+      "description": "Jesuit und Meister der illusionistischen Deckenmalerei; ab 1703 in Wien (Jesuitenkirche, Gartenpalais Liechtenstein), wo er starb.",
+      "place": { "name": "Jesuitenkirche, Wien", "lat": 48.2092, "lon": 16.378 },
+      "attributes": { "Werke": "Scheinkuppel der Jesuitenkirche Wien, Herkules-Fresken im Palais Liechtenstein" }
+    },
+    {
+      "id": "rubens", "title": "Peter Paul Rubens", "short": "Rubens", "start": "1577-06-28", "end": "1640-05-30", "importance": 4, "tags": ["international"],
+      "description": "Führender Maler des flämischen Barock; das Kunsthistorische Museum Wien besitzt eine bedeutende Rubens-Sammlung.",
+      "place": { "name": "Antwerpen", "lat": 51.2194, "lon": 4.4025 },
+      "attributes": { "Werke": "Das Pelzchen, Ildefonso-Altar (beide KHM Wien)" }
+    },
+    {
+      "id": "velazquez", "title": "Diego Velázquez", "short": "Velázquez", "start": "1599-06-06", "end": "1660-08-06", "importance": 4, "tags": ["international"],
+      "description": "Hofmaler Philipps IV. von Spanien; malte die spanischen Habsburger, darunter die Infantinnenbildnisse, die als Brautbilder nach Wien geschickt wurden.",
+      "place": { "name": "Madrid", "lat": 40.4168, "lon": -3.7038 },
+      "attributes": { "Werke": "Las Meninas, Infantin Margarita Teresa (KHM Wien)" }
+    },
+    {
+      "id": "van-dyck", "title": "Anthonis van Dyck", "short": "van Dyck", "start": "1599-03-22", "end": "1641-12-09", "importance": 5, "tags": ["international"],
+      "description": "Porträtmaler, Hofmaler Karls I. von England.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "rembrandt", "title": "Rembrandt van Rijn", "short": "Rembrandt", "start": "1606-07-15", "end": "1669-10-04", "importance": 4, "tags": ["international"],
+      "description": "Hauptmeister des niederländischen „Goldenen Zeitalters“.",
+      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 },
+      "attributes": { "Werke": "Die Nachtwache" }
+    },
+    {
+      "id": "vermeer", "title": "Jan Vermeer", "short": "Vermeer", "start": "1632-10", "end": "1675-12-15", "importance": 5, "tags": ["international"],
+      "description": "Delfter Maler stiller Innenräume; sein Bild „Die Malkunst“ hängt im Kunsthistorischen Museum Wien.",
+      "place": { "name": "Delft", "lat": 52.0116, "lon": 4.3571 },
+      "attributes": { "Werke": "Die Malkunst (KHM Wien), Das Mädchen mit dem Perlenohrring" }
     }
   ]
 }

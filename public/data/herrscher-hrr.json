@@ -30,6 +30,42 @@
       "description": "Verlegte die Residenz 1583 nach Prag, das unter ihm zu einem Zentrum von Kunst und Wissenschaft wurde (Kepler, Tycho Brahe, Arcimboldo).",
       "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
       "attributes": { "Dynastie": "Habsburg", "Geboren": "18. Juli 1552, Wien", "Gestorben": "20. Jänner 1612, Prag" }
+    },
+    {
+      "id": "matthias-hrr", "title": "Matthias", "start": "1612-06-13", "end": "1619-03-20", "importance": 3,
+      "description": "Bruder Rudolfs II., den er im „Bruderzwist“ schrittweise entmachtete. Verlegte die Residenz wieder nach Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "24. Februar 1557, Wien", "Gestorben": "20. März 1619, Wien" }
+    },
+    {
+      "id": "ferdinand-ii-hrr", "title": "Ferdinand II.", "start": "1619-08-28", "end": "1637-02-15", "importance": 2,
+      "description": "Kompromissloser Verfechter der Gegenreformation; seine Politik gegenüber den böhmischen Ständen stand am Beginn des Dreißigjährigen Krieges.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "9. Juli 1578, Graz", "Gestorben": "15. Februar 1637, Wien" }
+    },
+    {
+      "id": "ferdinand-iii-hrr", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2,
+      "description": "Schloss 1648 den Westfälischen Frieden, der den Dreißigjährigen Krieg beendete. Auch als Komponist tätig.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "13. Juli 1608, Graz", "Gestorben": "2. April 1657, Wien" }
+    },
+    {
+      "id": "leopold-i-hrr", "title": "Leopold I.", "start": "1658-07-18", "end": "1705-05-05", "importance": 1,
+      "description": "Fast 47 Jahre Kaiser. In seine Regierung fallen die Zweite Wiener Osmanenbelagerung (1683), die Rückeroberung Ungarns und der Aufstieg Österreichs zur Großmacht; großer Förderer der Barockmusik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "9. Juni 1640, Wien", "Gestorben": "5. Mai 1705, Wien" }
+    },
+    {
+      "id": "joseph-i-hrr", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3,
+      "description": "Älterer Sohn Leopolds I.; regierte während des Spanischen Erbfolgekriegs und starb früh an den Pocken.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "26. Juli 1678, Wien", "Gestorben": "17. April 1711, Wien" }
+    },
+    {
+      "id": "karl-vi-hrr", "title": "Karl VI.", "start": "1711-10-12", "end": "1740-10-20", "importance": 2,
+      "description": "Letzter männlicher Habsburger; sicherte mit der Pragmatischen Sanktion (1713) die Erbfolge seiner Tochter Maria Theresia.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "1. Oktober 1685, Wien", "Gestorben": "20. Oktober 1740, Wien" }
     }
   ]
 }
