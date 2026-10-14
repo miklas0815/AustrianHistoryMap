@@ -7,6 +7,7 @@ import { formatRange, formatYear } from './dates';
 import { exportImage, exportPdf, type PdfFormat } from './export';
 import { layoutColumns, layoutLanes, visibleImportance, type Column, type Lane } from './layout';
 import { COLUMN_HEADER_H, FONT, FONT_SIZE, renderTimeline, renderVertical, verticalContentWidth } from './render';
+import { applyOrder, moveId } from './reorder';
 import { DEFAULT_VIEW, parseViewState, serializeViewState, type ViewState } from './state';
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -62,8 +63,14 @@ function fullGutter(): number {
 
 // ---------- Zustand ----------
 
+/** Alle Kategorien in der vom Besucher gewählten Reihenfolge. */
+function orderedCategories(): Category[] {
+  return applyOrder(data.categories, state.order);
+}
+
 function selectedCategories(): Category[] {
-  return state.cats ? data.categories.filter((c) => state.cats!.includes(c.id)) : data.categories;
+  const all = orderedCategories();
+  return state.cats ? all.filter((c) => state.cats!.includes(c.id)) : all;
 }
 
 let urlTimer: number | undefined;
@@ -234,23 +241,69 @@ function zoomBy(factor: number): void {
 
 // ---------- Kategorien ----------
 
-function renderCategoryChips(): void {
-  const container = $<HTMLDivElement>('categories');
-  container.replaceChildren();
-  for (const cat of data.categories) {
+// Die Reihenfolge der Schaltflächen bestimmt die Reihenfolge der Spuren. Sie lässt sich
+// per Drag & Drop (Maus; am Touchscreen nach langem Antippen) oder mit Alt+Pfeiltasten
+// ändern und wird im Link und im Browser gespeichert.
+
+const ORDER_KEY = 'zeitleiste.reihenfolge';
+const chipsEl = $<HTMLDivElement>('categories');
+
+function loadStoredOrder(): string[] | null {
+  try {
+    return localStorage.getItem(ORDER_KEY)?.split(',').filter(Boolean) ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function setOrder(ids: string[], focusId?: string): void {
+  const isDefault = ids.join(',') === data.categories.map((c) => c.id).join(',');
+  state.order = isDefault ? null : ids;
+  try {
+    if (state.order) localStorage.setItem(ORDER_KEY, ids.join(','));
+    else localStorage.removeItem(ORDER_KEY);
+  } catch {
+    // Ohne Speicher bleibt die Reihenfolge nur im Link erhalten.
+  }
+  renderCategoryChips(focusId);
+  scheduleRender();
+}
+
+function renderCategoryChips(focusId?: string): void {
+  chipsEl.replaceChildren();
+  for (const cat of orderedCategories()) {
     const btn = document.createElement('button');
     btn.className = 'chip';
     btn.type = 'button';
-    btn.title = cat.description ?? '';
+    btn.dataset.id = cat.id;
+    btn.title = `${cat.description ?? cat.name}\nZiehen oder Alt + Pfeiltaste: Reihenfolge ändern`;
+    btn.setAttribute('aria-keyshortcuts', 'Alt+ArrowLeft Alt+ArrowRight');
     const on = !state.cats || state.cats.includes(cat.id);
     btn.setAttribute('aria-pressed', String(on));
     const sw = document.createElement('span');
     sw.className = 'swatch';
     sw.style.background = cat.color;
     btn.append(sw, cat.name);
-    btn.addEventListener('click', () => toggleCategory(cat.id));
-    container.appendChild(btn);
+    btn.addEventListener('click', () => {
+      if (suppressClick) {
+        suppressClick = false;
+        return;
+      }
+      toggleCategory(cat.id);
+    });
+    btn.addEventListener('keydown', (e) => moveByKey(e, cat.id));
+    btn.addEventListener('pointerdown', (e) => beginPointer(e, cat.id, btn));
+    chipsEl.appendChild(btn);
   }
+  if (state.order) {
+    const reset = document.createElement('button');
+    reset.type = 'button';
+    reset.className = 'chip-reset';
+    reset.textContent = '↺ Reihenfolge zurücksetzen';
+    reset.addEventListener('click', () => setOrder(data.categories.map((c) => c.id)));
+    chipsEl.appendChild(reset);
+  }
+  if (focusId) chipsEl.querySelector<HTMLButtonElement>(`.chip[data-id="${focusId}"]`)?.focus();
 }
 
 function toggleCategory(id: string): void {
@@ -260,8 +313,98 @@ function toggleCategory(id: string): void {
   else current.add(id);
   const next = all.filter((c) => current.has(c));
   state.cats = next.length === all.length ? null : next;
-  renderCategoryChips();
+  renderCategoryChips(id);
   scheduleRender();
+}
+
+function moveByKey(e: KeyboardEvent, id: string): void {
+  if (!e.altKey) return;
+  const delta = e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? -1 : e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : 0;
+  if (!delta) return;
+  e.preventDefault();
+  const ids = orderedCategories().map((c) => c.id);
+  setOrder(moveId(ids, id, ids.indexOf(id) + delta), id);
+}
+
+interface ChipDrag {
+  id: string;
+  el: HTMLElement;
+  x: number;
+  y: number;
+  touch: boolean;
+  active: boolean;
+  timer?: number;
+  drop?: { id: string; before: boolean };
+}
+
+let chipDrag: ChipDrag | null = null;
+let suppressClick = false;
+
+function beginPointer(e: PointerEvent, id: string, el: HTMLElement): void {
+  if (e.button !== 0) return;
+  chipDrag = { id, el, x: e.clientX, y: e.clientY, touch: e.pointerType === 'touch', active: false };
+  // Am Touchscreen startet das Ziehen erst nach langem Antippen, damit man weiterhin scrollen kann.
+  if (chipDrag.touch) chipDrag.timer = window.setTimeout(startChipDrag, 350);
+}
+
+function startChipDrag(): void {
+  if (!chipDrag) return;
+  chipDrag.active = true;
+  chipDrag.el.classList.add('dragging');
+  chipsEl.classList.add('reordering');
+  navigator.vibrate?.(15);
+}
+
+function clearDropMarks(): void {
+  chipsEl.querySelectorAll('.drop-before, .drop-after').forEach((n) => n.classList.remove('drop-before', 'drop-after'));
+}
+
+function endChipDrag(apply: boolean): void {
+  if (!chipDrag) return;
+  clearTimeout(chipDrag.timer);
+  const { active, drop, id } = chipDrag;
+  chipDrag.el.classList.remove('dragging');
+  chipsEl.classList.remove('reordering');
+  clearDropMarks();
+  chipDrag = null;
+  if (!active) return;
+  suppressClick = true;
+  setTimeout(() => (suppressClick = false), 0);
+  if (apply && drop) {
+    const ids = orderedCategories().map((c) => c.id);
+    const rest = ids.filter((x) => x !== id);
+    setOrder(moveId(ids, id, rest.indexOf(drop.id) + (drop.before ? 0 : 1)), id);
+  }
+}
+
+function setupChipDrag(): void {
+  window.addEventListener('pointermove', (e) => {
+    if (!chipDrag) return;
+    const dist = Math.hypot(e.clientX - chipDrag.x, e.clientY - chipDrag.y);
+    if (!chipDrag.active) {
+      if (chipDrag.touch) {
+        if (dist > 10) endChipDrag(false); // Finger bewegt sich: der Browser scrollt.
+        return;
+      }
+      if (dist < 6) return;
+      startChipDrag();
+    }
+    clearDropMarks();
+    const target = document.elementFromPoint(e.clientX, e.clientY)?.closest<HTMLElement>('.chip[data-id]');
+    if (!target || target === chipDrag.el || !chipsEl.contains(target)) {
+      chipDrag.drop = undefined;
+      return;
+    }
+    const r = target.getBoundingClientRect();
+    const before = e.clientX < r.left + r.width / 2;
+    target.classList.add(before ? 'drop-before' : 'drop-after');
+    chipDrag.drop = { id: target.dataset.id!, before };
+  });
+  window.addEventListener('pointerup', () => endChipDrag(true));
+  window.addEventListener('pointercancel', () => endChipDrag(false));
+  // Während des Ziehens am Touchscreen nicht scrollen.
+  chipsEl.addEventListener('touchmove', (e) => { if (chipDrag?.active) e.preventDefault(); }, { passive: false });
+  chipsEl.addEventListener('contextmenu', (e) => { if (chipDrag) e.preventDefault(); });
 }
 
 // ---------- Tooltip und Details ----------
@@ -516,6 +659,8 @@ async function main(): Promise<void> {
   measureLayout();
   setupInteraction();
   setupControls();
+  if (!state.order) state.order = loadStoredOrder();
+  setupChipDrag();
   renderCategoryChips();
 
   const initial = { from: state.from, to: state.to };

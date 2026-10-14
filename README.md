@@ -12,7 +12,11 @@ Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
 ## Bedienung
 
 - **Mausrad / Ziehen**: zoomen und verschieben (Trackpad waagrecht: verschieben)
-- **Kategorien**: oben ein-/ausschalten
+- **Kategorien**: oben per Klick ein-/ausschalten; die Reihenfolge der Spuren lässt
+  sich ändern, indem man die Schaltflächen zieht (Maus; am Touchscreen nach langem
+  Antippen) oder sie mit **Alt + Pfeiltaste** verschiebt. Die Reihenfolge wird im
+  Link (`order=…`) und im Browser gespeichert; „↺ Reihenfolge zurücksetzen“ stellt
+  die ursprüngliche wieder her
 - **Detailgrad**: zeigt bei gleicher Zoomstufe mehr oder weniger Einträge
 - **⟳ Senkrecht / ⟲ Waagrecht**: dreht die Darstellung um 90°: Zeit von oben nach
   unten, Kategorien als Spalten nebeneinander (seitlich scrollbar)

@@ -46,6 +46,15 @@ button:disabled { opacity: .5; cursor: progress; }
 .chip .swatch { width: 12px; height: 12px; border-radius: 3px; }
 .chip[aria-pressed=false] { color: #999; background: #f1f0ec; }
 .chip[aria-pressed=false] .swatch { opacity: .3; }
+/* Umsortieren der Kategorien */
+.chip { cursor: grab; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.categories.reordering, .categories.reordering .chip { cursor: grabbing; }
+.chip.dragging { opacity: .45; }
+.chip.drop-before { box-shadow: -5px 0 0 -1px #1f5fad; }
+.chip.drop-after { box-shadow: 5px 0 0 -1px #1f5fad; }
+.chip:focus-visible { outline: 2px solid #1f5fad; outline-offset: 2px; }
+.chip-reset { border: none; background: none; color: #1f5fad; font-size: 12.5px; padding: 3px 6px; cursor: pointer; }
+.chip-reset:hover { text-decoration: underline; }
 
 .layout { flex: 1; display: flex; min-height: 0; position: relative; }
 .chart { flex: 1; min-width: 0; overflow-x: hidden; }
