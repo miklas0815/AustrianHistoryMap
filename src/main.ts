@@ -2,11 +2,11 @@ import './style.css';
 import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, type D3ZoomEvent, type ZoomBehavior } from 'd3-zoom';
-import { loadDataset, type Category, type Dataset, type Item } from './data';
+import { itemSpan, loadDataset, type Category, type Dataset, type Item } from './data';
 import { formatRange, formatYear } from './dates';
 import { exportImage, exportPdf, type PdfFormat } from './export';
-import { layoutLanes, visibleImportance, type Lane } from './layout';
-import { FONT, FONT_SIZE, renderTimeline } from './render';
+import { layoutColumns, layoutLanes, visibleImportance, type Column, type Lane } from './layout';
+import { COLUMN_HEADER_H, FONT, FONT_SIZE, renderTimeline, renderVertical, verticalContentWidth } from './render';
 import { DEFAULT_VIEW, parseViewState, serializeViewState, type ViewState } from './state';
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
@@ -29,20 +29,24 @@ let state: ViewState = parseViewState(location.search);
 let extent: [number, number] = [1400, 1700];
 let gutter = 190;
 let plotWidth = 800;
-let baseX = scaleLinear();
+/** Länge der Zeitachse in der senkrechten Darstellung. */
+let plotHeight = 600;
+/** Zeitachse über den gesamten Datenbestand; Zoom-Transformationen beziehen sich darauf. */
+let baseScale = scaleLinear();
 let zoomBehavior: ZoomBehavior<SVGSVGElement, unknown>;
 let lastLanes: Lane[] = [];
+let lastColumns: Column[] = [];
 let lastMaxImportance = 1;
 
 // ---------- Textmessung für das Layout ----------
 
 const measureCtx = document.createElement('canvas').getContext('2d')!;
 const measureCache = new Map<string, number>();
-function measure(text: string, bold: boolean): number {
-  const key = (bold ? 'b|' : 'n|') + text;
+function measure(text: string, bold: boolean, size = FONT_SIZE): number {
+  const key = `${bold ? 'b' : 'n'}${size}|${text}`;
   let w = measureCache.get(key);
   if (w === undefined) {
-    measureCtx.font = `${bold ? 'bold ' : ''}${FONT_SIZE}px ${FONT}`;
+    measureCtx.font = `${bold ? 'bold ' : ''}${size}px ${FONT}`;
     w = measureCtx.measureText(text).width;
     measureCache.set(key, w);
   }
@@ -75,16 +79,61 @@ function scheduleRender(): void {
   if (!frame) frame = requestAnimationFrame(() => { frame = 0; render(); });
 }
 
-function currentX(): (t: number) => number {
-  const s = scaleLinear().domain([state.from, state.to]).range([0, plotWidth]);
+const vertical = () => state.orient === 'v';
+
+/** Länge der Zeitachse in Pixeln (waagrecht: Breite, senkrecht: Höhe). */
+const plotLength = () => (vertical() ? plotHeight : plotWidth);
+
+/** Zeit → Pixel entlang der Zeitachse des aktuellen Ausschnitts. */
+function currentScale(): (t: number) => number {
+  const s = scaleLinear().domain([state.from, state.to]).range([0, plotLength()]);
   return (t) => s(t);
 }
 
 function render(): void {
   const cats = selectedCategories();
-  const pxPerYear = plotWidth / (state.to - state.from);
+  const pxPerYear = plotLength() / (state.to - state.from);
   lastMaxImportance = visibleImportance(pxPerYear, state.detail);
-  const x = currentX();
+  if (vertical()) renderVerticalView(cats);
+  else renderHorizontalView(cats);
+
+  fromInput.value = String(Math.round(state.from));
+  toInput.value = String(Math.round(state.to));
+  const groups: { placed: unknown[]; hidden: number }[] = vertical() ? lastColumns : lastLanes;
+  const shown = groups.reduce((n, l) => n + l.placed.length, 0);
+  const hidden = groups.reduce((n, l) => n + l.hidden, 0);
+  statusEl.textContent =
+    `${formatYear(Math.round(state.from))}–${formatYear(Math.round(state.to))} · ` +
+    `Bedeutung 1–${lastMaxImportance} · ${shown} Einträge sichtbar` +
+    (hidden ? `, ${hidden} weitere beim Hineinzoomen` : '');
+  syncUrl();
+}
+
+function renderVerticalView(cats: Category[]): void {
+  const y = currentScale();
+  lastColumns = layoutColumns({
+    categories: cats,
+    items: data.items,
+    y,
+    domain: [state.from, state.to],
+    plotHeight,
+    maxImportance: lastMaxImportance,
+    measure,
+  });
+  renderVertical(svgEl, {
+    columns: lastColumns,
+    plotHeight,
+    y,
+    domain: [state.from, state.to],
+    selectedId: state.sel,
+    idPrefix: 'screen',
+    measure,
+    minWidth: chartEl.clientWidth,
+  });
+}
+
+function renderHorizontalView(cats: Category[]): void {
+  const x = currentScale();
   lastLanes = layoutLanes({
     categories: cats,
     items: data.items,
@@ -104,36 +153,46 @@ function render(): void {
     selectedId: state.sel,
     idPrefix: 'screen',
   });
-
-  fromInput.value = String(Math.round(state.from));
-  toInput.value = String(Math.round(state.to));
-  const shown = lastLanes.reduce((n, l) => n + l.placed.length, 0);
-  const hidden = lastLanes.reduce((n, l) => n + l.hidden, 0);
-  statusEl.textContent =
-    `${formatYear(Math.round(state.from))}–${formatYear(Math.round(state.to))} · ` +
-    `Bedeutung 1–${lastMaxImportance} · ${shown} Einträge sichtbar` +
-    (hidden ? `, ${hidden} weitere beim Hineinzoomen` : '');
-  syncUrl();
 }
 
 // ---------- Zoom ----------
 
+/** Abstand vom Rand des SVG bis zum Beginn der Zeitachse. */
+const axisOffset = () => (vertical() ? COLUMN_HEADER_H : gutter);
+
 function measureLayout(): void {
-  const width = chartEl.clientWidth;
-  gutter = width < 700 ? 0 : fullGutter();
-  plotWidth = Math.max(200, width - gutter - RIGHT_PAD);
-  baseX = scaleLinear().domain(extent).range([gutter, gutter + plotWidth]);
+  chartEl.classList.toggle('vertical', vertical());
+  if (vertical()) {
+    // Die Zeitachse füllt die Fensterhöhe; Spalten, die nicht nebeneinander passen,
+    // lassen sich waagrecht scrollen.
+    const statusH = document.querySelector('.statusbar')?.getBoundingClientRect().height ?? 30;
+    const chartTop = chartEl.getBoundingClientRect().top + window.scrollY;
+    // Reserve für Statusleiste und eine eventuelle waagrechte Bildlaufleiste.
+    plotHeight = Math.max(320, Math.floor(window.innerHeight - chartTop - statusH - COLUMN_HEADER_H - 22));
+  } else {
+    const width = chartEl.clientWidth;
+    gutter = width < 700 ? 0 : fullGutter();
+    plotWidth = Math.max(200, width - gutter - RIGHT_PAD);
+  }
+  const start = axisOffset();
+  const len = plotLength();
+  baseScale = scaleLinear().domain(extent).range([start, start + len]);
   zoomBehavior
-    .extent([[gutter, 0], [gutter + plotWidth, 1]])
-    .translateExtent([[gutter, -Infinity], [gutter + plotWidth, Infinity]])
+    .extent(vertical() ? [[0, start], [1, start + len]] : [[start, 0], [start + len, 1]])
+    .translateExtent(
+      vertical()
+        ? [[-Infinity, start], [Infinity, start + len]]
+        : [[start, -Infinity], [start + len, Infinity]],
+    )
     .scaleExtent([1, (extent[1] - extent[0]) / MIN_SPAN_YEARS]);
 }
 
 /** Zeigt den Zeitraum [from, to] an (über die Zoom-Transformation). */
 function showRange(from: number, to: number): void {
   const k = (extent[1] - extent[0]) / (to - from);
-  const tx = gutter - k * baseX(from);
-  select(svgEl).call(zoomBehavior.transform, zoomIdentity.translate(tx, 0).scale(k));
+  const shift = axisOffset() - k * baseScale(from);
+  const t = vertical() ? zoomIdentity.translate(0, shift).scale(k) : zoomIdentity.translate(shift, 0).scale(k);
+  select(svgEl).call(zoomBehavior.transform, t);
 }
 
 function setupZoom(): void {
@@ -148,7 +207,8 @@ function setupZoom(): void {
       return !m.ctrlKey && !m.button;
     })
     .on('zoom', (event: D3ZoomEvent<SVGSVGElement, unknown>) => {
-      const [from, to] = event.transform.rescaleX(baseX).domain();
+      const t = event.transform;
+      const [from, to] = (vertical() ? t.rescaleY(baseScale) : t.rescaleX(baseScale)).domain();
       state.from = from;
       state.to = to;
       hideTooltip();
@@ -157,7 +217,8 @@ function setupZoom(): void {
   select(svgEl).call(zoomBehavior).on('dblclick.zoom', null);
 
   svgEl.addEventListener('wheel', (e) => {
-    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+    // Senkrecht: waagrechtes Scrollen bleibt dem Browser (Spalten seitlich scrollen).
+    if (!vertical() && Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
       e.preventDefault();
       const k = (extent[1] - extent[0]) / (state.to - state.from);
       select(svgEl).call(zoomBehavior.translateBy, -e.deltaX / k, 0);
@@ -225,6 +286,12 @@ function setupInteraction(): void {
     dates.className = 't-dates';
     dates.textContent = formatRange(it.startDate, it.endDate) + (it.place ? ` · ${it.place.name}` : '');
     tooltipEl.append(title, dates);
+    if (it.lifeStart) {
+      const life = document.createElement('div');
+      life.className = 't-dates';
+      life.textContent = 'Leben: ' + formatRange(it.lifeStart, it.lifeEnd);
+      tooltipEl.append(life);
+    }
     tooltipEl.hidden = false;
     const pad = 14;
     const w = tooltipEl.offsetWidth;
@@ -264,6 +331,7 @@ function showDetail(it: Item | undefined): void {
   if (it.description) parts.push(node('p', it.description));
 
   const rows: [string, string][] = [];
+  if (it.lifeStart) rows.push(['Lebenszeit', formatRange(it.lifeStart, it.lifeEnd)]);
   if (it.place) rows.push(['Ort', it.place.name]);
   for (const [k, v] of Object.entries(it.attributes ?? {})) rows.push([k, v]);
   rows.push(['Bedeutung', `${it.importance} von 5`]);
@@ -308,22 +376,56 @@ function buildExportSvg(): { svg: SVGSVGElement; cleanup: () => void } {
 
   const cats = selectedCategories();
   const stamp = new Date().toLocaleDateString('de-AT', { day: '2-digit', month: '2-digit', year: 'numeric' });
-  // Für den Export immer mit Kategorienspalte, auch wenn am Handy kompakt angezeigt wird.
-  const exportGutter = fullGutter();
-  renderTimeline(svg, {
-    lanes: lastLanes,
-    width: exportGutter + plotWidth + RIGHT_PAD,
-    gutter: exportGutter,
-    plotWidth,
-    x: currentX(),
-    domain: [state.from, state.to],
-    idPrefix: 'export',
-    header: {
-      title: `Österreichische Geschichte ${formatYear(Math.round(state.from))}–${formatYear(Math.round(state.to))}`,
-      subtitle: `${cats.map((c) => c.name).join(' · ')}  —  Bedeutungsstufen 1–${lastMaxImportance}`,
-    },
-    footer: `Stand ${stamp} · ${location.href}`,
-  });
+  const header = {
+    title: `Österreichische Geschichte ${formatYear(Math.round(state.from))}–${formatYear(Math.round(state.to))}`,
+    subtitle: `${cats.map((c) => c.name).join(' · ')}  —  Bedeutungsstufen 1–${lastMaxImportance}`,
+  };
+  const footer = `Stand ${stamp} · ${location.href}`;
+  if (vertical()) {
+    // Für den Export die Zeitachse so weit strecken, dass ein Hochformat entsteht:
+    // Mit mehr Platz pro Jahr rücken die Einträge weniger nebeneinander. Der Inhalt
+    // (Bedeutungsstufen) bleibt derselbe wie am Bildschirm.
+    let exportHeight = plotHeight;
+    let columns = lastColumns;
+    for (let i = 0; i < 4; i++) {
+      const target = Math.min(4000, verticalContentWidth(columns, measure) * Math.SQRT2);
+      if (target <= exportHeight * 1.05) break;
+      exportHeight = Math.round(target);
+      columns = layoutColumns({
+        categories: cats,
+        items: data.items,
+        y: scaleLinear().domain([state.from, state.to]).range([0, exportHeight]),
+        domain: [state.from, state.to],
+        plotHeight: exportHeight,
+        maxImportance: lastMaxImportance,
+        measure,
+      });
+    }
+    renderVertical(svg, {
+      columns,
+      plotHeight: exportHeight,
+      y: scaleLinear().domain([state.from, state.to]).range([0, exportHeight]),
+      domain: [state.from, state.to],
+      idPrefix: 'export',
+      measure,
+      header,
+      footer,
+    });
+  } else {
+    // Für den Export immer mit Kategorienspalte, auch wenn am Handy kompakt angezeigt wird.
+    const exportGutter = fullGutter();
+    renderTimeline(svg, {
+      lanes: lastLanes,
+      width: exportGutter + plotWidth + RIGHT_PAD,
+      gutter: exportGutter,
+      plotWidth,
+      x: currentScale(),
+      domain: [state.from, state.to],
+      idPrefix: 'export',
+      header,
+      footer,
+    });
+  }
   return { svg, cleanup: () => holder.remove() };
 }
 
@@ -345,6 +447,21 @@ function setupControls(): void {
   $('zoom-in').addEventListener('click', () => zoomBy(1.6));
   $('zoom-out').addEventListener('click', () => zoomBy(1 / 1.6));
   $('reset').addEventListener('click', () => showRange(DEFAULT_VIEW.from, DEFAULT_VIEW.to));
+
+  const rotateButton = $<HTMLButtonElement>('rotate');
+  const updateRotateButton = () => {
+    rotateButton.setAttribute('aria-pressed', String(vertical()));
+    rotateButton.textContent = vertical() ? '⟲ Waagrecht' : '⟳ Senkrecht';
+  };
+  updateRotateButton();
+  rotateButton.addEventListener('click', () => {
+    const { from, to } = state;
+    state.orient = vertical() ? 'h' : 'v';
+    updateRotateButton();
+    measureLayout();
+    showRange(from, to);
+    chartEl.scrollLeft = 0;
+  });
 
   const applyRange = () => {
     const from = Number(fromInput.value);
@@ -391,8 +508,8 @@ async function main(): Promise<void> {
     return;
   }
   itemsById = new Map(data.items.map((it) => [it.id, it]));
-  const t0 = Math.min(...data.items.map((i) => i.t0), state.from);
-  const t1 = Math.max(...data.items.map((i) => i.t1), state.to);
+  const t0 = Math.min(...data.items.map((i) => itemSpan(i)[0]), state.from);
+  const t1 = Math.max(...data.items.map((i) => itemSpan(i)[1]), state.to);
   extent = [Math.floor(t0) - 10, Math.ceil(t1) + 10];
 
   setupZoom();
@@ -406,11 +523,17 @@ async function main(): Promise<void> {
   if (state.sel && itemsById.has(state.sel)) showDetail(itemsById.get(state.sel));
   else state.sel = undefined;
 
-  new ResizeObserver(() => {
+  const relayout = () => {
     const { from, to } = state;
+    const before = plotLength();
+    const beforeGutter = gutter;
     measureLayout();
-    showRange(from, to);
-  }).observe(chartEl);
+    if (plotLength() !== before || gutter !== beforeGutter) showRange(from, to);
+    // Senkrecht hängt die Mindestbreite des SVG von der Fensterbreite ab.
+    else if (vertical()) scheduleRender();
+  };
+  new ResizeObserver(relayout).observe(chartEl);
+  window.addEventListener('resize', relayout);
 }
 
 main();

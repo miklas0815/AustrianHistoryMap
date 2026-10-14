@@ -17,6 +17,7 @@
           <button id="zoom-out" title="Herauszoomen" aria-label="Herauszoomen">−</button>
           <button id="zoom-in" title="Hineinzoomen" aria-label="Hineinzoomen">+</button>
           <button id="reset" title="Zurück zur Gesamtansicht">1500–1715</button>
+          <button id="rotate" type="button" title="Darstellung um 90° drehen" aria-pressed="false">⟳ Senkrecht</button>
         </div>
         <div class="group">
           <label class="detail">Detailgrad
@@ -24,9 +25,9 @@
           </label>
         </div>
         <div class="group export">
-          <select id="pdf-format" aria-label="PDF-Format">
-            <option value="a4">A4 quer</option>
-            <option value="a3">A3 quer</option>
+          <select id="pdf-format" aria-label="PDF-Format" title="Hoch- oder Querformat wird automatisch gewählt">
+            <option value="a4">A4</option>
+            <option value="a3">A3</option>
             <option value="fit">passend</option>
           </select>
           <button id="export-pdf">PDF</button>

@@ -2,112 +2,112 @@
   "category": "herrscher-at",
   "items": [
     {
-      "id": "maximilian-i-at", "title": "Maximilian I.", "start": "1493-08-19", "end": "1519-01-12", "importance": 1,
+      "id": "maximilian-i-at", "title": "Maximilian I.", "start": "1493-08-19", "end": "1519-01-12", "importance": 1, "life": { "start": "1459-03-22", "end": "1519-01-12" },
       "description": "Vereinigte nach dem Tod seines Vaters Friedrich III. alle habsburgischen Erbländer (Tirol bereits seit 1490).",
       "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer", "Titel": "Erzherzog von Österreich" }
     },
     {
-      "id": "karl-v-at", "title": "Karl V.", "start": "1519-01-12", "end": "1521-04-28", "importance": 3,
+      "id": "karl-v-at", "title": "Karl V.", "start": "1519-01-12", "end": "1521-04-28", "importance": 3, "life": { "start": "1500-02-24", "end": "1558-09-21" },
       "description": "Erbte die österreichischen Länder und überließ sie im Wormser Vertrag (1521) und im Brüsseler Vertrag (1522) seinem Bruder Ferdinand.",
       "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer" }
     },
     {
-      "id": "ferdinand-i-at", "title": "Ferdinand I.", "start": "1521-04-28", "end": "1564-07-25", "importance": 1,
+      "id": "ferdinand-i-at", "title": "Ferdinand I.", "start": "1521-04-28", "end": "1564-07-25", "importance": 1, "life": { "start": "1503-03-10", "end": "1564-07-25" },
       "description": "Landesfürst der österreichischen Erbländer, ab 1526 auch König von Böhmen und Ungarn. Verlegte die Residenz nach Wien und teilte testamentarisch die Länder unter seinen drei Söhnen auf.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer; ab 1526 Böhmen und Ungarn" }
     },
     {
-      "id": "maximilian-ii-at", "title": "Maximilian II. (Österreich ob u. unter der Enns)", "short": "Maximilian II.", "start": "1564-07-25", "end": "1576-10-12", "importance": 2,
+      "id": "maximilian-ii-at", "title": "Maximilian II. (Österreich ob u. unter der Enns)", "short": "Maximilian II.", "start": "1564-07-25", "end": "1576-10-12", "importance": 2, "life": { "start": "1527-07-31", "end": "1576-10-12" },
       "description": "Erhielt bei der Länderteilung 1564 Österreich ob und unter der Enns (Ober- und Niederösterreich) sowie Böhmen und Ungarn.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Böhmen, Ungarn" }
     },
     {
-      "id": "ferdinand-ii-tirol", "title": "Ferdinand II. (Tirol)", "start": "1564-07-25", "end": "1595-01-24", "importance": 2,
+      "id": "ferdinand-ii-tirol", "title": "Ferdinand II. (Tirol)", "start": "1564-07-25", "end": "1595-01-24", "importance": 2, "life": { "start": "1529-06-14", "end": "1595-01-24" },
       "description": "Erhielt 1564 Tirol und die Vorlande. Residierte in Innsbruck und auf Schloss Ambras, wo er eine berühmte Kunst- und Wunderkammer anlegte; verheiratet mit Philippine Welser.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich", "Geboren": "14. Juni 1529, Linz", "Gestorben": "24. Jänner 1595, Innsbruck" }
     },
     {
-      "id": "karl-ii-innerosterreich", "title": "Karl II. (Innerösterreich)", "start": "1564-07-25", "end": "1590-07-10", "importance": 2,
+      "id": "karl-ii-innerosterreich", "title": "Karl II. (Innerösterreich)", "start": "1564-07-25", "end": "1590-07-10", "importance": 2, "life": { "start": "1540-06-03", "end": "1590-07-10" },
       "description": "Erhielt 1564 Innerösterreich mit Residenz Graz. Gründete 1585 die Universität Graz und förderte die Gegenreformation.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
       "attributes": { "Herrschaftsgebiet": "Steiermark, Kärnten, Krain, Görz, Triest", "Geboren": "3. Juni 1540, Wien", "Gestorben": "10. Juli 1590, Graz" }
     },
     {
-      "id": "rudolf-ii-at", "title": "Rudolf II. (Österreich ob u. unter der Enns)", "short": "Rudolf II.", "start": "1576-10-12", "end": "1608-06-25", "importance": 2,
+      "id": "rudolf-ii-at", "title": "Rudolf II. (Österreich ob u. unter der Enns)", "short": "Rudolf II.", "start": "1576-10-12", "end": "1608-06-25", "importance": 2, "life": { "start": "1552-07-18", "end": "1612-01-20" },
       "description": "Folgte seinem Vater in Ober- und Niederösterreich. Musste die Länder 1608 im Vertrag von Lieben an seinen Bruder Matthias abtreten.",
       "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Böhmen, Ungarn" }
     },
     {
-      "id": "ferdinand-innerosterreich", "title": "Ferdinand (Innerösterreich)", "start": "1590-07-10", "end": "1619-03-20", "importance": 3,
+      "id": "ferdinand-innerosterreich", "title": "Ferdinand (Innerösterreich)", "start": "1590-07-10", "end": "1619-03-20", "importance": 3, "life": { "start": "1578-07-09", "end": "1637-02-15" },
       "description": "Sohn Karls II., der spätere Kaiser Ferdinand II.; bis 1596 unter Vormundschaft. Setzte ab 1598 die Gegenreformation in Innerösterreich konsequent durch. Das Enddatum markiert seine Nachfolge in den Gesamtländern 1619.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
       "attributes": { "Herrschaftsgebiet": "Innerösterreich", "Geboren": "9. Juli 1578, Graz" }
     },
     {
-      "id": "maximilian-iii-tirol", "title": "Maximilian III. (Tirol)", "short": "Maximilian III.", "start": "1602", "end": "1618-11-02", "importance": 4,
+      "id": "maximilian-iii-tirol", "title": "Maximilian III. (Tirol)", "short": "Maximilian III.", "start": "1602", "end": "1618-11-02", "importance": 4, "life": { "start": "1558-10-12", "end": "1618-11-02" },
       "description": "Der „Deutschmeister“ verwaltete Tirol und die Vorlande als Regent für das Haus Habsburg.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
     },
     {
-      "id": "matthias-at", "title": "Matthias", "start": "1608-06-25", "end": "1619-03-20", "importance": 3,
+      "id": "matthias-at", "title": "Matthias", "start": "1608-06-25", "end": "1619-03-20", "importance": 3, "life": { "start": "1557-02-24", "end": "1619-03-20" },
       "description": "Übernahm im Vertrag von Lieben (1608) von seinem Bruder Rudolf II. Österreich, Ungarn und Mähren.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Ungarn, Mähren; ab 1611 Böhmen" }
     },
     {
-      "id": "ferdinand-ii-at", "title": "Ferdinand II.", "start": "1619-03-20", "end": "1637-02-15", "importance": 2,
+      "id": "ferdinand-ii-at", "title": "Ferdinand II.", "start": "1619-03-20", "end": "1637-02-15", "importance": 2, "life": { "start": "1578-07-09", "end": "1637-02-15" },
       "description": "Vereinigte nach dem Tod des Matthias die österreichischen Länder wieder in einer Hand und setzte die Gegenreformation durch.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "alle österreichischen Länder (Tirol ab 1626 an Leopold V.)" }
     },
     {
-      "id": "leopold-v-tirol", "title": "Leopold V. (Tirol)", "short": "Leopold V.", "start": "1619", "end": "1632-09-13", "importance": 3,
+      "id": "leopold-v-tirol", "title": "Leopold V. (Tirol)", "short": "Leopold V.", "start": "1619", "end": "1632-09-13", "importance": 3, "life": { "start": "1586-10-09", "end": "1632-09-13" },
       "description": "Bruder Ferdinands II.; ab 1619 Statthalter, ab 1626 Landesfürst von Tirol und den Vorlanden. Begründer der jüngeren Tiroler Linie.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
     },
     {
-      "id": "claudia-de-medici", "title": "Claudia de’ Medici (Tirol)", "short": "Claudia de’ Medici", "start": "1632-09-13", "end": "1646", "importance": 3,
+      "id": "claudia-de-medici", "title": "Claudia de’ Medici (Tirol)", "short": "Claudia de’ Medici", "start": "1632-09-13", "end": "1646", "importance": 3, "life": { "start": "1604-06-04", "end": "1648-12-25" },
       "description": "Witwe Leopolds V.; regierte Tirol als Vormünderin ihres Sohnes und hielt das Land weitgehend aus dem Dreißigjährigen Krieg heraus.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
     },
     {
-      "id": "ferdinand-iii-at", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2,
+      "id": "ferdinand-iii-at", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2, "life": { "start": "1608-07-13", "end": "1657-04-02" },
       "description": "Landesfürst der österreichischen Länder (ohne Tirol) während der letzten Phase des Dreißigjährigen Krieges.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "österreichische Länder ohne Tirol, Böhmen, Ungarn" }
     },
     {
-      "id": "ferdinand-karl-tirol", "title": "Ferdinand Karl (Tirol)", "short": "Ferdinand Karl", "start": "1646", "end": "1662-12-30", "importance": 4,
+      "id": "ferdinand-karl-tirol", "title": "Ferdinand Karl (Tirol)", "short": "Ferdinand Karl", "start": "1646", "end": "1662-12-30", "importance": 4, "life": { "start": "1628-05-17", "end": "1662-12-30" },
       "description": "Sohn Leopolds V.; förderte in Innsbruck Oper und Theater (Comödihaus).",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
     },
     {
-      "id": "sigismund-franz-tirol", "title": "Sigismund Franz (Tirol)", "short": "Sigismund Franz", "start": "1662-12-30", "end": "1665-06-25", "importance": 5,
+      "id": "sigismund-franz-tirol", "title": "Sigismund Franz (Tirol)", "short": "Sigismund Franz", "start": "1662-12-30", "end": "1665-06-25", "importance": 5, "life": { "start": "1630-11-27", "end": "1665-06-25" },
       "description": "Letzter Landesfürst der Tiroler Linie; mit seinem Tod fiel Tirol an Leopold I.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
       "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
     },
     {
-      "id": "leopold-i-at", "title": "Leopold I.", "start": "1657-04-02", "end": "1705-05-05", "importance": 1,
+      "id": "leopold-i-at", "title": "Leopold I.", "start": "1657-04-02", "end": "1705-05-05", "importance": 1, "life": { "start": "1640-06-09", "end": "1705-05-05" },
       "description": "Ab 1665 wieder Herr aller österreichischen Länder. Nach dem Sieg von 1683 und dem Großen Türkenkrieg kam ganz Ungarn an die Habsburger.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "österreichische Länder (Tirol ab 1665), Böhmen, Ungarn" }
     },
     {
-      "id": "joseph-i-at", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3,
+      "id": "joseph-i-at", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3, "life": { "start": "1678-07-26", "end": "1711-04-17" },
       "description": "Kurze Regierungszeit, geprägt vom Spanischen Erbfolgekrieg und dem Kuruzzenaufstand in Ungarn.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn" }
     },
     {
-      "id": "karl-vi-at", "title": "Karl VI.", "start": "1711-04-17", "end": "1740-10-20", "importance": 2,
+      "id": "karl-vi-at", "title": "Karl VI.", "start": "1711-04-17", "end": "1740-10-20", "importance": 2, "life": { "start": "1685-10-01", "end": "1740-10-20" },
       "description": "Erließ 1713 die Pragmatische Sanktion über die Unteilbarkeit der habsburgischen Länder und die weibliche Erbfolge.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn, ab 1714 Spanische Niederlande, Mailand, Neapel" }

@@ -37,7 +37,7 @@
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
     {
-      "id": "mohacs-1526", "title": "Schlacht bei Mohács", "start": "1526-08-29", "importance": 1,
+      "id": "mohacs-1526", "title": "Schlacht bei Mohács", "start": "1526-08-29", "importance": 2,
       "description": "Niederlage Ungarns gegen die Osmanen, König Ludwig II. fiel. Aufgrund der Erbverträge von 1515 wurde Ferdinand I. König von Böhmen und (umstritten) Ungarn – Beginn der Donaumonarchie.",
       "place": { "name": "Mohács", "lat": 45.9931, "lon": 18.6830 }
     },
@@ -143,7 +143,7 @@
       "place": { "name": "Prager Burg", "lat": 50.091, "lon": 14.4016 }
     },
     {
-      "id": "weisser-berg-1620", "title": "Schlacht am Weißen Berg", "start": "1620-11-08", "importance": 1,
+      "id": "weisser-berg-1620", "title": "Schlacht am Weißen Berg", "start": "1620-11-08", "importance": 2,
       "description": "Sieg der kaiserlich-ligistischen Truppen über die böhmischen Stände. Folge: Rekatholisierung Böhmens und Festigung der habsburgischen Herrschaft in den Erblanden.",
       "place": { "name": "Bílá Hora, Prag", "lat": 50.0786, "lon": 14.32 }
     },

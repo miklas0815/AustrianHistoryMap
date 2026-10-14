@@ -5,7 +5,7 @@ import { join } from 'node:path';
 
 const DIR = new URL('../public/data/', import.meta.url).pathname;
 const DATE_RE = /^(~)?(-?\d{1,4})(?:-(\d{2})(?:-(\d{2}))?)?$/;
-const KNOWN_FIELDS = new Set(['id', 'title', 'short', 'start', 'end', 'importance', 'description', 'place', 'attributes', 'tags', 'sources']);
+const KNOWN_FIELDS = new Set(['id', 'title', 'short', 'start', 'end', 'importance', 'life', 'description', 'place', 'attributes', 'tags', 'sources']);
 
 const errors = [];
 const warnings = [];
@@ -62,6 +62,15 @@ for (const cat of index?.categories ?? []) {
       const end = typeof it.end === 'string' ? dateKey(it.end) : null;
       if (end === null) fail(where, `ungültiges "end": ${JSON.stringify(it.end)}`);
       else if (start !== null && end < start) fail(where, 'Ende liegt vor dem Beginn');
+    }
+    if (it.life !== undefined) {
+      const ls = typeof it.life?.start === 'string' ? dateKey(it.life.start) : null;
+      if (ls === null) fail(where, `ungültiges "life.start": ${JSON.stringify(it.life?.start)}`);
+      if (it.life?.end !== undefined) {
+        const le = typeof it.life.end === 'string' ? dateKey(it.life.end) : null;
+        if (le === null) fail(where, `ungültiges "life.end": ${JSON.stringify(it.life.end)}`);
+        else if (ls !== null && le < ls) fail(where, 'Lebensende liegt vor der Geburt');
+      }
     }
     if (it.place && (typeof it.place.name !== 'string' || (it.place.lat !== undefined && typeof it.place.lat !== 'number'))) fail(where, 'ungültiger "place"');
     for (const key of Object.keys(it)) if (!KNOWN_FIELDS.has(key)) warnings.push(`${where}: unbekanntes Feld "${key}"`);

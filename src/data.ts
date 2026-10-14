@@ -16,6 +16,8 @@ export interface RawItem {
   end?: string;
   /** 1 = sehr bedeutend … 5 = Detail. */
   importance: number;
+  /** Lebenszeit einer Person, wenn der Balken etwas anderes zeigt (z. B. die Regierungszeit). */
+  life?: { start: string; end?: string };
   description?: string;
   place?: Place;
   attributes?: Record<string, string>;
@@ -48,6 +50,16 @@ export interface Item extends RawItem {
   t0: number;
   t1: number;
   isPoint: boolean;
+  lifeStart?: HistDate;
+  lifeEnd?: HistDate;
+  /** Lebenszeit in Dezimaljahren, falls angegeben. */
+  lifeT0?: number;
+  lifeT1?: number;
+}
+
+/** Gesamter Zeitraum, den ein Eintrag belegt (inklusive Lebenszeit). */
+export function itemSpan(it: Item): [number, number] {
+  return [Math.min(it.t0, it.lifeT0 ?? it.t0), Math.max(it.t1, it.lifeT1 ?? it.t1)];
 }
 
 export interface Dataset {
@@ -62,7 +74,19 @@ export function toItem(raw: RawItem, category: string): Item {
   const t1 = endDecimal(endDate ?? startDate);
   if (t1 < t0) throw new Error(`${raw.id}: Ende liegt vor dem Beginn`);
   // Ohne Enddatum ist ein Eintrag ein Zeitpunkt, auch wenn nur das Jahr bekannt ist.
-  return { ...raw, category, startDate, endDate, t0, t1, isPoint: !raw.end };
+  const item: Item = { ...raw, category, startDate, endDate, t0, t1, isPoint: !raw.end };
+  if (raw.life) {
+    item.lifeStart = parseHistDate(raw.life.start);
+    item.lifeT0 = startDecimal(item.lifeStart);
+    if (raw.life.end) {
+      item.lifeEnd = parseHistDate(raw.life.end);
+      item.lifeT1 = endDecimal(item.lifeEnd);
+    } else {
+      item.lifeT1 = t1;
+    }
+    if (item.lifeT1 < item.lifeT0) throw new Error(`${raw.id}: Lebensende liegt vor der Geburt`);
+  }
+  return item;
 }
 
 export async function loadDataset(baseUrl = 'data/'): Promise<Dataset> {

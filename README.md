@@ -13,10 +13,13 @@ Datenbestand: 1500–1715.
 - **Mausrad / Ziehen**: zoomen und verschieben (Trackpad waagrecht: verschieben)
 - **Kategorien**: oben ein-/ausschalten
 - **Detailgrad**: zeigt bei gleicher Zoomstufe mehr oder weniger Einträge
+- **⟳ Senkrecht / ⟲ Waagrecht**: dreht die Darstellung um 90°: Zeit von oben nach
+  unten, Kategorien als Spalten nebeneinander (seitlich scrollbar)
 - **Klick auf einen Eintrag**: Details mit Ort, Wikipedia-Suche und Kartenlink
-- **PDF / JPEG**: speichert genau die aktuelle Ansicht mit Titel und Datum
+- **PDF / JPEG**: speichert genau die aktuelle Ansicht mit Titel und Datum;
+  Hoch- oder Querformat richtet sich nach der Ausrichtung
 - **Link**: kopiert eine URL, die diese Ansicht wiederherstellt
-  (z. B. `?from=1520&to=1540&cats=herrscher-at,ereignisse-at`)
+  (z. B. `?from=1520&to=1540&cats=herrscher-at,ereignisse-at&orient=v`)
 
 ## Entwicklung
 
@@ -93,10 +96,13 @@ Ein Eintrag:
 | `end` | nein | ohne `end` ist der Eintrag ein Zeitpunkt (Raute), mit `end` ein Zeitraum (Balken) |
 | `importance` | ja | 1 = sehr bedeutend … 5 = Detail; steuert, ab welcher Zoomstufe der Eintrag erscheint |
 | `short` | nein | Kurzform, wenn der volle Titel nicht in den Balken passt |
+| `life` | nein | Lebenszeit `{ "start": "1459-03-22", "end": "1519-01-12" }`, wenn der Balken etwas anderes zeigt (z. B. bei Herrschern die Regierungszeit); wird als blasser Balken dahinter gezeichnet |
 | `description`, `place`, `attributes`, `tags`, `sources` | nein | Detailansicht |
 
 Bei Personen zeigt der Balken je nach Kategorie die Regierungs- bzw. Amtszeit
 (Herrscher, Bürgermeister) oder die Lebensdaten (Baumeister, Komponisten, Maler).
+Bei Herrschern und Landesfürsten liegt die Regierungszeit als kräftiger Balken
+über einem blassen Balken der Lebenszeit (Feld `life`).
 Bei Baumeistern, Komponisten und Malern haben in Österreich bzw. am Habsburgerhof
 tätige Personen Vorrang (Bedeutung 1–3); internationale Namen dienen als Kontext
 (meist 4–5) und erscheinen erst beim Hineinzoomen. Ungefähre Daten

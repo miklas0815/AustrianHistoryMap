@@ -8,10 +8,12 @@ export interface ViewState {
   cats: string[] | null;
   /** Detailgrad −2 … +2. */
   detail: number;
+  /** Ausrichtung: h = Zeit waagrecht (Standard), v = Zeit von oben nach unten. */
+  orient: 'h' | 'v';
   sel?: string;
 }
 
-export const DEFAULT_VIEW: ViewState = { from: 1500, to: 1715, cats: null, detail: 0 };
+export const DEFAULT_VIEW: ViewState = { from: 1500, to: 1715, cats: null, detail: 0, orient: 'h' };
 
 export function parseViewState(search: string): ViewState {
   const p = new URLSearchParams(search);
@@ -28,6 +30,7 @@ export function parseViewState(search: string): ViewState {
     to,
     cats: cats === null ? null : cats.split(',').filter(Boolean),
     detail: Math.max(-2, Math.min(2, Math.round(num('detail', 0)))),
+    orient: p.get('orient') === 'v' ? 'v' : 'h',
     sel: p.get('sel') ?? undefined,
   };
 }
@@ -39,6 +42,7 @@ export function serializeViewState(s: ViewState): string {
   p.set('to', round(s.to));
   if (s.cats) p.set('cats', s.cats.join(','));
   if (s.detail) p.set('detail', String(s.detail));
+  if (s.orient === 'v') p.set('orient', 'v');
   if (s.sel) p.set('sel', s.sel);
   return '?' + p.toString().replace(/%2C/g, ',');
 }

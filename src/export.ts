@@ -27,7 +27,7 @@ export async function exportPdf(svg: SVGSVGElement, filename: string, format: Pd
   const doc =
     format === 'fit'
       ? new jsPDF({ orientation: width >= height ? 'landscape' : 'portrait', unit: 'pt', format: [width + 2 * margin, height + 2 * margin] })
-      : new jsPDF({ orientation: 'landscape', unit: 'pt', format });
+      : new jsPDF({ orientation: width >= height ? 'landscape' : 'portrait', unit: 'pt', format });
 
   const pageW = doc.internal.pageSize.getWidth();
   const pageH = doc.internal.pageSize.getHeight();
@@ -36,8 +36,12 @@ export async function exportPdf(svg: SVGSVGElement, filename: string, format: Pd
   doc.save(filename);
 }
 
-export async function exportImage(svg: SVGSVGElement, filename: string, type: 'image/jpeg' | 'image/png', pixelRatio = 2): Promise<void> {
+/** Größte Kantenlänge des exportierten Bildes; größere Canvas-Flächen scheitern in manchen Browsern. */
+const MAX_IMAGE_SIDE = 8000;
+
+export async function exportImage(svg: SVGSVGElement, filename: string, type: 'image/jpeg' | 'image/png', maxPixelRatio = 2): Promise<void> {
   const { width, height } = svgSize(svg);
+  const pixelRatio = Math.min(maxPixelRatio, MAX_IMAGE_SIDE / Math.max(width, height));
   const source = new XMLSerializer().serializeToString(svg);
   const img = new Image();
   img.decoding = 'sync';

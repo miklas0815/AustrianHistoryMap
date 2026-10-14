@@ -49,6 +49,9 @@ button:disabled { opacity: .5; cursor: progress; }
 
 .layout { flex: 1; display: flex; min-height: 0; position: relative; }
 .chart { flex: 1; min-width: 0; overflow-x: hidden; }
+/* Senkrecht: Zeit von oben nach unten, Spalten bei Bedarf seitlich scrollbar. */
+.chart.vertical { overflow-x: auto; }
+#rotate[aria-pressed=true] { background: #eef3fa; border-color: #1f5fad; }
 .chart svg { display: block; touch-action: none; user-select: none; }
 .chart svg [data-id]:hover rect, .chart svg [data-id]:hover path { filter: brightness(1.12); }
 
