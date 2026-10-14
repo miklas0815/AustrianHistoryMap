@@ -1,0 +1,109 @@
+# Österreichische Geschichte – Zeitleiste
+
+Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Wiener Bürgermeister,
+Baumeister, Ereignisse in Österreich und international). Zoomen blendet je nach
+Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
+oder JPEG speichern und als Link teilen.
+
+Startdatenbestand: 1500–1600.
+
+## Bedienung
+
+- **Mausrad / Ziehen**: zoomen und verschieben (Trackpad waagrecht: verschieben)
+- **Kategorien**: oben ein-/ausschalten
+- **Detailgrad**: zeigt bei gleicher Zoomstufe mehr oder weniger Einträge
+- **Klick auf einen Eintrag**: Details mit Ort, Wikipedia-Suche und Kartenlink
+- **PDF / JPEG**: speichert genau die aktuelle Ansicht mit Titel und Datum
+- **Link**: kopiert eine URL, die diese Ansicht wiederherstellt
+  (z. B. `?from=1520&to=1540&cats=herrscher-at,ereignisse-at`)
+
+## Entwicklung
+
+```bash
+npm install
+npm run dev        # lokaler Server mit Live-Reload
+npm test           # Unit-Tests
+npm run validate   # Daten prüfen
+npm run build      # prüft Daten + Typen, erzeugt dist/
+```
+
+## Veröffentlichen (easyname)
+
+1. `npm run build`
+2. Den **Inhalt** von `dist/` per FTP/SFTP in das gewünschte Verzeichnis am
+   Webspace hochladen (funktioniert auch in einem Unterordner).
+
+Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank. Daten können
+auch nach dem Hochladen direkt in `data/*.json` am Server geändert werden, ohne neu
+zu bauen.
+
+## Daten pflegen
+
+Alle Daten liegen in `public/data/`:
+
+- `categories.json` – Kategorien mit Name, Farbe, Reihenfolge und Datei
+- eine Datei pro Kategorie, z. B. `ereignisse-at.json`
+
+Ein Eintrag:
+
+```json
+{
+  "id": "tuerkenbelagerung-1529",
+  "title": "Erste Wiener Türkenbelagerung",
+  "short": "Türkenbelagerung",
+  "start": "1529-09-27",
+  "end": "1529-10-14",
+  "importance": 1,
+  "description": "…",
+  "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+  "attributes": { "Verteidiger": "Niklas Graf Salm" },
+  "sources": ["https://…"]
+}
+```
+
+| Feld | Pflicht | Bedeutung |
+|---|---|---|
+| `id` | ja | eindeutig über alle Dateien |
+| `title` | ja | Beschriftung |
+| `start` | ja | `"1529"`, `"1529-09"`, `"1529-09-27"`; `"~1460"` = um 1460 |
+| `end` | nein | ohne `end` ist der Eintrag ein Zeitpunkt (Raute), mit `end` ein Zeitraum (Balken) |
+| `importance` | ja | 1 = sehr bedeutend … 5 = Detail; steuert, ab welcher Zoomstufe der Eintrag erscheint |
+| `short` | nein | Kurzform, wenn der volle Titel nicht in den Balken passt |
+| `description`, `place`, `attributes`, `tags`, `sources` | nein | Detailansicht |
+
+Bei Personen zeigt der Balken je nach Kategorie die Regierungs- bzw. Amtszeit
+(Herrscher, Bürgermeister) oder die Lebensdaten (Baumeister). Ungefähre Daten
+(`~`) werden mit auslaufenden Balkenenden dargestellt.
+
+Nach jeder Änderung `npm run validate` ausführen. Das Skript meldet ungültige
+Daten, doppelte IDs und falsche Felder.
+
+### Wie die Bedeutung wirkt
+
+Wie viele Stufen sichtbar sind, hängt davon ab, wie viele Pixel ein Jahr gerade
+breit ist (`src/layout.ts`, `MIN_PX_PER_YEAR`). Auf einem breiten Bildschirm sind
+bei 100 Jahren die Stufen 1–4 sichtbar, am Handy 1–2. Kurze Balken der
+niedrigsten sichtbaren Stufe bleiben unbeschriftet, bis man hineinzoomt.
+
+## Aufbau
+
+```
+public/data/        Daten (JSON), werden zur Laufzeit geladen
+src/dates.ts        historische Datumsangaben ↔ Dezimaljahre, deutsche Formatierung
+src/data.ts         Laden der Daten
+src/layout.ts       Bedeutungsfilter und Zeilenverteilung pro Kategorie
+src/ticks.ts        Achsenteilung (Jahrhunderte bis Monate)
+src/render.ts       Zeichnen als SVG (identisch für Bildschirm, PDF, JPEG)
+src/export.ts       PDF (jsPDF + svg2pdf.js) und JPEG (Canvas)
+src/state.ts        Ansicht ↔ URL
+src/main.ts         Zoom, Bedienelemente, Detailansicht
+scripts/validate-data.mjs   Datenprüfung
+```
+
+## Datenquellen
+
+Die Startdaten wurden aus allgemein zugänglichen Nachschlagewerken zusammengestellt
+(u. a. Wikipedia, Wien Geschichte Wiki) und sollten vor einer Veröffentlichung
+fachlich geprüft werden. Die Amtszeiten der Wiener Bürgermeister des
+16. Jahrhunderts sind meist nur jahresgenau überliefert und in der Literatur teils
+umstritten.

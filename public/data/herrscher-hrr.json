@@ -1,0 +1,35 @@
+{
+  "category": "herrscher-hrr",
+  "items": [
+    {
+      "id": "maximilian-i-hrr", "title": "Maximilian I.", "start": "1486-02-16", "end": "1519-01-12", "importance": 1,
+      "description": "1486 zum römisch-deutschen König gewählt, nach dem Tod Friedrichs III. (1493) Alleinherrscher; nahm 1508 in Trient den Titel „Erwählter Römischer Kaiser“ an. Begründete durch seine Heiratspolitik den Aufstieg der Habsburger.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.8150, "lon": 16.2460 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "22. März 1459, Wiener Neustadt", "Gestorben": "12. Jänner 1519, Wels", "Kaisertitel": "ab 4. Februar 1508" }
+    },
+    {
+      "id": "karl-v-hrr", "title": "Karl V.", "start": "1519-06-28", "end": "1558-03-14", "importance": 1,
+      "description": "Am 28. Juni 1519 in Frankfurt gewählt, 1530 in Bologna vom Papst zum Kaiser gekrönt. Herrschte über ein Reich, „in dem die Sonne nie unterging“. Dankte 1556 ab; wirksam wurde der Verzicht auf die Kaiserwürde 1558.",
+      "place": { "name": "Frankfurt am Main", "lat": 50.1109, "lon": 8.6821 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "24. Februar 1500, Gent", "Gestorben": "21. September 1558, Yuste", "Kaiserkrönung": "24. Februar 1530, Bologna" }
+    },
+    {
+      "id": "ferdinand-i-hrr", "title": "Ferdinand I.", "start": "1558-03-14", "end": "1564-07-25", "importance": 1,
+      "description": "Bruder Karls V.; seit 1531 römisch-deutscher König, ab 1558 Kaiser. Mit ihm beginnt die Linie der österreichischen Habsburger als Kaiser.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "10. März 1503, Alcalá de Henares", "Gestorben": "25. Juli 1564, Wien", "Röm.-dt. König": "ab 5. Jänner 1531" }
+    },
+    {
+      "id": "maximilian-ii-hrr", "title": "Maximilian II.", "start": "1564-07-25", "end": "1576-10-12", "importance": 2,
+      "description": "Sohn Ferdinands I.; galt als dem Protestantismus zugeneigt und gewährte dem niederösterreichischen Adel Religionsfreiheit.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "31. Juli 1527, Wien", "Gestorben": "12. Oktober 1576, Regensburg" }
+    },
+    {
+      "id": "rudolf-ii-hrr", "title": "Rudolf II.", "start": "1576-10-12", "end": "1612-01-20", "importance": 1,
+      "description": "Verlegte die Residenz 1583 nach Prag, das unter ihm zu einem Zentrum von Kunst und Wissenschaft wurde (Kepler, Tycho Brahe, Arcimboldo).",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Dynastie": "Habsburg", "Geboren": "18. Juli 1552, Wien", "Gestorben": "20. Jänner 1612, Prag" }
+    }
+  ]
+}

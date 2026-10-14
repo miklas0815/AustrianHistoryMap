@@ -1,0 +1,29 @@
+{
+  "name": "austrian-history-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interaktive Zeitleiste zur österreichischen Geschichte mit auswählbaren Kategorien, Zoom nach Bedeutung und PDF/JPEG-Export.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "jspdf": "^4.2.1",
+    "svg2pdf.js": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-selection": "^3.0.12",
+    "@types/d3-zoom": "^3.0.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}

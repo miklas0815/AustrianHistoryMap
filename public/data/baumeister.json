@@ -1,0 +1,84 @@
+{
+  "category": "baumeister",
+  "note": "Balken zeigen die Lebensdaten. Ungefähre Angaben sind mit ~ gekennzeichnet.",
+  "items": [
+    {
+      "id": "anton-pilgram", "title": "Anton Pilgram", "start": "~1460", "end": "~1515", "importance": 2,
+      "description": "Bildhauer und Baumeister aus Brünn, ab 1511 Dombaumeister von St. Stephan in Wien. Schuf den Orgelfuß (1513) mit seinem berühmten Selbstbildnis; die Kanzel wird ihm traditionell zugeschrieben.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Orgelfuß im Stephansdom (1513), Kanzel (zugeschrieben)", "Wirkungsorte": "Brünn, Wien" }
+    },
+    {
+      "id": "johann-tscherte", "title": "Johann Tscherte", "start": "~1480", "end": "1552", "importance": 4,
+      "description": "Kaiserlicher Baumeister in Wien, verantwortlich für Festungsbauten in Niederösterreich und Ungarn; Freund Albrecht Dürers.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Funktion": "Niederösterreichischer Landbaumeister" }
+    },
+    {
+      "id": "hermes-schallautzer", "title": "Hermes Schallautzer", "start": "1503", "end": "1561", "importance": 3,
+      "description": "Wiener Bürgermeister und Stadtbaumeister; leitete ab 1547 den Ausbau der Wiener Stadtbefestigung zur Bastionsfestung nach der Türkenbelagerung von 1529.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Renaissance-Befestigung Wiens (Bastionen)" }
+    },
+    {
+      "id": "bonifaz-wolmuet", "title": "Bonifaz Wolmuet", "start": "~1500", "end": "1579", "importance": 3,
+      "description": "Baumeister und Kartograf. Schuf 1547 einen genauen Rundplan Wiens, der den Zustand der Stadt und ihrer Befestigung dokumentiert; später in Prag tätig (Ballhaus, Vollendung des Belvedere).",
+      "place": { "name": "Wien / Prag", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Wolmuet-Plan von Wien (1547), Ballhaus im Prager Burggarten" }
+    },
+    {
+      "id": "domenico-dellallio", "title": "Domenico dell’Allio", "start": "~1505", "end": "1563", "importance": 3,
+      "description": "Italienischer Festungs- und Baumeister in der Steiermark. Plante die Befestigung von Graz und das Grazer Landhaus mit seinem berühmten Arkadenhof (ab 1557).",
+      "place": { "name": "Landhaus Graz", "lat": 47.0703, "lon": 15.4393 },
+      "attributes": { "Werke": "Grazer Landhaus, Festungswerke in Graz, Klagenfurt und Varaždin" }
+    },
+    {
+      "id": "pietro-ferrabosco", "title": "Pietro Ferrabosco", "start": "1512", "end": "~1588", "importance": 3,
+      "description": "Italienischer Maler und Baumeister am Wiener Hof. Ihm wird das Schweizertor der Hofburg (1552) zugeschrieben; tätig auch am Ausbau der Hofburg und an Festungsbauten.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Werke": "Schweizertor der Hofburg (zugeschrieben), Stallburg (Mitwirkung)" }
+    },
+    {
+      "id": "jacopo-strada", "title": "Jacopo Strada", "start": "~1510", "end": "1588", "importance": 3,
+      "description": "Antiquar, Architekt und Kunstagent der Kaiser Ferdinand I., Maximilian II. und Rudolf II.; beteiligt an Entwürfen für das Schloss Neugebäude bei Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Schloss Neugebäude (Mitwirkung), Antiquarium der Münchner Residenz (Entwurf)" }
+    },
+    {
+      "id": "hans-saphoy", "title": "Hans Saphoy", "start": "~1530", "end": "1578", "importance": 4,
+      "description": "Dombaumeister von St. Stephan. Unter ihm erhielt der unvollendete Nordturm des Stephansdoms seinen Renaissance-Turmhelm (1578 fertiggestellt).",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Turmhelm des Nordturms von St. Stephan" }
+    },
+    {
+      "id": "bramante", "title": "Donato Bramante", "start": "~1444", "end": "1514-03-11", "importance": 3, "tags": ["international"],
+      "description": "Architekt der Hochrenaissance; lieferte den ersten Entwurf für den Neubau des Petersdoms in Rom (Grundsteinlegung 1506).",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Werke": "Tempietto, Neubau-Plan für St. Peter" }
+    },
+    {
+      "id": "michelangelo", "title": "Michelangelo Buonarroti", "short": "Michelangelo", "start": "1475-03-06", "end": "1564-02-18", "importance": 1, "tags": ["international"],
+      "description": "Bildhauer, Maler und Architekt; ab 1546 leitender Architekt von St. Peter in Rom, entwarf die Kuppel.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Werke": "Kuppel von St. Peter, Kapitolsplatz, Biblioteca Laurenziana" }
+    },
+    {
+      "id": "mimar-sinan", "title": "Mimar Sinan", "start": "~1490", "end": "1588-07-17", "importance": 2, "tags": ["international"],
+      "description": "Hofarchitekt der osmanischen Sultane ab 1538, prägte die klassische osmanische Architektur.",
+      "place": { "name": "Istanbul", "lat": 41.0161, "lon": 28.9640 },
+      "attributes": { "Werke": "Süleymaniye-Moschee (Istanbul), Selimiye-Moschee (Edirne)" }
+    },
+    {
+      "id": "vignola", "title": "Giacomo Barozzi da Vignola", "short": "Vignola", "start": "1507-10-01", "end": "1573-07-07", "importance": 4, "tags": ["international"],
+      "description": "Architekt und Theoretiker; seine Kirche Il Gesù in Rom wurde Vorbild für den Kirchenbau der Gegenreformation.",
+      "place": { "name": "Rom", "lat": 41.8960, "lon": 12.4799 },
+      "attributes": { "Werke": "Il Gesù, Villa Farnese (Caprarola), Traktat „Regola delli cinque ordini“ (1562)" }
+    },
+    {
+      "id": "andrea-palladio", "title": "Andrea Palladio", "start": "1508-11-30", "end": "1580-08-19", "importance": 2, "tags": ["international"],
+      "description": "Einflussreichster Architekt der Spätrenaissance; seine „Quattro libri dell’architettura“ (1570) wirkten über Jahrhunderte.",
+      "place": { "name": "Vicenza", "lat": 45.5455, "lon": 11.5354 },
+      "attributes": { "Werke": "Villa Rotonda, Basilica Palladiana, San Giorgio Maggiore (Venedig)" }
+    }
+  ]
+}

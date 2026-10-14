@@ -1,0 +1,150 @@
+{
+  "category": "ereignisse-int",
+  "items": [
+    {
+      "id": "italienische-kriege", "title": "Italienische Kriege", "start": "1494", "end": "1559-04-03", "importance": 2,
+      "description": "Kriege um die Vorherrschaft in Italien, vor allem zwischen Frankreich und den Habsburgern; beendet durch den Frieden von Cateau-Cambrésis.",
+      "place": { "name": "Italien", "lat": 43.0, "lon": 12.0 }
+    },
+    {
+      "id": "petersdom-1506", "title": "Grundsteinlegung des neuen Petersdoms", "start": "1506-04-18", "importance": 3,
+      "description": "Papst Julius II. legte den Grundstein für den Neubau nach Plänen Bramantes. Der Ablasshandel zur Finanzierung wurde zu einem Auslöser der Reformation.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "sixtina-1508", "title": "Michelangelo malt die Sixtinische Decke", "start": "1508", "end": "1512", "importance": 3,
+      "description": "Deckenfresken der Sixtinischen Kapelle im Auftrag Papst Julius’ II.",
+      "place": { "name": "Vatikan", "lat": 41.9029, "lon": 12.4545 }
+    },
+    {
+      "id": "thesen-luther-1517", "title": "Luthers 95 Thesen", "start": "1517-10-31", "importance": 1,
+      "description": "Martin Luther veröffentlichte in Wittenberg seine Thesen gegen den Ablasshandel – Beginn der Reformation.",
+      "place": { "name": "Wittenberg", "lat": 51.8664, "lon": 12.6433 }
+    },
+    {
+      "id": "magellan-1519", "title": "Erste Weltumsegelung (Magellan/Elcano)", "start": "1519-09-20", "end": "1522-09-06", "importance": 2,
+      "description": "Die spanische Expedition unter Ferdinand Magellan umrundete erstmals die Erde; Magellan fiel 1521, Juan Sebastián Elcano führte die Fahrt zu Ende.",
+      "place": { "name": "Sanlúcar de Barrameda", "lat": 36.7781, "lon": -6.3515 }
+    },
+    {
+      "id": "sueleyman-1520", "title": "Süleyman I. wird Sultan", "start": "1520-09", "importance": 3,
+      "description": "Unter Süleyman dem Prächtigen erreichte das Osmanische Reich seine größte Machtentfaltung; er führte die Feldzüge gegen Ungarn und Wien.",
+      "place": { "name": "Istanbul", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "reichstag-worms-1521", "title": "Reichstag zu Worms", "start": "1521-01", "end": "1521-05", "importance": 2,
+      "description": "Luther verweigerte vor Karl V. den Widerruf; das Wormser Edikt verhängte die Reichsacht über ihn.",
+      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
+    },
+    {
+      "id": "tenochtitlan-1521", "title": "Eroberung Tenochtitláns", "start": "1521-08-13", "importance": 2,
+      "description": "Hernán Cortés eroberte die Hauptstadt der Azteken – Beginn der spanischen Kolonialherrschaft in Mexiko.",
+      "place": { "name": "Tenochtitlán (Mexiko-Stadt)", "lat": 19.4326, "lon": -99.1332 }
+    },
+    {
+      "id": "bauernkrieg-1524", "title": "Deutscher Bauernkrieg", "start": "1524", "end": "1526", "importance": 2,
+      "description": "Erhebungen von Bauern in weiten Teilen Süd- und Mitteldeutschlands, blutig niedergeschlagen (Schlacht bei Frankenhausen 1525).",
+      "place": { "name": "Süddeutschland", "lat": 48.8, "lon": 9.5 }
+    },
+    {
+      "id": "sacco-di-roma-1527", "title": "Sacco di Roma", "start": "1527-05-06", "importance": 3,
+      "description": "Plünderung Roms durch meuternde Truppen Karls V.",
+      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "confessio-augustana-1530", "title": "Confessio Augustana", "start": "1530-06-25", "importance": 3,
+      "description": "Das Augsburger Bekenntnis der lutherischen Reichsstände wurde auf dem Reichstag zu Augsburg verlesen.",
+      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
+    },
+    {
+      "id": "pizarro-1532", "title": "Pizarro nimmt Atahualpa gefangen", "start": "1532-11-16", "importance": 3,
+      "description": "In Cajamarca nahm Francisco Pizarro den Inka-Herrscher gefangen – Beginn der Eroberung des Inkareichs.",
+      "place": { "name": "Cajamarca", "lat": -7.1638, "lon": -78.5003 }
+    },
+    {
+      "id": "suprematsakte-1534", "title": "Suprematsakte in England", "start": "1534-11", "importance": 2,
+      "description": "Heinrich VIII. wurde Oberhaupt der Kirche von England – Bruch mit Rom.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "kopernikus-1543", "title": "Kopernikus: De revolutionibus", "start": "1543", "importance": 2,
+      "description": "Nikolaus Kopernikus veröffentlichte sein heliozentrisches Weltbild.",
+      "place": { "name": "Nürnberg (Druckort)", "lat": 49.4521, "lon": 11.0767 }
+    },
+    {
+      "id": "konzil-trient", "title": "Konzil von Trient", "start": "1545-12-13", "end": "1563-12-04", "importance": 1,
+      "description": "Reformkonzil der katholischen Kirche als Antwort auf die Reformation; Grundlage der Gegenreformation.",
+      "place": { "name": "Trient", "lat": 46.0679, "lon": 11.1211 }
+    },
+    {
+      "id": "schmalkaldischer-krieg", "title": "Schmalkaldischer Krieg", "start": "1546-07", "end": "1547-05", "importance": 3,
+      "description": "Karl V. besiegte den Bund der protestantischen Fürsten in der Schlacht bei Mühlberg (24. April 1547).",
+      "place": { "name": "Mühlberg/Elbe", "lat": 51.4333, "lon": 13.2167 }
+    },
+    {
+      "id": "augsburger-religionsfriede-1555", "title": "Augsburger Religionsfriede", "start": "1555-09-25", "importance": 1,
+      "description": "Reichsgesetz, das Lutheranern und Katholiken ein Nebeneinander im Reich erlaubte: „cuius regio, eius religio“.",
+      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
+    },
+    {
+      "id": "abdankung-karl-v-1556", "title": "Abdankung Karls V.", "start": "1556", "importance": 2,
+      "description": "Teilung des Habsburgerreichs in eine spanische Linie (Philipp II.) und eine österreichische Linie (Ferdinand I.).",
+      "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 }
+    },
+    {
+      "id": "elisabeth-i-1558", "title": "Elisabeth I. wird Königin von England", "start": "1558-11-17", "importance": 3,
+      "description": "Beginn des „Elisabethanischen Zeitalters“ (bis 1603).",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "hugenottenkriege", "title": "Hugenottenkriege", "start": "1562", "end": "1598", "importance": 2,
+      "description": "Konfessionelle Bürgerkriege in Frankreich, beendet durch das Edikt von Nantes.",
+      "place": { "name": "Frankreich", "lat": 46.6, "lon": 2.4 }
+    },
+    {
+      "id": "achtzigjaehriger-krieg", "title": "Achtzigjähriger Krieg (Beginn)", "start": "1568", "end": "1648", "importance": 2,
+      "description": "Aufstand der Niederlande gegen die spanische Herrschaft; endete mit der Anerkennung der Republik im Westfälischen Frieden 1648.",
+      "place": { "name": "Niederlande", "lat": 52.1, "lon": 5.3 }
+    },
+    {
+      "id": "lepanto-1571", "title": "Seeschlacht von Lepanto", "start": "1571-10-07", "importance": 2,
+      "description": "Sieg der Heiligen Liga unter Don Juan de Austria über die osmanische Flotte.",
+      "place": { "name": "Golf von Patras", "lat": 38.25, "lon": 21.2 }
+    },
+    {
+      "id": "bartholomaeusnacht-1572", "title": "Bartholomäusnacht", "start": "1572-08-24", "importance": 2,
+      "description": "Massaker an Hugenotten in Paris und anderen französischen Städten.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "utrechter-union-1579", "title": "Utrechter Union", "start": "1579-01-23", "importance": 3,
+      "description": "Zusammenschluss der nördlichen niederländischen Provinzen gegen Spanien.",
+      "place": { "name": "Utrecht", "lat": 52.0907, "lon": 5.1214 }
+    },
+    {
+      "id": "plakkaat-1581", "title": "Unabhängigkeitserklärung der Niederlande", "start": "1581-07-26", "importance": 2,
+      "description": "Mit dem „Plakkaat van Verlatinghe“ sagten sich die Generalstaaten von Philipp II. los.",
+      "place": { "name": "Den Haag", "lat": 52.0705, "lon": 4.3007 }
+    },
+    {
+      "id": "gregorianischer-kalender-1582", "title": "Gregorianischer Kalender", "start": "1582-10-15", "importance": 2,
+      "description": "Papst Gregor XIII. führte die Kalenderreform ein: Auf den 4. folgte der 15. Oktober 1582. In den österreichischen Ländern wurde er 1583/84 übernommen.",
+      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "armada-1588", "title": "Untergang der Spanischen Armada", "start": "1588-07", "end": "1588-09", "importance": 2,
+      "description": "Die spanische Invasionsflotte gegen England scheiterte; Aufstieg Englands zur Seemacht.",
+      "place": { "name": "Ärmelkanal", "lat": 50.2, "lon": -1.0 }
+    },
+    {
+      "id": "edikt-nantes-1598", "title": "Edikt von Nantes", "start": "1598-04-13", "importance": 2,
+      "description": "Heinrich IV. gewährte den Hugenotten Religionsfreiheit und beendete die Hugenottenkriege.",
+      "place": { "name": "Nantes", "lat": 47.2184, "lon": -1.5536 }
+    },
+    {
+      "id": "giordano-bruno-1600", "title": "Hinrichtung Giordano Brunos", "start": "1600-02-17", "importance": 3,
+      "description": "Der Philosoph wurde von der Inquisition in Rom als Ketzer verbrannt.",
+      "place": { "name": "Rom, Campo de’ Fiori", "lat": 41.8956, "lon": 12.4722 }
+    }
+  ]
+}
