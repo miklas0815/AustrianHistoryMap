@@ -42,7 +42,7 @@
       "place": { "name": "Mohács", "lat": 45.9931, "lon": 18.6830 }
     },
     {
-      "id": "tuerkenbelagerung-1529", "title": "Erste Wiener Türkenbelagerung", "start": "1529-09-27", "end": "1529-10-14", "importance": 1,
+      "id": "osmanenbelagerung-1529", "title": "Erste Wiener Osmanenbelagerung", "start": "1529-09-27", "end": "1529-10-14", "importance": 1,
       "description": "Das osmanische Heer unter Sultan Süleyman I. belagerte Wien. Die Verteidigung unter Niklas Graf Salm hielt stand, die Osmanen zogen ab.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Verteidiger": "Niklas Graf Salm", "Angreifer": "Süleyman I." }
