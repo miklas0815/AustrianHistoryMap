@@ -1,6 +1,6 @@
 {
   "category": "komponisten",
-  "note": "Balken zeigen die Lebensdaten. Musiker an den Habsburgerhöfen (Wien, Innsbruck, Graz, Prag) haben Vorrang (Bedeutung 1–3), internationale Komponisten dienen als Kontext (4–5).",
+  "note": "Balken zeigen die Lebensdaten. Musiker mit Österreichbezug (Habsburgerhöfe in Wien, Innsbruck, Graz, Prag) haben Vorrang (Bedeutung 1–3), internationale Komponisten dienen als Kontext (4–5) und erscheinen erst beim Hineinzoomen.",
   "items": [
     {
       "id": "heinrich-isaac", "title": "Heinrich Isaac", "start": "~1450", "end": "1517-03-26", "importance": 1,
@@ -9,7 +9,7 @@
       "attributes": { "Wirkungsorte": "Florenz, Innsbruck, Wien, Konstanz", "Werke": "„Innsbruck, ich muss dich lassen“, Choralis Constantinus" }
     },
     {
-      "id": "paul-hofhaimer", "title": "Paul Hofhaimer", "start": "1459-01-25", "end": "1537", "importance": 2,
+      "id": "paul-hofhaimer", "title": "Paul Hofhaimer", "start": "1459-01-25", "end": "1537", "importance": 1,
       "description": "Aus Radstadt stammender Organist und Komponist, Hoforganist Maximilians I.; galt als bedeutendster Organist seiner Zeit. Später Domorganist in Salzburg.",
       "place": { "name": "Radstadt", "lat": 47.3833, "lon": 13.4589 },
       "attributes": { "Wirkungsorte": "Innsbruck, Wien, Augsburg, Salzburg" }
@@ -21,7 +21,7 @@
       "attributes": { "Wirkungsorte": "Wien, Augsburg, München" }
     },
     {
-      "id": "arnold-von-bruck", "title": "Arnold von Bruck", "start": "~1500", "end": "1554-02-06", "importance": 3,
+      "id": "arnold-von-bruck", "title": "Arnold von Bruck", "start": "~1500", "end": "1554-02-06", "importance": 2,
       "description": "Aus Brügge stammend; von 1527 bis 1545 Hofkapellmeister Ferdinands I. in Wien.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Funktion": "Hofkapellmeister Ferdinands I. (1527–1545)", "Gestorben": "Linz" }
@@ -39,13 +39,13 @@
       "attributes": { "Funktion": "Hofkapellmeister (ab 1568)" }
     },
     {
-      "id": "annibale-padovano", "title": "Annibale Padovano", "start": "1527", "end": "1575-03-15", "importance": 4,
+      "id": "annibale-padovano", "title": "Annibale Padovano", "start": "1527", "end": "1575-03-15", "importance": 3,
       "description": "Organist an San Marco in Venedig, ab 1566 im Dienst Erzherzog Karls II. am Grazer Hof.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
       "attributes": { "Wirkungsorte": "Venedig, Graz" }
     },
     {
-      "id": "alexander-utendal", "title": "Alexander Utendal", "start": "~1543", "end": "1581-05-07", "importance": 4,
+      "id": "alexander-utendal", "title": "Alexander Utendal", "start": "~1543", "end": "1581-05-07", "importance": 3,
       "description": "Flämischer Komponist in der Hofkapelle Erzherzog Ferdinands II. in Prag und Innsbruck.",
       "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
     },
@@ -56,7 +56,7 @@
       "attributes": { "Werke": "Opus musicum (1586–1590)" }
     },
     {
-      "id": "lambert-de-sayve", "title": "Lambert de Sayve", "start": "~1549", "end": "1614-02-16", "importance": 4,
+      "id": "lambert-de-sayve", "title": "Lambert de Sayve", "start": "~1549", "end": "1614-02-16", "importance": 3,
       "description": "Hofkapellmeister Erzherzog Matthias’ und später der kaiserlichen Hofkapelle; starb in Linz.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },

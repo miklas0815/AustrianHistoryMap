@@ -7,17 +7,17 @@
       "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
     },
     {
-      "id": "wiener-stadtrecht-1517", "title": "Neues Wiener Stadtrecht", "start": "1517", "importance": 4,
+      "id": "wiener-stadtrecht-1517", "title": "Neues Wiener Stadtrecht", "start": "1517", "importance": 5,
       "description": "Das Stadtrecht Maximilians I. band den Bürgermeister stärker an den Landesfürsten.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
     {
-      "id": "tod-maximilian-1519", "title": "Tod Maximilians I. in Wels", "start": "1519-01-12", "importance": 3,
+      "id": "tod-maximilian-1519", "title": "Tod Maximilians I. in Wels", "start": "1519-01-12", "importance": 4,
       "description": "Nach seinem Tod kam es in Wien und den niederösterreichischen Ländern zu einem Machtkampf zwischen den Ständen und der landesfürstlichen Regierung.",
       "place": { "name": "Wels", "lat": 48.1575, "lon": 14.0289 }
     },
     {
-      "id": "wormser-teilung-1521", "title": "Wormser und Brüsseler Teilungsvertrag", "start": "1521-04-28", "end": "1522-02-07", "importance": 3,
+      "id": "wormser-teilung-1521", "title": "Wormser und Brüsseler Teilungsvertrag", "start": "1521-04-28", "end": "1522-02-07", "importance": 2,
       "description": "Karl V. überließ seinem Bruder Ferdinand die österreichischen Erblande. Damit entstand die österreichische Linie der Habsburger.",
       "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
     },
@@ -32,7 +32,7 @@
       "place": { "name": "Tirol / Salzburg", "lat": 47.5, "lon": 12.5 }
     },
     {
-      "id": "wiener-stadtordnung-1526", "title": "Wiener Stadtordnung Ferdinands I.", "start": "1526", "importance": 4,
+      "id": "wiener-stadtordnung-1526", "title": "Wiener Stadtordnung Ferdinands I.", "start": "1526", "importance": 5,
       "description": "Die neue Stadtordnung unterstellte die Stadt weitgehend der landesfürstlichen Kontrolle.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
@@ -48,7 +48,7 @@
       "attributes": { "Verteidiger": "Niklas Graf Salm", "Angreifer": "Süleyman I." }
     },
     {
-      "id": "guens-1532", "title": "Belagerung von Güns", "start": "1532-08", "importance": 3,
+      "id": "guens-1532", "title": "Belagerung von Güns", "start": "1532-08", "importance": 4,
       "description": "Die kleine Festung Güns (Kőszeg) hielt dem osmanischen Heer wochenlang stand; der Feldzug gegen Wien kam dadurch zum Erliegen.",
       "place": { "name": "Güns (Kőszeg)", "lat": 47.3889, "lon": 16.5408 }
     },
@@ -58,12 +58,12 @@
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
     {
-      "id": "jesuiten-wien-1551", "title": "Jesuiten kommen nach Wien", "start": "1551", "importance": 3,
+      "id": "jesuiten-wien-1551", "title": "Jesuiten kommen nach Wien", "start": "1551", "importance": 4,
       "description": "Ferdinand I. holte die Jesuiten nach Wien; sie wurden zu Trägern der Gegenreformation und des Bildungswesens.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
     {
-      "id": "schweizertor-1552", "title": "Schweizertor der Hofburg", "start": "1552", "importance": 4,
+      "id": "schweizertor-1552", "title": "Schweizertor der Hofburg", "start": "1552", "importance": 5,
       "description": "Das Renaissance-Tor ist das älteste erhaltene Zeugnis des Hofburg-Ausbaus unter Ferdinand I.",
       "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 }
     },
@@ -73,7 +73,7 @@
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     },
     {
-      "id": "hofreitschule-1565", "title": "Spanische Hofreitschule erstmals erwähnt", "start": "1565", "importance": 4,
+      "id": "hofreitschule-1565", "title": "Spanische Hofreitschule erstmals erwähnt", "start": "1565", "importance": 5,
       "description": "Erste Erwähnung eines „Spanischen Reitstalls“ in Wien – Vorläufer der Spanischen Hofreitschule.",
       "place": { "name": "Wien", "lat": 48.2071, "lon": 16.3664 }
     },
@@ -93,12 +93,12 @@
       "place": { "name": "Simmering, Wien", "lat": 48.1630, "lon": 16.4410 }
     },
     {
-      "id": "brucker-libell-1578", "title": "Brucker Libell", "start": "1578", "importance": 3,
+      "id": "brucker-libell-1578", "title": "Brucker Libell", "start": "1578", "importance": 4,
       "description": "Auf dem Landtag in Bruck an der Mur sicherte Erzherzog Karl II. den protestantischen Ständen Innerösterreichs Religionsfreiheit zu.",
       "place": { "name": "Bruck an der Mur", "lat": 47.4106, "lon": 15.2706 }
     },
     {
-      "id": "lipica-1580", "title": "Gründung des Gestüts Lipica", "start": "1580", "importance": 4,
+      "id": "lipica-1580", "title": "Gründung des Gestüts Lipica", "start": "1580", "importance": 5,
       "description": "Erzherzog Karl II. gründete im Karst das Hofgestüt, aus dem die Lipizzaner hervorgingen.",
       "place": { "name": "Lipica", "lat": 45.6681, "lon": 13.8828 }
     },
@@ -108,12 +108,12 @@
       "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 }
     },
     {
-      "id": "uni-graz-1585", "title": "Gründung der Universität Graz", "start": "1585", "importance": 3,
+      "id": "uni-graz-1585", "title": "Gründung der Universität Graz", "start": "1585", "importance": 4,
       "description": "Von Erzherzog Karl II. als Jesuitenuniversität gegründet, als Instrument der Gegenreformation in Innerösterreich.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
     },
     {
-      "id": "erdbeben-1590", "title": "Erdbeben von Neulengbach", "start": "1590-09-15", "importance": 3,
+      "id": "erdbeben-1590", "title": "Erdbeben von Neulengbach", "start": "1590-09-15", "importance": 4,
       "description": "Eines der stärksten Erdbeben der österreichischen Geschichte; auch in Wien wurden zahlreiche Gebäude schwer beschädigt.",
       "place": { "name": "Neulengbach", "lat": 48.1958, "lon": 15.9064 }
     },
@@ -123,12 +123,12 @@
       "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
     },
     {
-      "id": "bauernaufstand-ooe-1594", "title": "Oberösterreichischer Bauernaufstand", "start": "1594", "end": "1597", "importance": 3,
+      "id": "bauernaufstand-ooe-1594", "title": "Oberösterreichischer Bauernaufstand", "start": "1594", "end": "1597", "importance": 4,
       "description": "Aufstand gegen steigende Abgaben und gegenreformatorischen Druck, 1597 niedergeschlagen.",
       "place": { "name": "Oberösterreich", "lat": 48.2, "lon": 14.0 }
     },
     {
-      "id": "gegenreformation-graz-1598", "title": "Gegenreformation in Innerösterreich", "start": "1598-09", "importance": 2,
+      "id": "gegenreformation-graz-1598", "title": "Gegenreformation in Innerösterreich", "start": "1598-09", "importance": 3,
       "description": "Erzherzog Ferdinand ließ die protestantischen Prediger und Lehrer aus Graz ausweisen. Johannes Kepler, Lehrer an der Grazer Stiftsschule, verließ Graz 1600.",
       "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
     }

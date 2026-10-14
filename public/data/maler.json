@@ -1,6 +1,6 @@
 {
   "category": "maler",
-  "note": "Balken zeigen die Lebensdaten. In Österreich bzw. für den Habsburgerhof tätige Maler haben Vorrang (Bedeutung 1–3), internationale Maler dienen als Kontext (3–5).",
+  "note": "Balken zeigen die Lebensdaten. Maler mit Österreichbezug bzw. am Habsburgerhof haben Vorrang (Bedeutung 1–3), internationale Maler dienen als Kontext (4–5) und erscheinen erst beim Hineinzoomen.",
   "items": [
     {
       "id": "albrecht-altdorfer", "title": "Albrecht Altdorfer", "start": "~1480", "end": "1538-02-12", "importance": 1,
@@ -15,13 +15,13 @@
       "attributes": { "Werke": "Annenaltar (Feldkirch)", "Stil": "Donauschule" }
     },
     {
-      "id": "lucas-cranach", "title": "Lucas Cranach d. Ä.", "start": "1472", "end": "1553-10-16", "importance": 2,
+      "id": "lucas-cranach", "title": "Lucas Cranach d. Ä.", "start": "1472", "end": "1553-10-16", "importance": 3,
       "description": "Wirkte um 1502–1505 in Wien und prägte dort die Anfänge der Donauschule; später Hofmaler in Wittenberg und Maler der Reformation.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Werke": "Bildnisse Cuspinian (Wien, um 1502), Kreuzigung (Schottenstift)" }
     },
     {
-      "id": "albrecht-duerer", "title": "Albrecht Dürer", "start": "1471-05-21", "end": "1528-04-06", "importance": 2,
+      "id": "albrecht-duerer", "title": "Albrecht Dürer", "start": "1471-05-21", "end": "1528-04-06", "importance": 3,
       "description": "Arbeitete für Maximilian I. an der Ehrenpforte und am Triumphzug; malte 1519 das bekannte Bildnis des Kaisers (heute im Kunsthistorischen Museum Wien).",
       "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 },
       "attributes": { "Werke": "Bildnis Kaiser Maximilian I. (1519), Ehrenpforte Maximilians I." }
@@ -33,7 +33,7 @@
       "attributes": { "Werke": "Kaiser Maximilian I. und seine Familie" }
     },
     {
-      "id": "jakob-seisenegger", "title": "Jakob Seisenegger", "start": "1505", "end": "1567", "importance": 3,
+      "id": "jakob-seisenegger", "title": "Jakob Seisenegger", "start": "1505", "end": "1567", "importance": 2,
       "description": "Hofmaler Ferdinands I.; malte zahlreiche Bildnisse der Habsburger, darunter Kaiser Karl V. mit Hund.",
       "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
       "attributes": { "Funktion": "Hofmaler Ferdinands I." }
@@ -56,7 +56,7 @@
       "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 }
     },
     {
-      "id": "pieter-bruegel", "title": "Pieter Bruegel d. Ä.", "start": "~1525", "end": "1569-09-09", "importance": 3, "tags": ["international"],
+      "id": "pieter-bruegel", "title": "Pieter Bruegel d. Ä.", "start": "~1525", "end": "1569-09-09", "importance": 4, "tags": ["international"],
       "description": "Flämischer Maler; das Kunsthistorische Museum Wien besitzt die weltweit größte Sammlung seiner Werke (u. a. Turmbau zu Babel, Jäger im Schnee).",
       "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 },
       "attributes": { "Werke": "Turmbau zu Babel (1563), Jäger im Schnee (1565), Bauernhochzeit" }

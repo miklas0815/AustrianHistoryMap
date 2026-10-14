@@ -113,6 +113,19 @@ bei 100 Jahren die Stufen 1–4 sichtbar, am Handy 1–2. Kurze Balken der
 niedrigsten sichtbaren Stufe bleiben unbeschriftet, bis man hineinzoomt.
 Innerhalb einer Spur stehen wichtigere Einträge in den oberen Zeilen.
 
+### Bedeutungsstufen vergeben
+
+| Stufe | Personen (Baumeister, Komponisten, Maler) | Ereignisse und Neuerungen | sichtbar ab (Desktop) |
+|---|---|---|---|
+| 1 | prägende Figuren mit Österreichbezug | 2–3 Highlights pro Jahrhundert und Kategorie | immer |
+| 2 | wichtige Figuren mit Österreichbezug | ca. 4–5 weitere Wendepunkte | ca. 400 Jahre im Bild |
+| 3 | weitere Personen mit Österreichbezug | wichtige Ereignisse | ca. 200 Jahre |
+| 4 | internationale Größen als Kontext | Ergänzungen | ca. 120 Jahre |
+| 5 | weitere internationale Personen | Details | ca. 60 Jahre |
+
+Je weniger Einträge auf den oberen Stufen stehen, desto übersichtlicher ist die
+herausgezoomte Ansicht.
+
 ## Aufbau
 
 ```

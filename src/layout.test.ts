@@ -9,7 +9,7 @@ const x = (t: number) => (t - 1500) * 10; // 10 px pro Jahr
 describe('visibleImportance', () => {
   it('zeigt mit steigender Auflösung mehr Stufen', () => {
     expect(visibleImportance(0.5)).toBe(1);
-    expect(visibleImportance(5)).toBe(3);
+    expect(visibleImportance(7)).toBe(3);
     expect(visibleImportance(50)).toBe(5);
   });
 
