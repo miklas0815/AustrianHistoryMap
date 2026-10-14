@@ -237,6 +237,102 @@
       "description": "Dichter des „Meier Helmbrecht“, angesiedelt im Innviertel.",
       "place": { "name": "Innviertel", "lat": 48.2, "lon": 13.3 },
       "attributes": { "Werke": "Meier Helmbrecht" }
+    },
+    {
+      "id": "hermann-broch", "title": "Hermann Broch", "short": "Broch", "start": "1886-11-01", "end": "1951-05-30", "importance": 2,
+      "description": "Romancier der Moderne, emigrierte 1938.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die Schlafwandler, Der Tod des Vergil" }
+    },
+    {
+      "id": "doderer", "title": "Heimito von Doderer", "short": "Doderer", "start": "1896-09-05", "end": "1966-12-23", "importance": 2,
+      "description": "Romancier Wiens.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die Strudlhofstiege, Die Dämonen" }
+    },
+    {
+      "id": "horvath", "title": "Ödön von Horváth", "short": "Horváth", "start": "1901-12-09", "end": "1938-06-01", "importance": 2,
+      "description": "Dramatiker des Volksstücks.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Geschichten aus dem Wiener Wald, Kasimir und Karoline" }
+    },
+    {
+      "id": "elias-canetti", "title": "Elias Canetti", "short": "Canetti", "start": "1905-07-25", "end": "1994-08-14", "importance": 2,
+      "description": "In Bulgarien geboren, prägende Jahre in Wien; Literaturnobelpreis 1981.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die Blendung, Masse und Macht" }
+    },
+    {
+      "id": "hilde-spiel", "title": "Hilde Spiel", "short": "Spiel", "start": "1911-10-19", "end": "1990-11-30", "importance": 3,
+      "description": "Schriftstellerin und Kulturjournalistin.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "jura-soyfer", "title": "Jura Soyfer", "short": "Soyfer", "start": "1912-12-08", "end": "1939-02-16", "importance": 3,
+      "description": "Kabarettautor, starb im KZ Buchenwald.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "christine-lavant", "title": "Christine Lavant", "short": "Lavant", "start": "1915-07-04", "end": "1973-06-07", "importance": 3,
+      "description": "Kärntner Lyrikerin.",
+      "place": { "name": "Wolfsberg", "lat": 46.8417, "lon": 14.8444 }
+    },
+    {
+      "id": "paul-celan", "title": "Paul Celan", "short": "Celan", "start": "1920-11-23", "end": "1970-04-20", "importance": 3,
+      "description": "Lyriker aus der Bukowina; schrieb in Wien seine ersten Gedichtbände.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Todesfuge" }
+    },
+    {
+      "id": "h-c-artmann", "title": "H. C. Artmann", "short": "Artmann", "start": "1921-06-12", "end": "2000-12-04", "importance": 3,
+      "description": "Dichter der Wiener Gruppe.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "med ana schwoazzn dintn" }
+    },
+    {
+      "id": "ilse-aichinger", "title": "Ilse Aichinger", "short": "Aichinger", "start": "1921-11-01", "end": "2016-11-11", "importance": 3,
+      "description": "Erzählerin der Nachkriegsliteratur.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die größere Hoffnung" }
+    },
+    {
+      "id": "friederike-mayroecker", "title": "Friederike Mayröcker", "short": "Mayröcker", "start": "1924-12-20", "end": "2021-06-04", "importance": 3,
+      "description": "Avantgardistische Lyrikerin.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "ernst-jandl", "title": "Ernst Jandl", "short": "Jandl", "start": "1925-08-01", "end": "2000-06-09", "importance": 2,
+      "description": "Meister der experimentellen und Lautpoesie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "lichtung, ottos mops" }
+    },
+    {
+      "id": "ingeborg-bachmann", "title": "Ingeborg Bachmann", "short": "Bachmann", "start": "1926-06-25", "end": "1973-10-17", "importance": 1,
+      "description": "Klagenfurter Lyrikerin und Erzählerin.",
+      "place": { "name": "Klagenfurt", "lat": 46.6249, "lon": 14.305 },
+      "attributes": { "Werke": "Die gestundete Zeit, Malina" }
+    },
+    {
+      "id": "thomas-bernhard", "title": "Thomas Bernhard", "short": "Bernhard", "start": "1931-02-09", "end": "1989-02-12", "importance": 1,
+      "description": "Schriftsteller und Dramatiker, unerbittlicher Kritiker Österreichs.",
+      "place": { "name": "Gmunden", "lat": 47.9187, "lon": 13.7997 },
+      "attributes": { "Werke": "Heldenplatz, Holzfällen, Auslöschung" }
+    },
+    {
+      "id": "christine-noestlinger", "title": "Christine Nöstlinger", "short": "Nöstlinger", "start": "1936-10-13", "end": "2018-06-28", "importance": 3,
+      "description": "Kinder- und Jugendbuchautorin.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die feuerrote Friederike, Konrad oder Das Kind aus der Konservenbüchse" }
+    },
+    {
+      "id": "nobelpreis-jelinek", "title": "Literaturnobelpreis für Elfriede Jelinek", "short": "Nobelpreis Jelinek", "start": "2004-10-07", "importance": 2,
+      "description": "Elfriede Jelinek (geb. 1946) erhielt den Nobelpreis für ihre Romane und Theaterstücke.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "nobelpreis-handke", "title": "Literaturnobelpreis für Peter Handke", "short": "Nobelpreis Handke", "start": "2019-10-10", "importance": 2,
+      "description": "Peter Handke (geb. 1942, Griffen/Kärnten) erhielt den Literaturnobelpreis.",
+      "place": { "name": "Griffen", "lat": 46.7039, "lon": 14.7239 }
     }
   ]
 }

@@ -83,7 +83,9 @@ export function layoutLanes(input: LayoutInput): Lane[] {
       // Zeiträume der niedrigsten sichtbaren Stufe nur beschriften, wenn der Text in den
       // Balken passt – sonst würden z. B. die vielen kurzen Bürgermeister-Amtszeiten
       // die Spur sehr hoch machen. Beim Hineinzoomen erscheinen die Namen.
-      const labelOutside = item.importance < maxImportance || maxImportance === MAX_IMPORTANCE;
+      // Mit Lebenszeit belegt der Eintrag die Zeile ohnehin – dann immer beschriften.
+      const hasLife = item.lifeT0 !== undefined;
+      const labelOutside = item.importance < maxImportance || maxImportance === MAX_IMPORTANCE || hasLife;
       const p = placeItem(item, x, plotWidth, measure, labelOutside);
       // Die Lebenszeit belegt die Zeile mit, damit kein anderer Eintrag darüber liegt.
       if (item.lifeT0 !== undefined && item.lifeT1 !== undefined) {
@@ -279,7 +281,7 @@ export function layoutColumns(input: ColumnLayoutInput): Column[] {
 
       // Kurze Balken der niedrigsten sichtbaren Stufe bleiben unbeschriftet (wie waagrecht).
       const edgeLevel = item.importance === maxImportance && maxImportance < MAX_IMPORTANCE;
-      const labelled = item.isPoint || !edgeLevel || reignHidden || y1 - Math.max(y0, 0) >= 2 * COL_LABEL_H;
+      const labelled = item.isPoint || !edgeLevel || !!life || y1 - Math.max(y0, 0) >= 2 * COL_LABEL_H;
       let label = '';
       if (labelled) {
         label = item.title;

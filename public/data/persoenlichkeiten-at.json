@@ -176,6 +176,94 @@
       "id": "eberhard-ii-salzburg", "title": "Eberhard II. von Salzburg", "short": "Eberhard II.", "start": "~1170", "end": "1246-12-01", "importance": 3,
       "description": "Erzbischof von Salzburg (1200–1246); baute das Erzstift zu einem eigenständigen Landesfürstentum aus.",
       "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "ignaz-seipel", "title": "Ignaz Seipel", "short": "Seipel", "start": "1876-07-19", "end": "1932-08-02", "importance": 3,
+      "description": "Priester und christlichsozialer Bundeskanzler der 1920er-Jahre (Genfer Sanierung).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "otto-bauer", "title": "Otto Bauer", "start": "1881-09-05", "end": "1938-07-04", "importance": 3,
+      "description": "Theoretiker des Austromarxismus und Führer der Sozialdemokratie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "dollfuss", "title": "Engelbert Dollfuß", "short": "Dollfuß", "start": "1892-10-04", "end": "1934-07-25", "importance": 2,
+      "description": "Bundeskanzler; schaltete 1933 das Parlament aus und errichtete den autoritären Ständestaat. Beim nationalsozialistischen Juliputsch ermordet.",
+      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
+    },
+    {
+      "id": "schuschnigg", "title": "Kurt Schuschnigg", "short": "Schuschnigg", "start": "1897-12-14", "end": "1977-11-18", "importance": 3,
+      "description": "Bundeskanzler des Ständestaats bis zum Anschluss 1938; danach in KZ-Haft.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "wittgenstein", "title": "Ludwig Wittgenstein", "short": "Wittgenstein", "start": "1889-04-26", "end": "1951-04-29", "importance": 2,
+      "description": "Wiener Philosoph, einer der einflussreichsten Denker des 20. Jahrhunderts.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Tractatus logico-philosophicus" }
+    },
+    {
+      "id": "julius-raab", "title": "Julius Raab", "short": "Raab", "start": "1891-11-29", "end": "1964-01-08", "importance": 2,
+      "description": "Bundeskanzler 1953–1961; „Staatsvertragskanzler“, Begründer der Sozialpartnerschaft.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "leopold-figl", "title": "Leopold Figl", "short": "Figl", "start": "1902-10-02", "end": "1965-05-09", "importance": 2,
+      "description": "Erster Bundeskanzler der Zweiten Republik, als Außenminister Unterzeichner des Staatsvertrags 1955.",
+      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
+    },
+    {
+      "id": "karl-popper", "title": "Karl Popper", "short": "Popper", "start": "1902-07-28", "end": "1994-09-17", "importance": 2,
+      "description": "Wiener Philosoph des kritischen Rationalismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Logik der Forschung, Die offene Gesellschaft und ihre Feinde" }
+    },
+    {
+      "id": "hayek", "title": "Friedrich August von Hayek", "short": "Hayek", "start": "1899-05-08", "end": "1992-03-23", "importance": 3,
+      "description": "Ökonom der Österreichischen Schule, Nobelpreis 1974.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "viktor-frankl", "title": "Viktor Frankl", "short": "Frankl", "start": "1905-03-26", "end": "1997-09-02", "importance": 2,
+      "description": "Psychiater, Überlebender des Holocaust, Begründer der Logotherapie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "… trotzdem Ja zum Leben sagen" }
+    },
+    {
+      "id": "kardinal-koenig", "title": "Franz König", "short": "Kardinal König", "start": "1905-08-03", "end": "2004-03-13", "importance": 3,
+      "description": "Erzbischof von Wien und Kardinal, prägte die Öffnung der Kirche nach dem Zweiten Vatikanischen Konzil.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
+    },
+    {
+      "id": "simon-wiesenthal", "title": "Simon Wiesenthal", "short": "Wiesenthal", "start": "1908-12-31", "end": "2005-09-20", "importance": 2,
+      "description": "Holocaust-Überlebender; spürte in Wien jahrzehntelang NS-Verbrecher auf.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "bruno-kreisky", "title": "Bruno Kreisky", "short": "Kreisky", "start": "1911-01-22", "end": "1990-07-29", "importance": 1,
+      "description": "Bundeskanzler 1970–1983; Reformen in Sozial-, Rechts- und Bildungspolitik, aktive Neutralitätspolitik.",
+      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
+    },
+    {
+      "id": "otto-von-habsburg", "title": "Otto von Habsburg", "short": "Otto Habsburg", "start": "1912-11-20", "end": "2011-07-04", "importance": 3,
+      "description": "Sohn Kaiser Karls I., Europapolitiker; Mitinitiator des Paneuropäischen Picknicks 1989.",
+      "place": { "name": "Pöcking", "lat": 47.96, "lon": 11.3 }
+    },
+    {
+      "id": "toni-sailer", "title": "Toni Sailer", "short": "Sailer", "start": "1935-11-17", "end": "2009-08-24", "importance": 3,
+      "description": "Skirennläufer, gewann 1956 alle drei alpinen Olympiabewerbe.",
+      "place": { "name": "Kitzbühel", "lat": 47.4467, "lon": 12.3925 }
+    },
+    {
+      "id": "johanna-dohnal", "title": "Johanna Dohnal", "short": "Dohnal", "start": "1939-02-14", "end": "2010-02-20", "importance": 3,
+      "description": "Erste Frauenministerin Österreichs, Vorkämpferin der Gleichstellung.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "niki-lauda", "title": "Niki Lauda", "short": "Lauda", "start": "1949-02-22", "end": "2019-05-20", "importance": 3,
+      "description": "Dreifacher Formel-1-Weltmeister und Luftfahrtunternehmer.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     }
   ]
 }

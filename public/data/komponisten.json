@@ -526,6 +526,126 @@
       "id": "perotin", "title": "Pérotin", "start": "~1160", "end": "~1230", "importance": 5, "tags": ["international"],
       "description": "Meister der Notre-Dame-Schule in Paris.",
       "place": { "name": "Paris", "lat": 48.853, "lon": 2.3499 }
+    },
+    {
+      "id": "robert-stolz", "title": "Robert Stolz", "short": "Stolz", "start": "1880-08-25", "end": "1975-06-27", "importance": 2,
+      "description": "Grazer Operetten- und Filmkomponist, letzter großer Meister der Wiener Operette.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Im Prater blüh’n wieder die Bäume" }
+    },
+    {
+      "id": "karl-boehm", "title": "Karl Böhm", "short": "Böhm", "start": "1894-08-28", "end": "1981-08-14", "importance": 3,
+      "description": "Dirigent, Direktor der Wiener Staatsoper.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "korngold", "title": "Erich Wolfgang Korngold", "short": "Korngold", "start": "1897-05-29", "end": "1957-11-29", "importance": 2,
+      "description": "Wunderkind der Wiener Moderne, nach der Emigration Pionier der Hollywood-Filmmusik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die tote Stadt, Filmmusik zu „Robin Hood“" }
+    },
+    {
+      "id": "hanns-eisler", "title": "Hanns Eisler", "short": "Eisler", "start": "1898-07-06", "end": "1962-09-06", "importance": 3,
+      "description": "Schönberg-Schüler, Komponist politischer Lieder und Filmmusik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "ernst-krenek", "title": "Ernst Krenek", "short": "Krenek", "start": "1900-08-23", "end": "1991-12-22", "importance": 3,
+      "description": "Komponist der Jazzoper „Jonny spielt auf“ (1927), später in den USA.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "karajan", "title": "Herbert von Karajan", "short": "Karajan", "start": "1908-04-05", "end": "1989-07-16", "importance": 1,
+      "description": "Salzburger Dirigent von Weltrang, prägte die Salzburger Festspiele und die Berliner Philharmoniker.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "gottfried-von-einem", "title": "Gottfried von Einem", "short": "Einem", "start": "1918-01-24", "end": "1996-07-12", "importance": 3,
+      "description": "Opernkomponist der Nachkriegszeit.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Dantons Tod, Der Besuch der alten Dame" }
+    },
+    {
+      "id": "georg-kreisler", "title": "Georg Kreisler", "short": "Kreisler", "start": "1922-07-18", "end": "2011-11-22", "importance": 3,
+      "description": "Kabarettist und Liedermacher des schwarzen Humors.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Tauben vergiften im Park" }
+    },
+    {
+      "id": "ligeti", "title": "György Ligeti", "short": "Ligeti", "start": "1923-05-28", "end": "2006-06-12", "importance": 2,
+      "description": "Avantgarde-Komponist, lebte ab 1956 in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Atmosphères, Le Grand Macabre" }
+    },
+    {
+      "id": "friedrich-cerha", "title": "Friedrich Cerha", "short": "Cerha", "start": "1926-02-17", "end": "2023-02-14", "importance": 3,
+      "description": "Komponist und Dirigent; vollendete Alban Bergs Oper „Lulu“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "harnoncourt", "title": "Nikolaus Harnoncourt", "short": "Harnoncourt", "start": "1929-12-06", "end": "2016-03-05", "importance": 2,
+      "description": "Dirigent, Pionier der historischen Aufführungspraxis (Concentus Musicus Wien).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "friedrich-gulda", "title": "Friedrich Gulda", "short": "Gulda", "start": "1930-05-16", "end": "2000-01-27", "importance": 3,
+      "description": "Pianist zwischen Klassik und Jazz.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "joe-zawinul", "title": "Joe Zawinul", "short": "Zawinul", "start": "1932-07-07", "end": "2007-09-11", "importance": 3,
+      "description": "Jazzpianist, Mitbegründer von „Weather Report“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Birdland" }
+    },
+    {
+      "id": "udo-juergens", "title": "Udo Jürgens", "short": "Udo Jürgens", "start": "1934-09-30", "end": "2014-12-21", "importance": 2,
+      "description": "Sänger und Komponist; gewann 1966 als erster Österreicher den Eurovision Song Contest.",
+      "place": { "name": "Klagenfurt", "lat": 46.6249, "lon": 14.305 },
+      "attributes": { "Werke": "Merci Chérie, Griechischer Wein" }
+    },
+    {
+      "id": "falco", "title": "Falco", "start": "1957-02-19", "end": "1998-02-06", "importance": 2,
+      "description": "Popmusiker; „Rock Me Amadeus“ war 1986 Nummer eins in den USA.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Rock Me Amadeus, Der Kommissar" }
+    },
+    {
+      "id": "gershwin", "title": "George Gershwin", "short": "Gershwin", "start": "1898-09-26", "end": "1937-07-11", "importance": 5, "tags": ["international"],
+      "description": "Amerikanischer Komponist zwischen Jazz und Klassik.",
+      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 },
+      "attributes": { "Werke": "Rhapsody in Blue" }
+    },
+    {
+      "id": "louis-armstrong", "title": "Louis Armstrong", "short": "Armstrong", "start": "1901-08-04", "end": "1971-07-06", "importance": 5, "tags": ["international"],
+      "description": "Jazztrompeter und Sänger.",
+      "place": { "name": "New Orleans", "lat": 29.9511, "lon": -90.0715 }
+    },
+    {
+      "id": "schostakowitsch", "title": "Dmitri Schostakowitsch", "short": "Schostakowitsch", "start": "1906-09-25", "end": "1975-08-09", "importance": 4, "tags": ["international"],
+      "description": "Russischer Symphoniker.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    },
+    {
+      "id": "bernstein", "title": "Leonard Bernstein", "short": "Bernstein", "start": "1918-08-25", "end": "1990-10-14", "importance": 4, "tags": ["international"],
+      "description": "Dirigent und Komponist, eng verbunden mit den Wiener Philharmonikern.",
+      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 },
+      "attributes": { "Werke": "West Side Story" }
+    },
+    {
+      "id": "maria-callas", "title": "Maria Callas", "short": "Callas", "start": "1923-12-02", "end": "1977-09-16", "importance": 5, "tags": ["international"],
+      "description": "Sopranistin, Primadonna assoluta.",
+      "place": { "name": "Mailand", "lat": 45.4642, "lon": 9.19 }
+    },
+    {
+      "id": "elvis", "title": "Elvis Presley", "short": "Elvis", "start": "1935-01-08", "end": "1977-08-16", "importance": 4, "tags": ["international"],
+      "description": "„King of Rock ’n’ Roll“.",
+      "place": { "name": "Memphis", "lat": 35.1495, "lon": -90.049 }
+    },
+    {
+      "id": "john-lennon", "title": "John Lennon", "short": "Lennon", "start": "1940-10-09", "end": "1980-12-08", "importance": 4, "tags": ["international"],
+      "description": "Mitglied der Beatles.",
+      "place": { "name": "Liverpool", "lat": 53.4084, "lon": -2.9916 }
     }
   ]
 }

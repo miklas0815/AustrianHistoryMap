@@ -461,6 +461,91 @@
       "id": "interregnum", "title": "Interregnum", "start": "1254", "end": "1273-10-01", "importance": 3,
       "description": "„Kaiserlose, schreckliche Zeit“ ohne allgemein anerkannten König, beendet durch die Wahl Rudolfs von Habsburg.",
       "place": { "name": "Heiliges Römisches Reich", "lat": 50.0, "lon": 10.0 }
+    },
+    {
+      "id": "weltwirtschaftskrise-1929", "title": "Weltwirtschaftskrise", "start": "1929-10-24", "importance": 2,
+      "description": "Der Börsenkrach in New York stürzte die Welt in eine tiefe Depression.",
+      "place": { "name": "New York", "lat": 40.7069, "lon": -74.0113 }
+    },
+    {
+      "id": "machtergreifung-1933", "title": "NS-Machtübernahme in Deutschland", "start": "1933-01-30", "importance": 3,
+      "description": "Hitler wurde Reichskanzler.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
+    },
+    {
+      "id": "zweiter-weltkrieg", "title": "Zweiter Weltkrieg", "start": "1939-09-01", "end": "1945-05-08", "importance": 1,
+      "description": "Mit über 60 Millionen Toten der verheerendste Krieg der Geschichte.",
+      "place": { "name": "Europa", "lat": 50.0, "lon": 15.0 }
+    },
+    {
+      "id": "holocaust", "title": "Holocaust (Shoah)", "start": "1941", "end": "1945", "importance": 1,
+      "description": "Systematischer Völkermord an rund sechs Millionen europäischen Juden sowie Verfolgung und Ermordung von Roma, Behinderten und politischen Gegnern.",
+      "place": { "name": "Auschwitz", "lat": 50.0343, "lon": 19.1784 }
+    },
+    {
+      "id": "hiroshima-1945", "title": "Atombomben auf Hiroshima und Nagasaki", "start": "1945-08-06", "importance": 2,
+      "description": "Erster und bisher einziger Einsatz von Atomwaffen im Krieg.",
+      "place": { "name": "Hiroshima", "lat": 34.3853, "lon": 132.4553 }
+    },
+    {
+      "id": "uno-1945", "title": "Gründung der Vereinten Nationen", "start": "1945-10-24", "importance": 3,
+      "description": "Die UNO-Charta trat in Kraft.",
+      "place": { "name": "New York", "lat": 40.7489, "lon": -73.968 }
+    },
+    {
+      "id": "kalter-krieg", "title": "Kalter Krieg", "start": "1947", "end": "1991", "importance": 2,
+      "description": "Systemkonflikt zwischen USA und Sowjetunion; Österreich lag als neutraler Staat an der Bruchlinie.",
+      "place": { "name": "Europa", "lat": 50.0, "lon": 15.0 }
+    },
+    {
+      "id": "israel-1948", "title": "Gründung Israels", "start": "1948-05-14", "importance": 3,
+      "description": "Unabhängigkeitserklärung des Staates Israel.",
+      "place": { "name": "Tel Aviv", "lat": 32.0853, "lon": 34.7818 }
+    },
+    {
+      "id": "roemische-vertraege-1957", "title": "Römische Verträge", "start": "1957-03-25", "importance": 3,
+      "description": "Gründung der Europäischen Wirtschaftsgemeinschaft.",
+      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "kubakrise-1962", "title": "Kubakrise", "start": "1962-10", "importance": 3,
+      "description": "Die Welt stand am Rand eines Atomkriegs.",
+      "place": { "name": "Kuba", "lat": 21.5, "lon": -79.0 }
+    },
+    {
+      "id": "mondlandung-1969", "title": "Mondlandung", "start": "1969-07-20", "importance": 2,
+      "description": "Neil Armstrong und Buzz Aldrin betraten als erste Menschen den Mond.",
+      "place": { "name": "Mond", "lat": 0.674, "lon": 23.472 }
+    },
+    {
+      "id": "mauerfall-1989", "title": "Fall der Berliner Mauer", "short": "Mauerfall", "start": "1989-11-09", "importance": 1,
+      "description": "Ende der Teilung Europas; die Staaten Ostmitteleuropas wurden frei.",
+      "place": { "name": "Berlin", "lat": 52.5163, "lon": 13.3777 }
+    },
+    {
+      "id": "ende-sowjetunion-1991", "title": "Auflösung der Sowjetunion", "start": "1991-12-26", "importance": 2,
+      "description": "Ende des Kalten Krieges.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    },
+    {
+      "id": "jugoslawienkriege", "title": "Jugoslawienkriege", "start": "1991", "end": "2001", "importance": 3,
+      "description": "Kriege beim Zerfall Jugoslawiens, nahe der österreichischen Grenze.",
+      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
+    },
+    {
+      "id": "nine-eleven", "title": "Terroranschläge vom 11. September", "short": "11. September", "start": "2001-09-11", "importance": 2,
+      "description": "Anschläge auf das World Trade Center und das Pentagon.",
+      "place": { "name": "New York", "lat": 40.7115, "lon": -74.0134 }
+    },
+    {
+      "id": "finanzkrise-2008", "title": "Weltfinanzkrise", "start": "2008-09-15", "importance": 3,
+      "description": "Der Zusammenbruch der Bank Lehman Brothers löste eine globale Wirtschaftskrise aus.",
+      "place": { "name": "New York", "lat": 40.7069, "lon": -74.0113 }
+    },
+    {
+      "id": "covid-pandemie", "title": "COVID-19-Pandemie", "start": "2020-03-11", "importance": 2,
+      "description": "Die WHO erklärte den Ausbruch zur Pandemie.",
+      "place": { "name": "weltweit", "lat": 30.0, "lon": 0.0 }
     }
   ]
 }

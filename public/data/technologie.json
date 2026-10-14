@@ -553,6 +553,132 @@
       "description": "Machte die indisch-arabischen Ziffern in Europa bekannt.",
       "place": { "name": "Pisa", "lat": 43.7228, "lon": 10.4017 },
       "attributes": { "Bereich": "Mathematik" }
+    },
+    {
+      "id": "pauli-1925", "title": "Pauli-Prinzip", "start": "1925", "importance": 3,
+      "description": "Der Wiener Physiker Wolfgang Pauli formulierte das Ausschließungsprinzip (Nobelpreis 1945).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "schroedinger-1926", "title": "Schrödinger-Gleichung", "short": "Schrödinger", "start": "1926", "importance": 1,
+      "description": "Erwin Schrödinger begründete die Wellenmechanik – eine Grundlage der Quantenphysik (Nobelpreis 1933).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "penicillin-1928", "title": "Penicillin", "start": "1928", "importance": 3, "tags": ["international"],
+      "description": "Alexander Fleming entdeckte das erste Antibiotikum.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "goedel-1931", "title": "Gödels Unvollständigkeitssatz", "short": "Gödel", "start": "1931", "importance": 2,
+      "description": "Der Wiener Logiker Kurt Gödel bewies die Grenzen formaler Systeme.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Mathematik" }
+    },
+    {
+      "id": "grossglockner-1935", "title": "Großglockner-Hochalpenstraße", "start": "1935-08-03", "importance": 3,
+      "description": "Spektakuläre Alpenstraße zum höchsten Berg Österreichs.",
+      "place": { "name": "Großglockner", "lat": 47.0742, "lon": 12.6947 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "eisler-leiterplatte", "title": "Gedruckte Leiterplatte", "short": "Leiterplatte", "start": "1936", "importance": 2,
+      "description": "Der Wiener Ingenieur Paul Eisler erfand die gedruckte Schaltung – Grundlage aller Elektronik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Elektronik" }
+    },
+    {
+      "id": "kernspaltung-1938", "title": "Kernspaltung", "start": "1938-12", "importance": 2,
+      "description": "Otto Hahn und Fritz Straßmann entdeckten die Kernspaltung; die Wiener Physikerin Lise Meitner lieferte mit Otto Frisch die theoretische Erklärung.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "zuse-z3", "title": "Zuse Z3", "start": "1941-05-12", "importance": 4, "tags": ["international"],
+      "description": "Konrad Zuse baute den ersten funktionsfähigen programmgesteuerten Rechner.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
+      "attributes": { "Bereich": "Informatik" }
+    },
+    {
+      "id": "hedy-lamarr", "title": "Hedy Lamarr: Frequenzsprungverfahren", "short": "Hedy Lamarr", "start": "1942-08-11", "importance": 3,
+      "description": "Die Wiener Schauspielerin Hedy Lamarr erhielt mit George Antheil ein Patent, das Grundlagen für WLAN und Bluetooth legte.",
+      "place": { "name": "Hollywood", "lat": 34.0928, "lon": -118.3287 },
+      "attributes": { "Bereich": "Kommunikation" }
+    },
+    {
+      "id": "transistor-1947", "title": "Transistor", "start": "1947-12", "importance": 4, "tags": ["international"],
+      "description": "In den Bell Labs entstand der erste Transistor.",
+      "place": { "name": "Murray Hill", "lat": 40.684, "lon": -74.401 },
+      "attributes": { "Bereich": "Elektronik" }
+    },
+    {
+      "id": "ld-verfahren", "title": "LD-Verfahren", "start": "1952", "importance": 2,
+      "description": "Das in Linz und Donawitz entwickelte Sauerstoffblasverfahren revolutionierte die Stahlerzeugung weltweit.",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Bereich": "Metallurgie" }
+    },
+    {
+      "id": "dna-1953", "title": "Struktur der DNA", "short": "DNA", "start": "1953-04-25", "importance": 3, "tags": ["international"],
+      "description": "Watson und Crick beschrieben die Doppelhelix.",
+      "place": { "name": "Cambridge", "lat": 52.2053, "lon": 0.1218 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "kaprun-1955", "title": "Kraftwerk Kaprun", "start": "1955", "importance": 4,
+      "description": "Das Speicherkraftwerk wurde zum Symbol des Wiederaufbaus.",
+      "place": { "name": "Kaprun", "lat": 47.2722, "lon": 12.7597 },
+      "attributes": { "Bereich": "Energie" }
+    },
+    {
+      "id": "sputnik-1957", "title": "Sputnik", "start": "1957-10-04", "importance": 3, "tags": ["international"],
+      "description": "Erster künstlicher Erdsatellit.",
+      "place": { "name": "Baikonur", "lat": 45.9646, "lon": 63.3052 },
+      "attributes": { "Bereich": "Raumfahrt" }
+    },
+    {
+      "id": "mailuefterl-1958", "title": "Mailüfterl", "start": "1958-05", "importance": 3,
+      "description": "Heinz Zemaneks Rechner an der TU Wien war einer der ersten volltransistorisierten Computer Europas.",
+      "place": { "name": "TU Wien", "lat": 48.199, "lon": 16.3699 },
+      "attributes": { "Bereich": "Informatik" }
+    },
+    {
+      "id": "internet-1969", "title": "ARPANET", "start": "1969-10-29", "importance": 4, "tags": ["international"],
+      "description": "Vorläufer des Internets.",
+      "place": { "name": "Los Angeles", "lat": 34.0689, "lon": -118.4452 },
+      "attributes": { "Bereich": "Informatik" }
+    },
+    {
+      "id": "konrad-lorenz-1973", "title": "Nobelpreis für Konrad Lorenz", "short": "Konrad Lorenz", "start": "1973", "importance": 3,
+      "description": "Der Begründer der Verhaltensforschung erhielt den Nobelpreis für Medizin.",
+      "place": { "name": "Altenberg", "lat": 48.35, "lon": 16.2667 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "www-1991", "title": "World Wide Web", "short": "WWW", "start": "1991-08-06", "importance": 3, "tags": ["international"],
+      "description": "Tim Berners-Lee machte am CERN das World Wide Web öffentlich zugänglich.",
+      "place": { "name": "Genf (CERN)", "lat": 46.233, "lon": 6.0557 },
+      "attributes": { "Bereich": "Informatik" }
+    },
+    {
+      "id": "viehboeck-1991", "title": "Erster Österreicher im All", "start": "1991-10-02", "importance": 4,
+      "description": "Franz Viehböck flog zur Raumstation Mir.",
+      "place": { "name": "Baikonur", "lat": 45.9646, "lon": 63.3052 },
+      "attributes": { "Bereich": "Raumfahrt" }
+    },
+    {
+      "id": "zeilinger-1997", "title": "Quantenteleportation", "short": "Zeilinger", "start": "1997", "importance": 3,
+      "description": "Anton Zeilingers Gruppe in Innsbruck gelang die erste Quantenteleportation (Nobelpreis 2022).",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "smartphone-2007", "title": "Smartphone", "start": "2007-01-09", "importance": 4, "tags": ["international"],
+      "description": "Mit dem iPhone setzte sich das Smartphone durch.",
+      "place": { "name": "San Francisco", "lat": 37.7749, "lon": -122.4194 },
+      "attributes": { "Bereich": "Kommunikation" }
     }
   ]
 }

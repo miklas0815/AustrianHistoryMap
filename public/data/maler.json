@@ -430,6 +430,83 @@
       "id": "cimabue", "title": "Cimabue", "start": "~1240", "end": "1302", "importance": 4, "tags": ["international"],
       "description": "Florentiner Maler am Übergang zur Renaissance, Lehrer Giottos.",
       "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
+    },
+    {
+      "id": "egger-lienz", "title": "Albin Egger-Lienz", "short": "Egger-Lienz", "start": "1868-01-29", "end": "1926-11-04", "importance": 2,
+      "description": "Tiroler Maler monumentaler bäuerlicher und Kriegsdarstellungen.",
+      "place": { "name": "Lienz", "lat": 46.829, "lon": 12.769 },
+      "attributes": { "Werke": "Totentanz von Anno Neun, Den Namenlosen 1914" }
+    },
+    {
+      "id": "herbert-boeckl", "title": "Herbert Boeckl", "short": "Boeckl", "start": "1894-06-03", "end": "1966-01-20", "importance": 3,
+      "description": "Expressiver Maler, Fresken in der Engelkapelle von Seckau.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "max-weiler", "title": "Max Weiler", "short": "Weiler", "start": "1910-08-27", "end": "2001-01-29", "importance": 3,
+      "description": "Tiroler Maler der abstrakten Landschaft.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
+    },
+    {
+      "id": "rudolf-hausner", "title": "Rudolf Hausner", "short": "Hausner", "start": "1914-12-04", "end": "1995-02-25", "importance": 3,
+      "description": "Mitbegründer der Wiener Schule des Phantastischen Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "maria-lassnig", "title": "Maria Lassnig", "short": "Lassnig", "start": "1919-09-08", "end": "2014-05-06", "importance": 1,
+      "description": "Kärntner Malerin der „Körperbewusstseinsbilder“; Goldener Löwe der Biennale Venedig 2013.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "hundertwasser", "title": "Friedensreich Hundertwasser", "short": "Hundertwasser", "start": "1928-12-15", "end": "2000-02-19", "importance": 2,
+      "description": "Maler und Architekt farbenfroher, organischer Formen.",
+      "place": { "name": "Hundertwasserhaus, Wien", "lat": 48.2075, "lon": 16.394 },
+      "attributes": { "Werke": "Hundertwasserhaus, Fernwärme Spittelau" }
+    },
+    {
+      "id": "arik-brauer", "title": "Arik Brauer", "short": "Brauer", "start": "1929-01-04", "end": "2021-01-24", "importance": 3,
+      "description": "Maler und Liedermacher, Phantastischer Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "ernst-fuchs", "title": "Ernst Fuchs", "short": "Fuchs", "start": "1930-02-13", "end": "2015-11-09", "importance": 3,
+      "description": "Maler des Phantastischen Realismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "hermann-nitsch", "title": "Hermann Nitsch", "short": "Nitsch", "start": "1938-08-29", "end": "2022-04-18", "importance": 2,
+      "description": "Hauptvertreter des Wiener Aktionismus („Orgien-Mysterien-Theater“).",
+      "place": { "name": "Prinzendorf", "lat": 48.5, "lon": 16.6 }
+    },
+    {
+      "id": "paul-klee", "title": "Paul Klee", "short": "Klee", "start": "1879-12-18", "end": "1940-06-29", "importance": 5, "tags": ["international"],
+      "description": "Maler des Bauhauses.",
+      "place": { "name": "Bern", "lat": 46.948, "lon": 7.4474 }
+    },
+    {
+      "id": "chagall", "title": "Marc Chagall", "short": "Chagall", "start": "1887-07-07", "end": "1985-03-28", "importance": 5, "tags": ["international"],
+      "description": "Maler poetischer Bildwelten.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "dali", "title": "Salvador Dalí", "short": "Dalí", "start": "1904-05-11", "end": "1989-01-23", "importance": 4, "tags": ["international"],
+      "description": "Hauptvertreter des Surrealismus.",
+      "place": { "name": "Figueres", "lat": 42.2672, "lon": 2.9606 }
+    },
+    {
+      "id": "frida-kahlo", "title": "Frida Kahlo", "short": "Kahlo", "start": "1907-07-06", "end": "1954-07-13", "importance": 5, "tags": ["international"],
+      "description": "Mexikanische Malerin.",
+      "place": { "name": "Mexiko-Stadt", "lat": 19.4326, "lon": -99.1332 }
+    },
+    {
+      "id": "pollock", "title": "Jackson Pollock", "short": "Pollock", "start": "1912-01-28", "end": "1956-08-11", "importance": 5, "tags": ["international"],
+      "description": "Hauptvertreter des abstrakten Expressionismus.",
+      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 }
+    },
+    {
+      "id": "warhol", "title": "Andy Warhol", "short": "Warhol", "start": "1928-08-06", "end": "1987-02-22", "importance": 4, "tags": ["international"],
+      "description": "Leitfigur der Pop-Art.",
+      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 }
     }
   ]
 }

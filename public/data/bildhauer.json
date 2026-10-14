@@ -184,6 +184,54 @@
       "description": "Anonymer Bildhauer der Gotik; Stifterfiguren im Naumburger Dom (Uta).",
       "place": { "name": "Naumburg", "lat": 51.152, "lon": 11.8037 },
       "attributes": { "Werke": "Stifterfiguren im Naumburger Dom" }
+    },
+    {
+      "id": "fritz-wotruba", "title": "Fritz Wotruba", "short": "Wotruba", "start": "1907-04-23", "end": "1975-08-28", "importance": 1,
+      "description": "Bedeutendster österreichischer Bildhauer des 20. Jahrhunderts.",
+      "place": { "name": "Wotrubakirche, Wien", "lat": 48.1408, "lon": 16.2597 },
+      "attributes": { "Werke": "Wotrubakirche (Kirche zur Heiligsten Dreifaltigkeit)" }
+    },
+    {
+      "id": "joannis-avramidis", "title": "Joannis Avramidis", "short": "Avramidis", "start": "1922-09-23", "end": "2016-01-16", "importance": 3,
+      "description": "Bildhauer abstrahierter menschlicher Figuren.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "karl-prantl", "title": "Karl Prantl", "short": "Prantl", "start": "1923-11-05", "end": "2010-10-08", "importance": 3,
+      "description": "Steinbildhauer, Begründer des Bildhauersymposions St. Margarethen.",
+      "place": { "name": "St. Margarethen", "lat": 47.8031, "lon": 16.6097 }
+    },
+    {
+      "id": "alfred-hrdlicka", "title": "Alfred Hrdlicka", "short": "Hrdlicka", "start": "1928-02-27", "end": "2009-12-05", "importance": 2,
+      "description": "Bildhauer und Grafiker; schuf das Mahnmal gegen Krieg und Faschismus am Albertinaplatz.",
+      "place": { "name": "Albertinaplatz, Wien", "lat": 48.2046, "lon": 16.3687 },
+      "attributes": { "Werke": "Mahnmal gegen Krieg und Faschismus (1988)" }
+    },
+    {
+      "id": "bruno-gironcoli", "title": "Bruno Gironcoli", "short": "Gironcoli", "start": "1936-09-27", "end": "2010-02-19", "importance": 3,
+      "description": "Bildhauer monumentaler, rätselhafter Skulpturen; Biennale Venedig 2003.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "franz-west", "title": "Franz West", "short": "West", "start": "1947-02-16", "end": "2012-07-25", "importance": 2,
+      "description": "Bildhauer der „Passstücke“; Goldener Löwe der Biennale Venedig 2011.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "brancusi", "title": "Constantin Brâncuși", "short": "Brâncuși", "start": "1876-02-19", "end": "1957-03-16", "importance": 4, "tags": ["international"],
+      "description": "Wegbereiter der abstrakten Skulptur.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "henry-moore", "title": "Henry Moore", "short": "Moore", "start": "1898-07-30", "end": "1986-08-31", "importance": 4, "tags": ["international"],
+      "description": "Britischer Bildhauer; eine seiner Plastiken steht vor der Karlskirche.",
+      "place": { "name": "Much Hadham", "lat": 51.86, "lon": 0.07 },
+      "attributes": { "Werke": "Hill Arches (Karlsplatz, Wien)" }
+    },
+    {
+      "id": "giacometti", "title": "Alberto Giacometti", "short": "Giacometti", "start": "1901-10-10", "end": "1966-01-11", "importance": 4, "tags": ["international"],
+      "description": "Schweizer Bildhauer überlanger Figuren.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
     }
   ]
 }

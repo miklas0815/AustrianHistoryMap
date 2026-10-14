@@ -141,3 +141,12 @@ describe('Lebenszeit ohne sichtbare Regierungszeit', () => {
     expect(lane.placed[0].labelX).toBeLessThan(1000);
   });
 });
+
+describe('Beschriftung bei Lebenszeit', () => {
+  it('beschriftet kurze Regierungszeiten mit Lebenszeit auch auf der niedrigsten Stufe', () => {
+    const x = (t: number) => (t - 1500) * 10;
+    const r = toItem({ id: 'r', title: 'Kurz regiert', start: '1550', end: '1551', importance: 3, life: { start: '1520', end: '1580' } }, 'c');
+    const [lane] = layoutLanes({ categories: [cat], items: [r], x, domain: [1500, 1600], plotWidth: 1000, maxImportance: 3, measure });
+    expect(lane.placed[0].label).toBe('Kurz regiert');
+  });
+});

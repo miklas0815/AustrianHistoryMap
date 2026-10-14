@@ -355,6 +355,74 @@
       "description": "Letzter Babenberger; fiel in der Schlacht an der Leitha gegen die Ungarn.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "wilhelm-miklas", "title": "Wilhelm Miklas", "start": "1928-12-10", "end": "1938-03-13", "importance": 3,
+      "life": {"start": "1872-10-15", "end": "1956-03-20"},
+      "description": "Bundespräsident bis zum Anschluss; verweigerte bis zuletzt die Ernennung Seyß-Inquarts.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "karl-renner-bp", "title": "Karl Renner (Bundespräsident)", "short": "Karl Renner", "start": "1945-12-20", "end": "1950-12-31", "importance": 2,
+      "life": {"start": "1870-12-14", "end": "1950-12-31"},
+      "description": "Staatskanzler der provisorischen Regierung 1945, danach erster Bundespräsident der Zweiten Republik.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "theodor-koerner-bp", "title": "Theodor Körner (Bundespräsident)", "short": "Theodor Körner", "start": "1951-06-21", "end": "1957-01-04", "importance": 3,
+      "life": {"start": "1873-04-24", "end": "1957-01-04"},
+      "description": "Erster direkt vom Volk gewählter Bundespräsident.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "adolf-schaerf", "title": "Adolf Schärf", "start": "1957-05-22", "end": "1965-02-28", "importance": 3,
+      "life": {"start": "1890-04-20", "end": "1965-02-28"},
+      "description": "Bundespräsident, zuvor Vizekanzler und SPÖ-Vorsitzender.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "franz-jonas-bp", "title": "Franz Jonas (Bundespräsident)", "short": "Franz Jonas", "start": "1965-06-09", "end": "1974-04-24", "importance": 3,
+      "life": {"start": "1899-10-04", "end": "1974-04-24"},
+      "description": "Zuvor Bürgermeister von Wien.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "rudolf-kirchschlaeger", "title": "Rudolf Kirchschläger", "short": "Kirchschläger", "start": "1974-07-08", "end": "1986-07-08", "importance": 3,
+      "life": {"start": "1915-03-20", "end": "2000-03-30"},
+      "description": "Parteiloser Bundespräsident mit hohem Ansehen.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "kurt-waldheim", "title": "Kurt Waldheim", "short": "Waldheim", "start": "1986-07-08", "end": "1992-07-08", "importance": 3,
+      "life": {"start": "1918-12-21", "end": "2007-06-14"},
+      "description": "Zuvor UN-Generalsekretär; seine Wahl löste wegen seiner verschwiegenen Wehrmachtsvergangenheit die „Waldheim-Affäre“ aus.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "thomas-klestil", "title": "Thomas Klestil", "short": "Klestil", "start": "1992-07-08", "end": "2004-07-06", "importance": 3,
+      "life": {"start": "1932-11-04", "end": "2004-07-06"},
+      "description": "Bundespräsident; starb zwei Tage vor Ende seiner zweiten Amtszeit.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "heinz-fischer", "title": "Heinz Fischer", "start": "2004-07-08", "end": "2016-07-08", "importance": 3,
+      "description": "Bundespräsident für zwei Amtszeiten, zuvor Nationalratspräsident.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "van-der-bellen", "title": "Alexander Van der Bellen", "short": "Van der Bellen", "start": "2017-01-26", "end": "2026-10", "importance": 3,
+      "description": "Bundespräsident seit 2017, 2022 wiedergewählt; im Amt (Stand Oktober 2026).",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Amt": "Bundespräsident" }
     }
   ]
 }

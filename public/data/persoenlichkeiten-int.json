@@ -241,6 +241,101 @@
       "id": "thomas-von-aquin", "title": "Thomas von Aquin", "short": "Thomas v. Aquin", "start": "1225", "end": "1274-03-07", "importance": 3,
       "description": "Bedeutendster Theologe der Scholastik.",
       "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "stalin", "title": "Josef Stalin", "start": "1878-12-18", "end": "1953-03-05", "importance": 1,
+      "description": "Diktator der Sowjetunion; seine Truppen befreiten 1945 Wien.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    },
+    {
+      "id": "churchill", "title": "Winston Churchill", "start": "1874-11-30", "end": "1965-01-24", "importance": 1,
+      "description": "Britischer Premierminister im Zweiten Weltkrieg.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "gandhi", "title": "Mahatma Gandhi", "short": "Gandhi", "start": "1869-10-02", "end": "1948-01-30", "importance": 2,
+      "description": "Führer der gewaltlosen indischen Unabhängigkeitsbewegung.",
+      "place": { "name": "Neu-Delhi", "lat": 28.6139, "lon": 77.209 }
+    },
+    {
+      "id": "roosevelt", "title": "Franklin D. Roosevelt", "short": "Roosevelt", "start": "1882-01-30", "end": "1945-04-12", "importance": 2,
+      "description": "US-Präsident in Weltwirtschaftskrise und Zweitem Weltkrieg.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 }
+    },
+    {
+      "id": "mussolini", "title": "Benito Mussolini", "short": "Mussolini", "start": "1883-07-29", "end": "1945-04-28", "importance": 2,
+      "description": "Faschistischer Diktator Italiens, Schutzmacht des Ständestaats bis 1936.",
+      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
+    },
+    {
+      "id": "hitler", "title": "Adolf Hitler", "start": "1889-04-20", "end": "1945-04-30", "importance": 1,
+      "description": "In Braunau am Inn geborener Diktator des nationalsozialistischen Deutschland; verantwortlich für den Zweiten Weltkrieg und den Holocaust. Vollzog 1938 den Anschluss Österreichs.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
+    },
+    {
+      "id": "de-gaulle", "title": "Charles de Gaulle", "short": "de Gaulle", "start": "1890-11-22", "end": "1970-11-09", "importance": 3,
+      "description": "Führer des Freien Frankreich, Präsident der Fünften Republik.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "mao", "title": "Mao Zedong", "short": "Mao", "start": "1893-12-26", "end": "1976-09-09", "importance": 2,
+      "description": "Gründer der Volksrepublik China.",
+      "place": { "name": "Peking", "lat": 39.9042, "lon": 116.4074 }
+    },
+    {
+      "id": "adenauer", "title": "Konrad Adenauer", "short": "Adenauer", "start": "1876-01-05", "end": "1967-04-19", "importance": 3,
+      "description": "Erster Bundeskanzler der Bundesrepublik Deutschland.",
+      "place": { "name": "Bonn", "lat": 50.7374, "lon": 7.0982 }
+    },
+    {
+      "id": "chruschtschow", "title": "Nikita Chruschtschow", "short": "Chruschtschow", "start": "1894-04-15", "end": "1971-09-11", "importance": 3,
+      "description": "Sowjetischer Parteichef; traf 1961 in Wien John F. Kennedy.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    },
+    {
+      "id": "kennedy", "title": "John F. Kennedy", "short": "Kennedy", "start": "1917-05-29", "end": "1963-11-22", "importance": 2,
+      "description": "US-Präsident in der Kubakrise; 1963 ermordet.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 }
+    },
+    {
+      "id": "mandela", "title": "Nelson Mandela", "short": "Mandela", "start": "1918-07-18", "end": "2013-12-05", "importance": 2,
+      "description": "Kämpfer gegen die Apartheid, erster schwarzer Präsident Südafrikas.",
+      "place": { "name": "Johannesburg", "lat": -26.2041, "lon": 28.0473 }
+    },
+    {
+      "id": "johannes-paul-ii", "title": "Johannes Paul II.", "start": "1920-05-18", "end": "2005-04-02", "importance": 3,
+      "description": "Papst aus Polen (1978–2005), trug zum Ende des Kommunismus in Osteuropa bei.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "martin-luther-king", "title": "Martin Luther King", "short": "M. L. King", "start": "1929-01-15", "end": "1968-04-04", "importance": 2,
+      "description": "Führer der US-Bürgerrechtsbewegung; ermordet.",
+      "place": { "name": "Atlanta", "lat": 33.749, "lon": -84.388 }
+    },
+    {
+      "id": "willy-brandt", "title": "Willy Brandt", "short": "Brandt", "start": "1913-12-18", "end": "1992-10-08", "importance": 3,
+      "description": "Deutscher Bundeskanzler, Entspannungs- und Ostpolitik.",
+      "place": { "name": "Bonn", "lat": 50.7374, "lon": 7.0982 }
+    },
+    {
+      "id": "thatcher", "title": "Margaret Thatcher", "short": "Thatcher", "start": "1925-10-13", "end": "2013-04-08", "importance": 3,
+      "description": "Britische Premierministerin 1979–1990.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "reagan", "title": "Ronald Reagan", "short": "Reagan", "start": "1911-02-06", "end": "2004-06-05", "importance": 3,
+      "description": "US-Präsident 1981–1989.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 }
+    },
+    {
+      "id": "helmut-kohl", "title": "Helmut Kohl", "short": "Kohl", "start": "1930-04-03", "end": "2017-06-16", "importance": 3,
+      "description": "Deutscher Bundeskanzler der Wiedervereinigung.",
+      "place": { "name": "Bonn", "lat": 50.7374, "lon": 7.0982 }
+    },
+    {
+      "id": "gorbatschow", "title": "Michail Gorbatschow", "short": "Gorbatschow", "start": "1931-03-02", "end": "2022-08-30", "importance": 2,
+      "description": "Sowjetischer Staatschef; Glasnost und Perestroika ermöglichten das Ende des Kalten Krieges.",
+      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
     }
   ]
 }

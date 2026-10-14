@@ -577,6 +577,141 @@
       "id": "leitha-1246", "title": "Schlacht an der Leitha", "short": "Ende der Babenberger", "start": "1246-06-15", "importance": 2,
       "description": "Herzog Friedrich II. fiel – das Geschlecht der Babenberger erlosch. Es folgten Jahre der Herrenlosigkeit bis zu Ottokar II.",
       "place": { "name": "Leitha", "lat": 47.9, "lon": 16.6 }
+    },
+    {
+      "id": "festspiele-1920", "title": "Erste Salzburger Festspiele", "start": "1920-08-22", "importance": 3,
+      "description": "Mit Hofmannsthals „Jedermann“ auf dem Domplatz begannen die Festspiele (gegründet mit Max Reinhardt und Richard Strauss).",
+      "place": { "name": "Domplatz, Salzburg", "lat": 47.7979, "lon": 13.0469 }
+    },
+    {
+      "id": "genfer-sanierung-1922", "title": "Genfer Sanierung", "start": "1922-10-04", "importance": 4,
+      "description": "Völkerbundanleihe gegen die Hyperinflation; 1925 folgte der Schilling.",
+      "place": { "name": "Genf", "lat": 46.2044, "lon": 6.1432 }
+    },
+    {
+      "id": "justizpalast-1927", "title": "Justizpalastbrand", "start": "1927-07-15", "importance": 2,
+      "description": "Nach einem Fehlurteil (Schattendorf) eskalierte eine Demonstration; die Polizei schoss, 89 Menschen starben.",
+      "place": { "name": "Justizpalast, Wien", "lat": 48.2071, "lon": 16.357 }
+    },
+    {
+      "id": "karl-marx-hof-1930", "title": "Karl-Marx-Hof", "start": "1930-10-12", "importance": 3,
+      "description": "Symbolbau des „Roten Wien“ und seines kommunalen Wohnbaus.",
+      "place": { "name": "Karl-Marx-Hof, Wien", "lat": 48.2492, "lon": 16.3653 }
+    },
+    {
+      "id": "creditanstalt-1931", "title": "Zusammenbruch der Creditanstalt", "start": "1931-05-11", "importance": 3,
+      "description": "Der Bankenkrach verschärfte die Weltwirtschaftskrise in Europa.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "februarkaempfe-1934", "title": "Februarkämpfe (Bürgerkrieg)", "short": "Februar 1934", "start": "1934-02-12", "end": "1934-02-15", "importance": 2,
+      "description": "Bewaffneter Aufstand des Republikanischen Schutzbundes gegen die Regierung Dollfuß; die Sozialdemokratie wurde verboten.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "staendestaat", "title": "Ständestaat (Austrofaschismus)", "short": "Ständestaat", "start": "1934-05-01", "end": "1938-03-12", "importance": 3,
+      "description": "Autoritäres Regime mit der Maiverfassung 1934 bis zum Anschluss.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "juliputsch-1934", "title": "Juliputsch", "start": "1934-07-25", "importance": 3,
+      "description": "Nationalsozialisten ermordeten Bundeskanzler Dollfuß; der Putsch scheiterte.",
+      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
+    },
+    {
+      "id": "anschluss-1938", "title": "Anschluss an das Deutsche Reich", "short": "Anschluss 1938", "start": "1938-03-12", "importance": 1,
+      "description": "Einmarsch der Wehrmacht; Österreich hörte als Staat auf zu bestehen. Sofort setzten Verfolgung, Vertreibung und Beraubung der Juden und politischen Gegner ein.",
+      "place": { "name": "Heldenplatz, Wien", "lat": 48.2063, "lon": 16.3626 }
+    },
+    {
+      "id": "novemberpogrom-1938", "title": "Novemberpogrom in Wien", "start": "1938-11-09", "end": "1938-11-10", "importance": 2,
+      "description": "Fast alle Wiener Synagogen wurden zerstört, Tausende Juden verhaftet; über 65.000 österreichische Jüdinnen und Juden wurden in der Shoah ermordet.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "befreiung-wiens-1945", "title": "Befreiung Wiens", "start": "1945-04-13", "importance": 2,
+      "description": "Die Rote Armee befreite Wien; am 27. April wurde die Unabhängigkeit Österreichs proklamiert (Zweite Republik).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "besatzungszeit", "title": "Besatzungszeit", "start": "1945-04", "end": "1955-10-25", "importance": 3,
+      "description": "Österreich und Wien waren in vier Besatzungszonen geteilt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "staatsvertrag-1955", "title": "Staatsvertrag", "short": "Staatsvertrag 1955", "start": "1955-05-15", "importance": 1,
+      "description": "Im Belvedere unterzeichnet; Österreich erlangte seine volle Souveränität („Österreich ist frei!“).",
+      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
+    },
+    {
+      "id": "neutralitaet-1955", "title": "Immerwährende Neutralität", "short": "Neutralität", "start": "1955-10-26", "importance": 2,
+      "description": "Der Nationalrat beschloss das Neutralitätsgesetz; der 26. Oktober ist Nationalfeiertag.",
+      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
+    },
+    {
+      "id": "ungarnaufstand-1956", "title": "Flüchtlinge aus Ungarn", "start": "1956-11", "importance": 3,
+      "description": "Nach der Niederschlagung des Ungarnaufstands flohen rund 180.000 Menschen nach Österreich.",
+      "place": { "name": "Andau", "lat": 47.7742, "lon": 17.0331 }
+    },
+    {
+      "id": "gipfel-1961", "title": "Gipfeltreffen Kennedy–Chruschtschow", "short": "Wiener Gipfel 1961", "start": "1961-06-03", "end": "1961-06-04", "importance": 3,
+      "description": "Treffen der Supermächte in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "zwentendorf-1978", "title": "Volksabstimmung Zwentendorf", "start": "1978-11-05", "importance": 3,
+      "description": "Knappe Mehrheit gegen die Inbetriebnahme des fertigen Atomkraftwerks.",
+      "place": { "name": "Zwentendorf", "lat": 48.3519, "lon": 15.8833 }
+    },
+    {
+      "id": "uno-city-1979", "title": "UNO-City", "start": "1979-08-23", "importance": 4,
+      "description": "Wien wurde dritter Amtssitz der Vereinten Nationen.",
+      "place": { "name": "Vienna International Centre", "lat": 48.2349, "lon": 16.416 }
+    },
+    {
+      "id": "hainburg-1984", "title": "Besetzung der Hainburger Au", "start": "1984-12", "importance": 3,
+      "description": "Proteste verhinderten ein Donaukraftwerk; Geburtsstunde der Umweltbewegung und später des Nationalparks Donau-Auen.",
+      "place": { "name": "Hainburg", "lat": 48.1478, "lon": 16.9431 }
+    },
+    {
+      "id": "waldheim-1986", "title": "Waldheim-Affäre", "start": "1986", "importance": 3,
+      "description": "Die Debatte um Kurt Waldheims Kriegsvergangenheit führte zur Auseinandersetzung mit Österreichs Rolle im Nationalsozialismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "eiserner-vorhang-1989", "title": "Durchschneiden des Eisernen Vorhangs", "short": "Eiserner Vorhang", "start": "1989-06-27", "importance": 3,
+      "description": "Die Außenminister Mock und Horn durchtrennten bei Klingenbach den Grenzzaun zu Ungarn.",
+      "place": { "name": "Klingenbach", "lat": 47.75, "lon": 16.5333 }
+    },
+    {
+      "id": "eu-beitritt-1995", "title": "EU-Beitritt", "start": "1995-01-01", "importance": 2,
+      "description": "Nach einer Volksabstimmung (66,6 % Ja) trat Österreich der Europäischen Union bei.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "euro-2002", "title": "Einführung des Euro-Bargelds", "start": "2002-01-01", "importance": 3,
+      "description": "Der Euro ersetzte den Schilling.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "fluechtlinge-2015", "title": "Fluchtbewegung 2015", "start": "2015-09", "importance": 4,
+      "description": "Zehntausende Flüchtlinge kamen über Ungarn nach Österreich.",
+      "place": { "name": "Nickelsdorf", "lat": 47.9389, "lon": 17.0681 }
+    },
+    {
+      "id": "ibiza-2019", "title": "Ibiza-Affäre", "start": "2019-05-17", "importance": 4,
+      "description": "Ein heimlich gefilmtes Video führte zum Ende der Regierung und zur ersten Expertenregierung.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "covid-2020", "title": "Erster COVID-19-Lockdown", "start": "2020-03-16", "importance": 3,
+      "description": "Weitgehende Ausgangsbeschränkungen zur Eindämmung der Pandemie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "terroranschlag-2020", "title": "Terroranschlag in Wien", "start": "2020-11-02", "importance": 4,
+      "description": "Ein islamistischer Attentäter tötete in der Innenstadt vier Menschen.",
+      "place": { "name": "Seitenstettengasse, Wien", "lat": 48.2115, "lon": 16.3745 }
     }
   ]
 }

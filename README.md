@@ -7,7 +7,7 @@ Komponisten & Musiker, Schriftsteller, technologische Neuerungen, Ereignisse in
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
-Datenbestand: 768–1920 (von Karl dem Großen bis zur Ersten Republik).
+Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
 
 ## Bedienung
 

@@ -385,6 +385,88 @@
       "description": "Abt von Saint-Denis; mit dem Chor seiner Abteikirche (1144) begann die Gotik.",
       "place": { "name": "Saint-Denis", "lat": 48.9356, "lon": 2.3539 },
       "attributes": { "Werke": "Chor von Saint-Denis" }
+    },
+    {
+      "id": "karl-ehn", "title": "Karl Ehn", "start": "1884-11-01", "end": "1959-07-26", "importance": 2,
+      "description": "Architekt des Wiener Stadtbauamts im „Roten Wien“.",
+      "place": { "name": "Karl-Marx-Hof, Wien", "lat": 48.2492, "lon": 16.3653 },
+      "attributes": { "Werke": "Karl-Marx-Hof (1930)" }
+    },
+    {
+      "id": "josef-frank", "title": "Josef Frank", "short": "Frank", "start": "1885-07-15", "end": "1967-01-08", "importance": 3,
+      "description": "Architekt und Designer der Wiener Moderne, später in Schweden; Leiter der Wiener Werkbundsiedlung (1932).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Wiener Werkbundsiedlung" }
+    },
+    {
+      "id": "clemens-holzmeister", "title": "Clemens Holzmeister", "short": "Holzmeister", "start": "1886-03-27", "end": "1983-06-12", "importance": 2,
+      "description": "Architekt des Salzburger Festspielhauses und zahlreicher Bauten in Österreich und der Türkei.",
+      "place": { "name": "Festspielhaus, Salzburg", "lat": 47.7977, "lon": 13.041 },
+      "attributes": { "Werke": "Großes Festspielhaus Salzburg, Regierungsviertel Ankara" }
+    },
+    {
+      "id": "schuette-lihotzky", "title": "Margarete Schütte-Lihotzky", "short": "Schütte-Lihotzky", "start": "1897-01-23", "end": "2000-01-18", "importance": 2,
+      "description": "Erste Architektin Österreichs; entwarf die „Frankfurter Küche“, Widerstandskämpferin.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Frankfurter Küche (1926)" }
+    },
+    {
+      "id": "roland-rainer", "title": "Roland Rainer", "short": "Rainer", "start": "1910-05-01", "end": "2004-04-10", "importance": 3,
+      "description": "Architekt und Wiener Stadtplaner.",
+      "place": { "name": "Stadthalle, Wien", "lat": 48.2024, "lon": 16.3332 },
+      "attributes": { "Werke": "Wiener Stadthalle, Gartenstadt Puchenau" }
+    },
+    {
+      "id": "harry-glueck", "title": "Harry Glück", "short": "Glück", "start": "1925-02-20", "end": "2016-12-13", "importance": 3,
+      "description": "Architekt des sozialen Wohnbaus mit Dachschwimmbädern.",
+      "place": { "name": "Alt-Erlaa, Wien", "lat": 48.1517, "lon": 16.3133 },
+      "attributes": { "Werke": "Wohnpark Alt-Erlaa" }
+    },
+    {
+      "id": "gustav-peichl", "title": "Gustav Peichl", "short": "Peichl", "start": "1928-03-18", "end": "2019-11-17", "importance": 3,
+      "description": "Architekt und Karikaturist („Ironimus“).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "ORF-Landesstudios, Bundeskunsthalle Bonn" }
+    },
+    {
+      "id": "hans-hollein", "title": "Hans Hollein", "short": "Hollein", "start": "1934-03-30", "end": "2014-04-24", "importance": 1,
+      "description": "Hauptvertreter der Postmoderne, Pritzker-Preis 1985.",
+      "place": { "name": "Stephansplatz, Wien", "lat": 48.2085, "lon": 16.3722 },
+      "attributes": { "Werke": "Haas-Haus, Museum Abteiberg (Mönchengladbach)" }
+    },
+    {
+      "id": "guenther-domenig", "title": "Günther Domenig", "short": "Domenig", "start": "1934-07-06", "end": "2012-06-15", "importance": 3,
+      "description": "Kärntner Architekt des Dekonstruktivismus (Grazer Schule).",
+      "place": { "name": "Steindorf am Ossiacher See", "lat": 46.7, "lon": 14.0 },
+      "attributes": { "Werke": "Steinhaus, Dokumentationszentrum Reichsparteitagsgelände" }
+    },
+    {
+      "id": "frank-lloyd-wright", "title": "Frank Lloyd Wright", "short": "F. L. Wright", "start": "1867-06-08", "end": "1959-04-09", "importance": 4, "tags": ["international"],
+      "description": "Amerikanischer Pionier der modernen Architektur.",
+      "place": { "name": "Chicago", "lat": 41.8781, "lon": -87.6298 },
+      "attributes": { "Werke": "Fallingwater, Guggenheim Museum" }
+    },
+    {
+      "id": "mies-van-der-rohe", "title": "Ludwig Mies van der Rohe", "short": "Mies van der Rohe", "start": "1886-03-27", "end": "1969-08-17", "importance": 4, "tags": ["international"],
+      "description": "Bauhaus-Direktor und Meister des Stahl-Glas-Baus.",
+      "place": { "name": "Chicago", "lat": 41.8781, "lon": -87.6298 }
+    },
+    {
+      "id": "le-corbusier", "title": "Le Corbusier", "start": "1887-10-06", "end": "1965-08-27", "importance": 4, "tags": ["international"],
+      "description": "Wegbereiter der modernen Architektur und des Städtebaus.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Villa Savoye, Unité d’habitation" }
+    },
+    {
+      "id": "niemeyer", "title": "Oscar Niemeyer", "short": "Niemeyer", "start": "1907-12-15", "end": "2012-12-05", "importance": 5, "tags": ["international"],
+      "description": "Brasilianischer Architekt von Brasília.",
+      "place": { "name": "Brasília", "lat": -15.7939, "lon": -47.8828 }
+    },
+    {
+      "id": "zaha-hadid", "title": "Zaha Hadid", "short": "Hadid", "start": "1950-10-31", "end": "2016-03-31", "importance": 4, "tags": ["international"],
+      "description": "Irakisch-britische Architektin, lehrte an der Universität für angewandte Kunst Wien.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
+      "attributes": { "Werke": "Library & Learning Center WU Wien" }
     }
   ]
 }
