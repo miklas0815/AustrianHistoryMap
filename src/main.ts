@@ -5,6 +5,7 @@ import { zoom as d3zoom, zoomIdentity, type D3ZoomEvent, type ZoomBehavior } fro
 import { itemSpan, loadDataset, type Category, type Dataset, type Item } from './data';
 import { formatHistDate, formatRange, formatYear } from './dates';
 import { exportImage, exportPdf, type PdfFormat } from './export';
+import { formatMark, isLine, overlapsMark, type Mark } from './mark';
 import { layoutColumns, layoutLanes, visibleImportance, type Column, type Lane } from './layout';
 import { COLUMN_HEADER_H, FONT, FONT_SIZE, renderTimeline, renderVertical, verticalContentWidth } from './render';
 import { applyOrder, moveId } from './reorder';
@@ -117,8 +118,21 @@ function render(): void {
   statusEl.textContent =
     `${formatYear(Math.round(state.from))}–${formatYear(Math.round(state.to))} · ` +
     `Bedeutung 1–${lastMaxImportance} · ${shown} Einträge sichtbar` +
-    (hidden ? `, ${hidden} weitere beim Hineinzoomen` : '');
+    (hidden ? `, ${hidden} weitere beim Hineinzoomen` : '') +
+    markStatus(groups as { placed: { item: Item }[] }[]);
   syncUrl();
+}
+
+/** Beschriftung der Markierung passend zur aktuellen Auflösung. */
+function markLabel(): string | undefined {
+  return state.mark && formatMark(state.mark, plotLength() / (state.to - state.from));
+}
+
+function markStatus(groups: { placed: { item: Item }[] }[]): string {
+  const m = state.mark;
+  if (!m || isLine(m)) return '';
+  const n = groups.reduce((a, g) => a + g.placed.filter((p) => overlapsMark(p.item, m)).length, 0);
+  return ` · markiert ${markLabel()}: ${n} Einträge`;
 }
 
 function renderVerticalView(cats: Category[]): void {
@@ -141,6 +155,9 @@ function renderVerticalView(cats: Category[]): void {
     idPrefix: 'screen',
     measure,
     minWidth: chartEl.clientWidth,
+    mark: state.mark,
+    markLabel: markLabel(),
+    interactive: true,
   });
 }
 
@@ -164,6 +181,9 @@ function renderHorizontalView(cats: Category[]): void {
     domain: [state.from, state.to],
     selectedId: state.sel,
     idPrefix: 'screen',
+    mark: state.mark,
+    markLabel: markLabel(),
+    interactive: true,
   });
 }
 
@@ -215,6 +235,8 @@ function setupZoom(): void {
         const w = event as WheelEvent;
         return Math.abs(w.deltaY) >= Math.abs(w.deltaX);
       }
+      // Auf der Zeitachse markiert Ziehen einen Zeitabschnitt, statt zu verschieben.
+      if ((event.target as Element).closest?.('.axis-hit, [data-action="clear-mark"]')) return false;
       const m = event as MouseEvent;
       return !m.ctrlKey && !m.button;
     })
@@ -508,8 +530,75 @@ function setupInteraction(): void {
   });
   svgEl.addEventListener('pointerleave', hideTooltip);
   svgEl.addEventListener('click', (e) => {
+    if (suppressMarkClick) {
+      suppressMarkClick = false;
+      return;
+    }
+    if ((e.target as Element).closest('[data-action="clear-mark"]')) return setMark(undefined);
     const it = itemFromEvent(e);
-    if (it) showDetail(it);
+    if (it) return showDetail(it);
+    // Klick auf eine freie Stelle: Linie quer über alle Kategorien (erneuter Klick darauf entfernt sie).
+    const pos = axisPos(e);
+    if (pos < 0 || pos > plotLength()) return;
+    const t = timeAt(e);
+    const m = state.mark;
+    if (m && isLine(m) && Math.abs(currentScale()(m[0]) - pos) < 6) setMark(undefined);
+    else setMark([t, t]);
+  });
+  setupMarkDrag();
+}
+
+// ---------- Markierung ----------
+
+let markDrag: { start: number; x: number; y: number; moved: boolean } | null = null;
+let suppressMarkClick = false;
+
+function setMark(mark: Mark | undefined): void {
+  state.mark = mark;
+  scheduleRender();
+}
+
+/** Position entlang der Zeitachse (Pixel ab Beginn der Achse). */
+function axisPos(e: { clientX: number; clientY: number }): number {
+  const r = svgEl.getBoundingClientRect();
+  return vertical() ? e.clientY - r.top - COLUMN_HEADER_H : e.clientX - r.left - gutter;
+}
+
+function timeAt(e: { clientX: number; clientY: number }): number {
+  const t = state.from + (axisPos(e) / plotLength()) * (state.to - state.from);
+  return Math.max(state.from, Math.min(state.to, t));
+}
+
+// Auf der Zeitachse: Klick setzt eine Linie, Ziehen markiert einen Zeitabschnitt.
+function setupMarkDrag(): void {
+  svgEl.addEventListener('pointerdown', (e) => {
+    const target = e.target as Element;
+    if (!target.closest('.axis-hit') || target.closest('[data-action="clear-mark"]') || e.button) return;
+    e.preventDefault();
+    svgEl.setPointerCapture(e.pointerId);
+    const t = timeAt(e);
+    markDrag = { start: t, x: e.clientX, y: e.clientY, moved: false };
+    hideTooltip();
+  });
+  svgEl.addEventListener('pointermove', (e) => {
+    if (!markDrag) return;
+    if (!markDrag.moved && Math.hypot(e.clientX - markDrag.x, e.clientY - markDrag.y) < 4) return;
+    markDrag.moved = true;
+    const t = timeAt(e);
+    setMark(t < markDrag.start ? [t, markDrag.start] : [markDrag.start, t]);
+  });
+  const end = (apply: boolean) => {
+    if (!markDrag) return;
+    if (apply && !markDrag.moved) setMark([markDrag.start, markDrag.start]);
+    markDrag = null;
+    suppressMarkClick = apply;
+    // Folgt kein click (z. B. bei Touch), die Sperre nicht stehen lassen.
+    setTimeout(() => (suppressMarkClick = false), 0);
+  };
+  svgEl.addEventListener('pointerup', () => end(true));
+  svgEl.addEventListener('pointercancel', () => end(false));
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && state.mark) setMark(undefined);
   });
 }
 
@@ -617,6 +706,8 @@ function buildExportSvg(): { svg: SVGSVGElement; cleanup: () => void } {
       measure,
       header,
       footer,
+      mark: state.mark,
+      markLabel: markLabel(),
     });
   } else {
     // Für den Export immer mit Kategorienspalte, auch wenn am Handy kompakt angezeigt wird.
@@ -631,6 +722,8 @@ function buildExportSvg(): { svg: SVGSVGElement; cleanup: () => void } {
       idPrefix: 'export',
       header,
       footer,
+      mark: state.mark,
+      markLabel: markLabel(),
     });
   }
   return { svg, cleanup: () => holder.remove() };

@@ -20,6 +20,12 @@ Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
 - **Detailgrad**: zeigt bei gleicher Zoomstufe mehr oder weniger Einträge
 - **⟳ Senkrecht / ⟲ Waagrecht**: dreht die Darstellung um 90°: Zeit von oben nach
   unten, Kategorien als Spalten nebeneinander (seitlich scrollbar)
+- **Markieren**: Klick auf eine freie Stelle oder auf die Zeitachse zieht eine
+  Linie quer über alle Kategorien (erneuter Klick darauf entfernt sie). Ziehen
+  **auf der Zeitachse** markiert einen Zeitabschnitt: er wird hervorgehoben, Einträge
+  außerhalb treten blass zurück, die Statuszeile zählt die Einträge darin. Entfernen
+  mit „×“ an der Beschriftung oder Esc. Die Markierung steht im Link (`mark=…`) und
+  erscheint auch im PDF/JPEG
 - **Klick auf einen Eintrag**: Details mit Ort, Wikipedia-Suche und Kartenlink
 - **PDF / JPEG**: speichert genau die aktuelle Ansicht mit Titel und Datum;
   Hoch- oder Querformat richtet sich nach der Ausrichtung

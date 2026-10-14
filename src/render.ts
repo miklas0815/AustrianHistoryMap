@@ -3,11 +3,12 @@
 // identisch aussieht.
 
 import { BAR_H, COL_BAR_W, LANE_PAD, ROW_H, laneHeight, type Column, type Lane } from './layout';
+import { isLine, overlapsMark, type Mark } from './mark';
 import { computeTicks } from './ticks';
 
 export const FONT = 'Helvetica, Arial, sans-serif';
 export const FONT_SIZE = 11.5;
-const AXIS_H = 28;
+export const AXIS_H = 28;
 const COMPACT_TITLE_H = 16;
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -25,6 +26,11 @@ export interface RenderOptions {
   idPrefix: string;
   header?: { title: string; subtitle: string };
   footer?: string;
+  /** Markierte Linie bzw. markierter Zeitabschnitt mit Beschriftung. */
+  mark?: Mark;
+  markLabel?: string;
+  /** Bildschirmansicht: Zeitachse anklickbar, Markierung mit Schließen-Knopf. */
+  interactive?: boolean;
 }
 
 type Attrs = Record<string, string | number | undefined>;
@@ -90,6 +96,12 @@ export function renderTimeline(svg: SVGSVGElement, o: RenderOptions): number {
   }
   el('line', { x1: 0, x2: o.plotWidth, y1: AXIS_H, y2: AXIS_H, stroke: '#999999', 'stroke-width': 1 }, plot);
 
+  const range = o.mark && !isLine(o.mark) ? o.mark : undefined;
+  if (range) {
+    const [x0, x1] = [o.x(range[0]), o.x(range[1])];
+    el('rect', { x: x0, y: 0, width: x1 - x0, height: AXIS_H + lanesH, fill: MARK_FILL, 'fill-opacity': MARK_FILL_OPACITY }, clipped);
+  }
+
   // Einträge
   y = AXIS_H;
   o.lanes.forEach((lane, i) => {
@@ -104,7 +116,7 @@ export function renderTimeline(svg: SVGSVGElement, o: RenderOptions): number {
       const rowY = laneTop + LANE_PAD + p.row * ROW_H;
       const midY = rowY + ROW_H / 2;
       const selected = it.id === o.selectedId;
-      const g = el('g', { 'data-id': it.id, cursor: 'pointer' }, clipped);
+      const g = el('g', { 'data-id': it.id, cursor: 'pointer', opacity: range && !overlapsMark(it, range) ? DIM_OPACITY : undefined }, clipped);
       if (it.isPoint) {
         const r = it.importance <= 2 ? 6 : 5;
         el('path', {
@@ -146,6 +158,20 @@ export function renderTimeline(svg: SVGSVGElement, o: RenderOptions): number {
     y += laneHeights[i];
   });
 
+  if (o.mark) {
+    for (const t of isLine(o.mark) ? [o.mark[0]] : o.mark) {
+      const mx = o.x(t);
+      el('line', { x1: mx, x2: mx, y1: 0, y2: AXIS_H + lanesH, stroke: MARK_COLOR, 'stroke-width': 1.5 }, clipped);
+    }
+  }
+  if (o.interactive) {
+    el('rect', { class: 'axis-hit', x: 0, y: 0, width: o.plotWidth, height: AXIS_H, fill: 'transparent', cursor: 'crosshair' }, plot);
+  }
+  if (o.mark && o.markLabel) {
+    const cx = (o.x(o.mark[0]) + o.x(o.mark[1])) / 2;
+    markTag(plot, o.markLabel, cx, 4, 'middle', [0, o.plotWidth], o.interactive);
+  }
+
   // Kategorienamen in der linken Spalte (über allem, damit nichts hineinragt)
   if (!compact) {
     el('rect', { x: 0, y: top, width: o.gutter - 1, height: lanesH, fill: '#ffffff', 'fill-opacity': 0.94 }, svg);
@@ -164,6 +190,34 @@ export function renderTimeline(svg: SVGSVGElement, o: RenderOptions): number {
   if (o.footer) text(o.footer, { x: 12, y: top + lanesH + 20, 'font-size': 9.5, fill: '#777' }, svg);
 
   return height;
+}
+
+const MARK_COLOR = '#B3261E';
+const MARK_FILL = '#F2B705';
+const MARK_FILL_OPACITY = 0.18;
+/** Deckkraft der Einträge außerhalb eines markierten Zeitabschnitts. */
+const DIM_OPACITY = 0.3;
+const TAG_H = 18;
+
+/**
+ * Beschriftung der Markierung. `anchor` middle: zentriert um `pos`, start: ab `pos`;
+ * `bounds` hält sie innerhalb des Zeichenbereichs. Am Bildschirm mit „×“ zum Entfernen.
+ */
+function markTag(parent: Element, label: string, pos: number, y: number, anchor: 'middle' | 'start', bounds: [number, number], closable?: boolean): void {
+  const textW = label.length * 6.6;
+  const w = textW + 12 + (closable ? 16 : 0);
+  let x = anchor === 'middle' ? pos - w / 2 : pos;
+  x = Math.max(bounds[0], Math.min(bounds[1] - w, x));
+  const g = el('g', {}, parent);
+  el('rect', { x, y, width: w, height: TAG_H, rx: 3, fill: '#ffffff', stroke: MARK_COLOR, 'stroke-width': 1 }, g);
+  text(label, { x: x + 6, y: y + 13, 'font-size': 11, 'font-weight': 'bold', fill: MARK_COLOR }, g);
+  if (closable) {
+    const c = el('g', { 'data-action': 'clear-mark', cursor: 'pointer' }, g);
+    el('rect', { x: x + w - 18, y, width: 18, height: TAG_H, fill: 'transparent' }, c);
+    text('×', { x: x + w - 9, y: y + 13.5, 'font-size': 14, 'font-weight': 'bold', fill: MARK_COLOR, 'text-anchor': 'middle' }, c);
+    const title = el('title', {}, c);
+    title.textContent = 'Markierung entfernen';
+  }
 }
 
 /** Deckkraft des Lebenszeit-Balkens: gleiche Farbe, deutlich weniger gesättigt. */
@@ -194,7 +248,7 @@ function hiddenHint(lane: Lane): string {
 // ---------- Senkrechte Darstellung ----------
 
 export const COLUMN_HEADER_H = 50;
-const AXIS_W = 58;
+export const AXIS_W = 58;
 const COL_PAD = 10;
 const HEADER_FONT = 12;
 
@@ -210,6 +264,11 @@ export interface VerticalRenderOptions {
   footer?: string;
   /** Mindestbreite des gesamten SVG (z. B. Breite des Fensters). */
   minWidth?: number;
+  /** Markierte Linie bzw. markierter Zeitabschnitt mit Beschriftung. */
+  mark?: Mark;
+  markLabel?: string;
+  /** Bildschirmansicht: Zeitachse anklickbar, Markierung mit Schließen-Knopf. */
+  interactive?: boolean;
 }
 
 /** Bricht einen Kategorienamen in höchstens zwei möglichst gleich lange Zeilen um. */
@@ -289,6 +348,12 @@ export function renderVertical(svg: SVGSVGElement, o: VerticalRenderOptions): { 
   }
   el('line', { x1: AXIS_W - 0.5, x2: AXIS_W - 0.5, y1: top, y2: top + o.plotHeight, stroke: '#999999' }, svg);
 
+  const range = o.mark && !isLine(o.mark) ? o.mark : undefined;
+  if (range) {
+    const [y0, y1] = [top + o.y(range[0]), top + o.y(range[1])];
+    el('rect', { x: 0, y: y0, width, height: y1 - y0, fill: MARK_FILL, 'fill-opacity': MARK_FILL_OPACITY }, clipped);
+  }
+
   // Einträge
   x = AXIS_W;
   o.columns.forEach((col, i) => {
@@ -297,7 +362,7 @@ export function renderVertical(svg: SVGSVGElement, o: VerticalRenderOptions): { 
       const it = p.item;
       const bx = x + COL_PAD + p.x;
       const selected = it.id === o.selectedId;
-      const g = el('g', { 'data-id': it.id, cursor: 'pointer' }, clipped);
+      const g = el('g', { 'data-id': it.id, cursor: 'pointer', opacity: range && !overlapsMark(it, range) ? DIM_OPACITY : undefined }, clipped);
       if (it.isPoint) {
         const r = it.importance <= 2 ? 6 : 5;
         const cx = bx + COL_BAR_W / 2;
@@ -336,6 +401,21 @@ export function renderVertical(svg: SVGSVGElement, o: VerticalRenderOptions): { 
     }
     x += heads[i].width;
   });
+
+  if (o.mark) {
+    for (const t of isLine(o.mark) ? [o.mark[0]] : o.mark) {
+      const my = top + o.y(t);
+      el('line', { x1: 0, x2: width, y1: my, y2: my, stroke: MARK_COLOR, 'stroke-width': 1.5 }, clipped);
+    }
+  }
+  if (o.interactive) {
+    el('rect', { class: 'axis-hit', x: 0, y: top, width: AXIS_W, height: o.plotHeight, fill: 'transparent', cursor: 'crosshair' }, svg);
+  }
+  if (o.mark && o.markLabel) {
+    // Über der (ersten) Linie, rechts neben der Zeitachse.
+    const ly = Math.max(top + 2, Math.min(top + o.plotHeight - TAG_H - 2, top + o.y(o.mark[0]) - TAG_H - 3));
+    markTag(svg, o.markLabel, AXIS_W + 4, ly, 'start', [0, width], o.interactive);
+  }
 
   // Spaltenköpfe (über allem)
   x = AXIS_W;

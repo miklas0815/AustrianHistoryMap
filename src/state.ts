@@ -1,6 +1,8 @@
 // Der Zustand der Ansicht steht in der URL, damit jeder Ausschnitt als Link
 // geteilt und später exakt wiederhergestellt werden kann.
 
+import { parseMark, serializeMark, type Mark } from './mark';
+
 export interface ViewState {
   from: number;
   to: number;
@@ -12,6 +14,8 @@ export interface ViewState {
   orient: 'h' | 'v';
   /** Benutzerdefinierte Reihenfolge der Kategorien; null = Standard. */
   order: string[] | null;
+  /** Markierte Linie oder markierter Zeitabschnitt. */
+  mark?: Mark;
   sel?: string;
 }
 
@@ -34,6 +38,7 @@ export function parseViewState(search: string): ViewState {
     detail: Math.max(-2, Math.min(2, Math.round(num('detail', 0)))),
     orient: p.get('orient') === 'v' ? 'v' : 'h',
     order: p.get('order')?.split(',').filter(Boolean) ?? null,
+    mark: parseMark(p.get('mark')),
     sel: p.get('sel') ?? undefined,
   };
 }
@@ -47,6 +52,7 @@ export function serializeViewState(s: ViewState): string {
   if (s.detail) p.set('detail', String(s.detail));
   if (s.orient === 'v') p.set('orient', 'v');
   if (s.order) p.set('order', s.order.join(','));
+  if (s.mark) p.set('mark', serializeMark(s.mark));
   if (s.sel) p.set('sel', s.sel);
   return '?' + p.toString().replace(/%2C/g, ',');
 }
