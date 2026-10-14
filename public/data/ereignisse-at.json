@@ -257,6 +257,161 @@
       "id": "belvedere-1714", "title": "Baubeginn des Belvedere", "start": "1714", "importance": 4,
       "description": "Lukas von Hildebrandt begann für Prinz Eugen mit dem Unteren Belvedere; das Obere Belvedere folgte ab 1717.",
       "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
+    },
+    {
+      "id": "belgrad-1717", "title": "Prinz Eugen erobert Belgrad", "short": "Belgrad 1717", "start": "1717-08-16", "importance": 3,
+      "description": "Höhepunkt des Türkenkriegs 1716–1718; im Frieden von Passarowitz (1718) erreichte die Habsburgermonarchie ihre größte Ausdehnung auf dem Balkan.",
+      "place": { "name": "Belgrad", "lat": 44.8176, "lon": 20.4569 }
+    },
+    {
+      "id": "karlskirche-bau", "title": "Bau der Karlskirche", "start": "1716", "end": "1737", "importance": 4,
+      "description": "Nach Plänen Johann Bernhard Fischer von Erlachs, vollendet von seinem Sohn.",
+      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 }
+    },
+    {
+      "id": "erbfolgekrieg", "title": "Österreichischer Erbfolgekrieg", "start": "1740-12", "end": "1748-10", "importance": 2,
+      "description": "Preußen, Bayern und Frankreich bestritten Maria Theresias Erbe. Österreich behauptete sich, verlor aber Schlesien an Preußen.",
+      "place": { "name": "Schlesien", "lat": 50.8, "lon": 17.0 }
+    },
+    {
+      "id": "haugwitz-1749", "title": "Haugwitzsche Staatsreform", "start": "1749", "importance": 4,
+      "description": "Trennung von Justiz und Verwaltung, Zentralisierung der Behörden – Beginn des modernen Beamtenstaats.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "siebenjaehriger-krieg-at", "title": "Siebenjähriger Krieg", "start": "1756-08", "end": "1763-02-15", "importance": 3,
+      "description": "Maria Theresias Versuch, Schlesien zurückzugewinnen, scheiterte; Sieg bei Kolin (1757).",
+      "place": { "name": "Böhmen / Sachsen", "lat": 50.5, "lon": 14.5 }
+    },
+    {
+      "id": "schulpflicht-1774", "title": "Allgemeine Schulpflicht", "start": "1774-12-06", "importance": 2,
+      "description": "Die „Allgemeine Schulordnung“ Maria Theresias führte die sechsjährige Unterrichtspflicht ein.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "toleranzpatent-1781", "title": "Toleranzpatent Josephs II.", "start": "1781-10-13", "importance": 2,
+      "description": "Gewährte Protestanten und Orthodoxen private Religionsausübung und bürgerliche Rechte; Juden folgten mit eigenen Toleranzpatenten.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "leibeigenschaft-1781", "title": "Aufhebung der Leibeigenschaft", "start": "1781-11-01", "importance": 3,
+      "description": "Joseph II. hob die persönliche Leibeigenschaft in Böhmen und Mähren auf, später in weiteren Ländern.",
+      "place": { "name": "Böhmen", "lat": 50.0, "lon": 14.5 }
+    },
+    {
+      "id": "napoleon-wien-1805", "title": "Napoleon besetzt Wien", "start": "1805-11-13", "importance": 3,
+      "description": "Erste französische Besetzung Wiens; kurz darauf Niederlage bei Austerlitz (2. Dezember 1805).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "kaisertum-1804", "title": "Gründung des Kaisertums Österreich", "start": "1804-08-11", "importance": 2,
+      "description": "Franz II. nahm als Franz I. den Titel eines erblichen Kaisers von Österreich an.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "ende-hrr-1806", "title": "Ende des Heiligen Römischen Reiches", "start": "1806-08-06", "importance": 2,
+      "description": "Franz II. legte die römisch-deutsche Kaiserkrone nieder; das über 800 Jahre alte Reich erlosch.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "aspern-1809", "title": "Schlacht bei Aspern", "start": "1809-05-21", "end": "1809-05-22", "importance": 3,
+      "description": "Erzherzog Karl brachte Napoleon die erste Niederlage in offener Feldschlacht bei; wenig später siegte Napoleon bei Wagram.",
+      "place": { "name": "Aspern, Wien", "lat": 48.2167, "lon": 16.4833 }
+    },
+    {
+      "id": "tiroler-aufstand-1809", "title": "Tiroler Volksaufstand", "start": "1809-04", "end": "1809-11", "importance": 3,
+      "description": "Andreas Hofer führte den Aufstand gegen die bayerische und französische Herrschaft; er wurde 1810 in Mantua hingerichtet.",
+      "place": { "name": "Bergisel, Innsbruck", "lat": 47.2475, "lon": 11.4005 }
+    },
+    {
+      "id": "wiener-kongress", "title": "Wiener Kongress", "start": "1814-09-18", "end": "1815-06-09", "importance": 1,
+      "description": "Neuordnung Europas nach den Napoleonischen Kriegen unter der Leitung Metternichs; Wien wurde zur Bühne der europäischen Diplomatie.",
+      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
+    },
+    {
+      "id": "maerzrevolution-1848", "title": "Revolution 1848", "start": "1848-03-13", "end": "1848-10-31", "importance": 1,
+      "description": "Erhebung von Studenten, Bürgern und Arbeitern: Sturz Metternichs, Aufhebung der Grunduntertänigkeit, erster Reichstag. Im Oktober wurde Wien militärisch zurückerobert.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "stadterweiterung-1857", "title": "Abbruch der Stadtmauer und Bau der Ringstraße", "short": "Ringstraße", "start": "1857-12-20", "importance": 2,
+      "description": "Franz Joseph ordnete die Schleifung der Basteien an; an ihrer Stelle entstand die Ringstraße mit ihren Prachtbauten.",
+      "place": { "name": "Ringstraße, Wien", "lat": 48.205, "lon": 16.362 }
+    },
+    {
+      "id": "koeniggraetz-1866", "title": "Schlacht bei Königgrätz", "start": "1866-07-03", "importance": 2,
+      "description": "Niederlage gegen Preußen; Österreich schied aus dem Deutschen Bund aus.",
+      "place": { "name": "Königgrätz (Hradec Králové)", "lat": 50.2092, "lon": 15.8328 }
+    },
+    {
+      "id": "ausgleich-1867", "title": "Österreichisch-Ungarischer Ausgleich", "short": "Ausgleich 1867", "start": "1867", "importance": 2,
+      "description": "Umwandlung des Kaisertums in die Doppelmonarchie Österreich-Ungarn; im selben Jahr erhielt Österreich mit der Dezemberverfassung Grundrechte.",
+      "place": { "name": "Budapest", "lat": 47.4979, "lon": 19.0402 }
+    },
+    {
+      "id": "staatsoper-1869", "title": "Eröffnung der Hofoper", "start": "1869-05-25", "importance": 4,
+      "description": "Erster großer Monumentalbau der Ringstraße, eröffnet mit Mozarts „Don Giovanni“.",
+      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 }
+    },
+    {
+      "id": "weltausstellung-1873", "title": "Weltausstellung und Börsenkrach", "start": "1873-05-01", "end": "1873-11-02", "importance": 3,
+      "description": "Die Wiener Weltausstellung im Prater wurde vom Börsenkrach vom 9. Mai und einer Choleraepidemie überschattet.",
+      "place": { "name": "Prater, Wien", "lat": 48.2166, "lon": 16.3958 }
+    },
+    {
+      "id": "ringtheater-1881", "title": "Ringtheaterbrand", "start": "1881-12-08", "importance": 4,
+      "description": "Brandkatastrophe mit Hunderten Toten; Anlass für die Gründung der Wiener Rettungsgesellschaft und strenge Theatervorschriften.",
+      "place": { "name": "Schottenring, Wien", "lat": 48.2148, "lon": 16.3651 }
+    },
+    {
+      "id": "mayerling-1889", "title": "Tragödie von Mayerling", "start": "1889-01-30", "importance": 3,
+      "description": "Kronprinz Rudolf und Mary Vetsera starben im Jagdschloss Mayerling.",
+      "place": { "name": "Mayerling", "lat": 48.0464, "lon": 16.0989 }
+    },
+    {
+      "id": "gross-wien-1892", "title": "Eingemeindung der Vororte", "start": "1892-01-01", "importance": 4,
+      "description": "Durch die Eingemeindung der Vororte wuchs Wien auf 19 Bezirke und über 1,3 Millionen Einwohner.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "secession-1897", "title": "Gründung der Wiener Secession", "start": "1897-04-03", "importance": 3,
+      "description": "Junge Künstler um Gustav Klimt lösten sich vom Künstlerhaus: „Der Zeit ihre Kunst, der Kunst ihre Freiheit“.",
+      "place": { "name": "Secession, Wien", "lat": 48.2003, "lon": 16.3658 }
+    },
+    {
+      "id": "elisabeth-1898", "title": "Ermordung Kaiserin Elisabeths", "start": "1898-09-10", "importance": 3,
+      "description": "Die Kaiserin wurde in Genf von einem italienischen Anarchisten erstochen.",
+      "place": { "name": "Genf", "lat": 46.2044, "lon": 6.1432 }
+    },
+    {
+      "id": "wahlrecht-1907", "title": "Allgemeines Männerwahlrecht", "start": "1907", "importance": 3,
+      "description": "Erste Reichsratswahl nach dem allgemeinen und gleichen Wahlrecht für Männer.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "annexion-bosnien-1908", "title": "Annexion Bosnien-Herzegowinas", "start": "1908-10-06", "importance": 4,
+      "description": "Die Annexion löste die Bosnische Krise aus und verschärfte die Spannungen mit Serbien und Russland.",
+      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
+    },
+    {
+      "id": "sarajevo-1914", "title": "Attentat von Sarajevo", "start": "1914-06-28", "importance": 1,
+      "description": "Ermordung des Thronfolgers Franz Ferdinand und seiner Frau Sophie; die Kriegserklärung an Serbien am 28. Juli löste den Ersten Weltkrieg aus.",
+      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
+    },
+    {
+      "id": "republik-1918", "title": "Ausrufung der Republik Deutschösterreich", "short": "Republik 1918", "start": "1918-11-12", "importance": 1,
+      "description": "Nach dem Zerfall der Monarchie rief die Provisorische Nationalversammlung die Republik aus. Im selben Jahr wurde das Frauenwahlrecht eingeführt.",
+      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
+    },
+    {
+      "id": "saint-germain-1919", "title": "Vertrag von Saint-Germain", "start": "1919-09-10", "importance": 2,
+      "description": "Friedensvertrag der Siegermächte mit Österreich: Festlegung der Grenzen, Verbot des Anschlusses an Deutschland, Name „Republik Österreich“.",
+      "place": { "name": "Saint-Germain-en-Laye", "lat": 48.8989, "lon": 2.0938 }
+    },
+    {
+      "id": "bundesverfassung-1920", "title": "Bundes-Verfassungsgesetz", "short": "B-VG 1920", "start": "1920-10-01", "importance": 3,
+      "description": "Die von Hans Kelsen mitgestaltete Verfassung machte Österreich zum Bundesstaat; Wien wurde ein eigenes Bundesland.",
+      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
     }
   ]
 }

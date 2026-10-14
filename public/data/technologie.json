@@ -235,6 +235,246 @@
       "description": "Daniel Gabriel Fahrenheit baute zuverlässige Quecksilberthermometer.",
       "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 },
       "attributes": { "Bereich": "Messtechnik" }
+    },
+    {
+      "id": "linne-1735", "title": "Linné: Systema Naturae", "start": "1735", "importance": 5, "tags": ["international"],
+      "description": "Carl von Linné begründete die moderne biologische Systematik.",
+      "place": { "name": "Leiden (Druckort)", "lat": 52.1601, "lon": 4.497 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "watt-1769", "title": "Watts Dampfmaschine", "start": "1769", "importance": 3, "tags": ["international"],
+      "description": "James Watt ließ seine verbesserte Dampfmaschine patentieren – Motor der Industriellen Revolution.",
+      "place": { "name": "Glasgow", "lat": 55.8642, "lon": -4.2518 },
+      "attributes": { "Bereich": "Maschinenbau, Energie" }
+    },
+    {
+      "id": "ingenhousz-1779", "title": "Ingenhousz entdeckt die Photosynthese", "short": "Photosynthese", "start": "1779", "importance": 3,
+      "description": "Jan Ingenhousz, Leibarzt Maria Theresias, wies nach, dass Pflanzen im Licht Sauerstoff abgeben.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "montgolfiere-1783", "title": "Erster bemannter Ballonflug", "start": "1783-11-21", "importance": 4, "tags": ["international"],
+      "description": "Mit einer Montgolfière gelang in Paris der erste Flug von Menschen.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Bereich": "Luftfahrt" }
+    },
+    {
+      "id": "akh-1784", "title": "Allgemeines Krankenhaus Wien", "start": "1784-08-16", "importance": 2,
+      "description": "Joseph II. eröffnete das damals größte Krankenhaus Europas; Keimzelle der Wiener Medizinischen Schule.",
+      "place": { "name": "Altes AKH, Wien", "lat": 48.216, "lon": 16.354 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "jenner-1796", "title": "Jenner: Pockenimpfung", "start": "1796", "importance": 4, "tags": ["international"],
+      "description": "Edward Jenner führte die Impfung mit Kuhpocken ein.",
+      "place": { "name": "Berkeley (England)", "lat": 51.691, "lon": -2.458 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "volta-1800", "title": "Voltasche Säule", "start": "1800", "importance": 4, "tags": ["international"],
+      "description": "Alessandro Volta baute die erste Batterie.",
+      "place": { "name": "Pavia", "lat": 45.1847, "lon": 9.1582 },
+      "attributes": { "Bereich": "Elektrizität" }
+    },
+    {
+      "id": "madersperger-1814", "title": "Madersperger: Nähmaschine", "start": "1814", "importance": 4,
+      "description": "Der Wiener Schneider Josef Madersperger entwickelte eine der ersten Nähmaschinen.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Feinmechanik" }
+    },
+    {
+      "id": "polytechnikum-1815", "title": "Gründung des Polytechnischen Instituts", "start": "1815-11-06", "importance": 3,
+      "description": "Vorläufer der Technischen Universität Wien.",
+      "place": { "name": "Karlsplatz, Wien", "lat": 48.199, "lon": 16.3699 },
+      "attributes": { "Bereich": "Bildung, Technik" }
+    },
+    {
+      "id": "stockton-darlington-1825", "title": "Erste öffentliche Dampfeisenbahn", "start": "1825-09-27", "importance": 3, "tags": ["international"],
+      "description": "Die Stockton-and-Darlington-Bahn mit George Stephensons Lokomotive eröffnete das Eisenbahnzeitalter.",
+      "place": { "name": "Stockton-on-Tees", "lat": 54.5703, "lon": -1.3187 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "ressel-1827", "title": "Ressel: Schiffsschraube", "start": "1827", "importance": 2,
+      "description": "Josef Ressel erhielt in Österreich ein Privileg auf die Schiffsschraube als Schiffsantrieb.",
+      "place": { "name": "Triest", "lat": 45.6495, "lon": 13.7768 },
+      "attributes": { "Bereich": "Schiffbau" }
+    },
+    {
+      "id": "ddsg-1829", "title": "Erste Donau-Dampfschiffahrts-Gesellschaft", "start": "1829", "importance": 4,
+      "description": "Die DDSG wurde zur größten Binnenreederei der Welt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "pferdeeisenbahn-1832", "title": "Pferdeeisenbahn Budweis–Linz", "start": "1832-08-01", "importance": 3,
+      "description": "Erste öffentliche Eisenbahn des europäischen Kontinents (mit Pferdezug).",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "nordbahn-1837", "title": "Kaiser-Ferdinands-Nordbahn", "short": "Nordbahn", "start": "1837-11-23", "importance": 2,
+      "description": "Erste Dampfeisenbahn Österreichs zwischen Floridsdorf und Deutsch-Wagram.",
+      "place": { "name": "Floridsdorf, Wien", "lat": 48.2564, "lon": 16.399 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "daguerre-1839", "title": "Fotografie (Daguerreotypie)", "short": "Fotografie", "start": "1839", "importance": 4, "tags": ["international"],
+      "description": "Louis Daguerre stellte das erste praktische fotografische Verfahren vor; in Wien entwickelte Joseph Petzval bald ein lichtstarkes Porträtobjektiv.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Bereich": "Optik, Chemie" }
+    },
+    {
+      "id": "doppler-1842", "title": "Doppler-Effekt", "start": "1842", "importance": 2,
+      "description": "Der Salzburger Physiker Christian Doppler beschrieb in Prag die Frequenzänderung bei bewegten Wellenquellen.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "morse-1844", "title": "Morse-Telegraf", "start": "1844-05-24", "importance": 4, "tags": ["international"],
+      "description": "Samuel Morse übertrug das erste Telegramm zwischen Washington und Baltimore.",
+      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 },
+      "attributes": { "Bereich": "Kommunikation" }
+    },
+    {
+      "id": "semmelweis-1847", "title": "Semmelweis: Händedesinfektion", "short": "Semmelweis", "start": "1847", "importance": 1,
+      "description": "Ignaz Semmelweis erkannte am Wiener AKH die Ursache des Kindbettfiebers und führte die Händedesinfektion ein.",
+      "place": { "name": "Altes AKH, Wien", "lat": 48.216, "lon": 16.354 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "akademie-wissenschaften-1847", "title": "Akademie der Wissenschaften", "start": "1847-05-14", "importance": 3,
+      "description": "Gründung der Kaiserlichen Akademie der Wissenschaften in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Wissenschaft" }
+    },
+    {
+      "id": "semmeringbahn-1854", "title": "Semmeringbahn", "start": "1854-07-17", "importance": 1,
+      "description": "Carl von Ghegas Bahn über den Semmering war die erste normalspurige Gebirgsbahn Europas (heute UNESCO-Welterbe).",
+      "place": { "name": "Semmering", "lat": 47.6333, "lon": 15.8297 },
+      "attributes": { "Bereich": "Verkehr", "Planer": "Carl von Ghega" }
+    },
+    {
+      "id": "darwin-1859", "title": "Darwin: Über die Entstehung der Arten", "short": "Darwin", "start": "1859-11-24", "importance": 3, "tags": ["international"],
+      "description": "Charles Darwin begründete die Evolutionstheorie.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "mitterhofer-1864", "title": "Mitterhofer: Schreibmaschine", "start": "1864", "importance": 4,
+      "description": "Der Tiroler Peter Mitterhofer baute eines der ersten Schreibmaschinenmodelle und führte es Kaiser Franz Joseph vor.",
+      "place": { "name": "Partschins", "lat": 46.6833, "lon": 11.0833 },
+      "attributes": { "Bereich": "Feinmechanik" }
+    },
+    {
+      "id": "mendel-1865", "title": "Mendelsche Vererbungsregeln", "short": "Mendel", "start": "1865-02-08", "importance": 1,
+      "description": "Gregor Mendel trug in Brünn seine Kreuzungsversuche mit Erbsen vor – Grundlage der Genetik.",
+      "place": { "name": "Brünn (Brno)", "lat": 49.1951, "lon": 16.6068 },
+      "attributes": { "Bereich": "Biologie" }
+    },
+    {
+      "id": "periodensystem-1869", "title": "Periodensystem der Elemente", "start": "1869", "importance": 5, "tags": ["international"],
+      "description": "Dmitri Mendelejew ordnete die chemischen Elemente nach ihren Eigenschaften.",
+      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 },
+      "attributes": { "Bereich": "Chemie" }
+    },
+    {
+      "id": "hochquellenwasserleitung-1873", "title": "I. Wiener Hochquellenwasserleitung", "short": "Hochquellenwasserleitung", "start": "1873-10-24", "importance": 3,
+      "description": "Quellwasser aus Rax und Schneeberg versorgte Wien; Eröffnung mit dem Hochstrahlbrunnen.",
+      "place": { "name": "Schwarzenbergplatz, Wien", "lat": 48.199, "lon": 16.376 },
+      "attributes": { "Bereich": "Infrastruktur" }
+    },
+    {
+      "id": "donauregulierung", "title": "Donauregulierung", "start": "1870", "end": "1875", "importance": 4,
+      "description": "Ein neues, begradigtes Donaubett schützte Wien vor Hochwasser.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Wasserbau" }
+    },
+    {
+      "id": "telefon-1876", "title": "Telefon", "start": "1876-03-10", "importance": 4, "tags": ["international"],
+      "description": "Alexander Graham Bell erhielt das Patent auf das Telefon.",
+      "place": { "name": "Boston", "lat": 42.3601, "lon": -71.0589 },
+      "attributes": { "Bereich": "Kommunikation" }
+    },
+    {
+      "id": "boltzmann-1877", "title": "Boltzmanns Entropieformel", "short": "Boltzmann", "start": "1877", "importance": 2,
+      "description": "Ludwig Boltzmann verband die Entropie mit der Wahrscheinlichkeit von Mikrozuständen – Grundlage der statistischen Physik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "gluehbirne-1879", "title": "Glühlampe", "start": "1879", "importance": 4, "tags": ["international"],
+      "description": "Thomas Edison entwickelte eine langlebige Kohlefaden-Glühlampe.",
+      "place": { "name": "Menlo Park", "lat": 40.564, "lon": -74.336 },
+      "attributes": { "Bereich": "Elektrizität" }
+    },
+    {
+      "id": "auer-1885", "title": "Auer von Welsbach: Gasglühlicht", "short": "Gasglühlicht", "start": "1885", "importance": 3,
+      "description": "Carl Auer von Welsbach erfand den Gasglühstrumpf, später Metallfadenlampe und Zündstein.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Chemie, Beleuchtung" }
+    },
+    {
+      "id": "benz-1886", "title": "Benz Patent-Motorwagen", "short": "Automobil", "start": "1886-01-29", "importance": 3, "tags": ["international"],
+      "description": "Carl Benz meldete das erste praxistaugliche Automobil zum Patent an. In Wien hatte Siegfried Marcus schon zuvor Motorwagen gebaut.",
+      "place": { "name": "Mannheim", "lat": 49.4875, "lon": 8.466 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "roentgen-1895", "title": "Röntgenstrahlen", "start": "1895-11-08", "importance": 4, "tags": ["international"],
+      "description": "Wilhelm Conrad Röntgen entdeckte die nach ihm benannten Strahlen.",
+      "place": { "name": "Würzburg", "lat": 49.7913, "lon": 9.9534 },
+      "attributes": { "Bereich": "Physik, Medizin" }
+    },
+    {
+      "id": "stadtbahn-1898", "title": "Wiener Stadtbahn", "start": "1898-05-09", "importance": 3,
+      "description": "Eröffnung der von Otto Wagner gestalteten Stadtbahn, Vorläuferin der U-Bahn.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Verkehr" }
+    },
+    {
+      "id": "freud-traumdeutung", "title": "Freud: Die Traumdeutung", "short": "Freud", "start": "1899-11", "importance": 1,
+      "description": "Sigmund Freuds Hauptwerk (vordatiert auf 1900) begründete die Psychoanalyse.",
+      "place": { "name": "Berggasse 19, Wien", "lat": 48.2188, "lon": 16.3633 },
+      "attributes": { "Bereich": "Medizin, Psychologie" }
+    },
+    {
+      "id": "landsteiner-1901", "title": "Landsteiner: Blutgruppen", "short": "Blutgruppen", "start": "1901", "importance": 2,
+      "description": "Karl Landsteiner entdeckte in Wien das AB0-Blutgruppensystem (Nobelpreis 1930).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Medizin" }
+    },
+    {
+      "id": "wright-1903", "title": "Erster Motorflug", "start": "1903-12-17", "importance": 3, "tags": ["international"],
+      "description": "Den Brüdern Wright gelang der erste gesteuerte Motorflug.",
+      "place": { "name": "Kitty Hawk", "lat": 36.0146, "lon": -75.668 },
+      "attributes": { "Bereich": "Luftfahrt" }
+    },
+    {
+      "id": "einstein-1905", "title": "Einstein: Spezielle Relativitätstheorie", "short": "Relativitätstheorie", "start": "1905", "importance": 3, "tags": ["international"],
+      "description": "Albert Einstein veröffentlichte die Relativitätstheorie; 1915 folgte die allgemeine Relativitätstheorie.",
+      "place": { "name": "Bern", "lat": 46.948, "lon": 7.4474 },
+      "attributes": { "Bereich": "Physik" }
+    },
+    {
+      "id": "lieben-1906", "title": "Lieben-Röhre", "start": "1906", "importance": 3,
+      "description": "Robert von Lieben entwickelte in Wien eine Verstärkerröhre – Grundlage der Rundfunktechnik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Elektronik" }
+    },
+    {
+      "id": "etrich-taube-1910", "title": "Etrich Taube", "start": "1910", "importance": 3,
+      "description": "Das Flugzeug von Igo Etrich wurde zu einem der meistgebauten Flugzeuge vor dem Ersten Weltkrieg.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
+      "attributes": { "Bereich": "Luftfahrt" }
+    },
+    {
+      "id": "kaplan-1912", "title": "Kaplan-Turbine", "start": "1912", "importance": 3,
+      "description": "Viktor Kaplan entwickelte in Brünn eine verstellbare Wasserturbine für Flusskraftwerke.",
+      "place": { "name": "Brünn (Brno)", "lat": 49.1951, "lon": 16.6068 },
+      "attributes": { "Bereich": "Energie" }
     }
   ]
 }

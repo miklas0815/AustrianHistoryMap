@@ -1,7 +1,7 @@
 {
   "categories": [
-    {"id": "herrscher-hrr", "name": "Röm.-dt. Kaiser & Könige", "color": "#A97C14", "file": "herrscher-hrr.json", "description": "Oberhäupter des Heiligen Römischen Reiches (Regierungszeit)."},
-    {"id": "herrscher-at", "name": "Landesfürsten Österreich", "color": "#C8102E", "file": "herrscher-at.json", "description": "Habsburgische Landesfürsten der österreichischen Länder (Regierungszeit), ab 1564 nach Länderteilung."},
+    {"id": "herrscher-hrr", "name": "Röm.-dt. Kaiser & Könige", "color": "#A97C14", "file": "herrscher-hrr.json", "description": "Oberhäupter des Heiligen Römischen Reiches bis 1806 (Regierungszeit, blass: Lebenszeit)."},
+    {"id": "herrscher-at", "name": "Herrscher Österreich", "color": "#C8102E", "file": "herrscher-at.json", "description": "Landesfürsten der österreichischen Länder, ab 1804 Kaiser von Österreich, ab 1918 Staatsoberhäupter der Republik (Regierungszeit, blass: Lebenszeit)."},
     {"id": "buergermeister-wien", "name": "Bürgermeister Wien", "color": "#1F5FAD", "file": "buergermeister-wien.json", "description": "Amtszeiten der Wiener Bürgermeister."},
     {"id": "baumeister", "name": "Baumeister & Architekten", "color": "#2E7D4F", "file": "baumeister.json", "description": "Lebensdaten von Baumeistern und Architekten."},
     {"id": "komponisten", "name": "Komponisten", "color": "#C25E14", "file": "komponisten.json", "description": "Lebensdaten von Komponisten, vor allem an den Habsburgerhöfen."},

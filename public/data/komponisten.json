@@ -187,6 +187,234 @@
       "id": "haendel", "title": "Georg Friedrich Händel", "short": "Händel", "start": "1685-02-23", "end": "1759-04-14", "importance": 4, "tags": ["international"],
       "description": "Opern- und Oratorienkomponist, ab 1712 in London.",
       "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "gluck", "title": "Christoph Willibald Gluck", "short": "Gluck", "start": "1714-07-02", "end": "1787-11-15", "importance": 2,
+      "description": "Reformierte in Wien die Oper hin zu dramatischer Wahrhaftigkeit; Hofkomponist Maria Theresias.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Orfeo ed Euridice (Wien 1762), Alceste" }
+    },
+    {
+      "id": "wagenseil", "title": "Georg Christoph Wagenseil", "short": "Wagenseil", "start": "1715-01-29", "end": "1777-03-01", "importance": 3,
+      "description": "Hofkomponist und Musiklehrer der kaiserlichen Familie, Wegbereiter der Wiener Klassik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "leopold-mozart", "title": "Leopold Mozart", "start": "1719-11-14", "end": "1787-05-28", "importance": 3,
+      "description": "Vizekapellmeister in Salzburg, Vater und Lehrer Wolfgang Amadés; seine Violinschule (1756) war ein Standardwerk.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Versuch einer gründlichen Violinschule" }
+    },
+    {
+      "id": "joseph-haydn", "title": "Joseph Haydn", "short": "Haydn", "start": "1732-03-31", "end": "1809-05-31", "importance": 1,
+      "description": "„Vater“ der Symphonie und des Streichquartetts; jahrzehntelang Kapellmeister der Fürsten Esterházy. Schuf die Melodie der Kaiserhymne.",
+      "place": { "name": "Rohrau / Eisenstadt", "lat": 47.8456, "lon": 16.5267 },
+      "attributes": { "Werke": "Die Schöpfung, Die Jahreszeiten, „Gott erhalte Franz den Kaiser“" }
+    },
+    {
+      "id": "michael-haydn", "title": "Michael Haydn", "start": "1737-09-14", "end": "1806-08-10", "importance": 3,
+      "description": "Jüngerer Bruder Joseph Haydns; Konzertmeister und Organist in Salzburg.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "dittersdorf", "title": "Carl Ditters von Dittersdorf", "short": "Dittersdorf", "start": "1739-11-02", "end": "1799-10-24", "importance": 3,
+      "description": "Wiener Geiger und Komponist; sein Singspiel „Doktor und Apotheker“ war ein großer Erfolg.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "salieri", "title": "Antonio Salieri", "short": "Salieri", "start": "1750-08-18", "end": "1825-05-07", "importance": 2,
+      "description": "Hofkapellmeister in Wien und gefragter Lehrer von Beethoven, Schubert und Liszt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "mozart", "title": "Wolfgang Amadé Mozart", "short": "Mozart", "start": "1756-01-27", "end": "1791-12-05", "importance": 1,
+      "description": "In Salzburg geboren, ab 1781 in Wien; Hauptmeister der Wiener Klassik.",
+      "place": { "name": "Salzburg", "lat": 47.7999, "lon": 13.0434 },
+      "attributes": { "Werke": "Le nozze di Figaro, Don Giovanni, Die Zauberflöte, Requiem" }
+    },
+    {
+      "id": "beethoven", "title": "Ludwig van Beethoven", "short": "Beethoven", "start": "1770-12", "end": "1827-03-26", "importance": 1,
+      "description": "In Bonn geboren, ab 1792 in Wien; vollendete die Wiener Klassik und öffnete den Weg zur Romantik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "9 Symphonien, Fidelio, Missa solemnis" }
+    },
+    {
+      "id": "hummel", "title": "Johann Nepomuk Hummel", "short": "Hummel", "start": "1778-11-14", "end": "1837-10-17", "importance": 3,
+      "description": "In Pressburg geborener Pianist und Komponist, Schüler Mozarts; Nachfolger Haydns bei den Esterházy.",
+      "place": { "name": "Pressburg (Bratislava)", "lat": 48.1486, "lon": 17.1077 }
+    },
+    {
+      "id": "czerny", "title": "Carl Czerny", "short": "Czerny", "start": "1791-02-21", "end": "1857-07-15", "importance": 3,
+      "description": "Schüler Beethovens und Lehrer Liszts; seine Klavieretüden werden bis heute gespielt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "schubert", "title": "Franz Schubert", "short": "Schubert", "start": "1797-01-31", "end": "1828-11-19", "importance": 1,
+      "description": "Wiener Komponist der Frühromantik; über 600 Lieder, Symphonien und Kammermusik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Winterreise, Die schöne Müllerin, „Unvollendete“, Forellenquintett" }
+    },
+    {
+      "id": "lanner", "title": "Joseph Lanner", "short": "Lanner", "start": "1801-04-12", "end": "1843-04-14", "importance": 3,
+      "description": "Gemeinsam mit Johann Strauss Vater Begründer des Wiener Walzers.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "strauss-vater", "title": "Johann Strauss (Vater)", "short": "Strauss Vater", "start": "1804-03-14", "end": "1849-09-25", "importance": 2,
+      "description": "Walzerkomponist und Kapellmeister; sein Radetzky-Marsch (1848) wurde weltberühmt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Radetzky-Marsch" }
+    },
+    {
+      "id": "liszt", "title": "Franz Liszt", "short": "Liszt", "start": "1811-10-22", "end": "1886-07-31", "importance": 2,
+      "description": "Im burgenländischen Raiding geboren; Klaviervirtuose und Komponist der Romantik.",
+      "place": { "name": "Raiding", "lat": 47.5653, "lon": 16.5317 },
+      "attributes": { "Werke": "Ungarische Rhapsodien, Faust-Symphonie" }
+    },
+    {
+      "id": "suppe", "title": "Franz von Suppé", "short": "Suppé", "start": "1819-04-18", "end": "1895-05-21", "importance": 3,
+      "description": "Begründer der Wiener Operette.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Leichte Kavallerie, Boccaccio" }
+    },
+    {
+      "id": "bruckner", "title": "Anton Bruckner", "short": "Bruckner", "start": "1824-09-04", "end": "1896-10-11", "importance": 1,
+      "description": "Oberösterreichischer Organist und Symphoniker; ab 1868 in Wien.",
+      "place": { "name": "Ansfelden / St. Florian", "lat": 48.2085, "lon": 14.2903 },
+      "attributes": { "Werke": "9 Symphonien, Te Deum" }
+    },
+    {
+      "id": "strauss-sohn", "title": "Johann Strauss (Sohn)", "short": "Johann Strauss", "start": "1825-10-25", "end": "1899-06-03", "importance": 1,
+      "description": "Der „Walzerkönig“; prägte das Bild Wiens in der Welt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "An der schönen blauen Donau, Die Fledermaus" }
+    },
+    {
+      "id": "josef-strauss", "title": "Josef Strauss", "start": "1827-08-20", "end": "1870-07-22", "importance": 3,
+      "description": "Bruder Johann Strauss’ (Sohn), Komponist zahlreicher Walzer.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Sphärenklänge, Dorfschwalben aus Österreich" }
+    },
+    {
+      "id": "brahms", "title": "Johannes Brahms", "short": "Brahms", "start": "1833-05-07", "end": "1897-04-03", "importance": 2,
+      "description": "In Hamburg geboren, ab 1862 in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Ein deutsches Requiem, 4 Symphonien, Ungarische Tänze" }
+    },
+    {
+      "id": "dvorak", "title": "Antonín Dvořák", "short": "Dvořák", "start": "1841-09-08", "end": "1904-05-01", "importance": 3,
+      "description": "Böhmischer Komponist aus der Habsburgermonarchie.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Werke": "Symphonie „Aus der Neuen Welt“, Rusalka" }
+    },
+    {
+      "id": "millocker", "title": "Carl Millöcker", "short": "Millöcker", "start": "1842-04-29", "end": "1899-12-31", "importance": 3,
+      "description": "Operettenkomponist der „Goldenen Ära“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Bettelstudent" }
+    },
+    {
+      "id": "hugo-wolf", "title": "Hugo Wolf", "start": "1860-03-13", "end": "1903-02-22", "importance": 3,
+      "description": "Bedeutender Liedkomponist der Spätromantik.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Mörike-Lieder, Italienisches Liederbuch" }
+    },
+    {
+      "id": "mahler", "title": "Gustav Mahler", "short": "Mahler", "start": "1860-07-07", "end": "1911-05-18", "importance": 1,
+      "description": "Symphoniker und von 1897 bis 1907 Direktor der Wiener Hofoper.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "10 Symphonien, Das Lied von der Erde" }
+    },
+    {
+      "id": "lehar", "title": "Franz Lehár", "short": "Lehár", "start": "1870-04-30", "end": "1948-10-24", "importance": 2,
+      "description": "Hauptmeister der „Silbernen Operettenära“.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die lustige Witwe (1905), Das Land des Lächelns" }
+    },
+    {
+      "id": "zemlinsky", "title": "Alexander Zemlinsky", "short": "Zemlinsky", "start": "1871-10-14", "end": "1942-03-15", "importance": 3,
+      "description": "Dirigent und Komponist, Lehrer Schönbergs.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "schoenberg", "title": "Arnold Schönberg", "short": "Schönberg", "start": "1874-09-13", "end": "1951-07-13", "importance": 1,
+      "description": "Begründer der Zwölftontechnik und der Zweiten Wiener Schule.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Verklärte Nacht, Pierrot lunaire" }
+    },
+    {
+      "id": "kreisler", "title": "Fritz Kreisler", "short": "Kreisler", "start": "1875-02-02", "end": "1962-01-29", "importance": 3,
+      "description": "Weltberühmter Wiener Geiger und Komponist.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Liebesleid, Liebesfreud" }
+    },
+    {
+      "id": "webern", "title": "Anton Webern", "short": "Webern", "start": "1883-12-03", "end": "1945-09-15", "importance": 2,
+      "description": "Schüler Schönbergs, Vertreter der Zweiten Wiener Schule.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "alban-berg", "title": "Alban Berg", "short": "Berg", "start": "1885-02-09", "end": "1935-12-24", "importance": 2,
+      "description": "Schüler Schönbergs; seine Oper „Wozzeck“ gehört zu den wichtigsten des 20. Jahrhunderts.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Wozzeck, Violinkonzert" }
+    },
+    {
+      "id": "rameau", "title": "Jean-Philippe Rameau", "start": "1683-09-25", "end": "1764-09-12", "importance": 5, "tags": ["international"],
+      "description": "Französischer Komponist und Musiktheoretiker.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "rossini", "title": "Gioachino Rossini", "short": "Rossini", "start": "1792-02-29", "end": "1868-11-13", "importance": 4, "tags": ["international"],
+      "description": "Italienischer Opernkomponist; löste 1822 in Wien ein regelrechtes „Rossini-Fieber“ aus.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Il barbiere di Siviglia" }
+    },
+    {
+      "id": "chopin", "title": "Frédéric Chopin", "short": "Chopin", "start": "1810-03-01", "end": "1849-10-17", "importance": 4, "tags": ["international"],
+      "description": "Polnischer Pianist und Komponist der Romantik.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "wagner", "title": "Richard Wagner", "short": "Wagner", "start": "1813-05-22", "end": "1883-02-13", "importance": 4, "tags": ["international"],
+      "description": "Opernreformer, Schöpfer des Musikdramas.",
+      "place": { "name": "Bayreuth", "lat": 49.9456, "lon": 11.5713 },
+      "attributes": { "Werke": "Der Ring des Nibelungen, Tristan und Isolde" }
+    },
+    {
+      "id": "verdi", "title": "Giuseppe Verdi", "short": "Verdi", "start": "1813-10-10", "end": "1901-01-27", "importance": 4, "tags": ["international"],
+      "description": "Bedeutendster italienischer Opernkomponist des 19. Jahrhunderts.",
+      "place": { "name": "Mailand", "lat": 45.4642, "lon": 9.19 },
+      "attributes": { "Werke": "Nabucco, La traviata, Aida" }
+    },
+    {
+      "id": "smetana", "title": "Bedřich Smetana", "short": "Smetana", "start": "1824-03-02", "end": "1884-05-12", "importance": 3,
+      "description": "Begründer der tschechischen Nationalmusik, aus dem habsburgischen Böhmen.",
+      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
+      "attributes": { "Werke": "Má vlast (Die Moldau)" }
+    },
+    {
+      "id": "tschaikowski", "title": "Pjotr Iljitsch Tschaikowski", "short": "Tschaikowski", "start": "1840-05-07", "end": "1893-11-06", "importance": 5, "tags": ["international"],
+      "description": "Russischer Komponist der Romantik.",
+      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 },
+      "attributes": { "Werke": "Schwanensee, Der Nussknacker" }
+    },
+    {
+      "id": "richard-strauss", "title": "Richard Strauss", "start": "1864-06-11", "end": "1949-09-08", "importance": 4, "tags": ["international"],
+      "description": "Deutscher Komponist; 1919 bis 1924 Co-Direktor der Wiener Staatsoper, Mitbegründer der Salzburger Festspiele.",
+      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 },
+      "attributes": { "Werke": "Der Rosenkavalier, Salome" }
+    },
+    {
+      "id": "debussy", "title": "Claude Debussy", "short": "Debussy", "start": "1862-08-22", "end": "1918-03-25", "importance": 5, "tags": ["international"],
+      "description": "Hauptvertreter des musikalischen Impressionismus.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
+    },
+    {
+      "id": "strawinsky", "title": "Igor Strawinsky", "short": "Strawinsky", "start": "1882-06-17", "end": "1971-04-06", "importance": 5, "tags": ["international"],
+      "description": "Russischer Komponist der Moderne.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Le sacre du printemps (1913)" }
     }
   ]
 }

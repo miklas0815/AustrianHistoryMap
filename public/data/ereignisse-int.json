@@ -220,6 +220,107 @@
       "id": "utrecht-1713", "title": "Frieden von Utrecht", "start": "1713-04-11", "importance": 3,
       "description": "Ende des Spanischen Erbfolgekriegs für England und die Niederlande: Philipp V. (Bourbon) blieb König von Spanien; Grundlage des europäischen Gleichgewichts.",
       "place": { "name": "Utrecht", "lat": 52.0907, "lon": 5.1214 }
+    },
+    {
+      "id": "lissabon-1755", "title": "Erdbeben von Lissabon", "start": "1755-11-01", "importance": 4,
+      "description": "Die Zerstörung Lissabons erschütterte den Optimismus der Aufklärung.",
+      "place": { "name": "Lissabon", "lat": 38.7223, "lon": -9.1393 }
+    },
+    {
+      "id": "siebenjaehriger-krieg", "title": "Siebenjähriger Krieg (weltweit)", "start": "1756", "end": "1763", "importance": 3,
+      "description": "Erster globaler Krieg der europäischen Mächte, auch in Nordamerika und Indien; Großbritannien wurde führende Kolonialmacht.",
+      "place": { "name": "Europa / Nordamerika", "lat": 50.0, "lon": 0.0 }
+    },
+    {
+      "id": "industrielle-revolution", "title": "Industrielle Revolution in Großbritannien", "short": "Industrielle Revolution", "start": "~1760", "end": "~1840", "importance": 2,
+      "description": "Übergang zur maschinellen Produktion mit Dampfkraft, Textilfabriken und Eisenbahnen.",
+      "place": { "name": "Manchester", "lat": 53.4808, "lon": -2.2426 }
+    },
+    {
+      "id": "polnische-teilungen", "title": "Polnische Teilungen", "start": "1772", "end": "1795", "importance": 4,
+      "description": "Russland, Preußen und Österreich teilten Polen-Litauen unter sich auf; Österreich erhielt Galizien.",
+      "place": { "name": "Warschau", "lat": 52.2297, "lon": 21.0122 }
+    },
+    {
+      "id": "unabhaengigkeit-usa-1776", "title": "Amerikanische Unabhängigkeitserklärung", "start": "1776-07-04", "importance": 1,
+      "description": "Die 13 Kolonien erklärten sich von Großbritannien unabhängig – mit der Begründung unveräußerlicher Menschenrechte.",
+      "place": { "name": "Philadelphia", "lat": 39.9489, "lon": -75.15 },
+      "attributes": { "Krieg": "Unabhängigkeitskrieg 1775–1783" }
+    },
+    {
+      "id": "franzoesische-revolution", "title": "Französische Revolution", "start": "1789-07-14", "end": "1799-11-09", "importance": 1,
+      "description": "Sturm auf die Bastille; Erklärung der Menschen- und Bürgerrechte, Ende der absoluten Monarchie. Marie Antoinette, Tochter Maria Theresias, wurde 1793 hingerichtet.",
+      "place": { "name": "Paris", "lat": 48.853, "lon": 2.3691 }
+    },
+    {
+      "id": "napoleonische-kriege", "title": "Napoleonische Kriege", "start": "1799-11-09", "end": "1815-06-18", "importance": 2,
+      "description": "Napoleon beherrschte Europa bis zu seiner Niederlage; Österreich verlor mehrfach Gebiete und kämpfte in wechselnden Koalitionen.",
+      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 }
+    },
+    {
+      "id": "waterloo-1815", "title": "Schlacht bei Waterloo", "start": "1815-06-18", "importance": 3,
+      "description": "Endgültige Niederlage Napoleons.",
+      "place": { "name": "Waterloo", "lat": 50.7148, "lon": 4.3996 }
+    },
+    {
+      "id": "kommunistisches-manifest", "title": "Kommunistisches Manifest", "start": "1848-02", "importance": 3,
+      "description": "Karl Marx und Friedrich Engels veröffentlichten ihre Programmschrift.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "krimkrieg", "title": "Krimkrieg", "start": "1853-10", "end": "1856-03-30", "importance": 4,
+      "description": "Krieg Russlands gegen das Osmanische Reich, Großbritannien und Frankreich; Österreichs Neutralität kostete es die russische Freundschaft.",
+      "place": { "name": "Krim", "lat": 44.95, "lon": 34.1 }
+    },
+    {
+      "id": "italien-einigung-1861", "title": "Gründung des Königreichs Italien", "start": "1861-03-17", "importance": 3,
+      "description": "Die italienische Einigung ging zulasten Österreichs, das 1859 die Lombardei und 1866 Venetien verlor.",
+      "place": { "name": "Turin", "lat": 45.0703, "lon": 7.6869 }
+    },
+    {
+      "id": "us-buergerkrieg", "title": "Amerikanischer Bürgerkrieg", "start": "1861-04-12", "end": "1865-05", "importance": 3,
+      "description": "Krieg zwischen Nord- und Südstaaten; endete mit der Abschaffung der Sklaverei.",
+      "place": { "name": "USA", "lat": 38.0, "lon": -78.0 }
+    },
+    {
+      "id": "suezkanal-1869", "title": "Eröffnung des Suezkanals", "start": "1869-11-17", "importance": 4,
+      "description": "Kaiser Franz Joseph nahm an der Eröffnung teil.",
+      "place": { "name": "Port Said", "lat": 31.2653, "lon": 32.3019 }
+    },
+    {
+      "id": "reichsgruendung-1871", "title": "Gründung des Deutschen Kaiserreichs", "start": "1871-01-18", "importance": 2,
+      "description": "Nach dem Deutsch-Französischen Krieg wurde in Versailles der preußische König zum Deutschen Kaiser ausgerufen – ohne Österreich („kleindeutsche Lösung“).",
+      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
+    },
+    {
+      "id": "berliner-kongress-1878", "title": "Berliner Kongress", "start": "1878-06-13", "end": "1878-07-13", "importance": 4,
+      "description": "Neuordnung des Balkans; Österreich-Ungarn erhielt die Verwaltung Bosnien-Herzegowinas.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
+    },
+    {
+      "id": "titanic-1912", "title": "Untergang der Titanic", "start": "1912-04-15", "importance": 5,
+      "description": "Der als unsinkbar geltende Ozeandampfer sank auf seiner Jungfernfahrt.",
+      "place": { "name": "Nordatlantik", "lat": 41.73, "lon": -49.95 }
+    },
+    {
+      "id": "erster-weltkrieg", "title": "Erster Weltkrieg", "start": "1914-07-28", "end": "1918-11-11", "importance": 1,
+      "description": "Mit der Kriegserklärung Österreich-Ungarns an Serbien begann der Weltkrieg, der rund 17 Millionen Tote forderte und die alten Monarchien zerstörte.",
+      "place": { "name": "Europa", "lat": 48.0, "lon": 10.0 }
+    },
+    {
+      "id": "oktoberrevolution-1917", "title": "Russische Oktoberrevolution", "start": "1917-11-07", "importance": 2,
+      "description": "Die Bolschewiki unter Lenin übernahmen die Macht in Russland.",
+      "place": { "name": "Petrograd", "lat": 59.9343, "lon": 30.3351 }
+    },
+    {
+      "id": "spanische-grippe", "title": "Spanische Grippe", "start": "1918", "end": "1920", "importance": 3,
+      "description": "Weltweite Grippepandemie mit zig Millionen Toten, darunter Egon Schiele.",
+      "place": { "name": "weltweit", "lat": 30.0, "lon": 0.0 }
+    },
+    {
+      "id": "versailles-1919", "title": "Vertrag von Versailles", "start": "1919-06-28", "importance": 2,
+      "description": "Friedensvertrag mit Deutschland; Gründung des Völkerbunds (1920).",
+      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
     }
   ]
 }

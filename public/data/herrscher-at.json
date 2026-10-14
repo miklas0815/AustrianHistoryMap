@@ -111,6 +111,68 @@
       "description": "Erließ 1713 die Pragmatische Sanktion über die Unteilbarkeit der habsburgischen Länder und die weibliche Erbfolge.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn, ab 1714 Spanische Niederlande, Mailand, Neapel" }
+    },
+    {
+      "id": "maria-theresia", "title": "Maria Theresia", "start": "1740-10-20", "end": "1780-11-29", "importance": 1,
+      "life": {"start": "1717-05-13", "end": "1780-11-29"},
+      "description": "Erbte dank der Pragmatischen Sanktion die habsburgischen Länder und verteidigte sie im Österreichischen Erbfolgekrieg. Ihre Reformen in Verwaltung, Heer und Schulwesen (Schulpflicht 1774) begründeten den modernen Staat.",
+      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 },
+      "attributes": { "Titel": "Erzherzogin von Österreich, Königin von Ungarn und Böhmen" }
+    },
+    {
+      "id": "joseph-ii-at", "title": "Joseph II.", "start": "1780-11-29", "end": "1790-02-20", "importance": 1,
+      "life": {"start": "1741-03-13", "end": "1790-02-20"},
+      "description": "Als Alleinherrscher erließ er Toleranzpatent, Aufhebung der Leibeigenschaft, Klosteraufhebungen und gründete das Allgemeine Krankenhaus – viele Reformen scheiterten am Widerstand.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Mitregent": "ab 1765" }
+    },
+    {
+      "id": "leopold-ii-at", "title": "Leopold II.", "start": "1790-02-20", "end": "1792-03-01", "importance": 3,
+      "life": {"start": "1747-05-05", "end": "1792-03-01"},
+      "description": "Beruhigte die nach Josephs Reformen aufgewühlten Länder durch Zugeständnisse an Stände und Ungarn.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "franz-ii-i-at", "title": "Franz II./I.", "start": "1792-03-01", "end": "1835-03-02", "importance": 1,
+      "life": {"start": "1768-02-12", "end": "1835-03-02"},
+      "description": "Ab 1804 als Franz I. erster Kaiser von Österreich. Prägte mit Staatskanzler Metternich nach dem Wiener Kongress das restaurative „System Metternich“ des Vormärz.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Titel": "ab 1804 Kaiser von Österreich" }
+    },
+    {
+      "id": "ferdinand-i-oesterreich", "title": "Ferdinand I. (Kaiser)", "short": "Ferdinand I.", "start": "1835-03-02", "end": "1848-12-02", "importance": 3,
+      "life": {"start": "1793-04-19", "end": "1875-06-29"},
+      "description": "„Der Gütige“; wegen Krankheit regierte faktisch die Staatskonferenz. Dankte im Revolutionsjahr 1848 zugunsten seines Neffen Franz Joseph ab.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Titel": "Kaiser von Österreich" }
+    },
+    {
+      "id": "franz-joseph-i", "title": "Franz Joseph I.", "start": "1848-12-02", "end": "1916-11-21", "importance": 1,
+      "life": {"start": "1830-08-18", "end": "1916-11-21"},
+      "description": "Fast 68 Jahre Kaiser: Neoabsolutismus, Ausgleich mit Ungarn (1867), Ringstraßenzeit und Gründerzeit, schließlich der Erste Weltkrieg. Verheiratet mit Elisabeth („Sisi“).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Titel": "Kaiser von Österreich, ab 1867 auch König von Ungarn (Österreich-Ungarn)" }
+    },
+    {
+      "id": "karl-i-oesterreich", "title": "Karl I. (Kaiser)", "short": "Karl I.", "start": "1916-11-21", "end": "1918-11-11", "importance": 2,
+      "life": {"start": "1887-08-17", "end": "1922-04-01"},
+      "description": "Letzter Kaiser von Österreich; bemühte sich vergeblich um einen Sonderfrieden. Verzichtete am 11. November 1918 auf jeden Anteil an den Staatsgeschäften.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Titel": "Kaiser von Österreich, König von Ungarn" }
+    },
+    {
+      "id": "karl-seitz-staatsoberhaupt", "title": "Karl Seitz (Staatsoberhaupt)", "short": "Karl Seitz", "start": "1919-03-05", "end": "1920-12-09", "importance": 3,
+      "life": {"start": "1869-09-04", "end": "1950-02-03"},
+      "description": "Als Präsident der Konstituierenden Nationalversammlung Staatsoberhaupt der jungen Republik Deutschösterreich; später Bürgermeister von Wien.",
+      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 },
+      "attributes": { "Partei": "Sozialdemokratische Arbeiterpartei" }
+    },
+    {
+      "id": "michael-hainisch", "title": "Michael Hainisch", "start": "1920-12-09", "end": "1928-12-10", "importance": 3,
+      "life": {"start": "1858-08-15", "end": "1940-02-26"},
+      "description": "Erster Bundespräsident der Republik Österreich (parteilos).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Amt": "Bundespräsident" }
     }
   ]
 }

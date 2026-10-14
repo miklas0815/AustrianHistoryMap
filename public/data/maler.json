@@ -170,6 +170,204 @@
       "description": "Delfter Maler stiller Innenräume; sein Bild „Die Malkunst“ hängt im Kunsthistorischen Museum Wien.",
       "place": { "name": "Delft", "lat": 52.0116, "lon": 4.3571 },
       "attributes": { "Werke": "Die Malkunst (KHM Wien), Das Mädchen mit dem Perlenohrring" }
+    },
+    {
+      "id": "daniel-gran", "title": "Daniel Gran", "start": "1694-05-22", "end": "1757-04-16", "importance": 2,
+      "description": "Führender Freskant des Wiener Hochbarock.",
+      "place": { "name": "Hofbibliothek, Wien", "lat": 48.2059, "lon": 16.3665 },
+      "attributes": { "Werke": "Kuppelfresko im Prunksaal der Hofbibliothek" }
+    },
+    {
+      "id": "martin-van-meytens", "title": "Martin van Meytens", "start": "1695-06-24", "end": "1770-03-23", "importance": 3,
+      "description": "Hofmaler Maria Theresias und Direktor der Akademie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Bildnisse Maria Theresias und ihrer Familie" }
+    },
+    {
+      "id": "paul-troger", "title": "Paul Troger", "start": "1698-10-30", "end": "1762-07-20", "importance": 2,
+      "description": "Tiroler Barockmaler; schuf die großen Deckenfresken in Melk, Altenburg und Göttweig.",
+      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Werke": "Fresken in Stift Melk (Marmorsaal, Bibliothek), Stift Altenburg" }
+    },
+    {
+      "id": "kremser-schmidt", "title": "Martin Johann Schmidt („Kremser Schmidt“)", "short": "Kremser Schmidt", "start": "1718-09-25", "end": "1801-06-28", "importance": 2,
+      "description": "Produktivster Altarbildmaler des österreichischen Spätbarock.",
+      "place": { "name": "Krems", "lat": 48.41, "lon": 15.61 }
+    },
+    {
+      "id": "bellotto", "title": "Bernardo Bellotto", "short": "Bellotto", "start": "1722-01-20", "end": "1780-11-17", "importance": 3,
+      "description": "Venezianischer Vedutenmaler; malte 1759–1761 Ansichten Wiens für Maria Theresia.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Wien vom Belvedere aus gesehen (KHM)" }
+    },
+    {
+      "id": "maulbertsch", "title": "Franz Anton Maulbertsch", "short": "Maulbertsch", "start": "1724-06-07", "end": "1796-08-07", "importance": 1,
+      "description": "Genialster Maler des österreichischen Spätbarock mit expressiver Farbigkeit.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Fresken der Piaristenkirche Wien, Deckenfresken in Sümeg und Kremsier" }
+    },
+    {
+      "id": "lampi", "title": "Johann Baptist Lampi", "short": "Lampi", "start": "1751-12-31", "end": "1830-02-11", "importance": 3,
+      "description": "Gefragter Porträtmaler in Wien, Warschau und St. Petersburg.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "waldmueller", "title": "Ferdinand Georg Waldmüller", "short": "Waldmüller", "start": "1793-01-15", "end": "1865-08-23", "importance": 1,
+      "description": "Hauptmeister des Wiener Biedermeier; Landschaften und Genrebilder nach der Natur.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Dachstein vom Sophienplatz aus, Die Pfändung" }
+    },
+    {
+      "id": "peter-fendi", "title": "Peter Fendi", "start": "1796-09-04", "end": "1842-08-28", "importance": 3,
+      "description": "Biedermeiermaler bürgerlicher Szenen und Porträts.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "amerling", "title": "Friedrich von Amerling", "short": "Amerling", "start": "1803-04-14", "end": "1887-01-14", "importance": 3,
+      "description": "Bedeutendster Porträtmaler des Wiener Biedermeier.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Kaiser Franz I. im Ornat" }
+    },
+    {
+      "id": "moritz-von-schwind", "title": "Moritz von Schwind", "short": "Schwind", "start": "1804-01-21", "end": "1871-02-08", "importance": 3,
+      "description": "Romantischer Maler, Freund Schuberts; schuf die Fresken in der Wiener Hofoper.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Schubertiade, Opernfresken" }
+    },
+    {
+      "id": "danhauser", "title": "Josef Danhauser", "short": "Danhauser", "start": "1805-08-19", "end": "1845-05-04", "importance": 3,
+      "description": "Biedermeiermaler.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Liszt am Flügel" }
+    },
+    {
+      "id": "rudolf-von-alt", "title": "Rudolf von Alt", "short": "Rudolf von Alt", "start": "1812-08-28", "end": "1905-03-12", "importance": 2,
+      "description": "Meister des Aquarells; dokumentierte Wien über acht Jahrzehnte; Ehrenpräsident der Secession.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Ansichten des Stephansdoms und Wiens" }
+    },
+    {
+      "id": "pettenkofen", "title": "August von Pettenkofen", "short": "Pettenkofen", "start": "1822-05-10", "end": "1889-03-21", "importance": 3,
+      "description": "Maler ungarischer Landschaften und Soldatenszenen, Vorläufer des Impressionismus in Österreich.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "anton-romako", "title": "Anton Romako", "short": "Romako", "start": "1832-10-20", "end": "1889-03-08", "importance": 3,
+      "description": "Eigenwilliger Außenseiter, Wegbereiter des Expressionismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Tegetthoff in der Seeschlacht bei Lissa" }
+    },
+    {
+      "id": "hans-makart", "title": "Hans Makart", "short": "Makart", "start": "1840-05-28", "end": "1884-10-03", "importance": 2,
+      "description": "Malerfürst der Ringstraßenzeit; inszenierte 1879 den Festzug zur Silberhochzeit des Kaiserpaares.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Einzug Karls V. in Antwerpen, Makart-Festzug" }
+    },
+    {
+      "id": "emil-jakob-schindler", "title": "Emil Jakob Schindler", "short": "E. J. Schindler", "start": "1842-04-27", "end": "1892-08-09", "importance": 3,
+      "description": "Hauptvertreter des österreichischen Stimmungsimpressionismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "tina-blau", "title": "Tina Blau", "start": "1845-11-15", "end": "1916-10-31", "importance": 3,
+      "description": "Landschaftsmalerin des Stimmungsimpressionismus; Mitbegründerin einer Malschule für Frauen.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Frühling im Prater" }
+    },
+    {
+      "id": "carl-moll", "title": "Carl Moll", "short": "Moll", "start": "1861-04-23", "end": "1945-04-13", "importance": 3,
+      "description": "Maler und Mitbegründer der Wiener Secession.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "klimt", "title": "Gustav Klimt", "short": "Klimt", "start": "1862-07-14", "end": "1918-02-06", "importance": 1,
+      "description": "Erster Präsident der Wiener Secession; Hauptmeister des Wiener Jugendstils.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Der Kuss, Beethovenfries, Adele Bloch-Bauer I" }
+    },
+    {
+      "id": "koloman-moser", "title": "Koloman Moser", "short": "Koloman Moser", "start": "1868-03-30", "end": "1918-10-18", "importance": 3,
+      "description": "Maler und Designer, Mitbegründer der Secession und der Wiener Werkstätte.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Glasfenster der Kirche am Steinhof" }
+    },
+    {
+      "id": "richard-gerstl", "title": "Richard Gerstl", "short": "Gerstl", "start": "1883-09-14", "end": "1908-11-04", "importance": 3,
+      "description": "Früh verstorbener Pionier des Expressionismus in Österreich.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "kokoschka", "title": "Oskar Kokoschka", "short": "Kokoschka", "start": "1886-03-01", "end": "1980-02-22", "importance": 2,
+      "description": "Expressionistischer Maler und Dichter.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Die Windsbraut" }
+    },
+    {
+      "id": "schiele", "title": "Egon Schiele", "short": "Schiele", "start": "1890-06-12", "end": "1918-10-31", "importance": 1,
+      "description": "Expressionist mit radikal ausdrucksstarker Figurenzeichnung; starb an der Spanischen Grippe.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Selbstbildnisse, Die Familie" }
+    },
+    {
+      "id": "canaletto", "title": "Canaletto", "start": "1697-10-18", "end": "1768-04-19", "importance": 5, "tags": ["international"],
+      "description": "Venezianischer Vedutenmaler, Onkel Bellottos.",
+      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 }
+    },
+    {
+      "id": "goya", "title": "Francisco de Goya", "short": "Goya", "start": "1746-03-30", "end": "1828-04-16", "importance": 4, "tags": ["international"],
+      "description": "Spanischer Hofmaler und Wegbereiter der Moderne.",
+      "place": { "name": "Madrid", "lat": 40.4168, "lon": -3.7038 }
+    },
+    {
+      "id": "caspar-david-friedrich", "title": "Caspar David Friedrich", "start": "1774-09-05", "end": "1840-05-07", "importance": 4, "tags": ["international"],
+      "description": "Hauptmeister der deutschen Romantik.",
+      "place": { "name": "Dresden", "lat": 51.0504, "lon": 13.7373 },
+      "attributes": { "Werke": "Der Wanderer über dem Nebelmeer" }
+    },
+    {
+      "id": "turner", "title": "William Turner", "short": "Turner", "start": "1775-04-23", "end": "1851-12-19", "importance": 4, "tags": ["international"],
+      "description": "Englischer Maler des Lichts und der Atmosphäre.",
+      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
+    },
+    {
+      "id": "delacroix", "title": "Eugène Delacroix", "short": "Delacroix", "start": "1798-04-26", "end": "1863-08-13", "importance": 5, "tags": ["international"],
+      "description": "Hauptmeister der französischen Romantik.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Die Freiheit führt das Volk" }
+    },
+    {
+      "id": "cezanne", "title": "Paul Cézanne", "short": "Cézanne", "start": "1839-01-19", "end": "1906-10-22", "importance": 5, "tags": ["international"],
+      "description": "Wegbereiter der Moderne.",
+      "place": { "name": "Aix-en-Provence", "lat": 43.5297, "lon": 5.4474 }
+    },
+    {
+      "id": "monet", "title": "Claude Monet", "short": "Monet", "start": "1840-11-14", "end": "1926-12-05", "importance": 4, "tags": ["international"],
+      "description": "Namensgeber und Hauptmeister des Impressionismus.",
+      "place": { "name": "Giverny", "lat": 49.0757, "lon": 1.5339 },
+      "attributes": { "Werke": "Impression, soleil levant" }
+    },
+    {
+      "id": "van-gogh", "title": "Vincent van Gogh", "short": "van Gogh", "start": "1853-03-30", "end": "1890-07-29", "importance": 4, "tags": ["international"],
+      "description": "Niederländischer Maler des Postimpressionismus.",
+      "place": { "name": "Arles", "lat": 43.6766, "lon": 4.6278 },
+      "attributes": { "Werke": "Sonnenblumen, Sternennacht" }
+    },
+    {
+      "id": "munch", "title": "Edvard Munch", "short": "Munch", "start": "1863-12-12", "end": "1944-01-23", "importance": 5, "tags": ["international"],
+      "description": "Norwegischer Wegbereiter des Expressionismus.",
+      "place": { "name": "Oslo", "lat": 59.9139, "lon": 10.7522 },
+      "attributes": { "Werke": "Der Schrei" }
+    },
+    {
+      "id": "kandinsky", "title": "Wassily Kandinsky", "short": "Kandinsky", "start": "1866-12-16", "end": "1944-12-13", "importance": 5, "tags": ["international"],
+      "description": "Pionier der abstrakten Malerei.",
+      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 }
+    },
+    {
+      "id": "picasso", "title": "Pablo Picasso", "short": "Picasso", "start": "1881-10-25", "end": "1973-04-08", "importance": 4, "tags": ["international"],
+      "description": "Mitbegründer des Kubismus.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Les Demoiselles d’Avignon (1907)" }
     }
   ]
 }

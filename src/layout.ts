@@ -4,7 +4,7 @@ import { itemSpan, type Category, type Item } from './data';
  * Ab welcher Auflösung (Pixel pro Jahr) eine Bedeutungsstufe eingeblendet wird.
  * Stufe 1 ist immer sichtbar; je weiter man hineinzoomt, desto mehr Details.
  */
-const MIN_PX_PER_YEAR: Record<number, number> = { 1: 0, 2: 3, 3: 6, 4: 10, 5: 20 };
+const MIN_PX_PER_YEAR: Record<number, number> = { 1: 0, 2: 2.5, 3: 6, 4: 10, 5: 20 };
 export const MAX_IMPORTANCE = 5;
 
 /** Höchste sichtbare Bedeutungsstufe; detail (−2 … +2) verschiebt die Schwellen. */

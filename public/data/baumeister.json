@@ -169,6 +169,162 @@
       "description": "Hofarchitekt Ludwigs XIV.; Versailles wurde zum Vorbild barocker Residenzen, auch für Schönbrunn.",
       "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 },
       "attributes": { "Werke": "Spiegelsaal von Versailles, Invalidendom" }
+    },
+    {
+      "id": "joseph-emanuel-fischer-von-erlach", "title": "Joseph Emanuel Fischer von Erlach", "short": "J. E. Fischer von Erlach", "start": "1693-09-13", "end": "1742-06-29", "importance": 3,
+      "description": "Sohn Johann Bernhards; vollendete Karlskirche und Hofbibliothek und baute die Winterreitschule der Hofburg.",
+      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
+      "attributes": { "Werke": "Winterreitschule, Reichskanzleitrakt, Vollendung der Karlskirche" }
+    },
+    {
+      "id": "josef-munggenast", "title": "Josef Munggenast", "start": "1680-02-05", "end": "1741-03-03", "importance": 3,
+      "description": "Neffe Prandtauers; Barockbaumeister der Stifte Altenburg und Dürnstein, vollendete Melk.",
+      "place": { "name": "Stift Altenburg", "lat": 48.6461, "lon": 15.5944 },
+      "attributes": { "Werke": "Stift Altenburg, Stiftskirche Dürnstein" }
+    },
+    {
+      "id": "donato-felice-dallio", "title": "Donato Felice d’Allio", "start": "1677", "end": "1761", "importance": 3,
+      "description": "Baumeister des barocken Neubaus von Stift Klosterneuburg, das unter Karl VI. zum „österreichischen Escorial“ werden sollte.",
+      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
+      "attributes": { "Werke": "Stift Klosterneuburg, Salesianerinnenkirche Wien" }
+    },
+    {
+      "id": "nikolaus-pacassi", "title": "Nikolaus Pacassi", "start": "1716-03-05", "end": "1790-11-11", "importance": 2,
+      "description": "Hofarchitekt Maria Theresias; gestaltete Schloss Schönbrunn zur heutigen Form um.",
+      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 },
+      "attributes": { "Werke": "Umbau Schloss Schönbrunn, Redoutensäle der Hofburg" }
+    },
+    {
+      "id": "isidor-canevale", "title": "Isidor Canevale", "start": "1730", "end": "1786", "importance": 3,
+      "description": "Architekt Josephs II.: Allgemeines Krankenhaus, Narrenturm, Josephinum und Augartenportal.",
+      "place": { "name": "Narrenturm, Wien", "lat": 48.2195, "lon": 16.3519 },
+      "attributes": { "Werke": "Allgemeines Krankenhaus, Narrenturm, Josephinum" }
+    },
+    {
+      "id": "hohenberg", "title": "Johann Ferdinand Hetzendorf von Hohenberg", "short": "Hohenberg", "start": "1733", "end": "1816-12-14", "importance": 3,
+      "description": "Hofarchitekt; schuf die Gloriette und weitere Parkbauten in Schönbrunn.",
+      "place": { "name": "Gloriette, Wien", "lat": 48.1784, "lon": 16.3087 },
+      "attributes": { "Werke": "Gloriette (1775), Römische Ruine, Palais Pallavicini" }
+    },
+    {
+      "id": "peter-von-nobile", "title": "Peter von Nobile", "start": "1774-10-11", "end": "1854-11-07", "importance": 3,
+      "description": "Klassizistischer Architekt; baute das äußere Burgtor und den Theseustempel im Volksgarten.",
+      "place": { "name": "Burgtor, Wien", "lat": 48.2056, "lon": 16.3627 },
+      "attributes": { "Werke": "Äußeres Burgtor, Theseustempel" }
+    },
+    {
+      "id": "josef-kornhaeusel", "title": "Josef Kornhäusel", "start": "1782-11-13", "end": "1860-10-31", "importance": 3,
+      "description": "Hauptmeister des Wiener Biedermeier-Klassizismus.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Stadttempel, Schottenstift (Umbau), Theater in der Josefstadt" }
+    },
+    {
+      "id": "ludwig-foerster", "title": "Ludwig Förster", "start": "1797-10-08", "end": "1863-06-16", "importance": 3,
+      "description": "Architekt und Stadtplaner; lieferte Grundlagen für die Planung der Ringstraße.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Leopoldstädter Tempel, Synagoge Dohány-Straße (Budapest)" }
+    },
+    {
+      "id": "eduard-van-der-nuell", "title": "Eduard van der Nüll", "start": "1812-01-09", "end": "1868-04-04", "importance": 3,
+      "description": "Baute gemeinsam mit August Sicard von Sicardsburg die Hofoper (Staatsoper); nahm sich nach heftiger Kritik am Bau das Leben.",
+      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 },
+      "attributes": { "Werke": "Staatsoper (mit Sicardsburg)" }
+    },
+    {
+      "id": "sicardsburg", "title": "August Sicard von Sicardsburg", "short": "Sicardsburg", "start": "1813-12-06", "end": "1868-06-11", "importance": 3,
+      "description": "Partner van der Nülls beim Bau der Hofoper; starb wenige Wochen nach ihm, vor der Eröffnung.",
+      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 },
+      "attributes": { "Werke": "Staatsoper (mit van der Nüll)" }
+    },
+    {
+      "id": "theophil-hansen", "title": "Theophil Hansen", "start": "1813-07-13", "end": "1891-02-17", "importance": 2,
+      "description": "Dänischer Architekt, in Wien einer der prägenden Baumeister der Ringstraße.",
+      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 },
+      "attributes": { "Werke": "Parlament, Musikverein, Börse, Akademie der bildenden Künste" }
+    },
+    {
+      "id": "friedrich-von-schmidt", "title": "Friedrich von Schmidt", "start": "1825-10-22", "end": "1891-01-23", "importance": 2,
+      "description": "Dombaumeister von St. Stephan und Meister der Neugotik.",
+      "place": { "name": "Rathaus, Wien", "lat": 48.2108, "lon": 16.3572 },
+      "attributes": { "Werke": "Wiener Rathaus, Kirchen in Fünfhaus und Brigittenau" }
+    },
+    {
+      "id": "heinrich-von-ferstel", "title": "Heinrich von Ferstel", "start": "1828-07-07", "end": "1883-07-14", "importance": 2,
+      "description": "Ringstraßenarchitekt im Stil des Historismus.",
+      "place": { "name": "Votivkirche, Wien", "lat": 48.2155, "lon": 16.359 },
+      "attributes": { "Werke": "Votivkirche, Universität Wien, Palais Ferstel" }
+    },
+    {
+      "id": "carl-von-hasenauer", "title": "Carl von Hasenauer", "start": "1833-07-20", "end": "1894-01-04", "importance": 3,
+      "description": "Baute mit Gottfried Semper Burgtheater, Kunst- und Naturhistorisches Museum und die Neue Burg.",
+      "place": { "name": "Burgtheater, Wien", "lat": 48.2104, "lon": 16.3613 },
+      "attributes": { "Werke": "Burgtheater, Kunsthistorisches und Naturhistorisches Museum, Neue Burg" }
+    },
+    {
+      "id": "otto-wagner", "title": "Otto Wagner", "start": "1841-07-13", "end": "1918-04-11", "importance": 1,
+      "description": "Wegbereiter der modernen Architektur in Wien; seine Stadtbahn, Postsparkasse und die Kirche am Steinhof verbinden Jugendstil und Funktionalität.",
+      "place": { "name": "Postsparkasse, Wien", "lat": 48.2104, "lon": 16.3814 },
+      "attributes": { "Werke": "Stadtbahn, Postsparkasse, Kirche am Steinhof, Majolikahaus" }
+    },
+    {
+      "id": "joseph-maria-olbrich", "title": "Joseph Maria Olbrich", "start": "1867-12-22", "end": "1908-08-08", "importance": 2,
+      "description": "Schüler Otto Wagners; baute das Ausstellungsgebäude der Wiener Secession, später die Künstlerkolonie in Darmstadt.",
+      "place": { "name": "Secession, Wien", "lat": 48.2003, "lon": 16.3658 },
+      "attributes": { "Werke": "Secessionsgebäude (1898)" }
+    },
+    {
+      "id": "josef-hoffmann", "title": "Josef Hoffmann", "start": "1870-12-15", "end": "1956-05-07", "importance": 2,
+      "description": "Architekt und Designer; Mitbegründer der Wiener Werkstätte (1903).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Sanatorium Purkersdorf, Palais Stoclet (Brüssel)" }
+    },
+    {
+      "id": "adolf-loos", "title": "Adolf Loos", "start": "1870-12-10", "end": "1933-08-23", "importance": 1,
+      "description": "Kritiker des Ornaments („Ornament und Verbrechen“) und Pionier der modernen Architektur.",
+      "place": { "name": "Michaelerplatz, Wien", "lat": 48.2085, "lon": 16.3667 },
+      "attributes": { "Werke": "Looshaus am Michaelerplatz (1910), Villa Müller (Prag)" }
+    },
+    {
+      "id": "joze-plecnik", "title": "Jože Plečnik", "start": "1872-01-23", "end": "1957-01-07", "importance": 3,
+      "description": "Slowenischer Architekt aus der Wagner-Schule; in Wien tätig, später in Prag und Ljubljana.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Zacherlhaus, Heilig-Geist-Kirche (Wien-Ottakring)" }
+    },
+    {
+      "id": "balthasar-neumann", "title": "Balthasar Neumann", "start": "1687-01-27", "end": "1753-08-19", "importance": 4, "tags": ["international"],
+      "description": "Bedeutendster Baumeister des süddeutschen Barock.",
+      "place": { "name": "Würzburg", "lat": 49.7913, "lon": 9.9534 },
+      "attributes": { "Werke": "Würzburger Residenz, Vierzehnheiligen" }
+    },
+    {
+      "id": "schinkel", "title": "Karl Friedrich Schinkel", "short": "Schinkel", "start": "1781-03-13", "end": "1841-10-09", "importance": 4, "tags": ["international"],
+      "description": "Hauptmeister des Klassizismus in Preußen.",
+      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
+      "attributes": { "Werke": "Altes Museum, Schauspielhaus Berlin" }
+    },
+    {
+      "id": "haussmann", "title": "Georges-Eugène Haussmann", "short": "Haussmann", "start": "1809-03-27", "end": "1891-01-11", "importance": 5, "tags": ["international"],
+      "description": "Leitete den Umbau von Paris mit seinen großen Boulevards, Vorbild für viele Stadterweiterungen.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
+      "attributes": { "Werke": "Pariser Boulevards" }
+    },
+    {
+      "id": "gustave-eiffel", "title": "Gustave Eiffel", "start": "1832-12-15", "end": "1923-12-27", "importance": 4, "tags": ["international"],
+      "description": "Ingenieur und Unternehmer, Meister des Eisenbaus.",
+      "place": { "name": "Paris", "lat": 48.8584, "lon": 2.2945 },
+      "attributes": { "Werke": "Eiffelturm (1889), Tragwerk der Freiheitsstatue" }
+    },
+    {
+      "id": "antoni-gaudi", "title": "Antoni Gaudí", "start": "1852-06-25", "end": "1926-06-10", "importance": 4, "tags": ["international"],
+      "description": "Hauptvertreter des katalanischen Modernisme.",
+      "place": { "name": "Barcelona", "lat": 41.4036, "lon": 2.1744 },
+      "attributes": { "Werke": "Sagrada Família, Casa Batlló" }
+    },
+    {
+      "id": "walter-gropius", "title": "Walter Gropius", "start": "1883-05-18", "end": "1969-07-05", "importance": 5, "tags": ["international"],
+      "description": "Gründer des Bauhauses (1919).",
+      "place": { "name": "Weimar", "lat": 50.9795, "lon": 11.3235 },
+      "attributes": { "Werke": "Fagus-Werk, Bauhaus Dessau" }
     }
   ]
 }

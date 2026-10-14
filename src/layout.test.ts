@@ -14,8 +14,8 @@ describe('visibleImportance', () => {
   });
 
   it('Detailgrad verschiebt die Schwellen', () => {
-    expect(visibleImportance(5, 1)).toBeGreaterThan(visibleImportance(5));
-    expect(visibleImportance(5, -1)).toBeLessThan(visibleImportance(5));
+    expect(visibleImportance(4, 1)).toBeGreaterThan(visibleImportance(4));
+    expect(visibleImportance(4, -1)).toBeLessThan(visibleImportance(4));
   });
 });
 
