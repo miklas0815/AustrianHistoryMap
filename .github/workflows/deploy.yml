@@ -96,6 +96,8 @@ jobs:
           # damit andere Inhalte im Zielordner unberührt bleiben. Nur eine Verbindung,
           # weil Shared Hosting parallele FTP-Verbindungen oft begrenzt.
           # index.html kommt zuletzt, damit sie nie auf noch fehlende Dateien verweist.
+          # Jede Datei wird zuerst als .in.<name> hochgeladen und danach umbenannt: So
+          # liefert der Server während des Uploads nie eine halb geschriebene Datei aus.
           # Häufige Eingabefehler in den Secrets abfangen: Zeilenumbrüche am Ende und
           # ein vorangestelltes ftp:// bzw. sftp:// beim Server.
           clean() { printf '%s' "$1" | tr -d '\r\n'; }
@@ -110,6 +112,7 @@ jobs:
             set net:reconnect-interval-max 30;
             set ftp:ssl-allow true;
             set sftp:auto-confirm yes;
+            set xfer:use-temp-file yes;
             mkdir -p -f '$FTP_TARGET_DIR';
             mirror --reverse --only-newer --verbose --exclude-glob index.html dist/ '$FTP_TARGET_DIR';
             put -O '$FTP_TARGET_DIR' dist/index.html;

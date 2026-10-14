@@ -91,18 +91,29 @@ export function toItem(raw: RawItem, category: string): Item {
   return item;
 }
 
-export async function loadDataset(baseUrl = 'data/'): Promise<Dataset> {
-  const res = await fetch(baseUrl + 'categories.json');
-  if (!res.ok) throw new Error(`categories.json konnte nicht geladen werden (${res.status})`);
-  const { categories } = (await res.json()) as { categories: Category[] };
+/**
+ * Lädt eine JSON-Datei. Kommt sie unvollständig an (abgebrochene Verbindung, Datei
+ * gerade im Upload, kaputter Cache-Eintrag), wird sie einmal frisch vom Server geholt.
+ */
+export async function fetchJson<T>(url: string, fetchFn: typeof fetch = fetch): Promise<T> {
+  let lastError: unknown;
+  for (const cache of ['default', 'reload'] as RequestCache[]) {
+    try {
+      const res = await fetchFn(url, { cache });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return JSON.parse(await res.text()) as T;
+    } catch (err) {
+      lastError = err;
+    }
+  }
+  const name = url.split('/').pop();
+  throw new Error(`${name} konnte nicht geladen werden (${lastError instanceof Error ? lastError.message : String(lastError)})`);
+}
 
-  const files = await Promise.all(
-    categories.map(async (cat) => {
-      const r = await fetch(baseUrl + cat.file);
-      if (!r.ok) throw new Error(`${cat.file} konnte nicht geladen werden (${r.status})`);
-      return (await r.json()) as CategoryFile;
-    }),
-  );
+export async function loadDataset(baseUrl = 'data/'): Promise<Dataset> {
+  const { categories } = await fetchJson<{ categories: Category[] }>(baseUrl + 'categories.json');
+
+  const files = await Promise.all(categories.map((cat) => fetchJson<CategoryFile>(baseUrl + cat.file)));
 
   const items: Item[] = [];
   files.forEach((file, i) => {
