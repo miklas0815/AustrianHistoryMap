@@ -81,7 +81,13 @@ jobs:
         run: |
           # mirror -R lädt nur geänderte Dateien hoch. Es wird nichts am Server gelöscht,
           # damit andere Inhalte im Zielordner unberührt bleiben.
-          lftp --env-password -u "$FTP_USERNAME" "$FTP_PROTOCOL://$FTP_SERVER" -e "
+          # Häufige Eingabefehler in den Secrets abfangen: Zeilenumbrüche am Ende und
+          # ein vorangestelltes ftp:// bzw. sftp:// beim Server.
+          clean() { printf '%s' "$1" | tr -d '\r\n'; }
+          user="$(clean "$FTP_USERNAME")"
+          server="$(clean "$FTP_SERVER" | sed -E 's#^[a-zA-Z]+://##; s#/+$##')"
+          export LFTP_PASSWORD="$(clean "$FTP_PASSWORD")"
+          lftp --env-password -u "$user" "$FTP_PROTOCOL://$server" -e "
             set net:max-retries 3;
             set net:timeout 30;
             set ftp:ssl-allow true;
@@ -89,4 +95,4 @@ jobs:
             mkdir -p -f '$FTP_TARGET_DIR';
             mirror --reverse --only-newer --verbose --parallel=4 dist/ '$FTP_TARGET_DIR';
             bye"
-          echo "### Veröffentlicht nach \`$FTP_TARGET_DIR\` auf $FTP_SERVER" >> "$GITHUB_STEP_SUMMARY"
+          echo "### Veröffentlicht nach \`$FTP_TARGET_DIR\`" >> "$GITHUB_STEP_SUMMARY"
