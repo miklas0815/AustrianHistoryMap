@@ -321,6 +321,76 @@
       "id": "versailles-1919", "title": "Vertrag von Versailles", "start": "1919-06-28", "importance": 2,
       "description": "Friedensvertrag mit Deutschland; Gründung des Völkerbunds (1920).",
       "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
+    },
+    {
+      "id": "marco-polo", "title": "Reisen Marco Polos", "start": "1271", "end": "1295", "importance": 4,
+      "description": "Der Venezianer reiste bis nach China; sein Reisebericht prägte das europäische Bild Asiens.",
+      "place": { "name": "Venedig", "lat": 45.4408, "lon": 12.3155 }
+    },
+    {
+      "id": "eidgenossenschaft-1291", "title": "Bund der Eidgenossen", "start": "1291-08", "importance": 4,
+      "description": "Uri, Schwyz und Unterwalden schlossen ein Bündnis – auch gegen habsburgische Ansprüche.",
+      "place": { "name": "Rütli", "lat": 46.9681, "lon": 8.5928 }
+    },
+    {
+      "id": "avignon", "title": "Päpste in Avignon", "start": "1309", "end": "1377", "importance": 4,
+      "description": "Die Päpste residierten fast 70 Jahre in Avignon unter französischem Einfluss.",
+      "place": { "name": "Avignon", "lat": 43.9493, "lon": 4.8055 }
+    },
+    {
+      "id": "hundertjaehriger-krieg", "title": "Hundertjähriger Krieg", "start": "1337", "end": "1453", "importance": 3,
+      "description": "Konflikt zwischen England und Frankreich; Jeanne d’Arc wendete 1429 das Blatt.",
+      "place": { "name": "Frankreich", "lat": 47.0, "lon": 2.0 }
+    },
+    {
+      "id": "schwarzer-tod", "title": "Schwarzer Tod", "start": "1347", "end": "1351", "importance": 1,
+      "description": "Die Pest tötete in wenigen Jahren rund ein Drittel der Bevölkerung Europas.",
+      "place": { "name": "Europa", "lat": 48.0, "lon": 10.0 }
+    },
+    {
+      "id": "goldene-bulle-1356", "title": "Goldene Bulle", "start": "1356-01-10", "importance": 2,
+      "description": "Reichsgesetz Karls IV., das die Königswahl durch sieben Kurfürsten regelte; die Habsburger waren nicht darunter.",
+      "place": { "name": "Nürnberg / Metz", "lat": 49.4521, "lon": 11.0767 }
+    },
+    {
+      "id": "abendlaendisches-schisma", "title": "Abendländisches Schisma", "start": "1378", "end": "1417", "importance": 4,
+      "description": "Zwei, zeitweise drei Päpste beanspruchten das Amt.",
+      "place": { "name": "Rom / Avignon", "lat": 43.0, "lon": 8.0 }
+    },
+    {
+      "id": "konstanz-1414", "title": "Konzil von Konstanz", "start": "1414-11-05", "end": "1418-04-22", "importance": 3,
+      "description": "Beendete das Schisma; der Prager Reformator Jan Hus wurde 1415 verbrannt.",
+      "place": { "name": "Konstanz", "lat": 47.6603, "lon": 9.1758 }
+    },
+    {
+      "id": "hussitenkriege", "title": "Hussitenkriege", "start": "1419", "end": "1436", "importance": 3,
+      "description": "Kriege in Böhmen nach dem Tod von Jan Hus; Hussitenheere zogen auch plündernd durch Österreich.",
+      "place": { "name": "Böhmen", "lat": 50.0, "lon": 14.5 }
+    },
+    {
+      "id": "konstantinopel-1453", "title": "Fall Konstantinopels", "start": "1453-05-29", "importance": 1,
+      "description": "Die Osmanen unter Mehmed II. eroberten Konstantinopel; Ende des Byzantinischen Reiches.",
+      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "rosenkriege", "title": "Rosenkriege", "start": "1455", "end": "1485", "importance": 5,
+      "description": "Thronkämpfe in England zwischen den Häusern Lancaster und York.",
+      "place": { "name": "England", "lat": 52.5, "lon": -1.5 }
+    },
+    {
+      "id": "granada-1492", "title": "Fall Granadas", "start": "1492-01-02", "importance": 4,
+      "description": "Ende der Reconquista auf der Iberischen Halbinsel.",
+      "place": { "name": "Granada", "lat": 37.1773, "lon": -3.5986 }
+    },
+    {
+      "id": "kolumbus-1492", "title": "Kolumbus erreicht Amerika", "start": "1492-10-12", "importance": 1,
+      "description": "Christoph Kolumbus landete auf einer Insel der Bahamas – Beginn der europäischen Kolonisierung Amerikas.",
+      "place": { "name": "Bahamas", "lat": 24.0, "lon": -74.5 }
+    },
+    {
+      "id": "vasco-da-gama-1498", "title": "Seeweg nach Indien", "start": "1498-05-20", "importance": 4,
+      "description": "Vasco da Gama erreichte Calicut um das Kap der Guten Hoffnung.",
+      "place": { "name": "Kozhikode (Calicut)", "lat": 11.2588, "lon": 75.7804 }
     }
   ]
 }

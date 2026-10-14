@@ -101,6 +101,90 @@
       "description": "Letzter Kaiser des Heiligen Römischen Reiches. Nahm 1804 den Titel Kaiser von Österreich an und legte 1806 unter dem Druck Napoleons die römisch-deutsche Kaiserkrone nieder.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Dynastie": "Habsburg-Lothringen" }
+    },
+    {
+      "id": "rudolf-i-hrr", "title": "Rudolf I.", "start": "1273-10-01", "end": "1291-07-15", "importance": 1,
+      "life": {"start": "1218-05-01", "end": "1291-07-15"},
+      "description": "Erster römisch-deutscher König aus dem Haus Habsburg; beendete das Interregnum und gewann 1278 gegen Ottokar II. die österreichischen Länder.",
+      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "adolf-von-nassau", "title": "Adolf von Nassau", "start": "1292-05-05", "end": "1298-06-23", "importance": 5,
+      "life": {"start": "~1250", "end": "1298-07-02"},
+      "description": "Von den Kurfürsten gegen Albrecht I. gewählt, 1298 abgesetzt; fiel in der Schlacht bei Göllheim.",
+      "place": { "name": "Göllheim", "lat": 49.595, "lon": 8.05 },
+      "attributes": { "Dynastie": "Nassau" }
+    },
+    {
+      "id": "albrecht-i-hrr", "title": "Albrecht I.", "start": "1298-07-27", "end": "1308-05-01", "importance": 2,
+      "life": {"start": "1255-07", "end": "1308-05-01"},
+      "description": "Sohn Rudolfs I.; wurde von seinem Neffen Johann („Parricida“) ermordet.",
+      "place": { "name": "Brugg (Windisch)", "lat": 47.4833, "lon": 8.2167 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "heinrich-vii-hrr", "title": "Heinrich VII.", "start": "1308-11-27", "end": "1313-08-24", "importance": 4,
+      "life": {"start": "~1278", "end": "1313-08-24"},
+      "description": "Erster Luxemburger auf dem Thron, 1312 in Rom zum Kaiser gekrönt.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Dynastie": "Luxemburg" }
+    },
+    {
+      "id": "friedrich-der-schoene-hrr", "title": "Friedrich der Schöne", "start": "1314-10-19", "end": "1330-01-13", "importance": 3,
+      "life": {"start": "1289", "end": "1330-01-13"},
+      "description": "Habsburgischer Gegenkönig zu Ludwig dem Bayern; nach der Niederlage bei Mühldorf (1322) gefangen, später Mitkönig.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "ludwig-iv-hrr", "title": "Ludwig IV. der Bayer", "short": "Ludwig der Bayer", "start": "1314-10-20", "end": "1347-10-11", "importance": 3,
+      "life": {"start": "~1282", "end": "1347-10-11"},
+      "description": "Wittelsbacher; setzte sich gegen Friedrich den Schönen durch, 1328 Kaiser.",
+      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 },
+      "attributes": { "Dynastie": "Wittelsbach" }
+    },
+    {
+      "id": "karl-iv-hrr", "title": "Karl IV.", "start": "1346-07-11", "end": "1378-11-29", "importance": 2,
+      "life": {"start": "1316-05-14", "end": "1378-11-29"},
+      "description": "Luxemburger, residierte in Prag; erließ 1356 die Goldene Bulle, das Grundgesetz des Reiches. Schwiegervater Rudolfs IV.",
+      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
+      "attributes": { "Dynastie": "Luxemburg" }
+    },
+    {
+      "id": "wenzel-hrr", "title": "Wenzel", "start": "1376-06-10", "end": "1400-08-20", "importance": 4,
+      "life": {"start": "1361-02-26", "end": "1419-08-16"},
+      "description": "Sohn Karls IV.; 1400 von den rheinischen Kurfürsten als römisch-deutscher König abgesetzt, blieb König von Böhmen.",
+      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
+      "attributes": { "Dynastie": "Luxemburg" }
+    },
+    {
+      "id": "ruprecht-hrr", "title": "Ruprecht", "start": "1400-08-21", "end": "1410-05-18", "importance": 5,
+      "life": {"start": "1352-05-05", "end": "1410-05-18"},
+      "description": "Kurfürst von der Pfalz.",
+      "place": { "name": "Heidelberg", "lat": 49.3988, "lon": 8.6724 },
+      "attributes": { "Dynastie": "Wittelsbach" }
+    },
+    {
+      "id": "sigismund-hrr", "title": "Sigismund", "start": "1410-09-20", "end": "1437-12-09", "importance": 3,
+      "life": {"start": "1368-02-15", "end": "1437-12-09"},
+      "description": "Letzter Luxemburger; berief das Konzil von Konstanz ein. Sein Schwiegersohn Albrecht V. von Österreich wurde sein Nachfolger.",
+      "place": { "name": "Konstanz", "lat": 47.6603, "lon": 9.1758 },
+      "attributes": { "Dynastie": "Luxemburg" }
+    },
+    {
+      "id": "albrecht-ii-hrr", "title": "Albrecht II.", "start": "1438-03-18", "end": "1439-10-27", "importance": 3,
+      "life": {"start": "1397-08-10", "end": "1439-10-27"},
+      "description": "Als Herzog Albrecht V. von Österreich; erster Habsburger einer fast ununterbrochenen Reihe von Königen und Kaisern bis 1806.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "friedrich-iii-hrr", "title": "Friedrich III.", "start": "1440-02-02", "end": "1493-08-19", "importance": 1,
+      "life": {"start": "1415-09-21", "end": "1493-08-19"},
+      "description": "Über 53 Jahre König, 1452 in Rom als letzter Kaiser zum Kaiser gekrönt; Wahlspruch „AEIOU“. Bahnte durch die burgundische Heirat seines Sohnes Maximilian den Aufstieg Habsburgs an.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
+      "attributes": { "Dynastie": "Habsburg" }
     }
   ]
 }

@@ -475,6 +475,54 @@
       "description": "Viktor Kaplan entwickelte in Brünn eine verstellbare Wasserturbine für Flusskraftwerke.",
       "place": { "name": "Brünn (Brno)", "lat": 49.1951, "lon": 16.6068 },
       "attributes": { "Bereich": "Energie" }
+    },
+    {
+      "id": "brille-1286", "title": "Erfindung der Brille", "short": "Brille", "start": "~1286", "importance": 5, "tags": ["international"],
+      "description": "In Oberitalien entstanden die ersten Lesebrillen.",
+      "place": { "name": "Pisa / Venedig", "lat": 43.7228, "lon": 10.4017 },
+      "attributes": { "Bereich": "Optik" }
+    },
+    {
+      "id": "raederuhr", "title": "Mechanische Räderuhren", "short": "Räderuhr", "start": "~1300", "importance": 5, "tags": ["international"],
+      "description": "Die ersten Turmuhren mit Hemmung machten die Stunden gleich lang.",
+      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 },
+      "attributes": { "Bereich": "Feinmechanik" }
+    },
+    {
+      "id": "universitaet-wien-1365", "title": "Gründung der Universität Wien", "short": "Universität Wien", "start": "1365-03-12", "importance": 1,
+      "description": "Rudolf IV. gründete die nach Prag zweitälteste Universität Mitteleuropas; 1384 kam die theologische Fakultät hinzu.",
+      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
+      "attributes": { "Bereich": "Wissenschaft, Bildung" }
+    },
+    {
+      "id": "johannes-von-gmunden", "title": "Johannes von Gmunden lehrt in Wien", "short": "Johannes von Gmunden", "start": "~1416", "end": "1442", "importance": 3,
+      "description": "Der Astronom und Mathematiker begründete die „Erste Wiener mathematische Schule“ und vermachte der Universität Bücher und Instrumente.",
+      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
+      "attributes": { "Bereich": "Astronomie, Mathematik" }
+    },
+    {
+      "id": "gutenberg", "title": "Buchdruck mit beweglichen Lettern", "short": "Buchdruck", "start": "~1450", "importance": 3, "tags": ["international"],
+      "description": "Johannes Gutenberg entwickelte in Mainz den Buchdruck; die Gutenberg-Bibel entstand um 1454/55.",
+      "place": { "name": "Mainz", "lat": 49.9929, "lon": 8.2473 },
+      "attributes": { "Bereich": "Kommunikation" }
+    },
+    {
+      "id": "peuerbach-regiomontanus", "title": "Peuerbach und Regiomontanus", "short": "Peuerbach", "start": "1454", "importance": 2,
+      "description": "Georg von Peuerbach (aus Peuerbach in Oberösterreich) und sein Schüler Regiomontanus erneuerten in Wien die Astronomie; Peuerbachs „Theoricae novae planetarum“ wurde zum Standardlehrbuch.",
+      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
+      "attributes": { "Bereich": "Astronomie" }
+    },
+    {
+      "id": "buchdruck-wien-1482", "title": "Erster Buchdruck in Wien", "start": "1482", "importance": 4,
+      "description": "Mit Stephan Koblinger begann der Buchdruck in Wien.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Kommunikation" }
+    },
+    {
+      "id": "guldiner-1486", "title": "Guldiner aus Hall", "short": "Guldiner", "start": "1486", "importance": 2,
+      "description": "Erzherzog Sigmund ließ in Hall die erste große Silbermünze prägen, den Vorläufer des Talers (und damit des „Dollars“).",
+      "place": { "name": "Hall in Tirol", "lat": 47.2833, "lon": 11.5067 },
+      "attributes": { "Bereich": "Münztechnik" }
     }
   ]
 }

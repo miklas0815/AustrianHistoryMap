@@ -368,6 +368,63 @@
       "description": "Mitbegründer des Kubismus.",
       "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
       "attributes": { "Werke": "Les Demoiselles d’Avignon (1907)" }
+    },
+    {
+      "id": "hans-von-tuebingen", "title": "Hans von Tübingen", "start": "~1380", "end": "1462", "importance": 3,
+      "description": "Wiener Neustädter Maler des Weichen Stils.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
+    },
+    {
+      "id": "conrad-laib", "title": "Conrad Laib", "start": "~1410", "end": "~1460", "importance": 3,
+      "description": "Maler in Salzburg; seine Kreuzigung (1449) gilt als Wendepunkt zur realistischen Malerei in Österreich.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Kreuzigung Christi (Belvedere, Wien)" }
+    },
+    {
+      "id": "rueland-frueauf", "title": "Rueland Frueauf der Ältere", "short": "Rueland Frueauf", "start": "~1440", "end": "1507", "importance": 2,
+      "description": "Salzburger und Passauer Maler der Spätgotik.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Tafeln aus Stift St. Peter (Belvedere)" }
+    },
+    {
+      "id": "michael-pacher", "title": "Michael Pacher", "start": "~1435", "end": "1498", "importance": 1,
+      "description": "Tiroler Maler und Bildschnitzer; sein Flügelaltar in St. Wolfgang (1481) ist ein Hauptwerk der Spätgotik.",
+      "place": { "name": "St. Wolfgang im Salzkammergut", "lat": 47.7392, "lon": 13.4484 },
+      "attributes": { "Werke": "Pacher-Altar St. Wolfgang, Kirchenväteraltar" }
+    },
+    {
+      "id": "marx-reichlich", "title": "Marx Reichlich", "short": "Reichlich", "start": "~1460", "end": "~1520", "importance": 3,
+      "description": "Tiroler Maler aus dem Umkreis Michael Pachers.",
+      "place": { "name": "Brixen", "lat": 46.7155, "lon": 11.6566 }
+    },
+    {
+      "id": "giotto", "title": "Giotto di Bondone", "short": "Giotto", "start": "~1267", "end": "1337-01-08", "importance": 4, "tags": ["international"],
+      "description": "Wegbereiter der Renaissance-Malerei.",
+      "place": { "name": "Padua", "lat": 45.4064, "lon": 11.8768 },
+      "attributes": { "Werke": "Fresken der Arenakapelle, Padua" }
+    },
+    {
+      "id": "jan-van-eyck", "title": "Jan van Eyck", "short": "van Eyck", "start": "~1390", "end": "1441-07-09", "importance": 4, "tags": ["international"],
+      "description": "Hauptmeister der altniederländischen Malerei.",
+      "place": { "name": "Brügge", "lat": 51.2093, "lon": 3.2247 },
+      "attributes": { "Werke": "Genter Altar, Bildnis Kardinal Albergati (KHM Wien)" }
+    },
+    {
+      "id": "rogier-van-der-weyden", "title": "Rogier van der Weyden", "short": "van der Weyden", "start": "~1400", "end": "1464-06-18", "importance": 5, "tags": ["international"],
+      "description": "Altniederländischer Maler.",
+      "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 }
+    },
+    {
+      "id": "botticelli", "title": "Sandro Botticelli", "short": "Botticelli", "start": "~1445", "end": "1510-05-17", "importance": 4, "tags": ["international"],
+      "description": "Florentiner Maler der Frührenaissance.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
+      "attributes": { "Werke": "Die Geburt der Venus" }
+    },
+    {
+      "id": "bosch", "title": "Hieronymus Bosch", "short": "Bosch", "start": "~1450", "end": "1516-08", "importance": 5, "tags": ["international"],
+      "description": "Niederländischer Maler fantastischer Bildwelten.",
+      "place": { "name": "’s-Hertogenbosch", "lat": 51.6978, "lon": 5.3037 },
+      "attributes": { "Werke": "Garten der Lüste, Weltgerichts-Triptychon (Akademie Wien)" }
     }
   ]
 }

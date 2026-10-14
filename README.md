@@ -6,7 +6,7 @@ und international). Zoomen blendet je nach
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
-Datenbestand: 1500–1920.
+Datenbestand: 1270–1920 (von den ersten Habsburgern bis zur Ersten Republik).
 
 ## Bedienung
 
@@ -124,7 +124,7 @@ Innerhalb einer Spur stehen wichtigere Einträge in den oberen Zeilen.
 | Stufe | Personen (Baumeister, Komponisten, Maler) | Ereignisse und Neuerungen | sichtbar ab (Desktop) |
 |---|---|---|---|
 | 1 | prägende Figuren mit Österreichbezug | 2–3 Highlights pro Jahrhundert und Kategorie | immer |
-| 2 | wichtige Figuren mit Österreichbezug | ca. 4–5 weitere Wendepunkte | ca. 470 Jahre im Bild |
+| 2 | wichtige Figuren mit Österreichbezug | ca. 4–5 weitere Wendepunkte | ca. 670 Jahre im Bild |
 | 3 | weitere Personen mit Österreichbezug | wichtige Ereignisse | ca. 200 Jahre |
 | 4 | internationale Größen als Kontext | Ergänzungen | ca. 120 Jahre |
 | 5 | weitere internationale Personen | Details | ca. 60 Jahre |

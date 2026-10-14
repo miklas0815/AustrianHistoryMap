@@ -415,6 +415,44 @@
       "description": "Russischer Komponist der Moderne.",
       "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
       "attributes": { "Werke": "Le sacre du printemps (1913)" }
+    },
+    {
+      "id": "moench-von-salzburg", "title": "Der Mönch von Salzburg", "start": "~1340", "end": "~1400", "importance": 2,
+      "description": "Dichter und Komponist am Hof des Salzburger Erzbischofs Pilgrim II.; schuf frühe mehrstimmige Lieder in deutscher Sprache.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
+      "attributes": { "Werke": "Geistliche und weltliche Lieder (u. a. „Das Kuhhorn“)" }
+    },
+    {
+      "id": "hugo-von-montfort", "title": "Hugo von Montfort", "short": "Montfort", "start": "1357", "end": "1423-04-04", "importance": 3,
+      "description": "Minnesänger aus Vorarlberg, Landeshauptmann der Steiermark.",
+      "place": { "name": "Bregenz", "lat": 47.5031, "lon": 9.7471 }
+    },
+    {
+      "id": "oswald-von-wolkenstein", "title": "Oswald von Wolkenstein", "short": "Wolkenstein", "start": "~1377", "end": "1445-08-02", "importance": 1,
+      "description": "Südtiroler Dichter, Komponist und Diplomat; bedeutendster deutschsprachiger Liedermacher des Spätmittelalters.",
+      "place": { "name": "Burg Hauenstein (Südtirol)", "lat": 46.5395, "lon": 11.5778 },
+      "attributes": { "Werke": "Rund 130 Lieder, teils mehrstimmig" }
+    },
+    {
+      "id": "machaut", "title": "Guillaume de Machaut", "short": "Machaut", "start": "~1300", "end": "1377-04", "importance": 4, "tags": ["international"],
+      "description": "Hauptmeister der französischen Ars nova.",
+      "place": { "name": "Reims", "lat": 49.2583, "lon": 4.0317 },
+      "attributes": { "Werke": "Messe de Nostre Dame" }
+    },
+    {
+      "id": "landini", "title": "Francesco Landini", "short": "Landini", "start": "~1325", "end": "1397-09-02", "importance": 5, "tags": ["international"],
+      "description": "Blinder Florentiner Organist und Komponist des Trecento.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
+    },
+    {
+      "id": "dufay", "title": "Guillaume Dufay", "short": "Dufay", "start": "~1397", "end": "1474-11-27", "importance": 4, "tags": ["international"],
+      "description": "Führender Komponist der franko-flämischen Schule.",
+      "place": { "name": "Cambrai", "lat": 50.176, "lon": 3.235 }
+    },
+    {
+      "id": "ockeghem", "title": "Johannes Ockeghem", "short": "Ockeghem", "start": "~1410", "end": "1497-02-06", "importance": 5, "tags": ["international"],
+      "description": "Franko-flämischer Meister der Polyphonie.",
+      "place": { "name": "Tours", "lat": 47.3941, "lon": 0.6848 }
     }
   ]
 }

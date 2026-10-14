@@ -173,6 +173,111 @@
       "description": "Erster Bundespräsident der Republik Österreich (parteilos).",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Amt": "Bundespräsident" }
+    },
+    {
+      "id": "ottokar-ii", "title": "Ottokar II. Přemysl", "short": "Ottokar II.", "start": "1251", "end": "1276-11", "importance": 3,
+      "life": {"start": "~1232", "end": "1278-08-26"},
+      "description": "König von Böhmen; herrschte nach dem Aussterben der Babenberger über Österreich und die Steiermark. Fiel 1278 in der Schlacht auf dem Marchfeld gegen Rudolf I.",
+      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
+      "attributes": { "Dynastie": "Přemysliden" }
+    },
+    {
+      "id": "rudolf-i-at", "title": "Rudolf I.", "start": "1276-11", "end": "1282-12-27", "importance": 2,
+      "life": {"start": "1218-05-01", "end": "1291-07-15"},
+      "description": "Übernahm nach dem Sieg über Ottokar die österreichischen Länder und belehnte 1282 seine Söhne – Beginn der habsburgischen Herrschaft in Österreich.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "albrecht-i-at", "title": "Albrecht I.", "start": "1282-12-27", "end": "1308-05-01", "importance": 2,
+      "life": {"start": "1255-07", "end": "1308-05-01"},
+      "description": "Erster habsburgischer Herzog von Österreich und Steiermark; setzte sich gegen Adel und Wiener Bürger durch.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "friedrich-der-schoene-at", "title": "Friedrich der Schöne", "start": "1308-05-01", "end": "1330-01-13", "importance": 3,
+      "life": {"start": "1289", "end": "1330-01-13"},
+      "description": "Herzog von Österreich, gemeinsam mit seinem Bruder Leopold I.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "albrecht-ii-at", "title": "Albrecht II. der Weise", "short": "Albrecht II.", "start": "1330-01-13", "end": "1358-07-20", "importance": 3,
+      "life": {"start": "1298-12-12", "end": "1358-07-20"},
+      "description": "Erwarb 1335 Kärnten und Krain; trotz Lähmung ein umsichtiger Landesherr.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "rudolf-iv", "title": "Rudolf IV. der Stifter", "short": "Rudolf IV.", "start": "1358-07-20", "end": "1365-07-27", "importance": 1,
+      "life": {"start": "1339-11-01", "end": "1365-07-27"},
+      "description": "Gründete die Universität Wien (1365), begann den gotischen Ausbau des Stephansdoms und ließ das Privilegium maius fälschen. Erwarb 1363 Tirol.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "albrecht-iii", "title": "Albrecht III.", "start": "1365-07-27", "end": "1395-08-29", "importance": 3,
+      "life": {"start": "~1349", "end": "1395-08-29"},
+      "description": "Teilte 1379 im Neuberger Vertrag die Länder mit seinem Bruder Leopold III.; erhielt Österreich (Albertinische Linie).",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "ab 1379 Österreich ob und unter der Enns" }
+    },
+    {
+      "id": "leopold-iii", "title": "Leopold III.", "start": "1365-07-27", "end": "1386-07-09", "importance": 3,
+      "life": {"start": "1351-11-01", "end": "1386-07-09"},
+      "description": "Erhielt 1379 Steiermark, Kärnten, Krain, Tirol und die Vorlande (Leopoldinische Linie); fiel in der Schlacht bei Sempach gegen die Eidgenossen.",
+      "place": { "name": "Sempach", "lat": 47.135, "lon": 8.1922 },
+      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "ab 1379 Inner- und Vorderösterreich, Tirol" }
+    },
+    {
+      "id": "albrecht-iv", "title": "Albrecht IV.", "start": "1395-08-29", "end": "1404-09-14", "importance": 4,
+      "life": {"start": "1377-09-19", "end": "1404-09-14"},
+      "description": "Sohn Albrechts III.; starb früh, sein Sohn Albrecht V. war beim Tod erst sieben Jahre alt.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "ernst-der-eiserne", "title": "Ernst der Eiserne", "short": "Ernst", "start": "1406", "end": "1424-06-10", "importance": 4,
+      "life": {"start": "1377", "end": "1424-06-10"},
+      "description": "Herzog von Innerösterreich; Vater Friedrichs III.",
+      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
+      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "Steiermark, Kärnten, Krain" }
+    },
+    {
+      "id": "friedrich-iv-tirol", "title": "Friedrich IV. (Tirol)", "short": "Friedrich IV.", "start": "1406", "end": "1439-06-24", "importance": 3,
+      "life": {"start": "1382", "end": "1439-06-24"},
+      "description": "„Friedl mit der leeren Tasche“; verlor nach seiner Parteinahme für den Gegenpapst zeitweise seine Länder, festigte dann aber die Landesherrschaft in Tirol.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "albrecht-v", "title": "Albrecht V.", "start": "1404-09-14", "end": "1439-10-27", "importance": 2,
+      "life": {"start": "1397-08-10", "end": "1439-10-27"},
+      "description": "Herzog von Österreich, ab 1438 als Albrecht II. römisch-deutscher König sowie König von Ungarn und Böhmen.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "ladislaus-postumus", "title": "Ladislaus Postumus", "short": "Ladislaus", "start": "1440-02-22", "end": "1457-11-23", "importance": 4,
+      "life": {"start": "1440-02-22", "end": "1457-11-23"},
+      "description": "Nach dem Tod seines Vaters Albrecht V. geboren; stand bis 1452 unter der Vormundschaft Friedrichs III. Mit ihm erlosch die Albertinische Linie.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "sigmund-tirol", "title": "Sigmund der Münzreiche (Tirol)", "short": "Sigmund der Münzreiche", "start": "1446", "end": "1490-03-16", "importance": 3,
+      "life": {"start": "1427-10-26", "end": "1496-03-04"},
+      "description": "Ließ in Hall die ersten großen Silbermünzen prägen; trat Tirol 1490 an Maximilian I. ab.",
+      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
+      "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "friedrich-iii-at", "title": "Friedrich III. (V.)", "short": "Friedrich III.", "start": "1424-06-10", "end": "1493-08-19", "importance": 2,
+      "life": {"start": "1415-09-21", "end": "1493-08-19"},
+      "description": "Als Herzog Friedrich V. Herr Innerösterreichs, nach 1457 und 1463 auch Österreichs; residierte vor allem in Wiener Neustadt und Graz.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
+      "attributes": { "Dynastie": "Habsburg" }
     }
   ]
 }

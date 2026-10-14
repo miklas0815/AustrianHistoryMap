@@ -412,6 +412,81 @@
       "id": "bundesverfassung-1920", "title": "Bundes-Verfassungsgesetz", "short": "B-VG 1920", "start": "1920-10-01", "importance": 3,
       "description": "Die von Hans Kelsen mitgestaltete Verfassung machte Österreich zum Bundesstaat; Wien wurde ein eigenes Bundesland.",
       "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
+    },
+    {
+      "id": "marchfeld-1278", "title": "Schlacht auf dem Marchfeld", "start": "1278-08-26", "importance": 1,
+      "description": "Rudolf I. besiegte bei Dürnkrut und Jedenspeigen König Ottokar II. von Böhmen, der fiel. Damit begann die 640-jährige Herrschaft der Habsburger in Österreich.",
+      "place": { "name": "Dürnkrut", "lat": 48.4733, "lon": 16.85 }
+    },
+    {
+      "id": "belehnung-1282", "title": "Belehnung der Söhne Rudolfs", "short": "Belehnung 1282", "start": "1282-12-27", "importance": 2,
+      "description": "Auf dem Augsburger Reichstag belehnte Rudolf I. seine Söhne Albrecht und Rudolf mit Österreich und der Steiermark.",
+      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
+    },
+    {
+      "id": "kaernten-krain-1335", "title": "Kärnten und Krain an Habsburg", "start": "1335-05-02", "importance": 3,
+      "description": "Kaiser Ludwig der Bayer belehnte die Habsburger mit Kärnten und Krain.",
+      "place": { "name": "Klagenfurt", "lat": 46.6249, "lon": 14.305 }
+    },
+    {
+      "id": "pest-wien-1349", "title": "Schwarzer Tod in Wien", "start": "1349", "importance": 3,
+      "description": "Die Pestwelle erreichte Wien; ein großer Teil der Bevölkerung starb.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "privilegium-maius", "title": "Privilegium maius", "start": "1358", "importance": 3,
+      "description": "Rudolf IV. ließ eine Urkundenfälschung anfertigen, die Österreich Sonderrechte und den Titel „Erzherzog“ zusprach; Friedrich III. bestätigte sie 1453.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "stephansdom-1359", "title": "Gotischer Neubau des Stephansdoms", "short": "Stephansdom 1359", "start": "1359-04-07", "importance": 2,
+      "description": "Rudolf IV. legte den Grundstein für den Ausbau des Langhauses im gotischen Stil.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
+    },
+    {
+      "id": "tirol-1363", "title": "Tirol kommt an Habsburg", "start": "1363-01-26", "importance": 2,
+      "description": "Margarete „Maultasch“ übergab Tirol an Rudolf IV.",
+      "place": { "name": "Bozen", "lat": 46.4983, "lon": 11.3548 }
+    },
+    {
+      "id": "neuberger-teilung-1379", "title": "Neuberger Teilung", "start": "1379-09-25", "importance": 3,
+      "description": "Albrecht III. und Leopold III. teilten die habsburgischen Länder in eine Albertinische und eine Leopoldinische Linie.",
+      "place": { "name": "Neuberg an der Mürz", "lat": 47.6667, "lon": 15.5833 }
+    },
+    {
+      "id": "sempach-1386", "title": "Schlacht bei Sempach", "start": "1386-07-09", "importance": 3,
+      "description": "Niederlage gegen die Eidgenossen; Herzog Leopold III. fiel. Habsburg verlor zunehmend seine Stammlande in der Schweiz.",
+      "place": { "name": "Sempach", "lat": 47.135, "lon": 8.1922 }
+    },
+    {
+      "id": "wiener-gesera-1421", "title": "Wiener Gesera", "start": "1420", "end": "1421-03-12", "importance": 3,
+      "description": "Unter Albrecht V. wurden die Wiener Juden vertrieben, enteignet und am 12. März 1421 über 200 von ihnen verbrannt.",
+      "place": { "name": "Judenplatz, Wien", "lat": 48.2116, "lon": 16.3693 }
+    },
+    {
+      "id": "steffl-1433", "title": "Vollendung des Südturms („Steffl“)", "short": "Steffl", "start": "1433-10", "importance": 3,
+      "description": "Mit 136 Metern einer der höchsten Kirchtürme seiner Zeit; Wahrzeichen Wiens.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
+    },
+    {
+      "id": "kaiserkroenung-1452", "title": "Kaiserkrönung Friedrichs III.", "start": "1452-03-19", "importance": 3,
+      "description": "Letzte Kaiserkrönung in Rom; zugleich Heirat mit Eleonore von Portugal.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "bistum-wien-1469", "title": "Wien wird Bistum", "start": "1469-01-18", "importance": 3,
+      "description": "Auf Betreiben Friedrichs III. wurde Wien (gemeinsam mit Wiener Neustadt) eigenes Bistum.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
+    },
+    {
+      "id": "burgundische-heirat-1477", "title": "Burgundische Heirat", "start": "1477-08-19", "importance": 2,
+      "description": "Maximilian heiratete Maria von Burgund – Grundlage für den Aufstieg Habsburgs zur Weltmacht („Bella gerant alii, tu felix Austria nube“).",
+      "place": { "name": "Gent", "lat": 51.0543, "lon": 3.7174 }
+    },
+    {
+      "id": "corvinus-wien-1485", "title": "Matthias Corvinus erobert Wien", "short": "Corvinus in Wien", "start": "1485-06-01", "end": "1490-04-06", "importance": 2,
+      "description": "Der ungarische König residierte bis zu seinem Tod 1490 in Wien; danach eroberte Maximilian die Stadt zurück.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
     }
   ]
 }

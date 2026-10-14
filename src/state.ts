@@ -13,7 +13,7 @@ export interface ViewState {
   sel?: string;
 }
 
-export const DEFAULT_VIEW: ViewState = { from: 1500, to: 1920, cats: null, detail: 0, orient: 'h' };
+export const DEFAULT_VIEW: ViewState = { from: 1270, to: 1920, cats: null, detail: 0, orient: 'h' };
 
 export function parseViewState(search: string): ViewState {
   const p = new URLSearchParams(search);

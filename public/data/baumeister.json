@@ -325,6 +325,54 @@
       "description": "Gründer des Bauhauses (1919).",
       "place": { "name": "Weimar", "lat": 50.9795, "lon": 11.3235 },
       "attributes": { "Werke": "Fagus-Werk, Bauhaus Dessau" }
+    },
+    {
+      "id": "michael-knab", "title": "Michael Knab", "start": "~1340", "end": "~1400", "importance": 3,
+      "description": "Wiener Baumeister des späten 14. Jahrhunderts; ihm wird der Chor der Kirche Maria am Gestade zugeschrieben.",
+      "place": { "name": "Maria am Gestade, Wien", "lat": 48.2128, "lon": 16.3707 },
+      "attributes": { "Werke": "Maria am Gestade (zugeschrieben)" }
+    },
+    {
+      "id": "peter-von-prachatitz", "title": "Peter von Prachatitz", "start": "~1370", "end": "~1430", "importance": 2,
+      "description": "Dombaumeister von St. Stephan; führte den Bau des Südturms weiter.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Südturm des Stephansdoms (Weiterbau)" }
+    },
+    {
+      "id": "hans-von-prachatitz", "title": "Hans von Prachatitz", "start": "~1380", "end": "~1440", "importance": 3,
+      "description": "Dombaumeister von St. Stephan; vollendete 1433 den Südturm, den „Steffl“.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Vollendung des Südturms (1433)" }
+    },
+    {
+      "id": "hans-puchsbaum", "title": "Hans Puchsbaum", "start": "~1390", "end": "1454", "importance": 2,
+      "description": "Dombaumeister von St. Stephan; legte 1450 den Grundstein für den Nordturm und wirkte stilbildend für die Spätgotik in Österreich.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Langhausgewölbe und Nordturm-Beginn von St. Stephan, Spitalskirche Steyr" }
+    },
+    {
+      "id": "laurenz-spenning", "title": "Laurenz Spenning", "start": "~1420", "end": "1477", "importance": 3,
+      "description": "Dombaumeister von St. Stephan, Nachfolger Puchsbaums.",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
+      "attributes": { "Werke": "Weiterbau des Nordturms" }
+    },
+    {
+      "id": "peter-parler", "title": "Peter Parler", "start": "~1330", "end": "1399-07-13", "importance": 4, "tags": ["international"],
+      "description": "Dombaumeister in Prag unter Kaiser Karl IV.; einflussreich für die Gotik in ganz Mitteleuropa, auch in Wien.",
+      "place": { "name": "Veitsdom, Prag", "lat": 50.0909, "lon": 14.4005 },
+      "attributes": { "Werke": "Veitsdom, Karlsbrücke" }
+    },
+    {
+      "id": "brunelleschi", "title": "Filippo Brunelleschi", "short": "Brunelleschi", "start": "1377", "end": "1446-04-15", "importance": 4, "tags": ["international"],
+      "description": "Begründer der Renaissance-Architektur in Florenz.",
+      "place": { "name": "Florenz", "lat": 43.7731, "lon": 11.256 },
+      "attributes": { "Werke": "Domkuppel von Florenz" }
+    },
+    {
+      "id": "alberti", "title": "Leon Battista Alberti", "short": "Alberti", "start": "1404-02-14", "end": "1472-04-25", "importance": 5, "tags": ["international"],
+      "description": "Architekt und Theoretiker der Frührenaissance.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
+      "attributes": { "Werke": "De re aedificatoria, Santa Maria Novella (Fassade)" }
     }
   ]
 }
