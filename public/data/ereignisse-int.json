@@ -391,6 +391,76 @@
       "id": "vasco-da-gama-1498", "title": "Seeweg nach Indien", "start": "1498-05-20", "importance": 4,
       "description": "Vasco da Gama erreichte Calicut um das Kap der Guten Hoffnung.",
       "place": { "name": "Kozhikode (Calicut)", "lat": 11.2588, "lon": 75.7804 }
+    },
+    {
+      "id": "kaiserkroenung-800", "title": "Kaiserkrönung Karls des Großen", "short": "Kaiserkrönung 800", "start": "800-12-25", "importance": 1,
+      "description": "Papst Leo III. krönte Karl in Rom zum Kaiser – Erneuerung des weströmischen Kaisertums.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "wikinger", "title": "Wikingerzüge", "start": "793", "end": "1066", "importance": 4,
+      "description": "Skandinavische Seefahrer plünderten und besiedelten Küsten Europas.",
+      "place": { "name": "Nordsee", "lat": 56.0, "lon": 3.0 }
+    },
+    {
+      "id": "verdun-843", "title": "Vertrag von Verdun", "start": "843-08", "importance": 2,
+      "description": "Teilung des Frankenreichs unter den Enkeln Karls des Großen; Keimzelle Frankreichs und Deutschlands.",
+      "place": { "name": "Verdun", "lat": 49.1598, "lon": 5.3844 }
+    },
+    {
+      "id": "kaiserkroenung-962", "title": "Kaiserkrönung Ottos I.", "short": "Kaiserkrönung 962", "start": "962-02-02", "importance": 1,
+      "description": "Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums, das bis 1806 bestand.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "schisma-1054", "title": "Morgenländisches Schisma", "start": "1054-07-16", "importance": 2,
+      "description": "Bruch zwischen der lateinischen und der orthodoxen Kirche.",
+      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "hastings-1066", "title": "Schlacht bei Hastings", "start": "1066-10-14", "importance": 3,
+      "description": "Normannische Eroberung Englands.",
+      "place": { "name": "Hastings", "lat": 50.9126, "lon": 0.487 }
+    },
+    {
+      "id": "canossa-1077", "title": "Gang nach Canossa", "start": "1077-01", "importance": 2,
+      "description": "Heinrich IV. erwirkte durch Buße die Lösung vom Kirchenbann – Höhepunkt des Investiturstreits.",
+      "place": { "name": "Canossa", "lat": 44.5767, "lon": 10.4558 }
+    },
+    {
+      "id": "kreuzzuege", "title": "Kreuzzüge", "start": "1096", "end": "1291", "importance": 1,
+      "description": "Kriegszüge der lateinischen Christenheit ins Heilige Land; auch österreichische Herzöge nahmen teil.",
+      "place": { "name": "Jerusalem", "lat": 31.7683, "lon": 35.2137 }
+    },
+    {
+      "id": "wormser-konkordat-1122", "title": "Wormser Konkordat", "start": "1122-09-23", "importance": 3,
+      "description": "Beendete den Investiturstreit zwischen Kaiser und Papst.",
+      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
+    },
+    {
+      "id": "jerusalem-1187", "title": "Saladin erobert Jerusalem", "start": "1187-10-02", "importance": 4,
+      "description": "Auslöser des Dritten Kreuzzugs.",
+      "place": { "name": "Jerusalem", "lat": 31.7683, "lon": 35.2137 }
+    },
+    {
+      "id": "konstantinopel-1204", "title": "Plünderung Konstantinopels", "start": "1204-04-13", "importance": 4,
+      "description": "Der Vierte Kreuzzug eroberte und plünderte die byzantinische Hauptstadt.",
+      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
+    },
+    {
+      "id": "magna-carta-1215", "title": "Magna Carta", "start": "1215-06-15", "importance": 2,
+      "description": "Der englische König gestand dem Adel grundlegende Rechte zu – Meilenstein der Verfassungsgeschichte.",
+      "place": { "name": "Runnymede", "lat": 51.444, "lon": -0.565 }
+    },
+    {
+      "id": "liegnitz-1241", "title": "Mongolensturm", "start": "1241-04-09", "importance": 3,
+      "description": "Mongolische Heere siegten bei Liegnitz und Muhi; Mitteleuropa blieb nur durch ihren Rückzug verschont.",
+      "place": { "name": "Liegnitz (Legnica)", "lat": 51.207, "lon": 16.1553 }
+    },
+    {
+      "id": "interregnum", "title": "Interregnum", "start": "1254", "end": "1273-10-01", "importance": 3,
+      "description": "„Kaiserlose, schreckliche Zeit“ ohne allgemein anerkannten König, beendet durch die Wahl Rudolfs von Habsburg.",
+      "place": { "name": "Heiliges Römisches Reich", "lat": 50.0, "lon": 10.0 }
     }
   ]
 }

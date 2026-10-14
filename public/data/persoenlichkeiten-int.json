@@ -176,6 +176,71 @@
       "id": "lenin", "title": "Wladimir Iljitsch Lenin", "short": "Lenin", "start": "1870-04-22", "end": "1924-01-21", "importance": 2,
       "description": "Anführer der Oktoberrevolution und Gründer Sowjetrusslands.",
       "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
+    },
+    {
+      "id": "harun-al-raschid", "title": "Harun ar-Raschid", "start": "~763", "end": "809-03-24", "importance": 4,
+      "description": "Kalif der Abbasiden in Bagdad, tauschte Gesandtschaften mit Karl dem Großen.",
+      "place": { "name": "Bagdad", "lat": 33.3152, "lon": 44.3661 }
+    },
+    {
+      "id": "methodius", "title": "Method", "start": "~815", "end": "885-04-06", "importance": 3,
+      "description": "Slawenapostel; missionierte mit seinem Bruder Kyrill in Mähren und Pannonien.",
+      "place": { "name": "Velehrad", "lat": 49.1072, "lon": 17.3944 }
+    },
+    {
+      "id": "alfred-der-grosse", "title": "Alfred der Große", "short": "Alfred", "start": "~848", "end": "899-10-26", "importance": 4,
+      "description": "König von Wessex, Abwehr der Wikinger.",
+      "place": { "name": "Winchester", "lat": 51.0632, "lon": -1.308 }
+    },
+    {
+      "id": "wilhelm-der-eroberer", "title": "Wilhelm der Eroberer", "short": "Wilhelm I.", "start": "~1028", "end": "1087-09-09", "importance": 2,
+      "description": "Herzog der Normandie, eroberte 1066 England.",
+      "place": { "name": "Hastings", "lat": 50.8543, "lon": 0.5735 }
+    },
+    {
+      "id": "gregor-vii", "title": "Papst Gregor VII.", "short": "Gregor VII.", "start": "~1025", "end": "1085-05-25", "importance": 2,
+      "description": "Reformpapst und Gegenspieler Heinrichs IV. im Investiturstreit.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "urban-ii", "title": "Papst Urban II.", "short": "Urban II.", "start": "~1035", "end": "1099-07-29", "importance": 3,
+      "description": "Rief 1095 in Clermont zum Ersten Kreuzzug auf.",
+      "place": { "name": "Clermont", "lat": 45.7772, "lon": 3.087 }
+    },
+    {
+      "id": "bernhard-von-clairvaux", "title": "Bernhard von Clairvaux", "short": "Bernhard", "start": "1090", "end": "1153-08-20", "importance": 3,
+      "description": "Zisterzienserabt und Kreuzzugsprediger; die Zisterzienser gründeten auch Heiligenkreuz und Zwettl.",
+      "place": { "name": "Clairvaux", "lat": 48.15, "lon": 4.7833 }
+    },
+    {
+      "id": "saladin", "title": "Saladin", "start": "~1137", "end": "1193-03-04", "importance": 3,
+      "description": "Sultan von Ägypten und Syrien, eroberte 1187 Jerusalem.",
+      "place": { "name": "Damaskus", "lat": 33.5138, "lon": 36.2765 }
+    },
+    {
+      "id": "richard-loewenherz", "title": "Richard Löwenherz", "short": "Richard Löwenherz", "start": "1157-09-08", "end": "1199-04-06", "importance": 2,
+      "description": "König von England; auf der Rückkehr vom Kreuzzug 1192 bei Wien gefangen und in Dürnstein festgehalten.",
+      "place": { "name": "Dürnstein", "lat": 48.3956, "lon": 15.5194 }
+    },
+    {
+      "id": "innozenz-iii", "title": "Papst Innozenz III.", "short": "Innozenz III.", "start": "~1160", "end": "1216-07-16", "importance": 3,
+      "description": "Mächtigster Papst des Mittelalters, Viertes Laterankonzil 1215.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
+    },
+    {
+      "id": "dschingis-khan", "title": "Dschingis Khan", "start": "~1162", "end": "1227-08-18", "importance": 2,
+      "description": "Gründer des Mongolischen Reiches; seine Nachfolger stießen 1241 bis nach Mitteleuropa vor.",
+      "place": { "name": "Karakorum", "lat": 47.195, "lon": 102.845 }
+    },
+    {
+      "id": "franz-von-assisi", "title": "Franz von Assisi", "short": "Franziskus", "start": "~1181", "end": "1226-10-03", "importance": 3,
+      "description": "Gründer des Franziskanerordens.",
+      "place": { "name": "Assisi", "lat": 43.0707, "lon": 12.6196 }
+    },
+    {
+      "id": "thomas-von-aquin", "title": "Thomas von Aquin", "short": "Thomas v. Aquin", "start": "1225", "end": "1274-03-07", "importance": 3,
+      "description": "Bedeutendster Theologe der Scholastik.",
+      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
     }
   ]
 }

@@ -166,6 +166,24 @@
       "description": "Wegbereiter der modernen Bildhauerei.",
       "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
       "attributes": { "Werke": "Der Denker" }
+    },
+    {
+      "id": "nikolaus-von-verdun", "title": "Nikolaus von Verdun", "short": "Nikolaus v. Verdun", "start": "~1130", "end": "~1205", "importance": 1,
+      "description": "Goldschmied und Emailkünstler; schuf 1181 den Verduner Altar im Stift Klosterneuburg, ein Hauptwerk mittelalterlicher Kunst.",
+      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
+      "attributes": { "Werke": "Verduner Altar (1181), Dreikönigsschrein (Köln, Beteiligung)" }
+    },
+    {
+      "id": "antelami", "title": "Benedetto Antelami", "short": "Antelami", "start": "~1150", "end": "~1230", "importance": 5, "tags": ["international"],
+      "description": "Bildhauer und Baumeister der italienischen Romanik.",
+      "place": { "name": "Parma", "lat": 44.8015, "lon": 10.3279 },
+      "attributes": { "Werke": "Baptisterium Parma" }
+    },
+    {
+      "id": "naumburger-meister", "title": "Naumburger Meister", "start": "~1220", "end": "~1270", "importance": 5, "tags": ["international"],
+      "description": "Anonymer Bildhauer der Gotik; Stifterfiguren im Naumburger Dom (Uta).",
+      "place": { "name": "Naumburg", "lat": 51.152, "lon": 11.8037 },
+      "attributes": { "Werke": "Stifterfiguren im Naumburger Dom" }
     }
   ]
 }

@@ -487,6 +487,96 @@
       "id": "corvinus-wien-1485", "title": "Matthias Corvinus erobert Wien", "short": "Corvinus in Wien", "start": "1485-06-01", "end": "1490-04-06", "importance": 2,
       "description": "Der ungarische König residierte bis zu seinem Tod 1490 in Wien; danach eroberte Maximilian die Stadt zurück.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "awarenkriege", "title": "Awarenkriege Karls des Großen", "start": "791", "end": "796", "importance": 3,
+      "description": "Die Franken zerschlugen das Reich der Awaren; im Donauraum entstand eine fränkische Grenzmark.",
+      "place": { "name": "Pannonien", "lat": 47.8, "lon": 16.5 }
+    },
+    {
+      "id": "erzbistum-salzburg-798", "title": "Salzburg wird Erzbistum", "start": "798-04-20", "importance": 2,
+      "description": "Papst Leo III. erhob Salzburg auf Betreiben Karls des Großen zum Erzbistum für den bairischen Raum.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "pressburg-907", "title": "Schlacht bei Pressburg", "start": "907-07-04", "importance": 3,
+      "description": "Schwere Niederlage des bairischen Heeres gegen die Ungarn; die karolingische Mark ging verloren.",
+      "place": { "name": "Pressburg (Bratislava)", "lat": 48.1486, "lon": 17.1077 }
+    },
+    {
+      "id": "lechfeld-955", "title": "Schlacht auf dem Lechfeld", "start": "955-08-10", "importance": 2,
+      "description": "Otto I. besiegte die Ungarn; danach wurde die Mark an der Donau neu errichtet.",
+      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
+    },
+    {
+      "id": "kaernten-976", "title": "Kärnten wird eigenes Herzogtum", "start": "976", "importance": 3,
+      "description": "Kärnten wurde von Bayern getrennt – das älteste Herzogtum auf österreichischem Boden.",
+      "place": { "name": "Karnburg", "lat": 46.6667, "lon": 14.3333 }
+    },
+    {
+      "id": "babenberger-976", "title": "Babenberger erhalten die Mark", "start": "976-07-21", "importance": 2,
+      "description": "Otto II. belehnte Leopold I. mit der Mark an der Donau.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 }
+    },
+    {
+      "id": "ostarrichi-996", "title": "Ostarrichi-Urkunde", "short": "Ostarrichi 996", "start": "996-11-01", "importance": 1,
+      "description": "Otto III. schenkte dem Bistum Freising Land in Neuhofen an der Ybbs „in der Gegend, die im Volksmund Ostarrichi heißt“ – die erste Nennung des Namens Österreich.",
+      "place": { "name": "Neuhofen an der Ybbs", "lat": 48.05, "lon": 14.8667 }
+    },
+    {
+      "id": "gurk-dom", "title": "Bau des Gurker Doms", "start": "~1140", "end": "~1200", "importance": 4,
+      "description": "Eine der bedeutendsten romanischen Kirchen Österreichs.",
+      "place": { "name": "Gurk", "lat": 46.875, "lon": 14.2917 }
+    },
+    {
+      "id": "klosterneuburg-1114", "title": "Gründung des Stifts Klosterneuburg", "start": "1114-06-12", "importance": 3,
+      "description": "Leopold III. legte den Grundstein; Klosterneuburg wurde seine Residenz.",
+      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 }
+    },
+    {
+      "id": "heiligenkreuz-1133", "title": "Gründung des Stifts Heiligenkreuz", "start": "1133", "importance": 4,
+      "description": "Zisterzienserabtei im Wienerwald, bis heute besteht dort ununterbrochen klösterliches Leben.",
+      "place": { "name": "Stift Heiligenkreuz", "lat": 48.0553, "lon": 16.1306 }
+    },
+    {
+      "id": "stephansdom-1147", "title": "Weihe der ersten Stephanskirche", "start": "1147", "importance": 3,
+      "description": "Die romanische Vorgängerkirche des Stephansdoms wurde geweiht; erhalten ist das Riesentor (um 1240).",
+      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
+    },
+    {
+      "id": "privilegium-minus-1156", "title": "Privilegium minus", "short": "Privilegium minus", "start": "1156-09-17", "importance": 1,
+      "description": "Friedrich Barbarossa erhob die Mark Österreich zum Herzogtum mit besonderen Rechten; Heinrich Jasomirgott machte Wien zur Residenz.",
+      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 }
+    },
+    {
+      "id": "georgenberger-handfeste-1186", "title": "Georgenberger Handfeste", "start": "1186-08-17", "importance": 3,
+      "description": "Erbvertrag: Die Steiermark fiel 1192 an die Babenberger.",
+      "place": { "name": "Enns", "lat": 48.2125, "lon": 14.4756 }
+    },
+    {
+      "id": "loewenherz-1192", "title": "Gefangennahme Richard Löwenherz’", "short": "Richard Löwenherz", "start": "1192-12-21", "importance": 2,
+      "description": "Der englische König wurde bei Wien gefangen und in Dürnstein festgehalten; mit dem Lösegeld wurden Wiens Stadtmauer und Wiener Neustadt finanziert.",
+      "place": { "name": "Dürnstein", "lat": 48.3956, "lon": 15.5194 }
+    },
+    {
+      "id": "wiener-neustadt-1194", "title": "Gründung von Wiener Neustadt", "start": "1194", "importance": 3,
+      "description": "Grenzfestung gegen Ungarn, finanziert aus dem Lösegeld für Richard Löwenherz.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
+    },
+    {
+      "id": "wiener-stadtrecht-1221", "title": "Wiener Stadtrecht", "start": "1221-10-18", "importance": 3,
+      "description": "Leopold VI. verlieh Wien das Stadtrecht und das Stapelrecht.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "mongolen-1241", "title": "Mongolen an der österreichischen Grenze", "start": "1241", "end": "1242", "importance": 4,
+      "description": "Nach der Schlacht bei Liegnitz und dem Sieg über Ungarn streiften mongolische Verbände bis in die Gegend von Wiener Neustadt.",
+      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
+    },
+    {
+      "id": "leitha-1246", "title": "Schlacht an der Leitha", "short": "Ende der Babenberger", "start": "1246-06-15", "importance": 2,
+      "description": "Herzog Friedrich II. fiel – das Geschlecht der Babenberger erlosch. Es folgten Jahre der Herrenlosigkeit bis zu Ottokar II.",
+      "place": { "name": "Leitha", "lat": 47.9, "lon": 16.6 }
     }
   ]
 }

@@ -204,6 +204,39 @@
       "description": "Erzähler des Untergangs der Monarchie.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
       "attributes": { "Werke": "Radetzkymarsch" }
+    },
+    {
+      "id": "frau-ava", "title": "Frau Ava", "start": "~1060", "end": "1127", "importance": 2,
+      "description": "Erste namentlich bekannte Dichterin deutscher Sprache; lebte als Klausnerin bei Melk.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 }
+    },
+    {
+      "id": "otto-von-freising", "title": "Otto von Freising", "short": "Otto v. Freising", "start": "~1112", "end": "1158-09-22", "importance": 2,
+      "description": "Sohn Leopolds III., Bischof und bedeutender Geschichtsschreiber.",
+      "place": { "name": "Freising", "lat": 48.4029, "lon": 11.7488 },
+      "attributes": { "Werke": "Chronica, Gesta Friderici" }
+    },
+    {
+      "id": "heinrich-von-melk", "title": "Heinrich von Melk", "start": "~1130", "end": "~1180", "importance": 3,
+      "description": "Zeitkritischer Dichter („Von des tôdes gehugde“).",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 }
+    },
+    {
+      "id": "nibelungenlied", "title": "Nibelungenlied", "start": "~1200", "importance": 1,
+      "description": "Das Heldenepos entstand im Donauraum zwischen Passau und Wien, vermutlich am Hof des Passauer Bischofs Wolfger; Dichter unbekannt.",
+      "place": { "name": "Passau", "lat": 48.5667, "lon": 13.4319 }
+    },
+    {
+      "id": "der-stricker", "title": "Der Stricker", "start": "~1190", "end": "~1250", "importance": 3,
+      "description": "Fahrender Dichter, lebte in Österreich; Meister der kurzen Verserzählung.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Werke": "Pfaffe Amis" }
+    },
+    {
+      "id": "wernher-der-gartenaere", "title": "Wernher der Gartenaere", "short": "Wernher", "start": "~1230", "end": "~1290", "importance": 3,
+      "description": "Dichter des „Meier Helmbrecht“, angesiedelt im Innviertel.",
+      "place": { "name": "Innviertel", "lat": 48.2, "lon": 13.3 },
+      "attributes": { "Werke": "Meier Helmbrecht" }
     }
   ]
 }

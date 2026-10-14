@@ -425,6 +425,11 @@
       "description": "Niederländischer Maler fantastischer Bildwelten.",
       "place": { "name": "’s-Hertogenbosch", "lat": 51.6978, "lon": 5.3037 },
       "attributes": { "Werke": "Garten der Lüste, Weltgerichts-Triptychon (Akademie Wien)" }
+    },
+    {
+      "id": "cimabue", "title": "Cimabue", "start": "~1240", "end": "1302", "importance": 4, "tags": ["international"],
+      "description": "Florentiner Maler am Übergang zur Renaissance, Lehrer Giottos.",
+      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
     }
   ]
 }

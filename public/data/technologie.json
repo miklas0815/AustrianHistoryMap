@@ -523,6 +523,36 @@
       "description": "Erzherzog Sigmund ließ in Hall die erste große Silbermünze prägen, den Vorläufer des Talers (und damit des „Dollars“).",
       "place": { "name": "Hall in Tirol", "lat": 47.2833, "lon": 11.5067 },
       "attributes": { "Bereich": "Münztechnik" }
+    },
+    {
+      "id": "algebra-al-chwarizmi", "title": "Al-Chwarizmi: Algebra", "short": "Algebra", "start": "~825", "importance": 4, "tags": ["international"],
+      "description": "Das Rechenbuch des Bagdader Gelehrten gab der Algebra (und dem „Algorithmus“) den Namen.",
+      "place": { "name": "Bagdad", "lat": 33.3152, "lon": 44.3661 },
+      "attributes": { "Bereich": "Mathematik" }
+    },
+    {
+      "id": "universitaet-bologna", "title": "Universität Bologna", "start": "1088", "importance": 4, "tags": ["international"],
+      "description": "Älteste Universität Europas.",
+      "place": { "name": "Bologna", "lat": 44.4949, "lon": 11.3426 },
+      "attributes": { "Bereich": "Bildung" }
+    },
+    {
+      "id": "salz-hallein", "title": "Salzbergbau am Dürrnberg (Hallein)", "short": "Salz Hallein", "start": "~1190", "importance": 3,
+      "description": "Die Salzburger Erzbischöfe nahmen den Salzbergbau am Dürrnberg wieder auf; Salz wurde zur Grundlage ihres Reichtums.",
+      "place": { "name": "Hallein", "lat": 47.6833, "lon": 13.1 },
+      "attributes": { "Bereich": "Bergbau" }
+    },
+    {
+      "id": "wiener-pfennig", "title": "Wiener Pfennig", "start": "~1194", "importance": 4,
+      "description": "Mit dem Lösegeld für Richard Löwenherz wurde in Wien eine Münzstätte eingerichtet; der Wiener Pfennig wurde zur Leitwährung im Donauraum.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Bereich": "Münzwesen" }
+    },
+    {
+      "id": "fibonacci-1202", "title": "Fibonacci: Liber abaci", "short": "Arabische Ziffern", "start": "1202", "importance": 4, "tags": ["international"],
+      "description": "Machte die indisch-arabischen Ziffern in Europa bekannt.",
+      "place": { "name": "Pisa", "lat": 43.7228, "lon": 10.4017 },
+      "attributes": { "Bereich": "Mathematik" }
     }
   ]
 }

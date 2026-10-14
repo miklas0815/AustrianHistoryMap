@@ -490,6 +490,42 @@
       "id": "otto-nicolai", "title": "Otto Nicolai", "short": "Nicolai", "start": "1810-06-09", "end": "1849-05-11", "importance": 3,
       "description": "Gründete 1842 die Wiener Philharmoniker; Komponist der „Lustigen Weiber von Windsor“.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "notker", "title": "Notker Balbulus", "short": "Notker", "start": "~840", "end": "912-04-06", "importance": 4, "tags": ["international"],
+      "description": "Mönch in St. Gallen; Meister der Sequenz.",
+      "place": { "name": "St. Gallen", "lat": 47.4245, "lon": 9.3767 }
+    },
+    {
+      "id": "guido-von-arezzo", "title": "Guido von Arezzo", "short": "Guido v. Arezzo", "start": "~992", "end": "~1050", "importance": 4, "tags": ["international"],
+      "description": "Erfand das Liniensystem der Notenschrift und die Solmisation.",
+      "place": { "name": "Arezzo", "lat": 43.4633, "lon": 11.8796 }
+    },
+    {
+      "id": "hildegard-von-bingen", "title": "Hildegard von Bingen", "short": "Hildegard", "start": "1098", "end": "1179-09-17", "importance": 3, "tags": ["international"],
+      "description": "Äbtissin, Mystikerin und Komponistin geistlicher Gesänge.",
+      "place": { "name": "Bingen", "lat": 49.9667, "lon": 7.9 }
+    },
+    {
+      "id": "der-von-kuerenberg", "title": "Der von Kürenberg", "short": "Kürenberger", "start": "~1130", "end": "~1170", "importance": 2,
+      "description": "Ältester namentlich bekannter Minnesänger, aus dem Donauraum (vermutlich Oberösterreich).",
+      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
+      "attributes": { "Werke": "Falkenlied" }
+    },
+    {
+      "id": "dietmar-von-aist", "title": "Dietmar von Aist", "start": "~1140", "end": "~1171", "importance": 3,
+      "description": "Früher Minnesänger aus dem oberösterreichischen Mühlviertel.",
+      "place": { "name": "Aist", "lat": 48.3, "lon": 14.6 }
+    },
+    {
+      "id": "reinmar-der-alte", "title": "Reinmar der Alte", "short": "Reinmar", "start": "~1160", "end": "~1205", "importance": 2,
+      "description": "Minnesänger am Babenbergerhof in Wien, Lehrer und Rivale Walthers von der Vogelweide.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "perotin", "title": "Pérotin", "start": "~1160", "end": "~1230", "importance": 5, "tags": ["international"],
+      "description": "Meister der Notre-Dame-Schule in Paris.",
+      "place": { "name": "Paris", "lat": 48.853, "lon": 2.3499 }
     }
   ]
 }

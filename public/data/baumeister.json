@@ -373,6 +373,18 @@
       "description": "Architekt und Theoretiker der Frührenaissance.",
       "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
       "attributes": { "Werke": "De re aedificatoria, Santa Maria Novella (Fassade)" }
+    },
+    {
+      "id": "odo-von-metz", "title": "Odo von Metz", "start": "~742", "end": "~814", "importance": 4, "tags": ["international"],
+      "description": "Baumeister der Pfalzkapelle Karls des Großen in Aachen.",
+      "place": { "name": "Aachen", "lat": 50.7747, "lon": 6.0839 },
+      "attributes": { "Werke": "Pfalzkapelle Aachen" }
+    },
+    {
+      "id": "abt-suger", "title": "Abt Suger", "short": "Suger", "start": "~1081", "end": "1151-01-13", "importance": 4, "tags": ["international"],
+      "description": "Abt von Saint-Denis; mit dem Chor seiner Abteikirche (1144) begann die Gotik.",
+      "place": { "name": "Saint-Denis", "lat": 48.9356, "lon": 2.3539 },
+      "attributes": { "Werke": "Chor von Saint-Denis" }
     }
   ]
 }

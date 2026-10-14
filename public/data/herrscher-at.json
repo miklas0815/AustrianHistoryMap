@@ -278,6 +278,83 @@
       "description": "Als Herzog Friedrich V. Herr Innerösterreichs, nach 1457 und 1463 auch Österreichs; residierte vor allem in Wiener Neustadt und Graz.",
       "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
       "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "leopold-i-babenberg", "title": "Leopold I. (Markgraf)", "short": "Leopold I.", "start": "976-07-21", "end": "994-07-10", "importance": 2,
+      "description": "Erster Babenberger; von Otto II. mit der Mark an der Donau belehnt. Residenz vermutlich in Melk.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "heinrich-i-babenberg", "title": "Heinrich I. (Markgraf)", "short": "Heinrich I.", "start": "994-07-10", "end": "1018-06-23", "importance": 4,
+      "description": "Sohn Leopolds I.; unter ihm fiel 996 die erste Nennung „Ostarrichi“.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "adalbert-babenberg", "title": "Adalbert der Siegreiche", "short": "Adalbert", "start": "1018", "end": "1055-05-26", "importance": 4,
+      "description": "Dehnte die Mark nach Osten bis an March und Leitha aus.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "ernst-babenberg", "title": "Ernst der Tapfere", "short": "Ernst", "start": "1055", "end": "1075-06-09", "importance": 5,
+      "description": "Fiel im Kampf gegen die Sachsen an der Unstrut.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "leopold-ii-babenberg", "title": "Leopold II. der Schöne", "short": "Leopold II.", "start": "1075-06-09", "end": "1095-10-12", "importance": 4,
+      "description": "Stellte sich im Investiturstreit auf die Seite des Papstes.",
+      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "leopold-iii-babenberg", "title": "Leopold III. der Heilige", "short": "Leopold III.", "start": "1095-10-12", "end": "1136-11-15", "importance": 2,
+      "life": {"start": "1073", "end": "1136-11-15"},
+      "description": "Gründete die Stifte Klosterneuburg und Heiligenkreuz; 1485 heiliggesprochen, Landespatron von Niederösterreich und Wien.",
+      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "leopold-iv-babenberg", "title": "Leopold IV.", "start": "1136-11-15", "end": "1141-10-18", "importance": 5,
+      "description": "Erhielt zusätzlich das Herzogtum Bayern.",
+      "place": { "name": "Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "heinrich-jasomirgott", "title": "Heinrich II. Jasomirgott", "short": "Jasomirgott", "start": "1141-10-18", "end": "1177-01-13", "importance": 2,
+      "life": {"start": "~1112", "end": "1177-01-13"},
+      "description": "Erster Herzog von Österreich (Privilegium minus 1156); verlegte die Residenz nach Wien (Am Hof) und gründete das Schottenstift.",
+      "place": { "name": "Am Hof, Wien", "lat": 48.2106, "lon": 16.3677 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "leopold-v-babenberg", "title": "Leopold V. der Tugendhafte", "short": "Leopold V.", "start": "1177-01-13", "end": "1194-12-31", "importance": 3,
+      "life": {"start": "1157", "end": "1194-12-31"},
+      "description": "Nahm 1192 Richard Löwenherz gefangen; erwarb 1192 die Steiermark (Georgenberger Handfeste).",
+      "place": { "name": "Dürnstein", "lat": 48.3956, "lon": 15.5194 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "friedrich-i-babenberg", "title": "Friedrich I. der Katholische", "short": "Friedrich I.", "start": "1194-12-31", "end": "1198-04-16", "importance": 5,
+      "description": "Starb auf dem Kreuzzug.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "leopold-vi-babenberg", "title": "Leopold VI. der Glorreiche", "short": "Leopold VI.", "start": "1198-04-16", "end": "1230-07-28", "importance": 2,
+      "life": {"start": "1176", "end": "1230-07-28"},
+      "description": "Blütezeit der Babenberger: Wiener Stadtrecht (1221), Förderung von Handel und Minnesang.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Babenberger" }
+    },
+    {
+      "id": "friedrich-ii-babenberg", "title": "Friedrich II. der Streitbare", "short": "Friedrich der Streitbare", "start": "1230-07-28", "end": "1246-06-15", "importance": 2,
+      "life": {"start": "~1211", "end": "1246-06-15"},
+      "description": "Letzter Babenberger; fiel in der Schlacht an der Leitha gegen die Ungarn.",
+      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
+      "attributes": { "Dynastie": "Babenberger" }
     }
   ]
 }

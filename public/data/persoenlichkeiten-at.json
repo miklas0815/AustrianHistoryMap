@@ -151,6 +151,31 @@
       "id": "karl-renner", "title": "Karl Renner", "short": "Renner", "start": "1870-12-14", "end": "1950-12-31", "importance": 2,
       "description": "Erster Staatskanzler der Republik (1918–1920), später erster Bundespräsident der Zweiten Republik.",
       "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
+    },
+    {
+      "id": "virgil-salzburg", "title": "Virgil von Salzburg", "short": "Virgil", "start": "~700", "end": "784-11-27", "importance": 3,
+      "description": "Irischer Gelehrter, Abt und Bischof von Salzburg; begann den Bau des ersten Salzburger Doms und missionierte in Karantanien.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "arn-salzburg", "title": "Arn von Salzburg", "short": "Arn", "start": "~740", "end": "821-01-24", "importance": 3,
+      "description": "Vertrauter Karls des Großen; wurde 798 erster Erzbischof von Salzburg.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
+    },
+    {
+      "id": "hemma-von-gurk", "title": "Hemma von Gurk", "short": "Hemma", "start": "~980", "end": "1045-06-29", "importance": 3,
+      "description": "Kärntner Adelige und Stifterin des Klosters Gurk; Landesheilige Kärntens.",
+      "place": { "name": "Gurk", "lat": 46.875, "lon": 14.2917 }
+    },
+    {
+      "id": "agnes-von-waiblingen", "title": "Agnes von Waiblingen", "short": "Agnes", "start": "1072", "end": "1143-09-24", "importance": 3,
+      "description": "Tochter Kaiser Heinrichs IV., Gemahlin Leopolds III.; Stammmutter der Babenberger und Staufer.",
+      "place": { "name": "Klosterneuburg", "lat": 48.3053, "lon": 16.3256 }
+    },
+    {
+      "id": "eberhard-ii-salzburg", "title": "Eberhard II. von Salzburg", "short": "Eberhard II.", "start": "~1170", "end": "1246-12-01", "importance": 3,
+      "description": "Erzbischof von Salzburg (1200–1246); baute das Erzstift zu einem eigenständigen Landesfürstentum aus.",
+      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
     }
   ]
 }

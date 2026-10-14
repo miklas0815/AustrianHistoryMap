@@ -185,6 +185,181 @@
       "description": "Über 53 Jahre König, 1452 in Rom als letzter Kaiser zum Kaiser gekrönt; Wahlspruch „AEIOU“. Bahnte durch die burgundische Heirat seines Sohnes Maximilian den Aufstieg Habsburgs an.",
       "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
       "attributes": { "Dynastie": "Habsburg" }
+    },
+    {
+      "id": "karl-der-grosse", "title": "Karl der Große", "start": "768-10-09", "end": "814-01-28", "importance": 1,
+      "life": {"start": "~747", "end": "814-01-28"},
+      "description": "König der Franken, am Weihnachtstag 800 in Rom zum Kaiser gekrönt. Unterwarf die Awaren und schuf im Osten die Grenzmark, aus der später Österreich hervorging.",
+      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
+      "attributes": { "Dynastie": "Karolinger", "Kaiserkrönung": "25. Dezember 800, Rom" }
+    },
+    {
+      "id": "ludwig-der-fromme", "title": "Ludwig der Fromme", "start": "814-01-28", "end": "840-06-20", "importance": 3,
+      "life": {"start": "778", "end": "840-06-20"},
+      "description": "Sohn und Nachfolger Karls des Großen; unter ihm begannen die Teilungskämpfe des Frankenreichs.",
+      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "lothar-i", "title": "Lothar I.", "start": "840-06-20", "end": "855-09-29", "importance": 4,
+      "life": {"start": "795", "end": "855-09-29"},
+      "description": "Kaiser und Herrscher des Mittelreichs nach dem Vertrag von Verdun.",
+      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "ludwig-der-deutsche", "title": "Ludwig der Deutsche", "start": "843-08", "end": "876-08-28", "importance": 3,
+      "life": {"start": "~806", "end": "876-08-28"},
+      "description": "König des Ostfrankenreichs, aus dem das spätere Deutsche Reich hervorging; dazu gehörte auch die bairische Ostmark.",
+      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "karl-iii-der-dicke", "title": "Karl III. der Dicke", "short": "Karl III.", "start": "876-08-28", "end": "887-11", "importance": 5,
+      "life": {"start": "839", "end": "888-01-13"},
+      "description": "Vereinte noch einmal das Frankenreich, wurde 887 abgesetzt.",
+      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "arnulf-von-kaernten", "title": "Arnulf von Kärnten", "short": "Arnulf", "start": "887-11", "end": "899-12-08", "importance": 3,
+      "life": {"start": "~850", "end": "899-12-08"},
+      "description": "Herzog von Kärnten, ostfränkischer König, 896 zum Kaiser gekrönt.",
+      "place": { "name": "Moosburg (Kärnten)", "lat": 46.6608, "lon": 14.1728 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "ludwig-das-kind", "title": "Ludwig das Kind", "start": "900-02-04", "end": "911-09-24", "importance": 5,
+      "life": {"start": "893", "end": "911-09-24"},
+      "description": "Letzter ostfränkischer Karolinger; in seine Zeit fiel die Niederlage gegen die Ungarn bei Pressburg (907).",
+      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
+      "attributes": { "Dynastie": "Karolinger" }
+    },
+    {
+      "id": "konrad-i", "title": "Konrad I.", "start": "911-11-10", "end": "918-12-23", "importance": 5,
+      "life": {"start": "~881", "end": "918-12-23"},
+      "description": "Erster ostfränkischer König, der kein Karolinger war.",
+      "place": { "name": "Forchheim", "lat": 49.7186, "lon": 11.0581 },
+      "attributes": { "Dynastie": "Konradiner" }
+    },
+    {
+      "id": "heinrich-i", "title": "Heinrich I.", "start": "919-05", "end": "936-07-02", "importance": 3,
+      "life": {"start": "~876", "end": "936-07-02"},
+      "description": "Erster König aus dem Haus der Liudolfinger (Ottonen); besiegte 933 die Ungarn.",
+      "place": { "name": "Quedlinburg", "lat": 51.7903, "lon": 11.1425 },
+      "attributes": { "Dynastie": "Ottonen" }
+    },
+    {
+      "id": "otto-i", "title": "Otto I. der Große", "short": "Otto der Große", "start": "936-08-07", "end": "973-05-07", "importance": 1,
+      "life": {"start": "912-11-23", "end": "973-05-07"},
+      "description": "Besiegte 955 die Ungarn auf dem Lechfeld und wurde 962 in Rom zum Kaiser gekrönt – Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums.",
+      "place": { "name": "Magdeburg", "lat": 52.1205, "lon": 11.6276 },
+      "attributes": { "Dynastie": "Ottonen", "Kaiserkrönung": "2. Februar 962, Rom" }
+    },
+    {
+      "id": "otto-ii", "title": "Otto II.", "start": "973-05-07", "end": "983-12-07", "importance": 4,
+      "life": {"start": "955", "end": "983-12-07"},
+      "description": "Belehnte 976 den Babenberger Leopold mit der Mark an der Donau.",
+      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
+      "attributes": { "Dynastie": "Ottonen" }
+    },
+    {
+      "id": "otto-iii", "title": "Otto III.", "start": "983-12-25", "end": "1002-01-23", "importance": 3,
+      "life": {"start": "980-07", "end": "1002-01-23"},
+      "description": "In seiner Schenkungsurkunde von 996 wird erstmals der Name „Ostarrichi“ genannt.",
+      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
+      "attributes": { "Dynastie": "Ottonen" }
+    },
+    {
+      "id": "heinrich-ii-hrr", "title": "Heinrich II.", "start": "1002-06-07", "end": "1024-07-13", "importance": 3,
+      "life": {"start": "~973", "end": "1024-07-13"},
+      "description": "Letzter Ottone, Gründer des Bistums Bamberg; heiliggesprochen.",
+      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
+      "attributes": { "Dynastie": "Ottonen" }
+    },
+    {
+      "id": "konrad-ii", "title": "Konrad II.", "start": "1024-09-04", "end": "1039-06-04", "importance": 4,
+      "life": {"start": "~990", "end": "1039-06-04"},
+      "description": "Erster Salier; gewann das Königreich Burgund hinzu.",
+      "place": { "name": "Speyer", "lat": 49.3173, "lon": 8.4412 },
+      "attributes": { "Dynastie": "Salier" }
+    },
+    {
+      "id": "heinrich-iii-hrr", "title": "Heinrich III.", "start": "1039-06-04", "end": "1056-10-05", "importance": 3,
+      "life": {"start": "1017-10-28", "end": "1056-10-05"},
+      "description": "Auf dem Höhepunkt kaiserlicher Macht; setzte in Rom Päpste ein.",
+      "place": { "name": "Goslar", "lat": 51.906, "lon": 10.429 },
+      "attributes": { "Dynastie": "Salier" }
+    },
+    {
+      "id": "heinrich-iv-hrr", "title": "Heinrich IV.", "start": "1056-10-05", "end": "1105-12-31", "importance": 2,
+      "life": {"start": "1050-11-11", "end": "1106-08-07"},
+      "description": "Im Investiturstreit mit Papst Gregor VII.; Bußgang nach Canossa 1077.",
+      "place": { "name": "Canossa", "lat": 44.5767, "lon": 10.4558 },
+      "attributes": { "Dynastie": "Salier" }
+    },
+    {
+      "id": "heinrich-v-hrr", "title": "Heinrich V.", "start": "1106-01-05", "end": "1125-05-23", "importance": 4,
+      "life": {"start": "~1086", "end": "1125-05-23"},
+      "description": "Letzter Salier; beendete 1122 mit dem Wormser Konkordat den Investiturstreit.",
+      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 },
+      "attributes": { "Dynastie": "Salier" }
+    },
+    {
+      "id": "lothar-iii", "title": "Lothar III.", "start": "1125-08-30", "end": "1137-12-04", "importance": 5,
+      "life": {"start": "1075", "end": "1137-12-04"},
+      "description": "Kaiser aus dem Haus Supplinburg.",
+      "place": { "name": "Königslutter", "lat": 52.2513, "lon": 10.8194 },
+      "attributes": { "Dynastie": "Supplinburger" }
+    },
+    {
+      "id": "konrad-iii", "title": "Konrad III.", "start": "1138-03-07", "end": "1152-02-15", "importance": 4,
+      "life": {"start": "1093", "end": "1152-02-15"},
+      "description": "Erster Staufer; Halbbruder des Babenbergers Heinrich Jasomirgott.",
+      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
+      "attributes": { "Dynastie": "Staufer" }
+    },
+    {
+      "id": "friedrich-barbarossa", "title": "Friedrich I. Barbarossa", "short": "Barbarossa", "start": "1152-03-04", "end": "1190-06-10", "importance": 1,
+      "life": {"start": "~1122", "end": "1190-06-10"},
+      "description": "Staufischer Kaiser; erhob 1156 mit dem Privilegium minus Österreich zum Herzogtum. Ertrank auf dem Dritten Kreuzzug.",
+      "place": { "name": "Kyffhäuser", "lat": 51.4128, "lon": 11.1069 },
+      "attributes": { "Dynastie": "Staufer" }
+    },
+    {
+      "id": "heinrich-vi-hrr", "title": "Heinrich VI.", "start": "1190-06-10", "end": "1197-09-28", "importance": 4,
+      "life": {"start": "1165-11", "end": "1197-09-28"},
+      "description": "Hielt den englischen König Richard Löwenherz gefangen; das Lösegeld kam auch Österreich zugute.",
+      "place": { "name": "Palermo", "lat": 38.1157, "lon": 13.3615 },
+      "attributes": { "Dynastie": "Staufer" }
+    },
+    {
+      "id": "philipp-von-schwaben", "title": "Philipp von Schwaben", "start": "1198-03-08", "end": "1208-06-21", "importance": 5,
+      "life": {"start": "1177", "end": "1208-06-21"},
+      "description": "Staufischer König im Thronstreit mit Otto IV.; in Bamberg ermordet.",
+      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
+      "attributes": { "Dynastie": "Staufer" }
+    },
+    {
+      "id": "otto-iv", "title": "Otto IV.", "start": "1198-06-09", "end": "1218-05-19", "importance": 5,
+      "life": {"start": "~1175", "end": "1218-05-19"},
+      "description": "Welfischer Gegenkönig, 1209 Kaiser; nach der Niederlage von Bouvines (1214) ohne Macht.",
+      "place": { "name": "Braunschweig", "lat": 52.2689, "lon": 10.5268 },
+      "attributes": { "Dynastie": "Welfen" }
+    },
+    {
+      "id": "friedrich-ii-hrr", "title": "Friedrich II.", "start": "1212-12-09", "end": "1250-12-13", "importance": 2,
+      "life": {"start": "1194-12-26", "end": "1250-12-13"},
+      "description": "Hochgebildeter Staufer mit Sitz in Sizilien, „Staunen der Welt“; im Dauerkonflikt mit dem Papsttum.",
+      "place": { "name": "Palermo", "lat": 38.1157, "lon": 13.3615 },
+      "attributes": { "Dynastie": "Staufer" }
+    },
+    {
+      "id": "konrad-iv", "title": "Konrad IV.", "start": "1250-12-13", "end": "1254-05-21", "importance": 5,
+      "life": {"start": "1228-04-25", "end": "1254-05-21"},
+      "description": "Letzter Staufer auf dem Thron; danach folgte das Interregnum.",
+      "place": { "name": "Lavello", "lat": 41.0478, "lon": 15.7925 },
+      "attributes": { "Dynastie": "Staufer" }
     }
   ]
 }

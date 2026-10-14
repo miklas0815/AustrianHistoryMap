@@ -7,7 +7,7 @@ Komponisten & Musiker, Schriftsteller, technologische Neuerungen, Ereignisse in
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
-Datenbestand: 1270–1920 (von den ersten Habsburgern bis zur Ersten Republik).
+Datenbestand: 768–1920 (von Karl dem Großen bis zur Ersten Republik).
 
 ## Bedienung
 
