@@ -1,7 +1,7 @@
 # Österreichische Geschichte – Zeitleiste
 
 Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Wiener Bürgermeister,
-Baumeister, Ereignisse in Österreich und international). Zoomen blendet je nach
+Baumeister, Komponisten, Maler, Ereignisse in Österreich und international). Zoomen blendet je nach
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 
@@ -48,9 +48,9 @@ Ein Eintrag:
 
 ```json
 {
-  "id": "tuerkenbelagerung-1529",
-  "title": "Erste Wiener Türkenbelagerung",
-  "short": "Türkenbelagerung",
+  "id": "osmanenbelagerung-1529",
+  "title": "Erste Wiener Osmanenbelagerung",
+  "short": "Osmanenbelagerung",
   "start": "1529-09-27",
   "end": "1529-10-14",
   "importance": 1,
@@ -72,7 +72,10 @@ Ein Eintrag:
 | `description`, `place`, `attributes`, `tags`, `sources` | nein | Detailansicht |
 
 Bei Personen zeigt der Balken je nach Kategorie die Regierungs- bzw. Amtszeit
-(Herrscher, Bürgermeister) oder die Lebensdaten (Baumeister). Ungefähre Daten
+(Herrscher, Bürgermeister) oder die Lebensdaten (Baumeister, Komponisten, Maler).
+Bei Baumeistern, Komponisten und Malern haben in Österreich bzw. am Habsburgerhof
+tätige Personen Vorrang (Bedeutung 1–3); internationale Namen dienen als Kontext
+(meist 4–5) und erscheinen erst beim Hineinzoomen. Ungefähre Daten
 (`~`) werden mit auslaufenden Balkenenden dargestellt.
 
 Nach jeder Änderung `npm run validate` ausführen. Das Skript meldet ungültige
@@ -84,6 +87,7 @@ Wie viele Stufen sichtbar sind, hängt davon ab, wie viele Pixel ein Jahr gerade
 breit ist (`src/layout.ts`, `MIN_PX_PER_YEAR`). Auf einem breiten Bildschirm sind
 bei 100 Jahren die Stufen 1–4 sichtbar, am Handy 1–2. Kurze Balken der
 niedrigsten sichtbaren Stufe bleiben unbeschriftet, bis man hineinzoomt.
+Innerhalb einer Spur stehen wichtigere Einträge in den oberen Zeilen.
 
 ## Aufbau
 

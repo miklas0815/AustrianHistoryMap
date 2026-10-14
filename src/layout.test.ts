@@ -61,4 +61,12 @@ describe('layoutLanes', () => {
     const [lane] = layoutLanes({ ...base, items: [late], maxImportance: 5 });
     expect(lane.placed[0].labelAnchor).toBe('end');
   });
+
+  it('setzt wichtigere Einträge in die oberen Zeilen', () => {
+    const minor = toItem({ id: 'm', title: 'M', start: '1500', end: '1550', importance: 4 }, 'c');
+    const major = toItem({ id: 'j', title: 'J', start: '1520', end: '1560', importance: 1 }, 'c');
+    const [lane] = layoutLanes({ ...base, items: [minor, major], maxImportance: 5 });
+    expect(lane.placed.find((p) => p.item.id === 'j')!.row).toBe(0);
+    expect(lane.placed.find((p) => p.item.id === 'm')!.row).toBe(1);
+  });
 });

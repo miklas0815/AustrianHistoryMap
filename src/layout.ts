@@ -71,9 +71,11 @@ export function layoutLanes(input: LayoutInput): Lane[] {
     const inView = byCat.get(category.id) ?? [];
     const shown = inView
       .filter((it) => it.importance <= maxImportance)
-      .sort((a, b) => a.t0 - b.t0 || a.importance - b.importance);
+      // Wichtigere Einträge zuerst verteilen, damit sie in den oberen Zeilen stehen.
+      .sort((a, b) => a.importance - b.importance || a.t0 - b.t0);
 
-    const rowEnds: number[] = [];
+    // Pro Zeile die belegten Pixelbereiche; ein Eintrag kommt in die erste Zeile, in der er frei ist.
+    const rows: [number, number][][] = [];
     const placed: PlacedItem[] = shown.map((item) => {
       // Zeiträume der niedrigsten sichtbaren Stufe nur beschriften, wenn der Text in den
       // Balken passt – sonst würden z. B. die vielen kurzen Bürgermeister-Amtszeiten
@@ -83,18 +85,17 @@ export function layoutLanes(input: LayoutInput): Lane[] {
       // Aneinandergrenzende Balken (z. B. aufeinanderfolgende Amtszeiten) dürfen sich in
       // einer Zeile berühren; nach einer Beschriftung bleibt etwas Abstand.
       const endsWithText = p.placed.label !== '' && !p.placed.labelInside;
-      const occupiedUntil = p.extent[1] + (endsWithText || p.placed.item.isPoint ? ROW_GAP : 1);
-      let row = rowEnds.findIndex((end) => end <= p.extent[0]);
+      const span: [number, number] = [p.extent[0], p.extent[1] + (endsWithText || item.isPoint ? ROW_GAP : 1)];
+      let row = rows.findIndex((used) => used.every(([a, b]) => span[1] <= a || span[0] >= b));
       if (row === -1) {
-        row = rowEnds.length;
-        rowEnds.push(occupiedUntil);
-      } else {
-        rowEnds[row] = occupiedUntil;
+        row = rows.length;
+        rows.push([]);
       }
+      rows[row].push(span);
       return { ...p.placed, row };
     });
 
-    return { category, rows: Math.max(1, rowEnds.length), placed, hidden: inView.length - shown.length };
+    return { category, rows: Math.max(1, rows.length), placed, hidden: inView.length - shown.length };
   });
 }
 
