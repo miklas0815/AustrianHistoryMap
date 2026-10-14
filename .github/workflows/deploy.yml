@@ -80,7 +80,9 @@ jobs:
         if: steps.check.outputs.ready == 'true'
         run: |
           # mirror -R lädt nur geänderte Dateien hoch. Es wird nichts am Server gelöscht,
-          # damit andere Inhalte im Zielordner unberührt bleiben.
+          # damit andere Inhalte im Zielordner unberührt bleiben. Nur eine Verbindung,
+          # weil Shared Hosting parallele FTP-Verbindungen oft begrenzt.
+          # index.html kommt zuletzt, damit sie nie auf noch fehlende Dateien verweist.
           # Häufige Eingabefehler in den Secrets abfangen: Zeilenumbrüche am Ende und
           # ein vorangestelltes ftp:// bzw. sftp:// beim Server.
           clean() { printf '%s' "$1" | tr -d '\r\n'; }
@@ -88,11 +90,15 @@ jobs:
           server="$(clean "$FTP_SERVER" | sed -E 's#^[a-zA-Z]+://##; s#/+$##')"
           export LFTP_PASSWORD="$(clean "$FTP_PASSWORD")"
           lftp --env-password -u "$user" "$FTP_PROTOCOL://$server" -e "
-            set net:max-retries 3;
+            set cmd:fail-exit yes;
+            set net:max-retries 6;
             set net:timeout 30;
+            set net:reconnect-interval-base 5;
+            set net:reconnect-interval-max 30;
             set ftp:ssl-allow true;
             set sftp:auto-confirm yes;
             mkdir -p -f '$FTP_TARGET_DIR';
-            mirror --reverse --only-newer --verbose --parallel=4 dist/ '$FTP_TARGET_DIR';
+            mirror --reverse --only-newer --verbose --exclude-glob index.html dist/ '$FTP_TARGET_DIR';
+            put -O '$FTP_TARGET_DIR' dist/index.html;
             bye"
           echo "### Veröffentlicht nach \`$FTP_TARGET_DIR\`" >> "$GITHUB_STEP_SUMMARY"
