@@ -68,7 +68,10 @@ button:disabled { opacity: .5; cursor: progress; }
 /* Senkrecht: Zeit von oben nach unten, Spalten bei Bedarf seitlich scrollbar. */
 .chart.vertical { overflow-x: auto; }
 #rotate[aria-pressed=true] { background: #eef3fa; border-color: #1f5fad; }
-.chart svg { display: block; touch-action: none; user-select: none; }
+/* Touch: senkrecht wischen scrollt die Seite (Browser), waagrecht wischen und Zwei-Finger-Zoom
+   übernimmt die Zeitleiste. Senkrecht gedreht ist es umgekehrt. */
+.chart svg { display: block; touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.chart.vertical svg { touch-action: pan-x; }
 .chart svg [data-id]:hover rect, .chart svg [data-id]:hover path { filter: brightness(1.12); }
 
 .detail-panel {
@@ -97,6 +100,23 @@ button:disabled { opacity: .5; cursor: progress; }
   border-top: 1px solid var(--border); background: var(--surface);
 }
 
+.statusbar .hint-touch { display: none; }
+
+.touch-nav { display: none; }
+@media (pointer: coarse) {
+  .touch-nav {
+    display: flex; gap: 8px; position: fixed; z-index: 6; left: 50%; transform: translateX(-50%);
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+    padding: 6px; border-radius: 999px; background: rgba(255, 255, 255, .94);
+    border: 1px solid var(--border); box-shadow: 0 2px 12px rgba(0, 0, 0, .18);
+  }
+  .touch-nav button { width: 52px; height: 44px; border-radius: 999px; font-size: 20px; line-height: 1; padding: 0; }
+  .touch-nav button:active { background: #eef3fa; }
+  body { padding-bottom: 72px; }
+  .statusbar .hint-mouse { display: none; }
+  .statusbar .hint-touch { display: inline; }
+}
+
 .tooltip {
   position: fixed; z-index: 10; pointer-events: none;
   background: rgba(20, 20, 20, .92); color: #fff; font-size: 12.5px;
@@ -108,9 +128,9 @@ button:disabled { opacity: .5; cursor: progress; }
   .topbar { position: static; }
   .layout { flex-direction: column; }
   .detail-panel { position: relative; width: auto; max-height: none; box-shadow: none; border: none; border-top: 1px solid var(--border); }
-  .statusbar .hint { display: none; }
+  .statusbar .hint-mouse { display: none; }
 }
 
 @media print {
-  .topbar, .statusbar, .detail-panel { display: none; }
+  .topbar, .statusbar, .detail-panel, .touch-nav { display: none; }
 }

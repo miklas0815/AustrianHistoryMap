@@ -109,6 +109,7 @@ function render(): void {
   lastMaxImportance = visibleImportance(pxPerYear, state.detail);
   if (vertical()) renderVerticalView(cats);
   else renderHorizontalView(cats);
+  keepTouchTarget();
 
   fromInput.value = String(Math.round(state.from));
   toInput.value = String(Math.round(state.to));
@@ -258,6 +259,65 @@ function setupZoom(): void {
       select(svgEl).call(zoomBehavior.translateBy, -e.deltaX / k, 0);
     }
   }, { passive: false });
+}
+
+/** Verschiebt den Ausschnitt um einen Bruchteil seiner Länge (negativ = früher). */
+function panBy(fraction: number): void {
+  const d = (state.to - state.from) * fraction;
+  showRange(state.from + d, state.to + d);
+}
+
+// Touch-Ereignisse gehen immer an das Element, auf dem der Finger aufgesetzt hat. Wird es
+// beim Neuzeichnen entfernt, erreichen weitere Bewegungen die Zeitleiste nicht mehr und
+// Verschieben/Zoomen bleibt nach dem ersten Schritt stehen. Deshalb bleibt es bis zum
+// Loslassen unsichtbar im SVG.
+let touchTarget: Element | null = null;
+let touchHolder: SVGGElement | null = null;
+
+function keepTouchTarget(): void {
+  if (!touchTarget || svgEl.contains(touchTarget)) return;
+  touchHolder = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  touchHolder.setAttribute('display', 'none');
+  touchHolder.appendChild(touchTarget);
+  svgEl.appendChild(touchHolder);
+}
+
+function setupTouchTarget(): void {
+  svgEl.addEventListener('touchstart', (e) => { touchTarget = e.target as Element; }, { capture: true, passive: true });
+  const release = (e: TouchEvent) => {
+    if (e.touches.length) return;
+    touchTarget = null;
+    touchHolder?.remove();
+    touchHolder = null;
+  };
+  svgEl.addEventListener('touchend', release, { capture: true, passive: true });
+  svgEl.addEventListener('touchcancel', release, { capture: true, passive: true });
+}
+
+// Touch: Wischen quer zur Zeitachse überlässt die Seite dem Browser zum Scrollen (siehe
+// touch-action im CSS). Damit d3-zoom dabei nicht nebenbei die Zeit verschiebt, bekommt es
+// die Bewegungen einer solchen Geste gar nicht zu sehen.
+function setupTouchScroll(): void {
+  let start: { x: number; y: number } | null = null;
+  let decided = false;
+  let scrolling = false;
+  const opts = { capture: true, passive: true };
+  chartEl.addEventListener('touchstart', (e) => {
+    const t = e.touches[0];
+    start = e.touches.length === 1 ? { x: t.clientX, y: t.clientY } : null;
+    decided = scrolling = false;
+  }, opts);
+  chartEl.addEventListener('touchmove', (e) => {
+    if (!start || e.touches.length !== 1) return;
+    if (!decided) {
+      const dx = Math.abs(e.touches[0].clientX - start.x);
+      const dy = Math.abs(e.touches[0].clientY - start.y);
+      if (Math.max(dx, dy) < 8) return void e.stopPropagation();
+      decided = true;
+      scrolling = vertical() ? dx > dy : dy > dx;
+    }
+    if (scrolling) e.stopPropagation();
+  }, opts);
 }
 
 function zoomBy(factor: number): void {
@@ -746,12 +806,27 @@ async function runExport(button: HTMLButtonElement, task: (svg: SVGSVGElement) =
 function setupControls(): void {
   $('zoom-in').addEventListener('click', () => zoomBy(1.6));
   $('zoom-out').addEventListener('click', () => zoomBy(1 / 1.6));
+  $('pan-back').addEventListener('click', () => panBy(-1 / 3));
+  $('pan-fwd').addEventListener('click', () => panBy(1 / 3));
+  const navActions: Record<string, () => void> = {
+    back: () => panBy(-1 / 3),
+    fwd: () => panBy(1 / 3),
+    in: () => zoomBy(1.6),
+    out: () => zoomBy(1 / 1.6),
+  };
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('.touch-nav button')) {
+    btn.addEventListener('click', () => navActions[btn.dataset.nav!]());
+  }
   $('reset').addEventListener('click', () => showRange(DEFAULT_VIEW.from, DEFAULT_VIEW.to));
 
   const rotateButton = $<HTMLButtonElement>('rotate');
   const updateRotateButton = () => {
     rotateButton.setAttribute('aria-pressed', String(vertical()));
     rotateButton.textContent = vertical() ? '⟲ Waagrecht' : '⟳ Senkrecht';
+    // Senkrecht läuft die Zeit nach unten: Pfeile entsprechend drehen.
+    const [back, fwd] = vertical() ? ['▲', '▼'] : ['◀', '▶'];
+    for (const el of document.querySelectorAll('#pan-back, [data-nav="back"]')) el.textContent = back;
+    for (const el of document.querySelectorAll('#pan-fwd, [data-nav="fwd"]')) el.textContent = fwd;
   };
   updateRotateButton();
   rotateButton.addEventListener('click', () => {
@@ -813,6 +888,8 @@ async function main(): Promise<void> {
   extent = [Math.floor(t0) - 10, Math.ceil(t1) + 10];
 
   setupZoom();
+  setupTouchScroll();
+  setupTouchTarget();
   measureLayout();
   setupInteraction();
   setupControls();

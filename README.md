@@ -12,6 +12,10 @@ Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
 ## Bedienung
 
 - **Mausrad / Ziehen**: zoomen und verschieben (Trackpad waagrecht: verschieben)
+- **◀ ▶ − +**: verschieben um ein Drittel des Ausschnitts bzw. zoomen
+- **Touch (Handy, Tablet)**: waagrecht wischen verschiebt die Zeit, zwei Finger zoomen,
+  senkrecht wischen scrollt die Seite (in der senkrechten Ansicht umgekehrt). Unten am
+  Bildschirm bleibt eine Leiste mit ◀ − + ▶ eingeblendet
 - **Kategorien**: oben per Klick ein-/ausschalten. Mit **„⇅ Reihenfolge ändern“**
   erscheinen an jeder Kategorie Pfeilknöpfe ◀ ▶; zusätzlich lassen sich die
   Kategorien in diesem Modus ziehen (auch am Touchscreen). Mit der Maus kann man auch
