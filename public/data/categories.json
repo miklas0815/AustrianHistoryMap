@@ -6,6 +6,7 @@
     {"id": "baumeister", "name": "Baumeister & Architekten", "color": "#2E7D4F", "file": "baumeister.json", "description": "Lebensdaten von Baumeistern und Architekten."},
     {"id": "komponisten", "name": "Komponisten", "color": "#C25E14", "file": "komponisten.json", "description": "Lebensdaten von Komponisten, vor allem an den Habsburgerhöfen."},
     {"id": "maler", "name": "Maler", "color": "#A8326E", "file": "maler.json", "description": "Lebensdaten von Malern, vor allem in Österreich und am Habsburgerhof."},
+    {"id": "technologie", "name": "Technologische Neuerungen", "color": "#4D5D6B", "file": "technologie.json", "description": "Wichtige Entwicklungen aus Technik, Wissenschaft und Forschung."},
     {"id": "ereignisse-at", "name": "Ereignisse Österreich", "color": "#7B3FA0", "file": "ereignisse-at.json", "description": "Bedeutende Ereignisse der österreichischen Geschichte."},
     {"id": "ereignisse-int", "name": "Ereignisse international", "color": "#3B7A86", "file": "ereignisse-int.json", "description": "Bedeutende internationale Ereignisse als Kontext."}
   ]

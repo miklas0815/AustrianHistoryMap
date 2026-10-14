@@ -1,7 +1,8 @@
 # Österreichische Geschichte – Zeitleiste
 
 Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Wiener Bürgermeister,
-Baumeister, Komponisten, Maler, Ereignisse in Österreich und international). Zoomen blendet je nach
+Baumeister, Komponisten, Maler, technologische Neuerungen, Ereignisse in Österreich
+und international). Zoomen blendet je nach
 Bedeutung mehr oder weniger Einträge ein; die aktuelle Ansicht lässt sich als PDF
 oder JPEG speichern und als Link teilen.
 

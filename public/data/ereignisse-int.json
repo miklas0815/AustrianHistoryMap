@@ -67,11 +67,6 @@
       "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
     },
     {
-      "id": "kopernikus-1543", "title": "Kopernikus: De revolutionibus", "start": "1543", "importance": 2,
-      "description": "Nikolaus Kopernikus veröffentlichte sein heliozentrisches Weltbild.",
-      "place": { "name": "Nürnberg (Druckort)", "lat": 49.4521, "lon": 11.0767 }
-    },
-    {
       "id": "konzil-trient", "title": "Konzil von Trient", "start": "1545-12-13", "end": "1563-12-04", "importance": 1,
       "description": "Reformkonzil der katholischen Kirche als Antwort auf die Reformation; Grundlage der Gegenreformation.",
       "place": { "name": "Trient", "lat": 46.0679, "lon": 11.1211 }

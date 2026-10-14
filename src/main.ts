@@ -49,6 +49,13 @@ function measure(text: string, bold: boolean): number {
   return w;
 }
 
+/** Breite der Kategorienspalte: passend zum längsten Namen (fett, 12 px, mit Farbfeld). */
+function fullGutter(): number {
+  measureCtx.font = `bold 12px ${FONT}`;
+  const longest = Math.max(...data.categories.map((c) => measureCtx.measureText(c.name).width));
+  return Math.max(170, Math.ceil(26 + longest + 14));
+}
+
 // ---------- Zustand ----------
 
 function selectedCategories(): Category[] {
@@ -113,7 +120,7 @@ function render(): void {
 
 function measureLayout(): void {
   const width = chartEl.clientWidth;
-  gutter = width < 700 ? 0 : 190;
+  gutter = width < 700 ? 0 : fullGutter();
   plotWidth = Math.max(200, width - gutter - RIGHT_PAD);
   baseX = scaleLinear().domain(extent).range([gutter, gutter + plotWidth]);
   zoomBehavior
@@ -302,7 +309,7 @@ function buildExportSvg(): { svg: SVGSVGElement; cleanup: () => void } {
   const cats = selectedCategories();
   const stamp = new Date().toLocaleDateString('de-AT', { day: '2-digit', month: '2-digit', year: 'numeric' });
   // Für den Export immer mit Kategorienspalte, auch wenn am Handy kompakt angezeigt wird.
-  const exportGutter = 190;
+  const exportGutter = fullGutter();
   renderTimeline(svg, {
     lanes: lastLanes,
     width: exportGutter + plotWidth + RIGHT_PAD,
