@@ -3,12 +3,17 @@ import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, type D3ZoomEvent, type ZoomBehavior } from 'd3-zoom';
 import { itemSpan, loadDataset, type Category, type Dataset, type Item } from './data';
-import { formatRange, formatYear } from './dates';
+import { formatHistDate, formatRange, formatYear } from './dates';
 import { exportImage, exportPdf, type PdfFormat } from './export';
 import { layoutColumns, layoutLanes, visibleImportance, type Column, type Lane } from './layout';
 import { COLUMN_HEADER_H, FONT, FONT_SIZE, renderTimeline, renderVertical, verticalContentWidth } from './render';
 import { applyOrder, moveId } from './reorder';
 import { DEFAULT_VIEW, parseViewState, serializeViewState, type ViewState } from './state';
+
+/** Lebensdaten; ohne Sterbedatum lebt die Person noch. */
+function formatLife(it: Item): string {
+  return it.lifeEnd ? formatRange(it.lifeStart!, it.lifeEnd) : 'geb. ' + formatHistDate(it.lifeStart!);
+}
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
 
@@ -491,7 +496,7 @@ function setupInteraction(): void {
     if (it.lifeStart) {
       const life = document.createElement('div');
       life.className = 't-dates';
-      life.textContent = 'Leben: ' + formatRange(it.lifeStart, it.lifeEnd);
+      life.textContent = 'Leben: ' + formatLife(it);
       tooltipEl.append(life);
     }
     tooltipEl.hidden = false;
@@ -533,7 +538,7 @@ function showDetail(it: Item | undefined): void {
   if (it.description) parts.push(node('p', it.description));
 
   const rows: [string, string][] = [];
-  if (it.lifeStart) rows.push(['Lebenszeit', formatRange(it.lifeStart, it.lifeEnd)]);
+  if (it.lifeStart) rows.push(['Lebenszeit', formatLife(it)]);
   if (it.place) rows.push(['Ort', it.place.name]);
   for (const [k, v] of Object.entries(it.attributes ?? {})) rows.push([k, v]);
   rows.push(['Bedeutung', `${it.importance} von 5`]);

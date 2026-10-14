@@ -16,7 +16,7 @@ export interface RawItem {
   end?: string;
   /** 1 = sehr bedeutend … 5 = Detail. */
   importance: number;
-  /** Lebenszeit einer Person, wenn der Balken etwas anderes zeigt (z. B. die Regierungszeit). */
+  /** Lebenszeit einer Person, wenn der Balken etwas anderes zeigt (z. B. die Regierungszeit); ohne end lebt sie noch. */
   life?: { start: string; end?: string };
   description?: string;
   place?: Place;
@@ -82,7 +82,9 @@ export function toItem(raw: RawItem, category: string): Item {
       item.lifeEnd = parseHistDate(raw.life.end);
       item.lifeT1 = endDecimal(item.lifeEnd);
     } else {
-      item.lifeT1 = t1;
+      // Ohne Sterbedatum lebt die Person noch: Balken bis heute.
+      const now = new Date();
+      item.lifeT1 = Math.max(t1, now.getFullYear() + now.getMonth() / 12);
     }
     if (item.lifeT1 < item.lifeT0) throw new Error(`${raw.id}: Lebensende liegt vor der Geburt`);
   }

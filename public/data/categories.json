@@ -2,6 +2,7 @@
   "categories": [
     {"id": "herrscher-hrr", "name": "Röm.-dt. Kaiser & Könige", "color": "#A97C14", "file": "herrscher-hrr.json", "description": "Oberhäupter des Heiligen Römischen Reiches bis 1806 (Regierungszeit, blass: Lebenszeit)."},
     {"id": "herrscher-at", "name": "Herrscher Österreich", "color": "#C8102E", "file": "herrscher-at.json", "description": "Landesfürsten der österreichischen Länder, ab 1804 Kaiser von Österreich, ab 1918 Staatsoberhäupter der Republik (Regierungszeit, blass: Lebenszeit)."},
+    {"id": "kanzler-at", "name": "Kanzler Österreich", "color": "#00838F", "file": "kanzler-at.json", "description": "Haus-, Hof- und Staatskanzler, Reichskanzler, Staats- und Bundeskanzler (Amtszeit, blass: Lebenszeit)."},
     {"id": "persoenlichkeiten-at", "name": "Persönlichkeiten Österreich", "color": "#8B5A2B", "file": "persoenlichkeiten-at.json", "description": "Staatsmänner, Feldherren, Reformer und andere prägende Persönlichkeiten mit Österreichbezug (Lebensdaten)."},
     {"id": "persoenlichkeiten-int", "name": "Persönlichkeiten international", "color": "#6B7A1F", "file": "persoenlichkeiten-int.json", "description": "International bedeutende Persönlichkeiten als Kontext (Lebensdaten)."},
     {"id": "buergermeister-wien", "name": "Bürgermeister Wien", "color": "#1F5FAD", "file": "buergermeister-wien.json", "description": "Amtszeiten der Wiener Bürgermeister."},
