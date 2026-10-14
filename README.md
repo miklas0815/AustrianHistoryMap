@@ -12,11 +12,11 @@ Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
 ## Bedienung
 
 - **Mausrad / Ziehen**: zoomen und verschieben (Trackpad waagrecht: verschieben)
-- **Kategorien**: oben per Klick ein-/ausschalten; die Reihenfolge der Spuren lässt
-  sich ändern, indem man die Schaltflächen zieht (Maus; am Touchscreen nach langem
-  Antippen) oder sie mit **Alt + Pfeiltaste** verschiebt. Die Reihenfolge wird im
-  Link (`order=…`) und im Browser gespeichert; „↺ Reihenfolge zurücksetzen“ stellt
-  die ursprüngliche wieder her
+- **Kategorien**: oben per Klick ein-/ausschalten. Mit **„⇅ Reihenfolge ändern“**
+  erscheinen an jeder Kategorie Pfeilknöpfe ◀ ▶; zusätzlich lassen sich die
+  Kategorien in diesem Modus ziehen (auch am Touchscreen). Mit der Maus kann man auch
+  ohne den Modus ziehen. Die Reihenfolge wird im Link (`order=…`) und im Browser
+  gespeichert; „↺ zurücksetzen“ stellt die ursprüngliche wieder her
 - **Detailgrad**: zeigt bei gleicher Zoomstufe mehr oder weniger Einträge
 - **⟳ Senkrecht / ⟲ Waagrecht**: dreht die Darstellung um 90°: Zeit von oben nach
   unten, Kategorien als Spalten nebeneinander (seitlich scrollbar)
@@ -67,7 +67,8 @@ beim nächsten Deploy überschrieben.
 2. Den **Inhalt** von `dist/` per FTP/SFTP in das gewünschte Verzeichnis am
    Webspace hochladen (funktioniert auch in einem Unterordner).
 
-Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank.
+Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank. Die mitgelieferte
+`.htaccess` sorgt dafür, dass Browser nach einem Update sofort die neue Fassung laden.
 
 ## Daten pflegen
 

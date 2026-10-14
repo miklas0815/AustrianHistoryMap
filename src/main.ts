@@ -256,7 +256,10 @@ function loadStoredOrder(): string[] | null {
   }
 }
 
-function setOrder(ids: string[], focusId?: string): void {
+/** Umsortier-Modus: zeigt Pfeilknöpfe an den Kategorien und erlaubt direktes Ziehen. */
+let reorderMode = false;
+
+function setOrder(ids: string[], focus?: string): void {
   const isDefault = ids.join(',') === data.categories.map((c) => c.id).join(',');
   state.order = isDefault ? null : ids;
   try {
@@ -265,24 +268,69 @@ function setOrder(ids: string[], focusId?: string): void {
   } catch {
     // Ohne Speicher bleibt die Reihenfolge nur im Link erhalten.
   }
-  renderCategoryChips(focusId);
+  renderCategoryChips(focus);
   scheduleRender();
 }
 
-function renderCategoryChips(focusId?: string): void {
+function moveCategory(id: string, delta: number, focus?: string): void {
+  const ids = orderedCategories().map((c) => c.id);
+  setOrder(moveId(ids, id, ids.indexOf(id) + delta), focus);
+}
+
+function smallButton(cls: string, text: string, label: string, onClick: () => void): HTMLButtonElement {
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.className = cls;
+  b.textContent = text;
+  b.title = label;
+  b.setAttribute('aria-label', label);
+  b.addEventListener('click', onClick);
+  return b;
+}
+
+/**
+ * Zeichnet die Kategorie-Schaltflächen. `focus` ist ein Selektor-Schlüssel ("id" oder
+ * "id:prev"/"id:next"), damit der Tastaturfokus nach dem Neuzeichnen erhalten bleibt.
+ */
+function renderCategoryChips(focus?: string): void {
   chipsEl.replaceChildren();
-  for (const cat of orderedCategories()) {
+  chipsEl.classList.toggle('reorder-mode', reorderMode);
+  const cats = orderedCategories();
+  cats.forEach((cat, index) => {
+    const on = !state.cats || state.cats.includes(cat.id);
+    const sw = document.createElement('span');
+    sw.className = 'swatch';
+    sw.style.background = cat.color;
+
+    if (reorderMode) {
+      const chip = document.createElement('div');
+      chip.className = 'chip';
+      chip.dataset.id = cat.id;
+      chip.setAttribute('aria-pressed', String(on));
+      const prev = smallButton('chip-move', '◀', `${cat.name} nach vorne`, () => moveCategory(cat.id, -1, `${cat.id}:prev`));
+      const next = smallButton('chip-move', '▶', `${cat.name} nach hinten`, () => moveCategory(cat.id, 1, `${cat.id}:next`));
+      prev.dataset.focus = `${cat.id}:prev`;
+      next.dataset.focus = `${cat.id}:next`;
+      prev.disabled = index === 0;
+      next.disabled = index === cats.length - 1;
+      const name = document.createElement('span');
+      name.textContent = cat.name;
+      chip.append(prev, sw, name, next);
+      chip.addEventListener('pointerdown', (e) => {
+        if ((e.target as Element).closest('.chip-move')) return;
+        beginPointer(e, cat.id, chip, true);
+      });
+      chipsEl.appendChild(chip);
+      return;
+    }
+
     const btn = document.createElement('button');
     btn.className = 'chip';
     btn.type = 'button';
     btn.dataset.id = cat.id;
-    btn.title = `${cat.description ?? cat.name}\nZiehen oder Alt + Pfeiltaste: Reihenfolge ändern`;
-    btn.setAttribute('aria-keyshortcuts', 'Alt+ArrowLeft Alt+ArrowRight');
-    const on = !state.cats || state.cats.includes(cat.id);
+    btn.dataset.focus = cat.id;
+    btn.title = cat.description ?? cat.name;
     btn.setAttribute('aria-pressed', String(on));
-    const sw = document.createElement('span');
-    sw.className = 'swatch';
-    sw.style.background = cat.color;
     btn.append(sw, cat.name);
     btn.addEventListener('click', () => {
       if (suppressClick) {
@@ -291,19 +339,38 @@ function renderCategoryChips(focusId?: string): void {
       }
       toggleCategory(cat.id);
     });
-    btn.addEventListener('keydown', (e) => moveByKey(e, cat.id));
-    btn.addEventListener('pointerdown', (e) => beginPointer(e, cat.id, btn));
+    // Auch ohne Umsortier-Modus kann man mit der Maus ziehen (am Touchscreen nach langem Antippen).
+    btn.addEventListener('pointerdown', (e) => beginPointer(e, cat.id, btn, false));
     chipsEl.appendChild(btn);
-  }
+  });
+
+  const toggle = smallButton(
+    'chip-reorder',
+    reorderMode ? '✓ Fertig' : '⇅ Reihenfolge ändern',
+    reorderMode ? 'Umsortieren beenden' : 'Reihenfolge der Kategorien ändern',
+    () => {
+      reorderMode = !reorderMode;
+      renderCategoryChips('reorder-toggle');
+    },
+  );
+  toggle.dataset.focus = 'reorder-toggle';
+  toggle.setAttribute('aria-pressed', String(reorderMode));
+  chipsEl.appendChild(toggle);
   if (state.order) {
-    const reset = document.createElement('button');
-    reset.type = 'button';
-    reset.className = 'chip-reset';
-    reset.textContent = '↺ Reihenfolge zurücksetzen';
-    reset.addEventListener('click', () => setOrder(data.categories.map((c) => c.id)));
-    chipsEl.appendChild(reset);
+    chipsEl.appendChild(smallButton('chip-reset', '↺ zurücksetzen', 'Ursprüngliche Reihenfolge wiederherstellen', () => setOrder(data.categories.map((c) => c.id))));
   }
-  if (focusId) chipsEl.querySelector<HTMLButtonElement>(`.chip[data-id="${focusId}"]`)?.focus();
+  if (reorderMode) {
+    const hint = document.createElement('span');
+    hint.className = 'chip-hint';
+    hint.textContent = 'Kategorien ziehen oder mit ◀ ▶ verschieben';
+    chipsEl.appendChild(hint);
+  }
+  if (focus) {
+    const target = chipsEl.querySelector<HTMLElement>(`[data-focus="${focus}"]`);
+    // Ist der Pfeil am Rand deaktiviert, den Fokus auf den Gegenpfeil setzen.
+    if (target && !(target as HTMLButtonElement).disabled) target.focus();
+    else chipsEl.querySelector<HTMLElement>(`[data-focus^="${focus.split(':')[0]}:"]:not(:disabled)`)?.focus();
+  }
 }
 
 function toggleCategory(id: string): void {
@@ -315,15 +382,6 @@ function toggleCategory(id: string): void {
   state.cats = next.length === all.length ? null : next;
   renderCategoryChips(id);
   scheduleRender();
-}
-
-function moveByKey(e: KeyboardEvent, id: string): void {
-  if (!e.altKey) return;
-  const delta = e.key === 'ArrowLeft' || e.key === 'ArrowUp' ? -1 : e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : 0;
-  if (!delta) return;
-  e.preventDefault();
-  const ids = orderedCategories().map((c) => c.id);
-  setOrder(moveId(ids, id, ids.indexOf(id) + delta), id);
 }
 
 interface ChipDrag {
@@ -340,9 +398,10 @@ interface ChipDrag {
 let chipDrag: ChipDrag | null = null;
 let suppressClick = false;
 
-function beginPointer(e: PointerEvent, id: string, el: HTMLElement): void {
+function beginPointer(e: PointerEvent, id: string, el: HTMLElement, immediate: boolean): void {
   if (e.button !== 0) return;
-  chipDrag = { id, el, x: e.clientX, y: e.clientY, touch: e.pointerType === 'touch', active: false };
+  // Im Umsortier-Modus beginnt das Ziehen auch am Touchscreen sofort.
+  chipDrag = { id, el, x: e.clientX, y: e.clientY, touch: e.pointerType === 'touch' && !immediate, active: false };
   // Am Touchscreen startet das Ziehen erst nach langem Antippen, damit man weiterhin scrollen kann.
   if (chipDrag.touch) chipDrag.timer = window.setTimeout(startChipDrag, 350);
 }
@@ -373,7 +432,7 @@ function endChipDrag(apply: boolean): void {
   if (apply && drop) {
     const ids = orderedCategories().map((c) => c.id);
     const rest = ids.filter((x) => x !== id);
-    setOrder(moveId(ids, id, rest.indexOf(drop.id) + (drop.before ? 0 : 1)), id);
+    setOrder(moveId(ids, id, rest.indexOf(drop.id) + (drop.before ? 0 : 1)));
   }
 }
 
