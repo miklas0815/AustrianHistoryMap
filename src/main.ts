@@ -2,7 +2,7 @@ import './style.css';
 import { scaleLinear } from 'd3-scale';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, type D3ZoomEvent, type ZoomBehavior } from 'd3-zoom';
-import { itemSpan, loadDataset, type Category, type Dataset, type Item } from './data';
+import { itemSpan, loadDataset, loadPreview, type Category, type Dataset, type Item } from './data';
 import { formatHistDate, formatRange, formatYear } from './dates';
 import { exportImage, exportPdf, type PdfFormat } from './export';
 import { formatMark, isLine, overlapsMark, type Mark } from './mark';
@@ -877,7 +877,9 @@ function setupControls(): void {
 
 async function main(): Promise<void> {
   try {
-    data = await loadDataset();
+    const preview = state.preview ? loadPreview() : null;
+    data = preview ?? (await loadDataset());
+    if (preview) document.body.classList.add('preview');
   } catch (err) {
     statusEl.textContent = 'Daten konnten nicht geladen werden: ' + (err instanceof Error ? err.message : String(err));
     return;

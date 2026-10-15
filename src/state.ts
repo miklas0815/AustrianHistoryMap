@@ -17,6 +17,8 @@ export interface ViewState {
   /** Markierte Linie oder markierter Zeitabschnitt. */
   mark?: Mark;
   sel?: string;
+  /** Vorschau ungespeicherter Änderungen aus der Redaktionsseite. */
+  preview?: boolean;
 }
 
 export const DEFAULT_VIEW: ViewState = { from: 768, to: 2020, cats: null, detail: 0, orient: 'h', order: null };
@@ -40,6 +42,7 @@ export function parseViewState(search: string): ViewState {
     order: p.get('order')?.split(',').filter(Boolean) ?? null,
     mark: parseMark(p.get('mark')),
     sel: p.get('sel') ?? undefined,
+    preview: p.has('vorschau') || undefined,
   };
 }
 
@@ -54,5 +57,6 @@ export function serializeViewState(s: ViewState): string {
   if (s.order) p.set('order', s.order.join(','));
   if (s.mark) p.set('mark', serializeMark(s.mark));
   if (s.sel) p.set('sel', s.sel);
+  if (s.preview) p.set('vorschau', '1');
   return '?' + p.toString().replace(/%2C/g, ',');
 }

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Redaktion – Österreichische Geschichte</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='5.33' fill='%23C8102E'/%3E%3Crect y='5.33' width='16' height='5.33' fill='%23fff'/%3E%3Crect y='10.67' width='16' height='5.33' fill='%23C8102E'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <header class="ed-top">
+      <div class="ed-title">
+        <h1>Redaktion <span class="subtitle">Österreichische Geschichte</span></h1>
+        <a href="./" target="_blank" rel="noopener">Zeitleiste öffnen ↗</a>
+      </div>
+      <div class="ed-account" id="account"></div>
+      <div class="ed-changes" id="changes">
+        <span id="change-count">Keine Änderungen</span>
+        <button id="preview" type="button" title="Zeitleiste mit den ungespeicherten Änderungen in neuem Tab zeigen">Vorschau</button>
+        <button id="discard" type="button">Alle verwerfen</button>
+        <button id="save" type="button" class="primary">Speichern …</button>
+      </div>
+    </header>
+
+    <div class="ed-filters">
+      <input id="q" type="search" placeholder="Suchen: Titel, id, Beschreibung, Ort …" aria-label="Suchen" />
+      <select id="f-cat" aria-label="Kategorie"><option value="">Alle Kategorien</option></select>
+      <span class="ed-imp" id="f-imp" role="group" aria-label="Bedeutung"></span>
+      <label>von <input id="f-from" type="number" step="1" /></label>
+      <label>bis <input id="f-to" type="number" step="1" /></label>
+      <select id="f-status" aria-label="Status">
+        <option value="">alle Einträge</option>
+        <option value="dirty">nur geänderte</option>
+        <option value="error">nur fehlerhafte</option>
+      </select>
+      <span id="count" class="ed-count"></span>
+      <button id="new" type="button">+ Neuer Eintrag</button>
+    </div>
+
+    <main class="ed-main">
+      <div class="ed-table-wrap">
+        <table class="ed-table" id="table">
+          <thead>
+            <tr>
+              <th data-sort="cat">Kategorie</th>
+              <th data-sort="title">Titel</th>
+              <th data-sort="start">Beginn</th>
+              <th data-sort="end">Ende</th>
+              <th data-sort="importance" title="Bedeutung 1 (sehr bedeutend) bis 5 (Detail)">Bed.</th>
+              <th data-sort="life">Lebenszeit</th>
+              <th data-sort="place">Ort</th>
+              <th data-sort="status">Status</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <aside class="ed-form" id="form-panel">
+        <p class="ed-empty">Einen Eintrag in der Liste anklicken, um ihn anzusehen und zu bearbeiten.</p>
+      </aside>
+    </main>
+
+    <dialog id="login-dialog" class="ed-dialog">
+      <form method="dialog" id="login-form">
+        <h2>Anmelden zum Bearbeiten</h2>
+        <p>Zum Speichern braucht die Seite einen GitHub-Zugangsschlüssel, der nur für dieses Projekt gilt. Ansehen und Ausprobieren geht auch ohne.</p>
+        <ol>
+          <li>In GitHub <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">einen neuen „Fine-grained token“ anlegen ↗</a>.</li>
+          <li>Name z. B. „Zeitleiste Redaktion“, Ablaufdatum nach Wunsch.</li>
+          <li><b>Repository access</b>: „Only select repositories“ → <code>AustrianHistoryMap</code>.</li>
+          <li><b>Permissions → Repository permissions → Contents</b>: „Read and write“.</li>
+          <li>„Generate token“ und den Schlüssel (beginnt mit <code>github_pat_</code>) hier einfügen.</li>
+        </ol>
+        <label class="ed-field">Zugangsschlüssel
+          <input id="token" type="password" autocomplete="off" spellcheck="false" required />
+        </label>
+        <label class="ed-check"><input id="remember" type="checkbox" /> auf diesem Gerät merken (sonst nur bis zum Schließen des Tabs)</label>
+        <p class="ed-error" id="login-error" hidden></p>
+        <div class="ed-dialog-buttons">
+          <button type="button" id="login-cancel">Abbrechen</button>
+          <button type="submit" class="primary" id="login-submit">Anmelden</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="save-dialog" class="ed-dialog">
+      <form method="dialog" id="save-form">
+        <h2>Änderungen speichern und veröffentlichen</h2>
+        <ul id="save-list" class="ed-save-list"></ul>
+        <label class="ed-field">Beschreibung der Änderung (erscheint in der Versionsgeschichte)
+          <textarea id="save-message" rows="3" required></textarea>
+        </label>
+        <p class="ed-hint">Nach dem Speichern wird die Zeitleiste automatisch neu gebaut und hochgeladen; das dauert etwa 2–3 Minuten.</p>
+        <p class="ed-error" id="save-error" hidden></p>
+        <div class="ed-dialog-buttons">
+          <button type="button" id="save-cancel">Abbrechen</button>
+          <button type="submit" class="primary" id="save-submit">Speichern und veröffentlichen</button>
+        </div>
+      </form>
+    </dialog>
+
+    <div id="toast" class="ed-toast" hidden></div>
+    <script type="module" src="/src/editor/main.ts"></script>
+  </body>
+</html>

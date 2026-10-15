@@ -112,9 +112,32 @@ export async function fetchJson<T>(url: string, fetchFn: typeof fetch = fetch): 
 
 export async function loadDataset(baseUrl = 'data/'): Promise<Dataset> {
   const { categories } = await fetchJson<{ categories: Category[] }>(baseUrl + 'categories.json');
-
   const files = await Promise.all(categories.map((cat) => fetchJson<CategoryFile>(baseUrl + cat.file)));
+  return buildDataset(categories, files);
+}
 
+/** Speicherort der Vorschau, die die Redaktionsseite für die Zeitleiste ablegt. */
+export const PREVIEW_KEY = 'zeitleiste.vorschau';
+
+export interface PreviewData {
+  categories: Category[];
+  files: CategoryFile[];
+}
+
+/** Daten aus der Redaktionsvorschau (ungespeicherte Änderungen) oder null. */
+export function loadPreview(): Dataset | null {
+  try {
+    const raw = localStorage.getItem(PREVIEW_KEY);
+    if (!raw) return null;
+    const p = JSON.parse(raw) as PreviewData;
+    return buildDataset(p.categories.map((c) => ({ ...c })), p.files);
+  } catch {
+    return null;
+  }
+}
+
+/** files[i] gehört zu categories[i]. */
+export function buildDataset(categories: Category[], files: CategoryFile[]): Dataset {
   const items: Item[] = [];
   files.forEach((file, i) => {
     const cat = categories[i];

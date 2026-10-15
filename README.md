@@ -82,6 +82,33 @@ Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank. Die mitg
 
 ## Daten pflegen
 
+### Redaktionsseite
+
+Am bequemsten über **`redaktion.html`** (auf dem Webspace neben der Zeitleiste, lokal unter
+`http://localhost:5173/redaktion.html`):
+
+- alle Einträge aller Kategorien in einer Liste; Suche, Filter nach Kategorie, Bedeutung,
+  Zeitraum und Status, Sortieren per Klick auf die Spaltenköpfe
+- Eintrag anklicken → bearbeiten; Fehler (Datumsformat, Ende vor Beginn, doppelte id …)
+  werden sofort angezeigt. „+ Neuer Eintrag“, Duplizieren, Löschen, in andere Kategorie verschieben
+- **Vorschau**: zeigt die Zeitleiste mit den ungespeicherten Änderungen in einem neuen Tab
+- ungespeicherte Änderungen bleiben im Browser erhalten, auch nach Schließen des Tabs
+- **Speichern** schreibt einen Commit in den Standard-Branch des Repositorys; der Upload
+  bringt die Änderung danach automatisch auf den Webspace (2–3 Minuten)
+
+Ansehen geht ohne Anmeldung. Zum Speichern einmalig einen GitHub-Zugangsschlüssel anlegen
+(github.com → Settings → Developer settings → Personal access tokens → **Fine-grained tokens**):
+Repository access „Only select repositories“ → `AustrianHistoryMap`, Permission
+**Contents: Read and write**. Den Schlüssel auf der Redaktionsseite unter „Anmelden“ einfügen.
+Er wird nur im Browser gespeichert und gilt nur für dieses Repository; ohne ihn kann über die
+Seite nichts verändert werden. Wurde eine Datei inzwischen anderweitig geändert, bricht das
+Speichern ab, statt etwas zu überschreiben – dann die Seite neu laden (der Entwurf bleibt).
+
+Die Datendateien haben ein festes Format (ein Eintrag pro Zeile, siehe `src/datafile.ts`),
+damit die Versionsgeschichte jede Änderung als einzelne Zeile zeigt. Ein Test prüft das.
+
+### Dateien
+
 Alle Daten liegen in `public/data/`:
 
 - `categories.json` – Kategorien mit Name, Farbe, Reihenfolge und Datei
@@ -161,6 +188,9 @@ src/render.ts       Zeichnen als SVG (identisch für Bildschirm, PDF, JPEG)
 src/export.ts       PDF (jsPDF + svg2pdf.js) und JPEG (Canvas)
 src/state.ts        Ansicht ↔ URL
 src/main.ts         Zoom, Bedienelemente, Detailansicht
+src/datafile.ts     einheitliches Format der Datendateien
+src/validate.ts     Prüfregeln für Einträge (Redaktionsseite)
+src/editor/         Redaktionsseite (redaktion.html): Liste, Formular, GitHub-Anbindung
 scripts/validate-data.mjs   Datenprüfung
 ```
 

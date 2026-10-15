@@ -13,6 +13,13 @@
 * { box-sizing: border-box; }
 body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
 
+/* Vorschau aus der Redaktionsseite: deutlich kennzeichnen. */
+body.preview .topbar::before {
+  content: 'Vorschau mit ungespeicherten Änderungen aus der Redaktion – nicht veröffentlicht';
+  display: block; margin: -10px -16px 8px; padding: 5px 16px;
+  background: #f2b705; color: #3a2c00; font-size: 13px; font-weight: bold;
+}
+
 .topbar {
   position: sticky; top: 0; z-index: 5;
   background: var(--surface);
