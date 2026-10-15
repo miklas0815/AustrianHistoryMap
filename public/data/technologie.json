@@ -2,683 +2,118 @@
   "category": "technologie",
   "note": "Wichtige Entwicklungen aus Technik, Wissenschaft und Forschung. Entwicklungen in Österreich bzw. am Habsburgerhof haben Vorrang (Bedeutung 1–3), internationale dienen als Kontext (3–5).",
   "items": [
-    {
-      "id": "schwazer-silberbergbau", "title": "Blütezeit des Schwazer Silberbergbaus", "short": "Schwazer Bergbau", "start": "~1490", "end": "~1560", "importance": 1,
-      "description": "Schwaz in Tirol war um 1500 das bedeutendste Silber- und Kupferbergbaurevier Europas. Die Erträge finanzierten maßgeblich die Politik Maximilians I. und Karls V. (Kredite der Fugger).",
-      "place": { "name": "Schwaz", "lat": 47.3449, "lon": 11.7084 },
-      "attributes": { "Bereich": "Bergbau, Montanwesen" }
-    },
-    {
-      "id": "collegium-poetarum-1501", "title": "Collegium poetarum et mathematicorum", "short": "Collegium poetarum", "start": "1501", "importance": 3,
-      "description": "Von Konrad Celtis mit Unterstützung Maximilians I. an der Universität Wien gegründet; verband humanistische Bildung mit Mathematik und Astronomie.",
-      "place": { "name": "Universität Wien", "lat": 48.2087, "lon": 16.3753 },
-      "attributes": { "Bereich": "Wissenschaft, Bildung", "Gründer": "Konrad Celtis" }
-    },
-    {
-      "id": "tabula-peutingeriana-1508", "title": "Celtis vermacht die Tabula Peutingeriana", "short": "Tabula Peutingeriana", "start": "1508", "importance": 4,
-      "description": "Konrad Celtis († 1508) vermachte testamentarisch die mittelalterliche Kopie einer römischen Straßenkarte dem Augsburger Humanisten Konrad Peutinger. Die Karte befindet sich heute in der Österreichischen Nationalbibliothek.",
-      "place": { "name": "Wien", "lat": 48.2066, "lon": 16.3667 },
-      "attributes": { "Bereich": "Kartografie, Altertumskunde" }
-    },
-    {
-      "id": "paracelsus-wundarznei-1536", "title": "Paracelsus: Große Wundarznei", "short": "Paracelsus", "start": "1536", "importance": 2,
-      "description": "Hauptwerk des in Villach aufgewachsenen Arztes Paracelsus zur Chirurgie. Er setzte auf Beobachtung und chemische Heilmittel statt auf antike Autoritäten. Er starb 1541 in Salzburg.",
-      "place": { "name": "Salzburg", "lat": 47.8095, "lon": 13.0550 },
-      "attributes": { "Bereich": "Medizin, Chemie", "Person": "Theophrastus Bombastus von Hohenheim (1493–1541)" }
-    },
-    {
-      "id": "busbecq-tulpe", "title": "Busbecq bringt Tulpe und Flieder nach Wien", "short": "Tulpe und Flieder", "start": "1554", "end": "1562", "importance": 4,
-      "description": "Ogier Ghislain de Busbecq, Gesandter Ferdinands I. in Konstantinopel, brachte Tulpen, Flieder und antike Handschriften nach Wien.",
-      "place": { "name": "Konstantinopel / Wien", "lat": 41.0082, "lon": 28.9784 },
-      "attributes": { "Bereich": "Botanik" }
-    },
-    {
-      "id": "schwazer-bergbuch-1556", "title": "Schwazer Bergbuch", "start": "1556", "importance": 3,
-      "description": "Reich illustrierte Handschrift über Organisation, Technik und Recht des Bergbaus in Schwaz – eine der wichtigsten Quellen zur frühneuzeitlichen Montantechnik.",
-      "place": { "name": "Schwaz", "lat": 47.3449, "lon": 11.7084 },
-      "attributes": { "Bereich": "Bergbau, Technikgeschichte" }
-    },
-    {
-      "id": "lazius-karten-1561", "title": "Lazius: Karten der österreichischen Länder", "short": "Lazius-Karten", "start": "1561", "importance": 3,
-      "description": "Der Wiener Arzt und Historiker Wolfgang Lazius veröffentlichte mit den „Typi chorographici“ die ersten Detailkarten der österreichischen Länder.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Kartografie", "Person": "Wolfgang Lazius (1514–1565)" }
-    },
-    {
-      "id": "muenze-hall-1567", "title": "Münzstätte Hall in Burg Hasegg", "short": "Münze Hall", "start": "1567", "importance": 3,
-      "description": "Erzherzog Ferdinand II. verlegte die Tiroler Münzstätte in die Burg Hasegg in Hall. Dort kamen bald darauf mit die ersten mechanischen Walzenprägewerke zum Einsatz.",
-      "place": { "name": "Hall in Tirol", "lat": 47.2833, "lon": 11.5067 },
-      "attributes": { "Bereich": "Münztechnik" }
-    },
-    {
-      "id": "clusius-wien", "title": "Carolus Clusius in Wien", "short": "Clusius", "start": "1573", "end": "1588", "importance": 3,
-      "description": "Der Botaniker Carolus Clusius legte unter Maximilian II. den kaiserlichen Hofgarten an, beschrieb die Pflanzenwelt der Alpen und Pannoniens und verbreitete Rosskastanie und Tulpe.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Botanik", "Werk": "Rariorum aliquot stirpium per Pannoniam, Austriam … historia (1583)" }
-    },
-    {
-      "id": "hofbibliothek-1575", "title": "Hugo Blotius wird Hofbibliothekar", "short": "Hofbibliothek", "start": "1575", "importance": 3,
-      "description": "Mit der Bestellung des ersten Präfekten wurde die kaiserliche Hofbibliothek in Wien – die heutige Österreichische Nationalbibliothek – systematisch geordnet und ausgebaut.",
-      "place": { "name": "Wien", "lat": 48.2061, "lon": 16.3668 },
-      "attributes": { "Bereich": "Wissenschaft, Bibliothekswesen" }
-    },
-    {
-      "id": "kepler-mysterium-1596", "title": "Kepler: Mysterium Cosmographicum", "short": "Kepler", "start": "1596", "importance": 1,
-      "description": "Johannes Kepler verfasste sein erstes großes Werk als Mathematiklehrer an der protestantischen Stiftsschule in Graz (dort 1594–1600). Es verteidigte das kopernikanische Weltbild.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
-      "attributes": { "Bereich": "Astronomie", "Person": "Johannes Kepler (1571–1630)" }
-    },
-    {
-      "id": "reichspost-1597", "title": "Post wird kaiserliches Regal", "short": "Reichspost", "start": "1597", "importance": 4,
-      "description": "Rudolf II. erklärte das von der Familie Taxis betriebene Postwesen zum kaiserlichen Hoheitsrecht – ein Schritt zum geregelten Nachrichtenverkehr im Reich.",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 },
-      "attributes": { "Bereich": "Kommunikation, Verkehr" }
-    },
-    {
-      "id": "tycho-prag-1599", "title": "Tycho Brahe am Kaiserhof in Prag", "short": "Tycho Brahe", "start": "1599", "importance": 2,
-      "description": "Rudolf II. holte den dänischen Astronomen nach Prag; ab 1600 arbeitete Kepler mit ihm. Seine präzisen Beobachtungsdaten wurden Grundlage der Keplerschen Gesetze.",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "henlein-taschenuhr", "title": "Tragbare Uhren (Peter Henlein)", "short": "Taschenuhr", "start": "~1510", "importance": 4, "tags": ["international"],
-      "description": "Der Nürnberger Schlosser Peter Henlein baute als einer der Ersten tragbare, federgetriebene Uhren.",
-      "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 },
-      "attributes": { "Bereich": "Feinmechanik" }
-    },
-    {
-      "id": "kopernikus-1543", "title": "Kopernikus: De revolutionibus", "start": "1543", "importance": 3, "tags": ["international"],
-      "description": "Nikolaus Kopernikus veröffentlichte sein heliozentrisches Weltbild – Beginn der „kopernikanischen Wende“.",
-      "place": { "name": "Nürnberg (Druckort)", "lat": 49.4521, "lon": 11.0767 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "vesalius-1543", "title": "Vesalius: De humani corporis fabrica", "short": "Vesalius", "start": "1543", "importance": 3, "tags": ["international"],
-      "description": "Andreas Vesalius begründete mit seinem Anatomiewerk die moderne, auf Sektion beruhende Anatomie.",
-      "place": { "name": "Basel (Druckort)", "lat": 47.5596, "lon": 7.5886 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "cardano-ars-magna-1545", "title": "Cardano: Ars magna", "start": "1545", "importance": 5, "tags": ["international"],
-      "description": "Gerolamo Cardano veröffentlichte die Lösungsformeln für Gleichungen dritten und vierten Grades.",
-      "place": { "name": "Nürnberg (Druckort)", "lat": 49.4521, "lon": 11.0767 },
-      "attributes": { "Bereich": "Mathematik" }
-    },
-    {
-      "id": "agricola-1556", "title": "Agricola: De re metallica", "short": "Agricola", "start": "1556", "importance": 4, "tags": ["international"],
-      "description": "Georgius Agricola fasste das Wissen über Bergbau und Hüttenwesen zusammen; das Werk blieb rund 200 Jahre das Standardlehrbuch.",
-      "place": { "name": "Basel (Druckort)", "lat": 47.5596, "lon": 7.5886 },
-      "attributes": { "Bereich": "Bergbau, Metallurgie" }
-    },
-    {
-      "id": "mercator-1569", "title": "Mercator-Projektion", "start": "1569", "importance": 4, "tags": ["international"],
-      "description": "Gerhard Mercator veröffentlichte seine winkeltreue Weltkarte, die die Navigation auf See revolutionierte.",
-      "place": { "name": "Duisburg", "lat": 51.4344, "lon": 6.7623 },
-      "attributes": { "Bereich": "Kartografie, Navigation" }
-    },
-    {
-      "id": "ortelius-1570", "title": "Ortelius: erster moderner Atlas", "short": "Ortelius-Atlas", "start": "1570", "importance": 5, "tags": ["international"],
-      "description": "Abraham Ortelius’ „Theatrum Orbis Terrarum“ gilt als erster moderner Weltatlas.",
-      "place": { "name": "Antwerpen", "lat": 51.2194, "lon": 4.4025 },
-      "attributes": { "Bereich": "Kartografie" }
-    },
-    {
-      "id": "supernova-1572", "title": "Tychos Supernova", "start": "1572-11", "importance": 5, "tags": ["international"],
-      "description": "Tycho Brahe beobachtete einen „neuen Stern“ und widerlegte damit die Lehre von der Unveränderlichkeit des Himmels.",
-      "place": { "name": "Dänemark", "lat": 55.68, "lon": 12.57 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "fernrohr-1608", "title": "Erfindung des Fernrohrs", "short": "Fernrohr", "start": "1608-10", "importance": 4, "tags": ["international"],
-      "description": "Der Brillenmacher Hans Lipperhey beantragte in den Niederlanden ein Patent auf ein Fernrohr.",
-      "place": { "name": "Middelburg", "lat": 51.4988, "lon": 3.6109 },
-      "attributes": { "Bereich": "Optik" }
-    },
-    {
-      "id": "kepler-astronomia-nova-1609", "title": "Kepler: Astronomia nova", "start": "1609", "importance": 2,
-      "description": "In Prag am Hof Rudolfs II. veröffentlichte Kepler die ersten beiden Planetengesetze (elliptische Bahnen).",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "galilei-sidereus-1610", "title": "Galilei: Sidereus Nuncius", "short": "Galilei", "start": "1610-03", "importance": 3, "tags": ["international"],
-      "description": "Galileo Galilei berichtete über seine Fernrohrbeobachtungen: Jupitermonde, Mondgebirge, Sterne der Milchstraße.",
-      "place": { "name": "Venedig (Druckort)", "lat": 45.4344, "lon": 12.3388 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "napier-logarithmen-1614", "title": "Napier: Logarithmen", "start": "1614", "importance": 5, "tags": ["international"],
-      "description": "John Napier veröffentlichte die Logarithmen, die das Rechnen in Astronomie und Navigation enorm erleichterten.",
-      "place": { "name": "Edinburgh", "lat": 55.9533, "lon": -3.1883 },
-      "attributes": { "Bereich": "Mathematik" }
-    },
-    {
-      "id": "kepler-linz-1619", "title": "Kepler in Linz: Harmonices mundi", "short": "Kepler in Linz", "start": "1619", "importance": 2,
-      "description": "Als Landschaftsmathematiker in Linz (1612–1626) formulierte Kepler sein drittes Planetengesetz.",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "rudolfinische-tafeln-1627", "title": "Rudolfinische Tafeln", "start": "1627", "importance": 3,
-      "description": "Keplers auf Tycho Brahes Beobachtungen beruhende Planetentafeln, benannt nach Rudolf II.; über ein Jahrhundert lang Standard für astronomische Berechnungen.",
-      "place": { "name": "Ulm (Druckort)", "lat": 48.4011, "lon": 9.9876 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "harvey-1628", "title": "Harvey: Blutkreislauf", "start": "1628", "importance": 4, "tags": ["international"],
-      "description": "William Harvey beschrieb den großen Blutkreislauf.",
-      "place": { "name": "Frankfurt (Druckort)", "lat": 50.1109, "lon": 8.6821 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "galilei-prozess-1633", "title": "Prozess gegen Galilei", "start": "1633-06-22", "importance": 4, "tags": ["international"],
-      "description": "Die Inquisition zwang Galilei zum Widerruf des kopernikanischen Weltbilds.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Bereich": "Wissenschaft und Kirche" }
-    },
-    {
-      "id": "torricelli-1643", "title": "Torricelli: Barometer", "start": "1643", "importance": 5, "tags": ["international"],
-      "description": "Evangelista Torricelli wies den Luftdruck mit einer Quecksilbersäule nach.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "guericke-1654", "title": "Guericke: Vakuumversuche am Reichstag", "short": "Vakuumversuche", "start": "1654", "importance": 4, "tags": ["international"],
-      "description": "Otto von Guericke führte auf dem Reichstag in Regensburg vor Kaiser Ferdinand III. seine Luftpumpe und die Kraft des Vakuums vor; der berühmte Versuch mit den Magdeburger Halbkugeln folgte 1657.",
-      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "huygens-pendeluhr-1657", "title": "Huygens: Pendeluhr", "start": "1657", "importance": 5, "tags": ["international"],
-      "description": "Christiaan Huygens baute die erste Pendeluhr und steigerte damit die Ganggenauigkeit erheblich.",
-      "place": { "name": "Den Haag", "lat": 52.0705, "lon": 4.3007 },
-      "attributes": { "Bereich": "Feinmechanik" }
-    },
-    {
-      "id": "linzer-wollzeugfabrik-1672", "title": "Linzer Wollzeugfabrik", "start": "1672", "importance": 3,
-      "description": "Gründung der ersten großen Manufaktur in den österreichischen Ländern – Beginn der frühindustriellen Produktion.",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Bereich": "Gewerbe, Manufakturwesen" }
-    },
-    {
-      "id": "becher-tabor-1676", "title": "Kunst- und Werkhaus am Tabor", "short": "Werkhaus am Tabor", "start": "1676", "importance": 4,
-      "description": "Der Ökonom Johann Joachim Becher richtete in Wien ein Manufaktur- und Versuchshaus ein, Ausdruck der merkantilistischen Wirtschaftspolitik.",
-      "place": { "name": "Leopoldstadt, Wien", "lat": 48.2244, "lon": 16.382 },
-      "attributes": { "Bereich": "Wirtschaft, Chemie" }
-    },
-    {
-      "id": "leeuwenhoek-1676", "title": "Leeuwenhoek entdeckt Mikroorganismen", "short": "Leeuwenhoek", "start": "1676", "importance": 5, "tags": ["international"],
-      "description": "Antoni van Leeuwenhoek beobachtete mit selbstgebauten Mikroskopen erstmals Bakterien und Einzeller.",
-      "place": { "name": "Delft", "lat": 52.0116, "lon": 4.3571 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "newton-principia-1687", "title": "Newton: Principia", "start": "1687-07-05", "importance": 3, "tags": ["international"],
-      "description": "Isaac Newton begründete mit dem Gravitationsgesetz und den Bewegungsgesetzen die klassische Mechanik.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
-      "attributes": { "Bereich": "Physik, Mathematik" }
-    },
-    {
-      "id": "wiener-diarium-1703", "title": "Wiennerisches Diarium", "start": "1703-08-08", "importance": 3,
-      "description": "Erste Ausgabe der Zeitung, die heute als „Wiener Zeitung“ zu den ältesten Zeitungen der Welt zählte.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Presse, Kommunikation" }
-    },
-    {
-      "id": "newcomen-1712", "title": "Newcomens Dampfmaschine", "short": "Dampfmaschine", "start": "1712", "importance": 3, "tags": ["international"],
-      "description": "Thomas Newcomen setzte die erste praktisch nutzbare Dampfmaschine zum Wasserpumpen im Bergbau ein – Vorläufer der Industriellen Revolution.",
-      "place": { "name": "Dudley", "lat": 52.5123, "lon": -2.0811 },
-      "attributes": { "Bereich": "Maschinenbau, Energie" }
-    },
-    {
-      "id": "fahrenheit-1714", "title": "Fahrenheits Quecksilberthermometer", "short": "Thermometer", "start": "1714", "importance": 5, "tags": ["international"],
-      "description": "Daniel Gabriel Fahrenheit baute zuverlässige Quecksilberthermometer.",
-      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 },
-      "attributes": { "Bereich": "Messtechnik" }
-    },
-    {
-      "id": "linne-1735", "title": "Linné: Systema Naturae", "start": "1735", "importance": 5, "tags": ["international"],
-      "description": "Carl von Linné begründete die moderne biologische Systematik.",
-      "place": { "name": "Leiden (Druckort)", "lat": 52.1601, "lon": 4.497 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "watt-1769", "title": "Watts Dampfmaschine", "start": "1769", "importance": 3, "tags": ["international"],
-      "description": "James Watt ließ seine verbesserte Dampfmaschine patentieren – Motor der Industriellen Revolution.",
-      "place": { "name": "Glasgow", "lat": 55.8642, "lon": -4.2518 },
-      "attributes": { "Bereich": "Maschinenbau, Energie" }
-    },
-    {
-      "id": "ingenhousz-1779", "title": "Ingenhousz entdeckt die Photosynthese", "short": "Photosynthese", "start": "1779", "importance": 3,
-      "description": "Jan Ingenhousz, Leibarzt Maria Theresias, wies nach, dass Pflanzen im Licht Sauerstoff abgeben.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "montgolfiere-1783", "title": "Erster bemannter Ballonflug", "start": "1783-11-21", "importance": 4, "tags": ["international"],
-      "description": "Mit einer Montgolfière gelang in Paris der erste Flug von Menschen.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Bereich": "Luftfahrt" }
-    },
-    {
-      "id": "akh-1784", "title": "Allgemeines Krankenhaus Wien", "start": "1784-08-16", "importance": 2,
-      "description": "Joseph II. eröffnete das damals größte Krankenhaus Europas; Keimzelle der Wiener Medizinischen Schule.",
-      "place": { "name": "Altes AKH, Wien", "lat": 48.216, "lon": 16.354 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "jenner-1796", "title": "Jenner: Pockenimpfung", "start": "1796", "importance": 4, "tags": ["international"],
-      "description": "Edward Jenner führte die Impfung mit Kuhpocken ein.",
-      "place": { "name": "Berkeley (England)", "lat": 51.691, "lon": -2.458 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "volta-1800", "title": "Voltasche Säule", "start": "1800", "importance": 4, "tags": ["international"],
-      "description": "Alessandro Volta baute die erste Batterie.",
-      "place": { "name": "Pavia", "lat": 45.1847, "lon": 9.1582 },
-      "attributes": { "Bereich": "Elektrizität" }
-    },
-    {
-      "id": "madersperger-1814", "title": "Madersperger: Nähmaschine", "start": "1814", "importance": 4,
-      "description": "Der Wiener Schneider Josef Madersperger entwickelte eine der ersten Nähmaschinen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Feinmechanik" }
-    },
-    {
-      "id": "polytechnikum-1815", "title": "Gründung des Polytechnischen Instituts", "start": "1815-11-06", "importance": 3,
-      "description": "Vorläufer der Technischen Universität Wien.",
-      "place": { "name": "Karlsplatz, Wien", "lat": 48.199, "lon": 16.3699 },
-      "attributes": { "Bereich": "Bildung, Technik" }
-    },
-    {
-      "id": "stockton-darlington-1825", "title": "Erste öffentliche Dampfeisenbahn", "start": "1825-09-27", "importance": 3, "tags": ["international"],
-      "description": "Die Stockton-and-Darlington-Bahn mit George Stephensons Lokomotive eröffnete das Eisenbahnzeitalter.",
-      "place": { "name": "Stockton-on-Tees", "lat": 54.5703, "lon": -1.3187 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "ressel-1827", "title": "Ressel: Schiffsschraube", "start": "1827", "importance": 2,
-      "description": "Josef Ressel erhielt in Österreich ein Privileg auf die Schiffsschraube als Schiffsantrieb.",
-      "place": { "name": "Triest", "lat": 45.6495, "lon": 13.7768 },
-      "attributes": { "Bereich": "Schiffbau" }
-    },
-    {
-      "id": "ddsg-1829", "title": "Erste Donau-Dampfschiffahrts-Gesellschaft", "start": "1829", "importance": 4,
-      "description": "Die DDSG wurde zur größten Binnenreederei der Welt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "pferdeeisenbahn-1832", "title": "Pferdeeisenbahn Budweis–Linz", "start": "1832-08-01", "importance": 3,
-      "description": "Erste öffentliche Eisenbahn des europäischen Kontinents (mit Pferdezug).",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "nordbahn-1837", "title": "Kaiser-Ferdinands-Nordbahn", "short": "Nordbahn", "start": "1837-11-23", "importance": 2,
-      "description": "Erste Dampfeisenbahn Österreichs zwischen Floridsdorf und Deutsch-Wagram.",
-      "place": { "name": "Floridsdorf, Wien", "lat": 48.2564, "lon": 16.399 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "daguerre-1839", "title": "Fotografie (Daguerreotypie)", "short": "Fotografie", "start": "1839", "importance": 4, "tags": ["international"],
-      "description": "Louis Daguerre stellte das erste praktische fotografische Verfahren vor; in Wien entwickelte Joseph Petzval bald ein lichtstarkes Porträtobjektiv.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Bereich": "Optik, Chemie" }
-    },
-    {
-      "id": "doppler-1842", "title": "Doppler-Effekt", "start": "1842", "importance": 2,
-      "description": "Der Salzburger Physiker Christian Doppler beschrieb in Prag die Frequenzänderung bei bewegten Wellenquellen.",
-      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "morse-1844", "title": "Morse-Telegraf", "start": "1844-05-24", "importance": 4, "tags": ["international"],
-      "description": "Samuel Morse übertrug das erste Telegramm zwischen Washington und Baltimore.",
-      "place": { "name": "Washington", "lat": 38.9072, "lon": -77.0369 },
-      "attributes": { "Bereich": "Kommunikation" }
-    },
-    {
-      "id": "semmelweis-1847", "title": "Semmelweis: Händedesinfektion", "short": "Semmelweis", "start": "1847", "importance": 1,
-      "description": "Ignaz Semmelweis erkannte am Wiener AKH die Ursache des Kindbettfiebers und führte die Händedesinfektion ein.",
-      "place": { "name": "Altes AKH, Wien", "lat": 48.216, "lon": 16.354 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "akademie-wissenschaften-1847", "title": "Akademie der Wissenschaften", "start": "1847-05-14", "importance": 3,
-      "description": "Gründung der Kaiserlichen Akademie der Wissenschaften in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Wissenschaft" }
-    },
-    {
-      "id": "semmeringbahn-1854", "title": "Semmeringbahn", "start": "1854-07-17", "importance": 1,
-      "description": "Carl von Ghegas Bahn über den Semmering war die erste normalspurige Gebirgsbahn Europas (heute UNESCO-Welterbe).",
-      "place": { "name": "Semmering", "lat": 47.6333, "lon": 15.8297 },
-      "attributes": { "Bereich": "Verkehr", "Planer": "Carl von Ghega" }
-    },
-    {
-      "id": "darwin-1859", "title": "Darwin: Über die Entstehung der Arten", "short": "Darwin", "start": "1859-11-24", "importance": 3, "tags": ["international"],
-      "description": "Charles Darwin begründete die Evolutionstheorie.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "mitterhofer-1864", "title": "Mitterhofer: Schreibmaschine", "start": "1864", "importance": 4,
-      "description": "Der Tiroler Peter Mitterhofer baute eines der ersten Schreibmaschinenmodelle und führte es Kaiser Franz Joseph vor.",
-      "place": { "name": "Partschins", "lat": 46.6833, "lon": 11.0833 },
-      "attributes": { "Bereich": "Feinmechanik" }
-    },
-    {
-      "id": "mendel-1865", "title": "Mendelsche Vererbungsregeln", "short": "Mendel", "start": "1865-02-08", "importance": 1,
-      "description": "Gregor Mendel trug in Brünn seine Kreuzungsversuche mit Erbsen vor – Grundlage der Genetik.",
-      "place": { "name": "Brünn (Brno)", "lat": 49.1951, "lon": 16.6068 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "periodensystem-1869", "title": "Periodensystem der Elemente", "start": "1869", "importance": 5, "tags": ["international"],
-      "description": "Dmitri Mendelejew ordnete die chemischen Elemente nach ihren Eigenschaften.",
-      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 },
-      "attributes": { "Bereich": "Chemie" }
-    },
-    {
-      "id": "hochquellenwasserleitung-1873", "title": "I. Wiener Hochquellenwasserleitung", "short": "Hochquellenwasserleitung", "start": "1873-10-24", "importance": 3,
-      "description": "Quellwasser aus Rax und Schneeberg versorgte Wien; Eröffnung mit dem Hochstrahlbrunnen.",
-      "place": { "name": "Schwarzenbergplatz, Wien", "lat": 48.199, "lon": 16.376 },
-      "attributes": { "Bereich": "Infrastruktur" }
-    },
-    {
-      "id": "donauregulierung", "title": "Donauregulierung", "start": "1870", "end": "1875", "importance": 4,
-      "description": "Ein neues, begradigtes Donaubett schützte Wien vor Hochwasser.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Wasserbau" }
-    },
-    {
-      "id": "telefon-1876", "title": "Telefon", "start": "1876-03-10", "importance": 4, "tags": ["international"],
-      "description": "Alexander Graham Bell erhielt das Patent auf das Telefon.",
-      "place": { "name": "Boston", "lat": 42.3601, "lon": -71.0589 },
-      "attributes": { "Bereich": "Kommunikation" }
-    },
-    {
-      "id": "boltzmann-1877", "title": "Boltzmanns Entropieformel", "short": "Boltzmann", "start": "1877", "importance": 2,
-      "description": "Ludwig Boltzmann verband die Entropie mit der Wahrscheinlichkeit von Mikrozuständen – Grundlage der statistischen Physik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "gluehbirne-1879", "title": "Glühlampe", "start": "1879", "importance": 4, "tags": ["international"],
-      "description": "Thomas Edison entwickelte eine langlebige Kohlefaden-Glühlampe.",
-      "place": { "name": "Menlo Park", "lat": 40.564, "lon": -74.336 },
-      "attributes": { "Bereich": "Elektrizität" }
-    },
-    {
-      "id": "auer-1885", "title": "Auer von Welsbach: Gasglühlicht", "short": "Gasglühlicht", "start": "1885", "importance": 3,
-      "description": "Carl Auer von Welsbach erfand den Gasglühstrumpf, später Metallfadenlampe und Zündstein.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Chemie, Beleuchtung" }
-    },
-    {
-      "id": "benz-1886", "title": "Benz Patent-Motorwagen", "short": "Automobil", "start": "1886-01-29", "importance": 3, "tags": ["international"],
-      "description": "Carl Benz meldete das erste praxistaugliche Automobil zum Patent an. In Wien hatte Siegfried Marcus schon zuvor Motorwagen gebaut.",
-      "place": { "name": "Mannheim", "lat": 49.4875, "lon": 8.466 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "roentgen-1895", "title": "Röntgenstrahlen", "start": "1895-11-08", "importance": 4, "tags": ["international"],
-      "description": "Wilhelm Conrad Röntgen entdeckte die nach ihm benannten Strahlen.",
-      "place": { "name": "Würzburg", "lat": 49.7913, "lon": 9.9534 },
-      "attributes": { "Bereich": "Physik, Medizin" }
-    },
-    {
-      "id": "stadtbahn-1898", "title": "Wiener Stadtbahn", "start": "1898-05-09", "importance": 3,
-      "description": "Eröffnung der von Otto Wagner gestalteten Stadtbahn, Vorläuferin der U-Bahn.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "freud-traumdeutung", "title": "Freud: Die Traumdeutung", "short": "Freud", "start": "1899-11", "importance": 1,
-      "description": "Sigmund Freuds Hauptwerk (vordatiert auf 1900) begründete die Psychoanalyse.",
-      "place": { "name": "Berggasse 19, Wien", "lat": 48.2188, "lon": 16.3633 },
-      "attributes": { "Bereich": "Medizin, Psychologie" }
-    },
-    {
-      "id": "landsteiner-1901", "title": "Landsteiner: Blutgruppen", "short": "Blutgruppen", "start": "1901", "importance": 2,
-      "description": "Karl Landsteiner entdeckte in Wien das AB0-Blutgruppensystem (Nobelpreis 1930).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "wright-1903", "title": "Erster Motorflug", "start": "1903-12-17", "importance": 3, "tags": ["international"],
-      "description": "Den Brüdern Wright gelang der erste gesteuerte Motorflug.",
-      "place": { "name": "Kitty Hawk", "lat": 36.0146, "lon": -75.668 },
-      "attributes": { "Bereich": "Luftfahrt" }
-    },
-    {
-      "id": "einstein-1905", "title": "Einstein: Spezielle Relativitätstheorie", "short": "Relativitätstheorie", "start": "1905", "importance": 3, "tags": ["international"],
-      "description": "Albert Einstein veröffentlichte die Relativitätstheorie; 1915 folgte die allgemeine Relativitätstheorie.",
-      "place": { "name": "Bern", "lat": 46.948, "lon": 7.4474 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "lieben-1906", "title": "Lieben-Röhre", "start": "1906", "importance": 3,
-      "description": "Robert von Lieben entwickelte in Wien eine Verstärkerröhre – Grundlage der Rundfunktechnik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Elektronik" }
-    },
-    {
-      "id": "etrich-taube-1910", "title": "Etrich Taube", "start": "1910", "importance": 3,
-      "description": "Das Flugzeug von Igo Etrich wurde zu einem der meistgebauten Flugzeuge vor dem Ersten Weltkrieg.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
-      "attributes": { "Bereich": "Luftfahrt" }
-    },
-    {
-      "id": "kaplan-1912", "title": "Kaplan-Turbine", "start": "1912", "importance": 3,
-      "description": "Viktor Kaplan entwickelte in Brünn eine verstellbare Wasserturbine für Flusskraftwerke.",
-      "place": { "name": "Brünn (Brno)", "lat": 49.1951, "lon": 16.6068 },
-      "attributes": { "Bereich": "Energie" }
-    },
-    {
-      "id": "brille-1286", "title": "Erfindung der Brille", "short": "Brille", "start": "~1286", "importance": 5, "tags": ["international"],
-      "description": "In Oberitalien entstanden die ersten Lesebrillen.",
-      "place": { "name": "Pisa / Venedig", "lat": 43.7228, "lon": 10.4017 },
-      "attributes": { "Bereich": "Optik" }
-    },
-    {
-      "id": "raederuhr", "title": "Mechanische Räderuhren", "short": "Räderuhr", "start": "~1300", "importance": 5, "tags": ["international"],
-      "description": "Die ersten Turmuhren mit Hemmung machten die Stunden gleich lang.",
-      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 },
-      "attributes": { "Bereich": "Feinmechanik" }
-    },
-    {
-      "id": "universitaet-wien-1365", "title": "Gründung der Universität Wien", "short": "Universität Wien", "start": "1365-03-12", "importance": 1,
-      "description": "Rudolf IV. gründete die nach Prag zweitälteste Universität Mitteleuropas; 1384 kam die theologische Fakultät hinzu.",
-      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
-      "attributes": { "Bereich": "Wissenschaft, Bildung" }
-    },
-    {
-      "id": "johannes-von-gmunden", "title": "Johannes von Gmunden lehrt in Wien", "short": "Johannes von Gmunden", "start": "~1416", "end": "1442", "importance": 3,
-      "description": "Der Astronom und Mathematiker begründete die „Erste Wiener mathematische Schule“ und vermachte der Universität Bücher und Instrumente.",
-      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
-      "attributes": { "Bereich": "Astronomie, Mathematik" }
-    },
-    {
-      "id": "gutenberg", "title": "Buchdruck mit beweglichen Lettern", "short": "Buchdruck", "start": "~1450", "importance": 3, "tags": ["international"],
-      "description": "Johannes Gutenberg entwickelte in Mainz den Buchdruck; die Gutenberg-Bibel entstand um 1454/55.",
-      "place": { "name": "Mainz", "lat": 49.9929, "lon": 8.2473 },
-      "attributes": { "Bereich": "Kommunikation" }
-    },
-    {
-      "id": "peuerbach-regiomontanus", "title": "Peuerbach und Regiomontanus", "short": "Peuerbach", "start": "1454", "importance": 2,
-      "description": "Georg von Peuerbach (aus Peuerbach in Oberösterreich) und sein Schüler Regiomontanus erneuerten in Wien die Astronomie; Peuerbachs „Theoricae novae planetarum“ wurde zum Standardlehrbuch.",
-      "place": { "name": "Universität Wien", "lat": 48.2132, "lon": 16.3601 },
-      "attributes": { "Bereich": "Astronomie" }
-    },
-    {
-      "id": "buchdruck-wien-1482", "title": "Erster Buchdruck in Wien", "start": "1482", "importance": 4,
-      "description": "Mit Stephan Koblinger begann der Buchdruck in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Kommunikation" }
-    },
-    {
-      "id": "guldiner-1486", "title": "Guldiner aus Hall", "short": "Guldiner", "start": "1486", "importance": 2,
-      "description": "Erzherzog Sigmund ließ in Hall die erste große Silbermünze prägen, den Vorläufer des Talers (und damit des „Dollars“).",
-      "place": { "name": "Hall in Tirol", "lat": 47.2833, "lon": 11.5067 },
-      "attributes": { "Bereich": "Münztechnik" }
-    },
-    {
-      "id": "algebra-al-chwarizmi", "title": "Al-Chwarizmi: Algebra", "short": "Algebra", "start": "~825", "importance": 4, "tags": ["international"],
-      "description": "Das Rechenbuch des Bagdader Gelehrten gab der Algebra (und dem „Algorithmus“) den Namen.",
-      "place": { "name": "Bagdad", "lat": 33.3152, "lon": 44.3661 },
-      "attributes": { "Bereich": "Mathematik" }
-    },
-    {
-      "id": "universitaet-bologna", "title": "Universität Bologna", "start": "1088", "importance": 4, "tags": ["international"],
-      "description": "Älteste Universität Europas.",
-      "place": { "name": "Bologna", "lat": 44.4949, "lon": 11.3426 },
-      "attributes": { "Bereich": "Bildung" }
-    },
-    {
-      "id": "salz-hallein", "title": "Salzbergbau am Dürrnberg (Hallein)", "short": "Salz Hallein", "start": "~1190", "importance": 3,
-      "description": "Die Salzburger Erzbischöfe nahmen den Salzbergbau am Dürrnberg wieder auf; Salz wurde zur Grundlage ihres Reichtums.",
-      "place": { "name": "Hallein", "lat": 47.6833, "lon": 13.1 },
-      "attributes": { "Bereich": "Bergbau" }
-    },
-    {
-      "id": "wiener-pfennig", "title": "Wiener Pfennig", "start": "~1194", "importance": 4,
-      "description": "Mit dem Lösegeld für Richard Löwenherz wurde in Wien eine Münzstätte eingerichtet; der Wiener Pfennig wurde zur Leitwährung im Donauraum.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Münzwesen" }
-    },
-    {
-      "id": "fibonacci-1202", "title": "Fibonacci: Liber abaci", "short": "Arabische Ziffern", "start": "1202", "importance": 4, "tags": ["international"],
-      "description": "Machte die indisch-arabischen Ziffern in Europa bekannt.",
-      "place": { "name": "Pisa", "lat": 43.7228, "lon": 10.4017 },
-      "attributes": { "Bereich": "Mathematik" }
-    },
-    {
-      "id": "pauli-1925", "title": "Pauli-Prinzip", "start": "1925", "importance": 3,
-      "description": "Der Wiener Physiker Wolfgang Pauli formulierte das Ausschließungsprinzip (Nobelpreis 1945).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "schroedinger-1926", "title": "Schrödinger-Gleichung", "short": "Schrödinger", "start": "1926", "importance": 1,
-      "description": "Erwin Schrödinger begründete die Wellenmechanik – eine Grundlage der Quantenphysik (Nobelpreis 1933).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "penicillin-1928", "title": "Penicillin", "start": "1928", "importance": 3, "tags": ["international"],
-      "description": "Alexander Fleming entdeckte das erste Antibiotikum.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
-      "attributes": { "Bereich": "Medizin" }
-    },
-    {
-      "id": "goedel-1931", "title": "Gödels Unvollständigkeitssatz", "short": "Gödel", "start": "1931", "importance": 2,
-      "description": "Der Wiener Logiker Kurt Gödel bewies die Grenzen formaler Systeme.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Mathematik" }
-    },
-    {
-      "id": "grossglockner-1935", "title": "Großglockner-Hochalpenstraße", "start": "1935-08-03", "importance": 3,
-      "description": "Spektakuläre Alpenstraße zum höchsten Berg Österreichs.",
-      "place": { "name": "Großglockner", "lat": 47.0742, "lon": 12.6947 },
-      "attributes": { "Bereich": "Verkehr" }
-    },
-    {
-      "id": "eisler-leiterplatte", "title": "Gedruckte Leiterplatte", "short": "Leiterplatte", "start": "1936", "importance": 2,
-      "description": "Der Wiener Ingenieur Paul Eisler erfand die gedruckte Schaltung – Grundlage aller Elektronik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Bereich": "Elektronik" }
-    },
-    {
-      "id": "kernspaltung-1938", "title": "Kernspaltung", "start": "1938-12", "importance": 2,
-      "description": "Otto Hahn und Fritz Straßmann entdeckten die Kernspaltung; die Wiener Physikerin Lise Meitner lieferte mit Otto Frisch die theoretische Erklärung.",
-      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "zuse-z3", "title": "Zuse Z3", "start": "1941-05-12", "importance": 4, "tags": ["international"],
-      "description": "Konrad Zuse baute den ersten funktionsfähigen programmgesteuerten Rechner.",
-      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
-      "attributes": { "Bereich": "Informatik" }
-    },
-    {
-      "id": "hedy-lamarr", "title": "Hedy Lamarr: Frequenzsprungverfahren", "short": "Hedy Lamarr", "start": "1942-08-11", "importance": 3,
-      "description": "Die Wiener Schauspielerin Hedy Lamarr erhielt mit George Antheil ein Patent, das Grundlagen für WLAN und Bluetooth legte.",
-      "place": { "name": "Hollywood", "lat": 34.0928, "lon": -118.3287 },
-      "attributes": { "Bereich": "Kommunikation" }
-    },
-    {
-      "id": "transistor-1947", "title": "Transistor", "start": "1947-12", "importance": 4, "tags": ["international"],
-      "description": "In den Bell Labs entstand der erste Transistor.",
-      "place": { "name": "Murray Hill", "lat": 40.684, "lon": -74.401 },
-      "attributes": { "Bereich": "Elektronik" }
-    },
-    {
-      "id": "ld-verfahren", "title": "LD-Verfahren", "start": "1952", "importance": 2,
-      "description": "Das in Linz und Donawitz entwickelte Sauerstoffblasverfahren revolutionierte die Stahlerzeugung weltweit.",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Bereich": "Metallurgie" }
-    },
-    {
-      "id": "dna-1953", "title": "Struktur der DNA", "short": "DNA", "start": "1953-04-25", "importance": 3, "tags": ["international"],
-      "description": "Watson und Crick beschrieben die Doppelhelix.",
-      "place": { "name": "Cambridge", "lat": 52.2053, "lon": 0.1218 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "kaprun-1955", "title": "Kraftwerk Kaprun", "start": "1955", "importance": 4,
-      "description": "Das Speicherkraftwerk wurde zum Symbol des Wiederaufbaus.",
-      "place": { "name": "Kaprun", "lat": 47.2722, "lon": 12.7597 },
-      "attributes": { "Bereich": "Energie" }
-    },
-    {
-      "id": "sputnik-1957", "title": "Sputnik", "start": "1957-10-04", "importance": 3, "tags": ["international"],
-      "description": "Erster künstlicher Erdsatellit.",
-      "place": { "name": "Baikonur", "lat": 45.9646, "lon": 63.3052 },
-      "attributes": { "Bereich": "Raumfahrt" }
-    },
-    {
-      "id": "mailuefterl-1958", "title": "Mailüfterl", "start": "1958-05", "importance": 3,
-      "description": "Heinz Zemaneks Rechner an der TU Wien war einer der ersten volltransistorisierten Computer Europas.",
-      "place": { "name": "TU Wien", "lat": 48.199, "lon": 16.3699 },
-      "attributes": { "Bereich": "Informatik" }
-    },
-    {
-      "id": "internet-1969", "title": "ARPANET", "start": "1969-10-29", "importance": 4, "tags": ["international"],
-      "description": "Vorläufer des Internets.",
-      "place": { "name": "Los Angeles", "lat": 34.0689, "lon": -118.4452 },
-      "attributes": { "Bereich": "Informatik" }
-    },
-    {
-      "id": "konrad-lorenz-1973", "title": "Nobelpreis für Konrad Lorenz", "short": "Konrad Lorenz", "start": "1973", "importance": 3,
-      "description": "Der Begründer der Verhaltensforschung erhielt den Nobelpreis für Medizin.",
-      "place": { "name": "Altenberg", "lat": 48.35, "lon": 16.2667 },
-      "attributes": { "Bereich": "Biologie" }
-    },
-    {
-      "id": "www-1991", "title": "World Wide Web", "short": "WWW", "start": "1991-08-06", "importance": 3, "tags": ["international"],
-      "description": "Tim Berners-Lee machte am CERN das World Wide Web öffentlich zugänglich.",
-      "place": { "name": "Genf (CERN)", "lat": 46.233, "lon": 6.0557 },
-      "attributes": { "Bereich": "Informatik" }
-    },
-    {
-      "id": "viehboeck-1991", "title": "Erster Österreicher im All", "start": "1991-10-02", "importance": 4,
-      "description": "Franz Viehböck flog zur Raumstation Mir.",
-      "place": { "name": "Baikonur", "lat": 45.9646, "lon": 63.3052 },
-      "attributes": { "Bereich": "Raumfahrt" }
-    },
-    {
-      "id": "zeilinger-1997", "title": "Quantenteleportation", "short": "Zeilinger", "start": "1997", "importance": 3,
-      "description": "Anton Zeilingers Gruppe in Innsbruck gelang die erste Quantenteleportation (Nobelpreis 2022).",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Bereich": "Physik" }
-    },
-    {
-      "id": "smartphone-2007", "title": "Smartphone", "start": "2007-01-09", "importance": 4, "tags": ["international"],
-      "description": "Mit dem iPhone setzte sich das Smartphone durch.",
-      "place": { "name": "San Francisco", "lat": 37.7749, "lon": -122.4194 },
-      "attributes": { "Bereich": "Kommunikation" }
-    }
+    {"id":"schwazer-silberbergbau","title":"Blütezeit des Schwazer Silberbergbaus","short":"Schwazer Bergbau","start":"~1490","end":"~1560","importance":1,"description":"Schwaz in Tirol war um 1500 das bedeutendste Silber- und Kupferbergbaurevier Europas. Die Erträge finanzierten maßgeblich die Politik Maximilians I. und Karls V. (Kredite der Fugger).","place":{"name":"Schwaz","lat":47.3449,"lon":11.7084},"attributes":{"Bereich":"Bergbau, Montanwesen"}},
+    {"id":"collegium-poetarum-1501","title":"Collegium poetarum et mathematicorum","short":"Collegium poetarum","start":"1501","importance":3,"description":"Von Konrad Celtis mit Unterstützung Maximilians I. an der Universität Wien gegründet; verband humanistische Bildung mit Mathematik und Astronomie.","place":{"name":"Universität Wien","lat":48.2087,"lon":16.3753},"attributes":{"Bereich":"Wissenschaft, Bildung","Gründer":"Konrad Celtis"}},
+    {"id":"tabula-peutingeriana-1508","title":"Celtis vermacht die Tabula Peutingeriana","short":"Tabula Peutingeriana","start":"1508","importance":4,"description":"Konrad Celtis († 1508) vermachte testamentarisch die mittelalterliche Kopie einer römischen Straßenkarte dem Augsburger Humanisten Konrad Peutinger. Die Karte befindet sich heute in der Österreichischen Nationalbibliothek.","place":{"name":"Wien","lat":48.2066,"lon":16.3667},"attributes":{"Bereich":"Kartografie, Altertumskunde"}},
+    {"id":"paracelsus-wundarznei-1536","title":"Paracelsus: Große Wundarznei","short":"Paracelsus","start":"1536","importance":2,"description":"Hauptwerk des in Villach aufgewachsenen Arztes Paracelsus zur Chirurgie. Er setzte auf Beobachtung und chemische Heilmittel statt auf antike Autoritäten. Er starb 1541 in Salzburg.","place":{"name":"Salzburg","lat":47.8095,"lon":13.055},"attributes":{"Bereich":"Medizin, Chemie","Person":"Theophrastus Bombastus von Hohenheim (1493–1541)"}},
+    {"id":"busbecq-tulpe","title":"Busbecq bringt Tulpe und Flieder nach Wien","short":"Tulpe und Flieder","start":"1554","end":"1562","importance":4,"description":"Ogier Ghislain de Busbecq, Gesandter Ferdinands I. in Konstantinopel, brachte Tulpen, Flieder und antike Handschriften nach Wien.","place":{"name":"Konstantinopel / Wien","lat":41.0082,"lon":28.9784},"attributes":{"Bereich":"Botanik"}},
+    {"id":"schwazer-bergbuch-1556","title":"Schwazer Bergbuch","start":"1556","importance":3,"description":"Reich illustrierte Handschrift über Organisation, Technik und Recht des Bergbaus in Schwaz – eine der wichtigsten Quellen zur frühneuzeitlichen Montantechnik.","place":{"name":"Schwaz","lat":47.3449,"lon":11.7084},"attributes":{"Bereich":"Bergbau, Technikgeschichte"}},
+    {"id":"lazius-karten-1561","title":"Lazius: Karten der österreichischen Länder","short":"Lazius-Karten","start":"1561","importance":3,"description":"Der Wiener Arzt und Historiker Wolfgang Lazius veröffentlichte mit den „Typi chorographici“ die ersten Detailkarten der österreichischen Länder.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Kartografie","Person":"Wolfgang Lazius (1514–1565)"}},
+    {"id":"muenze-hall-1567","title":"Münzstätte Hall in Burg Hasegg","short":"Münze Hall","start":"1567","importance":3,"description":"Erzherzog Ferdinand II. verlegte die Tiroler Münzstätte in die Burg Hasegg in Hall. Dort kamen bald darauf mit die ersten mechanischen Walzenprägewerke zum Einsatz.","place":{"name":"Hall in Tirol","lat":47.2833,"lon":11.5067},"attributes":{"Bereich":"Münztechnik"}},
+    {"id":"clusius-wien","title":"Carolus Clusius in Wien","short":"Clusius","start":"1573","end":"1588","importance":3,"description":"Der Botaniker Carolus Clusius legte unter Maximilian II. den kaiserlichen Hofgarten an, beschrieb die Pflanzenwelt der Alpen und Pannoniens und verbreitete Rosskastanie und Tulpe.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Botanik","Werk":"Rariorum aliquot stirpium per Pannoniam, Austriam … historia (1583)"}},
+    {"id":"hofbibliothek-1575","title":"Hugo Blotius wird Hofbibliothekar","short":"Hofbibliothek","start":"1575","importance":3,"description":"Mit der Bestellung des ersten Präfekten wurde die kaiserliche Hofbibliothek in Wien – die heutige Österreichische Nationalbibliothek – systematisch geordnet und ausgebaut.","place":{"name":"Wien","lat":48.2061,"lon":16.3668},"attributes":{"Bereich":"Wissenschaft, Bibliothekswesen"}},
+    {"id":"kepler-mysterium-1596","title":"Kepler: Mysterium Cosmographicum","short":"Kepler","start":"1596","importance":1,"description":"Johannes Kepler verfasste sein erstes großes Werk als Mathematiklehrer an der protestantischen Stiftsschule in Graz (dort 1594–1600). Es verteidigte das kopernikanische Weltbild.","place":{"name":"Graz","lat":47.0707,"lon":15.4395},"attributes":{"Bereich":"Astronomie","Person":"Johannes Kepler (1571–1630)"}},
+    {"id":"reichspost-1597","title":"Post wird kaiserliches Regal","short":"Reichspost","start":"1597","importance":4,"description":"Rudolf II. erklärte das von der Familie Taxis betriebene Postwesen zum kaiserlichen Hoheitsrecht – ein Schritt zum geregelten Nachrichtenverkehr im Reich.","place":{"name":"Prag","lat":50.0905,"lon":14.4005},"attributes":{"Bereich":"Kommunikation, Verkehr"}},
+    {"id":"tycho-prag-1599","title":"Tycho Brahe am Kaiserhof in Prag","short":"Tycho Brahe","start":"1599","importance":2,"description":"Rudolf II. holte den dänischen Astronomen nach Prag; ab 1600 arbeitete Kepler mit ihm. Seine präzisen Beobachtungsdaten wurden Grundlage der Keplerschen Gesetze.","place":{"name":"Prag","lat":50.0905,"lon":14.4005},"attributes":{"Bereich":"Astronomie"}},
+    {"id":"henlein-taschenuhr","title":"Tragbare Uhren (Peter Henlein)","short":"Taschenuhr","start":"~1510","importance":4,"description":"Der Nürnberger Schlosser Peter Henlein baute als einer der Ersten tragbare, federgetriebene Uhren.","place":{"name":"Nürnberg","lat":49.4521,"lon":11.0767},"attributes":{"Bereich":"Feinmechanik"},"tags":["international"]},
+    {"id":"kopernikus-1543","title":"Kopernikus: De revolutionibus","start":"1543","importance":3,"description":"Nikolaus Kopernikus veröffentlichte sein heliozentrisches Weltbild – Beginn der „kopernikanischen Wende“.","place":{"name":"Nürnberg (Druckort)","lat":49.4521,"lon":11.0767},"attributes":{"Bereich":"Astronomie"},"tags":["international"]},
+    {"id":"vesalius-1543","title":"Vesalius: De humani corporis fabrica","short":"Vesalius","start":"1543","importance":3,"description":"Andreas Vesalius begründete mit seinem Anatomiewerk die moderne, auf Sektion beruhende Anatomie.","place":{"name":"Basel (Druckort)","lat":47.5596,"lon":7.5886},"attributes":{"Bereich":"Medizin"},"tags":["international"]},
+    {"id":"cardano-ars-magna-1545","title":"Cardano: Ars magna","start":"1545","importance":5,"description":"Gerolamo Cardano veröffentlichte die Lösungsformeln für Gleichungen dritten und vierten Grades.","place":{"name":"Nürnberg (Druckort)","lat":49.4521,"lon":11.0767},"attributes":{"Bereich":"Mathematik"},"tags":["international"]},
+    {"id":"agricola-1556","title":"Agricola: De re metallica","short":"Agricola","start":"1556","importance":4,"description":"Georgius Agricola fasste das Wissen über Bergbau und Hüttenwesen zusammen; das Werk blieb rund 200 Jahre das Standardlehrbuch.","place":{"name":"Basel (Druckort)","lat":47.5596,"lon":7.5886},"attributes":{"Bereich":"Bergbau, Metallurgie"},"tags":["international"]},
+    {"id":"mercator-1569","title":"Mercator-Projektion","start":"1569","importance":4,"description":"Gerhard Mercator veröffentlichte seine winkeltreue Weltkarte, die die Navigation auf See revolutionierte.","place":{"name":"Duisburg","lat":51.4344,"lon":6.7623},"attributes":{"Bereich":"Kartografie, Navigation"},"tags":["international"]},
+    {"id":"ortelius-1570","title":"Ortelius: erster moderner Atlas","short":"Ortelius-Atlas","start":"1570","importance":5,"description":"Abraham Ortelius’ „Theatrum Orbis Terrarum“ gilt als erster moderner Weltatlas.","place":{"name":"Antwerpen","lat":51.2194,"lon":4.4025},"attributes":{"Bereich":"Kartografie"},"tags":["international"]},
+    {"id":"supernova-1572","title":"Tychos Supernova","start":"1572-11","importance":5,"description":"Tycho Brahe beobachtete einen „neuen Stern“ und widerlegte damit die Lehre von der Unveränderlichkeit des Himmels.","place":{"name":"Dänemark","lat":55.68,"lon":12.57},"attributes":{"Bereich":"Astronomie"},"tags":["international"]},
+    {"id":"fernrohr-1608","title":"Erfindung des Fernrohrs","short":"Fernrohr","start":"1608-10","importance":4,"description":"Der Brillenmacher Hans Lipperhey beantragte in den Niederlanden ein Patent auf ein Fernrohr.","place":{"name":"Middelburg","lat":51.4988,"lon":3.6109},"attributes":{"Bereich":"Optik"},"tags":["international"]},
+    {"id":"kepler-astronomia-nova-1609","title":"Kepler: Astronomia nova","start":"1609","importance":2,"description":"In Prag am Hof Rudolfs II. veröffentlichte Kepler die ersten beiden Planetengesetze (elliptische Bahnen).","place":{"name":"Prag","lat":50.0905,"lon":14.4005},"attributes":{"Bereich":"Astronomie"}},
+    {"id":"galilei-sidereus-1610","title":"Galilei: Sidereus Nuncius","short":"Galilei","start":"1610-03","importance":3,"description":"Galileo Galilei berichtete über seine Fernrohrbeobachtungen: Jupitermonde, Mondgebirge, Sterne der Milchstraße.","place":{"name":"Venedig (Druckort)","lat":45.4344,"lon":12.3388},"attributes":{"Bereich":"Astronomie"},"tags":["international"]},
+    {"id":"napier-logarithmen-1614","title":"Napier: Logarithmen","start":"1614","importance":5,"description":"John Napier veröffentlichte die Logarithmen, die das Rechnen in Astronomie und Navigation enorm erleichterten.","place":{"name":"Edinburgh","lat":55.9533,"lon":-3.1883},"attributes":{"Bereich":"Mathematik"},"tags":["international"]},
+    {"id":"kepler-linz-1619","title":"Kepler in Linz: Harmonices mundi","short":"Kepler in Linz","start":"1619","importance":2,"description":"Als Landschaftsmathematiker in Linz (1612–1626) formulierte Kepler sein drittes Planetengesetz.","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Bereich":"Astronomie"}},
+    {"id":"rudolfinische-tafeln-1627","title":"Rudolfinische Tafeln","start":"1627","importance":3,"description":"Keplers auf Tycho Brahes Beobachtungen beruhende Planetentafeln, benannt nach Rudolf II.; über ein Jahrhundert lang Standard für astronomische Berechnungen.","place":{"name":"Ulm (Druckort)","lat":48.4011,"lon":9.9876},"attributes":{"Bereich":"Astronomie"}},
+    {"id":"harvey-1628","title":"Harvey: Blutkreislauf","start":"1628","importance":4,"description":"William Harvey beschrieb den großen Blutkreislauf.","place":{"name":"Frankfurt (Druckort)","lat":50.1109,"lon":8.6821},"attributes":{"Bereich":"Medizin"},"tags":["international"]},
+    {"id":"galilei-prozess-1633","title":"Prozess gegen Galilei","start":"1633-06-22","importance":4,"description":"Die Inquisition zwang Galilei zum Widerruf des kopernikanischen Weltbilds.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Bereich":"Wissenschaft und Kirche"},"tags":["international"]},
+    {"id":"torricelli-1643","title":"Torricelli: Barometer","start":"1643","importance":5,"description":"Evangelista Torricelli wies den Luftdruck mit einer Quecksilbersäule nach.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Bereich":"Physik"},"tags":["international"]},
+    {"id":"guericke-1654","title":"Guericke: Vakuumversuche am Reichstag","short":"Vakuumversuche","start":"1654","importance":4,"description":"Otto von Guericke führte auf dem Reichstag in Regensburg vor Kaiser Ferdinand III. seine Luftpumpe und die Kraft des Vakuums vor; der berühmte Versuch mit den Magdeburger Halbkugeln folgte 1657.","place":{"name":"Regensburg","lat":49.0134,"lon":12.1016},"attributes":{"Bereich":"Physik"},"tags":["international"]},
+    {"id":"huygens-pendeluhr-1657","title":"Huygens: Pendeluhr","start":"1657","importance":5,"description":"Christiaan Huygens baute die erste Pendeluhr und steigerte damit die Ganggenauigkeit erheblich.","place":{"name":"Den Haag","lat":52.0705,"lon":4.3007},"attributes":{"Bereich":"Feinmechanik"},"tags":["international"]},
+    {"id":"linzer-wollzeugfabrik-1672","title":"Linzer Wollzeugfabrik","start":"1672","importance":3,"description":"Gründung der ersten großen Manufaktur in den österreichischen Ländern – Beginn der frühindustriellen Produktion.","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Bereich":"Gewerbe, Manufakturwesen"}},
+    {"id":"becher-tabor-1676","title":"Kunst- und Werkhaus am Tabor","short":"Werkhaus am Tabor","start":"1676","importance":4,"description":"Der Ökonom Johann Joachim Becher richtete in Wien ein Manufaktur- und Versuchshaus ein, Ausdruck der merkantilistischen Wirtschaftspolitik.","place":{"name":"Leopoldstadt, Wien","lat":48.2244,"lon":16.382},"attributes":{"Bereich":"Wirtschaft, Chemie"}},
+    {"id":"leeuwenhoek-1676","title":"Leeuwenhoek entdeckt Mikroorganismen","short":"Leeuwenhoek","start":"1676","importance":5,"description":"Antoni van Leeuwenhoek beobachtete mit selbstgebauten Mikroskopen erstmals Bakterien und Einzeller.","place":{"name":"Delft","lat":52.0116,"lon":4.3571},"attributes":{"Bereich":"Biologie"},"tags":["international"]},
+    {"id":"newton-principia-1687","title":"Newton: Principia","start":"1687-07-05","importance":3,"description":"Isaac Newton begründete mit dem Gravitationsgesetz und den Bewegungsgesetzen die klassische Mechanik.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"attributes":{"Bereich":"Physik, Mathematik"},"tags":["international"]},
+    {"id":"wiener-diarium-1703","title":"Wiennerisches Diarium","start":"1703-08-08","importance":3,"description":"Erste Ausgabe der Zeitung, die heute als „Wiener Zeitung“ zu den ältesten Zeitungen der Welt zählte.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Presse, Kommunikation"}},
+    {"id":"newcomen-1712","title":"Newcomens Dampfmaschine","short":"Dampfmaschine","start":"1712","importance":3,"description":"Thomas Newcomen setzte die erste praktisch nutzbare Dampfmaschine zum Wasserpumpen im Bergbau ein – Vorläufer der Industriellen Revolution.","place":{"name":"Dudley","lat":52.5123,"lon":-2.0811},"attributes":{"Bereich":"Maschinenbau, Energie"},"tags":["international"]},
+    {"id":"fahrenheit-1714","title":"Fahrenheits Quecksilberthermometer","short":"Thermometer","start":"1714","importance":5,"description":"Daniel Gabriel Fahrenheit baute zuverlässige Quecksilberthermometer.","place":{"name":"Amsterdam","lat":52.3676,"lon":4.9041},"attributes":{"Bereich":"Messtechnik"},"tags":["international"]},
+    {"id":"linne-1735","title":"Linné: Systema Naturae","start":"1735","importance":5,"description":"Carl von Linné begründete die moderne biologische Systematik.","place":{"name":"Leiden (Druckort)","lat":52.1601,"lon":4.497},"attributes":{"Bereich":"Biologie"},"tags":["international"]},
+    {"id":"watt-1769","title":"Watts Dampfmaschine","start":"1769","importance":3,"description":"James Watt ließ seine verbesserte Dampfmaschine patentieren – Motor der Industriellen Revolution.","place":{"name":"Glasgow","lat":55.8642,"lon":-4.2518},"attributes":{"Bereich":"Maschinenbau, Energie"},"tags":["international"]},
+    {"id":"ingenhousz-1779","title":"Ingenhousz entdeckt die Photosynthese","short":"Photosynthese","start":"1779","importance":3,"description":"Jan Ingenhousz, Leibarzt Maria Theresias, wies nach, dass Pflanzen im Licht Sauerstoff abgeben.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Biologie"}},
+    {"id":"montgolfiere-1783","title":"Erster bemannter Ballonflug","start":"1783-11-21","importance":4,"description":"Mit einer Montgolfière gelang in Paris der erste Flug von Menschen.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Bereich":"Luftfahrt"},"tags":["international"]},
+    {"id":"akh-1784","title":"Allgemeines Krankenhaus Wien","start":"1784-08-16","importance":2,"description":"Joseph II. eröffnete das damals größte Krankenhaus Europas; Keimzelle der Wiener Medizinischen Schule.","place":{"name":"Altes AKH, Wien","lat":48.216,"lon":16.354},"attributes":{"Bereich":"Medizin"}},
+    {"id":"jenner-1796","title":"Jenner: Pockenimpfung","start":"1796","importance":4,"description":"Edward Jenner führte die Impfung mit Kuhpocken ein.","place":{"name":"Berkeley (England)","lat":51.691,"lon":-2.458},"attributes":{"Bereich":"Medizin"},"tags":["international"]},
+    {"id":"volta-1800","title":"Voltasche Säule","start":"1800","importance":4,"description":"Alessandro Volta baute die erste Batterie.","place":{"name":"Pavia","lat":45.1847,"lon":9.1582},"attributes":{"Bereich":"Elektrizität"},"tags":["international"]},
+    {"id":"madersperger-1814","title":"Madersperger: Nähmaschine","start":"1814","importance":4,"description":"Der Wiener Schneider Josef Madersperger entwickelte eine der ersten Nähmaschinen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Feinmechanik"}},
+    {"id":"polytechnikum-1815","title":"Gründung des Polytechnischen Instituts","start":"1815-11-06","importance":3,"description":"Vorläufer der Technischen Universität Wien.","place":{"name":"Karlsplatz, Wien","lat":48.199,"lon":16.3699},"attributes":{"Bereich":"Bildung, Technik"}},
+    {"id":"stockton-darlington-1825","title":"Erste öffentliche Dampfeisenbahn","start":"1825-09-27","importance":3,"description":"Die Stockton-and-Darlington-Bahn mit George Stephensons Lokomotive eröffnete das Eisenbahnzeitalter.","place":{"name":"Stockton-on-Tees","lat":54.5703,"lon":-1.3187},"attributes":{"Bereich":"Verkehr"},"tags":["international"]},
+    {"id":"ressel-1827","title":"Ressel: Schiffsschraube","start":"1827","importance":2,"description":"Josef Ressel erhielt in Österreich ein Privileg auf die Schiffsschraube als Schiffsantrieb.","place":{"name":"Triest","lat":45.6495,"lon":13.7768},"attributes":{"Bereich":"Schiffbau"}},
+    {"id":"ddsg-1829","title":"Erste Donau-Dampfschiffahrts-Gesellschaft","start":"1829","importance":4,"description":"Die DDSG wurde zur größten Binnenreederei der Welt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Verkehr"}},
+    {"id":"pferdeeisenbahn-1832","title":"Pferdeeisenbahn Budweis–Linz","start":"1832-08-01","importance":3,"description":"Erste öffentliche Eisenbahn des europäischen Kontinents (mit Pferdezug).","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Bereich":"Verkehr"}},
+    {"id":"nordbahn-1837","title":"Kaiser-Ferdinands-Nordbahn","short":"Nordbahn","start":"1837-11-23","importance":2,"description":"Erste Dampfeisenbahn Österreichs zwischen Floridsdorf und Deutsch-Wagram.","place":{"name":"Floridsdorf, Wien","lat":48.2564,"lon":16.399},"attributes":{"Bereich":"Verkehr"}},
+    {"id":"daguerre-1839","title":"Fotografie (Daguerreotypie)","short":"Fotografie","start":"1839","importance":4,"description":"Louis Daguerre stellte das erste praktische fotografische Verfahren vor; in Wien entwickelte Joseph Petzval bald ein lichtstarkes Porträtobjektiv.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Bereich":"Optik, Chemie"},"tags":["international"]},
+    {"id":"doppler-1842","title":"Doppler-Effekt","start":"1842","importance":2,"description":"Der Salzburger Physiker Christian Doppler beschrieb in Prag die Frequenzänderung bei bewegten Wellenquellen.","place":{"name":"Prag","lat":50.0755,"lon":14.4378},"attributes":{"Bereich":"Physik"}},
+    {"id":"morse-1844","title":"Morse-Telegraf","start":"1844-05-24","importance":4,"description":"Samuel Morse übertrug das erste Telegramm zwischen Washington und Baltimore.","place":{"name":"Washington","lat":38.9072,"lon":-77.0369},"attributes":{"Bereich":"Kommunikation"},"tags":["international"]},
+    {"id":"semmelweis-1847","title":"Semmelweis: Händedesinfektion","short":"Semmelweis","start":"1847","importance":1,"description":"Ignaz Semmelweis erkannte am Wiener AKH die Ursache des Kindbettfiebers und führte die Händedesinfektion ein.","place":{"name":"Altes AKH, Wien","lat":48.216,"lon":16.354},"attributes":{"Bereich":"Medizin"}},
+    {"id":"akademie-wissenschaften-1847","title":"Akademie der Wissenschaften","start":"1847-05-14","importance":3,"description":"Gründung der Kaiserlichen Akademie der Wissenschaften in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Wissenschaft"}},
+    {"id":"semmeringbahn-1854","title":"Semmeringbahn","start":"1854-07-17","importance":1,"description":"Carl von Ghegas Bahn über den Semmering war die erste normalspurige Gebirgsbahn Europas (heute UNESCO-Welterbe).","place":{"name":"Semmering","lat":47.6333,"lon":15.8297},"attributes":{"Bereich":"Verkehr","Planer":"Carl von Ghega"}},
+    {"id":"darwin-1859","title":"Darwin: Über die Entstehung der Arten","short":"Darwin","start":"1859-11-24","importance":3,"description":"Charles Darwin begründete die Evolutionstheorie.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"attributes":{"Bereich":"Biologie"},"tags":["international"]},
+    {"id":"mitterhofer-1864","title":"Mitterhofer: Schreibmaschine","start":"1864","importance":4,"description":"Der Tiroler Peter Mitterhofer baute eines der ersten Schreibmaschinenmodelle und führte es Kaiser Franz Joseph vor.","place":{"name":"Partschins","lat":46.6833,"lon":11.0833},"attributes":{"Bereich":"Feinmechanik"}},
+    {"id":"mendel-1865","title":"Mendelsche Vererbungsregeln","short":"Mendel","start":"1865-02-08","importance":1,"description":"Gregor Mendel trug in Brünn seine Kreuzungsversuche mit Erbsen vor – Grundlage der Genetik.","place":{"name":"Brünn (Brno)","lat":49.1951,"lon":16.6068},"attributes":{"Bereich":"Biologie"}},
+    {"id":"periodensystem-1869","title":"Periodensystem der Elemente","start":"1869","importance":5,"description":"Dmitri Mendelejew ordnete die chemischen Elemente nach ihren Eigenschaften.","place":{"name":"Sankt Petersburg","lat":59.9343,"lon":30.3351},"attributes":{"Bereich":"Chemie"},"tags":["international"]},
+    {"id":"hochquellenwasserleitung-1873","title":"I. Wiener Hochquellenwasserleitung","short":"Hochquellenwasserleitung","start":"1873-10-24","importance":3,"description":"Quellwasser aus Rax und Schneeberg versorgte Wien; Eröffnung mit dem Hochstrahlbrunnen.","place":{"name":"Schwarzenbergplatz, Wien","lat":48.199,"lon":16.376},"attributes":{"Bereich":"Infrastruktur"}},
+    {"id":"donauregulierung","title":"Donauregulierung","start":"1870","end":"1875","importance":4,"description":"Ein neues, begradigtes Donaubett schützte Wien vor Hochwasser.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Wasserbau"}},
+    {"id":"telefon-1876","title":"Telefon","start":"1876-03-10","importance":4,"description":"Alexander Graham Bell erhielt das Patent auf das Telefon.","place":{"name":"Boston","lat":42.3601,"lon":-71.0589},"attributes":{"Bereich":"Kommunikation"},"tags":["international"]},
+    {"id":"boltzmann-1877","title":"Boltzmanns Entropieformel","short":"Boltzmann","start":"1877","importance":2,"description":"Ludwig Boltzmann verband die Entropie mit der Wahrscheinlichkeit von Mikrozuständen – Grundlage der statistischen Physik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Physik"}},
+    {"id":"gluehbirne-1879","title":"Glühlampe","start":"1879","importance":4,"description":"Thomas Edison entwickelte eine langlebige Kohlefaden-Glühlampe.","place":{"name":"Menlo Park","lat":40.564,"lon":-74.336},"attributes":{"Bereich":"Elektrizität"},"tags":["international"]},
+    {"id":"auer-1885","title":"Auer von Welsbach: Gasglühlicht","short":"Gasglühlicht","start":"1885","importance":3,"description":"Carl Auer von Welsbach erfand den Gasglühstrumpf, später Metallfadenlampe und Zündstein.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Chemie, Beleuchtung"}},
+    {"id":"benz-1886","title":"Benz Patent-Motorwagen","short":"Automobil","start":"1886-01-29","importance":3,"description":"Carl Benz meldete das erste praxistaugliche Automobil zum Patent an. In Wien hatte Siegfried Marcus schon zuvor Motorwagen gebaut.","place":{"name":"Mannheim","lat":49.4875,"lon":8.466},"attributes":{"Bereich":"Verkehr"},"tags":["international"]},
+    {"id":"roentgen-1895","title":"Röntgenstrahlen","start":"1895-11-08","importance":4,"description":"Wilhelm Conrad Röntgen entdeckte die nach ihm benannten Strahlen.","place":{"name":"Würzburg","lat":49.7913,"lon":9.9534},"attributes":{"Bereich":"Physik, Medizin"},"tags":["international"]},
+    {"id":"stadtbahn-1898","title":"Wiener Stadtbahn","start":"1898-05-09","importance":3,"description":"Eröffnung der von Otto Wagner gestalteten Stadtbahn, Vorläuferin der U-Bahn.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Verkehr"}},
+    {"id":"freud-traumdeutung","title":"Freud: Die Traumdeutung","short":"Freud","start":"1899-11","importance":1,"description":"Sigmund Freuds Hauptwerk (vordatiert auf 1900) begründete die Psychoanalyse.","place":{"name":"Berggasse 19, Wien","lat":48.2188,"lon":16.3633},"attributes":{"Bereich":"Medizin, Psychologie"}},
+    {"id":"landsteiner-1901","title":"Landsteiner: Blutgruppen","short":"Blutgruppen","start":"1901","importance":2,"description":"Karl Landsteiner entdeckte in Wien das AB0-Blutgruppensystem (Nobelpreis 1930).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Medizin"}},
+    {"id":"wright-1903","title":"Erster Motorflug","start":"1903-12-17","importance":3,"description":"Den Brüdern Wright gelang der erste gesteuerte Motorflug.","place":{"name":"Kitty Hawk","lat":36.0146,"lon":-75.668},"attributes":{"Bereich":"Luftfahrt"},"tags":["international"]},
+    {"id":"einstein-1905","title":"Einstein: Spezielle Relativitätstheorie","short":"Relativitätstheorie","start":"1905","importance":3,"description":"Albert Einstein veröffentlichte die Relativitätstheorie; 1915 folgte die allgemeine Relativitätstheorie.","place":{"name":"Bern","lat":46.948,"lon":7.4474},"attributes":{"Bereich":"Physik"},"tags":["international"]},
+    {"id":"lieben-1906","title":"Lieben-Röhre","start":"1906","importance":3,"description":"Robert von Lieben entwickelte in Wien eine Verstärkerröhre – Grundlage der Rundfunktechnik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Elektronik"}},
+    {"id":"etrich-taube-1910","title":"Etrich Taube","start":"1910","importance":3,"description":"Das Flugzeug von Igo Etrich wurde zu einem der meistgebauten Flugzeuge vor dem Ersten Weltkrieg.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246},"attributes":{"Bereich":"Luftfahrt"}},
+    {"id":"kaplan-1912","title":"Kaplan-Turbine","start":"1912","importance":3,"description":"Viktor Kaplan entwickelte in Brünn eine verstellbare Wasserturbine für Flusskraftwerke.","place":{"name":"Brünn (Brno)","lat":49.1951,"lon":16.6068},"attributes":{"Bereich":"Energie"}},
+    {"id":"brille-1286","title":"Erfindung der Brille","short":"Brille","start":"~1286","importance":5,"description":"In Oberitalien entstanden die ersten Lesebrillen.","place":{"name":"Pisa / Venedig","lat":43.7228,"lon":10.4017},"attributes":{"Bereich":"Optik"},"tags":["international"]},
+    {"id":"raederuhr","title":"Mechanische Räderuhren","short":"Räderuhr","start":"~1300","importance":5,"description":"Die ersten Turmuhren mit Hemmung machten die Stunden gleich lang.","place":{"name":"Europa","lat":48,"lon":8},"attributes":{"Bereich":"Feinmechanik"},"tags":["international"]},
+    {"id":"universitaet-wien-1365","title":"Gründung der Universität Wien","short":"Universität Wien","start":"1365-03-12","importance":1,"description":"Rudolf IV. gründete die nach Prag zweitälteste Universität Mitteleuropas; 1384 kam die theologische Fakultät hinzu.","place":{"name":"Universität Wien","lat":48.2132,"lon":16.3601},"attributes":{"Bereich":"Wissenschaft, Bildung"}},
+    {"id":"johannes-von-gmunden","title":"Johannes von Gmunden lehrt in Wien","short":"Johannes von Gmunden","start":"~1416","end":"1442","importance":3,"description":"Der Astronom und Mathematiker begründete die „Erste Wiener mathematische Schule“ und vermachte der Universität Bücher und Instrumente.","place":{"name":"Universität Wien","lat":48.2132,"lon":16.3601},"attributes":{"Bereich":"Astronomie, Mathematik"}},
+    {"id":"gutenberg","title":"Buchdruck mit beweglichen Lettern","short":"Buchdruck","start":"~1450","importance":3,"description":"Johannes Gutenberg entwickelte in Mainz den Buchdruck; die Gutenberg-Bibel entstand um 1454/55.","place":{"name":"Mainz","lat":49.9929,"lon":8.2473},"attributes":{"Bereich":"Kommunikation"},"tags":["international"]},
+    {"id":"peuerbach-regiomontanus","title":"Peuerbach und Regiomontanus","short":"Peuerbach","start":"1454","importance":2,"description":"Georg von Peuerbach (aus Peuerbach in Oberösterreich) und sein Schüler Regiomontanus erneuerten in Wien die Astronomie; Peuerbachs „Theoricae novae planetarum“ wurde zum Standardlehrbuch.","place":{"name":"Universität Wien","lat":48.2132,"lon":16.3601},"attributes":{"Bereich":"Astronomie"}},
+    {"id":"buchdruck-wien-1482","title":"Erster Buchdruck in Wien","start":"1482","importance":4,"description":"Mit Stephan Koblinger begann der Buchdruck in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Kommunikation"}},
+    {"id":"guldiner-1486","title":"Guldiner aus Hall","short":"Guldiner","start":"1486","importance":2,"description":"Erzherzog Sigmund ließ in Hall die erste große Silbermünze prägen, den Vorläufer des Talers (und damit des „Dollars“).","place":{"name":"Hall in Tirol","lat":47.2833,"lon":11.5067},"attributes":{"Bereich":"Münztechnik"}},
+    {"id":"algebra-al-chwarizmi","title":"Al-Chwarizmi: Algebra","short":"Algebra","start":"~825","importance":4,"description":"Das Rechenbuch des Bagdader Gelehrten gab der Algebra (und dem „Algorithmus“) den Namen.","place":{"name":"Bagdad","lat":33.3152,"lon":44.3661},"attributes":{"Bereich":"Mathematik"},"tags":["international"]},
+    {"id":"universitaet-bologna","title":"Universität Bologna","start":"1088","importance":4,"description":"Älteste Universität Europas.","place":{"name":"Bologna","lat":44.4949,"lon":11.3426},"attributes":{"Bereich":"Bildung"},"tags":["international"]},
+    {"id":"salz-hallein","title":"Salzbergbau am Dürrnberg (Hallein)","short":"Salz Hallein","start":"~1190","importance":3,"description":"Die Salzburger Erzbischöfe nahmen den Salzbergbau am Dürrnberg wieder auf; Salz wurde zur Grundlage ihres Reichtums.","place":{"name":"Hallein","lat":47.6833,"lon":13.1},"attributes":{"Bereich":"Bergbau"}},
+    {"id":"wiener-pfennig","title":"Wiener Pfennig","start":"~1194","importance":4,"description":"Mit dem Lösegeld für Richard Löwenherz wurde in Wien eine Münzstätte eingerichtet; der Wiener Pfennig wurde zur Leitwährung im Donauraum.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Münzwesen"}},
+    {"id":"fibonacci-1202","title":"Fibonacci: Liber abaci","short":"Arabische Ziffern","start":"1202","importance":4,"description":"Machte die indisch-arabischen Ziffern in Europa bekannt.","place":{"name":"Pisa","lat":43.7228,"lon":10.4017},"attributes":{"Bereich":"Mathematik"},"tags":["international"]},
+    {"id":"pauli-1925","title":"Pauli-Prinzip","start":"1925","importance":3,"description":"Der Wiener Physiker Wolfgang Pauli formulierte das Ausschließungsprinzip (Nobelpreis 1945).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Physik"}},
+    {"id":"schroedinger-1926","title":"Schrödinger-Gleichung","short":"Schrödinger","start":"1926","importance":1,"description":"Erwin Schrödinger begründete die Wellenmechanik – eine Grundlage der Quantenphysik (Nobelpreis 1933).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Physik"}},
+    {"id":"penicillin-1928","title":"Penicillin","start":"1928","importance":3,"description":"Alexander Fleming entdeckte das erste Antibiotikum.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"attributes":{"Bereich":"Medizin"},"tags":["international"]},
+    {"id":"goedel-1931","title":"Gödels Unvollständigkeitssatz","short":"Gödel","start":"1931","importance":2,"description":"Der Wiener Logiker Kurt Gödel bewies die Grenzen formaler Systeme.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Mathematik"}},
+    {"id":"grossglockner-1935","title":"Großglockner-Hochalpenstraße","start":"1935-08-03","importance":3,"description":"Spektakuläre Alpenstraße zum höchsten Berg Österreichs.","place":{"name":"Großglockner","lat":47.0742,"lon":12.6947},"attributes":{"Bereich":"Verkehr"}},
+    {"id":"eisler-leiterplatte","title":"Gedruckte Leiterplatte","short":"Leiterplatte","start":"1936","importance":2,"description":"Der Wiener Ingenieur Paul Eisler erfand die gedruckte Schaltung – Grundlage aller Elektronik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Bereich":"Elektronik"}},
+    {"id":"kernspaltung-1938","title":"Kernspaltung","start":"1938-12","importance":2,"description":"Otto Hahn und Fritz Straßmann entdeckten die Kernspaltung; die Wiener Physikerin Lise Meitner lieferte mit Otto Frisch die theoretische Erklärung.","place":{"name":"Berlin","lat":52.52,"lon":13.405},"attributes":{"Bereich":"Physik"}},
+    {"id":"zuse-z3","title":"Zuse Z3","start":"1941-05-12","importance":4,"description":"Konrad Zuse baute den ersten funktionsfähigen programmgesteuerten Rechner.","place":{"name":"Berlin","lat":52.52,"lon":13.405},"attributes":{"Bereich":"Informatik"},"tags":["international"]},
+    {"id":"hedy-lamarr","title":"Hedy Lamarr: Frequenzsprungverfahren","short":"Hedy Lamarr","start":"1942-08-11","importance":3,"description":"Die Wiener Schauspielerin Hedy Lamarr erhielt mit George Antheil ein Patent, das Grundlagen für WLAN und Bluetooth legte.","place":{"name":"Hollywood","lat":34.0928,"lon":-118.3287},"attributes":{"Bereich":"Kommunikation"}},
+    {"id":"transistor-1947","title":"Transistor","start":"1947-12","importance":4,"description":"In den Bell Labs entstand der erste Transistor.","place":{"name":"Murray Hill","lat":40.684,"lon":-74.401},"attributes":{"Bereich":"Elektronik"},"tags":["international"]},
+    {"id":"ld-verfahren","title":"LD-Verfahren","start":"1952","importance":2,"description":"Das in Linz und Donawitz entwickelte Sauerstoffblasverfahren revolutionierte die Stahlerzeugung weltweit.","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Bereich":"Metallurgie"}},
+    {"id":"dna-1953","title":"Struktur der DNA","short":"DNA","start":"1953-04-25","importance":3,"description":"Watson und Crick beschrieben die Doppelhelix.","place":{"name":"Cambridge","lat":52.2053,"lon":0.1218},"attributes":{"Bereich":"Biologie"},"tags":["international"]},
+    {"id":"kaprun-1955","title":"Kraftwerk Kaprun","start":"1955","importance":4,"description":"Das Speicherkraftwerk wurde zum Symbol des Wiederaufbaus.","place":{"name":"Kaprun","lat":47.2722,"lon":12.7597},"attributes":{"Bereich":"Energie"}},
+    {"id":"sputnik-1957","title":"Sputnik","start":"1957-10-04","importance":3,"description":"Erster künstlicher Erdsatellit.","place":{"name":"Baikonur","lat":45.9646,"lon":63.3052},"attributes":{"Bereich":"Raumfahrt"},"tags":["international"]},
+    {"id":"mailuefterl-1958","title":"Mailüfterl","start":"1958-05","importance":3,"description":"Heinz Zemaneks Rechner an der TU Wien war einer der ersten volltransistorisierten Computer Europas.","place":{"name":"TU Wien","lat":48.199,"lon":16.3699},"attributes":{"Bereich":"Informatik"}},
+    {"id":"internet-1969","title":"ARPANET","start":"1969-10-29","importance":4,"description":"Vorläufer des Internets.","place":{"name":"Los Angeles","lat":34.0689,"lon":-118.4452},"attributes":{"Bereich":"Informatik"},"tags":["international"]},
+    {"id":"konrad-lorenz-1973","title":"Nobelpreis für Konrad Lorenz","short":"Konrad Lorenz","start":"1973","importance":3,"description":"Der Begründer der Verhaltensforschung erhielt den Nobelpreis für Medizin.","place":{"name":"Altenberg","lat":48.35,"lon":16.2667},"attributes":{"Bereich":"Biologie"}},
+    {"id":"www-1991","title":"World Wide Web","short":"WWW","start":"1991-08-06","importance":3,"description":"Tim Berners-Lee machte am CERN das World Wide Web öffentlich zugänglich.","place":{"name":"Genf (CERN)","lat":46.233,"lon":6.0557},"attributes":{"Bereich":"Informatik"},"tags":["international"]},
+    {"id":"viehboeck-1991","title":"Erster Österreicher im All","start":"1991-10-02","importance":4,"description":"Franz Viehböck flog zur Raumstation Mir.","place":{"name":"Baikonur","lat":45.9646,"lon":63.3052},"attributes":{"Bereich":"Raumfahrt"}},
+    {"id":"zeilinger-1997","title":"Quantenteleportation","short":"Zeilinger","start":"1997","importance":3,"description":"Anton Zeilingers Gruppe in Innsbruck gelang die erste Quantenteleportation (Nobelpreis 2022).","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Bereich":"Physik"}},
+    {"id":"smartphone-2007","title":"Smartphone","start":"2007-01-09","importance":4,"description":"Mit dem iPhone setzte sich das Smartphone durch.","place":{"name":"San Francisco","lat":37.7749,"lon":-122.4194},"attributes":{"Bereich":"Kommunikation"},"tags":["international"]}
   ]
 }

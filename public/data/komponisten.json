@@ -2,650 +2,121 @@
   "category": "komponisten",
   "note": "Balken zeigen die Lebensdaten. Musiker mit Österreichbezug (Habsburgerhöfe in Wien, Innsbruck, Graz, Prag) haben Vorrang (Bedeutung 1–3), internationale Komponisten dienen als Kontext (4–5) und erscheinen erst beim Hineinzoomen.",
   "items": [
-    {
-      "id": "heinrich-isaac", "title": "Heinrich Isaac", "start": "~1450", "end": "1517-03-26", "importance": 1,
-      "description": "Flämischer Komponist, ab 1497 Hofkomponist Maximilians I. Sein Lied „Innsbruck, ich muss dich lassen“ gehört zu den bekanntesten Liedern der Renaissance.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Wirkungsorte": "Florenz, Innsbruck, Wien, Konstanz", "Werke": "„Innsbruck, ich muss dich lassen“, Choralis Constantinus" }
-    },
-    {
-      "id": "paul-hofhaimer", "title": "Paul Hofhaimer", "start": "1459-01-25", "end": "1537", "importance": 1,
-      "description": "Aus Radstadt stammender Organist und Komponist, Hoforganist Maximilians I.; galt als bedeutendster Organist seiner Zeit. Später Domorganist in Salzburg.",
-      "place": { "name": "Radstadt", "lat": 47.3833, "lon": 13.4589 },
-      "attributes": { "Wirkungsorte": "Innsbruck, Wien, Augsburg, Salzburg" }
-    },
-    {
-      "id": "ludwig-senfl", "title": "Ludwig Senfl", "start": "~1490", "end": "~1543", "importance": 2,
-      "description": "Schüler Heinrich Isaacs und dessen Nachfolger in der Hofkapelle Maximilians I.; später in München. Bedeutender Meister des deutschen Tenorlieds.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Wirkungsorte": "Wien, Augsburg, München" }
-    },
-    {
-      "id": "arnold-von-bruck", "title": "Arnold von Bruck", "start": "~1500", "end": "1554-02-06", "importance": 2,
-      "description": "Aus Brügge stammend; von 1527 bis 1545 Hofkapellmeister Ferdinands I. in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister Ferdinands I. (1527–1545)", "Gestorben": "Linz" }
-    },
-    {
-      "id": "jacobus-vaet", "title": "Jacobus Vaet", "start": "~1529", "end": "1567-01-08", "importance": 3,
-      "description": "Flämischer Komponist, ab 1564 Hofkapellmeister Maximilians II. in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister Maximilians II." }
-    },
-    {
-      "id": "philippe-de-monte", "title": "Philippe de Monte", "start": "1521", "end": "1603-07-04", "importance": 2,
-      "description": "Ab 1568 Hofkapellmeister Maximilians II. und danach Rudolfs II. in Wien und Prag; einer der produktivsten Madrigalkomponisten.",
-      "place": { "name": "Wien / Prag", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (ab 1568)" }
-    },
-    {
-      "id": "annibale-padovano", "title": "Annibale Padovano", "start": "1527", "end": "1575-03-15", "importance": 3,
-      "description": "Organist an San Marco in Venedig, ab 1566 im Dienst Erzherzog Karls II. am Grazer Hof.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
-      "attributes": { "Wirkungsorte": "Venedig, Graz" }
-    },
-    {
-      "id": "alexander-utendal", "title": "Alexander Utendal", "start": "~1543", "end": "1581-05-07", "importance": 3,
-      "description": "Flämischer Komponist in der Hofkapelle Erzherzog Ferdinands II. in Prag und Innsbruck.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
-    },
-    {
-      "id": "jacobus-gallus", "title": "Jacobus Gallus (Handl)", "short": "Jacobus Gallus", "start": "1550", "end": "1591-07-18", "importance": 3,
-      "description": "Aus Krain stammender Komponist; wirkte u. a. in Wien, Olmütz und Prag. Sein „Opus musicum“ umfasst Motetten für das ganze Kirchenjahr.",
-      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
-      "attributes": { "Werke": "Opus musicum (1586–1590)" }
-    },
-    {
-      "id": "lambert-de-sayve", "title": "Lambert de Sayve", "start": "~1549", "end": "1614-02-16", "importance": 3,
-      "description": "Hofkapellmeister Erzherzog Matthias’ und später der kaiserlichen Hofkapelle; starb in Linz.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "josquin", "title": "Josquin des Prez", "start": "~1450", "end": "1521-08-27", "importance": 4, "tags": ["international"],
-      "description": "Führender Komponist der franko-flämischen Vokalpolyphonie um 1500.",
-      "place": { "name": "Condé-sur-l’Escaut", "lat": 50.4561, "lon": 3.5911 }
-    },
-    {
-      "id": "palestrina", "title": "Giovanni Pierluigi da Palestrina", "short": "Palestrina", "start": "~1525", "end": "1594-02-02", "importance": 4, "tags": ["international"],
-      "description": "Römischer Kirchenmusiker; sein Stil galt als Vorbild der katholischen Kirchenmusik nach dem Konzil von Trient.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Werke": "Missa Papae Marcelli" }
-    },
-    {
-      "id": "orlando-di-lasso", "title": "Orlando di Lasso", "start": "~1532", "end": "1594-06-14", "importance": 4, "tags": ["international"],
-      "description": "Hofkapellmeister in München und einer der vielseitigsten Komponisten des 16. Jahrhunderts.",
-      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 }
-    },
-    {
-      "id": "hans-leo-hassler", "title": "Hans Leo Hassler", "start": "1564-10-26", "end": "1612-06-08", "importance": 5, "tags": ["international"],
-      "description": "Nürnberger Organist und Komponist, ab 1602 auch Kammerorganist Rudolfs II.",
-      "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 }
-    },
-    {
-      "id": "giovanni-valentini", "title": "Giovanni Valentini", "start": "~1582", "end": "1649-04-29", "importance": 3,
-      "description": "Italienischer Organist und Komponist; ab 1626 Hofkapellmeister Ferdinands II. in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (ab 1626)" }
-    },
-    {
-      "id": "antonio-bertali", "title": "Antonio Bertali", "start": "1605", "end": "1669-04-17", "importance": 3,
-      "description": "Violinist und Komponist; ab 1649 Hofkapellmeister in Wien, prägte die frühe Oper am Kaiserhof.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (ab 1649)" }
-    },
-    {
-      "id": "johann-jakob-froberger", "title": "Johann Jakob Froberger", "short": "Froberger", "start": "1616-05-19", "end": "1667-05-07", "importance": 2,
-      "description": "Hoforganist in Wien; wichtiger Wegbereiter der Klaviersuite, verband italienische und französische Einflüsse.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hoforganist", "Werke": "Toccaten, Suiten, Lamentation auf den Tod Ferdinands III." }
-    },
-    {
-      "id": "johann-heinrich-schmelzer", "title": "Johann Heinrich Schmelzer", "short": "Schmelzer", "start": "~1620", "end": "1680", "importance": 2,
-      "description": "Erster nicht-italienischer Hofkapellmeister in Wien (1679); Meister der Violinmusik und der Ballettmusik am Hof Leopolds I.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (1679–1680)", "Werke": "Sonatae unarum fidium (1664)" }
-    },
-    {
-      "id": "antonio-cesti", "title": "Antonio Cesti", "start": "1623-08-05", "end": "1669-10-14", "importance": 3,
-      "description": "Opernkomponist; seine Festoper „Il pomo d’oro“ zur Hochzeit Leopolds I. (1668) war eine der aufwendigsten Opernaufführungen des Barock.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Il pomo d’oro (1668)" }
-    },
-    {
-      "id": "johann-caspar-kerll", "title": "Johann Caspar Kerll", "short": "Kerll", "start": "1627-04-09", "end": "1693-02-13", "importance": 3,
-      "description": "Organist und Komponist; nach Jahren als Münchner Hofkapellmeister ab 1677 Hoforganist in Wien. Erlebte die Belagerung von 1683.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hoforganist in Wien" }
-    },
-    {
-      "id": "antonio-draghi", "title": "Antonio Draghi", "start": "~1634", "end": "1700-01-16", "importance": 3,
-      "description": "Ab 1682 Hofkapellmeister Leopolds I.; komponierte über 170 Bühnenwerke für den Wiener Hof.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (ab 1682)" }
-    },
-    {
-      "id": "heinrich-ignaz-franz-biber", "title": "Heinrich Ignaz Franz Biber", "short": "Biber", "start": "1644-08-12", "end": "1704-05-03", "importance": 1,
-      "description": "Violinvirtuose und Kapellmeister am Salzburger Hof; seine Rosenkranzsonaten und die Missa Salisburgensis gehören zu den Gipfelwerken der Barockmusik.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Rosenkranzsonaten, Missa Salisburgensis (zugeschrieben)" }
-    },
-    {
-      "id": "georg-muffat", "title": "Georg Muffat", "start": "1653-06-01", "end": "1704-02-23", "importance": 3,
-      "description": "Organist in Salzburg und Kapellmeister in Passau; vermittelte französischen und italienischen Stil in den deutschsprachigen Raum.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Apparatus musico-organisticus (1690), Florilegium" }
-    },
-    {
-      "id": "johann-joseph-fux", "title": "Johann Joseph Fux", "short": "Fux", "start": "~1660", "end": "1741-02-13", "importance": 1,
-      "description": "Steirischer Komponist und Musiktheoretiker, ab 1715 Hofkapellmeister in Wien. Sein Lehrbuch „Gradus ad Parnassum“ (1725) prägte Generationen von Komponisten bis Haydn und Mozart.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (ab 1715)", "Werke": "Gradus ad Parnassum (1725), Costanza e Fortezza (1723)", "Geboren": "Hirtenfeld (Steiermark)" }
-    },
-    {
-      "id": "marcantonio-ziani", "title": "Marc’Antonio Ziani", "short": "Ziani", "start": "~1653", "end": "1715-01-22", "importance": 3,
-      "description": "Venezianischer Opernkomponist; ab 1700 Vizekapellmeister, ab 1712 Hofkapellmeister in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofkapellmeister (1712–1715)" }
-    },
-    {
-      "id": "monteverdi", "title": "Claudio Monteverdi", "short": "Monteverdi", "start": "1567-05-15", "end": "1643-11-29", "importance": 4, "tags": ["international"],
-      "description": "Schöpfer der ersten Meisterwerke der Oper („L’Orfeo“, 1607); Kapellmeister an San Marco in Venedig.",
-      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 },
-      "attributes": { "Werke": "L’Orfeo, Marienvesper, L’incoronazione di Poppea" }
-    },
-    {
-      "id": "heinrich-schuetz", "title": "Heinrich Schütz", "short": "Schütz", "start": "1585-10-08", "end": "1672-11-06", "importance": 4, "tags": ["international"],
-      "description": "Bedeutendster deutscher Komponist des 17. Jahrhunderts, Hofkapellmeister in Dresden.",
-      "place": { "name": "Dresden", "lat": 51.0504, "lon": 13.7373 }
-    },
-    {
-      "id": "lully", "title": "Jean-Baptiste Lully", "short": "Lully", "start": "1632-11-28", "end": "1687-03-22", "importance": 5, "tags": ["international"],
-      "description": "Hofkomponist Ludwigs XIV., Begründer der französischen Oper.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "purcell", "title": "Henry Purcell", "short": "Purcell", "start": "1659", "end": "1695-11-21", "importance": 5, "tags": ["international"],
-      "description": "Bedeutendster englischer Barockkomponist („Dido and Aeneas“).",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "corelli", "title": "Arcangelo Corelli", "short": "Corelli", "start": "1653-02-17", "end": "1713-01-08", "importance": 5, "tags": ["international"],
-      "description": "Römischer Geiger und Komponist; seine Concerti grossi und Sonaten wurden stilbildend.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "vivaldi", "title": "Antonio Vivaldi", "short": "Vivaldi", "start": "1678-03-04", "end": "1741-07-28", "importance": 4, "tags": ["international"],
-      "description": "Venezianischer Violinvirtuose und Komponist („Die vier Jahreszeiten“); starb verarmt in Wien.",
-      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 }
-    },
-    {
-      "id": "bach", "title": "Johann Sebastian Bach", "short": "J. S. Bach", "start": "1685-03-31", "end": "1750-07-28", "importance": 4, "tags": ["international"],
-      "description": "Thomaskantor in Leipzig; Höhepunkt und Synthese der Barockmusik.",
-      "place": { "name": "Leipzig", "lat": 51.3397, "lon": 12.3731 }
-    },
-    {
-      "id": "haendel", "title": "Georg Friedrich Händel", "short": "Händel", "start": "1685-02-23", "end": "1759-04-14", "importance": 4, "tags": ["international"],
-      "description": "Opern- und Oratorienkomponist, ab 1712 in London.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "gluck", "title": "Christoph Willibald Gluck", "short": "Gluck", "start": "1714-07-02", "end": "1787-11-15", "importance": 2,
-      "description": "Reformierte in Wien die Oper hin zu dramatischer Wahrhaftigkeit; Hofkomponist Maria Theresias.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Orfeo ed Euridice (Wien 1762), Alceste" }
-    },
-    {
-      "id": "wagenseil", "title": "Georg Christoph Wagenseil", "short": "Wagenseil", "start": "1715-01-29", "end": "1777-03-01", "importance": 3,
-      "description": "Hofkomponist und Musiklehrer der kaiserlichen Familie, Wegbereiter der Wiener Klassik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "leopold-mozart", "title": "Leopold Mozart", "start": "1719-11-14", "end": "1787-05-28", "importance": 3,
-      "description": "Vizekapellmeister in Salzburg, Vater und Lehrer Wolfgang Amadés; seine Violinschule (1756) war ein Standardwerk.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Versuch einer gründlichen Violinschule" }
-    },
-    {
-      "id": "joseph-haydn", "title": "Joseph Haydn", "short": "Haydn", "start": "1732-03-31", "end": "1809-05-31", "importance": 1,
-      "description": "„Vater“ der Symphonie und des Streichquartetts; jahrzehntelang Kapellmeister der Fürsten Esterházy. Schuf die Melodie der Kaiserhymne.",
-      "place": { "name": "Rohrau / Eisenstadt", "lat": 47.8456, "lon": 16.5267 },
-      "attributes": { "Werke": "Die Schöpfung, Die Jahreszeiten, „Gott erhalte Franz den Kaiser“" }
-    },
-    {
-      "id": "michael-haydn", "title": "Michael Haydn", "start": "1737-09-14", "end": "1806-08-10", "importance": 3,
-      "description": "Jüngerer Bruder Joseph Haydns; Konzertmeister und Organist in Salzburg.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "dittersdorf", "title": "Carl Ditters von Dittersdorf", "short": "Dittersdorf", "start": "1739-11-02", "end": "1799-10-24", "importance": 3,
-      "description": "Wiener Geiger und Komponist; sein Singspiel „Doktor und Apotheker“ war ein großer Erfolg.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "salieri", "title": "Antonio Salieri", "short": "Salieri", "start": "1750-08-18", "end": "1825-05-07", "importance": 2,
-      "description": "Hofkapellmeister in Wien und gefragter Lehrer von Beethoven, Schubert und Liszt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "mozart", "title": "Wolfgang Amadé Mozart", "short": "Mozart", "start": "1756-01-27", "end": "1791-12-05", "importance": 1,
-      "description": "In Salzburg geboren, ab 1781 in Wien; Hauptmeister der Wiener Klassik.",
-      "place": { "name": "Salzburg", "lat": 47.7999, "lon": 13.0434 },
-      "attributes": { "Werke": "Le nozze di Figaro, Don Giovanni, Die Zauberflöte, Requiem" }
-    },
-    {
-      "id": "beethoven", "title": "Ludwig van Beethoven", "short": "Beethoven", "start": "1770-12", "end": "1827-03-26", "importance": 1,
-      "description": "In Bonn geboren, ab 1792 in Wien; vollendete die Wiener Klassik und öffnete den Weg zur Romantik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "9 Symphonien, Fidelio, Missa solemnis" }
-    },
-    {
-      "id": "hummel", "title": "Johann Nepomuk Hummel", "short": "Hummel", "start": "1778-11-14", "end": "1837-10-17", "importance": 3,
-      "description": "In Pressburg geborener Pianist und Komponist, Schüler Mozarts; Nachfolger Haydns bei den Esterházy.",
-      "place": { "name": "Pressburg (Bratislava)", "lat": 48.1486, "lon": 17.1077 }
-    },
-    {
-      "id": "czerny", "title": "Carl Czerny", "short": "Czerny", "start": "1791-02-21", "end": "1857-07-15", "importance": 3,
-      "description": "Schüler Beethovens und Lehrer Liszts; seine Klavieretüden werden bis heute gespielt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "schubert", "title": "Franz Schubert", "short": "Schubert", "start": "1797-01-31", "end": "1828-11-19", "importance": 1,
-      "description": "Wiener Komponist der Frühromantik; über 600 Lieder, Symphonien und Kammermusik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Winterreise, Die schöne Müllerin, „Unvollendete“, Forellenquintett" }
-    },
-    {
-      "id": "lanner", "title": "Joseph Lanner", "short": "Lanner", "start": "1801-04-12", "end": "1843-04-14", "importance": 3,
-      "description": "Gemeinsam mit Johann Strauss Vater Begründer des Wiener Walzers.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "strauss-vater", "title": "Johann Strauss (Vater)", "short": "Strauss Vater", "start": "1804-03-14", "end": "1849-09-25", "importance": 2,
-      "description": "Walzerkomponist und Kapellmeister; sein Radetzky-Marsch (1848) wurde weltberühmt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Radetzky-Marsch" }
-    },
-    {
-      "id": "liszt", "title": "Franz Liszt", "short": "Liszt", "start": "1811-10-22", "end": "1886-07-31", "importance": 2,
-      "description": "Im burgenländischen Raiding geboren; Klaviervirtuose und Komponist der Romantik.",
-      "place": { "name": "Raiding", "lat": 47.5653, "lon": 16.5317 },
-      "attributes": { "Werke": "Ungarische Rhapsodien, Faust-Symphonie" }
-    },
-    {
-      "id": "suppe", "title": "Franz von Suppé", "short": "Suppé", "start": "1819-04-18", "end": "1895-05-21", "importance": 3,
-      "description": "Begründer der Wiener Operette.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Leichte Kavallerie, Boccaccio" }
-    },
-    {
-      "id": "bruckner", "title": "Anton Bruckner", "short": "Bruckner", "start": "1824-09-04", "end": "1896-10-11", "importance": 1,
-      "description": "Oberösterreichischer Organist und Symphoniker; ab 1868 in Wien.",
-      "place": { "name": "Ansfelden / St. Florian", "lat": 48.2085, "lon": 14.2903 },
-      "attributes": { "Werke": "9 Symphonien, Te Deum" }
-    },
-    {
-      "id": "strauss-sohn", "title": "Johann Strauss (Sohn)", "short": "Johann Strauss", "start": "1825-10-25", "end": "1899-06-03", "importance": 1,
-      "description": "Der „Walzerkönig“; prägte das Bild Wiens in der Welt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "An der schönen blauen Donau, Die Fledermaus" }
-    },
-    {
-      "id": "josef-strauss", "title": "Josef Strauss", "start": "1827-08-20", "end": "1870-07-22", "importance": 3,
-      "description": "Bruder Johann Strauss’ (Sohn), Komponist zahlreicher Walzer.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Sphärenklänge, Dorfschwalben aus Österreich" }
-    },
-    {
-      "id": "brahms", "title": "Johannes Brahms", "short": "Brahms", "start": "1833-05-07", "end": "1897-04-03", "importance": 2,
-      "description": "In Hamburg geboren, ab 1862 in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Ein deutsches Requiem, 4 Symphonien, Ungarische Tänze" }
-    },
-    {
-      "id": "dvorak", "title": "Antonín Dvořák", "short": "Dvořák", "start": "1841-09-08", "end": "1904-05-01", "importance": 3,
-      "description": "Böhmischer Komponist aus der Habsburgermonarchie.",
-      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
-      "attributes": { "Werke": "Symphonie „Aus der Neuen Welt“, Rusalka" }
-    },
-    {
-      "id": "millocker", "title": "Carl Millöcker", "short": "Millöcker", "start": "1842-04-29", "end": "1899-12-31", "importance": 3,
-      "description": "Operettenkomponist der „Goldenen Ära“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Der Bettelstudent" }
-    },
-    {
-      "id": "hugo-wolf", "title": "Hugo Wolf", "start": "1860-03-13", "end": "1903-02-22", "importance": 3,
-      "description": "Bedeutender Liedkomponist der Spätromantik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Mörike-Lieder, Italienisches Liederbuch" }
-    },
-    {
-      "id": "mahler", "title": "Gustav Mahler", "short": "Mahler", "start": "1860-07-07", "end": "1911-05-18", "importance": 1,
-      "description": "Symphoniker und von 1897 bis 1907 Direktor der Wiener Hofoper.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "10 Symphonien, Das Lied von der Erde" }
-    },
-    {
-      "id": "lehar", "title": "Franz Lehár", "short": "Lehár", "start": "1870-04-30", "end": "1948-10-24", "importance": 2,
-      "description": "Hauptmeister der „Silbernen Operettenära“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Die lustige Witwe (1905), Das Land des Lächelns" }
-    },
-    {
-      "id": "zemlinsky", "title": "Alexander Zemlinsky", "short": "Zemlinsky", "start": "1871-10-14", "end": "1942-03-15", "importance": 3,
-      "description": "Dirigent und Komponist, Lehrer Schönbergs.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "schoenberg", "title": "Arnold Schönberg", "short": "Schönberg", "start": "1874-09-13", "end": "1951-07-13", "importance": 1,
-      "description": "Begründer der Zwölftontechnik und der Zweiten Wiener Schule.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Verklärte Nacht, Pierrot lunaire" }
-    },
-    {
-      "id": "kreisler", "title": "Fritz Kreisler", "short": "Kreisler", "start": "1875-02-02", "end": "1962-01-29", "importance": 3,
-      "description": "Weltberühmter Wiener Geiger und Komponist.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Liebesleid, Liebesfreud" }
-    },
-    {
-      "id": "webern", "title": "Anton Webern", "short": "Webern", "start": "1883-12-03", "end": "1945-09-15", "importance": 2,
-      "description": "Schüler Schönbergs, Vertreter der Zweiten Wiener Schule.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "alban-berg", "title": "Alban Berg", "short": "Berg", "start": "1885-02-09", "end": "1935-12-24", "importance": 2,
-      "description": "Schüler Schönbergs; seine Oper „Wozzeck“ gehört zu den wichtigsten des 20. Jahrhunderts.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Wozzeck, Violinkonzert" }
-    },
-    {
-      "id": "rameau", "title": "Jean-Philippe Rameau", "start": "1683-09-25", "end": "1764-09-12", "importance": 5, "tags": ["international"],
-      "description": "Französischer Komponist und Musiktheoretiker.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "rossini", "title": "Gioachino Rossini", "short": "Rossini", "start": "1792-02-29", "end": "1868-11-13", "importance": 4, "tags": ["international"],
-      "description": "Italienischer Opernkomponist; löste 1822 in Wien ein regelrechtes „Rossini-Fieber“ aus.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Il barbiere di Siviglia" }
-    },
-    {
-      "id": "chopin", "title": "Frédéric Chopin", "short": "Chopin", "start": "1810-03-01", "end": "1849-10-17", "importance": 4, "tags": ["international"],
-      "description": "Polnischer Pianist und Komponist der Romantik.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "wagner", "title": "Richard Wagner", "short": "Wagner", "start": "1813-05-22", "end": "1883-02-13", "importance": 4, "tags": ["international"],
-      "description": "Opernreformer, Schöpfer des Musikdramas.",
-      "place": { "name": "Bayreuth", "lat": 49.9456, "lon": 11.5713 },
-      "attributes": { "Werke": "Der Ring des Nibelungen, Tristan und Isolde" }
-    },
-    {
-      "id": "verdi", "title": "Giuseppe Verdi", "short": "Verdi", "start": "1813-10-10", "end": "1901-01-27", "importance": 4, "tags": ["international"],
-      "description": "Bedeutendster italienischer Opernkomponist des 19. Jahrhunderts.",
-      "place": { "name": "Mailand", "lat": 45.4642, "lon": 9.19 },
-      "attributes": { "Werke": "Nabucco, La traviata, Aida" }
-    },
-    {
-      "id": "smetana", "title": "Bedřich Smetana", "short": "Smetana", "start": "1824-03-02", "end": "1884-05-12", "importance": 3,
-      "description": "Begründer der tschechischen Nationalmusik, aus dem habsburgischen Böhmen.",
-      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
-      "attributes": { "Werke": "Má vlast (Die Moldau)" }
-    },
-    {
-      "id": "tschaikowski", "title": "Pjotr Iljitsch Tschaikowski", "short": "Tschaikowski", "start": "1840-05-07", "end": "1893-11-06", "importance": 5, "tags": ["international"],
-      "description": "Russischer Komponist der Romantik.",
-      "place": { "name": "Sankt Petersburg", "lat": 59.9343, "lon": 30.3351 },
-      "attributes": { "Werke": "Schwanensee, Der Nussknacker" }
-    },
-    {
-      "id": "richard-strauss", "title": "Richard Strauss", "start": "1864-06-11", "end": "1949-09-08", "importance": 4, "tags": ["international"],
-      "description": "Deutscher Komponist; 1919 bis 1924 Co-Direktor der Wiener Staatsoper, Mitbegründer der Salzburger Festspiele.",
-      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 },
-      "attributes": { "Werke": "Der Rosenkavalier, Salome" }
-    },
-    {
-      "id": "debussy", "title": "Claude Debussy", "short": "Debussy", "start": "1862-08-22", "end": "1918-03-25", "importance": 5, "tags": ["international"],
-      "description": "Hauptvertreter des musikalischen Impressionismus.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "strawinsky", "title": "Igor Strawinsky", "short": "Strawinsky", "start": "1882-06-17", "end": "1971-04-06", "importance": 5, "tags": ["international"],
-      "description": "Russischer Komponist der Moderne.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Le sacre du printemps (1913)" }
-    },
-    {
-      "id": "moench-von-salzburg", "title": "Der Mönch von Salzburg", "start": "~1340", "end": "~1400", "importance": 2,
-      "description": "Dichter und Komponist am Hof des Salzburger Erzbischofs Pilgrim II.; schuf frühe mehrstimmige Lieder in deutscher Sprache.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Geistliche und weltliche Lieder (u. a. „Das Kuhhorn“)" }
-    },
-    {
-      "id": "hugo-von-montfort", "title": "Hugo von Montfort", "short": "Montfort", "start": "1357", "end": "1423-04-04", "importance": 3,
-      "description": "Minnesänger aus Vorarlberg, Landeshauptmann der Steiermark.",
-      "place": { "name": "Bregenz", "lat": 47.5031, "lon": 9.7471 }
-    },
-    {
-      "id": "oswald-von-wolkenstein", "title": "Oswald von Wolkenstein", "short": "Wolkenstein", "start": "~1377", "end": "1445-08-02", "importance": 1,
-      "description": "Südtiroler Dichter, Komponist und Diplomat; bedeutendster deutschsprachiger Liedermacher des Spätmittelalters.",
-      "place": { "name": "Burg Hauenstein (Südtirol)", "lat": 46.5395, "lon": 11.5778 },
-      "attributes": { "Werke": "Rund 130 Lieder, teils mehrstimmig" }
-    },
-    {
-      "id": "machaut", "title": "Guillaume de Machaut", "short": "Machaut", "start": "~1300", "end": "1377-04", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister der französischen Ars nova.",
-      "place": { "name": "Reims", "lat": 49.2583, "lon": 4.0317 },
-      "attributes": { "Werke": "Messe de Nostre Dame" }
-    },
-    {
-      "id": "landini", "title": "Francesco Landini", "short": "Landini", "start": "~1325", "end": "1397-09-02", "importance": 5, "tags": ["international"],
-      "description": "Blinder Florentiner Organist und Komponist des Trecento.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
-    },
-    {
-      "id": "dufay", "title": "Guillaume Dufay", "short": "Dufay", "start": "~1397", "end": "1474-11-27", "importance": 4, "tags": ["international"],
-      "description": "Führender Komponist der franko-flämischen Schule.",
-      "place": { "name": "Cambrai", "lat": 50.176, "lon": 3.235 }
-    },
-    {
-      "id": "ockeghem", "title": "Johannes Ockeghem", "short": "Ockeghem", "start": "~1410", "end": "1497-02-06", "importance": 5, "tags": ["international"],
-      "description": "Franko-flämischer Meister der Polyphonie.",
-      "place": { "name": "Tours", "lat": 47.3941, "lon": 0.6848 }
-    },
-    {
-      "id": "walther-von-der-vogelweide", "title": "Walther von der Vogelweide", "short": "Walther v. d. Vogelweide", "start": "~1170", "end": "~1230", "importance": 1,
-      "description": "Bedeutendster Lyriker des deutschen Mittelalters; lernte nach eigenen Worten „in Österreich singen und sagen“ am Babenbergerhof in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Unter der linden, Reichston" }
-    },
-    {
-      "id": "neidhart", "title": "Neidhart von Reuental", "short": "Neidhart", "start": "~1190", "end": "~1240", "importance": 2,
-      "description": "Minnesänger, ab etwa 1230 am Hof Herzog Friedrichs II. in Österreich; Begründer der „höfischen Dorfpoesie“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Sommer- und Winterlieder" }
-    },
-    {
-      "id": "tannhaeuser", "title": "Der Tannhäuser", "short": "Tannhäuser", "start": "~1205", "end": "~1265", "importance": 3,
-      "description": "Minnesänger am Hof Friedrichs des Streitbaren in Wien; später Sagenfigur (Wagner).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "schuppanzigh", "title": "Ignaz Schuppanzigh", "short": "Schuppanzigh", "start": "1776-11-20", "end": "1830-03-02", "importance": 3,
-      "description": "Geiger, Freund Beethovens; mit seinem Quartett begründete er das öffentliche Streichquartettkonzert.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "paganini", "title": "Niccolò Paganini", "short": "Paganini", "start": "1782-10-27", "end": "1840-05-27", "importance": 4, "tags": ["international"],
-      "description": "Teufelsgeiger; seine Wiener Konzerte 1828 lösten einen Begeisterungssturm aus.",
-      "place": { "name": "Genua", "lat": 44.4056, "lon": 8.9463 }
-    },
-    {
-      "id": "hans-richter", "title": "Hans Richter", "short": "Richter", "start": "1843-04-04", "end": "1916-12-05", "importance": 3,
-      "description": "Dirigent der Wiener Hofoper und der Wiener Philharmoniker, Uraufführungsdirigent Wagners in Bayreuth.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "otto-nicolai", "title": "Otto Nicolai", "short": "Nicolai", "start": "1810-06-09", "end": "1849-05-11", "importance": 3,
-      "description": "Gründete 1842 die Wiener Philharmoniker; Komponist der „Lustigen Weiber von Windsor“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "notker", "title": "Notker Balbulus", "short": "Notker", "start": "~840", "end": "912-04-06", "importance": 4, "tags": ["international"],
-      "description": "Mönch in St. Gallen; Meister der Sequenz.",
-      "place": { "name": "St. Gallen", "lat": 47.4245, "lon": 9.3767 }
-    },
-    {
-      "id": "guido-von-arezzo", "title": "Guido von Arezzo", "short": "Guido v. Arezzo", "start": "~992", "end": "~1050", "importance": 4, "tags": ["international"],
-      "description": "Erfand das Liniensystem der Notenschrift und die Solmisation.",
-      "place": { "name": "Arezzo", "lat": 43.4633, "lon": 11.8796 }
-    },
-    {
-      "id": "hildegard-von-bingen", "title": "Hildegard von Bingen", "short": "Hildegard", "start": "1098", "end": "1179-09-17", "importance": 3, "tags": ["international"],
-      "description": "Äbtissin, Mystikerin und Komponistin geistlicher Gesänge.",
-      "place": { "name": "Bingen", "lat": 49.9667, "lon": 7.9 }
-    },
-    {
-      "id": "der-von-kuerenberg", "title": "Der von Kürenberg", "short": "Kürenberger", "start": "~1130", "end": "~1170", "importance": 2,
-      "description": "Ältester namentlich bekannter Minnesänger, aus dem Donauraum (vermutlich Oberösterreich).",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Werke": "Falkenlied" }
-    },
-    {
-      "id": "dietmar-von-aist", "title": "Dietmar von Aist", "start": "~1140", "end": "~1171", "importance": 3,
-      "description": "Früher Minnesänger aus dem oberösterreichischen Mühlviertel.",
-      "place": { "name": "Aist", "lat": 48.3, "lon": 14.6 }
-    },
-    {
-      "id": "reinmar-der-alte", "title": "Reinmar der Alte", "short": "Reinmar", "start": "~1160", "end": "~1205", "importance": 2,
-      "description": "Minnesänger am Babenbergerhof in Wien, Lehrer und Rivale Walthers von der Vogelweide.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "perotin", "title": "Pérotin", "start": "~1160", "end": "~1230", "importance": 5, "tags": ["international"],
-      "description": "Meister der Notre-Dame-Schule in Paris.",
-      "place": { "name": "Paris", "lat": 48.853, "lon": 2.3499 }
-    },
-    {
-      "id": "robert-stolz", "title": "Robert Stolz", "short": "Stolz", "start": "1880-08-25", "end": "1975-06-27", "importance": 2,
-      "description": "Grazer Operetten- und Filmkomponist, letzter großer Meister der Wiener Operette.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Im Prater blüh’n wieder die Bäume" }
-    },
-    {
-      "id": "karl-boehm", "title": "Karl Böhm", "short": "Böhm", "start": "1894-08-28", "end": "1981-08-14", "importance": 3,
-      "description": "Dirigent, Direktor der Wiener Staatsoper.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "korngold", "title": "Erich Wolfgang Korngold", "short": "Korngold", "start": "1897-05-29", "end": "1957-11-29", "importance": 2,
-      "description": "Wunderkind der Wiener Moderne, nach der Emigration Pionier der Hollywood-Filmmusik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Die tote Stadt, Filmmusik zu „Robin Hood“" }
-    },
-    {
-      "id": "hanns-eisler", "title": "Hanns Eisler", "short": "Eisler", "start": "1898-07-06", "end": "1962-09-06", "importance": 3,
-      "description": "Schönberg-Schüler, Komponist politischer Lieder und Filmmusik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "ernst-krenek", "title": "Ernst Krenek", "short": "Krenek", "start": "1900-08-23", "end": "1991-12-22", "importance": 3,
-      "description": "Komponist der Jazzoper „Jonny spielt auf“ (1927), später in den USA.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "karajan", "title": "Herbert von Karajan", "short": "Karajan", "start": "1908-04-05", "end": "1989-07-16", "importance": 1,
-      "description": "Salzburger Dirigent von Weltrang, prägte die Salzburger Festspiele und die Berliner Philharmoniker.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "gottfried-von-einem", "title": "Gottfried von Einem", "short": "Einem", "start": "1918-01-24", "end": "1996-07-12", "importance": 3,
-      "description": "Opernkomponist der Nachkriegszeit.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Dantons Tod, Der Besuch der alten Dame" }
-    },
-    {
-      "id": "georg-kreisler", "title": "Georg Kreisler", "short": "Kreisler", "start": "1922-07-18", "end": "2011-11-22", "importance": 3,
-      "description": "Kabarettist und Liedermacher des schwarzen Humors.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Tauben vergiften im Park" }
-    },
-    {
-      "id": "ligeti", "title": "György Ligeti", "short": "Ligeti", "start": "1923-05-28", "end": "2006-06-12", "importance": 2,
-      "description": "Avantgarde-Komponist, lebte ab 1956 in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Atmosphères, Le Grand Macabre" }
-    },
-    {
-      "id": "friedrich-cerha", "title": "Friedrich Cerha", "short": "Cerha", "start": "1926-02-17", "end": "2023-02-14", "importance": 3,
-      "description": "Komponist und Dirigent; vollendete Alban Bergs Oper „Lulu“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "harnoncourt", "title": "Nikolaus Harnoncourt", "short": "Harnoncourt", "start": "1929-12-06", "end": "2016-03-05", "importance": 2,
-      "description": "Dirigent, Pionier der historischen Aufführungspraxis (Concentus Musicus Wien).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "friedrich-gulda", "title": "Friedrich Gulda", "short": "Gulda", "start": "1930-05-16", "end": "2000-01-27", "importance": 3,
-      "description": "Pianist zwischen Klassik und Jazz.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "joe-zawinul", "title": "Joe Zawinul", "short": "Zawinul", "start": "1932-07-07", "end": "2007-09-11", "importance": 3,
-      "description": "Jazzpianist, Mitbegründer von „Weather Report“.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Birdland" }
-    },
-    {
-      "id": "udo-juergens", "title": "Udo Jürgens", "short": "Udo Jürgens", "start": "1934-09-30", "end": "2014-12-21", "importance": 2,
-      "description": "Sänger und Komponist; gewann 1966 als erster Österreicher den Eurovision Song Contest.",
-      "place": { "name": "Klagenfurt", "lat": 46.6249, "lon": 14.305 },
-      "attributes": { "Werke": "Merci Chérie, Griechischer Wein" }
-    },
-    {
-      "id": "falco", "title": "Falco", "start": "1957-02-19", "end": "1998-02-06", "importance": 2,
-      "description": "Popmusiker; „Rock Me Amadeus“ war 1986 Nummer eins in den USA.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Rock Me Amadeus, Der Kommissar" }
-    },
-    {
-      "id": "gershwin", "title": "George Gershwin", "short": "Gershwin", "start": "1898-09-26", "end": "1937-07-11", "importance": 5, "tags": ["international"],
-      "description": "Amerikanischer Komponist zwischen Jazz und Klassik.",
-      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 },
-      "attributes": { "Werke": "Rhapsody in Blue" }
-    },
-    {
-      "id": "louis-armstrong", "title": "Louis Armstrong", "short": "Armstrong", "start": "1901-08-04", "end": "1971-07-06", "importance": 5, "tags": ["international"],
-      "description": "Jazztrompeter und Sänger.",
-      "place": { "name": "New Orleans", "lat": 29.9511, "lon": -90.0715 }
-    },
-    {
-      "id": "schostakowitsch", "title": "Dmitri Schostakowitsch", "short": "Schostakowitsch", "start": "1906-09-25", "end": "1975-08-09", "importance": 4, "tags": ["international"],
-      "description": "Russischer Symphoniker.",
-      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
-    },
-    {
-      "id": "bernstein", "title": "Leonard Bernstein", "short": "Bernstein", "start": "1918-08-25", "end": "1990-10-14", "importance": 4, "tags": ["international"],
-      "description": "Dirigent und Komponist, eng verbunden mit den Wiener Philharmonikern.",
-      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 },
-      "attributes": { "Werke": "West Side Story" }
-    },
-    {
-      "id": "maria-callas", "title": "Maria Callas", "short": "Callas", "start": "1923-12-02", "end": "1977-09-16", "importance": 5, "tags": ["international"],
-      "description": "Sopranistin, Primadonna assoluta.",
-      "place": { "name": "Mailand", "lat": 45.4642, "lon": 9.19 }
-    },
-    {
-      "id": "elvis", "title": "Elvis Presley", "short": "Elvis", "start": "1935-01-08", "end": "1977-08-16", "importance": 4, "tags": ["international"],
-      "description": "„King of Rock ’n’ Roll“.",
-      "place": { "name": "Memphis", "lat": 35.1495, "lon": -90.049 }
-    },
-    {
-      "id": "john-lennon", "title": "John Lennon", "short": "Lennon", "start": "1940-10-09", "end": "1980-12-08", "importance": 4, "tags": ["international"],
-      "description": "Mitglied der Beatles.",
-      "place": { "name": "Liverpool", "lat": 53.4084, "lon": -2.9916 }
-    }
+    {"id":"heinrich-isaac","title":"Heinrich Isaac","start":"~1450","end":"1517-03-26","importance":1,"description":"Flämischer Komponist, ab 1497 Hofkomponist Maximilians I. Sein Lied „Innsbruck, ich muss dich lassen“ gehört zu den bekanntesten Liedern der Renaissance.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Wirkungsorte":"Florenz, Innsbruck, Wien, Konstanz","Werke":"„Innsbruck, ich muss dich lassen“, Choralis Constantinus"}},
+    {"id":"paul-hofhaimer","title":"Paul Hofhaimer","start":"1459-01-25","end":"1537","importance":1,"description":"Aus Radstadt stammender Organist und Komponist, Hoforganist Maximilians I.; galt als bedeutendster Organist seiner Zeit. Später Domorganist in Salzburg.","place":{"name":"Radstadt","lat":47.3833,"lon":13.4589},"attributes":{"Wirkungsorte":"Innsbruck, Wien, Augsburg, Salzburg"}},
+    {"id":"ludwig-senfl","title":"Ludwig Senfl","start":"~1490","end":"~1543","importance":2,"description":"Schüler Heinrich Isaacs und dessen Nachfolger in der Hofkapelle Maximilians I.; später in München. Bedeutender Meister des deutschen Tenorlieds.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Wirkungsorte":"Wien, Augsburg, München"}},
+    {"id":"arnold-von-bruck","title":"Arnold von Bruck","start":"~1500","end":"1554-02-06","importance":2,"description":"Aus Brügge stammend; von 1527 bis 1545 Hofkapellmeister Ferdinands I. in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister Ferdinands I. (1527–1545)","Gestorben":"Linz"}},
+    {"id":"jacobus-vaet","title":"Jacobus Vaet","start":"~1529","end":"1567-01-08","importance":3,"description":"Flämischer Komponist, ab 1564 Hofkapellmeister Maximilians II. in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister Maximilians II."}},
+    {"id":"philippe-de-monte","title":"Philippe de Monte","start":"1521","end":"1603-07-04","importance":2,"description":"Ab 1568 Hofkapellmeister Maximilians II. und danach Rudolfs II. in Wien und Prag; einer der produktivsten Madrigalkomponisten.","place":{"name":"Wien / Prag","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (ab 1568)"}},
+    {"id":"annibale-padovano","title":"Annibale Padovano","start":"1527","end":"1575-03-15","importance":3,"description":"Organist an San Marco in Venedig, ab 1566 im Dienst Erzherzog Karls II. am Grazer Hof.","place":{"name":"Graz","lat":47.0707,"lon":15.4395},"attributes":{"Wirkungsorte":"Venedig, Graz"}},
+    {"id":"alexander-utendal","title":"Alexander Utendal","start":"~1543","end":"1581-05-07","importance":3,"description":"Flämischer Komponist in der Hofkapelle Erzherzog Ferdinands II. in Prag und Innsbruck.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041}},
+    {"id":"jacobus-gallus","title":"Jacobus Gallus (Handl)","short":"Jacobus Gallus","start":"1550","end":"1591-07-18","importance":3,"description":"Aus Krain stammender Komponist; wirkte u. a. in Wien, Olmütz und Prag. Sein „Opus musicum“ umfasst Motetten für das ganze Kirchenjahr.","place":{"name":"Prag","lat":50.0755,"lon":14.4378},"attributes":{"Werke":"Opus musicum (1586–1590)"}},
+    {"id":"lambert-de-sayve","title":"Lambert de Sayve","start":"~1549","end":"1614-02-16","importance":3,"description":"Hofkapellmeister Erzherzog Matthias’ und später der kaiserlichen Hofkapelle; starb in Linz.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"josquin","title":"Josquin des Prez","start":"~1450","end":"1521-08-27","importance":4,"description":"Führender Komponist der franko-flämischen Vokalpolyphonie um 1500.","place":{"name":"Condé-sur-l’Escaut","lat":50.4561,"lon":3.5911},"tags":["international"]},
+    {"id":"palestrina","title":"Giovanni Pierluigi da Palestrina","short":"Palestrina","start":"~1525","end":"1594-02-02","importance":4,"description":"Römischer Kirchenmusiker; sein Stil galt als Vorbild der katholischen Kirchenmusik nach dem Konzil von Trient.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Werke":"Missa Papae Marcelli"},"tags":["international"]},
+    {"id":"orlando-di-lasso","title":"Orlando di Lasso","start":"~1532","end":"1594-06-14","importance":4,"description":"Hofkapellmeister in München und einer der vielseitigsten Komponisten des 16. Jahrhunderts.","place":{"name":"München","lat":48.1374,"lon":11.5755},"tags":["international"]},
+    {"id":"hans-leo-hassler","title":"Hans Leo Hassler","start":"1564-10-26","end":"1612-06-08","importance":5,"description":"Nürnberger Organist und Komponist, ab 1602 auch Kammerorganist Rudolfs II.","place":{"name":"Nürnberg","lat":49.4521,"lon":11.0767},"tags":["international"]},
+    {"id":"giovanni-valentini","title":"Giovanni Valentini","start":"~1582","end":"1649-04-29","importance":3,"description":"Italienischer Organist und Komponist; ab 1626 Hofkapellmeister Ferdinands II. in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (ab 1626)"}},
+    {"id":"antonio-bertali","title":"Antonio Bertali","start":"1605","end":"1669-04-17","importance":3,"description":"Violinist und Komponist; ab 1649 Hofkapellmeister in Wien, prägte die frühe Oper am Kaiserhof.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (ab 1649)"}},
+    {"id":"johann-jakob-froberger","title":"Johann Jakob Froberger","short":"Froberger","start":"1616-05-19","end":"1667-05-07","importance":2,"description":"Hoforganist in Wien; wichtiger Wegbereiter der Klaviersuite, verband italienische und französische Einflüsse.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hoforganist","Werke":"Toccaten, Suiten, Lamentation auf den Tod Ferdinands III."}},
+    {"id":"johann-heinrich-schmelzer","title":"Johann Heinrich Schmelzer","short":"Schmelzer","start":"~1620","end":"1680","importance":2,"description":"Erster nicht-italienischer Hofkapellmeister in Wien (1679); Meister der Violinmusik und der Ballettmusik am Hof Leopolds I.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (1679–1680)","Werke":"Sonatae unarum fidium (1664)"}},
+    {"id":"antonio-cesti","title":"Antonio Cesti","start":"1623-08-05","end":"1669-10-14","importance":3,"description":"Opernkomponist; seine Festoper „Il pomo d’oro“ zur Hochzeit Leopolds I. (1668) war eine der aufwendigsten Opernaufführungen des Barock.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Il pomo d’oro (1668)"}},
+    {"id":"johann-caspar-kerll","title":"Johann Caspar Kerll","short":"Kerll","start":"1627-04-09","end":"1693-02-13","importance":3,"description":"Organist und Komponist; nach Jahren als Münchner Hofkapellmeister ab 1677 Hoforganist in Wien. Erlebte die Belagerung von 1683.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hoforganist in Wien"}},
+    {"id":"antonio-draghi","title":"Antonio Draghi","start":"~1634","end":"1700-01-16","importance":3,"description":"Ab 1682 Hofkapellmeister Leopolds I.; komponierte über 170 Bühnenwerke für den Wiener Hof.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (ab 1682)"}},
+    {"id":"heinrich-ignaz-franz-biber","title":"Heinrich Ignaz Franz Biber","short":"Biber","start":"1644-08-12","end":"1704-05-03","importance":1,"description":"Violinvirtuose und Kapellmeister am Salzburger Hof; seine Rosenkranzsonaten und die Missa Salisburgensis gehören zu den Gipfelwerken der Barockmusik.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Rosenkranzsonaten, Missa Salisburgensis (zugeschrieben)"}},
+    {"id":"georg-muffat","title":"Georg Muffat","start":"1653-06-01","end":"1704-02-23","importance":3,"description":"Organist in Salzburg und Kapellmeister in Passau; vermittelte französischen und italienischen Stil in den deutschsprachigen Raum.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Apparatus musico-organisticus (1690), Florilegium"}},
+    {"id":"johann-joseph-fux","title":"Johann Joseph Fux","short":"Fux","start":"~1660","end":"1741-02-13","importance":1,"description":"Steirischer Komponist und Musiktheoretiker, ab 1715 Hofkapellmeister in Wien. Sein Lehrbuch „Gradus ad Parnassum“ (1725) prägte Generationen von Komponisten bis Haydn und Mozart.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (ab 1715)","Werke":"Gradus ad Parnassum (1725), Costanza e Fortezza (1723)","Geboren":"Hirtenfeld (Steiermark)"}},
+    {"id":"marcantonio-ziani","title":"Marc’Antonio Ziani","short":"Ziani","start":"~1653","end":"1715-01-22","importance":3,"description":"Venezianischer Opernkomponist; ab 1700 Vizekapellmeister, ab 1712 Hofkapellmeister in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofkapellmeister (1712–1715)"}},
+    {"id":"monteverdi","title":"Claudio Monteverdi","short":"Monteverdi","start":"1567-05-15","end":"1643-11-29","importance":4,"description":"Schöpfer der ersten Meisterwerke der Oper („L’Orfeo“, 1607); Kapellmeister an San Marco in Venedig.","place":{"name":"Venedig","lat":45.4344,"lon":12.3388},"attributes":{"Werke":"L’Orfeo, Marienvesper, L’incoronazione di Poppea"},"tags":["international"]},
+    {"id":"heinrich-schuetz","title":"Heinrich Schütz","short":"Schütz","start":"1585-10-08","end":"1672-11-06","importance":4,"description":"Bedeutendster deutscher Komponist des 17. Jahrhunderts, Hofkapellmeister in Dresden.","place":{"name":"Dresden","lat":51.0504,"lon":13.7373},"tags":["international"]},
+    {"id":"lully","title":"Jean-Baptiste Lully","short":"Lully","start":"1632-11-28","end":"1687-03-22","importance":5,"description":"Hofkomponist Ludwigs XIV., Begründer der französischen Oper.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"purcell","title":"Henry Purcell","short":"Purcell","start":"1659","end":"1695-11-21","importance":5,"description":"Bedeutendster englischer Barockkomponist („Dido and Aeneas“).","place":{"name":"London","lat":51.5074,"lon":-0.1278},"tags":["international"]},
+    {"id":"corelli","title":"Arcangelo Corelli","short":"Corelli","start":"1653-02-17","end":"1713-01-08","importance":5,"description":"Römischer Geiger und Komponist; seine Concerti grossi und Sonaten wurden stilbildend.","place":{"name":"Rom","lat":41.9028,"lon":12.4964},"tags":["international"]},
+    {"id":"vivaldi","title":"Antonio Vivaldi","short":"Vivaldi","start":"1678-03-04","end":"1741-07-28","importance":4,"description":"Venezianischer Violinvirtuose und Komponist („Die vier Jahreszeiten“); starb verarmt in Wien.","place":{"name":"Venedig","lat":45.4344,"lon":12.3388},"tags":["international"]},
+    {"id":"bach","title":"Johann Sebastian Bach","short":"J. S. Bach","start":"1685-03-31","end":"1750-07-28","importance":4,"description":"Thomaskantor in Leipzig; Höhepunkt und Synthese der Barockmusik.","place":{"name":"Leipzig","lat":51.3397,"lon":12.3731},"tags":["international"]},
+    {"id":"haendel","title":"Georg Friedrich Händel","short":"Händel","start":"1685-02-23","end":"1759-04-14","importance":4,"description":"Opern- und Oratorienkomponist, ab 1712 in London.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"tags":["international"]},
+    {"id":"gluck","title":"Christoph Willibald Gluck","short":"Gluck","start":"1714-07-02","end":"1787-11-15","importance":2,"description":"Reformierte in Wien die Oper hin zu dramatischer Wahrhaftigkeit; Hofkomponist Maria Theresias.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Orfeo ed Euridice (Wien 1762), Alceste"}},
+    {"id":"wagenseil","title":"Georg Christoph Wagenseil","short":"Wagenseil","start":"1715-01-29","end":"1777-03-01","importance":3,"description":"Hofkomponist und Musiklehrer der kaiserlichen Familie, Wegbereiter der Wiener Klassik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"leopold-mozart","title":"Leopold Mozart","start":"1719-11-14","end":"1787-05-28","importance":3,"description":"Vizekapellmeister in Salzburg, Vater und Lehrer Wolfgang Amadés; seine Violinschule (1756) war ein Standardwerk.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Versuch einer gründlichen Violinschule"}},
+    {"id":"joseph-haydn","title":"Joseph Haydn","short":"Haydn","start":"1732-03-31","end":"1809-05-31","importance":1,"description":"„Vater“ der Symphonie und des Streichquartetts; jahrzehntelang Kapellmeister der Fürsten Esterházy. Schuf die Melodie der Kaiserhymne.","place":{"name":"Rohrau / Eisenstadt","lat":47.8456,"lon":16.5267},"attributes":{"Werke":"Die Schöpfung, Die Jahreszeiten, „Gott erhalte Franz den Kaiser“"}},
+    {"id":"michael-haydn","title":"Michael Haydn","start":"1737-09-14","end":"1806-08-10","importance":3,"description":"Jüngerer Bruder Joseph Haydns; Konzertmeister und Organist in Salzburg.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"dittersdorf","title":"Carl Ditters von Dittersdorf","short":"Dittersdorf","start":"1739-11-02","end":"1799-10-24","importance":3,"description":"Wiener Geiger und Komponist; sein Singspiel „Doktor und Apotheker“ war ein großer Erfolg.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"salieri","title":"Antonio Salieri","short":"Salieri","start":"1750-08-18","end":"1825-05-07","importance":2,"description":"Hofkapellmeister in Wien und gefragter Lehrer von Beethoven, Schubert und Liszt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"mozart","title":"Wolfgang Amadé Mozart","short":"Mozart","start":"1756-01-27","end":"1791-12-05","importance":1,"description":"In Salzburg geboren, ab 1781 in Wien; Hauptmeister der Wiener Klassik.","place":{"name":"Salzburg","lat":47.7999,"lon":13.0434},"attributes":{"Werke":"Le nozze di Figaro, Don Giovanni, Die Zauberflöte, Requiem"}},
+    {"id":"beethoven","title":"Ludwig van Beethoven","short":"Beethoven","start":"1770-12","end":"1827-03-26","importance":1,"description":"In Bonn geboren, ab 1792 in Wien; vollendete die Wiener Klassik und öffnete den Weg zur Romantik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"9 Symphonien, Fidelio, Missa solemnis"}},
+    {"id":"hummel","title":"Johann Nepomuk Hummel","short":"Hummel","start":"1778-11-14","end":"1837-10-17","importance":3,"description":"In Pressburg geborener Pianist und Komponist, Schüler Mozarts; Nachfolger Haydns bei den Esterházy.","place":{"name":"Pressburg (Bratislava)","lat":48.1486,"lon":17.1077}},
+    {"id":"czerny","title":"Carl Czerny","short":"Czerny","start":"1791-02-21","end":"1857-07-15","importance":3,"description":"Schüler Beethovens und Lehrer Liszts; seine Klavieretüden werden bis heute gespielt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"schubert","title":"Franz Schubert","short":"Schubert","start":"1797-01-31","end":"1828-11-19","importance":1,"description":"Wiener Komponist der Frühromantik; über 600 Lieder, Symphonien und Kammermusik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Winterreise, Die schöne Müllerin, „Unvollendete“, Forellenquintett"}},
+    {"id":"lanner","title":"Joseph Lanner","short":"Lanner","start":"1801-04-12","end":"1843-04-14","importance":3,"description":"Gemeinsam mit Johann Strauss Vater Begründer des Wiener Walzers.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"strauss-vater","title":"Johann Strauss (Vater)","short":"Strauss Vater","start":"1804-03-14","end":"1849-09-25","importance":2,"description":"Walzerkomponist und Kapellmeister; sein Radetzky-Marsch (1848) wurde weltberühmt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Radetzky-Marsch"}},
+    {"id":"liszt","title":"Franz Liszt","short":"Liszt","start":"1811-10-22","end":"1886-07-31","importance":2,"description":"Im burgenländischen Raiding geboren; Klaviervirtuose und Komponist der Romantik.","place":{"name":"Raiding","lat":47.5653,"lon":16.5317},"attributes":{"Werke":"Ungarische Rhapsodien, Faust-Symphonie"}},
+    {"id":"suppe","title":"Franz von Suppé","short":"Suppé","start":"1819-04-18","end":"1895-05-21","importance":3,"description":"Begründer der Wiener Operette.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Leichte Kavallerie, Boccaccio"}},
+    {"id":"bruckner","title":"Anton Bruckner","short":"Bruckner","start":"1824-09-04","end":"1896-10-11","importance":1,"description":"Oberösterreichischer Organist und Symphoniker; ab 1868 in Wien.","place":{"name":"Ansfelden / St. Florian","lat":48.2085,"lon":14.2903},"attributes":{"Werke":"9 Symphonien, Te Deum"}},
+    {"id":"strauss-sohn","title":"Johann Strauss (Sohn)","short":"Johann Strauss","start":"1825-10-25","end":"1899-06-03","importance":1,"description":"Der „Walzerkönig“; prägte das Bild Wiens in der Welt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"An der schönen blauen Donau, Die Fledermaus"}},
+    {"id":"josef-strauss","title":"Josef Strauss","start":"1827-08-20","end":"1870-07-22","importance":3,"description":"Bruder Johann Strauss’ (Sohn), Komponist zahlreicher Walzer.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Sphärenklänge, Dorfschwalben aus Österreich"}},
+    {"id":"brahms","title":"Johannes Brahms","short":"Brahms","start":"1833-05-07","end":"1897-04-03","importance":2,"description":"In Hamburg geboren, ab 1862 in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Ein deutsches Requiem, 4 Symphonien, Ungarische Tänze"}},
+    {"id":"dvorak","title":"Antonín Dvořák","short":"Dvořák","start":"1841-09-08","end":"1904-05-01","importance":3,"description":"Böhmischer Komponist aus der Habsburgermonarchie.","place":{"name":"Prag","lat":50.0755,"lon":14.4378},"attributes":{"Werke":"Symphonie „Aus der Neuen Welt“, Rusalka"}},
+    {"id":"millocker","title":"Carl Millöcker","short":"Millöcker","start":"1842-04-29","end":"1899-12-31","importance":3,"description":"Operettenkomponist der „Goldenen Ära“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Der Bettelstudent"}},
+    {"id":"hugo-wolf","title":"Hugo Wolf","start":"1860-03-13","end":"1903-02-22","importance":3,"description":"Bedeutender Liedkomponist der Spätromantik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Mörike-Lieder, Italienisches Liederbuch"}},
+    {"id":"mahler","title":"Gustav Mahler","short":"Mahler","start":"1860-07-07","end":"1911-05-18","importance":1,"description":"Symphoniker und von 1897 bis 1907 Direktor der Wiener Hofoper.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"10 Symphonien, Das Lied von der Erde"}},
+    {"id":"lehar","title":"Franz Lehár","short":"Lehár","start":"1870-04-30","end":"1948-10-24","importance":2,"description":"Hauptmeister der „Silbernen Operettenära“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Die lustige Witwe (1905), Das Land des Lächelns"}},
+    {"id":"zemlinsky","title":"Alexander Zemlinsky","short":"Zemlinsky","start":"1871-10-14","end":"1942-03-15","importance":3,"description":"Dirigent und Komponist, Lehrer Schönbergs.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"schoenberg","title":"Arnold Schönberg","short":"Schönberg","start":"1874-09-13","end":"1951-07-13","importance":1,"description":"Begründer der Zwölftontechnik und der Zweiten Wiener Schule.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Verklärte Nacht, Pierrot lunaire"}},
+    {"id":"kreisler","title":"Fritz Kreisler","short":"Kreisler","start":"1875-02-02","end":"1962-01-29","importance":3,"description":"Weltberühmter Wiener Geiger und Komponist.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Liebesleid, Liebesfreud"}},
+    {"id":"webern","title":"Anton Webern","short":"Webern","start":"1883-12-03","end":"1945-09-15","importance":2,"description":"Schüler Schönbergs, Vertreter der Zweiten Wiener Schule.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"alban-berg","title":"Alban Berg","short":"Berg","start":"1885-02-09","end":"1935-12-24","importance":2,"description":"Schüler Schönbergs; seine Oper „Wozzeck“ gehört zu den wichtigsten des 20. Jahrhunderts.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Wozzeck, Violinkonzert"}},
+    {"id":"rameau","title":"Jean-Philippe Rameau","start":"1683-09-25","end":"1764-09-12","importance":5,"description":"Französischer Komponist und Musiktheoretiker.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"rossini","title":"Gioachino Rossini","short":"Rossini","start":"1792-02-29","end":"1868-11-13","importance":4,"description":"Italienischer Opernkomponist; löste 1822 in Wien ein regelrechtes „Rossini-Fieber“ aus.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Il barbiere di Siviglia"},"tags":["international"]},
+    {"id":"chopin","title":"Frédéric Chopin","short":"Chopin","start":"1810-03-01","end":"1849-10-17","importance":4,"description":"Polnischer Pianist und Komponist der Romantik.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"wagner","title":"Richard Wagner","short":"Wagner","start":"1813-05-22","end":"1883-02-13","importance":4,"description":"Opernreformer, Schöpfer des Musikdramas.","place":{"name":"Bayreuth","lat":49.9456,"lon":11.5713},"attributes":{"Werke":"Der Ring des Nibelungen, Tristan und Isolde"},"tags":["international"]},
+    {"id":"verdi","title":"Giuseppe Verdi","short":"Verdi","start":"1813-10-10","end":"1901-01-27","importance":4,"description":"Bedeutendster italienischer Opernkomponist des 19. Jahrhunderts.","place":{"name":"Mailand","lat":45.4642,"lon":9.19},"attributes":{"Werke":"Nabucco, La traviata, Aida"},"tags":["international"]},
+    {"id":"smetana","title":"Bedřich Smetana","short":"Smetana","start":"1824-03-02","end":"1884-05-12","importance":3,"description":"Begründer der tschechischen Nationalmusik, aus dem habsburgischen Böhmen.","place":{"name":"Prag","lat":50.0755,"lon":14.4378},"attributes":{"Werke":"Má vlast (Die Moldau)"}},
+    {"id":"tschaikowski","title":"Pjotr Iljitsch Tschaikowski","short":"Tschaikowski","start":"1840-05-07","end":"1893-11-06","importance":5,"description":"Russischer Komponist der Romantik.","place":{"name":"Sankt Petersburg","lat":59.9343,"lon":30.3351},"attributes":{"Werke":"Schwanensee, Der Nussknacker"},"tags":["international"]},
+    {"id":"richard-strauss","title":"Richard Strauss","start":"1864-06-11","end":"1949-09-08","importance":4,"description":"Deutscher Komponist; 1919 bis 1924 Co-Direktor der Wiener Staatsoper, Mitbegründer der Salzburger Festspiele.","place":{"name":"München","lat":48.1374,"lon":11.5755},"attributes":{"Werke":"Der Rosenkavalier, Salome"},"tags":["international"]},
+    {"id":"debussy","title":"Claude Debussy","short":"Debussy","start":"1862-08-22","end":"1918-03-25","importance":5,"description":"Hauptvertreter des musikalischen Impressionismus.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"strawinsky","title":"Igor Strawinsky","short":"Strawinsky","start":"1882-06-17","end":"1971-04-06","importance":5,"description":"Russischer Komponist der Moderne.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Le sacre du printemps (1913)"},"tags":["international"]},
+    {"id":"moench-von-salzburg","title":"Der Mönch von Salzburg","start":"~1340","end":"~1400","importance":2,"description":"Dichter und Komponist am Hof des Salzburger Erzbischofs Pilgrim II.; schuf frühe mehrstimmige Lieder in deutscher Sprache.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Geistliche und weltliche Lieder (u. a. „Das Kuhhorn“)"}},
+    {"id":"hugo-von-montfort","title":"Hugo von Montfort","short":"Montfort","start":"1357","end":"1423-04-04","importance":3,"description":"Minnesänger aus Vorarlberg, Landeshauptmann der Steiermark.","place":{"name":"Bregenz","lat":47.5031,"lon":9.7471}},
+    {"id":"oswald-von-wolkenstein","title":"Oswald von Wolkenstein","short":"Wolkenstein","start":"~1377","end":"1445-08-02","importance":1,"description":"Südtiroler Dichter, Komponist und Diplomat; bedeutendster deutschsprachiger Liedermacher des Spätmittelalters.","place":{"name":"Burg Hauenstein (Südtirol)","lat":46.5395,"lon":11.5778},"attributes":{"Werke":"Rund 130 Lieder, teils mehrstimmig"}},
+    {"id":"machaut","title":"Guillaume de Machaut","short":"Machaut","start":"~1300","end":"1377-04","importance":4,"description":"Hauptmeister der französischen Ars nova.","place":{"name":"Reims","lat":49.2583,"lon":4.0317},"attributes":{"Werke":"Messe de Nostre Dame"},"tags":["international"]},
+    {"id":"landini","title":"Francesco Landini","short":"Landini","start":"~1325","end":"1397-09-02","importance":5,"description":"Blinder Florentiner Organist und Komponist des Trecento.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"tags":["international"]},
+    {"id":"dufay","title":"Guillaume Dufay","short":"Dufay","start":"~1397","end":"1474-11-27","importance":4,"description":"Führender Komponist der franko-flämischen Schule.","place":{"name":"Cambrai","lat":50.176,"lon":3.235},"tags":["international"]},
+    {"id":"ockeghem","title":"Johannes Ockeghem","short":"Ockeghem","start":"~1410","end":"1497-02-06","importance":5,"description":"Franko-flämischer Meister der Polyphonie.","place":{"name":"Tours","lat":47.3941,"lon":0.6848},"tags":["international"]},
+    {"id":"walther-von-der-vogelweide","title":"Walther von der Vogelweide","short":"Walther v. d. Vogelweide","start":"~1170","end":"~1230","importance":1,"description":"Bedeutendster Lyriker des deutschen Mittelalters; lernte nach eigenen Worten „in Österreich singen und sagen“ am Babenbergerhof in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Unter der linden, Reichston"}},
+    {"id":"neidhart","title":"Neidhart von Reuental","short":"Neidhart","start":"~1190","end":"~1240","importance":2,"description":"Minnesänger, ab etwa 1230 am Hof Herzog Friedrichs II. in Österreich; Begründer der „höfischen Dorfpoesie“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Sommer- und Winterlieder"}},
+    {"id":"tannhaeuser","title":"Der Tannhäuser","short":"Tannhäuser","start":"~1205","end":"~1265","importance":3,"description":"Minnesänger am Hof Friedrichs des Streitbaren in Wien; später Sagenfigur (Wagner).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"schuppanzigh","title":"Ignaz Schuppanzigh","short":"Schuppanzigh","start":"1776-11-20","end":"1830-03-02","importance":3,"description":"Geiger, Freund Beethovens; mit seinem Quartett begründete er das öffentliche Streichquartettkonzert.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"paganini","title":"Niccolò Paganini","short":"Paganini","start":"1782-10-27","end":"1840-05-27","importance":4,"description":"Teufelsgeiger; seine Wiener Konzerte 1828 lösten einen Begeisterungssturm aus.","place":{"name":"Genua","lat":44.4056,"lon":8.9463},"tags":["international"]},
+    {"id":"hans-richter","title":"Hans Richter","short":"Richter","start":"1843-04-04","end":"1916-12-05","importance":3,"description":"Dirigent der Wiener Hofoper und der Wiener Philharmoniker, Uraufführungsdirigent Wagners in Bayreuth.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"otto-nicolai","title":"Otto Nicolai","short":"Nicolai","start":"1810-06-09","end":"1849-05-11","importance":3,"description":"Gründete 1842 die Wiener Philharmoniker; Komponist der „Lustigen Weiber von Windsor“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"notker","title":"Notker Balbulus","short":"Notker","start":"~840","end":"912-04-06","importance":4,"description":"Mönch in St. Gallen; Meister der Sequenz.","place":{"name":"St. Gallen","lat":47.4245,"lon":9.3767},"tags":["international"]},
+    {"id":"guido-von-arezzo","title":"Guido von Arezzo","short":"Guido v. Arezzo","start":"~992","end":"~1050","importance":4,"description":"Erfand das Liniensystem der Notenschrift und die Solmisation.","place":{"name":"Arezzo","lat":43.4633,"lon":11.8796},"tags":["international"]},
+    {"id":"hildegard-von-bingen","title":"Hildegard von Bingen","short":"Hildegard","start":"1098","end":"1179-09-17","importance":3,"description":"Äbtissin, Mystikerin und Komponistin geistlicher Gesänge.","place":{"name":"Bingen","lat":49.9667,"lon":7.9},"tags":["international"]},
+    {"id":"der-von-kuerenberg","title":"Der von Kürenberg","short":"Kürenberger","start":"~1130","end":"~1170","importance":2,"description":"Ältester namentlich bekannter Minnesänger, aus dem Donauraum (vermutlich Oberösterreich).","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Werke":"Falkenlied"}},
+    {"id":"dietmar-von-aist","title":"Dietmar von Aist","start":"~1140","end":"~1171","importance":3,"description":"Früher Minnesänger aus dem oberösterreichischen Mühlviertel.","place":{"name":"Aist","lat":48.3,"lon":14.6}},
+    {"id":"reinmar-der-alte","title":"Reinmar der Alte","short":"Reinmar","start":"~1160","end":"~1205","importance":2,"description":"Minnesänger am Babenbergerhof in Wien, Lehrer und Rivale Walthers von der Vogelweide.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"perotin","title":"Pérotin","start":"~1160","end":"~1230","importance":5,"description":"Meister der Notre-Dame-Schule in Paris.","place":{"name":"Paris","lat":48.853,"lon":2.3499},"tags":["international"]},
+    {"id":"robert-stolz","title":"Robert Stolz","short":"Stolz","start":"1880-08-25","end":"1975-06-27","importance":2,"description":"Grazer Operetten- und Filmkomponist, letzter großer Meister der Wiener Operette.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Im Prater blüh’n wieder die Bäume"}},
+    {"id":"karl-boehm","title":"Karl Böhm","short":"Böhm","start":"1894-08-28","end":"1981-08-14","importance":3,"description":"Dirigent, Direktor der Wiener Staatsoper.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"korngold","title":"Erich Wolfgang Korngold","short":"Korngold","start":"1897-05-29","end":"1957-11-29","importance":2,"description":"Wunderkind der Wiener Moderne, nach der Emigration Pionier der Hollywood-Filmmusik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Die tote Stadt, Filmmusik zu „Robin Hood“"}},
+    {"id":"hanns-eisler","title":"Hanns Eisler","short":"Eisler","start":"1898-07-06","end":"1962-09-06","importance":3,"description":"Schönberg-Schüler, Komponist politischer Lieder und Filmmusik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"ernst-krenek","title":"Ernst Krenek","short":"Krenek","start":"1900-08-23","end":"1991-12-22","importance":3,"description":"Komponist der Jazzoper „Jonny spielt auf“ (1927), später in den USA.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"karajan","title":"Herbert von Karajan","short":"Karajan","start":"1908-04-05","end":"1989-07-16","importance":1,"description":"Salzburger Dirigent von Weltrang, prägte die Salzburger Festspiele und die Berliner Philharmoniker.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"gottfried-von-einem","title":"Gottfried von Einem","short":"Einem","start":"1918-01-24","end":"1996-07-12","importance":3,"description":"Opernkomponist der Nachkriegszeit.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Dantons Tod, Der Besuch der alten Dame"}},
+    {"id":"georg-kreisler","title":"Georg Kreisler","short":"Kreisler","start":"1922-07-18","end":"2011-11-22","importance":3,"description":"Kabarettist und Liedermacher des schwarzen Humors.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Tauben vergiften im Park"}},
+    {"id":"ligeti","title":"György Ligeti","short":"Ligeti","start":"1923-05-28","end":"2006-06-12","importance":2,"description":"Avantgarde-Komponist, lebte ab 1956 in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Atmosphères, Le Grand Macabre"}},
+    {"id":"friedrich-cerha","title":"Friedrich Cerha","short":"Cerha","start":"1926-02-17","end":"2023-02-14","importance":3,"description":"Komponist und Dirigent; vollendete Alban Bergs Oper „Lulu“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"harnoncourt","title":"Nikolaus Harnoncourt","short":"Harnoncourt","start":"1929-12-06","end":"2016-03-05","importance":2,"description":"Dirigent, Pionier der historischen Aufführungspraxis (Concentus Musicus Wien).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"friedrich-gulda","title":"Friedrich Gulda","short":"Gulda","start":"1930-05-16","end":"2000-01-27","importance":3,"description":"Pianist zwischen Klassik und Jazz.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"joe-zawinul","title":"Joe Zawinul","short":"Zawinul","start":"1932-07-07","end":"2007-09-11","importance":3,"description":"Jazzpianist, Mitbegründer von „Weather Report“.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Birdland"}},
+    {"id":"udo-juergens","title":"Udo Jürgens","short":"Udo Jürgens","start":"1934-09-30","end":"2014-12-21","importance":2,"description":"Sänger und Komponist; gewann 1966 als erster Österreicher den Eurovision Song Contest.","place":{"name":"Klagenfurt","lat":46.6249,"lon":14.305},"attributes":{"Werke":"Merci Chérie, Griechischer Wein"}},
+    {"id":"falco","title":"Falco","start":"1957-02-19","end":"1998-02-06","importance":2,"description":"Popmusiker; „Rock Me Amadeus“ war 1986 Nummer eins in den USA.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Rock Me Amadeus, Der Kommissar"}},
+    {"id":"gershwin","title":"George Gershwin","short":"Gershwin","start":"1898-09-26","end":"1937-07-11","importance":5,"description":"Amerikanischer Komponist zwischen Jazz und Klassik.","place":{"name":"New York","lat":40.7128,"lon":-74.006},"attributes":{"Werke":"Rhapsody in Blue"},"tags":["international"]},
+    {"id":"louis-armstrong","title":"Louis Armstrong","short":"Armstrong","start":"1901-08-04","end":"1971-07-06","importance":5,"description":"Jazztrompeter und Sänger.","place":{"name":"New Orleans","lat":29.9511,"lon":-90.0715},"tags":["international"]},
+    {"id":"schostakowitsch","title":"Dmitri Schostakowitsch","short":"Schostakowitsch","start":"1906-09-25","end":"1975-08-09","importance":4,"description":"Russischer Symphoniker.","place":{"name":"Moskau","lat":55.7558,"lon":37.6173},"tags":["international"]},
+    {"id":"bernstein","title":"Leonard Bernstein","short":"Bernstein","start":"1918-08-25","end":"1990-10-14","importance":4,"description":"Dirigent und Komponist, eng verbunden mit den Wiener Philharmonikern.","place":{"name":"New York","lat":40.7128,"lon":-74.006},"attributes":{"Werke":"West Side Story"},"tags":["international"]},
+    {"id":"maria-callas","title":"Maria Callas","short":"Callas","start":"1923-12-02","end":"1977-09-16","importance":5,"description":"Sopranistin, Primadonna assoluta.","place":{"name":"Mailand","lat":45.4642,"lon":9.19},"tags":["international"]},
+    {"id":"elvis","title":"Elvis Presley","short":"Elvis","start":"1935-01-08","end":"1977-08-16","importance":4,"description":"„King of Rock ’n’ Roll“.","place":{"name":"Memphis","lat":35.1495,"lon":-90.049},"tags":["international"]},
+    {"id":"john-lennon","title":"John Lennon","short":"Lennon","start":"1940-10-09","end":"1980-12-08","importance":4,"description":"Mitglied der Beatles.","place":{"name":"Liverpool","lat":53.4084,"lon":-2.9916},"tags":["international"]}
   ]
 }

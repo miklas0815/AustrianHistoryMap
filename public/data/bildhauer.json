@@ -2,236 +2,45 @@
   "category": "bildhauer",
   "note": "Balken zeigen die Lebensdaten. Bildhauer mit Österreichbezug haben Vorrang (Bedeutung 1–3), internationale dienen als Kontext (4–5). Michelangelo und Bernini stehen bei den Architekten.",
   "items": [
-    {
-      "id": "niclas-gerhaert", "title": "Niclas Gerhaert van Leyden", "short": "Gerhaert", "start": "~1430", "end": "1473", "importance": 2,
-      "description": "Niederländischer Bildhauer; schuf für Friedrich III. die Grabplatte des Kaisergrabes im Stephansdom.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Grabmal Friedrichs III. (Entwurf und Deckplatte)" }
-    },
-    {
-      "id": "gilg-sesselschreiber", "title": "Gilg Sesselschreiber", "short": "Sesselschreiber", "start": "~1460", "end": "~1520", "importance": 3,
-      "description": "Entwarf die ersten Bronzefiguren („Schwarze Mander“) für das Grabmal Maximilians I.",
-      "place": { "name": "Hofkirche, Innsbruck", "lat": 47.2685, "lon": 11.3956 },
-      "attributes": { "Werke": "Bronzefiguren der Hofkirche (Beginn)" }
-    },
-    {
-      "id": "alexander-colin", "title": "Alexander Colin", "short": "Colin", "start": "~1528", "end": "1612-08-17", "importance": 2,
-      "description": "Schuf die Marmorreliefs am Grabmal Maximilians I. in der Innsbrucker Hofkirche.",
-      "place": { "name": "Hofkirche, Innsbruck", "lat": 47.2685, "lon": 11.3956 },
-      "attributes": { "Werke": "Reliefs am Kenotaph Maximilians I." }
-    },
-    {
-      "id": "matthias-steinl", "title": "Matthias Steinl", "short": "Steinl", "start": "~1644", "end": "1727-04-18", "importance": 3,
-      "description": "Barocker Bildhauer und Elfenbeinschnitzer, auch Entwerfer von Kirchenausstattungen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "paul-strudel", "title": "Paul Strudel", "start": "1648", "end": "1708-11-10", "importance": 2,
-      "description": "Bildhauer der Pestsäule am Graben und der Habsburgerstatuen im Prunksaal der Hofbibliothek.",
-      "place": { "name": "Graben, Wien", "lat": 48.2086, "lon": 16.37 },
-      "attributes": { "Werke": "Figuren der Pestsäule" }
-    },
-    {
-      "id": "giovanni-giuliani", "title": "Giovanni Giuliani", "short": "Giuliani", "start": "1664", "end": "1744-09-05", "importance": 3,
-      "description": "Bildhauer im Stift Heiligenkreuz; Lehrer Georg Raphael Donners.",
-      "place": { "name": "Stift Heiligenkreuz", "lat": 48.0553, "lon": 16.1306 }
-    },
-    {
-      "id": "georg-raphael-donner", "title": "Georg Raphael Donner", "short": "Donner", "start": "1693-05-24", "end": "1741-02-15", "importance": 1,
-      "description": "Bedeutendster Bildhauer des österreichischen Barock; sein Providentia-Brunnen am Neuen Markt („Donnerbrunnen“) ist ein Hauptwerk.",
-      "place": { "name": "Neuer Markt, Wien", "lat": 48.2063, "lon": 16.37 },
-      "attributes": { "Werke": "Donnerbrunnen, Andromedabrunnen, Pietà im Gurker Dom" }
-    },
-    {
-      "id": "balthasar-moll", "title": "Balthasar Ferdinand Moll", "short": "Moll", "start": "1717-01-04", "end": "1785-03-03", "importance": 2,
-      "description": "Schuf die prunkvollen Sarkophage in der Kapuzinergruft, darunter das Doppelgrab Maria Theresias und Franz Stephans.",
-      "place": { "name": "Kapuzinergruft, Wien", "lat": 48.2061, "lon": 16.3699 },
-      "attributes": { "Werke": "Doppelsarkophag Maria Theresias" }
-    },
-    {
-      "id": "messerschmidt", "title": "Franz Xaver Messerschmidt", "short": "Messerschmidt", "start": "1736-02-06", "end": "1783-08-19", "importance": 1,
-      "description": "Bekannt für seine „Charakterköpfe“ – extreme Gesichtsausdrücke, die ihrer Zeit weit voraus waren.",
-      "place": { "name": "Pressburg (Bratislava)", "lat": 48.1486, "lon": 17.1077 },
-      "attributes": { "Werke": "Charakterköpfe (Belvedere)" }
-    },
-    {
-      "id": "johann-martin-fischer", "title": "Johann Martin Fischer", "start": "1740-11-02", "end": "1820-04-27", "importance": 3,
-      "description": "Klassizistischer Bildhauer zahlreicher Wiener Brunnen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Mosesbrunnen, Hygieia-Brunnen" }
-    },
-    {
-      "id": "franz-anton-zauner", "title": "Franz Anton Zauner", "short": "Zauner", "start": "1746-07-05", "end": "1822-03-03", "importance": 2,
-      "description": "Schuf das Reiterdenkmal Josephs II. auf dem Josefsplatz.",
-      "place": { "name": "Josefsplatz, Wien", "lat": 48.2063, "lon": 16.3667 },
-      "attributes": { "Werke": "Reiterstandbild Josephs II." }
-    },
-    {
-      "id": "canova", "title": "Antonio Canova", "short": "Canova", "start": "1757-11-01", "end": "1822-10-13", "importance": 3,
-      "description": "Italienischer Hauptmeister des Klassizismus; schuf in Wien das Grabmal der Erzherzogin Marie Christine in der Augustinerkirche.",
-      "place": { "name": "Augustinerkirche, Wien", "lat": 48.2054, "lon": 16.368 },
-      "attributes": { "Werke": "Grabmal Marie Christine, Theseus-Gruppe (KHM)" }
-    },
-    {
-      "id": "fernkorn", "title": "Anton Dominik Fernkorn", "short": "Fernkorn", "start": "1813-03-17", "end": "1878-11-16", "importance": 2,
-      "description": "Schuf die Reiterstandbilder Erzherzog Karls und Prinz Eugens auf dem Heldenplatz.",
-      "place": { "name": "Heldenplatz, Wien", "lat": 48.2063, "lon": 16.3626 },
-      "attributes": { "Werke": "Reiterdenkmäler am Heldenplatz" }
-    },
-    {
-      "id": "hans-gasser", "title": "Hans Gasser", "start": "1817-10-02", "end": "1868-04-24", "importance": 3,
-      "description": "Kärntner Bildhauer der Ringstraßenzeit.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Donauweibchenbrunnen" }
-    },
-    {
-      "id": "zumbusch", "title": "Caspar von Zumbusch", "short": "Zumbusch", "start": "1830-11-23", "end": "1915-09-27", "importance": 2,
-      "description": "Schuf das Maria-Theresien-Denkmal zwischen den Museen.",
-      "place": { "name": "Maria-Theresien-Platz, Wien", "lat": 48.204, "lon": 16.3612 },
-      "attributes": { "Werke": "Maria-Theresien-Denkmal, Beethoven-Denkmal" }
-    },
-    {
-      "id": "viktor-tilgner", "title": "Viktor Tilgner", "short": "Tilgner", "start": "1844-10-25", "end": "1896-04-16", "importance": 2,
-      "description": "Porträt- und Denkmalbildhauer der Ringstraßenzeit.",
-      "place": { "name": "Burggarten, Wien", "lat": 48.2049, "lon": 16.366 },
-      "attributes": { "Werke": "Mozart-Denkmal im Burggarten" }
-    },
-    {
-      "id": "rudolf-weyr", "title": "Rudolf Weyr", "start": "1847-03-22", "end": "1914-10-30", "importance": 3,
-      "description": "Bauplastik an Burgtheater, Museen und Neuer Burg.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Michaelerbrunnen „Die Macht zur See“ (Teil), Brahms-Denkmal" }
-    },
-    {
-      "id": "edmund-hellmer", "title": "Edmund Hellmer", "start": "1850-11-12", "end": "1935-03-09", "importance": 3,
-      "description": "Bildhauer der Ringstraßenzeit und Lehrer an der Akademie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Goethe-Denkmal, Johann-Strauss-Denkmal im Stadtpark" }
-    },
-    {
-      "id": "franz-metzner", "title": "Franz Metzner", "start": "1870-11-18", "end": "1919-03-24", "importance": 3,
-      "description": "Monumentalbildhauer des Jugendstils, in Wien tätig.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Figuren am Zacherlhaus" }
-    },
-    {
-      "id": "anton-hanak", "title": "Anton Hanak", "start": "1875-03-22", "end": "1934-01-07", "importance": 3,
-      "description": "Expressiver Bildhauer der Moderne.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Der brennende Mensch" }
-    },
-    {
-      "id": "claus-sluter", "title": "Claus Sluter", "short": "Sluter", "start": "~1350", "end": "1406", "importance": 5, "tags": ["international"],
-      "description": "Niederländisch-burgundischer Bildhauer der Spätgotik.",
-      "place": { "name": "Dijon", "lat": 47.322, "lon": 5.0415 },
-      "attributes": { "Werke": "Mosesbrunnen in Dijon" }
-    },
-    {
-      "id": "ghiberti", "title": "Lorenzo Ghiberti", "short": "Ghiberti", "start": "1378", "end": "1455-12-01", "importance": 5, "tags": ["international"],
-      "description": "Florentiner Bildhauer der Baptisteriumstüren.",
-      "place": { "name": "Florenz", "lat": 43.7731, "lon": 11.256 },
-      "attributes": { "Werke": "Paradiestür" }
-    },
-    {
-      "id": "donatello", "title": "Donatello", "start": "~1386", "end": "1466-12-13", "importance": 4, "tags": ["international"],
-      "description": "Begründer der Renaissance-Skulptur.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Werke": "David (Bronze)" }
-    },
-    {
-      "id": "veit-stoss", "title": "Veit Stoß", "short": "Veit Stoß", "start": "~1447", "end": "1533-09-20", "importance": 4, "tags": ["international"],
-      "description": "Spätgotischer Bildhauer in Krakau und Nürnberg.",
-      "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 },
-      "attributes": { "Werke": "Marienaltar in Krakau" }
-    },
-    {
-      "id": "riemenschneider", "title": "Tilman Riemenschneider", "short": "Riemenschneider", "start": "~1460", "end": "1531-07-07", "importance": 4, "tags": ["international"],
-      "description": "Spätgotischer Bildschnitzer in Würzburg.",
-      "place": { "name": "Würzburg", "lat": 49.7913, "lon": 9.9534 },
-      "attributes": { "Werke": "Heilig-Blut-Altar Rothenburg" }
-    },
-    {
-      "id": "giambologna", "title": "Giambologna", "start": "1529", "end": "1608-08-13", "importance": 5, "tags": ["international"],
-      "description": "Flämisch-italienischer Manierist in Florenz.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Werke": "Raub der Sabinerinnen" }
-    },
-    {
-      "id": "thorvaldsen", "title": "Bertel Thorvaldsen", "short": "Thorvaldsen", "start": "1770-11-19", "end": "1844-03-24", "importance": 5, "tags": ["international"],
-      "description": "Dänischer Bildhauer des Klassizismus.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "rodin", "title": "Auguste Rodin", "short": "Rodin", "start": "1840-11-12", "end": "1917-11-17", "importance": 4, "tags": ["international"],
-      "description": "Wegbereiter der modernen Bildhauerei.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Der Denker" }
-    },
-    {
-      "id": "nikolaus-von-verdun", "title": "Nikolaus von Verdun", "short": "Nikolaus v. Verdun", "start": "~1130", "end": "~1205", "importance": 1,
-      "description": "Goldschmied und Emailkünstler; schuf 1181 den Verduner Altar im Stift Klosterneuburg, ein Hauptwerk mittelalterlicher Kunst.",
-      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
-      "attributes": { "Werke": "Verduner Altar (1181), Dreikönigsschrein (Köln, Beteiligung)" }
-    },
-    {
-      "id": "antelami", "title": "Benedetto Antelami", "short": "Antelami", "start": "~1150", "end": "~1230", "importance": 5, "tags": ["international"],
-      "description": "Bildhauer und Baumeister der italienischen Romanik.",
-      "place": { "name": "Parma", "lat": 44.8015, "lon": 10.3279 },
-      "attributes": { "Werke": "Baptisterium Parma" }
-    },
-    {
-      "id": "naumburger-meister", "title": "Naumburger Meister", "start": "~1220", "end": "~1270", "importance": 5, "tags": ["international"],
-      "description": "Anonymer Bildhauer der Gotik; Stifterfiguren im Naumburger Dom (Uta).",
-      "place": { "name": "Naumburg", "lat": 51.152, "lon": 11.8037 },
-      "attributes": { "Werke": "Stifterfiguren im Naumburger Dom" }
-    },
-    {
-      "id": "fritz-wotruba", "title": "Fritz Wotruba", "short": "Wotruba", "start": "1907-04-23", "end": "1975-08-28", "importance": 1,
-      "description": "Bedeutendster österreichischer Bildhauer des 20. Jahrhunderts.",
-      "place": { "name": "Wotrubakirche, Wien", "lat": 48.1408, "lon": 16.2597 },
-      "attributes": { "Werke": "Wotrubakirche (Kirche zur Heiligsten Dreifaltigkeit)" }
-    },
-    {
-      "id": "joannis-avramidis", "title": "Joannis Avramidis", "short": "Avramidis", "start": "1922-09-23", "end": "2016-01-16", "importance": 3,
-      "description": "Bildhauer abstrahierter menschlicher Figuren.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "karl-prantl", "title": "Karl Prantl", "short": "Prantl", "start": "1923-11-05", "end": "2010-10-08", "importance": 3,
-      "description": "Steinbildhauer, Begründer des Bildhauersymposions St. Margarethen.",
-      "place": { "name": "St. Margarethen", "lat": 47.8031, "lon": 16.6097 }
-    },
-    {
-      "id": "alfred-hrdlicka", "title": "Alfred Hrdlicka", "short": "Hrdlicka", "start": "1928-02-27", "end": "2009-12-05", "importance": 2,
-      "description": "Bildhauer und Grafiker; schuf das Mahnmal gegen Krieg und Faschismus am Albertinaplatz.",
-      "place": { "name": "Albertinaplatz, Wien", "lat": 48.2046, "lon": 16.3687 },
-      "attributes": { "Werke": "Mahnmal gegen Krieg und Faschismus (1988)" }
-    },
-    {
-      "id": "bruno-gironcoli", "title": "Bruno Gironcoli", "short": "Gironcoli", "start": "1936-09-27", "end": "2010-02-19", "importance": 3,
-      "description": "Bildhauer monumentaler, rätselhafter Skulpturen; Biennale Venedig 2003.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "franz-west", "title": "Franz West", "short": "West", "start": "1947-02-16", "end": "2012-07-25", "importance": 2,
-      "description": "Bildhauer der „Passstücke“; Goldener Löwe der Biennale Venedig 2011.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "brancusi", "title": "Constantin Brâncuși", "short": "Brâncuși", "start": "1876-02-19", "end": "1957-03-16", "importance": 4, "tags": ["international"],
-      "description": "Wegbereiter der abstrakten Skulptur.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "henry-moore", "title": "Henry Moore", "short": "Moore", "start": "1898-07-30", "end": "1986-08-31", "importance": 4, "tags": ["international"],
-      "description": "Britischer Bildhauer; eine seiner Plastiken steht vor der Karlskirche.",
-      "place": { "name": "Much Hadham", "lat": 51.86, "lon": 0.07 },
-      "attributes": { "Werke": "Hill Arches (Karlsplatz, Wien)" }
-    },
-    {
-      "id": "giacometti", "title": "Alberto Giacometti", "short": "Giacometti", "start": "1901-10-10", "end": "1966-01-11", "importance": 4, "tags": ["international"],
-      "description": "Schweizer Bildhauer überlanger Figuren.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    }
+    {"id":"niclas-gerhaert","title":"Niclas Gerhaert van Leyden","short":"Gerhaert","start":"~1430","end":"1473","importance":2,"description":"Niederländischer Bildhauer; schuf für Friedrich III. die Grabplatte des Kaisergrabes im Stephansdom.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Grabmal Friedrichs III. (Entwurf und Deckplatte)"}},
+    {"id":"gilg-sesselschreiber","title":"Gilg Sesselschreiber","short":"Sesselschreiber","start":"~1460","end":"~1520","importance":3,"description":"Entwarf die ersten Bronzefiguren („Schwarze Mander“) für das Grabmal Maximilians I.","place":{"name":"Hofkirche, Innsbruck","lat":47.2685,"lon":11.3956},"attributes":{"Werke":"Bronzefiguren der Hofkirche (Beginn)"}},
+    {"id":"alexander-colin","title":"Alexander Colin","short":"Colin","start":"~1528","end":"1612-08-17","importance":2,"description":"Schuf die Marmorreliefs am Grabmal Maximilians I. in der Innsbrucker Hofkirche.","place":{"name":"Hofkirche, Innsbruck","lat":47.2685,"lon":11.3956},"attributes":{"Werke":"Reliefs am Kenotaph Maximilians I."}},
+    {"id":"matthias-steinl","title":"Matthias Steinl","short":"Steinl","start":"~1644","end":"1727-04-18","importance":3,"description":"Barocker Bildhauer und Elfenbeinschnitzer, auch Entwerfer von Kirchenausstattungen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"paul-strudel","title":"Paul Strudel","start":"1648","end":"1708-11-10","importance":2,"description":"Bildhauer der Pestsäule am Graben und der Habsburgerstatuen im Prunksaal der Hofbibliothek.","place":{"name":"Graben, Wien","lat":48.2086,"lon":16.37},"attributes":{"Werke":"Figuren der Pestsäule"}},
+    {"id":"giovanni-giuliani","title":"Giovanni Giuliani","short":"Giuliani","start":"1664","end":"1744-09-05","importance":3,"description":"Bildhauer im Stift Heiligenkreuz; Lehrer Georg Raphael Donners.","place":{"name":"Stift Heiligenkreuz","lat":48.0553,"lon":16.1306}},
+    {"id":"georg-raphael-donner","title":"Georg Raphael Donner","short":"Donner","start":"1693-05-24","end":"1741-02-15","importance":1,"description":"Bedeutendster Bildhauer des österreichischen Barock; sein Providentia-Brunnen am Neuen Markt („Donnerbrunnen“) ist ein Hauptwerk.","place":{"name":"Neuer Markt, Wien","lat":48.2063,"lon":16.37},"attributes":{"Werke":"Donnerbrunnen, Andromedabrunnen, Pietà im Gurker Dom"}},
+    {"id":"balthasar-moll","title":"Balthasar Ferdinand Moll","short":"Moll","start":"1717-01-04","end":"1785-03-03","importance":2,"description":"Schuf die prunkvollen Sarkophage in der Kapuzinergruft, darunter das Doppelgrab Maria Theresias und Franz Stephans.","place":{"name":"Kapuzinergruft, Wien","lat":48.2061,"lon":16.3699},"attributes":{"Werke":"Doppelsarkophag Maria Theresias"}},
+    {"id":"messerschmidt","title":"Franz Xaver Messerschmidt","short":"Messerschmidt","start":"1736-02-06","end":"1783-08-19","importance":1,"description":"Bekannt für seine „Charakterköpfe“ – extreme Gesichtsausdrücke, die ihrer Zeit weit voraus waren.","place":{"name":"Pressburg (Bratislava)","lat":48.1486,"lon":17.1077},"attributes":{"Werke":"Charakterköpfe (Belvedere)"}},
+    {"id":"johann-martin-fischer","title":"Johann Martin Fischer","start":"1740-11-02","end":"1820-04-27","importance":3,"description":"Klassizistischer Bildhauer zahlreicher Wiener Brunnen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Mosesbrunnen, Hygieia-Brunnen"}},
+    {"id":"franz-anton-zauner","title":"Franz Anton Zauner","short":"Zauner","start":"1746-07-05","end":"1822-03-03","importance":2,"description":"Schuf das Reiterdenkmal Josephs II. auf dem Josefsplatz.","place":{"name":"Josefsplatz, Wien","lat":48.2063,"lon":16.3667},"attributes":{"Werke":"Reiterstandbild Josephs II."}},
+    {"id":"canova","title":"Antonio Canova","short":"Canova","start":"1757-11-01","end":"1822-10-13","importance":3,"description":"Italienischer Hauptmeister des Klassizismus; schuf in Wien das Grabmal der Erzherzogin Marie Christine in der Augustinerkirche.","place":{"name":"Augustinerkirche, Wien","lat":48.2054,"lon":16.368},"attributes":{"Werke":"Grabmal Marie Christine, Theseus-Gruppe (KHM)"}},
+    {"id":"fernkorn","title":"Anton Dominik Fernkorn","short":"Fernkorn","start":"1813-03-17","end":"1878-11-16","importance":2,"description":"Schuf die Reiterstandbilder Erzherzog Karls und Prinz Eugens auf dem Heldenplatz.","place":{"name":"Heldenplatz, Wien","lat":48.2063,"lon":16.3626},"attributes":{"Werke":"Reiterdenkmäler am Heldenplatz"}},
+    {"id":"hans-gasser","title":"Hans Gasser","start":"1817-10-02","end":"1868-04-24","importance":3,"description":"Kärntner Bildhauer der Ringstraßenzeit.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Donauweibchenbrunnen"}},
+    {"id":"zumbusch","title":"Caspar von Zumbusch","short":"Zumbusch","start":"1830-11-23","end":"1915-09-27","importance":2,"description":"Schuf das Maria-Theresien-Denkmal zwischen den Museen.","place":{"name":"Maria-Theresien-Platz, Wien","lat":48.204,"lon":16.3612},"attributes":{"Werke":"Maria-Theresien-Denkmal, Beethoven-Denkmal"}},
+    {"id":"viktor-tilgner","title":"Viktor Tilgner","short":"Tilgner","start":"1844-10-25","end":"1896-04-16","importance":2,"description":"Porträt- und Denkmalbildhauer der Ringstraßenzeit.","place":{"name":"Burggarten, Wien","lat":48.2049,"lon":16.366},"attributes":{"Werke":"Mozart-Denkmal im Burggarten"}},
+    {"id":"rudolf-weyr","title":"Rudolf Weyr","start":"1847-03-22","end":"1914-10-30","importance":3,"description":"Bauplastik an Burgtheater, Museen und Neuer Burg.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Michaelerbrunnen „Die Macht zur See“ (Teil), Brahms-Denkmal"}},
+    {"id":"edmund-hellmer","title":"Edmund Hellmer","start":"1850-11-12","end":"1935-03-09","importance":3,"description":"Bildhauer der Ringstraßenzeit und Lehrer an der Akademie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Goethe-Denkmal, Johann-Strauss-Denkmal im Stadtpark"}},
+    {"id":"franz-metzner","title":"Franz Metzner","start":"1870-11-18","end":"1919-03-24","importance":3,"description":"Monumentalbildhauer des Jugendstils, in Wien tätig.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Figuren am Zacherlhaus"}},
+    {"id":"anton-hanak","title":"Anton Hanak","start":"1875-03-22","end":"1934-01-07","importance":3,"description":"Expressiver Bildhauer der Moderne.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Der brennende Mensch"}},
+    {"id":"claus-sluter","title":"Claus Sluter","short":"Sluter","start":"~1350","end":"1406","importance":5,"description":"Niederländisch-burgundischer Bildhauer der Spätgotik.","place":{"name":"Dijon","lat":47.322,"lon":5.0415},"attributes":{"Werke":"Mosesbrunnen in Dijon"},"tags":["international"]},
+    {"id":"ghiberti","title":"Lorenzo Ghiberti","short":"Ghiberti","start":"1378","end":"1455-12-01","importance":5,"description":"Florentiner Bildhauer der Baptisteriumstüren.","place":{"name":"Florenz","lat":43.7731,"lon":11.256},"attributes":{"Werke":"Paradiestür"},"tags":["international"]},
+    {"id":"donatello","title":"Donatello","start":"~1386","end":"1466-12-13","importance":4,"description":"Begründer der Renaissance-Skulptur.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Werke":"David (Bronze)"},"tags":["international"]},
+    {"id":"veit-stoss","title":"Veit Stoß","short":"Veit Stoß","start":"~1447","end":"1533-09-20","importance":4,"description":"Spätgotischer Bildhauer in Krakau und Nürnberg.","place":{"name":"Nürnberg","lat":49.4521,"lon":11.0767},"attributes":{"Werke":"Marienaltar in Krakau"},"tags":["international"]},
+    {"id":"riemenschneider","title":"Tilman Riemenschneider","short":"Riemenschneider","start":"~1460","end":"1531-07-07","importance":4,"description":"Spätgotischer Bildschnitzer in Würzburg.","place":{"name":"Würzburg","lat":49.7913,"lon":9.9534},"attributes":{"Werke":"Heilig-Blut-Altar Rothenburg"},"tags":["international"]},
+    {"id":"giambologna","title":"Giambologna","start":"1529","end":"1608-08-13","importance":5,"description":"Flämisch-italienischer Manierist in Florenz.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Werke":"Raub der Sabinerinnen"},"tags":["international"]},
+    {"id":"thorvaldsen","title":"Bertel Thorvaldsen","short":"Thorvaldsen","start":"1770-11-19","end":"1844-03-24","importance":5,"description":"Dänischer Bildhauer des Klassizismus.","place":{"name":"Rom","lat":41.9028,"lon":12.4964},"tags":["international"]},
+    {"id":"rodin","title":"Auguste Rodin","short":"Rodin","start":"1840-11-12","end":"1917-11-17","importance":4,"description":"Wegbereiter der modernen Bildhauerei.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Der Denker"},"tags":["international"]},
+    {"id":"nikolaus-von-verdun","title":"Nikolaus von Verdun","short":"Nikolaus v. Verdun","start":"~1130","end":"~1205","importance":1,"description":"Goldschmied und Emailkünstler; schuf 1181 den Verduner Altar im Stift Klosterneuburg, ein Hauptwerk mittelalterlicher Kunst.","place":{"name":"Stift Klosterneuburg","lat":48.3053,"lon":16.3256},"attributes":{"Werke":"Verduner Altar (1181), Dreikönigsschrein (Köln, Beteiligung)"}},
+    {"id":"antelami","title":"Benedetto Antelami","short":"Antelami","start":"~1150","end":"~1230","importance":5,"description":"Bildhauer und Baumeister der italienischen Romanik.","place":{"name":"Parma","lat":44.8015,"lon":10.3279},"attributes":{"Werke":"Baptisterium Parma"},"tags":["international"]},
+    {"id":"naumburger-meister","title":"Naumburger Meister","start":"~1220","end":"~1270","importance":5,"description":"Anonymer Bildhauer der Gotik; Stifterfiguren im Naumburger Dom (Uta).","place":{"name":"Naumburg","lat":51.152,"lon":11.8037},"attributes":{"Werke":"Stifterfiguren im Naumburger Dom"},"tags":["international"]},
+    {"id":"fritz-wotruba","title":"Fritz Wotruba","short":"Wotruba","start":"1907-04-23","end":"1975-08-28","importance":1,"description":"Bedeutendster österreichischer Bildhauer des 20. Jahrhunderts.","place":{"name":"Wotrubakirche, Wien","lat":48.1408,"lon":16.2597},"attributes":{"Werke":"Wotrubakirche (Kirche zur Heiligsten Dreifaltigkeit)"}},
+    {"id":"joannis-avramidis","title":"Joannis Avramidis","short":"Avramidis","start":"1922-09-23","end":"2016-01-16","importance":3,"description":"Bildhauer abstrahierter menschlicher Figuren.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"karl-prantl","title":"Karl Prantl","short":"Prantl","start":"1923-11-05","end":"2010-10-08","importance":3,"description":"Steinbildhauer, Begründer des Bildhauersymposions St. Margarethen.","place":{"name":"St. Margarethen","lat":47.8031,"lon":16.6097}},
+    {"id":"alfred-hrdlicka","title":"Alfred Hrdlicka","short":"Hrdlicka","start":"1928-02-27","end":"2009-12-05","importance":2,"description":"Bildhauer und Grafiker; schuf das Mahnmal gegen Krieg und Faschismus am Albertinaplatz.","place":{"name":"Albertinaplatz, Wien","lat":48.2046,"lon":16.3687},"attributes":{"Werke":"Mahnmal gegen Krieg und Faschismus (1988)"}},
+    {"id":"bruno-gironcoli","title":"Bruno Gironcoli","short":"Gironcoli","start":"1936-09-27","end":"2010-02-19","importance":3,"description":"Bildhauer monumentaler, rätselhafter Skulpturen; Biennale Venedig 2003.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"franz-west","title":"Franz West","short":"West","start":"1947-02-16","end":"2012-07-25","importance":2,"description":"Bildhauer der „Passstücke“; Goldener Löwe der Biennale Venedig 2011.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"brancusi","title":"Constantin Brâncuși","short":"Brâncuși","start":"1876-02-19","end":"1957-03-16","importance":4,"description":"Wegbereiter der abstrakten Skulptur.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"henry-moore","title":"Henry Moore","short":"Moore","start":"1898-07-30","end":"1986-08-31","importance":4,"description":"Britischer Bildhauer; eine seiner Plastiken steht vor der Karlskirche.","place":{"name":"Much Hadham","lat":51.86,"lon":0.07},"attributes":{"Werke":"Hill Arches (Karlsplatz, Wien)"},"tags":["international"]},
+    {"id":"giacometti","title":"Alberto Giacometti","short":"Giacometti","start":"1901-10-10","end":"1966-01-11","importance":4,"description":"Schweizer Bildhauer überlanger Figuren.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]}
   ]
 }

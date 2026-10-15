@@ -2,268 +2,57 @@
   "category": "persoenlichkeiten-at",
   "note": "Balken zeigen die Lebensdaten. Staatsmänner, Feldherren, Reformer und andere prägende Persönlichkeiten mit Österreichbezug (ohne Herrscher, Künstler und Wissenschaftler, die eigene Kategorien haben).",
   "items": [
-    {
-      "id": "margarete-maultasch", "title": "Margarete „Maultasch“", "short": "Margarete Maultasch", "start": "1318", "end": "1369-10-03", "importance": 3,
-      "description": "Gräfin von Tirol; übergab das Land 1363 an Rudolf IV. von Habsburg.",
-      "place": { "name": "Schloss Tirol", "lat": 46.6908, "lon": 11.1556 }
-    },
-    {
-      "id": "nikolaus-von-kues", "title": "Nikolaus von Kues", "short": "Cusanus", "start": "1401", "end": "1464-08-11", "importance": 3,
-      "description": "Philosoph, Kardinal und ab 1450 Bischof von Brixen; geriet in heftigen Konflikt mit Herzog Sigmund von Tirol.",
-      "place": { "name": "Brixen", "lat": 46.7155, "lon": 11.6566 }
-    },
-    {
-      "id": "ulrich-von-cilli", "title": "Ulrich II. von Cilli", "short": "Ulrich von Cilli", "start": "1406", "end": "1456-11-09", "importance": 3,
-      "description": "Mächtiger Fürst und Vormund-Rivale um Ladislaus Postumus; in Belgrad ermordet.",
-      "place": { "name": "Celje", "lat": 46.2309, "lon": 15.2604 }
-    },
-    {
-      "id": "niklas-salm", "title": "Niklas Graf Salm", "short": "Niklas Salm", "start": "1459", "end": "1530-05-04", "importance": 3,
-      "description": "Oberbefehlshaber der Verteidigung Wiens während der Ersten Osmanenbelagerung 1529; starb an den Folgen einer Verwundung.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "melchior-khlesl", "title": "Melchior Khlesl", "short": "Khlesl", "start": "1552-02-19", "end": "1630-09-18", "importance": 3,
-      "description": "Bischof von Wien, Kardinal und Leiter der Politik unter Kaiser Matthias; Wortführer der Gegenreformation.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "wallenstein", "title": "Albrecht von Wallenstein", "short": "Wallenstein", "start": "1583-09-24", "end": "1634-02-25", "importance": 2,
-      "description": "Kaiserlicher Generalissimus im Dreißigjährigen Krieg; 1634 auf kaiserlichen Befehl ermordet.",
-      "place": { "name": "Eger (Cheb)", "lat": 50.0796, "lon": 12.3739 }
-    },
-    {
-      "id": "montecuccoli", "title": "Raimondo Montecuccoli", "short": "Montecuccoli", "start": "1609-02-21", "end": "1680-10-16", "importance": 3,
-      "description": "Kaiserlicher Feldherr und Militärtheoretiker; Sieger von Mogersdorf 1664.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "starhemberg", "title": "Ernst Rüdiger von Starhemberg", "short": "Starhemberg", "start": "1638-01-12", "end": "1701-01-04", "importance": 2,
-      "description": "Stadtkommandant von Wien während der Zweiten Osmanenbelagerung 1683.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "prinz-eugen", "title": "Prinz Eugen von Savoyen", "short": "Prinz Eugen", "start": "1663-10-18", "end": "1736-04-21", "importance": 1,
-      "description": "Bedeutendster Feldherr der Habsburger (Zenta, Höchstädt, Belgrad), Staatsmann und Kunstmäzen; Bauherr des Belvedere.",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
-    },
-    {
-      "id": "haugwitz", "title": "Friedrich Wilhelm von Haugwitz", "short": "Haugwitz", "start": "1702-12-11", "end": "1765-08-30", "importance": 3,
-      "description": "Leitete die große Staats- und Verwaltungsreform Maria Theresias (1749).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "van-swieten", "title": "Gerard van Swieten", "short": "van Swieten", "start": "1700-05-07", "end": "1772-06-18", "importance": 2,
-      "description": "Leibarzt Maria Theresias; reformierte das Medizinstudium und die Zensur und begründete die Erste Wiener Medizinische Schule.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "kaunitz", "title": "Wenzel Anton von Kaunitz", "short": "Kaunitz", "start": "1711-02-02", "end": "1794-06-27", "importance": 2,
-      "description": "Staatskanzler unter Maria Theresia und Joseph II.; schloss 1756 das als „Umkehrung der Allianzen“ bekannte Bündnis mit Frankreich.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "sonnenfels", "title": "Joseph von Sonnenfels", "short": "Sonnenfels", "start": "1732", "end": "1817-04-25", "importance": 3,
-      "description": "Aufklärer und Staatswissenschaftler; erreichte 1776 die Abschaffung der Folter in Österreich.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "marie-antoinette", "title": "Marie Antoinette", "start": "1755-11-02", "end": "1793-10-16", "importance": 2,
-      "description": "In Wien geborene Tochter Maria Theresias, Königin von Frankreich; in der Französischen Revolution hingerichtet.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "clemens-maria-hofbauer", "title": "Klemens Maria Hofbauer", "short": "Hofbauer", "start": "1751-12-26", "end": "1820-03-15", "importance": 3,
-      "description": "Seelsorger und Wiener Stadtpatron.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "erzherzog-karl", "title": "Erzherzog Karl", "start": "1771-09-05", "end": "1847-04-30", "importance": 2,
-      "description": "Feldherr und Heeresreformer; besiegte Napoleon 1809 bei Aspern.",
-      "place": { "name": "Heldenplatz, Wien", "lat": 48.2063, "lon": 16.3626 }
-    },
-    {
-      "id": "metternich", "title": "Klemens Wenzel von Metternich", "short": "Metternich", "start": "1773-05-15", "end": "1859-06-11", "importance": 1,
-      "description": "Außenminister und Staatskanzler; leitete den Wiener Kongress und prägte das restaurative „System Metternich“ bis zur Revolution 1848.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "radetzky", "title": "Joseph Wenzel Radetzky", "short": "Radetzky", "start": "1766-11-02", "end": "1858-01-05", "importance": 2,
-      "description": "Feldmarschall, siegte 1848/49 in Oberitalien; Johann Strauss widmete ihm den Radetzky-Marsch.",
-      "place": { "name": "Mailand", "lat": 45.4642, "lon": 9.19 }
-    },
-    {
-      "id": "andreas-hofer", "title": "Andreas Hofer", "short": "Hofer", "start": "1767-11-22", "end": "1810-02-20", "importance": 2,
-      "description": "Anführer des Tiroler Volksaufstands 1809; in Mantua hingerichtet.",
-      "place": { "name": "Bergisel, Innsbruck", "lat": 47.2475, "lon": 11.4005 }
-    },
-    {
-      "id": "erzherzog-johann", "title": "Erzherzog Johann", "start": "1782-01-20", "end": "1859-05-11", "importance": 2,
-      "description": "Förderer der Steiermark (Joanneum, Montanuniversität), 1848 Reichsverweser der Frankfurter Nationalversammlung.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
-    },
-    {
-      "id": "felix-schwarzenberg", "title": "Felix zu Schwarzenberg", "short": "Schwarzenberg", "start": "1800-10-02", "end": "1852-04-05", "importance": 3,
-      "description": "Ministerpräsident nach 1848; Architekt des Neoabsolutismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "hans-kudlich", "title": "Hans Kudlich", "short": "Kudlich", "start": "1823-10-25", "end": "1917-11-11", "importance": 3,
-      "description": "Jüngster Abgeordneter des Reichstags 1848; sein Antrag führte zur Bauernbefreiung.",
-      "place": { "name": "Lobenstein (Úvalno)", "lat": 50.0386, "lon": 17.7558 }
-    },
-    {
-      "id": "tegetthoff", "title": "Wilhelm von Tegetthoff", "short": "Tegetthoff", "start": "1827-12-23", "end": "1871-04-07", "importance": 3,
-      "description": "Admiral, Sieger der Seeschlacht bei Lissa 1866.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "kaiserin-elisabeth", "title": "Kaiserin Elisabeth („Sisi“)", "short": "Elisabeth", "start": "1837-12-24", "end": "1898-09-10", "importance": 2,
-      "description": "Ehefrau Franz Josephs; Förderin des Ausgleichs mit Ungarn, in Genf ermordet.",
-      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 }
-    },
-    {
-      "id": "kronprinz-rudolf", "title": "Kronprinz Rudolf", "start": "1858-08-21", "end": "1889-01-30", "importance": 3,
-      "description": "Liberal gesinnter Thronfolger; starb in Mayerling.",
-      "place": { "name": "Mayerling", "lat": 48.0464, "lon": 16.0989 }
-    },
-    {
-      "id": "bertha-von-suttner", "title": "Bertha von Suttner", "short": "Suttner", "start": "1843-06-09", "end": "1914-06-21", "importance": 2,
-      "description": "Pazifistin und Schriftstellerin („Die Waffen nieder!“); erhielt 1905 als erste Frau den Friedensnobelpreis.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "victor-adler", "title": "Victor Adler", "short": "Victor Adler", "start": "1852-06-24", "end": "1918-11-11", "importance": 2,
-      "description": "Einigte 1889 die österreichische Sozialdemokratie; erster Außenminister der Republik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "theodor-herzl", "title": "Theodor Herzl", "short": "Herzl", "start": "1860-05-02", "end": "1904-07-03", "importance": 2,
-      "description": "Wiener Journalist und Begründer des politischen Zionismus („Der Judenstaat“, 1896).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "franz-ferdinand", "title": "Erzherzog Franz Ferdinand", "short": "Franz Ferdinand", "start": "1863-12-18", "end": "1914-06-28", "importance": 2,
-      "description": "Thronfolger; seine Ermordung in Sarajevo löste den Ersten Weltkrieg aus.",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
-    },
-    {
-      "id": "karl-renner", "title": "Karl Renner", "short": "Renner", "start": "1870-12-14", "end": "1950-12-31", "importance": 2,
-      "description": "Erster Staatskanzler der Republik (1918–1920), später erster Bundespräsident der Zweiten Republik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "virgil-salzburg", "title": "Virgil von Salzburg", "short": "Virgil", "start": "~700", "end": "784-11-27", "importance": 3,
-      "description": "Irischer Gelehrter, Abt und Bischof von Salzburg; begann den Bau des ersten Salzburger Doms und missionierte in Karantanien.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "arn-salzburg", "title": "Arn von Salzburg", "short": "Arn", "start": "~740", "end": "821-01-24", "importance": 3,
-      "description": "Vertrauter Karls des Großen; wurde 798 erster Erzbischof von Salzburg.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "hemma-von-gurk", "title": "Hemma von Gurk", "short": "Hemma", "start": "~980", "end": "1045-06-29", "importance": 3,
-      "description": "Kärntner Adelige und Stifterin des Klosters Gurk; Landesheilige Kärntens.",
-      "place": { "name": "Gurk", "lat": 46.875, "lon": 14.2917 }
-    },
-    {
-      "id": "agnes-von-waiblingen", "title": "Agnes von Waiblingen", "short": "Agnes", "start": "1072", "end": "1143-09-24", "importance": 3,
-      "description": "Tochter Kaiser Heinrichs IV., Gemahlin Leopolds III.; Stammmutter der Babenberger und Staufer.",
-      "place": { "name": "Klosterneuburg", "lat": 48.3053, "lon": 16.3256 }
-    },
-    {
-      "id": "eberhard-ii-salzburg", "title": "Eberhard II. von Salzburg", "short": "Eberhard II.", "start": "~1170", "end": "1246-12-01", "importance": 3,
-      "description": "Erzbischof von Salzburg (1200–1246); baute das Erzstift zu einem eigenständigen Landesfürstentum aus.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "ignaz-seipel", "title": "Ignaz Seipel", "short": "Seipel", "start": "1876-07-19", "end": "1932-08-02", "importance": 3,
-      "description": "Priester und christlichsozialer Bundeskanzler der 1920er-Jahre (Genfer Sanierung).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "otto-bauer", "title": "Otto Bauer", "start": "1881-09-05", "end": "1938-07-04", "importance": 3,
-      "description": "Theoretiker des Austromarxismus und Führer der Sozialdemokratie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "dollfuss", "title": "Engelbert Dollfuß", "short": "Dollfuß", "start": "1892-10-04", "end": "1934-07-25", "importance": 2,
-      "description": "Bundeskanzler; schaltete 1933 das Parlament aus und errichtete den autoritären Ständestaat. Beim nationalsozialistischen Juliputsch ermordet.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "schuschnigg", "title": "Kurt Schuschnigg", "short": "Schuschnigg", "start": "1897-12-14", "end": "1977-11-18", "importance": 3,
-      "description": "Bundeskanzler des Ständestaats bis zum Anschluss 1938; danach in KZ-Haft.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "wittgenstein", "title": "Ludwig Wittgenstein", "short": "Wittgenstein", "start": "1889-04-26", "end": "1951-04-29", "importance": 2,
-      "description": "Wiener Philosoph, einer der einflussreichsten Denker des 20. Jahrhunderts.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Tractatus logico-philosophicus" }
-    },
-    {
-      "id": "julius-raab", "title": "Julius Raab", "short": "Raab", "start": "1891-11-29", "end": "1964-01-08", "importance": 2,
-      "description": "Bundeskanzler 1953–1961; „Staatsvertragskanzler“, Begründer der Sozialpartnerschaft.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "leopold-figl", "title": "Leopold Figl", "short": "Figl", "start": "1902-10-02", "end": "1965-05-09", "importance": 2,
-      "description": "Erster Bundeskanzler der Zweiten Republik, als Außenminister Unterzeichner des Staatsvertrags 1955.",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
-    },
-    {
-      "id": "karl-popper", "title": "Karl Popper", "short": "Popper", "start": "1902-07-28", "end": "1994-09-17", "importance": 2,
-      "description": "Wiener Philosoph des kritischen Rationalismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Logik der Forschung, Die offene Gesellschaft und ihre Feinde" }
-    },
-    {
-      "id": "hayek", "title": "Friedrich August von Hayek", "short": "Hayek", "start": "1899-05-08", "end": "1992-03-23", "importance": 3,
-      "description": "Ökonom der Österreichischen Schule, Nobelpreis 1974.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "viktor-frankl", "title": "Viktor Frankl", "short": "Frankl", "start": "1905-03-26", "end": "1997-09-02", "importance": 2,
-      "description": "Psychiater, Überlebender des Holocaust, Begründer der Logotherapie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "… trotzdem Ja zum Leben sagen" }
-    },
-    {
-      "id": "kardinal-koenig", "title": "Franz König", "short": "Kardinal König", "start": "1905-08-03", "end": "2004-03-13", "importance": 3,
-      "description": "Erzbischof von Wien und Kardinal, prägte die Öffnung der Kirche nach dem Zweiten Vatikanischen Konzil.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "simon-wiesenthal", "title": "Simon Wiesenthal", "short": "Wiesenthal", "start": "1908-12-31", "end": "2005-09-20", "importance": 2,
-      "description": "Holocaust-Überlebender; spürte in Wien jahrzehntelang NS-Verbrecher auf.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "bruno-kreisky", "title": "Bruno Kreisky", "short": "Kreisky", "start": "1911-01-22", "end": "1990-07-29", "importance": 1,
-      "description": "Bundeskanzler 1970–1983; Reformen in Sozial-, Rechts- und Bildungspolitik, aktive Neutralitätspolitik.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "otto-von-habsburg", "title": "Otto von Habsburg", "short": "Otto Habsburg", "start": "1912-11-20", "end": "2011-07-04", "importance": 3,
-      "description": "Sohn Kaiser Karls I., Europapolitiker; Mitinitiator des Paneuropäischen Picknicks 1989.",
-      "place": { "name": "Pöcking", "lat": 47.96, "lon": 11.3 }
-    },
-    {
-      "id": "toni-sailer", "title": "Toni Sailer", "short": "Sailer", "start": "1935-11-17", "end": "2009-08-24", "importance": 3,
-      "description": "Skirennläufer, gewann 1956 alle drei alpinen Olympiabewerbe.",
-      "place": { "name": "Kitzbühel", "lat": 47.4467, "lon": 12.3925 }
-    },
-    {
-      "id": "johanna-dohnal", "title": "Johanna Dohnal", "short": "Dohnal", "start": "1939-02-14", "end": "2010-02-20", "importance": 3,
-      "description": "Erste Frauenministerin Österreichs, Vorkämpferin der Gleichstellung.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "niki-lauda", "title": "Niki Lauda", "short": "Lauda", "start": "1949-02-22", "end": "2019-05-20", "importance": 3,
-      "description": "Dreifacher Formel-1-Weltmeister und Luftfahrtunternehmer.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    }
+    {"id":"margarete-maultasch","title":"Margarete „Maultasch“","short":"Margarete Maultasch","start":"1318","end":"1369-10-03","importance":3,"description":"Gräfin von Tirol; übergab das Land 1363 an Rudolf IV. von Habsburg.","place":{"name":"Schloss Tirol","lat":46.6908,"lon":11.1556}},
+    {"id":"nikolaus-von-kues","title":"Nikolaus von Kues","short":"Cusanus","start":"1401","end":"1464-08-11","importance":3,"description":"Philosoph, Kardinal und ab 1450 Bischof von Brixen; geriet in heftigen Konflikt mit Herzog Sigmund von Tirol.","place":{"name":"Brixen","lat":46.7155,"lon":11.6566}},
+    {"id":"ulrich-von-cilli","title":"Ulrich II. von Cilli","short":"Ulrich von Cilli","start":"1406","end":"1456-11-09","importance":3,"description":"Mächtiger Fürst und Vormund-Rivale um Ladislaus Postumus; in Belgrad ermordet.","place":{"name":"Celje","lat":46.2309,"lon":15.2604}},
+    {"id":"niklas-salm","title":"Niklas Graf Salm","short":"Niklas Salm","start":"1459","end":"1530-05-04","importance":3,"description":"Oberbefehlshaber der Verteidigung Wiens während der Ersten Osmanenbelagerung 1529; starb an den Folgen einer Verwundung.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"melchior-khlesl","title":"Melchior Khlesl","short":"Khlesl","start":"1552-02-19","end":"1630-09-18","importance":3,"description":"Bischof von Wien, Kardinal und Leiter der Politik unter Kaiser Matthias; Wortführer der Gegenreformation.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"wallenstein","title":"Albrecht von Wallenstein","short":"Wallenstein","start":"1583-09-24","end":"1634-02-25","importance":2,"description":"Kaiserlicher Generalissimus im Dreißigjährigen Krieg; 1634 auf kaiserlichen Befehl ermordet.","place":{"name":"Eger (Cheb)","lat":50.0796,"lon":12.3739}},
+    {"id":"montecuccoli","title":"Raimondo Montecuccoli","short":"Montecuccoli","start":"1609-02-21","end":"1680-10-16","importance":3,"description":"Kaiserlicher Feldherr und Militärtheoretiker; Sieger von Mogersdorf 1664.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"starhemberg","title":"Ernst Rüdiger von Starhemberg","short":"Starhemberg","start":"1638-01-12","end":"1701-01-04","importance":2,"description":"Stadtkommandant von Wien während der Zweiten Osmanenbelagerung 1683.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"prinz-eugen","title":"Prinz Eugen von Savoyen","short":"Prinz Eugen","start":"1663-10-18","end":"1736-04-21","importance":1,"description":"Bedeutendster Feldherr der Habsburger (Zenta, Höchstädt, Belgrad), Staatsmann und Kunstmäzen; Bauherr des Belvedere.","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809}},
+    {"id":"haugwitz","title":"Friedrich Wilhelm von Haugwitz","short":"Haugwitz","start":"1702-12-11","end":"1765-08-30","importance":3,"description":"Leitete die große Staats- und Verwaltungsreform Maria Theresias (1749).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"van-swieten","title":"Gerard van Swieten","short":"van Swieten","start":"1700-05-07","end":"1772-06-18","importance":2,"description":"Leibarzt Maria Theresias; reformierte das Medizinstudium und die Zensur und begründete die Erste Wiener Medizinische Schule.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"kaunitz","title":"Wenzel Anton von Kaunitz","short":"Kaunitz","start":"1711-02-02","end":"1794-06-27","importance":2,"description":"Staatskanzler unter Maria Theresia und Joseph II.; schloss 1756 das als „Umkehrung der Allianzen“ bekannte Bündnis mit Frankreich.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"sonnenfels","title":"Joseph von Sonnenfels","short":"Sonnenfels","start":"1732","end":"1817-04-25","importance":3,"description":"Aufklärer und Staatswissenschaftler; erreichte 1776 die Abschaffung der Folter in Österreich.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"marie-antoinette","title":"Marie Antoinette","start":"1755-11-02","end":"1793-10-16","importance":2,"description":"In Wien geborene Tochter Maria Theresias, Königin von Frankreich; in der Französischen Revolution hingerichtet.","place":{"name":"Paris","lat":48.8566,"lon":2.3522}},
+    {"id":"clemens-maria-hofbauer","title":"Klemens Maria Hofbauer","short":"Hofbauer","start":"1751-12-26","end":"1820-03-15","importance":3,"description":"Seelsorger und Wiener Stadtpatron.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"erzherzog-karl","title":"Erzherzog Karl","start":"1771-09-05","end":"1847-04-30","importance":2,"description":"Feldherr und Heeresreformer; besiegte Napoleon 1809 bei Aspern.","place":{"name":"Heldenplatz, Wien","lat":48.2063,"lon":16.3626}},
+    {"id":"metternich","title":"Klemens Wenzel von Metternich","short":"Metternich","start":"1773-05-15","end":"1859-06-11","importance":1,"description":"Außenminister und Staatskanzler; leitete den Wiener Kongress und prägte das restaurative „System Metternich“ bis zur Revolution 1848.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"radetzky","title":"Joseph Wenzel Radetzky","short":"Radetzky","start":"1766-11-02","end":"1858-01-05","importance":2,"description":"Feldmarschall, siegte 1848/49 in Oberitalien; Johann Strauss widmete ihm den Radetzky-Marsch.","place":{"name":"Mailand","lat":45.4642,"lon":9.19}},
+    {"id":"andreas-hofer","title":"Andreas Hofer","short":"Hofer","start":"1767-11-22","end":"1810-02-20","importance":2,"description":"Anführer des Tiroler Volksaufstands 1809; in Mantua hingerichtet.","place":{"name":"Bergisel, Innsbruck","lat":47.2475,"lon":11.4005}},
+    {"id":"erzherzog-johann","title":"Erzherzog Johann","start":"1782-01-20","end":"1859-05-11","importance":2,"description":"Förderer der Steiermark (Joanneum, Montanuniversität), 1848 Reichsverweser der Frankfurter Nationalversammlung.","place":{"name":"Graz","lat":47.0707,"lon":15.4395}},
+    {"id":"felix-schwarzenberg","title":"Felix zu Schwarzenberg","short":"Schwarzenberg","start":"1800-10-02","end":"1852-04-05","importance":3,"description":"Ministerpräsident nach 1848; Architekt des Neoabsolutismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"hans-kudlich","title":"Hans Kudlich","short":"Kudlich","start":"1823-10-25","end":"1917-11-11","importance":3,"description":"Jüngster Abgeordneter des Reichstags 1848; sein Antrag führte zur Bauernbefreiung.","place":{"name":"Lobenstein (Úvalno)","lat":50.0386,"lon":17.7558}},
+    {"id":"tegetthoff","title":"Wilhelm von Tegetthoff","short":"Tegetthoff","start":"1827-12-23","end":"1871-04-07","importance":3,"description":"Admiral, Sieger der Seeschlacht bei Lissa 1866.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"kaiserin-elisabeth","title":"Kaiserin Elisabeth („Sisi“)","short":"Elisabeth","start":"1837-12-24","end":"1898-09-10","importance":2,"description":"Ehefrau Franz Josephs; Förderin des Ausgleichs mit Ungarn, in Genf ermordet.","place":{"name":"Schönbrunn, Wien","lat":48.1845,"lon":16.3122}},
+    {"id":"kronprinz-rudolf","title":"Kronprinz Rudolf","start":"1858-08-21","end":"1889-01-30","importance":3,"description":"Liberal gesinnter Thronfolger; starb in Mayerling.","place":{"name":"Mayerling","lat":48.0464,"lon":16.0989}},
+    {"id":"bertha-von-suttner","title":"Bertha von Suttner","short":"Suttner","start":"1843-06-09","end":"1914-06-21","importance":2,"description":"Pazifistin und Schriftstellerin („Die Waffen nieder!“); erhielt 1905 als erste Frau den Friedensnobelpreis.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"victor-adler","title":"Victor Adler","short":"Victor Adler","start":"1852-06-24","end":"1918-11-11","importance":2,"description":"Einigte 1889 die österreichische Sozialdemokratie; erster Außenminister der Republik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"theodor-herzl","title":"Theodor Herzl","short":"Herzl","start":"1860-05-02","end":"1904-07-03","importance":2,"description":"Wiener Journalist und Begründer des politischen Zionismus („Der Judenstaat“, 1896).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"franz-ferdinand","title":"Erzherzog Franz Ferdinand","short":"Franz Ferdinand","start":"1863-12-18","end":"1914-06-28","importance":2,"description":"Thronfolger; seine Ermordung in Sarajevo löste den Ersten Weltkrieg aus.","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809}},
+    {"id":"karl-renner","title":"Karl Renner","short":"Renner","start":"1870-12-14","end":"1950-12-31","importance":2,"description":"Erster Staatskanzler der Republik (1918–1920), später erster Bundespräsident der Zweiten Republik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"virgil-salzburg","title":"Virgil von Salzburg","short":"Virgil","start":"~700","end":"784-11-27","importance":3,"description":"Irischer Gelehrter, Abt und Bischof von Salzburg; begann den Bau des ersten Salzburger Doms und missionierte in Karantanien.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"arn-salzburg","title":"Arn von Salzburg","short":"Arn","start":"~740","end":"821-01-24","importance":3,"description":"Vertrauter Karls des Großen; wurde 798 erster Erzbischof von Salzburg.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"hemma-von-gurk","title":"Hemma von Gurk","short":"Hemma","start":"~980","end":"1045-06-29","importance":3,"description":"Kärntner Adelige und Stifterin des Klosters Gurk; Landesheilige Kärntens.","place":{"name":"Gurk","lat":46.875,"lon":14.2917}},
+    {"id":"agnes-von-waiblingen","title":"Agnes von Waiblingen","short":"Agnes","start":"1072","end":"1143-09-24","importance":3,"description":"Tochter Kaiser Heinrichs IV., Gemahlin Leopolds III.; Stammmutter der Babenberger und Staufer.","place":{"name":"Klosterneuburg","lat":48.3053,"lon":16.3256}},
+    {"id":"eberhard-ii-salzburg","title":"Eberhard II. von Salzburg","short":"Eberhard II.","start":"~1170","end":"1246-12-01","importance":3,"description":"Erzbischof von Salzburg (1200–1246); baute das Erzstift zu einem eigenständigen Landesfürstentum aus.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"ignaz-seipel","title":"Ignaz Seipel","short":"Seipel","start":"1876-07-19","end":"1932-08-02","importance":3,"description":"Priester und christlichsozialer Bundeskanzler der 1920er-Jahre (Genfer Sanierung).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"otto-bauer","title":"Otto Bauer","start":"1881-09-05","end":"1938-07-04","importance":3,"description":"Theoretiker des Austromarxismus und Führer der Sozialdemokratie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"dollfuss","title":"Engelbert Dollfuß","short":"Dollfuß","start":"1892-10-04","end":"1934-07-25","importance":2,"description":"Bundeskanzler; schaltete 1933 das Parlament aus und errichtete den autoritären Ständestaat. Beim nationalsozialistischen Juliputsch ermordet.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"schuschnigg","title":"Kurt Schuschnigg","short":"Schuschnigg","start":"1897-12-14","end":"1977-11-18","importance":3,"description":"Bundeskanzler des Ständestaats bis zum Anschluss 1938; danach in KZ-Haft.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"wittgenstein","title":"Ludwig Wittgenstein","short":"Wittgenstein","start":"1889-04-26","end":"1951-04-29","importance":2,"description":"Wiener Philosoph, einer der einflussreichsten Denker des 20. Jahrhunderts.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Tractatus logico-philosophicus"}},
+    {"id":"julius-raab","title":"Julius Raab","short":"Raab","start":"1891-11-29","end":"1964-01-08","importance":2,"description":"Bundeskanzler 1953–1961; „Staatsvertragskanzler“, Begründer der Sozialpartnerschaft.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"leopold-figl","title":"Leopold Figl","short":"Figl","start":"1902-10-02","end":"1965-05-09","importance":2,"description":"Erster Bundeskanzler der Zweiten Republik, als Außenminister Unterzeichner des Staatsvertrags 1955.","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809}},
+    {"id":"karl-popper","title":"Karl Popper","short":"Popper","start":"1902-07-28","end":"1994-09-17","importance":2,"description":"Wiener Philosoph des kritischen Rationalismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Logik der Forschung, Die offene Gesellschaft und ihre Feinde"}},
+    {"id":"hayek","title":"Friedrich August von Hayek","short":"Hayek","start":"1899-05-08","end":"1992-03-23","importance":3,"description":"Ökonom der Österreichischen Schule, Nobelpreis 1974.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"viktor-frankl","title":"Viktor Frankl","short":"Frankl","start":"1905-03-26","end":"1997-09-02","importance":2,"description":"Psychiater, Überlebender des Holocaust, Begründer der Logotherapie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"… trotzdem Ja zum Leben sagen"}},
+    {"id":"kardinal-koenig","title":"Franz König","short":"Kardinal König","start":"1905-08-03","end":"2004-03-13","importance":3,"description":"Erzbischof von Wien und Kardinal, prägte die Öffnung der Kirche nach dem Zweiten Vatikanischen Konzil.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"simon-wiesenthal","title":"Simon Wiesenthal","short":"Wiesenthal","start":"1908-12-31","end":"2005-09-20","importance":2,"description":"Holocaust-Überlebender; spürte in Wien jahrzehntelang NS-Verbrecher auf.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"bruno-kreisky","title":"Bruno Kreisky","short":"Kreisky","start":"1911-01-22","end":"1990-07-29","importance":1,"description":"Bundeskanzler 1970–1983; Reformen in Sozial-, Rechts- und Bildungspolitik, aktive Neutralitätspolitik.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"otto-von-habsburg","title":"Otto von Habsburg","short":"Otto Habsburg","start":"1912-11-20","end":"2011-07-04","importance":3,"description":"Sohn Kaiser Karls I., Europapolitiker; Mitinitiator des Paneuropäischen Picknicks 1989.","place":{"name":"Pöcking","lat":47.96,"lon":11.3}},
+    {"id":"toni-sailer","title":"Toni Sailer","short":"Sailer","start":"1935-11-17","end":"2009-08-24","importance":3,"description":"Skirennläufer, gewann 1956 alle drei alpinen Olympiabewerbe.","place":{"name":"Kitzbühel","lat":47.4467,"lon":12.3925}},
+    {"id":"johanna-dohnal","title":"Johanna Dohnal","short":"Dohnal","start":"1939-02-14","end":"2010-02-20","importance":3,"description":"Erste Frauenministerin Österreichs, Vorkämpferin der Gleichstellung.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"niki-lauda","title":"Niki Lauda","short":"Lauda","start":"1949-02-22","end":"2019-05-20","importance":3,"description":"Dreifacher Formel-1-Weltmeister und Luftfahrtunternehmer.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}}
   ]
 }

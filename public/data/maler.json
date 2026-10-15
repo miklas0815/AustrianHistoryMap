@@ -2,511 +2,95 @@
   "category": "maler",
   "note": "Balken zeigen die Lebensdaten. Maler mit Österreichbezug bzw. am Habsburgerhof haben Vorrang (Bedeutung 1–3), internationale Maler dienen als Kontext (4–5) und erscheinen erst beim Hineinzoomen.",
   "items": [
-    {
-      "id": "albrecht-altdorfer", "title": "Albrecht Altdorfer", "start": "~1480", "end": "1538-02-12", "importance": 1,
-      "description": "Hauptmeister der Donauschule; schuf u. a. den Sebastiansaltar für das Stift St. Florian. Gilt als Begründer der eigenständigen Landschaftsmalerei.",
-      "place": { "name": "Stift St. Florian", "lat": 48.2066, "lon": 14.3787 },
-      "attributes": { "Werke": "Sebastiansaltar (St. Florian), Alexanderschlacht (1529)", "Stil": "Donauschule" }
-    },
-    {
-      "id": "wolf-huber", "title": "Wolf Huber", "start": "~1485", "end": "1553-06-03", "importance": 2,
-      "description": "Aus Feldkirch stammender Maler und Zeichner der Donauschule, später Hofmaler in Passau.",
-      "place": { "name": "Feldkirch", "lat": 47.2370, "lon": 9.5970 },
-      "attributes": { "Werke": "Annenaltar (Feldkirch)", "Stil": "Donauschule" }
-    },
-    {
-      "id": "lucas-cranach", "title": "Lucas Cranach d. Ä.", "start": "1472", "end": "1553-10-16", "importance": 3,
-      "description": "Wirkte um 1502–1505 in Wien und prägte dort die Anfänge der Donauschule; später Hofmaler in Wittenberg und Maler der Reformation.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Bildnisse Cuspinian (Wien, um 1502), Kreuzigung (Schottenstift)" }
-    },
-    {
-      "id": "albrecht-duerer", "title": "Albrecht Dürer", "start": "1471-05-21", "end": "1528-04-06", "importance": 3,
-      "description": "Arbeitete für Maximilian I. an der Ehrenpforte und am Triumphzug; malte 1519 das bekannte Bildnis des Kaisers (heute im Kunsthistorischen Museum Wien).",
-      "place": { "name": "Nürnberg", "lat": 49.4521, "lon": 11.0767 },
-      "attributes": { "Werke": "Bildnis Kaiser Maximilian I. (1519), Ehrenpforte Maximilians I." }
-    },
-    {
-      "id": "bernhard-strigel", "title": "Bernhard Strigel", "start": "~1460", "end": "1528-05-04", "importance": 3,
-      "description": "Bevorzugter Porträtmaler Maximilians I.; malte das Familienbildnis Maximilians (Kunsthistorisches Museum Wien).",
-      "place": { "name": "Memmingen", "lat": 47.9837, "lon": 10.1813 },
-      "attributes": { "Werke": "Kaiser Maximilian I. und seine Familie" }
-    },
-    {
-      "id": "jakob-seisenegger", "title": "Jakob Seisenegger", "start": "1505", "end": "1567", "importance": 2,
-      "description": "Hofmaler Ferdinands I.; malte zahlreiche Bildnisse der Habsburger, darunter Kaiser Karl V. mit Hund.",
-      "place": { "name": "Linz", "lat": 48.3069, "lon": 14.2858 },
-      "attributes": { "Funktion": "Hofmaler Ferdinands I." }
-    },
-    {
-      "id": "giuseppe-arcimboldo", "title": "Giuseppe Arcimboldo", "start": "1526", "end": "1593-07-11", "importance": 2,
-      "description": "Mailänder Maler, ab 1562 am Hof in Wien und später in Prag. Berühmt für seine aus Früchten, Pflanzen und Gegenständen zusammengesetzten Köpfe.",
-      "place": { "name": "Wien / Prag", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Die vier Jahreszeiten, Die vier Elemente, Vertumnus (Rudolf II.)" }
-    },
-    {
-      "id": "bartholomaeus-spranger", "title": "Bartholomäus Spranger", "start": "1546-03-21", "end": "1611", "importance": 3,
-      "description": "Flämischer Manierist; ab 1575 am Wiener Hof Maximilians II., ab 1581 Hofmaler Rudolfs II. in Prag.",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 },
-      "attributes": { "Stil": "Rudolfinischer Manierismus" }
-    },
-    {
-      "id": "hans-von-aachen", "title": "Hans von Aachen", "start": "1552", "end": "1615-03-04", "importance": 3,
-      "description": "Kammermaler Rudolfs II. in Prag; malte allegorische Bilder und Porträts für den Kaiser.",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 }
-    },
-    {
-      "id": "pieter-bruegel", "title": "Pieter Bruegel d. Ä.", "start": "~1525", "end": "1569-09-09", "importance": 4, "tags": ["international"],
-      "description": "Flämischer Maler; das Kunsthistorische Museum Wien besitzt die weltweit größte Sammlung seiner Werke (u. a. Turmbau zu Babel, Jäger im Schnee).",
-      "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 },
-      "attributes": { "Werke": "Turmbau zu Babel (1563), Jäger im Schnee (1565), Bauernhochzeit" }
-    },
-    {
-      "id": "tizian", "title": "Tizian", "start": "~1488", "end": "1576-08-27", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister der venezianischen Malerei; Porträtist Karls V., der ihn 1533 zum Hofmaler ernannte.",
-      "place": { "name": "Venedig", "lat": 45.4408, "lon": 12.3155 },
-      "attributes": { "Werke": "Karl V. bei Mühlberg (1548)" }
-    },
-    {
-      "id": "leonardo", "title": "Leonardo da Vinci", "start": "1452-04-15", "end": "1519-05-02", "importance": 4, "tags": ["international"],
-      "description": "Maler, Ingenieur und Naturforscher der Hochrenaissance.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Werke": "Mona Lisa, Das Abendmahl" }
-    },
-    {
-      "id": "raffael", "title": "Raffael", "start": "1483-04-06", "end": "1520-04-06", "importance": 4, "tags": ["international"],
-      "description": "Maler und Architekt der Hochrenaissance in Rom.",
-      "place": { "name": "Rom", "lat": 41.9029, "lon": 12.4545 },
-      "attributes": { "Werke": "Schule von Athen, Madonna im Grünen (Kunsthistorisches Museum Wien)" }
-    },
-    {
-      "id": "holbein", "title": "Hans Holbein d. J.", "start": "~1497", "end": "1543", "importance": 5, "tags": ["international"],
-      "description": "Porträtmaler, ab 1536 Hofmaler Heinrichs VIII. in London.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "el-greco", "title": "El Greco", "start": "1541", "end": "1614-04-07", "importance": 5, "tags": ["international"],
-      "description": "Aus Kreta stammender Maler des Manierismus, ab 1577 in Toledo.",
-      "place": { "name": "Toledo", "lat": 39.8628, "lon": -4.0273 }
-    },
-    {
-      "id": "caravaggio", "title": "Caravaggio", "start": "1571-09-29", "end": "1610-07-18", "importance": 5, "tags": ["international"],
-      "description": "Wegbereiter der Barockmalerei mit starken Hell-Dunkel-Kontrasten.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "frans-luycx", "title": "Frans Luycx", "start": "1604", "end": "1668", "importance": 3,
-      "description": "Flämischer Porträtmaler, Hofmaler Ferdinands III.; malte zahlreiche Bildnisse der kaiserlichen Familie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofmaler Ferdinands III." }
-    },
-    {
-      "id": "tobias-pock", "title": "Tobias Pock", "start": "1609", "end": "1683", "importance": 3,
-      "description": "Malte das Hochaltarbild des Wiener Stephansdoms (Steinigung des hl. Stephanus, 1647).",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Hochaltarbild des Stephansdoms" }
-    },
-    {
-      "id": "jan-thomas", "title": "Jan Thomas", "start": "1617", "end": "1678", "importance": 3,
-      "description": "Flämischer Maler und Radierer, Schüler von Rubens; Hofmaler Leopolds I. in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofmaler Leopolds I." }
-    },
-    {
-      "id": "hans-adam-weissenkircher", "title": "Hans Adam Weissenkircher", "short": "Weissenkircher", "start": "1646", "end": "1695", "importance": 3,
-      "description": "Hofmaler der Fürsten Eggenberg; schuf den Gemäldezyklus im Planetensaal von Schloss Eggenberg in Graz.",
-      "place": { "name": "Schloss Eggenberg, Graz", "lat": 47.0738, "lon": 15.3906 },
-      "attributes": { "Werke": "Planetensaal, Schloss Eggenberg" }
-    },
-    {
-      "id": "johann-michael-rottmayr", "title": "Johann Michael Rottmayr", "short": "Rottmayr", "start": "1654-12-11", "end": "1730-10-25", "importance": 1,
-      "description": "Erster bedeutender einheimischer Barockmaler Österreichs; schuf die Kuppelfresken der Karlskirche und Peterskirche sowie Fresken in Melk und Salzburg.",
-      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 },
-      "attributes": { "Werke": "Kuppelfresken Karlskirche und Peterskirche, Fresken Stift Melk", "Geboren": "Laufen an der Salzach" }
-    },
-    {
-      "id": "martino-altomonte", "title": "Martino Altomonte", "start": "1657-05-08", "end": "1745-09-14", "importance": 3,
-      "description": "In Neapel geborener Maler, Hofmaler des polnischen Königs Jan III. Sobieski, ab 1703 in Wien; Altarbilder und Fresken u. a. im Belvedere.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Fresken im Unteren Belvedere" }
-    },
-    {
-      "id": "peter-strudel", "title": "Peter Strudel", "start": "1660", "end": "1714-02-04", "importance": 2,
-      "description": "Kammermaler Leopolds I.; gründete 1692 in Wien eine private Malerakademie, die Keimzelle der Akademie der bildenden Künste.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Hofmaler, Akademiegründer" }
-    },
-    {
-      "id": "andrea-pozzo", "title": "Andrea Pozzo", "start": "1642-11-30", "end": "1709-08-31", "importance": 2,
-      "description": "Jesuit und Meister der illusionistischen Deckenmalerei; ab 1703 in Wien (Jesuitenkirche, Gartenpalais Liechtenstein), wo er starb.",
-      "place": { "name": "Jesuitenkirche, Wien", "lat": 48.2092, "lon": 16.378 },
-      "attributes": { "Werke": "Scheinkuppel der Jesuitenkirche Wien, Herkules-Fresken im Palais Liechtenstein" }
-    },
-    {
-      "id": "rubens", "title": "Peter Paul Rubens", "short": "Rubens", "start": "1577-06-28", "end": "1640-05-30", "importance": 4, "tags": ["international"],
-      "description": "Führender Maler des flämischen Barock; das Kunsthistorische Museum Wien besitzt eine bedeutende Rubens-Sammlung.",
-      "place": { "name": "Antwerpen", "lat": 51.2194, "lon": 4.4025 },
-      "attributes": { "Werke": "Das Pelzchen, Ildefonso-Altar (beide KHM Wien)" }
-    },
-    {
-      "id": "velazquez", "title": "Diego Velázquez", "short": "Velázquez", "start": "1599-06-06", "end": "1660-08-06", "importance": 4, "tags": ["international"],
-      "description": "Hofmaler Philipps IV. von Spanien; malte die spanischen Habsburger, darunter die Infantinnenbildnisse, die als Brautbilder nach Wien geschickt wurden.",
-      "place": { "name": "Madrid", "lat": 40.4168, "lon": -3.7038 },
-      "attributes": { "Werke": "Las Meninas, Infantin Margarita Teresa (KHM Wien)" }
-    },
-    {
-      "id": "van-dyck", "title": "Anthonis van Dyck", "short": "van Dyck", "start": "1599-03-22", "end": "1641-12-09", "importance": 5, "tags": ["international"],
-      "description": "Porträtmaler, Hofmaler Karls I. von England.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "rembrandt", "title": "Rembrandt van Rijn", "short": "Rembrandt", "start": "1606-07-15", "end": "1669-10-04", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister des niederländischen „Goldenen Zeitalters“.",
-      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 },
-      "attributes": { "Werke": "Die Nachtwache" }
-    },
-    {
-      "id": "vermeer", "title": "Jan Vermeer", "short": "Vermeer", "start": "1632-10", "end": "1675-12-15", "importance": 5, "tags": ["international"],
-      "description": "Delfter Maler stiller Innenräume; sein Bild „Die Malkunst“ hängt im Kunsthistorischen Museum Wien.",
-      "place": { "name": "Delft", "lat": 52.0116, "lon": 4.3571 },
-      "attributes": { "Werke": "Die Malkunst (KHM Wien), Das Mädchen mit dem Perlenohrring" }
-    },
-    {
-      "id": "daniel-gran", "title": "Daniel Gran", "start": "1694-05-22", "end": "1757-04-16", "importance": 2,
-      "description": "Führender Freskant des Wiener Hochbarock.",
-      "place": { "name": "Hofbibliothek, Wien", "lat": 48.2059, "lon": 16.3665 },
-      "attributes": { "Werke": "Kuppelfresko im Prunksaal der Hofbibliothek" }
-    },
-    {
-      "id": "martin-van-meytens", "title": "Martin van Meytens", "start": "1695-06-24", "end": "1770-03-23", "importance": 3,
-      "description": "Hofmaler Maria Theresias und Direktor der Akademie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Bildnisse Maria Theresias und ihrer Familie" }
-    },
-    {
-      "id": "paul-troger", "title": "Paul Troger", "start": "1698-10-30", "end": "1762-07-20", "importance": 2,
-      "description": "Tiroler Barockmaler; schuf die großen Deckenfresken in Melk, Altenburg und Göttweig.",
-      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Werke": "Fresken in Stift Melk (Marmorsaal, Bibliothek), Stift Altenburg" }
-    },
-    {
-      "id": "kremser-schmidt", "title": "Martin Johann Schmidt („Kremser Schmidt“)", "short": "Kremser Schmidt", "start": "1718-09-25", "end": "1801-06-28", "importance": 2,
-      "description": "Produktivster Altarbildmaler des österreichischen Spätbarock.",
-      "place": { "name": "Krems", "lat": 48.41, "lon": 15.61 }
-    },
-    {
-      "id": "bellotto", "title": "Bernardo Bellotto", "short": "Bellotto", "start": "1722-01-20", "end": "1780-11-17", "importance": 3,
-      "description": "Venezianischer Vedutenmaler; malte 1759–1761 Ansichten Wiens für Maria Theresia.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Wien vom Belvedere aus gesehen (KHM)" }
-    },
-    {
-      "id": "maulbertsch", "title": "Franz Anton Maulbertsch", "short": "Maulbertsch", "start": "1724-06-07", "end": "1796-08-07", "importance": 1,
-      "description": "Genialster Maler des österreichischen Spätbarock mit expressiver Farbigkeit.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Fresken der Piaristenkirche Wien, Deckenfresken in Sümeg und Kremsier" }
-    },
-    {
-      "id": "lampi", "title": "Johann Baptist Lampi", "short": "Lampi", "start": "1751-12-31", "end": "1830-02-11", "importance": 3,
-      "description": "Gefragter Porträtmaler in Wien, Warschau und St. Petersburg.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "waldmueller", "title": "Ferdinand Georg Waldmüller", "short": "Waldmüller", "start": "1793-01-15", "end": "1865-08-23", "importance": 1,
-      "description": "Hauptmeister des Wiener Biedermeier; Landschaften und Genrebilder nach der Natur.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Der Dachstein vom Sophienplatz aus, Die Pfändung" }
-    },
-    {
-      "id": "peter-fendi", "title": "Peter Fendi", "start": "1796-09-04", "end": "1842-08-28", "importance": 3,
-      "description": "Biedermeiermaler bürgerlicher Szenen und Porträts.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "amerling", "title": "Friedrich von Amerling", "short": "Amerling", "start": "1803-04-14", "end": "1887-01-14", "importance": 3,
-      "description": "Bedeutendster Porträtmaler des Wiener Biedermeier.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Kaiser Franz I. im Ornat" }
-    },
-    {
-      "id": "moritz-von-schwind", "title": "Moritz von Schwind", "short": "Schwind", "start": "1804-01-21", "end": "1871-02-08", "importance": 3,
-      "description": "Romantischer Maler, Freund Schuberts; schuf die Fresken in der Wiener Hofoper.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Schubertiade, Opernfresken" }
-    },
-    {
-      "id": "danhauser", "title": "Josef Danhauser", "short": "Danhauser", "start": "1805-08-19", "end": "1845-05-04", "importance": 3,
-      "description": "Biedermeiermaler.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Liszt am Flügel" }
-    },
-    {
-      "id": "rudolf-von-alt", "title": "Rudolf von Alt", "short": "Rudolf von Alt", "start": "1812-08-28", "end": "1905-03-12", "importance": 2,
-      "description": "Meister des Aquarells; dokumentierte Wien über acht Jahrzehnte; Ehrenpräsident der Secession.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Ansichten des Stephansdoms und Wiens" }
-    },
-    {
-      "id": "pettenkofen", "title": "August von Pettenkofen", "short": "Pettenkofen", "start": "1822-05-10", "end": "1889-03-21", "importance": 3,
-      "description": "Maler ungarischer Landschaften und Soldatenszenen, Vorläufer des Impressionismus in Österreich.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "anton-romako", "title": "Anton Romako", "short": "Romako", "start": "1832-10-20", "end": "1889-03-08", "importance": 3,
-      "description": "Eigenwilliger Außenseiter, Wegbereiter des Expressionismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Tegetthoff in der Seeschlacht bei Lissa" }
-    },
-    {
-      "id": "hans-makart", "title": "Hans Makart", "short": "Makart", "start": "1840-05-28", "end": "1884-10-03", "importance": 2,
-      "description": "Malerfürst der Ringstraßenzeit; inszenierte 1879 den Festzug zur Silberhochzeit des Kaiserpaares.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Einzug Karls V. in Antwerpen, Makart-Festzug" }
-    },
-    {
-      "id": "emil-jakob-schindler", "title": "Emil Jakob Schindler", "short": "E. J. Schindler", "start": "1842-04-27", "end": "1892-08-09", "importance": 3,
-      "description": "Hauptvertreter des österreichischen Stimmungsimpressionismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "tina-blau", "title": "Tina Blau", "start": "1845-11-15", "end": "1916-10-31", "importance": 3,
-      "description": "Landschaftsmalerin des Stimmungsimpressionismus; Mitbegründerin einer Malschule für Frauen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Frühling im Prater" }
-    },
-    {
-      "id": "carl-moll", "title": "Carl Moll", "short": "Moll", "start": "1861-04-23", "end": "1945-04-13", "importance": 3,
-      "description": "Maler und Mitbegründer der Wiener Secession.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "klimt", "title": "Gustav Klimt", "short": "Klimt", "start": "1862-07-14", "end": "1918-02-06", "importance": 1,
-      "description": "Erster Präsident der Wiener Secession; Hauptmeister des Wiener Jugendstils.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Der Kuss, Beethovenfries, Adele Bloch-Bauer I" }
-    },
-    {
-      "id": "koloman-moser", "title": "Koloman Moser", "short": "Koloman Moser", "start": "1868-03-30", "end": "1918-10-18", "importance": 3,
-      "description": "Maler und Designer, Mitbegründer der Secession und der Wiener Werkstätte.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Glasfenster der Kirche am Steinhof" }
-    },
-    {
-      "id": "richard-gerstl", "title": "Richard Gerstl", "short": "Gerstl", "start": "1883-09-14", "end": "1908-11-04", "importance": 3,
-      "description": "Früh verstorbener Pionier des Expressionismus in Österreich.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "kokoschka", "title": "Oskar Kokoschka", "short": "Kokoschka", "start": "1886-03-01", "end": "1980-02-22", "importance": 2,
-      "description": "Expressionistischer Maler und Dichter.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Die Windsbraut" }
-    },
-    {
-      "id": "schiele", "title": "Egon Schiele", "short": "Schiele", "start": "1890-06-12", "end": "1918-10-31", "importance": 1,
-      "description": "Expressionist mit radikal ausdrucksstarker Figurenzeichnung; starb an der Spanischen Grippe.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Selbstbildnisse, Die Familie" }
-    },
-    {
-      "id": "canaletto", "title": "Canaletto", "start": "1697-10-18", "end": "1768-04-19", "importance": 5, "tags": ["international"],
-      "description": "Venezianischer Vedutenmaler, Onkel Bellottos.",
-      "place": { "name": "Venedig", "lat": 45.4344, "lon": 12.3388 }
-    },
-    {
-      "id": "goya", "title": "Francisco de Goya", "short": "Goya", "start": "1746-03-30", "end": "1828-04-16", "importance": 4, "tags": ["international"],
-      "description": "Spanischer Hofmaler und Wegbereiter der Moderne.",
-      "place": { "name": "Madrid", "lat": 40.4168, "lon": -3.7038 }
-    },
-    {
-      "id": "caspar-david-friedrich", "title": "Caspar David Friedrich", "start": "1774-09-05", "end": "1840-05-07", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister der deutschen Romantik.",
-      "place": { "name": "Dresden", "lat": 51.0504, "lon": 13.7373 },
-      "attributes": { "Werke": "Der Wanderer über dem Nebelmeer" }
-    },
-    {
-      "id": "turner", "title": "William Turner", "short": "Turner", "start": "1775-04-23", "end": "1851-12-19", "importance": 4, "tags": ["international"],
-      "description": "Englischer Maler des Lichts und der Atmosphäre.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "delacroix", "title": "Eugène Delacroix", "short": "Delacroix", "start": "1798-04-26", "end": "1863-08-13", "importance": 5, "tags": ["international"],
-      "description": "Hauptmeister der französischen Romantik.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Die Freiheit führt das Volk" }
-    },
-    {
-      "id": "cezanne", "title": "Paul Cézanne", "short": "Cézanne", "start": "1839-01-19", "end": "1906-10-22", "importance": 5, "tags": ["international"],
-      "description": "Wegbereiter der Moderne.",
-      "place": { "name": "Aix-en-Provence", "lat": 43.5297, "lon": 5.4474 }
-    },
-    {
-      "id": "monet", "title": "Claude Monet", "short": "Monet", "start": "1840-11-14", "end": "1926-12-05", "importance": 4, "tags": ["international"],
-      "description": "Namensgeber und Hauptmeister des Impressionismus.",
-      "place": { "name": "Giverny", "lat": 49.0757, "lon": 1.5339 },
-      "attributes": { "Werke": "Impression, soleil levant" }
-    },
-    {
-      "id": "van-gogh", "title": "Vincent van Gogh", "short": "van Gogh", "start": "1853-03-30", "end": "1890-07-29", "importance": 4, "tags": ["international"],
-      "description": "Niederländischer Maler des Postimpressionismus.",
-      "place": { "name": "Arles", "lat": 43.6766, "lon": 4.6278 },
-      "attributes": { "Werke": "Sonnenblumen, Sternennacht" }
-    },
-    {
-      "id": "munch", "title": "Edvard Munch", "short": "Munch", "start": "1863-12-12", "end": "1944-01-23", "importance": 5, "tags": ["international"],
-      "description": "Norwegischer Wegbereiter des Expressionismus.",
-      "place": { "name": "Oslo", "lat": 59.9139, "lon": 10.7522 },
-      "attributes": { "Werke": "Der Schrei" }
-    },
-    {
-      "id": "kandinsky", "title": "Wassily Kandinsky", "short": "Kandinsky", "start": "1866-12-16", "end": "1944-12-13", "importance": 5, "tags": ["international"],
-      "description": "Pionier der abstrakten Malerei.",
-      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 }
-    },
-    {
-      "id": "picasso", "title": "Pablo Picasso", "short": "Picasso", "start": "1881-10-25", "end": "1973-04-08", "importance": 4, "tags": ["international"],
-      "description": "Mitbegründer des Kubismus.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Les Demoiselles d’Avignon (1907)" }
-    },
-    {
-      "id": "hans-von-tuebingen", "title": "Hans von Tübingen", "start": "~1380", "end": "1462", "importance": 3,
-      "description": "Wiener Neustädter Maler des Weichen Stils.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
-    },
-    {
-      "id": "conrad-laib", "title": "Conrad Laib", "start": "~1410", "end": "~1460", "importance": 3,
-      "description": "Maler in Salzburg; seine Kreuzigung (1449) gilt als Wendepunkt zur realistischen Malerei in Österreich.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Kreuzigung Christi (Belvedere, Wien)" }
-    },
-    {
-      "id": "rueland-frueauf", "title": "Rueland Frueauf der Ältere", "short": "Rueland Frueauf", "start": "~1440", "end": "1507", "importance": 2,
-      "description": "Salzburger und Passauer Maler der Spätgotik.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Tafeln aus Stift St. Peter (Belvedere)" }
-    },
-    {
-      "id": "michael-pacher", "title": "Michael Pacher", "start": "~1435", "end": "1498", "importance": 1,
-      "description": "Tiroler Maler und Bildschnitzer; sein Flügelaltar in St. Wolfgang (1481) ist ein Hauptwerk der Spätgotik.",
-      "place": { "name": "St. Wolfgang im Salzkammergut", "lat": 47.7392, "lon": 13.4484 },
-      "attributes": { "Werke": "Pacher-Altar St. Wolfgang, Kirchenväteraltar" }
-    },
-    {
-      "id": "marx-reichlich", "title": "Marx Reichlich", "short": "Reichlich", "start": "~1460", "end": "~1520", "importance": 3,
-      "description": "Tiroler Maler aus dem Umkreis Michael Pachers.",
-      "place": { "name": "Brixen", "lat": 46.7155, "lon": 11.6566 }
-    },
-    {
-      "id": "giotto", "title": "Giotto di Bondone", "short": "Giotto", "start": "~1267", "end": "1337-01-08", "importance": 4, "tags": ["international"],
-      "description": "Wegbereiter der Renaissance-Malerei.",
-      "place": { "name": "Padua", "lat": 45.4064, "lon": 11.8768 },
-      "attributes": { "Werke": "Fresken der Arenakapelle, Padua" }
-    },
-    {
-      "id": "jan-van-eyck", "title": "Jan van Eyck", "short": "van Eyck", "start": "~1390", "end": "1441-07-09", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister der altniederländischen Malerei.",
-      "place": { "name": "Brügge", "lat": 51.2093, "lon": 3.2247 },
-      "attributes": { "Werke": "Genter Altar, Bildnis Kardinal Albergati (KHM Wien)" }
-    },
-    {
-      "id": "rogier-van-der-weyden", "title": "Rogier van der Weyden", "short": "van der Weyden", "start": "~1400", "end": "1464-06-18", "importance": 5, "tags": ["international"],
-      "description": "Altniederländischer Maler.",
-      "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 }
-    },
-    {
-      "id": "botticelli", "title": "Sandro Botticelli", "short": "Botticelli", "start": "~1445", "end": "1510-05-17", "importance": 4, "tags": ["international"],
-      "description": "Florentiner Maler der Frührenaissance.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Werke": "Die Geburt der Venus" }
-    },
-    {
-      "id": "bosch", "title": "Hieronymus Bosch", "short": "Bosch", "start": "~1450", "end": "1516-08", "importance": 5, "tags": ["international"],
-      "description": "Niederländischer Maler fantastischer Bildwelten.",
-      "place": { "name": "’s-Hertogenbosch", "lat": 51.6978, "lon": 5.3037 },
-      "attributes": { "Werke": "Garten der Lüste, Weltgerichts-Triptychon (Akademie Wien)" }
-    },
-    {
-      "id": "cimabue", "title": "Cimabue", "start": "~1240", "end": "1302", "importance": 4, "tags": ["international"],
-      "description": "Florentiner Maler am Übergang zur Renaissance, Lehrer Giottos.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 }
-    },
-    {
-      "id": "egger-lienz", "title": "Albin Egger-Lienz", "short": "Egger-Lienz", "start": "1868-01-29", "end": "1926-11-04", "importance": 2,
-      "description": "Tiroler Maler monumentaler bäuerlicher und Kriegsdarstellungen.",
-      "place": { "name": "Lienz", "lat": 46.829, "lon": 12.769 },
-      "attributes": { "Werke": "Totentanz von Anno Neun, Den Namenlosen 1914" }
-    },
-    {
-      "id": "herbert-boeckl", "title": "Herbert Boeckl", "short": "Boeckl", "start": "1894-06-03", "end": "1966-01-20", "importance": 3,
-      "description": "Expressiver Maler, Fresken in der Engelkapelle von Seckau.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "max-weiler", "title": "Max Weiler", "short": "Weiler", "start": "1910-08-27", "end": "2001-01-29", "importance": 3,
-      "description": "Tiroler Maler der abstrakten Landschaft.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
-    },
-    {
-      "id": "rudolf-hausner", "title": "Rudolf Hausner", "short": "Hausner", "start": "1914-12-04", "end": "1995-02-25", "importance": 3,
-      "description": "Mitbegründer der Wiener Schule des Phantastischen Realismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "maria-lassnig", "title": "Maria Lassnig", "short": "Lassnig", "start": "1919-09-08", "end": "2014-05-06", "importance": 1,
-      "description": "Kärntner Malerin der „Körperbewusstseinsbilder“; Goldener Löwe der Biennale Venedig 2013.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "hundertwasser", "title": "Friedensreich Hundertwasser", "short": "Hundertwasser", "start": "1928-12-15", "end": "2000-02-19", "importance": 2,
-      "description": "Maler und Architekt farbenfroher, organischer Formen.",
-      "place": { "name": "Hundertwasserhaus, Wien", "lat": 48.2075, "lon": 16.394 },
-      "attributes": { "Werke": "Hundertwasserhaus, Fernwärme Spittelau" }
-    },
-    {
-      "id": "arik-brauer", "title": "Arik Brauer", "short": "Brauer", "start": "1929-01-04", "end": "2021-01-24", "importance": 3,
-      "description": "Maler und Liedermacher, Phantastischer Realismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "ernst-fuchs", "title": "Ernst Fuchs", "short": "Fuchs", "start": "1930-02-13", "end": "2015-11-09", "importance": 3,
-      "description": "Maler des Phantastischen Realismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "hermann-nitsch", "title": "Hermann Nitsch", "short": "Nitsch", "start": "1938-08-29", "end": "2022-04-18", "importance": 2,
-      "description": "Hauptvertreter des Wiener Aktionismus („Orgien-Mysterien-Theater“).",
-      "place": { "name": "Prinzendorf", "lat": 48.5, "lon": 16.6 }
-    },
-    {
-      "id": "paul-klee", "title": "Paul Klee", "short": "Klee", "start": "1879-12-18", "end": "1940-06-29", "importance": 5, "tags": ["international"],
-      "description": "Maler des Bauhauses.",
-      "place": { "name": "Bern", "lat": 46.948, "lon": 7.4474 }
-    },
-    {
-      "id": "chagall", "title": "Marc Chagall", "short": "Chagall", "start": "1887-07-07", "end": "1985-03-28", "importance": 5, "tags": ["international"],
-      "description": "Maler poetischer Bildwelten.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "dali", "title": "Salvador Dalí", "short": "Dalí", "start": "1904-05-11", "end": "1989-01-23", "importance": 4, "tags": ["international"],
-      "description": "Hauptvertreter des Surrealismus.",
-      "place": { "name": "Figueres", "lat": 42.2672, "lon": 2.9606 }
-    },
-    {
-      "id": "frida-kahlo", "title": "Frida Kahlo", "short": "Kahlo", "start": "1907-07-06", "end": "1954-07-13", "importance": 5, "tags": ["international"],
-      "description": "Mexikanische Malerin.",
-      "place": { "name": "Mexiko-Stadt", "lat": 19.4326, "lon": -99.1332 }
-    },
-    {
-      "id": "pollock", "title": "Jackson Pollock", "short": "Pollock", "start": "1912-01-28", "end": "1956-08-11", "importance": 5, "tags": ["international"],
-      "description": "Hauptvertreter des abstrakten Expressionismus.",
-      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 }
-    },
-    {
-      "id": "warhol", "title": "Andy Warhol", "short": "Warhol", "start": "1928-08-06", "end": "1987-02-22", "importance": 4, "tags": ["international"],
-      "description": "Leitfigur der Pop-Art.",
-      "place": { "name": "New York", "lat": 40.7128, "lon": -74.006 }
-    }
+    {"id":"albrecht-altdorfer","title":"Albrecht Altdorfer","start":"~1480","end":"1538-02-12","importance":1,"description":"Hauptmeister der Donauschule; schuf u. a. den Sebastiansaltar für das Stift St. Florian. Gilt als Begründer der eigenständigen Landschaftsmalerei.","place":{"name":"Stift St. Florian","lat":48.2066,"lon":14.3787},"attributes":{"Werke":"Sebastiansaltar (St. Florian), Alexanderschlacht (1529)","Stil":"Donauschule"}},
+    {"id":"wolf-huber","title":"Wolf Huber","start":"~1485","end":"1553-06-03","importance":2,"description":"Aus Feldkirch stammender Maler und Zeichner der Donauschule, später Hofmaler in Passau.","place":{"name":"Feldkirch","lat":47.237,"lon":9.597},"attributes":{"Werke":"Annenaltar (Feldkirch)","Stil":"Donauschule"}},
+    {"id":"lucas-cranach","title":"Lucas Cranach d. Ä.","start":"1472","end":"1553-10-16","importance":3,"description":"Wirkte um 1502–1505 in Wien und prägte dort die Anfänge der Donauschule; später Hofmaler in Wittenberg und Maler der Reformation.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Bildnisse Cuspinian (Wien, um 1502), Kreuzigung (Schottenstift)"}},
+    {"id":"albrecht-duerer","title":"Albrecht Dürer","start":"1471-05-21","end":"1528-04-06","importance":3,"description":"Arbeitete für Maximilian I. an der Ehrenpforte und am Triumphzug; malte 1519 das bekannte Bildnis des Kaisers (heute im Kunsthistorischen Museum Wien).","place":{"name":"Nürnberg","lat":49.4521,"lon":11.0767},"attributes":{"Werke":"Bildnis Kaiser Maximilian I. (1519), Ehrenpforte Maximilians I."}},
+    {"id":"bernhard-strigel","title":"Bernhard Strigel","start":"~1460","end":"1528-05-04","importance":3,"description":"Bevorzugter Porträtmaler Maximilians I.; malte das Familienbildnis Maximilians (Kunsthistorisches Museum Wien).","place":{"name":"Memmingen","lat":47.9837,"lon":10.1813},"attributes":{"Werke":"Kaiser Maximilian I. und seine Familie"}},
+    {"id":"jakob-seisenegger","title":"Jakob Seisenegger","start":"1505","end":"1567","importance":2,"description":"Hofmaler Ferdinands I.; malte zahlreiche Bildnisse der Habsburger, darunter Kaiser Karl V. mit Hund.","place":{"name":"Linz","lat":48.3069,"lon":14.2858},"attributes":{"Funktion":"Hofmaler Ferdinands I."}},
+    {"id":"giuseppe-arcimboldo","title":"Giuseppe Arcimboldo","start":"1526","end":"1593-07-11","importance":2,"description":"Mailänder Maler, ab 1562 am Hof in Wien und später in Prag. Berühmt für seine aus Früchten, Pflanzen und Gegenständen zusammengesetzten Köpfe.","place":{"name":"Wien / Prag","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Die vier Jahreszeiten, Die vier Elemente, Vertumnus (Rudolf II.)"}},
+    {"id":"bartholomaeus-spranger","title":"Bartholomäus Spranger","start":"1546-03-21","end":"1611","importance":3,"description":"Flämischer Manierist; ab 1575 am Wiener Hof Maximilians II., ab 1581 Hofmaler Rudolfs II. in Prag.","place":{"name":"Prag","lat":50.0905,"lon":14.4005},"attributes":{"Stil":"Rudolfinischer Manierismus"}},
+    {"id":"hans-von-aachen","title":"Hans von Aachen","start":"1552","end":"1615-03-04","importance":3,"description":"Kammermaler Rudolfs II. in Prag; malte allegorische Bilder und Porträts für den Kaiser.","place":{"name":"Prag","lat":50.0905,"lon":14.4005}},
+    {"id":"pieter-bruegel","title":"Pieter Bruegel d. Ä.","start":"~1525","end":"1569-09-09","importance":4,"description":"Flämischer Maler; das Kunsthistorische Museum Wien besitzt die weltweit größte Sammlung seiner Werke (u. a. Turmbau zu Babel, Jäger im Schnee).","place":{"name":"Brüssel","lat":50.8503,"lon":4.3517},"attributes":{"Werke":"Turmbau zu Babel (1563), Jäger im Schnee (1565), Bauernhochzeit"},"tags":["international"]},
+    {"id":"tizian","title":"Tizian","start":"~1488","end":"1576-08-27","importance":4,"description":"Hauptmeister der venezianischen Malerei; Porträtist Karls V., der ihn 1533 zum Hofmaler ernannte.","place":{"name":"Venedig","lat":45.4408,"lon":12.3155},"attributes":{"Werke":"Karl V. bei Mühlberg (1548)"},"tags":["international"]},
+    {"id":"leonardo","title":"Leonardo da Vinci","start":"1452-04-15","end":"1519-05-02","importance":4,"description":"Maler, Ingenieur und Naturforscher der Hochrenaissance.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Werke":"Mona Lisa, Das Abendmahl"},"tags":["international"]},
+    {"id":"raffael","title":"Raffael","start":"1483-04-06","end":"1520-04-06","importance":4,"description":"Maler und Architekt der Hochrenaissance in Rom.","place":{"name":"Rom","lat":41.9029,"lon":12.4545},"attributes":{"Werke":"Schule von Athen, Madonna im Grünen (Kunsthistorisches Museum Wien)"},"tags":["international"]},
+    {"id":"holbein","title":"Hans Holbein d. J.","start":"~1497","end":"1543","importance":5,"description":"Porträtmaler, ab 1536 Hofmaler Heinrichs VIII. in London.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"tags":["international"]},
+    {"id":"el-greco","title":"El Greco","start":"1541","end":"1614-04-07","importance":5,"description":"Aus Kreta stammender Maler des Manierismus, ab 1577 in Toledo.","place":{"name":"Toledo","lat":39.8628,"lon":-4.0273},"tags":["international"]},
+    {"id":"caravaggio","title":"Caravaggio","start":"1571-09-29","end":"1610-07-18","importance":5,"description":"Wegbereiter der Barockmalerei mit starken Hell-Dunkel-Kontrasten.","place":{"name":"Rom","lat":41.9028,"lon":12.4964},"tags":["international"]},
+    {"id":"frans-luycx","title":"Frans Luycx","start":"1604","end":"1668","importance":3,"description":"Flämischer Porträtmaler, Hofmaler Ferdinands III.; malte zahlreiche Bildnisse der kaiserlichen Familie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofmaler Ferdinands III."}},
+    {"id":"tobias-pock","title":"Tobias Pock","start":"1609","end":"1683","importance":3,"description":"Malte das Hochaltarbild des Wiener Stephansdoms (Steinigung des hl. Stephanus, 1647).","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Hochaltarbild des Stephansdoms"}},
+    {"id":"jan-thomas","title":"Jan Thomas","start":"1617","end":"1678","importance":3,"description":"Flämischer Maler und Radierer, Schüler von Rubens; Hofmaler Leopolds I. in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofmaler Leopolds I."}},
+    {"id":"hans-adam-weissenkircher","title":"Hans Adam Weissenkircher","short":"Weissenkircher","start":"1646","end":"1695","importance":3,"description":"Hofmaler der Fürsten Eggenberg; schuf den Gemäldezyklus im Planetensaal von Schloss Eggenberg in Graz.","place":{"name":"Schloss Eggenberg, Graz","lat":47.0738,"lon":15.3906},"attributes":{"Werke":"Planetensaal, Schloss Eggenberg"}},
+    {"id":"johann-michael-rottmayr","title":"Johann Michael Rottmayr","short":"Rottmayr","start":"1654-12-11","end":"1730-10-25","importance":1,"description":"Erster bedeutender einheimischer Barockmaler Österreichs; schuf die Kuppelfresken der Karlskirche und Peterskirche sowie Fresken in Melk und Salzburg.","place":{"name":"Karlskirche, Wien","lat":48.1982,"lon":16.3719},"attributes":{"Werke":"Kuppelfresken Karlskirche und Peterskirche, Fresken Stift Melk","Geboren":"Laufen an der Salzach"}},
+    {"id":"martino-altomonte","title":"Martino Altomonte","start":"1657-05-08","end":"1745-09-14","importance":3,"description":"In Neapel geborener Maler, Hofmaler des polnischen Königs Jan III. Sobieski, ab 1703 in Wien; Altarbilder und Fresken u. a. im Belvedere.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Fresken im Unteren Belvedere"}},
+    {"id":"peter-strudel","title":"Peter Strudel","start":"1660","end":"1714-02-04","importance":2,"description":"Kammermaler Leopolds I.; gründete 1692 in Wien eine private Malerakademie, die Keimzelle der Akademie der bildenden Künste.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Hofmaler, Akademiegründer"}},
+    {"id":"andrea-pozzo","title":"Andrea Pozzo","start":"1642-11-30","end":"1709-08-31","importance":2,"description":"Jesuit und Meister der illusionistischen Deckenmalerei; ab 1703 in Wien (Jesuitenkirche, Gartenpalais Liechtenstein), wo er starb.","place":{"name":"Jesuitenkirche, Wien","lat":48.2092,"lon":16.378},"attributes":{"Werke":"Scheinkuppel der Jesuitenkirche Wien, Herkules-Fresken im Palais Liechtenstein"}},
+    {"id":"rubens","title":"Peter Paul Rubens","short":"Rubens","start":"1577-06-28","end":"1640-05-30","importance":4,"description":"Führender Maler des flämischen Barock; das Kunsthistorische Museum Wien besitzt eine bedeutende Rubens-Sammlung.","place":{"name":"Antwerpen","lat":51.2194,"lon":4.4025},"attributes":{"Werke":"Das Pelzchen, Ildefonso-Altar (beide KHM Wien)"},"tags":["international"]},
+    {"id":"velazquez","title":"Diego Velázquez","short":"Velázquez","start":"1599-06-06","end":"1660-08-06","importance":4,"description":"Hofmaler Philipps IV. von Spanien; malte die spanischen Habsburger, darunter die Infantinnenbildnisse, die als Brautbilder nach Wien geschickt wurden.","place":{"name":"Madrid","lat":40.4168,"lon":-3.7038},"attributes":{"Werke":"Las Meninas, Infantin Margarita Teresa (KHM Wien)"},"tags":["international"]},
+    {"id":"van-dyck","title":"Anthonis van Dyck","short":"van Dyck","start":"1599-03-22","end":"1641-12-09","importance":5,"description":"Porträtmaler, Hofmaler Karls I. von England.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"tags":["international"]},
+    {"id":"rembrandt","title":"Rembrandt van Rijn","short":"Rembrandt","start":"1606-07-15","end":"1669-10-04","importance":4,"description":"Hauptmeister des niederländischen „Goldenen Zeitalters“.","place":{"name":"Amsterdam","lat":52.3676,"lon":4.9041},"attributes":{"Werke":"Die Nachtwache"},"tags":["international"]},
+    {"id":"vermeer","title":"Jan Vermeer","short":"Vermeer","start":"1632-10","end":"1675-12-15","importance":5,"description":"Delfter Maler stiller Innenräume; sein Bild „Die Malkunst“ hängt im Kunsthistorischen Museum Wien.","place":{"name":"Delft","lat":52.0116,"lon":4.3571},"attributes":{"Werke":"Die Malkunst (KHM Wien), Das Mädchen mit dem Perlenohrring"},"tags":["international"]},
+    {"id":"daniel-gran","title":"Daniel Gran","start":"1694-05-22","end":"1757-04-16","importance":2,"description":"Führender Freskant des Wiener Hochbarock.","place":{"name":"Hofbibliothek, Wien","lat":48.2059,"lon":16.3665},"attributes":{"Werke":"Kuppelfresko im Prunksaal der Hofbibliothek"}},
+    {"id":"martin-van-meytens","title":"Martin van Meytens","start":"1695-06-24","end":"1770-03-23","importance":3,"description":"Hofmaler Maria Theresias und Direktor der Akademie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Bildnisse Maria Theresias und ihrer Familie"}},
+    {"id":"paul-troger","title":"Paul Troger","start":"1698-10-30","end":"1762-07-20","importance":2,"description":"Tiroler Barockmaler; schuf die großen Deckenfresken in Melk, Altenburg und Göttweig.","place":{"name":"Stift Melk","lat":48.228,"lon":15.3317},"attributes":{"Werke":"Fresken in Stift Melk (Marmorsaal, Bibliothek), Stift Altenburg"}},
+    {"id":"kremser-schmidt","title":"Martin Johann Schmidt („Kremser Schmidt“)","short":"Kremser Schmidt","start":"1718-09-25","end":"1801-06-28","importance":2,"description":"Produktivster Altarbildmaler des österreichischen Spätbarock.","place":{"name":"Krems","lat":48.41,"lon":15.61}},
+    {"id":"bellotto","title":"Bernardo Bellotto","short":"Bellotto","start":"1722-01-20","end":"1780-11-17","importance":3,"description":"Venezianischer Vedutenmaler; malte 1759–1761 Ansichten Wiens für Maria Theresia.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Wien vom Belvedere aus gesehen (KHM)"}},
+    {"id":"maulbertsch","title":"Franz Anton Maulbertsch","short":"Maulbertsch","start":"1724-06-07","end":"1796-08-07","importance":1,"description":"Genialster Maler des österreichischen Spätbarock mit expressiver Farbigkeit.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Fresken der Piaristenkirche Wien, Deckenfresken in Sümeg und Kremsier"}},
+    {"id":"lampi","title":"Johann Baptist Lampi","short":"Lampi","start":"1751-12-31","end":"1830-02-11","importance":3,"description":"Gefragter Porträtmaler in Wien, Warschau und St. Petersburg.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"waldmueller","title":"Ferdinand Georg Waldmüller","short":"Waldmüller","start":"1793-01-15","end":"1865-08-23","importance":1,"description":"Hauptmeister des Wiener Biedermeier; Landschaften und Genrebilder nach der Natur.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Der Dachstein vom Sophienplatz aus, Die Pfändung"}},
+    {"id":"peter-fendi","title":"Peter Fendi","start":"1796-09-04","end":"1842-08-28","importance":3,"description":"Biedermeiermaler bürgerlicher Szenen und Porträts.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"amerling","title":"Friedrich von Amerling","short":"Amerling","start":"1803-04-14","end":"1887-01-14","importance":3,"description":"Bedeutendster Porträtmaler des Wiener Biedermeier.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Kaiser Franz I. im Ornat"}},
+    {"id":"moritz-von-schwind","title":"Moritz von Schwind","short":"Schwind","start":"1804-01-21","end":"1871-02-08","importance":3,"description":"Romantischer Maler, Freund Schuberts; schuf die Fresken in der Wiener Hofoper.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Schubertiade, Opernfresken"}},
+    {"id":"danhauser","title":"Josef Danhauser","short":"Danhauser","start":"1805-08-19","end":"1845-05-04","importance":3,"description":"Biedermeiermaler.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Liszt am Flügel"}},
+    {"id":"rudolf-von-alt","title":"Rudolf von Alt","short":"Rudolf von Alt","start":"1812-08-28","end":"1905-03-12","importance":2,"description":"Meister des Aquarells; dokumentierte Wien über acht Jahrzehnte; Ehrenpräsident der Secession.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Ansichten des Stephansdoms und Wiens"}},
+    {"id":"pettenkofen","title":"August von Pettenkofen","short":"Pettenkofen","start":"1822-05-10","end":"1889-03-21","importance":3,"description":"Maler ungarischer Landschaften und Soldatenszenen, Vorläufer des Impressionismus in Österreich.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"anton-romako","title":"Anton Romako","short":"Romako","start":"1832-10-20","end":"1889-03-08","importance":3,"description":"Eigenwilliger Außenseiter, Wegbereiter des Expressionismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Tegetthoff in der Seeschlacht bei Lissa"}},
+    {"id":"hans-makart","title":"Hans Makart","short":"Makart","start":"1840-05-28","end":"1884-10-03","importance":2,"description":"Malerfürst der Ringstraßenzeit; inszenierte 1879 den Festzug zur Silberhochzeit des Kaiserpaares.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Einzug Karls V. in Antwerpen, Makart-Festzug"}},
+    {"id":"emil-jakob-schindler","title":"Emil Jakob Schindler","short":"E. J. Schindler","start":"1842-04-27","end":"1892-08-09","importance":3,"description":"Hauptvertreter des österreichischen Stimmungsimpressionismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"tina-blau","title":"Tina Blau","start":"1845-11-15","end":"1916-10-31","importance":3,"description":"Landschaftsmalerin des Stimmungsimpressionismus; Mitbegründerin einer Malschule für Frauen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Frühling im Prater"}},
+    {"id":"carl-moll","title":"Carl Moll","short":"Moll","start":"1861-04-23","end":"1945-04-13","importance":3,"description":"Maler und Mitbegründer der Wiener Secession.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"klimt","title":"Gustav Klimt","short":"Klimt","start":"1862-07-14","end":"1918-02-06","importance":1,"description":"Erster Präsident der Wiener Secession; Hauptmeister des Wiener Jugendstils.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Der Kuss, Beethovenfries, Adele Bloch-Bauer I"}},
+    {"id":"koloman-moser","title":"Koloman Moser","short":"Koloman Moser","start":"1868-03-30","end":"1918-10-18","importance":3,"description":"Maler und Designer, Mitbegründer der Secession und der Wiener Werkstätte.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Glasfenster der Kirche am Steinhof"}},
+    {"id":"richard-gerstl","title":"Richard Gerstl","short":"Gerstl","start":"1883-09-14","end":"1908-11-04","importance":3,"description":"Früh verstorbener Pionier des Expressionismus in Österreich.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"kokoschka","title":"Oskar Kokoschka","short":"Kokoschka","start":"1886-03-01","end":"1980-02-22","importance":2,"description":"Expressionistischer Maler und Dichter.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Die Windsbraut"}},
+    {"id":"schiele","title":"Egon Schiele","short":"Schiele","start":"1890-06-12","end":"1918-10-31","importance":1,"description":"Expressionist mit radikal ausdrucksstarker Figurenzeichnung; starb an der Spanischen Grippe.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Selbstbildnisse, Die Familie"}},
+    {"id":"canaletto","title":"Canaletto","start":"1697-10-18","end":"1768-04-19","importance":5,"description":"Venezianischer Vedutenmaler, Onkel Bellottos.","place":{"name":"Venedig","lat":45.4344,"lon":12.3388},"tags":["international"]},
+    {"id":"goya","title":"Francisco de Goya","short":"Goya","start":"1746-03-30","end":"1828-04-16","importance":4,"description":"Spanischer Hofmaler und Wegbereiter der Moderne.","place":{"name":"Madrid","lat":40.4168,"lon":-3.7038},"tags":["international"]},
+    {"id":"caspar-david-friedrich","title":"Caspar David Friedrich","start":"1774-09-05","end":"1840-05-07","importance":4,"description":"Hauptmeister der deutschen Romantik.","place":{"name":"Dresden","lat":51.0504,"lon":13.7373},"attributes":{"Werke":"Der Wanderer über dem Nebelmeer"},"tags":["international"]},
+    {"id":"turner","title":"William Turner","short":"Turner","start":"1775-04-23","end":"1851-12-19","importance":4,"description":"Englischer Maler des Lichts und der Atmosphäre.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"tags":["international"]},
+    {"id":"delacroix","title":"Eugène Delacroix","short":"Delacroix","start":"1798-04-26","end":"1863-08-13","importance":5,"description":"Hauptmeister der französischen Romantik.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Die Freiheit führt das Volk"},"tags":["international"]},
+    {"id":"cezanne","title":"Paul Cézanne","short":"Cézanne","start":"1839-01-19","end":"1906-10-22","importance":5,"description":"Wegbereiter der Moderne.","place":{"name":"Aix-en-Provence","lat":43.5297,"lon":5.4474},"tags":["international"]},
+    {"id":"monet","title":"Claude Monet","short":"Monet","start":"1840-11-14","end":"1926-12-05","importance":4,"description":"Namensgeber und Hauptmeister des Impressionismus.","place":{"name":"Giverny","lat":49.0757,"lon":1.5339},"attributes":{"Werke":"Impression, soleil levant"},"tags":["international"]},
+    {"id":"van-gogh","title":"Vincent van Gogh","short":"van Gogh","start":"1853-03-30","end":"1890-07-29","importance":4,"description":"Niederländischer Maler des Postimpressionismus.","place":{"name":"Arles","lat":43.6766,"lon":4.6278},"attributes":{"Werke":"Sonnenblumen, Sternennacht"},"tags":["international"]},
+    {"id":"munch","title":"Edvard Munch","short":"Munch","start":"1863-12-12","end":"1944-01-23","importance":5,"description":"Norwegischer Wegbereiter des Expressionismus.","place":{"name":"Oslo","lat":59.9139,"lon":10.7522},"attributes":{"Werke":"Der Schrei"},"tags":["international"]},
+    {"id":"kandinsky","title":"Wassily Kandinsky","short":"Kandinsky","start":"1866-12-16","end":"1944-12-13","importance":5,"description":"Pionier der abstrakten Malerei.","place":{"name":"München","lat":48.1374,"lon":11.5755},"tags":["international"]},
+    {"id":"picasso","title":"Pablo Picasso","short":"Picasso","start":"1881-10-25","end":"1973-04-08","importance":4,"description":"Mitbegründer des Kubismus.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Les Demoiselles d’Avignon (1907)"},"tags":["international"]},
+    {"id":"hans-von-tuebingen","title":"Hans von Tübingen","start":"~1380","end":"1462","importance":3,"description":"Wiener Neustädter Maler des Weichen Stils.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246}},
+    {"id":"conrad-laib","title":"Conrad Laib","start":"~1410","end":"~1460","importance":3,"description":"Maler in Salzburg; seine Kreuzigung (1449) gilt als Wendepunkt zur realistischen Malerei in Österreich.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Kreuzigung Christi (Belvedere, Wien)"}},
+    {"id":"rueland-frueauf","title":"Rueland Frueauf der Ältere","short":"Rueland Frueauf","start":"~1440","end":"1507","importance":2,"description":"Salzburger und Passauer Maler der Spätgotik.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Tafeln aus Stift St. Peter (Belvedere)"}},
+    {"id":"michael-pacher","title":"Michael Pacher","start":"~1435","end":"1498","importance":1,"description":"Tiroler Maler und Bildschnitzer; sein Flügelaltar in St. Wolfgang (1481) ist ein Hauptwerk der Spätgotik.","place":{"name":"St. Wolfgang im Salzkammergut","lat":47.7392,"lon":13.4484},"attributes":{"Werke":"Pacher-Altar St. Wolfgang, Kirchenväteraltar"}},
+    {"id":"marx-reichlich","title":"Marx Reichlich","short":"Reichlich","start":"~1460","end":"~1520","importance":3,"description":"Tiroler Maler aus dem Umkreis Michael Pachers.","place":{"name":"Brixen","lat":46.7155,"lon":11.6566}},
+    {"id":"giotto","title":"Giotto di Bondone","short":"Giotto","start":"~1267","end":"1337-01-08","importance":4,"description":"Wegbereiter der Renaissance-Malerei.","place":{"name":"Padua","lat":45.4064,"lon":11.8768},"attributes":{"Werke":"Fresken der Arenakapelle, Padua"},"tags":["international"]},
+    {"id":"jan-van-eyck","title":"Jan van Eyck","short":"van Eyck","start":"~1390","end":"1441-07-09","importance":4,"description":"Hauptmeister der altniederländischen Malerei.","place":{"name":"Brügge","lat":51.2093,"lon":3.2247},"attributes":{"Werke":"Genter Altar, Bildnis Kardinal Albergati (KHM Wien)"},"tags":["international"]},
+    {"id":"rogier-van-der-weyden","title":"Rogier van der Weyden","short":"van der Weyden","start":"~1400","end":"1464-06-18","importance":5,"description":"Altniederländischer Maler.","place":{"name":"Brüssel","lat":50.8503,"lon":4.3517},"tags":["international"]},
+    {"id":"botticelli","title":"Sandro Botticelli","short":"Botticelli","start":"~1445","end":"1510-05-17","importance":4,"description":"Florentiner Maler der Frührenaissance.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Werke":"Die Geburt der Venus"},"tags":["international"]},
+    {"id":"bosch","title":"Hieronymus Bosch","short":"Bosch","start":"~1450","end":"1516-08","importance":5,"description":"Niederländischer Maler fantastischer Bildwelten.","place":{"name":"’s-Hertogenbosch","lat":51.6978,"lon":5.3037},"attributes":{"Werke":"Garten der Lüste, Weltgerichts-Triptychon (Akademie Wien)"},"tags":["international"]},
+    {"id":"cimabue","title":"Cimabue","start":"~1240","end":"1302","importance":4,"description":"Florentiner Maler am Übergang zur Renaissance, Lehrer Giottos.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"tags":["international"]},
+    {"id":"egger-lienz","title":"Albin Egger-Lienz","short":"Egger-Lienz","start":"1868-01-29","end":"1926-11-04","importance":2,"description":"Tiroler Maler monumentaler bäuerlicher und Kriegsdarstellungen.","place":{"name":"Lienz","lat":46.829,"lon":12.769},"attributes":{"Werke":"Totentanz von Anno Neun, Den Namenlosen 1914"}},
+    {"id":"herbert-boeckl","title":"Herbert Boeckl","short":"Boeckl","start":"1894-06-03","end":"1966-01-20","importance":3,"description":"Expressiver Maler, Fresken in der Engelkapelle von Seckau.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"max-weiler","title":"Max Weiler","short":"Weiler","start":"1910-08-27","end":"2001-01-29","importance":3,"description":"Tiroler Maler der abstrakten Landschaft.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041}},
+    {"id":"rudolf-hausner","title":"Rudolf Hausner","short":"Hausner","start":"1914-12-04","end":"1995-02-25","importance":3,"description":"Mitbegründer der Wiener Schule des Phantastischen Realismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"maria-lassnig","title":"Maria Lassnig","short":"Lassnig","start":"1919-09-08","end":"2014-05-06","importance":1,"description":"Kärntner Malerin der „Körperbewusstseinsbilder“; Goldener Löwe der Biennale Venedig 2013.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"hundertwasser","title":"Friedensreich Hundertwasser","short":"Hundertwasser","start":"1928-12-15","end":"2000-02-19","importance":2,"description":"Maler und Architekt farbenfroher, organischer Formen.","place":{"name":"Hundertwasserhaus, Wien","lat":48.2075,"lon":16.394},"attributes":{"Werke":"Hundertwasserhaus, Fernwärme Spittelau"}},
+    {"id":"arik-brauer","title":"Arik Brauer","short":"Brauer","start":"1929-01-04","end":"2021-01-24","importance":3,"description":"Maler und Liedermacher, Phantastischer Realismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"ernst-fuchs","title":"Ernst Fuchs","short":"Fuchs","start":"1930-02-13","end":"2015-11-09","importance":3,"description":"Maler des Phantastischen Realismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"hermann-nitsch","title":"Hermann Nitsch","short":"Nitsch","start":"1938-08-29","end":"2022-04-18","importance":2,"description":"Hauptvertreter des Wiener Aktionismus („Orgien-Mysterien-Theater“).","place":{"name":"Prinzendorf","lat":48.5,"lon":16.6}},
+    {"id":"paul-klee","title":"Paul Klee","short":"Klee","start":"1879-12-18","end":"1940-06-29","importance":5,"description":"Maler des Bauhauses.","place":{"name":"Bern","lat":46.948,"lon":7.4474},"tags":["international"]},
+    {"id":"chagall","title":"Marc Chagall","short":"Chagall","start":"1887-07-07","end":"1985-03-28","importance":5,"description":"Maler poetischer Bildwelten.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"tags":["international"]},
+    {"id":"dali","title":"Salvador Dalí","short":"Dalí","start":"1904-05-11","end":"1989-01-23","importance":4,"description":"Hauptvertreter des Surrealismus.","place":{"name":"Figueres","lat":42.2672,"lon":2.9606},"tags":["international"]},
+    {"id":"frida-kahlo","title":"Frida Kahlo","short":"Kahlo","start":"1907-07-06","end":"1954-07-13","importance":5,"description":"Mexikanische Malerin.","place":{"name":"Mexiko-Stadt","lat":19.4326,"lon":-99.1332},"tags":["international"]},
+    {"id":"pollock","title":"Jackson Pollock","short":"Pollock","start":"1912-01-28","end":"1956-08-11","importance":5,"description":"Hauptvertreter des abstrakten Expressionismus.","place":{"name":"New York","lat":40.7128,"lon":-74.006},"tags":["international"]},
+    {"id":"warhol","title":"Andy Warhol","short":"Warhol","start":"1928-08-06","end":"1987-02-22","importance":4,"description":"Leitfigur der Pop-Art.","place":{"name":"New York","lat":40.7128,"lon":-74.006},"tags":["international"]}
   ]
 }

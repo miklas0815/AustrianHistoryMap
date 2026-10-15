@@ -1,365 +1,58 @@
 {
   "category": "herrscher-hrr",
   "items": [
-    {
-      "id": "maximilian-i-hrr", "title": "Maximilian I.", "start": "1486-02-16", "end": "1519-01-12", "importance": 1, "life": { "start": "1459-03-22", "end": "1519-01-12" },
-      "description": "1486 zum römisch-deutschen König gewählt, nach dem Tod Friedrichs III. (1493) Alleinherrscher; nahm 1508 in Trient den Titel „Erwählter Römischer Kaiser“ an. Begründete durch seine Heiratspolitik den Aufstieg der Habsburger.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.8150, "lon": 16.2460 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "22. März 1459, Wiener Neustadt", "Gestorben": "12. Jänner 1519, Wels", "Kaisertitel": "ab 4. Februar 1508" }
-    },
-    {
-      "id": "karl-v-hrr", "title": "Karl V.", "start": "1519-06-28", "end": "1558-03-14", "importance": 1, "life": { "start": "1500-02-24", "end": "1558-09-21" },
-      "description": "Am 28. Juni 1519 in Frankfurt gewählt, 1530 in Bologna vom Papst zum Kaiser gekrönt. Herrschte über ein Reich, „in dem die Sonne nie unterging“. Dankte 1556 ab; wirksam wurde der Verzicht auf die Kaiserwürde 1558.",
-      "place": { "name": "Frankfurt am Main", "lat": 50.1109, "lon": 8.6821 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "24. Februar 1500, Gent", "Gestorben": "21. September 1558, Yuste", "Kaiserkrönung": "24. Februar 1530, Bologna" }
-    },
-    {
-      "id": "ferdinand-i-hrr", "title": "Ferdinand I.", "start": "1558-03-14", "end": "1564-07-25", "importance": 1, "life": { "start": "1503-03-10", "end": "1564-07-25" },
-      "description": "Bruder Karls V.; seit 1531 römisch-deutscher König, ab 1558 Kaiser. Mit ihm beginnt die Linie der österreichischen Habsburger als Kaiser.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "10. März 1503, Alcalá de Henares", "Gestorben": "25. Juli 1564, Wien", "Röm.-dt. König": "ab 5. Jänner 1531" }
-    },
-    {
-      "id": "maximilian-ii-hrr", "title": "Maximilian II.", "start": "1564-07-25", "end": "1576-10-12", "importance": 2, "life": { "start": "1527-07-31", "end": "1576-10-12" },
-      "description": "Sohn Ferdinands I.; galt als dem Protestantismus zugeneigt und gewährte dem niederösterreichischen Adel Religionsfreiheit.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "31. Juli 1527, Wien", "Gestorben": "12. Oktober 1576, Regensburg" }
-    },
-    {
-      "id": "rudolf-ii-hrr", "title": "Rudolf II.", "start": "1576-10-12", "end": "1612-01-20", "importance": 1, "life": { "start": "1552-07-18", "end": "1612-01-20" },
-      "description": "Verlegte die Residenz 1583 nach Prag, das unter ihm zu einem Zentrum von Kunst und Wissenschaft wurde (Kepler, Tycho Brahe, Arcimboldo).",
-      "place": { "name": "Prag", "lat": 50.0755, "lon": 14.4378 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "18. Juli 1552, Wien", "Gestorben": "20. Jänner 1612, Prag" }
-    },
-    {
-      "id": "matthias-hrr", "title": "Matthias", "start": "1612-06-13", "end": "1619-03-20", "importance": 3, "life": { "start": "1557-02-24", "end": "1619-03-20" },
-      "description": "Bruder Rudolfs II., den er im „Bruderzwist“ schrittweise entmachtete. Verlegte die Residenz wieder nach Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "24. Februar 1557, Wien", "Gestorben": "20. März 1619, Wien" }
-    },
-    {
-      "id": "ferdinand-ii-hrr", "title": "Ferdinand II.", "start": "1619-08-28", "end": "1637-02-15", "importance": 2, "life": { "start": "1578-07-09", "end": "1637-02-15" },
-      "description": "Kompromissloser Verfechter der Gegenreformation; seine Politik gegenüber den böhmischen Ständen stand am Beginn des Dreißigjährigen Krieges.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "9. Juli 1578, Graz", "Gestorben": "15. Februar 1637, Wien" }
-    },
-    {
-      "id": "ferdinand-iii-hrr", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2, "life": { "start": "1608-07-13", "end": "1657-04-02" },
-      "description": "Schloss 1648 den Westfälischen Frieden, der den Dreißigjährigen Krieg beendete. Auch als Komponist tätig.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "13. Juli 1608, Graz", "Gestorben": "2. April 1657, Wien" }
-    },
-    {
-      "id": "leopold-i-hrr", "title": "Leopold I.", "start": "1658-07-18", "end": "1705-05-05", "importance": 1, "life": { "start": "1640-06-09", "end": "1705-05-05" },
-      "description": "Fast 47 Jahre Kaiser. In seine Regierung fallen die Zweite Wiener Osmanenbelagerung (1683), die Rückeroberung Ungarns und der Aufstieg Österreichs zur Großmacht; großer Förderer der Barockmusik.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "9. Juni 1640, Wien", "Gestorben": "5. Mai 1705, Wien" }
-    },
-    {
-      "id": "joseph-i-hrr", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3, "life": { "start": "1678-07-26", "end": "1711-04-17" },
-      "description": "Älterer Sohn Leopolds I.; regierte während des Spanischen Erbfolgekriegs und starb früh an den Pocken.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "26. Juli 1678, Wien", "Gestorben": "17. April 1711, Wien" }
-    },
-    {
-      "id": "karl-vi-hrr", "title": "Karl VI.", "start": "1711-10-12", "end": "1740-10-20", "importance": 2, "life": { "start": "1685-10-01", "end": "1740-10-20" },
-      "description": "Letzter männlicher Habsburger; sicherte mit der Pragmatischen Sanktion (1713) die Erbfolge seiner Tochter Maria Theresia.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Geboren": "1. Oktober 1685, Wien", "Gestorben": "20. Oktober 1740, Wien" }
-    },
-    {
-      "id": "karl-vii-hrr", "title": "Karl VII.", "start": "1742-01-24", "end": "1745-01-20", "importance": 4,
-      "life": {"start": "1697-08-06", "end": "1745-01-20"},
-      "description": "Kurfürst von Bayern aus dem Haus Wittelsbach; im Österreichischen Erbfolgekrieg gegen Maria Theresia zum Kaiser gewählt – der einzige Nicht-Habsburger auf dem Kaiserthron zwischen 1438 und 1806.",
-      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 },
-      "attributes": { "Dynastie": "Wittelsbach" }
-    },
-    {
-      "id": "franz-i-stephan-hrr", "title": "Franz I. Stephan", "start": "1745-09-13", "end": "1765-08-18", "importance": 2,
-      "life": {"start": "1708-12-08", "end": "1765-08-18"},
-      "description": "Herzog von Lothringen und Ehemann Maria Theresias; Begründer des Hauses Habsburg-Lothringen. Überließ die Regierung weitgehend seiner Frau und widmete sich Finanzen und Naturwissenschaften.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg-Lothringen" }
-    },
-    {
-      "id": "joseph-ii-hrr", "title": "Joseph II.", "start": "1765-08-18", "end": "1790-02-20", "importance": 1,
-      "life": {"start": "1741-03-13", "end": "1790-02-20"},
-      "description": "Sohn Maria Theresias; ab 1765 Kaiser und Mitregent, ab 1780 Alleinherrscher. Radikaler Reformer im Geist der Aufklärung („Josephinismus“).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg-Lothringen" }
-    },
-    {
-      "id": "leopold-ii-hrr", "title": "Leopold II.", "start": "1790-09-30", "end": "1792-03-01", "importance": 3,
-      "life": {"start": "1747-05-05", "end": "1792-03-01"},
-      "description": "Zuvor reformfreudiger Großherzog der Toskana; nahm in seiner kurzen Regierung manche Reformen seines Bruders Joseph zurück, um die Monarchie zu beruhigen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg-Lothringen" }
-    },
-    {
-      "id": "franz-ii-hrr", "title": "Franz II.", "start": "1792-07-05", "end": "1806-08-06", "importance": 2,
-      "life": {"start": "1768-02-12", "end": "1835-03-02"},
-      "description": "Letzter Kaiser des Heiligen Römischen Reiches. Nahm 1804 den Titel Kaiser von Österreich an und legte 1806 unter dem Druck Napoleons die römisch-deutsche Kaiserkrone nieder.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg-Lothringen" }
-    },
-    {
-      "id": "rudolf-i-hrr", "title": "Rudolf I.", "start": "1273-10-01", "end": "1291-07-15", "importance": 1,
-      "life": {"start": "1218-05-01", "end": "1291-07-15"},
-      "description": "Erster römisch-deutscher König aus dem Haus Habsburg; beendete das Interregnum und gewann 1278 gegen Ottokar II. die österreichischen Länder.",
-      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "adolf-von-nassau", "title": "Adolf von Nassau", "start": "1292-05-05", "end": "1298-06-23", "importance": 5,
-      "life": {"start": "~1250", "end": "1298-07-02"},
-      "description": "Von den Kurfürsten gegen Albrecht I. gewählt, 1298 abgesetzt; fiel in der Schlacht bei Göllheim.",
-      "place": { "name": "Göllheim", "lat": 49.595, "lon": 8.05 },
-      "attributes": { "Dynastie": "Nassau" }
-    },
-    {
-      "id": "albrecht-i-hrr", "title": "Albrecht I.", "start": "1298-07-27", "end": "1308-05-01", "importance": 2,
-      "life": {"start": "1255-07", "end": "1308-05-01"},
-      "description": "Sohn Rudolfs I.; wurde von seinem Neffen Johann („Parricida“) ermordet.",
-      "place": { "name": "Brugg (Windisch)", "lat": 47.4833, "lon": 8.2167 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "heinrich-vii-hrr", "title": "Heinrich VII.", "start": "1308-11-27", "end": "1313-08-24", "importance": 4,
-      "life": {"start": "~1278", "end": "1313-08-24"},
-      "description": "Erster Luxemburger auf dem Thron, 1312 in Rom zum Kaiser gekrönt.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Dynastie": "Luxemburg" }
-    },
-    {
-      "id": "friedrich-der-schoene-hrr", "title": "Friedrich der Schöne", "start": "1314-10-19", "end": "1330-01-13", "importance": 3,
-      "life": {"start": "1289", "end": "1330-01-13"},
-      "description": "Habsburgischer Gegenkönig zu Ludwig dem Bayern; nach der Niederlage bei Mühldorf (1322) gefangen, später Mitkönig.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "ludwig-iv-hrr", "title": "Ludwig IV. der Bayer", "short": "Ludwig der Bayer", "start": "1314-10-20", "end": "1347-10-11", "importance": 3,
-      "life": {"start": "~1282", "end": "1347-10-11"},
-      "description": "Wittelsbacher; setzte sich gegen Friedrich den Schönen durch, 1328 Kaiser.",
-      "place": { "name": "München", "lat": 48.1374, "lon": 11.5755 },
-      "attributes": { "Dynastie": "Wittelsbach" }
-    },
-    {
-      "id": "karl-iv-hrr", "title": "Karl IV.", "start": "1346-07-11", "end": "1378-11-29", "importance": 2,
-      "life": {"start": "1316-05-14", "end": "1378-11-29"},
-      "description": "Luxemburger, residierte in Prag; erließ 1356 die Goldene Bulle, das Grundgesetz des Reiches. Schwiegervater Rudolfs IV.",
-      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
-      "attributes": { "Dynastie": "Luxemburg" }
-    },
-    {
-      "id": "wenzel-hrr", "title": "Wenzel", "start": "1376-06-10", "end": "1400-08-20", "importance": 4,
-      "life": {"start": "1361-02-26", "end": "1419-08-16"},
-      "description": "Sohn Karls IV.; 1400 von den rheinischen Kurfürsten als römisch-deutscher König abgesetzt, blieb König von Böhmen.",
-      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
-      "attributes": { "Dynastie": "Luxemburg" }
-    },
-    {
-      "id": "ruprecht-hrr", "title": "Ruprecht", "start": "1400-08-21", "end": "1410-05-18", "importance": 5,
-      "life": {"start": "1352-05-05", "end": "1410-05-18"},
-      "description": "Kurfürst von der Pfalz.",
-      "place": { "name": "Heidelberg", "lat": 49.3988, "lon": 8.6724 },
-      "attributes": { "Dynastie": "Wittelsbach" }
-    },
-    {
-      "id": "sigismund-hrr", "title": "Sigismund", "start": "1410-09-20", "end": "1437-12-09", "importance": 3,
-      "life": {"start": "1368-02-15", "end": "1437-12-09"},
-      "description": "Letzter Luxemburger; berief das Konzil von Konstanz ein. Sein Schwiegersohn Albrecht V. von Österreich wurde sein Nachfolger.",
-      "place": { "name": "Konstanz", "lat": 47.6603, "lon": 9.1758 },
-      "attributes": { "Dynastie": "Luxemburg" }
-    },
-    {
-      "id": "albrecht-ii-hrr", "title": "Albrecht II.", "start": "1438-03-18", "end": "1439-10-27", "importance": 3,
-      "life": {"start": "1397-08-10", "end": "1439-10-27"},
-      "description": "Als Herzog Albrecht V. von Österreich; erster Habsburger einer fast ununterbrochenen Reihe von Königen und Kaisern bis 1806.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "friedrich-iii-hrr", "title": "Friedrich III.", "start": "1440-02-02", "end": "1493-08-19", "importance": 1,
-      "life": {"start": "1415-09-21", "end": "1493-08-19"},
-      "description": "Über 53 Jahre König, 1452 in Rom als letzter Kaiser zum Kaiser gekrönt; Wahlspruch „AEIOU“. Bahnte durch die burgundische Heirat seines Sohnes Maximilian den Aufstieg Habsburgs an.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "karl-der-grosse", "title": "Karl der Große", "start": "768-10-09", "end": "814-01-28", "importance": 1,
-      "life": {"start": "~747", "end": "814-01-28"},
-      "description": "König der Franken, am Weihnachtstag 800 in Rom zum Kaiser gekrönt. Unterwarf die Awaren und schuf im Osten die Grenzmark, aus der später Österreich hervorging.",
-      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
-      "attributes": { "Dynastie": "Karolinger", "Kaiserkrönung": "25. Dezember 800, Rom" }
-    },
-    {
-      "id": "ludwig-der-fromme", "title": "Ludwig der Fromme", "start": "814-01-28", "end": "840-06-20", "importance": 3,
-      "life": {"start": "778", "end": "840-06-20"},
-      "description": "Sohn und Nachfolger Karls des Großen; unter ihm begannen die Teilungskämpfe des Frankenreichs.",
-      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "lothar-i", "title": "Lothar I.", "start": "840-06-20", "end": "855-09-29", "importance": 4,
-      "life": {"start": "795", "end": "855-09-29"},
-      "description": "Kaiser und Herrscher des Mittelreichs nach dem Vertrag von Verdun.",
-      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "ludwig-der-deutsche", "title": "Ludwig der Deutsche", "start": "843-08", "end": "876-08-28", "importance": 3,
-      "life": {"start": "~806", "end": "876-08-28"},
-      "description": "König des Ostfrankenreichs, aus dem das spätere Deutsche Reich hervorging; dazu gehörte auch die bairische Ostmark.",
-      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "karl-iii-der-dicke", "title": "Karl III. der Dicke", "short": "Karl III.", "start": "876-08-28", "end": "887-11", "importance": 5,
-      "life": {"start": "839", "end": "888-01-13"},
-      "description": "Vereinte noch einmal das Frankenreich, wurde 887 abgesetzt.",
-      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "arnulf-von-kaernten", "title": "Arnulf von Kärnten", "short": "Arnulf", "start": "887-11", "end": "899-12-08", "importance": 3,
-      "life": {"start": "~850", "end": "899-12-08"},
-      "description": "Herzog von Kärnten, ostfränkischer König, 896 zum Kaiser gekrönt.",
-      "place": { "name": "Moosburg (Kärnten)", "lat": 46.6608, "lon": 14.1728 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "ludwig-das-kind", "title": "Ludwig das Kind", "start": "900-02-04", "end": "911-09-24", "importance": 5,
-      "life": {"start": "893", "end": "911-09-24"},
-      "description": "Letzter ostfränkischer Karolinger; in seine Zeit fiel die Niederlage gegen die Ungarn bei Pressburg (907).",
-      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 },
-      "attributes": { "Dynastie": "Karolinger" }
-    },
-    {
-      "id": "konrad-i", "title": "Konrad I.", "start": "911-11-10", "end": "918-12-23", "importance": 5,
-      "life": {"start": "~881", "end": "918-12-23"},
-      "description": "Erster ostfränkischer König, der kein Karolinger war.",
-      "place": { "name": "Forchheim", "lat": 49.7186, "lon": 11.0581 },
-      "attributes": { "Dynastie": "Konradiner" }
-    },
-    {
-      "id": "heinrich-i", "title": "Heinrich I.", "start": "919-05", "end": "936-07-02", "importance": 3,
-      "life": {"start": "~876", "end": "936-07-02"},
-      "description": "Erster König aus dem Haus der Liudolfinger (Ottonen); besiegte 933 die Ungarn.",
-      "place": { "name": "Quedlinburg", "lat": 51.7903, "lon": 11.1425 },
-      "attributes": { "Dynastie": "Ottonen" }
-    },
-    {
-      "id": "otto-i", "title": "Otto I. der Große", "short": "Otto der Große", "start": "936-08-07", "end": "973-05-07", "importance": 1,
-      "life": {"start": "912-11-23", "end": "973-05-07"},
-      "description": "Besiegte 955 die Ungarn auf dem Lechfeld und wurde 962 in Rom zum Kaiser gekrönt – Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums.",
-      "place": { "name": "Magdeburg", "lat": 52.1205, "lon": 11.6276 },
-      "attributes": { "Dynastie": "Ottonen", "Kaiserkrönung": "2. Februar 962, Rom" }
-    },
-    {
-      "id": "otto-ii", "title": "Otto II.", "start": "973-05-07", "end": "983-12-07", "importance": 4,
-      "life": {"start": "955", "end": "983-12-07"},
-      "description": "Belehnte 976 den Babenberger Leopold mit der Mark an der Donau.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Dynastie": "Ottonen" }
-    },
-    {
-      "id": "otto-iii", "title": "Otto III.", "start": "983-12-25", "end": "1002-01-23", "importance": 3,
-      "life": {"start": "980-07", "end": "1002-01-23"},
-      "description": "In seiner Schenkungsurkunde von 996 wird erstmals der Name „Ostarrichi“ genannt.",
-      "place": { "name": "Aachen", "lat": 50.7753, "lon": 6.0839 },
-      "attributes": { "Dynastie": "Ottonen" }
-    },
-    {
-      "id": "heinrich-ii-hrr", "title": "Heinrich II.", "start": "1002-06-07", "end": "1024-07-13", "importance": 3,
-      "life": {"start": "~973", "end": "1024-07-13"},
-      "description": "Letzter Ottone, Gründer des Bistums Bamberg; heiliggesprochen.",
-      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
-      "attributes": { "Dynastie": "Ottonen" }
-    },
-    {
-      "id": "konrad-ii", "title": "Konrad II.", "start": "1024-09-04", "end": "1039-06-04", "importance": 4,
-      "life": {"start": "~990", "end": "1039-06-04"},
-      "description": "Erster Salier; gewann das Königreich Burgund hinzu.",
-      "place": { "name": "Speyer", "lat": 49.3173, "lon": 8.4412 },
-      "attributes": { "Dynastie": "Salier" }
-    },
-    {
-      "id": "heinrich-iii-hrr", "title": "Heinrich III.", "start": "1039-06-04", "end": "1056-10-05", "importance": 3,
-      "life": {"start": "1017-10-28", "end": "1056-10-05"},
-      "description": "Auf dem Höhepunkt kaiserlicher Macht; setzte in Rom Päpste ein.",
-      "place": { "name": "Goslar", "lat": 51.906, "lon": 10.429 },
-      "attributes": { "Dynastie": "Salier" }
-    },
-    {
-      "id": "heinrich-iv-hrr", "title": "Heinrich IV.", "start": "1056-10-05", "end": "1105-12-31", "importance": 2,
-      "life": {"start": "1050-11-11", "end": "1106-08-07"},
-      "description": "Im Investiturstreit mit Papst Gregor VII.; Bußgang nach Canossa 1077.",
-      "place": { "name": "Canossa", "lat": 44.5767, "lon": 10.4558 },
-      "attributes": { "Dynastie": "Salier" }
-    },
-    {
-      "id": "heinrich-v-hrr", "title": "Heinrich V.", "start": "1106-01-05", "end": "1125-05-23", "importance": 4,
-      "life": {"start": "~1086", "end": "1125-05-23"},
-      "description": "Letzter Salier; beendete 1122 mit dem Wormser Konkordat den Investiturstreit.",
-      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 },
-      "attributes": { "Dynastie": "Salier" }
-    },
-    {
-      "id": "lothar-iii", "title": "Lothar III.", "start": "1125-08-30", "end": "1137-12-04", "importance": 5,
-      "life": {"start": "1075", "end": "1137-12-04"},
-      "description": "Kaiser aus dem Haus Supplinburg.",
-      "place": { "name": "Königslutter", "lat": 52.2513, "lon": 10.8194 },
-      "attributes": { "Dynastie": "Supplinburger" }
-    },
-    {
-      "id": "konrad-iii", "title": "Konrad III.", "start": "1138-03-07", "end": "1152-02-15", "importance": 4,
-      "life": {"start": "1093", "end": "1152-02-15"},
-      "description": "Erster Staufer; Halbbruder des Babenbergers Heinrich Jasomirgott.",
-      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
-      "attributes": { "Dynastie": "Staufer" }
-    },
-    {
-      "id": "friedrich-barbarossa", "title": "Friedrich I. Barbarossa", "short": "Barbarossa", "start": "1152-03-04", "end": "1190-06-10", "importance": 1,
-      "life": {"start": "~1122", "end": "1190-06-10"},
-      "description": "Staufischer Kaiser; erhob 1156 mit dem Privilegium minus Österreich zum Herzogtum. Ertrank auf dem Dritten Kreuzzug.",
-      "place": { "name": "Kyffhäuser", "lat": 51.4128, "lon": 11.1069 },
-      "attributes": { "Dynastie": "Staufer" }
-    },
-    {
-      "id": "heinrich-vi-hrr", "title": "Heinrich VI.", "start": "1190-06-10", "end": "1197-09-28", "importance": 4,
-      "life": {"start": "1165-11", "end": "1197-09-28"},
-      "description": "Hielt den englischen König Richard Löwenherz gefangen; das Lösegeld kam auch Österreich zugute.",
-      "place": { "name": "Palermo", "lat": 38.1157, "lon": 13.3615 },
-      "attributes": { "Dynastie": "Staufer" }
-    },
-    {
-      "id": "philipp-von-schwaben", "title": "Philipp von Schwaben", "start": "1198-03-08", "end": "1208-06-21", "importance": 5,
-      "life": {"start": "1177", "end": "1208-06-21"},
-      "description": "Staufischer König im Thronstreit mit Otto IV.; in Bamberg ermordet.",
-      "place": { "name": "Bamberg", "lat": 49.8988, "lon": 10.9028 },
-      "attributes": { "Dynastie": "Staufer" }
-    },
-    {
-      "id": "otto-iv", "title": "Otto IV.", "start": "1198-06-09", "end": "1218-05-19", "importance": 5,
-      "life": {"start": "~1175", "end": "1218-05-19"},
-      "description": "Welfischer Gegenkönig, 1209 Kaiser; nach der Niederlage von Bouvines (1214) ohne Macht.",
-      "place": { "name": "Braunschweig", "lat": 52.2689, "lon": 10.5268 },
-      "attributes": { "Dynastie": "Welfen" }
-    },
-    {
-      "id": "friedrich-ii-hrr", "title": "Friedrich II.", "start": "1212-12-09", "end": "1250-12-13", "importance": 2,
-      "life": {"start": "1194-12-26", "end": "1250-12-13"},
-      "description": "Hochgebildeter Staufer mit Sitz in Sizilien, „Staunen der Welt“; im Dauerkonflikt mit dem Papsttum.",
-      "place": { "name": "Palermo", "lat": 38.1157, "lon": 13.3615 },
-      "attributes": { "Dynastie": "Staufer" }
-    },
-    {
-      "id": "konrad-iv", "title": "Konrad IV.", "start": "1250-12-13", "end": "1254-05-21", "importance": 5,
-      "life": {"start": "1228-04-25", "end": "1254-05-21"},
-      "description": "Letzter Staufer auf dem Thron; danach folgte das Interregnum.",
-      "place": { "name": "Lavello", "lat": 41.0478, "lon": 15.7925 },
-      "attributes": { "Dynastie": "Staufer" }
-    }
+    {"id":"maximilian-i-hrr","title":"Maximilian I.","start":"1486-02-16","end":"1519-01-12","importance":1,"life":{"start":"1459-03-22","end":"1519-01-12"},"description":"1486 zum römisch-deutschen König gewählt, nach dem Tod Friedrichs III. (1493) Alleinherrscher; nahm 1508 in Trient den Titel „Erwählter Römischer Kaiser“ an. Begründete durch seine Heiratspolitik den Aufstieg der Habsburger.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246},"attributes":{"Dynastie":"Habsburg","Geboren":"22. März 1459, Wiener Neustadt","Gestorben":"12. Jänner 1519, Wels","Kaisertitel":"ab 4. Februar 1508"}},
+    {"id":"karl-v-hrr","title":"Karl V.","start":"1519-06-28","end":"1558-03-14","importance":1,"life":{"start":"1500-02-24","end":"1558-09-21"},"description":"Am 28. Juni 1519 in Frankfurt gewählt, 1530 in Bologna vom Papst zum Kaiser gekrönt. Herrschte über ein Reich, „in dem die Sonne nie unterging“. Dankte 1556 ab; wirksam wurde der Verzicht auf die Kaiserwürde 1558.","place":{"name":"Frankfurt am Main","lat":50.1109,"lon":8.6821},"attributes":{"Dynastie":"Habsburg","Geboren":"24. Februar 1500, Gent","Gestorben":"21. September 1558, Yuste","Kaiserkrönung":"24. Februar 1530, Bologna"}},
+    {"id":"ferdinand-i-hrr","title":"Ferdinand I.","start":"1558-03-14","end":"1564-07-25","importance":1,"life":{"start":"1503-03-10","end":"1564-07-25"},"description":"Bruder Karls V.; seit 1531 römisch-deutscher König, ab 1558 Kaiser. Mit ihm beginnt die Linie der österreichischen Habsburger als Kaiser.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"10. März 1503, Alcalá de Henares","Gestorben":"25. Juli 1564, Wien","Röm.-dt. König":"ab 5. Jänner 1531"}},
+    {"id":"maximilian-ii-hrr","title":"Maximilian II.","start":"1564-07-25","end":"1576-10-12","importance":2,"life":{"start":"1527-07-31","end":"1576-10-12"},"description":"Sohn Ferdinands I.; galt als dem Protestantismus zugeneigt und gewährte dem niederösterreichischen Adel Religionsfreiheit.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"31. Juli 1527, Wien","Gestorben":"12. Oktober 1576, Regensburg"}},
+    {"id":"rudolf-ii-hrr","title":"Rudolf II.","start":"1576-10-12","end":"1612-01-20","importance":1,"life":{"start":"1552-07-18","end":"1612-01-20"},"description":"Verlegte die Residenz 1583 nach Prag, das unter ihm zu einem Zentrum von Kunst und Wissenschaft wurde (Kepler, Tycho Brahe, Arcimboldo).","place":{"name":"Prag","lat":50.0755,"lon":14.4378},"attributes":{"Dynastie":"Habsburg","Geboren":"18. Juli 1552, Wien","Gestorben":"20. Jänner 1612, Prag"}},
+    {"id":"matthias-hrr","title":"Matthias","start":"1612-06-13","end":"1619-03-20","importance":3,"life":{"start":"1557-02-24","end":"1619-03-20"},"description":"Bruder Rudolfs II., den er im „Bruderzwist“ schrittweise entmachtete. Verlegte die Residenz wieder nach Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"24. Februar 1557, Wien","Gestorben":"20. März 1619, Wien"}},
+    {"id":"ferdinand-ii-hrr","title":"Ferdinand II.","start":"1619-08-28","end":"1637-02-15","importance":2,"life":{"start":"1578-07-09","end":"1637-02-15"},"description":"Kompromissloser Verfechter der Gegenreformation; seine Politik gegenüber den böhmischen Ständen stand am Beginn des Dreißigjährigen Krieges.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"9. Juli 1578, Graz","Gestorben":"15. Februar 1637, Wien"}},
+    {"id":"ferdinand-iii-hrr","title":"Ferdinand III.","start":"1637-02-15","end":"1657-04-02","importance":2,"life":{"start":"1608-07-13","end":"1657-04-02"},"description":"Schloss 1648 den Westfälischen Frieden, der den Dreißigjährigen Krieg beendete. Auch als Komponist tätig.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"13. Juli 1608, Graz","Gestorben":"2. April 1657, Wien"}},
+    {"id":"leopold-i-hrr","title":"Leopold I.","start":"1658-07-18","end":"1705-05-05","importance":1,"life":{"start":"1640-06-09","end":"1705-05-05"},"description":"Fast 47 Jahre Kaiser. In seine Regierung fallen die Zweite Wiener Osmanenbelagerung (1683), die Rückeroberung Ungarns und der Aufstieg Österreichs zur Großmacht; großer Förderer der Barockmusik.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"9. Juni 1640, Wien","Gestorben":"5. Mai 1705, Wien"}},
+    {"id":"joseph-i-hrr","title":"Joseph I.","start":"1705-05-05","end":"1711-04-17","importance":3,"life":{"start":"1678-07-26","end":"1711-04-17"},"description":"Älterer Sohn Leopolds I.; regierte während des Spanischen Erbfolgekriegs und starb früh an den Pocken.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"26. Juli 1678, Wien","Gestorben":"17. April 1711, Wien"}},
+    {"id":"karl-vi-hrr","title":"Karl VI.","start":"1711-10-12","end":"1740-10-20","importance":2,"life":{"start":"1685-10-01","end":"1740-10-20"},"description":"Letzter männlicher Habsburger; sicherte mit der Pragmatischen Sanktion (1713) die Erbfolge seiner Tochter Maria Theresia.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Geboren":"1. Oktober 1685, Wien","Gestorben":"20. Oktober 1740, Wien"}},
+    {"id":"karl-vii-hrr","title":"Karl VII.","start":"1742-01-24","end":"1745-01-20","importance":4,"life":{"start":"1697-08-06","end":"1745-01-20"},"description":"Kurfürst von Bayern aus dem Haus Wittelsbach; im Österreichischen Erbfolgekrieg gegen Maria Theresia zum Kaiser gewählt – der einzige Nicht-Habsburger auf dem Kaiserthron zwischen 1438 und 1806.","place":{"name":"München","lat":48.1374,"lon":11.5755},"attributes":{"Dynastie":"Wittelsbach"}},
+    {"id":"franz-i-stephan-hrr","title":"Franz I. Stephan","start":"1745-09-13","end":"1765-08-18","importance":2,"life":{"start":"1708-12-08","end":"1765-08-18"},"description":"Herzog von Lothringen und Ehemann Maria Theresias; Begründer des Hauses Habsburg-Lothringen. Überließ die Regierung weitgehend seiner Frau und widmete sich Finanzen und Naturwissenschaften.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg-Lothringen"}},
+    {"id":"joseph-ii-hrr","title":"Joseph II.","start":"1765-08-18","end":"1790-02-20","importance":1,"life":{"start":"1741-03-13","end":"1790-02-20"},"description":"Sohn Maria Theresias; ab 1765 Kaiser und Mitregent, ab 1780 Alleinherrscher. Radikaler Reformer im Geist der Aufklärung („Josephinismus“).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg-Lothringen"}},
+    {"id":"leopold-ii-hrr","title":"Leopold II.","start":"1790-09-30","end":"1792-03-01","importance":3,"life":{"start":"1747-05-05","end":"1792-03-01"},"description":"Zuvor reformfreudiger Großherzog der Toskana; nahm in seiner kurzen Regierung manche Reformen seines Bruders Joseph zurück, um die Monarchie zu beruhigen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg-Lothringen"}},
+    {"id":"franz-ii-hrr","title":"Franz II.","start":"1792-07-05","end":"1806-08-06","importance":2,"life":{"start":"1768-02-12","end":"1835-03-02"},"description":"Letzter Kaiser des Heiligen Römischen Reiches. Nahm 1804 den Titel Kaiser von Österreich an und legte 1806 unter dem Druck Napoleons die römisch-deutsche Kaiserkrone nieder.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg-Lothringen"}},
+    {"id":"rudolf-i-hrr","title":"Rudolf I.","start":"1273-10-01","end":"1291-07-15","importance":1,"life":{"start":"1218-05-01","end":"1291-07-15"},"description":"Erster römisch-deutscher König aus dem Haus Habsburg; beendete das Interregnum und gewann 1278 gegen Ottokar II. die österreichischen Länder.","place":{"name":"Aachen","lat":50.7753,"lon":6.0839},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"adolf-von-nassau","title":"Adolf von Nassau","start":"1292-05-05","end":"1298-06-23","importance":5,"life":{"start":"~1250","end":"1298-07-02"},"description":"Von den Kurfürsten gegen Albrecht I. gewählt, 1298 abgesetzt; fiel in der Schlacht bei Göllheim.","place":{"name":"Göllheim","lat":49.595,"lon":8.05},"attributes":{"Dynastie":"Nassau"}},
+    {"id":"albrecht-i-hrr","title":"Albrecht I.","start":"1298-07-27","end":"1308-05-01","importance":2,"life":{"start":"1255-07","end":"1308-05-01"},"description":"Sohn Rudolfs I.; wurde von seinem Neffen Johann („Parricida“) ermordet.","place":{"name":"Brugg (Windisch)","lat":47.4833,"lon":8.2167},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"heinrich-vii-hrr","title":"Heinrich VII.","start":"1308-11-27","end":"1313-08-24","importance":4,"life":{"start":"~1278","end":"1313-08-24"},"description":"Erster Luxemburger auf dem Thron, 1312 in Rom zum Kaiser gekrönt.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Dynastie":"Luxemburg"}},
+    {"id":"friedrich-der-schoene-hrr","title":"Friedrich der Schöne","start":"1314-10-19","end":"1330-01-13","importance":3,"life":{"start":"1289","end":"1330-01-13"},"description":"Habsburgischer Gegenkönig zu Ludwig dem Bayern; nach der Niederlage bei Mühldorf (1322) gefangen, später Mitkönig.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"ludwig-iv-hrr","title":"Ludwig IV. der Bayer","short":"Ludwig der Bayer","start":"1314-10-20","end":"1347-10-11","importance":3,"life":{"start":"~1282","end":"1347-10-11"},"description":"Wittelsbacher; setzte sich gegen Friedrich den Schönen durch, 1328 Kaiser.","place":{"name":"München","lat":48.1374,"lon":11.5755},"attributes":{"Dynastie":"Wittelsbach"}},
+    {"id":"karl-iv-hrr","title":"Karl IV.","start":"1346-07-11","end":"1378-11-29","importance":2,"life":{"start":"1316-05-14","end":"1378-11-29"},"description":"Luxemburger, residierte in Prag; erließ 1356 die Goldene Bulle, das Grundgesetz des Reiches. Schwiegervater Rudolfs IV.","place":{"name":"Prag","lat":50.091,"lon":14.4016},"attributes":{"Dynastie":"Luxemburg"}},
+    {"id":"wenzel-hrr","title":"Wenzel","start":"1376-06-10","end":"1400-08-20","importance":4,"life":{"start":"1361-02-26","end":"1419-08-16"},"description":"Sohn Karls IV.; 1400 von den rheinischen Kurfürsten als römisch-deutscher König abgesetzt, blieb König von Böhmen.","place":{"name":"Prag","lat":50.091,"lon":14.4016},"attributes":{"Dynastie":"Luxemburg"}},
+    {"id":"ruprecht-hrr","title":"Ruprecht","start":"1400-08-21","end":"1410-05-18","importance":5,"life":{"start":"1352-05-05","end":"1410-05-18"},"description":"Kurfürst von der Pfalz.","place":{"name":"Heidelberg","lat":49.3988,"lon":8.6724},"attributes":{"Dynastie":"Wittelsbach"}},
+    {"id":"sigismund-hrr","title":"Sigismund","start":"1410-09-20","end":"1437-12-09","importance":3,"life":{"start":"1368-02-15","end":"1437-12-09"},"description":"Letzter Luxemburger; berief das Konzil von Konstanz ein. Sein Schwiegersohn Albrecht V. von Österreich wurde sein Nachfolger.","place":{"name":"Konstanz","lat":47.6603,"lon":9.1758},"attributes":{"Dynastie":"Luxemburg"}},
+    {"id":"albrecht-ii-hrr","title":"Albrecht II.","start":"1438-03-18","end":"1439-10-27","importance":3,"life":{"start":"1397-08-10","end":"1439-10-27"},"description":"Als Herzog Albrecht V. von Österreich; erster Habsburger einer fast ununterbrochenen Reihe von Königen und Kaisern bis 1806.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"friedrich-iii-hrr","title":"Friedrich III.","start":"1440-02-02","end":"1493-08-19","importance":1,"life":{"start":"1415-09-21","end":"1493-08-19"},"description":"Über 53 Jahre König, 1452 in Rom als letzter Kaiser zum Kaiser gekrönt; Wahlspruch „AEIOU“. Bahnte durch die burgundische Heirat seines Sohnes Maximilian den Aufstieg Habsburgs an.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"karl-der-grosse","title":"Karl der Große","start":"768-10-09","end":"814-01-28","importance":1,"life":{"start":"~747","end":"814-01-28"},"description":"König der Franken, am Weihnachtstag 800 in Rom zum Kaiser gekrönt. Unterwarf die Awaren und schuf im Osten die Grenzmark, aus der später Österreich hervorging.","place":{"name":"Aachen","lat":50.7753,"lon":6.0839},"attributes":{"Dynastie":"Karolinger","Kaiserkrönung":"25. Dezember 800, Rom"}},
+    {"id":"ludwig-der-fromme","title":"Ludwig der Fromme","start":"814-01-28","end":"840-06-20","importance":3,"life":{"start":"778","end":"840-06-20"},"description":"Sohn und Nachfolger Karls des Großen; unter ihm begannen die Teilungskämpfe des Frankenreichs.","place":{"name":"Aachen","lat":50.7753,"lon":6.0839},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"lothar-i","title":"Lothar I.","start":"840-06-20","end":"855-09-29","importance":4,"life":{"start":"795","end":"855-09-29"},"description":"Kaiser und Herrscher des Mittelreichs nach dem Vertrag von Verdun.","place":{"name":"Aachen","lat":50.7753,"lon":6.0839},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"ludwig-der-deutsche","title":"Ludwig der Deutsche","start":"843-08","end":"876-08-28","importance":3,"life":{"start":"~806","end":"876-08-28"},"description":"König des Ostfrankenreichs, aus dem das spätere Deutsche Reich hervorging; dazu gehörte auch die bairische Ostmark.","place":{"name":"Regensburg","lat":49.0134,"lon":12.1016},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"karl-iii-der-dicke","title":"Karl III. der Dicke","short":"Karl III.","start":"876-08-28","end":"887-11","importance":5,"life":{"start":"839","end":"888-01-13"},"description":"Vereinte noch einmal das Frankenreich, wurde 887 abgesetzt.","place":{"name":"Regensburg","lat":49.0134,"lon":12.1016},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"arnulf-von-kaernten","title":"Arnulf von Kärnten","short":"Arnulf","start":"887-11","end":"899-12-08","importance":3,"life":{"start":"~850","end":"899-12-08"},"description":"Herzog von Kärnten, ostfränkischer König, 896 zum Kaiser gekrönt.","place":{"name":"Moosburg (Kärnten)","lat":46.6608,"lon":14.1728},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"ludwig-das-kind","title":"Ludwig das Kind","start":"900-02-04","end":"911-09-24","importance":5,"life":{"start":"893","end":"911-09-24"},"description":"Letzter ostfränkischer Karolinger; in seine Zeit fiel die Niederlage gegen die Ungarn bei Pressburg (907).","place":{"name":"Regensburg","lat":49.0134,"lon":12.1016},"attributes":{"Dynastie":"Karolinger"}},
+    {"id":"konrad-i","title":"Konrad I.","start":"911-11-10","end":"918-12-23","importance":5,"life":{"start":"~881","end":"918-12-23"},"description":"Erster ostfränkischer König, der kein Karolinger war.","place":{"name":"Forchheim","lat":49.7186,"lon":11.0581},"attributes":{"Dynastie":"Konradiner"}},
+    {"id":"heinrich-i","title":"Heinrich I.","start":"919-05","end":"936-07-02","importance":3,"life":{"start":"~876","end":"936-07-02"},"description":"Erster König aus dem Haus der Liudolfinger (Ottonen); besiegte 933 die Ungarn.","place":{"name":"Quedlinburg","lat":51.7903,"lon":11.1425},"attributes":{"Dynastie":"Ottonen"}},
+    {"id":"otto-i","title":"Otto I. der Große","short":"Otto der Große","start":"936-08-07","end":"973-05-07","importance":1,"life":{"start":"912-11-23","end":"973-05-07"},"description":"Besiegte 955 die Ungarn auf dem Lechfeld und wurde 962 in Rom zum Kaiser gekrönt – Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums.","place":{"name":"Magdeburg","lat":52.1205,"lon":11.6276},"attributes":{"Dynastie":"Ottonen","Kaiserkrönung":"2. Februar 962, Rom"}},
+    {"id":"otto-ii","title":"Otto II.","start":"973-05-07","end":"983-12-07","importance":4,"life":{"start":"955","end":"983-12-07"},"description":"Belehnte 976 den Babenberger Leopold mit der Mark an der Donau.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Dynastie":"Ottonen"}},
+    {"id":"otto-iii","title":"Otto III.","start":"983-12-25","end":"1002-01-23","importance":3,"life":{"start":"980-07","end":"1002-01-23"},"description":"In seiner Schenkungsurkunde von 996 wird erstmals der Name „Ostarrichi“ genannt.","place":{"name":"Aachen","lat":50.7753,"lon":6.0839},"attributes":{"Dynastie":"Ottonen"}},
+    {"id":"heinrich-ii-hrr","title":"Heinrich II.","start":"1002-06-07","end":"1024-07-13","importance":3,"life":{"start":"~973","end":"1024-07-13"},"description":"Letzter Ottone, Gründer des Bistums Bamberg; heiliggesprochen.","place":{"name":"Bamberg","lat":49.8988,"lon":10.9028},"attributes":{"Dynastie":"Ottonen"}},
+    {"id":"konrad-ii","title":"Konrad II.","start":"1024-09-04","end":"1039-06-04","importance":4,"life":{"start":"~990","end":"1039-06-04"},"description":"Erster Salier; gewann das Königreich Burgund hinzu.","place":{"name":"Speyer","lat":49.3173,"lon":8.4412},"attributes":{"Dynastie":"Salier"}},
+    {"id":"heinrich-iii-hrr","title":"Heinrich III.","start":"1039-06-04","end":"1056-10-05","importance":3,"life":{"start":"1017-10-28","end":"1056-10-05"},"description":"Auf dem Höhepunkt kaiserlicher Macht; setzte in Rom Päpste ein.","place":{"name":"Goslar","lat":51.906,"lon":10.429},"attributes":{"Dynastie":"Salier"}},
+    {"id":"heinrich-iv-hrr","title":"Heinrich IV.","start":"1056-10-05","end":"1105-12-31","importance":2,"life":{"start":"1050-11-11","end":"1106-08-07"},"description":"Im Investiturstreit mit Papst Gregor VII.; Bußgang nach Canossa 1077.","place":{"name":"Canossa","lat":44.5767,"lon":10.4558},"attributes":{"Dynastie":"Salier"}},
+    {"id":"heinrich-v-hrr","title":"Heinrich V.","start":"1106-01-05","end":"1125-05-23","importance":4,"life":{"start":"~1086","end":"1125-05-23"},"description":"Letzter Salier; beendete 1122 mit dem Wormser Konkordat den Investiturstreit.","place":{"name":"Worms","lat":49.6341,"lon":8.3507},"attributes":{"Dynastie":"Salier"}},
+    {"id":"lothar-iii","title":"Lothar III.","start":"1125-08-30","end":"1137-12-04","importance":5,"life":{"start":"1075","end":"1137-12-04"},"description":"Kaiser aus dem Haus Supplinburg.","place":{"name":"Königslutter","lat":52.2513,"lon":10.8194},"attributes":{"Dynastie":"Supplinburger"}},
+    {"id":"konrad-iii","title":"Konrad III.","start":"1138-03-07","end":"1152-02-15","importance":4,"life":{"start":"1093","end":"1152-02-15"},"description":"Erster Staufer; Halbbruder des Babenbergers Heinrich Jasomirgott.","place":{"name":"Bamberg","lat":49.8988,"lon":10.9028},"attributes":{"Dynastie":"Staufer"}},
+    {"id":"friedrich-barbarossa","title":"Friedrich I. Barbarossa","short":"Barbarossa","start":"1152-03-04","end":"1190-06-10","importance":1,"life":{"start":"~1122","end":"1190-06-10"},"description":"Staufischer Kaiser; erhob 1156 mit dem Privilegium minus Österreich zum Herzogtum. Ertrank auf dem Dritten Kreuzzug.","place":{"name":"Kyffhäuser","lat":51.4128,"lon":11.1069},"attributes":{"Dynastie":"Staufer"}},
+    {"id":"heinrich-vi-hrr","title":"Heinrich VI.","start":"1190-06-10","end":"1197-09-28","importance":4,"life":{"start":"1165-11","end":"1197-09-28"},"description":"Hielt den englischen König Richard Löwenherz gefangen; das Lösegeld kam auch Österreich zugute.","place":{"name":"Palermo","lat":38.1157,"lon":13.3615},"attributes":{"Dynastie":"Staufer"}},
+    {"id":"philipp-von-schwaben","title":"Philipp von Schwaben","start":"1198-03-08","end":"1208-06-21","importance":5,"life":{"start":"1177","end":"1208-06-21"},"description":"Staufischer König im Thronstreit mit Otto IV.; in Bamberg ermordet.","place":{"name":"Bamberg","lat":49.8988,"lon":10.9028},"attributes":{"Dynastie":"Staufer"}},
+    {"id":"otto-iv","title":"Otto IV.","start":"1198-06-09","end":"1218-05-19","importance":5,"life":{"start":"~1175","end":"1218-05-19"},"description":"Welfischer Gegenkönig, 1209 Kaiser; nach der Niederlage von Bouvines (1214) ohne Macht.","place":{"name":"Braunschweig","lat":52.2689,"lon":10.5268},"attributes":{"Dynastie":"Welfen"}},
+    {"id":"friedrich-ii-hrr","title":"Friedrich II.","start":"1212-12-09","end":"1250-12-13","importance":2,"life":{"start":"1194-12-26","end":"1250-12-13"},"description":"Hochgebildeter Staufer mit Sitz in Sizilien, „Staunen der Welt“; im Dauerkonflikt mit dem Papsttum.","place":{"name":"Palermo","lat":38.1157,"lon":13.3615},"attributes":{"Dynastie":"Staufer"}},
+    {"id":"konrad-iv","title":"Konrad IV.","start":"1250-12-13","end":"1254-05-21","importance":5,"life":{"start":"1228-04-25","end":"1254-05-21"},"description":"Letzter Staufer auf dem Thron; danach folgte das Interregnum.","place":{"name":"Lavello","lat":41.0478,"lon":15.7925},"attributes":{"Dynastie":"Staufer"}}
   ]
 }

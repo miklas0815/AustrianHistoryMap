@@ -2,471 +2,83 @@
   "category": "baumeister",
   "note": "Balken zeigen die Lebensdaten. In Österreich tätige Baumeister haben Vorrang (Bedeutung 1–3), internationale Architekten dienen als Kontext (4–5).",
   "items": [
-    {
-      "id": "anton-pilgram", "title": "Anton Pilgram", "start": "~1460", "end": "~1515", "importance": 1,
-      "description": "Bildhauer und Baumeister aus Brünn, ab 1511 Dombaumeister von St. Stephan in Wien. Schuf den Orgelfuß (1513) mit seinem berühmten Selbstbildnis; die Kanzel wird ihm traditionell zugeschrieben.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Orgelfuß im Stephansdom (1513), Kanzel (zugeschrieben)", "Wirkungsorte": "Brünn, Wien" }
-    },
-    {
-      "id": "johann-tscherte", "title": "Johann Tscherte", "start": "~1480", "end": "1552", "importance": 3,
-      "description": "Kaiserlicher Baumeister in Wien, verantwortlich für Festungsbauten in Niederösterreich und Ungarn; Freund Albrecht Dürers.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Funktion": "Niederösterreichischer Landbaumeister" }
-    },
-    {
-      "id": "hermes-schallautzer", "title": "Hermes Schallautzer", "start": "1503", "end": "1561", "importance": 2,
-      "description": "Wiener Bürgermeister und Stadtbaumeister; leitete ab 1547 den Ausbau der Wiener Stadtbefestigung zur Bastionsfestung nach der Osmanenbelagerung von 1529.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Renaissance-Befestigung Wiens (Bastionen)" }
-    },
-    {
-      "id": "bonifaz-wolmuet", "title": "Bonifaz Wolmuet", "start": "~1500", "end": "1579", "importance": 2,
-      "description": "Baumeister und Kartograf. Schuf 1547 einen genauen Rundplan Wiens, der den Zustand der Stadt und ihrer Befestigung dokumentiert; später in Prag tätig (Ballhaus, Vollendung des Belvedere).",
-      "place": { "name": "Wien / Prag", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Wolmuet-Plan von Wien (1547), Ballhaus im Prager Burggarten" }
-    },
-    {
-      "id": "domenico-dellallio", "title": "Domenico dell’Allio", "start": "~1505", "end": "1563", "importance": 2,
-      "description": "Italienischer Festungs- und Baumeister in der Steiermark. Plante die Befestigung von Graz und das Grazer Landhaus mit seinem berühmten Arkadenhof (ab 1557).",
-      "place": { "name": "Landhaus Graz", "lat": 47.0703, "lon": 15.4393 },
-      "attributes": { "Werke": "Grazer Landhaus, Festungswerke in Graz, Klagenfurt und Varaždin" }
-    },
-    {
-      "id": "pietro-ferrabosco", "title": "Pietro Ferrabosco", "start": "1512", "end": "~1588", "importance": 2,
-      "description": "Italienischer Maler und Baumeister am Wiener Hof. Ihm wird das Schweizertor der Hofburg (1552) zugeschrieben; tätig auch am Ausbau der Hofburg und an Festungsbauten.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Werke": "Schweizertor der Hofburg (zugeschrieben), Stallburg (Mitwirkung)" }
-    },
-    {
-      "id": "jacopo-strada", "title": "Jacopo Strada", "start": "~1510", "end": "1588", "importance": 3,
-      "description": "Antiquar, Architekt und Kunstagent der Kaiser Ferdinand I., Maximilian II. und Rudolf II.; beteiligt an Entwürfen für das Schloss Neugebäude bei Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Schloss Neugebäude (Mitwirkung), Antiquarium der Münchner Residenz (Entwurf)" }
-    },
-    {
-      "id": "hans-saphoy", "title": "Hans Saphoy", "start": "~1530", "end": "1578", "importance": 3,
-      "description": "Dombaumeister von St. Stephan. Unter ihm erhielt der unvollendete Nordturm des Stephansdoms seinen Renaissance-Turmhelm (1578 fertiggestellt).",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Turmhelm des Nordturms von St. Stephan" }
-    },
-    {
-      "id": "bramante", "title": "Donato Bramante", "start": "~1444", "end": "1514-03-11", "importance": 5, "tags": ["international"],
-      "description": "Architekt der Hochrenaissance; lieferte den ersten Entwurf für den Neubau des Petersdoms in Rom (Grundsteinlegung 1506).",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Werke": "Tempietto, Neubau-Plan für St. Peter" }
-    },
-    {
-      "id": "michelangelo", "title": "Michelangelo Buonarroti", "short": "Michelangelo", "start": "1475-03-06", "end": "1564-02-18", "importance": 4, "tags": ["international"],
-      "description": "Bildhauer, Maler und Architekt; ab 1546 leitender Architekt von St. Peter in Rom, entwarf die Kuppel.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Werke": "Kuppel von St. Peter, Kapitolsplatz, Biblioteca Laurenziana" }
-    },
-    {
-      "id": "mimar-sinan", "title": "Mimar Sinan", "start": "~1490", "end": "1588-07-17", "importance": 4, "tags": ["international"],
-      "description": "Hofarchitekt der osmanischen Sultane ab 1538, prägte die klassische osmanische Architektur.",
-      "place": { "name": "Istanbul", "lat": 41.0161, "lon": 28.9640 },
-      "attributes": { "Werke": "Süleymaniye-Moschee (Istanbul), Selimiye-Moschee (Edirne)" }
-    },
-    {
-      "id": "vignola", "title": "Giacomo Barozzi da Vignola", "short": "Vignola", "start": "1507-10-01", "end": "1573-07-07", "importance": 5, "tags": ["international"],
-      "description": "Architekt und Theoretiker; seine Kirche Il Gesù in Rom wurde Vorbild für den Kirchenbau der Gegenreformation.",
-      "place": { "name": "Rom", "lat": 41.8960, "lon": 12.4799 },
-      "attributes": { "Werke": "Il Gesù, Villa Farnese (Caprarola), Traktat „Regola delli cinque ordini“ (1562)" }
-    },
-    {
-      "id": "andrea-palladio", "title": "Andrea Palladio", "start": "1508-11-30", "end": "1580-08-19", "importance": 4, "tags": ["international"],
-      "description": "Einflussreichster Architekt der Spätrenaissance; seine „Quattro libri dell’architettura“ (1570) wirkten über Jahrhunderte.",
-      "place": { "name": "Vicenza", "lat": 45.5455, "lon": 11.5354 },
-      "attributes": { "Werke": "Villa Rotonda, Basilica Palladiana, San Giorgio Maggiore (Venedig)" }
-    },
-    {
-      "id": "vincenzo-scamozzi", "title": "Vincenzo Scamozzi", "start": "1548-09-02", "end": "1616-08-07", "importance": 3,
-      "description": "Venezianischer Architekt; lieferte für Fürsterzbischof Wolf Dietrich den ersten (nicht ausgeführten) Entwurf eines Neubaus des Salzburger Doms.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 },
-      "attributes": { "Werke": "Entwurf Salzburger Dom, Procuratie Nuove (Venedig)" }
-    },
-    {
-      "id": "santino-solari", "title": "Santino Solari", "start": "1576", "end": "1646-04-10", "importance": 2,
-      "description": "Baumeister des Salzburger Doms (1614–1628), des ersten großen frühbarocken Kirchenbaus nördlich der Alpen, und von Schloss Hellbrunn.",
-      "place": { "name": "Salzburger Dom", "lat": 47.7979, "lon": 13.0469 },
-      "attributes": { "Werke": "Salzburger Dom, Schloss Hellbrunn, Befestigung Salzburgs" }
-    },
-    {
-      "id": "filiberto-lucchese", "title": "Filiberto Lucchese", "start": "1606", "end": "1666", "importance": 3,
-      "description": "Kaiserlicher Hofarchitekt; errichtete den Leopoldinischen Trakt der Wiener Hofburg (ab 1660).",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Werke": "Leopoldinischer Trakt der Hofburg" }
-    },
-    {
-      "id": "giovanni-pietro-tencalla", "title": "Giovanni Pietro Tencalla", "start": "1629", "end": "1702", "importance": 3,
-      "description": "Hofarchitekt Leopolds I.; baute den 1668 abgebrannten Leopoldinischen Trakt der Hofburg wieder auf.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Werke": "Wiederaufbau Leopoldinischer Trakt, Schloss Kroměříž (Umbau)" }
-    },
-    {
-      "id": "carlo-antonio-carlone", "title": "Carlo Antonio Carlone", "start": "~1635", "end": "1708-05-03", "importance": 3,
-      "description": "Baumeister aus einer Künstlerfamilie aus dem Intelvi-Tal; prägte den Barock in Ober- und Niederösterreich, u. a. Stift St. Florian und Stift Garsten.",
-      "place": { "name": "Stift St. Florian", "lat": 48.2066, "lon": 14.3787 },
-      "attributes": { "Werke": "Stift St. Florian (Beginn), Stiftskirche Garsten, Passauer Dom (Wiederaufbau)" }
-    },
-    {
-      "id": "lodovico-burnacini", "title": "Lodovico Ottavio Burnacini", "short": "Burnacini", "start": "1636", "end": "1707-12-12", "importance": 2,
-      "description": "Theaterarchitekt und Bühnenbildner am Kaiserhof; schuf das Opernhaus auf der Cortina und den Entwurf der Pestsäule am Graben.",
-      "place": { "name": "Graben, Wien", "lat": 48.2086, "lon": 16.37 },
-      "attributes": { "Werke": "Pestsäule am Graben (Entwurf), Bühnenbilder zu „Il pomo d’oro“ (1668)" }
-    },
-    {
-      "id": "domenico-martinelli", "title": "Domenico Martinelli", "start": "1650-11-30", "end": "1718-09-11", "importance": 3,
-      "description": "Italienischer Architekt; baute für die Fürsten Liechtenstein das Gartenpalais in der Rossau und das Stadtpalais in Wien.",
-      "place": { "name": "Palais Liechtenstein, Wien", "lat": 48.2225, "lon": 16.3595 },
-      "attributes": { "Werke": "Gartenpalais Liechtenstein, Stadtpalais Liechtenstein" }
-    },
-    {
-      "id": "fischer-von-erlach", "title": "Johann Bernhard Fischer von Erlach", "short": "Fischer von Erlach", "start": "1656-07-20", "end": "1723-04-05", "importance": 1,
-      "description": "Der bedeutendste Architekt des österreichischen Barock. Schuf die Karlskirche, die Hofbibliothek und erste Pläne für Schönbrunn sowie in Salzburg die Kollegienkirche.",
-      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 },
-      "attributes": { "Werke": "Karlskirche, Hofbibliothek (Prunksaal), Schloss Schönbrunn (Entwurf), Kollegienkirche Salzburg", "Geboren": "Graz" }
-    },
-    {
-      "id": "jakob-prandtauer", "title": "Jakob Prandtauer", "start": "1660-07-16", "end": "1726-09-16", "importance": 1,
-      "description": "Tiroler Baumeister, Schöpfer des Stifts Melk (ab 1702), eines Hauptwerks des europäischen Barock.",
-      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Werke": "Stift Melk, Stift St. Florian (Vollendung), Stift Herzogenburg" }
-    },
-    {
-      "id": "lukas-von-hildebrandt", "title": "Johann Lukas von Hildebrandt", "short": "Hildebrandt", "start": "1668-11-14", "end": "1745-11-16", "importance": 1,
-      "description": "Hofarchitekt; baute für Prinz Eugen das Belvedere (ab 1714) und das Stadtpalais, außerdem die Peterskirche.",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 },
-      "attributes": { "Werke": "Belvedere, Palais Schwarzenberg (Beginn), Peterskirche, Palais Kinsky" }
-    },
-    {
-      "id": "bernini", "title": "Gian Lorenzo Bernini", "short": "Bernini", "start": "1598-12-07", "end": "1680-11-28", "importance": 4, "tags": ["international"],
-      "description": "Bildhauer und Architekt des römischen Hochbarock.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 },
-      "attributes": { "Werke": "Petersplatz mit Kolonnaden, Baldachin in St. Peter" }
-    },
-    {
-      "id": "borromini", "title": "Francesco Borromini", "short": "Borromini", "start": "1599-09-25", "end": "1667-08-02", "importance": 4, "tags": ["international"],
-      "description": "Architekt des römischen Barock mit kühnen, bewegten Raumformen.",
-      "place": { "name": "Rom", "lat": 41.901, "lon": 12.491 },
-      "attributes": { "Werke": "San Carlo alle Quattro Fontane, Sant’Ivo alla Sapienza" }
-    },
-    {
-      "id": "elias-holl", "title": "Elias Holl", "start": "1573-02-28", "end": "1646-01-06", "importance": 5, "tags": ["international"],
-      "description": "Augsburger Stadtbaumeister der Spätrenaissance.",
-      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 },
-      "attributes": { "Werke": "Augsburger Rathaus" }
-    },
-    {
-      "id": "christopher-wren", "title": "Christopher Wren", "start": "1632-10-30", "end": "1723-02-25", "importance": 5, "tags": ["international"],
-      "description": "Leitete den Wiederaufbau Londons nach dem Großen Brand von 1666.",
-      "place": { "name": "London", "lat": 51.5138, "lon": -0.0984 },
-      "attributes": { "Werke": "St Paul’s Cathedral" }
-    },
-    {
-      "id": "hardouin-mansart", "title": "Jules Hardouin-Mansart", "short": "Hardouin-Mansart", "start": "1646-04-16", "end": "1708-05-11", "importance": 5, "tags": ["international"],
-      "description": "Hofarchitekt Ludwigs XIV.; Versailles wurde zum Vorbild barocker Residenzen, auch für Schönbrunn.",
-      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 },
-      "attributes": { "Werke": "Spiegelsaal von Versailles, Invalidendom" }
-    },
-    {
-      "id": "joseph-emanuel-fischer-von-erlach", "title": "Joseph Emanuel Fischer von Erlach", "short": "J. E. Fischer von Erlach", "start": "1693-09-13", "end": "1742-06-29", "importance": 3,
-      "description": "Sohn Johann Bernhards; vollendete Karlskirche und Hofbibliothek und baute die Winterreitschule der Hofburg.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Werke": "Winterreitschule, Reichskanzleitrakt, Vollendung der Karlskirche" }
-    },
-    {
-      "id": "josef-munggenast", "title": "Josef Munggenast", "start": "1680-02-05", "end": "1741-03-03", "importance": 3,
-      "description": "Neffe Prandtauers; Barockbaumeister der Stifte Altenburg und Dürnstein, vollendete Melk.",
-      "place": { "name": "Stift Altenburg", "lat": 48.6461, "lon": 15.5944 },
-      "attributes": { "Werke": "Stift Altenburg, Stiftskirche Dürnstein" }
-    },
-    {
-      "id": "donato-felice-dallio", "title": "Donato Felice d’Allio", "start": "1677", "end": "1761", "importance": 3,
-      "description": "Baumeister des barocken Neubaus von Stift Klosterneuburg, das unter Karl VI. zum „österreichischen Escorial“ werden sollte.",
-      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
-      "attributes": { "Werke": "Stift Klosterneuburg, Salesianerinnenkirche Wien" }
-    },
-    {
-      "id": "nikolaus-pacassi", "title": "Nikolaus Pacassi", "start": "1716-03-05", "end": "1790-11-11", "importance": 2,
-      "description": "Hofarchitekt Maria Theresias; gestaltete Schloss Schönbrunn zur heutigen Form um.",
-      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 },
-      "attributes": { "Werke": "Umbau Schloss Schönbrunn, Redoutensäle der Hofburg" }
-    },
-    {
-      "id": "isidor-canevale", "title": "Isidor Canevale", "start": "1730", "end": "1786", "importance": 3,
-      "description": "Architekt Josephs II.: Allgemeines Krankenhaus, Narrenturm, Josephinum und Augartenportal.",
-      "place": { "name": "Narrenturm, Wien", "lat": 48.2195, "lon": 16.3519 },
-      "attributes": { "Werke": "Allgemeines Krankenhaus, Narrenturm, Josephinum" }
-    },
-    {
-      "id": "hohenberg", "title": "Johann Ferdinand Hetzendorf von Hohenberg", "short": "Hohenberg", "start": "1733", "end": "1816-12-14", "importance": 3,
-      "description": "Hofarchitekt; schuf die Gloriette und weitere Parkbauten in Schönbrunn.",
-      "place": { "name": "Gloriette, Wien", "lat": 48.1784, "lon": 16.3087 },
-      "attributes": { "Werke": "Gloriette (1775), Römische Ruine, Palais Pallavicini" }
-    },
-    {
-      "id": "peter-von-nobile", "title": "Peter von Nobile", "start": "1774-10-11", "end": "1854-11-07", "importance": 3,
-      "description": "Klassizistischer Architekt; baute das äußere Burgtor und den Theseustempel im Volksgarten.",
-      "place": { "name": "Burgtor, Wien", "lat": 48.2056, "lon": 16.3627 },
-      "attributes": { "Werke": "Äußeres Burgtor, Theseustempel" }
-    },
-    {
-      "id": "josef-kornhaeusel", "title": "Josef Kornhäusel", "start": "1782-11-13", "end": "1860-10-31", "importance": 3,
-      "description": "Hauptmeister des Wiener Biedermeier-Klassizismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Stadttempel, Schottenstift (Umbau), Theater in der Josefstadt" }
-    },
-    {
-      "id": "ludwig-foerster", "title": "Ludwig Förster", "start": "1797-10-08", "end": "1863-06-16", "importance": 3,
-      "description": "Architekt und Stadtplaner; lieferte Grundlagen für die Planung der Ringstraße.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Leopoldstädter Tempel, Synagoge Dohány-Straße (Budapest)" }
-    },
-    {
-      "id": "eduard-van-der-nuell", "title": "Eduard van der Nüll", "start": "1812-01-09", "end": "1868-04-04", "importance": 3,
-      "description": "Baute gemeinsam mit August Sicard von Sicardsburg die Hofoper (Staatsoper); nahm sich nach heftiger Kritik am Bau das Leben.",
-      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 },
-      "attributes": { "Werke": "Staatsoper (mit Sicardsburg)" }
-    },
-    {
-      "id": "sicardsburg", "title": "August Sicard von Sicardsburg", "short": "Sicardsburg", "start": "1813-12-06", "end": "1868-06-11", "importance": 3,
-      "description": "Partner van der Nülls beim Bau der Hofoper; starb wenige Wochen nach ihm, vor der Eröffnung.",
-      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 },
-      "attributes": { "Werke": "Staatsoper (mit van der Nüll)" }
-    },
-    {
-      "id": "theophil-hansen", "title": "Theophil Hansen", "start": "1813-07-13", "end": "1891-02-17", "importance": 2,
-      "description": "Dänischer Architekt, in Wien einer der prägenden Baumeister der Ringstraße.",
-      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 },
-      "attributes": { "Werke": "Parlament, Musikverein, Börse, Akademie der bildenden Künste" }
-    },
-    {
-      "id": "friedrich-von-schmidt", "title": "Friedrich von Schmidt", "start": "1825-10-22", "end": "1891-01-23", "importance": 2,
-      "description": "Dombaumeister von St. Stephan und Meister der Neugotik.",
-      "place": { "name": "Rathaus, Wien", "lat": 48.2108, "lon": 16.3572 },
-      "attributes": { "Werke": "Wiener Rathaus, Kirchen in Fünfhaus und Brigittenau" }
-    },
-    {
-      "id": "heinrich-von-ferstel", "title": "Heinrich von Ferstel", "start": "1828-07-07", "end": "1883-07-14", "importance": 2,
-      "description": "Ringstraßenarchitekt im Stil des Historismus.",
-      "place": { "name": "Votivkirche, Wien", "lat": 48.2155, "lon": 16.359 },
-      "attributes": { "Werke": "Votivkirche, Universität Wien, Palais Ferstel" }
-    },
-    {
-      "id": "carl-von-hasenauer", "title": "Carl von Hasenauer", "start": "1833-07-20", "end": "1894-01-04", "importance": 3,
-      "description": "Baute mit Gottfried Semper Burgtheater, Kunst- und Naturhistorisches Museum und die Neue Burg.",
-      "place": { "name": "Burgtheater, Wien", "lat": 48.2104, "lon": 16.3613 },
-      "attributes": { "Werke": "Burgtheater, Kunsthistorisches und Naturhistorisches Museum, Neue Burg" }
-    },
-    {
-      "id": "otto-wagner", "title": "Otto Wagner", "start": "1841-07-13", "end": "1918-04-11", "importance": 1,
-      "description": "Wegbereiter der modernen Architektur in Wien; seine Stadtbahn, Postsparkasse und die Kirche am Steinhof verbinden Jugendstil und Funktionalität.",
-      "place": { "name": "Postsparkasse, Wien", "lat": 48.2104, "lon": 16.3814 },
-      "attributes": { "Werke": "Stadtbahn, Postsparkasse, Kirche am Steinhof, Majolikahaus" }
-    },
-    {
-      "id": "joseph-maria-olbrich", "title": "Joseph Maria Olbrich", "start": "1867-12-22", "end": "1908-08-08", "importance": 2,
-      "description": "Schüler Otto Wagners; baute das Ausstellungsgebäude der Wiener Secession, später die Künstlerkolonie in Darmstadt.",
-      "place": { "name": "Secession, Wien", "lat": 48.2003, "lon": 16.3658 },
-      "attributes": { "Werke": "Secessionsgebäude (1898)" }
-    },
-    {
-      "id": "josef-hoffmann", "title": "Josef Hoffmann", "start": "1870-12-15", "end": "1956-05-07", "importance": 2,
-      "description": "Architekt und Designer; Mitbegründer der Wiener Werkstätte (1903).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Sanatorium Purkersdorf, Palais Stoclet (Brüssel)" }
-    },
-    {
-      "id": "adolf-loos", "title": "Adolf Loos", "start": "1870-12-10", "end": "1933-08-23", "importance": 1,
-      "description": "Kritiker des Ornaments („Ornament und Verbrechen“) und Pionier der modernen Architektur.",
-      "place": { "name": "Michaelerplatz, Wien", "lat": 48.2085, "lon": 16.3667 },
-      "attributes": { "Werke": "Looshaus am Michaelerplatz (1910), Villa Müller (Prag)" }
-    },
-    {
-      "id": "joze-plecnik", "title": "Jože Plečnik", "start": "1872-01-23", "end": "1957-01-07", "importance": 3,
-      "description": "Slowenischer Architekt aus der Wagner-Schule; in Wien tätig, später in Prag und Ljubljana.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Zacherlhaus, Heilig-Geist-Kirche (Wien-Ottakring)" }
-    },
-    {
-      "id": "balthasar-neumann", "title": "Balthasar Neumann", "start": "1687-01-27", "end": "1753-08-19", "importance": 4, "tags": ["international"],
-      "description": "Bedeutendster Baumeister des süddeutschen Barock.",
-      "place": { "name": "Würzburg", "lat": 49.7913, "lon": 9.9534 },
-      "attributes": { "Werke": "Würzburger Residenz, Vierzehnheiligen" }
-    },
-    {
-      "id": "schinkel", "title": "Karl Friedrich Schinkel", "short": "Schinkel", "start": "1781-03-13", "end": "1841-10-09", "importance": 4, "tags": ["international"],
-      "description": "Hauptmeister des Klassizismus in Preußen.",
-      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 },
-      "attributes": { "Werke": "Altes Museum, Schauspielhaus Berlin" }
-    },
-    {
-      "id": "haussmann", "title": "Georges-Eugène Haussmann", "short": "Haussmann", "start": "1809-03-27", "end": "1891-01-11", "importance": 5, "tags": ["international"],
-      "description": "Leitete den Umbau von Paris mit seinen großen Boulevards, Vorbild für viele Stadterweiterungen.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Pariser Boulevards" }
-    },
-    {
-      "id": "gustave-eiffel", "title": "Gustave Eiffel", "start": "1832-12-15", "end": "1923-12-27", "importance": 4, "tags": ["international"],
-      "description": "Ingenieur und Unternehmer, Meister des Eisenbaus.",
-      "place": { "name": "Paris", "lat": 48.8584, "lon": 2.2945 },
-      "attributes": { "Werke": "Eiffelturm (1889), Tragwerk der Freiheitsstatue" }
-    },
-    {
-      "id": "antoni-gaudi", "title": "Antoni Gaudí", "start": "1852-06-25", "end": "1926-06-10", "importance": 4, "tags": ["international"],
-      "description": "Hauptvertreter des katalanischen Modernisme.",
-      "place": { "name": "Barcelona", "lat": 41.4036, "lon": 2.1744 },
-      "attributes": { "Werke": "Sagrada Família, Casa Batlló" }
-    },
-    {
-      "id": "walter-gropius", "title": "Walter Gropius", "start": "1883-05-18", "end": "1969-07-05", "importance": 5, "tags": ["international"],
-      "description": "Gründer des Bauhauses (1919).",
-      "place": { "name": "Weimar", "lat": 50.9795, "lon": 11.3235 },
-      "attributes": { "Werke": "Fagus-Werk, Bauhaus Dessau" }
-    },
-    {
-      "id": "michael-knab", "title": "Michael Knab", "start": "~1340", "end": "~1400", "importance": 3,
-      "description": "Wiener Baumeister des späten 14. Jahrhunderts; ihm wird der Chor der Kirche Maria am Gestade zugeschrieben.",
-      "place": { "name": "Maria am Gestade, Wien", "lat": 48.2128, "lon": 16.3707 },
-      "attributes": { "Werke": "Maria am Gestade (zugeschrieben)" }
-    },
-    {
-      "id": "peter-von-prachatitz", "title": "Peter von Prachatitz", "start": "~1370", "end": "~1430", "importance": 2,
-      "description": "Dombaumeister von St. Stephan; führte den Bau des Südturms weiter.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Südturm des Stephansdoms (Weiterbau)" }
-    },
-    {
-      "id": "hans-von-prachatitz", "title": "Hans von Prachatitz", "start": "~1380", "end": "~1440", "importance": 3,
-      "description": "Dombaumeister von St. Stephan; vollendete 1433 den Südturm, den „Steffl“.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Vollendung des Südturms (1433)" }
-    },
-    {
-      "id": "hans-puchsbaum", "title": "Hans Puchsbaum", "start": "~1390", "end": "1454", "importance": 2,
-      "description": "Dombaumeister von St. Stephan; legte 1450 den Grundstein für den Nordturm und wirkte stilbildend für die Spätgotik in Österreich.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Langhausgewölbe und Nordturm-Beginn von St. Stephan, Spitalskirche Steyr" }
-    },
-    {
-      "id": "laurenz-spenning", "title": "Laurenz Spenning", "start": "~1420", "end": "1477", "importance": 3,
-      "description": "Dombaumeister von St. Stephan, Nachfolger Puchsbaums.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Werke": "Weiterbau des Nordturms" }
-    },
-    {
-      "id": "peter-parler", "title": "Peter Parler", "start": "~1330", "end": "1399-07-13", "importance": 4, "tags": ["international"],
-      "description": "Dombaumeister in Prag unter Kaiser Karl IV.; einflussreich für die Gotik in ganz Mitteleuropa, auch in Wien.",
-      "place": { "name": "Veitsdom, Prag", "lat": 50.0909, "lon": 14.4005 },
-      "attributes": { "Werke": "Veitsdom, Karlsbrücke" }
-    },
-    {
-      "id": "brunelleschi", "title": "Filippo Brunelleschi", "short": "Brunelleschi", "start": "1377", "end": "1446-04-15", "importance": 4, "tags": ["international"],
-      "description": "Begründer der Renaissance-Architektur in Florenz.",
-      "place": { "name": "Florenz", "lat": 43.7731, "lon": 11.256 },
-      "attributes": { "Werke": "Domkuppel von Florenz" }
-    },
-    {
-      "id": "alberti", "title": "Leon Battista Alberti", "short": "Alberti", "start": "1404-02-14", "end": "1472-04-25", "importance": 5, "tags": ["international"],
-      "description": "Architekt und Theoretiker der Frührenaissance.",
-      "place": { "name": "Florenz", "lat": 43.7696, "lon": 11.2558 },
-      "attributes": { "Werke": "De re aedificatoria, Santa Maria Novella (Fassade)" }
-    },
-    {
-      "id": "odo-von-metz", "title": "Odo von Metz", "start": "~742", "end": "~814", "importance": 4, "tags": ["international"],
-      "description": "Baumeister der Pfalzkapelle Karls des Großen in Aachen.",
-      "place": { "name": "Aachen", "lat": 50.7747, "lon": 6.0839 },
-      "attributes": { "Werke": "Pfalzkapelle Aachen" }
-    },
-    {
-      "id": "abt-suger", "title": "Abt Suger", "short": "Suger", "start": "~1081", "end": "1151-01-13", "importance": 4, "tags": ["international"],
-      "description": "Abt von Saint-Denis; mit dem Chor seiner Abteikirche (1144) begann die Gotik.",
-      "place": { "name": "Saint-Denis", "lat": 48.9356, "lon": 2.3539 },
-      "attributes": { "Werke": "Chor von Saint-Denis" }
-    },
-    {
-      "id": "karl-ehn", "title": "Karl Ehn", "start": "1884-11-01", "end": "1959-07-26", "importance": 2,
-      "description": "Architekt des Wiener Stadtbauamts im „Roten Wien“.",
-      "place": { "name": "Karl-Marx-Hof, Wien", "lat": 48.2492, "lon": 16.3653 },
-      "attributes": { "Werke": "Karl-Marx-Hof (1930)" }
-    },
-    {
-      "id": "josef-frank", "title": "Josef Frank", "short": "Frank", "start": "1885-07-15", "end": "1967-01-08", "importance": 3,
-      "description": "Architekt und Designer der Wiener Moderne, später in Schweden; Leiter der Wiener Werkbundsiedlung (1932).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Wiener Werkbundsiedlung" }
-    },
-    {
-      "id": "clemens-holzmeister", "title": "Clemens Holzmeister", "short": "Holzmeister", "start": "1886-03-27", "end": "1983-06-12", "importance": 2,
-      "description": "Architekt des Salzburger Festspielhauses und zahlreicher Bauten in Österreich und der Türkei.",
-      "place": { "name": "Festspielhaus, Salzburg", "lat": 47.7977, "lon": 13.041 },
-      "attributes": { "Werke": "Großes Festspielhaus Salzburg, Regierungsviertel Ankara" }
-    },
-    {
-      "id": "schuette-lihotzky", "title": "Margarete Schütte-Lihotzky", "short": "Schütte-Lihotzky", "start": "1897-01-23", "end": "2000-01-18", "importance": 2,
-      "description": "Erste Architektin Österreichs; entwarf die „Frankfurter Küche“, Widerstandskämpferin.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "Frankfurter Küche (1926)" }
-    },
-    {
-      "id": "roland-rainer", "title": "Roland Rainer", "short": "Rainer", "start": "1910-05-01", "end": "2004-04-10", "importance": 3,
-      "description": "Architekt und Wiener Stadtplaner.",
-      "place": { "name": "Stadthalle, Wien", "lat": 48.2024, "lon": 16.3332 },
-      "attributes": { "Werke": "Wiener Stadthalle, Gartenstadt Puchenau" }
-    },
-    {
-      "id": "harry-glueck", "title": "Harry Glück", "short": "Glück", "start": "1925-02-20", "end": "2016-12-13", "importance": 3,
-      "description": "Architekt des sozialen Wohnbaus mit Dachschwimmbädern.",
-      "place": { "name": "Alt-Erlaa, Wien", "lat": 48.1517, "lon": 16.3133 },
-      "attributes": { "Werke": "Wohnpark Alt-Erlaa" }
-    },
-    {
-      "id": "gustav-peichl", "title": "Gustav Peichl", "short": "Peichl", "start": "1928-03-18", "end": "2019-11-17", "importance": 3,
-      "description": "Architekt und Karikaturist („Ironimus“).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Werke": "ORF-Landesstudios, Bundeskunsthalle Bonn" }
-    },
-    {
-      "id": "hans-hollein", "title": "Hans Hollein", "short": "Hollein", "start": "1934-03-30", "end": "2014-04-24", "importance": 1,
-      "description": "Hauptvertreter der Postmoderne, Pritzker-Preis 1985.",
-      "place": { "name": "Stephansplatz, Wien", "lat": 48.2085, "lon": 16.3722 },
-      "attributes": { "Werke": "Haas-Haus, Museum Abteiberg (Mönchengladbach)" }
-    },
-    {
-      "id": "guenther-domenig", "title": "Günther Domenig", "short": "Domenig", "start": "1934-07-06", "end": "2012-06-15", "importance": 3,
-      "description": "Kärntner Architekt des Dekonstruktivismus (Grazer Schule).",
-      "place": { "name": "Steindorf am Ossiacher See", "lat": 46.7, "lon": 14.0 },
-      "attributes": { "Werke": "Steinhaus, Dokumentationszentrum Reichsparteitagsgelände" }
-    },
-    {
-      "id": "frank-lloyd-wright", "title": "Frank Lloyd Wright", "short": "F. L. Wright", "start": "1867-06-08", "end": "1959-04-09", "importance": 4, "tags": ["international"],
-      "description": "Amerikanischer Pionier der modernen Architektur.",
-      "place": { "name": "Chicago", "lat": 41.8781, "lon": -87.6298 },
-      "attributes": { "Werke": "Fallingwater, Guggenheim Museum" }
-    },
-    {
-      "id": "mies-van-der-rohe", "title": "Ludwig Mies van der Rohe", "short": "Mies van der Rohe", "start": "1886-03-27", "end": "1969-08-17", "importance": 4, "tags": ["international"],
-      "description": "Bauhaus-Direktor und Meister des Stahl-Glas-Baus.",
-      "place": { "name": "Chicago", "lat": 41.8781, "lon": -87.6298 }
-    },
-    {
-      "id": "le-corbusier", "title": "Le Corbusier", "start": "1887-10-06", "end": "1965-08-27", "importance": 4, "tags": ["international"],
-      "description": "Wegbereiter der modernen Architektur und des Städtebaus.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 },
-      "attributes": { "Werke": "Villa Savoye, Unité d’habitation" }
-    },
-    {
-      "id": "niemeyer", "title": "Oscar Niemeyer", "short": "Niemeyer", "start": "1907-12-15", "end": "2012-12-05", "importance": 5, "tags": ["international"],
-      "description": "Brasilianischer Architekt von Brasília.",
-      "place": { "name": "Brasília", "lat": -15.7939, "lon": -47.8828 }
-    },
-    {
-      "id": "zaha-hadid", "title": "Zaha Hadid", "short": "Hadid", "start": "1950-10-31", "end": "2016-03-31", "importance": 4, "tags": ["international"],
-      "description": "Irakisch-britische Architektin, lehrte an der Universität für angewandte Kunst Wien.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 },
-      "attributes": { "Werke": "Library & Learning Center WU Wien" }
-    }
+    {"id":"anton-pilgram","title":"Anton Pilgram","start":"~1460","end":"~1515","importance":1,"description":"Bildhauer und Baumeister aus Brünn, ab 1511 Dombaumeister von St. Stephan in Wien. Schuf den Orgelfuß (1513) mit seinem berühmten Selbstbildnis; die Kanzel wird ihm traditionell zugeschrieben.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Orgelfuß im Stephansdom (1513), Kanzel (zugeschrieben)","Wirkungsorte":"Brünn, Wien"}},
+    {"id":"johann-tscherte","title":"Johann Tscherte","start":"~1480","end":"1552","importance":3,"description":"Kaiserlicher Baumeister in Wien, verantwortlich für Festungsbauten in Niederösterreich und Ungarn; Freund Albrecht Dürers.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Funktion":"Niederösterreichischer Landbaumeister"}},
+    {"id":"hermes-schallautzer","title":"Hermes Schallautzer","start":"1503","end":"1561","importance":2,"description":"Wiener Bürgermeister und Stadtbaumeister; leitete ab 1547 den Ausbau der Wiener Stadtbefestigung zur Bastionsfestung nach der Osmanenbelagerung von 1529.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Renaissance-Befestigung Wiens (Bastionen)"}},
+    {"id":"bonifaz-wolmuet","title":"Bonifaz Wolmuet","start":"~1500","end":"1579","importance":2,"description":"Baumeister und Kartograf. Schuf 1547 einen genauen Rundplan Wiens, der den Zustand der Stadt und ihrer Befestigung dokumentiert; später in Prag tätig (Ballhaus, Vollendung des Belvedere).","place":{"name":"Wien / Prag","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Wolmuet-Plan von Wien (1547), Ballhaus im Prager Burggarten"}},
+    {"id":"domenico-dellallio","title":"Domenico dell’Allio","start":"~1505","end":"1563","importance":2,"description":"Italienischer Festungs- und Baumeister in der Steiermark. Plante die Befestigung von Graz und das Grazer Landhaus mit seinem berühmten Arkadenhof (ab 1557).","place":{"name":"Landhaus Graz","lat":47.0703,"lon":15.4393},"attributes":{"Werke":"Grazer Landhaus, Festungswerke in Graz, Klagenfurt und Varaždin"}},
+    {"id":"pietro-ferrabosco","title":"Pietro Ferrabosco","start":"1512","end":"~1588","importance":2,"description":"Italienischer Maler und Baumeister am Wiener Hof. Ihm wird das Schweizertor der Hofburg (1552) zugeschrieben; tätig auch am Ausbau der Hofburg und an Festungsbauten.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Werke":"Schweizertor der Hofburg (zugeschrieben), Stallburg (Mitwirkung)"}},
+    {"id":"jacopo-strada","title":"Jacopo Strada","start":"~1510","end":"1588","importance":3,"description":"Antiquar, Architekt und Kunstagent der Kaiser Ferdinand I., Maximilian II. und Rudolf II.; beteiligt an Entwürfen für das Schloss Neugebäude bei Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Schloss Neugebäude (Mitwirkung), Antiquarium der Münchner Residenz (Entwurf)"}},
+    {"id":"hans-saphoy","title":"Hans Saphoy","start":"~1530","end":"1578","importance":3,"description":"Dombaumeister von St. Stephan. Unter ihm erhielt der unvollendete Nordturm des Stephansdoms seinen Renaissance-Turmhelm (1578 fertiggestellt).","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Turmhelm des Nordturms von St. Stephan"}},
+    {"id":"bramante","title":"Donato Bramante","start":"~1444","end":"1514-03-11","importance":5,"description":"Architekt der Hochrenaissance; lieferte den ersten Entwurf für den Neubau des Petersdoms in Rom (Grundsteinlegung 1506).","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Werke":"Tempietto, Neubau-Plan für St. Peter"},"tags":["international"]},
+    {"id":"michelangelo","title":"Michelangelo Buonarroti","short":"Michelangelo","start":"1475-03-06","end":"1564-02-18","importance":4,"description":"Bildhauer, Maler und Architekt; ab 1546 leitender Architekt von St. Peter in Rom, entwarf die Kuppel.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Werke":"Kuppel von St. Peter, Kapitolsplatz, Biblioteca Laurenziana"},"tags":["international"]},
+    {"id":"mimar-sinan","title":"Mimar Sinan","start":"~1490","end":"1588-07-17","importance":4,"description":"Hofarchitekt der osmanischen Sultane ab 1538, prägte die klassische osmanische Architektur.","place":{"name":"Istanbul","lat":41.0161,"lon":28.964},"attributes":{"Werke":"Süleymaniye-Moschee (Istanbul), Selimiye-Moschee (Edirne)"},"tags":["international"]},
+    {"id":"vignola","title":"Giacomo Barozzi da Vignola","short":"Vignola","start":"1507-10-01","end":"1573-07-07","importance":5,"description":"Architekt und Theoretiker; seine Kirche Il Gesù in Rom wurde Vorbild für den Kirchenbau der Gegenreformation.","place":{"name":"Rom","lat":41.896,"lon":12.4799},"attributes":{"Werke":"Il Gesù, Villa Farnese (Caprarola), Traktat „Regola delli cinque ordini“ (1562)"},"tags":["international"]},
+    {"id":"andrea-palladio","title":"Andrea Palladio","start":"1508-11-30","end":"1580-08-19","importance":4,"description":"Einflussreichster Architekt der Spätrenaissance; seine „Quattro libri dell’architettura“ (1570) wirkten über Jahrhunderte.","place":{"name":"Vicenza","lat":45.5455,"lon":11.5354},"attributes":{"Werke":"Villa Rotonda, Basilica Palladiana, San Giorgio Maggiore (Venedig)"},"tags":["international"]},
+    {"id":"vincenzo-scamozzi","title":"Vincenzo Scamozzi","start":"1548-09-02","end":"1616-08-07","importance":3,"description":"Venezianischer Architekt; lieferte für Fürsterzbischof Wolf Dietrich den ersten (nicht ausgeführten) Entwurf eines Neubaus des Salzburger Doms.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465},"attributes":{"Werke":"Entwurf Salzburger Dom, Procuratie Nuove (Venedig)"}},
+    {"id":"santino-solari","title":"Santino Solari","start":"1576","end":"1646-04-10","importance":2,"description":"Baumeister des Salzburger Doms (1614–1628), des ersten großen frühbarocken Kirchenbaus nördlich der Alpen, und von Schloss Hellbrunn.","place":{"name":"Salzburger Dom","lat":47.7979,"lon":13.0469},"attributes":{"Werke":"Salzburger Dom, Schloss Hellbrunn, Befestigung Salzburgs"}},
+    {"id":"filiberto-lucchese","title":"Filiberto Lucchese","start":"1606","end":"1666","importance":3,"description":"Kaiserlicher Hofarchitekt; errichtete den Leopoldinischen Trakt der Wiener Hofburg (ab 1660).","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Werke":"Leopoldinischer Trakt der Hofburg"}},
+    {"id":"giovanni-pietro-tencalla","title":"Giovanni Pietro Tencalla","start":"1629","end":"1702","importance":3,"description":"Hofarchitekt Leopolds I.; baute den 1668 abgebrannten Leopoldinischen Trakt der Hofburg wieder auf.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Werke":"Wiederaufbau Leopoldinischer Trakt, Schloss Kroměříž (Umbau)"}},
+    {"id":"carlo-antonio-carlone","title":"Carlo Antonio Carlone","start":"~1635","end":"1708-05-03","importance":3,"description":"Baumeister aus einer Künstlerfamilie aus dem Intelvi-Tal; prägte den Barock in Ober- und Niederösterreich, u. a. Stift St. Florian und Stift Garsten.","place":{"name":"Stift St. Florian","lat":48.2066,"lon":14.3787},"attributes":{"Werke":"Stift St. Florian (Beginn), Stiftskirche Garsten, Passauer Dom (Wiederaufbau)"}},
+    {"id":"lodovico-burnacini","title":"Lodovico Ottavio Burnacini","short":"Burnacini","start":"1636","end":"1707-12-12","importance":2,"description":"Theaterarchitekt und Bühnenbildner am Kaiserhof; schuf das Opernhaus auf der Cortina und den Entwurf der Pestsäule am Graben.","place":{"name":"Graben, Wien","lat":48.2086,"lon":16.37},"attributes":{"Werke":"Pestsäule am Graben (Entwurf), Bühnenbilder zu „Il pomo d’oro“ (1668)"}},
+    {"id":"domenico-martinelli","title":"Domenico Martinelli","start":"1650-11-30","end":"1718-09-11","importance":3,"description":"Italienischer Architekt; baute für die Fürsten Liechtenstein das Gartenpalais in der Rossau und das Stadtpalais in Wien.","place":{"name":"Palais Liechtenstein, Wien","lat":48.2225,"lon":16.3595},"attributes":{"Werke":"Gartenpalais Liechtenstein, Stadtpalais Liechtenstein"}},
+    {"id":"fischer-von-erlach","title":"Johann Bernhard Fischer von Erlach","short":"Fischer von Erlach","start":"1656-07-20","end":"1723-04-05","importance":1,"description":"Der bedeutendste Architekt des österreichischen Barock. Schuf die Karlskirche, die Hofbibliothek und erste Pläne für Schönbrunn sowie in Salzburg die Kollegienkirche.","place":{"name":"Karlskirche, Wien","lat":48.1982,"lon":16.3719},"attributes":{"Werke":"Karlskirche, Hofbibliothek (Prunksaal), Schloss Schönbrunn (Entwurf), Kollegienkirche Salzburg","Geboren":"Graz"}},
+    {"id":"jakob-prandtauer","title":"Jakob Prandtauer","start":"1660-07-16","end":"1726-09-16","importance":1,"description":"Tiroler Baumeister, Schöpfer des Stifts Melk (ab 1702), eines Hauptwerks des europäischen Barock.","place":{"name":"Stift Melk","lat":48.228,"lon":15.3317},"attributes":{"Werke":"Stift Melk, Stift St. Florian (Vollendung), Stift Herzogenburg"}},
+    {"id":"lukas-von-hildebrandt","title":"Johann Lukas von Hildebrandt","short":"Hildebrandt","start":"1668-11-14","end":"1745-11-16","importance":1,"description":"Hofarchitekt; baute für Prinz Eugen das Belvedere (ab 1714) und das Stadtpalais, außerdem die Peterskirche.","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809},"attributes":{"Werke":"Belvedere, Palais Schwarzenberg (Beginn), Peterskirche, Palais Kinsky"}},
+    {"id":"bernini","title":"Gian Lorenzo Bernini","short":"Bernini","start":"1598-12-07","end":"1680-11-28","importance":4,"description":"Bildhauer und Architekt des römischen Hochbarock.","place":{"name":"Rom","lat":41.9022,"lon":12.4539},"attributes":{"Werke":"Petersplatz mit Kolonnaden, Baldachin in St. Peter"},"tags":["international"]},
+    {"id":"borromini","title":"Francesco Borromini","short":"Borromini","start":"1599-09-25","end":"1667-08-02","importance":4,"description":"Architekt des römischen Barock mit kühnen, bewegten Raumformen.","place":{"name":"Rom","lat":41.901,"lon":12.491},"attributes":{"Werke":"San Carlo alle Quattro Fontane, Sant’Ivo alla Sapienza"},"tags":["international"]},
+    {"id":"elias-holl","title":"Elias Holl","start":"1573-02-28","end":"1646-01-06","importance":5,"description":"Augsburger Stadtbaumeister der Spätrenaissance.","place":{"name":"Augsburg","lat":48.3705,"lon":10.8978},"attributes":{"Werke":"Augsburger Rathaus"},"tags":["international"]},
+    {"id":"christopher-wren","title":"Christopher Wren","start":"1632-10-30","end":"1723-02-25","importance":5,"description":"Leitete den Wiederaufbau Londons nach dem Großen Brand von 1666.","place":{"name":"London","lat":51.5138,"lon":-0.0984},"attributes":{"Werke":"St Paul’s Cathedral"},"tags":["international"]},
+    {"id":"hardouin-mansart","title":"Jules Hardouin-Mansart","short":"Hardouin-Mansart","start":"1646-04-16","end":"1708-05-11","importance":5,"description":"Hofarchitekt Ludwigs XIV.; Versailles wurde zum Vorbild barocker Residenzen, auch für Schönbrunn.","place":{"name":"Versailles","lat":48.8049,"lon":2.1204},"attributes":{"Werke":"Spiegelsaal von Versailles, Invalidendom"},"tags":["international"]},
+    {"id":"joseph-emanuel-fischer-von-erlach","title":"Joseph Emanuel Fischer von Erlach","short":"J. E. Fischer von Erlach","start":"1693-09-13","end":"1742-06-29","importance":3,"description":"Sohn Johann Bernhards; vollendete Karlskirche und Hofbibliothek und baute die Winterreitschule der Hofburg.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Werke":"Winterreitschule, Reichskanzleitrakt, Vollendung der Karlskirche"}},
+    {"id":"josef-munggenast","title":"Josef Munggenast","start":"1680-02-05","end":"1741-03-03","importance":3,"description":"Neffe Prandtauers; Barockbaumeister der Stifte Altenburg und Dürnstein, vollendete Melk.","place":{"name":"Stift Altenburg","lat":48.6461,"lon":15.5944},"attributes":{"Werke":"Stift Altenburg, Stiftskirche Dürnstein"}},
+    {"id":"donato-felice-dallio","title":"Donato Felice d’Allio","start":"1677","end":"1761","importance":3,"description":"Baumeister des barocken Neubaus von Stift Klosterneuburg, das unter Karl VI. zum „österreichischen Escorial“ werden sollte.","place":{"name":"Stift Klosterneuburg","lat":48.3053,"lon":16.3256},"attributes":{"Werke":"Stift Klosterneuburg, Salesianerinnenkirche Wien"}},
+    {"id":"nikolaus-pacassi","title":"Nikolaus Pacassi","start":"1716-03-05","end":"1790-11-11","importance":2,"description":"Hofarchitekt Maria Theresias; gestaltete Schloss Schönbrunn zur heutigen Form um.","place":{"name":"Schönbrunn, Wien","lat":48.1845,"lon":16.3122},"attributes":{"Werke":"Umbau Schloss Schönbrunn, Redoutensäle der Hofburg"}},
+    {"id":"isidor-canevale","title":"Isidor Canevale","start":"1730","end":"1786","importance":3,"description":"Architekt Josephs II.: Allgemeines Krankenhaus, Narrenturm, Josephinum und Augartenportal.","place":{"name":"Narrenturm, Wien","lat":48.2195,"lon":16.3519},"attributes":{"Werke":"Allgemeines Krankenhaus, Narrenturm, Josephinum"}},
+    {"id":"hohenberg","title":"Johann Ferdinand Hetzendorf von Hohenberg","short":"Hohenberg","start":"1733","end":"1816-12-14","importance":3,"description":"Hofarchitekt; schuf die Gloriette und weitere Parkbauten in Schönbrunn.","place":{"name":"Gloriette, Wien","lat":48.1784,"lon":16.3087},"attributes":{"Werke":"Gloriette (1775), Römische Ruine, Palais Pallavicini"}},
+    {"id":"peter-von-nobile","title":"Peter von Nobile","start":"1774-10-11","end":"1854-11-07","importance":3,"description":"Klassizistischer Architekt; baute das äußere Burgtor und den Theseustempel im Volksgarten.","place":{"name":"Burgtor, Wien","lat":48.2056,"lon":16.3627},"attributes":{"Werke":"Äußeres Burgtor, Theseustempel"}},
+    {"id":"josef-kornhaeusel","title":"Josef Kornhäusel","start":"1782-11-13","end":"1860-10-31","importance":3,"description":"Hauptmeister des Wiener Biedermeier-Klassizismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Stadttempel, Schottenstift (Umbau), Theater in der Josefstadt"}},
+    {"id":"ludwig-foerster","title":"Ludwig Förster","start":"1797-10-08","end":"1863-06-16","importance":3,"description":"Architekt und Stadtplaner; lieferte Grundlagen für die Planung der Ringstraße.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Leopoldstädter Tempel, Synagoge Dohány-Straße (Budapest)"}},
+    {"id":"eduard-van-der-nuell","title":"Eduard van der Nüll","start":"1812-01-09","end":"1868-04-04","importance":3,"description":"Baute gemeinsam mit August Sicard von Sicardsburg die Hofoper (Staatsoper); nahm sich nach heftiger Kritik am Bau das Leben.","place":{"name":"Staatsoper, Wien","lat":48.2031,"lon":16.3692},"attributes":{"Werke":"Staatsoper (mit Sicardsburg)"}},
+    {"id":"sicardsburg","title":"August Sicard von Sicardsburg","short":"Sicardsburg","start":"1813-12-06","end":"1868-06-11","importance":3,"description":"Partner van der Nülls beim Bau der Hofoper; starb wenige Wochen nach ihm, vor der Eröffnung.","place":{"name":"Staatsoper, Wien","lat":48.2031,"lon":16.3692},"attributes":{"Werke":"Staatsoper (mit van der Nüll)"}},
+    {"id":"theophil-hansen","title":"Theophil Hansen","start":"1813-07-13","end":"1891-02-17","importance":2,"description":"Dänischer Architekt, in Wien einer der prägenden Baumeister der Ringstraße.","place":{"name":"Parlament, Wien","lat":48.2084,"lon":16.3583},"attributes":{"Werke":"Parlament, Musikverein, Börse, Akademie der bildenden Künste"}},
+    {"id":"friedrich-von-schmidt","title":"Friedrich von Schmidt","start":"1825-10-22","end":"1891-01-23","importance":2,"description":"Dombaumeister von St. Stephan und Meister der Neugotik.","place":{"name":"Rathaus, Wien","lat":48.2108,"lon":16.3572},"attributes":{"Werke":"Wiener Rathaus, Kirchen in Fünfhaus und Brigittenau"}},
+    {"id":"heinrich-von-ferstel","title":"Heinrich von Ferstel","start":"1828-07-07","end":"1883-07-14","importance":2,"description":"Ringstraßenarchitekt im Stil des Historismus.","place":{"name":"Votivkirche, Wien","lat":48.2155,"lon":16.359},"attributes":{"Werke":"Votivkirche, Universität Wien, Palais Ferstel"}},
+    {"id":"carl-von-hasenauer","title":"Carl von Hasenauer","start":"1833-07-20","end":"1894-01-04","importance":3,"description":"Baute mit Gottfried Semper Burgtheater, Kunst- und Naturhistorisches Museum und die Neue Burg.","place":{"name":"Burgtheater, Wien","lat":48.2104,"lon":16.3613},"attributes":{"Werke":"Burgtheater, Kunsthistorisches und Naturhistorisches Museum, Neue Burg"}},
+    {"id":"otto-wagner","title":"Otto Wagner","start":"1841-07-13","end":"1918-04-11","importance":1,"description":"Wegbereiter der modernen Architektur in Wien; seine Stadtbahn, Postsparkasse und die Kirche am Steinhof verbinden Jugendstil und Funktionalität.","place":{"name":"Postsparkasse, Wien","lat":48.2104,"lon":16.3814},"attributes":{"Werke":"Stadtbahn, Postsparkasse, Kirche am Steinhof, Majolikahaus"}},
+    {"id":"joseph-maria-olbrich","title":"Joseph Maria Olbrich","start":"1867-12-22","end":"1908-08-08","importance":2,"description":"Schüler Otto Wagners; baute das Ausstellungsgebäude der Wiener Secession, später die Künstlerkolonie in Darmstadt.","place":{"name":"Secession, Wien","lat":48.2003,"lon":16.3658},"attributes":{"Werke":"Secessionsgebäude (1898)"}},
+    {"id":"josef-hoffmann","title":"Josef Hoffmann","start":"1870-12-15","end":"1956-05-07","importance":2,"description":"Architekt und Designer; Mitbegründer der Wiener Werkstätte (1903).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Sanatorium Purkersdorf, Palais Stoclet (Brüssel)"}},
+    {"id":"adolf-loos","title":"Adolf Loos","start":"1870-12-10","end":"1933-08-23","importance":1,"description":"Kritiker des Ornaments („Ornament und Verbrechen“) und Pionier der modernen Architektur.","place":{"name":"Michaelerplatz, Wien","lat":48.2085,"lon":16.3667},"attributes":{"Werke":"Looshaus am Michaelerplatz (1910), Villa Müller (Prag)"}},
+    {"id":"joze-plecnik","title":"Jože Plečnik","start":"1872-01-23","end":"1957-01-07","importance":3,"description":"Slowenischer Architekt aus der Wagner-Schule; in Wien tätig, später in Prag und Ljubljana.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Zacherlhaus, Heilig-Geist-Kirche (Wien-Ottakring)"}},
+    {"id":"balthasar-neumann","title":"Balthasar Neumann","start":"1687-01-27","end":"1753-08-19","importance":4,"description":"Bedeutendster Baumeister des süddeutschen Barock.","place":{"name":"Würzburg","lat":49.7913,"lon":9.9534},"attributes":{"Werke":"Würzburger Residenz, Vierzehnheiligen"},"tags":["international"]},
+    {"id":"schinkel","title":"Karl Friedrich Schinkel","short":"Schinkel","start":"1781-03-13","end":"1841-10-09","importance":4,"description":"Hauptmeister des Klassizismus in Preußen.","place":{"name":"Berlin","lat":52.52,"lon":13.405},"attributes":{"Werke":"Altes Museum, Schauspielhaus Berlin"},"tags":["international"]},
+    {"id":"haussmann","title":"Georges-Eugène Haussmann","short":"Haussmann","start":"1809-03-27","end":"1891-01-11","importance":5,"description":"Leitete den Umbau von Paris mit seinen großen Boulevards, Vorbild für viele Stadterweiterungen.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Pariser Boulevards"},"tags":["international"]},
+    {"id":"gustave-eiffel","title":"Gustave Eiffel","start":"1832-12-15","end":"1923-12-27","importance":4,"description":"Ingenieur und Unternehmer, Meister des Eisenbaus.","place":{"name":"Paris","lat":48.8584,"lon":2.2945},"attributes":{"Werke":"Eiffelturm (1889), Tragwerk der Freiheitsstatue"},"tags":["international"]},
+    {"id":"antoni-gaudi","title":"Antoni Gaudí","start":"1852-06-25","end":"1926-06-10","importance":4,"description":"Hauptvertreter des katalanischen Modernisme.","place":{"name":"Barcelona","lat":41.4036,"lon":2.1744},"attributes":{"Werke":"Sagrada Família, Casa Batlló"},"tags":["international"]},
+    {"id":"walter-gropius","title":"Walter Gropius","start":"1883-05-18","end":"1969-07-05","importance":5,"description":"Gründer des Bauhauses (1919).","place":{"name":"Weimar","lat":50.9795,"lon":11.3235},"attributes":{"Werke":"Fagus-Werk, Bauhaus Dessau"},"tags":["international"]},
+    {"id":"michael-knab","title":"Michael Knab","start":"~1340","end":"~1400","importance":3,"description":"Wiener Baumeister des späten 14. Jahrhunderts; ihm wird der Chor der Kirche Maria am Gestade zugeschrieben.","place":{"name":"Maria am Gestade, Wien","lat":48.2128,"lon":16.3707},"attributes":{"Werke":"Maria am Gestade (zugeschrieben)"}},
+    {"id":"peter-von-prachatitz","title":"Peter von Prachatitz","start":"~1370","end":"~1430","importance":2,"description":"Dombaumeister von St. Stephan; führte den Bau des Südturms weiter.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Südturm des Stephansdoms (Weiterbau)"}},
+    {"id":"hans-von-prachatitz","title":"Hans von Prachatitz","start":"~1380","end":"~1440","importance":3,"description":"Dombaumeister von St. Stephan; vollendete 1433 den Südturm, den „Steffl“.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Vollendung des Südturms (1433)"}},
+    {"id":"hans-puchsbaum","title":"Hans Puchsbaum","start":"~1390","end":"1454","importance":2,"description":"Dombaumeister von St. Stephan; legte 1450 den Grundstein für den Nordturm und wirkte stilbildend für die Spätgotik in Österreich.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Langhausgewölbe und Nordturm-Beginn von St. Stephan, Spitalskirche Steyr"}},
+    {"id":"laurenz-spenning","title":"Laurenz Spenning","start":"~1420","end":"1477","importance":3,"description":"Dombaumeister von St. Stephan, Nachfolger Puchsbaums.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Werke":"Weiterbau des Nordturms"}},
+    {"id":"peter-parler","title":"Peter Parler","start":"~1330","end":"1399-07-13","importance":4,"description":"Dombaumeister in Prag unter Kaiser Karl IV.; einflussreich für die Gotik in ganz Mitteleuropa, auch in Wien.","place":{"name":"Veitsdom, Prag","lat":50.0909,"lon":14.4005},"attributes":{"Werke":"Veitsdom, Karlsbrücke"},"tags":["international"]},
+    {"id":"brunelleschi","title":"Filippo Brunelleschi","short":"Brunelleschi","start":"1377","end":"1446-04-15","importance":4,"description":"Begründer der Renaissance-Architektur in Florenz.","place":{"name":"Florenz","lat":43.7731,"lon":11.256},"attributes":{"Werke":"Domkuppel von Florenz"},"tags":["international"]},
+    {"id":"alberti","title":"Leon Battista Alberti","short":"Alberti","start":"1404-02-14","end":"1472-04-25","importance":5,"description":"Architekt und Theoretiker der Frührenaissance.","place":{"name":"Florenz","lat":43.7696,"lon":11.2558},"attributes":{"Werke":"De re aedificatoria, Santa Maria Novella (Fassade)"},"tags":["international"]},
+    {"id":"odo-von-metz","title":"Odo von Metz","start":"~742","end":"~814","importance":4,"description":"Baumeister der Pfalzkapelle Karls des Großen in Aachen.","place":{"name":"Aachen","lat":50.7747,"lon":6.0839},"attributes":{"Werke":"Pfalzkapelle Aachen"},"tags":["international"]},
+    {"id":"abt-suger","title":"Abt Suger","short":"Suger","start":"~1081","end":"1151-01-13","importance":4,"description":"Abt von Saint-Denis; mit dem Chor seiner Abteikirche (1144) begann die Gotik.","place":{"name":"Saint-Denis","lat":48.9356,"lon":2.3539},"attributes":{"Werke":"Chor von Saint-Denis"},"tags":["international"]},
+    {"id":"karl-ehn","title":"Karl Ehn","start":"1884-11-01","end":"1959-07-26","importance":2,"description":"Architekt des Wiener Stadtbauamts im „Roten Wien“.","place":{"name":"Karl-Marx-Hof, Wien","lat":48.2492,"lon":16.3653},"attributes":{"Werke":"Karl-Marx-Hof (1930)"}},
+    {"id":"josef-frank","title":"Josef Frank","short":"Frank","start":"1885-07-15","end":"1967-01-08","importance":3,"description":"Architekt und Designer der Wiener Moderne, später in Schweden; Leiter der Wiener Werkbundsiedlung (1932).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Wiener Werkbundsiedlung"}},
+    {"id":"clemens-holzmeister","title":"Clemens Holzmeister","short":"Holzmeister","start":"1886-03-27","end":"1983-06-12","importance":2,"description":"Architekt des Salzburger Festspielhauses und zahlreicher Bauten in Österreich und der Türkei.","place":{"name":"Festspielhaus, Salzburg","lat":47.7977,"lon":13.041},"attributes":{"Werke":"Großes Festspielhaus Salzburg, Regierungsviertel Ankara"}},
+    {"id":"schuette-lihotzky","title":"Margarete Schütte-Lihotzky","short":"Schütte-Lihotzky","start":"1897-01-23","end":"2000-01-18","importance":2,"description":"Erste Architektin Österreichs; entwarf die „Frankfurter Küche“, Widerstandskämpferin.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"Frankfurter Küche (1926)"}},
+    {"id":"roland-rainer","title":"Roland Rainer","short":"Rainer","start":"1910-05-01","end":"2004-04-10","importance":3,"description":"Architekt und Wiener Stadtplaner.","place":{"name":"Stadthalle, Wien","lat":48.2024,"lon":16.3332},"attributes":{"Werke":"Wiener Stadthalle, Gartenstadt Puchenau"}},
+    {"id":"harry-glueck","title":"Harry Glück","short":"Glück","start":"1925-02-20","end":"2016-12-13","importance":3,"description":"Architekt des sozialen Wohnbaus mit Dachschwimmbädern.","place":{"name":"Alt-Erlaa, Wien","lat":48.1517,"lon":16.3133},"attributes":{"Werke":"Wohnpark Alt-Erlaa"}},
+    {"id":"gustav-peichl","title":"Gustav Peichl","short":"Peichl","start":"1928-03-18","end":"2019-11-17","importance":3,"description":"Architekt und Karikaturist („Ironimus“).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Werke":"ORF-Landesstudios, Bundeskunsthalle Bonn"}},
+    {"id":"hans-hollein","title":"Hans Hollein","short":"Hollein","start":"1934-03-30","end":"2014-04-24","importance":1,"description":"Hauptvertreter der Postmoderne, Pritzker-Preis 1985.","place":{"name":"Stephansplatz, Wien","lat":48.2085,"lon":16.3722},"attributes":{"Werke":"Haas-Haus, Museum Abteiberg (Mönchengladbach)"}},
+    {"id":"guenther-domenig","title":"Günther Domenig","short":"Domenig","start":"1934-07-06","end":"2012-06-15","importance":3,"description":"Kärntner Architekt des Dekonstruktivismus (Grazer Schule).","place":{"name":"Steindorf am Ossiacher See","lat":46.7,"lon":14},"attributes":{"Werke":"Steinhaus, Dokumentationszentrum Reichsparteitagsgelände"}},
+    {"id":"frank-lloyd-wright","title":"Frank Lloyd Wright","short":"F. L. Wright","start":"1867-06-08","end":"1959-04-09","importance":4,"description":"Amerikanischer Pionier der modernen Architektur.","place":{"name":"Chicago","lat":41.8781,"lon":-87.6298},"attributes":{"Werke":"Fallingwater, Guggenheim Museum"},"tags":["international"]},
+    {"id":"mies-van-der-rohe","title":"Ludwig Mies van der Rohe","short":"Mies van der Rohe","start":"1886-03-27","end":"1969-08-17","importance":4,"description":"Bauhaus-Direktor und Meister des Stahl-Glas-Baus.","place":{"name":"Chicago","lat":41.8781,"lon":-87.6298},"tags":["international"]},
+    {"id":"le-corbusier","title":"Le Corbusier","start":"1887-10-06","end":"1965-08-27","importance":4,"description":"Wegbereiter der modernen Architektur und des Städtebaus.","place":{"name":"Paris","lat":48.8566,"lon":2.3522},"attributes":{"Werke":"Villa Savoye, Unité d’habitation"},"tags":["international"]},
+    {"id":"niemeyer","title":"Oscar Niemeyer","short":"Niemeyer","start":"1907-12-15","end":"2012-12-05","importance":5,"description":"Brasilianischer Architekt von Brasília.","place":{"name":"Brasília","lat":-15.7939,"lon":-47.8828},"tags":["international"]},
+    {"id":"zaha-hadid","title":"Zaha Hadid","short":"Hadid","start":"1950-10-31","end":"2016-03-31","importance":4,"description":"Irakisch-britische Architektin, lehrte an der Universität für angewandte Kunst Wien.","place":{"name":"London","lat":51.5074,"lon":-0.1278},"attributes":{"Werke":"Library & Learning Center WU Wien"},"tags":["international"]}
   ]
 }

@@ -1,717 +1,147 @@
 {
   "category": "ereignisse-at",
   "items": [
-    {
-      "id": "wiener-fuerstentag-1515", "title": "Wiener Fürstentag & Doppelhochzeit", "start": "1515-07-22", "importance": 2,
-      "description": "Im Stephansdom wurde die habsburgisch-jagiellonische Doppelhochzeit vereinbart und vollzogen. Sie legte die Grundlage für den späteren Erwerb Böhmens und Ungarns (1526).",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "wiener-stadtrecht-1517", "title": "Neues Wiener Stadtrecht", "start": "1517", "importance": 5,
-      "description": "Das Stadtrecht Maximilians I. band den Bürgermeister stärker an den Landesfürsten.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "tod-maximilian-1519", "title": "Tod Maximilians I. in Wels", "start": "1519-01-12", "importance": 4,
-      "description": "Nach seinem Tod kam es in Wien und den niederösterreichischen Ländern zu einem Machtkampf zwischen den Ständen und der landesfürstlichen Regierung.",
-      "place": { "name": "Wels", "lat": 48.1575, "lon": 14.0289 }
-    },
-    {
-      "id": "wormser-teilung-1521", "title": "Wormser und Brüsseler Teilungsvertrag", "start": "1521-04-28", "end": "1522-02-07", "importance": 2,
-      "description": "Karl V. überließ seinem Bruder Ferdinand die österreichischen Erblande. Damit entstand die österreichische Linie der Habsburger.",
-      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
-    },
-    {
-      "id": "wiener-neustaedter-blutgericht-1522", "title": "Wiener Neustädter Blutgericht", "start": "1522-08-11", "importance": 3,
-      "description": "Ferdinand I. ließ führende Vertreter der ständischen Opposition hinrichten, darunter den Wiener Bürgermeister Martin Siebenbürger. Wiens städtische Autonomie wurde beschnitten.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.8150, "lon": 16.2460 }
-    },
-    {
-      "id": "bauernkriege-1525", "title": "Bauernkriege in Tirol und Salzburg", "start": "1525-05", "end": "1526-07", "importance": 3,
-      "description": "Aufstände von Bauern und Bergknappen; in Tirol unter Michael Gaismair, der eine radikale „Landesordnung“ entwarf. Die Erhebungen wurden niedergeschlagen.",
-      "place": { "name": "Tirol / Salzburg", "lat": 47.5, "lon": 12.5 }
-    },
-    {
-      "id": "wiener-stadtordnung-1526", "title": "Wiener Stadtordnung Ferdinands I.", "start": "1526", "importance": 5,
-      "description": "Die neue Stadtordnung unterstellte die Stadt weitgehend der landesfürstlichen Kontrolle.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "mohacs-1526", "title": "Schlacht bei Mohács", "start": "1526-08-29", "importance": 2,
-      "description": "Niederlage Ungarns gegen die Osmanen, König Ludwig II. fiel. Aufgrund der Erbverträge von 1515 wurde Ferdinand I. König von Böhmen und (umstritten) Ungarn – Beginn der Donaumonarchie.",
-      "place": { "name": "Mohács", "lat": 45.9931, "lon": 18.6830 }
-    },
-    {
-      "id": "osmanenbelagerung-1529", "title": "Erste Wiener Osmanenbelagerung", "start": "1529-09-27", "end": "1529-10-14", "importance": 1,
-      "description": "Das osmanische Heer unter Sultan Süleyman I. belagerte Wien. Die Verteidigung unter Niklas Graf Salm hielt stand, die Osmanen zogen ab.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Verteidiger": "Niklas Graf Salm", "Angreifer": "Süleyman I." }
-    },
-    {
-      "id": "guens-1532", "title": "Belagerung von Güns", "start": "1532-08", "importance": 4,
-      "description": "Die kleine Festung Güns (Kőszeg) hielt dem osmanischen Heer wochenlang stand; der Feldzug gegen Wien kam dadurch zum Erliegen.",
-      "place": { "name": "Güns (Kőszeg)", "lat": 47.3889, "lon": 16.5408 }
-    },
-    {
-      "id": "stadtbefestigung-1547", "title": "Ausbau der Wiener Stadtbefestigung", "start": "1547", "end": "1566", "importance": 3,
-      "description": "Nach der Belagerung von 1529 wurde Wien zur modernen Bastionsfestung ausgebaut. Wolmuet dokumentierte 1547 den Zustand in seinem Stadtplan.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "jesuiten-wien-1551", "title": "Jesuiten kommen nach Wien", "start": "1551", "importance": 4,
-      "description": "Ferdinand I. holte die Jesuiten nach Wien; sie wurden zu Trägern der Gegenreformation und des Bildungswesens.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "schweizertor-1552", "title": "Schweizertor der Hofburg", "start": "1552", "importance": 5,
-      "description": "Das Renaissance-Tor ist das älteste erhaltene Zeugnis des Hofburg-Ausbaus unter Ferdinand I.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 }
-    },
-    {
-      "id": "laenderteilung-1564", "title": "Habsburgische Länderteilung", "start": "1564-07-25", "importance": 2,
-      "description": "Nach dem Tod Ferdinands I. wurden die Erblande unter seinen Söhnen geteilt: Maximilian II. (Österreich ob und unter der Enns), Ferdinand (Tirol, Vorlande) und Karl (Innerösterreich).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "hofreitschule-1565", "title": "Spanische Hofreitschule erstmals erwähnt", "start": "1565", "importance": 5,
-      "description": "Erste Erwähnung eines „Spanischen Reitstalls“ in Wien – Vorläufer der Spanischen Hofreitschule.",
-      "place": { "name": "Wien", "lat": 48.2071, "lon": 16.3664 }
-    },
-    {
-      "id": "szigetvar-1566", "title": "Belagerung von Szigetvár", "start": "1566-08-06", "end": "1566-09-08", "importance": 3,
-      "description": "Nikolaus Zrinyi verteidigte die Festung bis zum Ausfall mit seiner Besatzung. Sultan Süleyman I. starb während der Belagerung.",
-      "place": { "name": "Szigetvár", "lat": 46.0486, "lon": 17.8056 }
-    },
-    {
-      "id": "religionskonzession-1568", "title": "Religionskonzession Maximilians II.", "start": "1568-08-18", "importance": 3,
-      "description": "Maximilian II. gestattete Herren und Rittern in Niederösterreich die Ausübung des Augsburger Bekenntnisses auf ihren Besitzungen; 1571 durch die Religionsassekuration bestätigt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "neugebaeude-1568", "title": "Bau des Schlosses Neugebäude", "start": "1568", "end": "1587", "importance": 4,
-      "description": "Maximilian II. ließ östlich von Wien (heute Simmering) ein Lustschloss im Stil der Renaissance errichten; nach seinem Tod blieb es unvollendet.",
-      "place": { "name": "Simmering, Wien", "lat": 48.1630, "lon": 16.4410 }
-    },
-    {
-      "id": "brucker-libell-1578", "title": "Brucker Libell", "start": "1578", "importance": 4,
-      "description": "Auf dem Landtag in Bruck an der Mur sicherte Erzherzog Karl II. den protestantischen Ständen Innerösterreichs Religionsfreiheit zu.",
-      "place": { "name": "Bruck an der Mur", "lat": 47.4106, "lon": 15.2706 }
-    },
-    {
-      "id": "lipica-1580", "title": "Gründung des Gestüts Lipica", "start": "1580", "importance": 5,
-      "description": "Erzherzog Karl II. gründete im Karst das Hofgestüt, aus dem die Lipizzaner hervorgingen.",
-      "place": { "name": "Lipica", "lat": 45.6681, "lon": 13.8828 }
-    },
-    {
-      "id": "residenz-prag-1583", "title": "Kaiserliche Residenz nach Prag verlegt", "start": "1583", "importance": 3,
-      "description": "Rudolf II. machte Prag zur Residenzstadt; Wien verlor bis 1612 die Funktion als Kaiserresidenz.",
-      "place": { "name": "Prag", "lat": 50.0905, "lon": 14.4005 }
-    },
-    {
-      "id": "uni-graz-1585", "title": "Gründung der Universität Graz", "start": "1585", "importance": 4,
-      "description": "Von Erzherzog Karl II. als Jesuitenuniversität gegründet, als Instrument der Gegenreformation in Innerösterreich.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
-    },
-    {
-      "id": "erdbeben-1590", "title": "Erdbeben von Neulengbach", "start": "1590-09-15", "importance": 4,
-      "description": "Eines der stärksten Erdbeben der österreichischen Geschichte; auch in Wien wurden zahlreiche Gebäude schwer beschädigt.",
-      "place": { "name": "Neulengbach", "lat": 48.1958, "lon": 15.9064 }
-    },
-    {
-      "id": "langer-tuerkenkrieg", "title": "Langer Türkenkrieg", "start": "1593", "end": "1606-11-11", "importance": 2,
-      "description": "Krieg zwischen den Habsburgern und dem Osmanischen Reich in Ungarn, beendet durch den Frieden von Zsitvatorok.",
-      "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
-    },
-    {
-      "id": "bauernaufstand-ooe-1594", "title": "Oberösterreichischer Bauernaufstand", "start": "1594", "end": "1597", "importance": 4,
-      "description": "Aufstand gegen steigende Abgaben und gegenreformatorischen Druck, 1597 niedergeschlagen.",
-      "place": { "name": "Oberösterreich", "lat": 48.2, "lon": 14.0 }
-    },
-    {
-      "id": "gegenreformation-graz-1598", "title": "Gegenreformation in Innerösterreich", "start": "1598-09", "importance": 3,
-      "description": "Erzherzog Ferdinand ließ die protestantischen Prediger und Lehrer aus Graz ausweisen. Johannes Kepler, Lehrer an der Grazer Stiftsschule, verließ Graz 1600.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 }
-    },
-    {
-      "id": "vertrag-lieben-1608", "title": "Vertrag von Lieben („Bruderzwist“)", "short": "Vertrag von Lieben", "start": "1608-06-25", "importance": 4,
-      "description": "Rudolf II. musste Österreich, Ungarn und Mähren an seinen Bruder Matthias abtreten.",
-      "place": { "name": "Lieben (Libeň), Prag", "lat": 50.1025, "lon": 14.474 }
-    },
-    {
-      "id": "prager-fenstersturz-1618", "title": "Prager Fenstersturz", "start": "1618-05-23", "importance": 2,
-      "description": "Protestantische böhmische Stände warfen kaiserliche Statthalter aus der Prager Burg – Auslöser des Dreißigjährigen Krieges.",
-      "place": { "name": "Prager Burg", "lat": 50.091, "lon": 14.4016 }
-    },
-    {
-      "id": "weisser-berg-1620", "title": "Schlacht am Weißen Berg", "start": "1620-11-08", "importance": 2,
-      "description": "Sieg der kaiserlich-ligistischen Truppen über die böhmischen Stände. Folge: Rekatholisierung Böhmens und Festigung der habsburgischen Herrschaft in den Erblanden.",
-      "place": { "name": "Bílá Hora, Prag", "lat": 50.0786, "lon": 14.32 }
-    },
-    {
-      "id": "bauernkrieg-ooe-1626", "title": "Oberösterreichischer Bauernkrieg", "start": "1626-05", "end": "1626-11", "importance": 3,
-      "description": "Aufstand gegen die bayerische Pfandherrschaft und die gewaltsame Gegenreformation, angeführt von Stefan Fadinger; vorausgegangen war 1625 das „Frankenburger Würfelspiel“.",
-      "place": { "name": "Oberösterreich", "lat": 48.2, "lon": 14.0 }
-    },
-    {
-      "id": "universitaet-salzburg-1622", "title": "Gründung der Universität Salzburg", "start": "1622", "importance": 4,
-      "description": "Von Fürsterzbischof Paris Lodron als Benediktineruniversität gegründet.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "wallenstein-1634", "title": "Ermordung Wallensteins", "start": "1634-02-25", "importance": 3,
-      "description": "Der kaiserliche Generalissimus Albrecht von Wallenstein wurde in Eger mit Billigung Ferdinands II. ermordet.",
-      "place": { "name": "Eger (Cheb)", "lat": 50.0796, "lon": 12.3739 }
-    },
-    {
-      "id": "schweden-vor-wien-1645", "title": "Schwedische Truppen vor Wien", "start": "1645", "importance": 4,
-      "description": "Im Dreißigjährigen Krieg stießen schwedische Truppen unter Torstensson bis vor Wien vor (Eroberung der Wolfsschanze an der Donau).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "mogersdorf-1664", "title": "Schlacht bei Mogersdorf", "start": "1664-08-01", "importance": 3,
-      "description": "Sieg eines kaiserlichen und Reichsheeres unter Montecuccoli über die Osmanen an der Raab im heutigen Burgenland.",
-      "place": { "name": "Mogersdorf", "lat": 46.9425, "lon": 16.2306 }
-    },
-    {
-      "id": "juden-vertreibung-1670", "title": "Vertreibung der Juden aus Wien", "start": "1670", "importance": 3,
-      "description": "Leopold I. ließ die jüdische Gemeinde aus dem „Unteren Werd“ vertreiben; das Viertel wurde in „Leopoldstadt“ umbenannt.",
-      "place": { "name": "Leopoldstadt, Wien", "lat": 48.2167, "lon": 16.3833 }
-    },
-    {
-      "id": "universitaet-innsbruck-1669", "title": "Gründung der Universität Innsbruck", "start": "1669", "importance": 4,
-      "description": "Leopold I. gründete die Universität, finanziert durch einen Aufschlag auf das Haller Salz.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 }
-    },
-    {
-      "id": "pest-1679", "title": "Große Pest in Wien", "start": "1679", "importance": 3,
-      "description": "Eine der schwersten Pestepidemien Wiens; Leopold I. gelobte die Errichtung der Pestsäule am Graben.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "osmanenbelagerung-1683", "title": "Zweite Wiener Osmanenbelagerung", "short": "Osmanenbelagerung 1683", "start": "1683-07-14", "end": "1683-09-12", "importance": 1,
-      "description": "Das osmanische Heer unter Großwesir Kara Mustafa belagerte Wien zwei Monate lang. Ein Entsatzheer unter dem polnischen König Jan III. Sobieski und Karl von Lothringen siegte am 12. September in der Schlacht am Kahlenberg.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Verteidiger": "Ernst Rüdiger von Starhemberg, Bürgermeister Liebenberg", "Angreifer": "Kara Mustafa" }
-    },
-    {
-      "id": "grosser-tuerkenkrieg", "title": "Großer Türkenkrieg", "start": "1683", "end": "1699-01-26", "importance": 2,
-      "description": "Nach dem Entsatz Wiens eroberten kaiserliche Truppen Ungarn zurück (Ofen 1686). Im Frieden von Karlowitz fielen Ungarn, Siebenbürgen und Slawonien an die Habsburger.",
-      "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
-    },
-    {
-      "id": "erstes-kaffeehaus-1685", "title": "Erstes Wiener Kaffeehaus", "start": "1685-01", "importance": 4,
-      "description": "Johannes Diodato erhielt das Privileg zum Ausschank von Kaffee – Beginn der Wiener Kaffeehauskultur.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "akademie-1692", "title": "Malerakademie Peter Strudels", "start": "1692", "importance": 4,
-      "description": "Peter Strudel gründete in Wien eine Akademie für Maler und Bildhauer, Vorläuferin der Akademie der bildenden Künste.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "pestsaeule-1693", "title": "Weihe der Pestsäule am Graben", "short": "Pestsäule", "start": "1693-10-29", "importance": 4,
-      "description": "Barockes Denkmal zur Erinnerung an die Pest von 1679, nach Entwürfen u. a. von Burnacini und Fischer von Erlach.",
-      "place": { "name": "Graben, Wien", "lat": 48.2086, "lon": 16.37 }
-    },
-    {
-      "id": "schoenbrunn-1696", "title": "Baubeginn Schloss Schönbrunn", "start": "1696", "importance": 3,
-      "description": "Nach Plänen Fischer von Erlachs wurde für Joseph I. ein Jagd- und Lustschloss errichtet, später unter Maria Theresia ausgebaut.",
-      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 }
-    },
-    {
-      "id": "zenta-1697", "title": "Schlacht bei Zenta", "start": "1697-09-11", "importance": 3,
-      "description": "Entscheidender Sieg Prinz Eugens über die Osmanen, der den Weg zum Frieden von Karlowitz ebnete.",
-      "place": { "name": "Zenta (Senta)", "lat": 45.9275, "lon": 20.0772 }
-    },
-    {
-      "id": "melk-1702", "title": "Neubau des Stifts Melk", "start": "1702", "end": "1736", "importance": 3,
-      "description": "Jakob Prandtauer errichtete für Abt Berthold Dietmayr das Benediktinerstift Melk als Gesamtkunstwerk des Barock.",
-      "place": { "name": "Stift Melk", "lat": 48.228, "lon": 15.3317 }
-    },
-    {
-      "id": "kuruzzen-1703", "title": "Kuruzzenaufstand (Rákóczi)", "short": "Kuruzzenaufstand", "start": "1703", "end": "1711-04-30", "importance": 4,
-      "description": "Aufstand ungarischer Adeliger unter Franz II. Rákóczi gegen die Habsburger; Streifzüge bis vor Wien, beendet durch den Frieden von Sathmar.",
-      "place": { "name": "Ungarn", "lat": 47.5, "lon": 19.0 }
-    },
-    {
-      "id": "linienwall-1704", "title": "Bau des Linienwalls", "start": "1704", "importance": 5,
-      "description": "Zum Schutz der Vorstädte vor den Kuruzzen wurde ein Erdwall um Wien angelegt – etwa der Verlauf des heutigen Gürtels.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "pragmatische-sanktion-1713", "title": "Pragmatische Sanktion", "start": "1713-04-19", "importance": 2,
-      "description": "Hausgesetz Karls VI.: Unteilbarkeit der habsburgischen Länder und Erbrecht auch für Töchter – Grundlage der Herrschaft Maria Theresias.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 }
-    },
-    {
-      "id": "pest-1713", "title": "Pest und Gelöbnis der Karlskirche", "start": "1713", "importance": 4,
-      "description": "Während der letzten großen Pestepidemie in Wien gelobte Karl VI. den Bau der Karlskirche (Baubeginn 1716).",
-      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 }
-    },
-    {
-      "id": "rastatt-1714", "title": "Frieden von Rastatt", "start": "1714-03-07", "importance": 3,
-      "description": "Beendete den Krieg zwischen Kaiser und Frankreich; Österreich erhielt die Spanischen Niederlande, Mailand, Neapel und Sardinien.",
-      "place": { "name": "Rastatt", "lat": 48.858, "lon": 8.2036 }
-    },
-    {
-      "id": "belvedere-1714", "title": "Baubeginn des Belvedere", "start": "1714", "importance": 4,
-      "description": "Lukas von Hildebrandt begann für Prinz Eugen mit dem Unteren Belvedere; das Obere Belvedere folgte ab 1717.",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
-    },
-    {
-      "id": "belgrad-1717", "title": "Prinz Eugen erobert Belgrad", "short": "Belgrad 1717", "start": "1717-08-16", "importance": 3,
-      "description": "Höhepunkt des Türkenkriegs 1716–1718; im Frieden von Passarowitz (1718) erreichte die Habsburgermonarchie ihre größte Ausdehnung auf dem Balkan.",
-      "place": { "name": "Belgrad", "lat": 44.8176, "lon": 20.4569 }
-    },
-    {
-      "id": "karlskirche-bau", "title": "Bau der Karlskirche", "start": "1716", "end": "1737", "importance": 4,
-      "description": "Nach Plänen Johann Bernhard Fischer von Erlachs, vollendet von seinem Sohn.",
-      "place": { "name": "Karlskirche, Wien", "lat": 48.1982, "lon": 16.3719 }
-    },
-    {
-      "id": "erbfolgekrieg", "title": "Österreichischer Erbfolgekrieg", "start": "1740-12", "end": "1748-10", "importance": 2,
-      "description": "Preußen, Bayern und Frankreich bestritten Maria Theresias Erbe. Österreich behauptete sich, verlor aber Schlesien an Preußen.",
-      "place": { "name": "Schlesien", "lat": 50.8, "lon": 17.0 }
-    },
-    {
-      "id": "haugwitz-1749", "title": "Haugwitzsche Staatsreform", "start": "1749", "importance": 4,
-      "description": "Trennung von Justiz und Verwaltung, Zentralisierung der Behörden – Beginn des modernen Beamtenstaats.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "siebenjaehriger-krieg-at", "title": "Siebenjähriger Krieg", "start": "1756-08", "end": "1763-02-15", "importance": 3,
-      "description": "Maria Theresias Versuch, Schlesien zurückzugewinnen, scheiterte; Sieg bei Kolin (1757).",
-      "place": { "name": "Böhmen / Sachsen", "lat": 50.5, "lon": 14.5 }
-    },
-    {
-      "id": "schulpflicht-1774", "title": "Allgemeine Schulpflicht", "start": "1774-12-06", "importance": 2,
-      "description": "Die „Allgemeine Schulordnung“ Maria Theresias führte die sechsjährige Unterrichtspflicht ein.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "toleranzpatent-1781", "title": "Toleranzpatent Josephs II.", "start": "1781-10-13", "importance": 2,
-      "description": "Gewährte Protestanten und Orthodoxen private Religionsausübung und bürgerliche Rechte; Juden folgten mit eigenen Toleranzpatenten.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "leibeigenschaft-1781", "title": "Aufhebung der Leibeigenschaft", "start": "1781-11-01", "importance": 3,
-      "description": "Joseph II. hob die persönliche Leibeigenschaft in Böhmen und Mähren auf, später in weiteren Ländern.",
-      "place": { "name": "Böhmen", "lat": 50.0, "lon": 14.5 }
-    },
-    {
-      "id": "napoleon-wien-1805", "title": "Napoleon besetzt Wien", "start": "1805-11-13", "importance": 3,
-      "description": "Erste französische Besetzung Wiens; kurz darauf Niederlage bei Austerlitz (2. Dezember 1805).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "kaisertum-1804", "title": "Gründung des Kaisertums Österreich", "start": "1804-08-11", "importance": 2,
-      "description": "Franz II. nahm als Franz I. den Titel eines erblichen Kaisers von Österreich an.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "ende-hrr-1806", "title": "Ende des Heiligen Römischen Reiches", "start": "1806-08-06", "importance": 2,
-      "description": "Franz II. legte die römisch-deutsche Kaiserkrone nieder; das über 800 Jahre alte Reich erlosch.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "aspern-1809", "title": "Schlacht bei Aspern", "start": "1809-05-21", "end": "1809-05-22", "importance": 3,
-      "description": "Erzherzog Karl brachte Napoleon die erste Niederlage in offener Feldschlacht bei; wenig später siegte Napoleon bei Wagram.",
-      "place": { "name": "Aspern, Wien", "lat": 48.2167, "lon": 16.4833 }
-    },
-    {
-      "id": "tiroler-aufstand-1809", "title": "Tiroler Volksaufstand", "start": "1809-04", "end": "1809-11", "importance": 3,
-      "description": "Andreas Hofer führte den Aufstand gegen die bayerische und französische Herrschaft; er wurde 1810 in Mantua hingerichtet.",
-      "place": { "name": "Bergisel, Innsbruck", "lat": 47.2475, "lon": 11.4005 }
-    },
-    {
-      "id": "wiener-kongress", "title": "Wiener Kongress", "start": "1814-09-18", "end": "1815-06-09", "importance": 1,
-      "description": "Neuordnung Europas nach den Napoleonischen Kriegen unter der Leitung Metternichs; Wien wurde zur Bühne der europäischen Diplomatie.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "maerzrevolution-1848", "title": "Revolution 1848", "start": "1848-03-13", "end": "1848-10-31", "importance": 1,
-      "description": "Erhebung von Studenten, Bürgern und Arbeitern: Sturz Metternichs, Aufhebung der Grunduntertänigkeit, erster Reichstag. Im Oktober wurde Wien militärisch zurückerobert.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "stadterweiterung-1857", "title": "Abbruch der Stadtmauer und Bau der Ringstraße", "short": "Ringstraße", "start": "1857-12-20", "importance": 2,
-      "description": "Franz Joseph ordnete die Schleifung der Basteien an; an ihrer Stelle entstand die Ringstraße mit ihren Prachtbauten.",
-      "place": { "name": "Ringstraße, Wien", "lat": 48.205, "lon": 16.362 }
-    },
-    {
-      "id": "koeniggraetz-1866", "title": "Schlacht bei Königgrätz", "start": "1866-07-03", "importance": 2,
-      "description": "Niederlage gegen Preußen; Österreich schied aus dem Deutschen Bund aus.",
-      "place": { "name": "Königgrätz (Hradec Králové)", "lat": 50.2092, "lon": 15.8328 }
-    },
-    {
-      "id": "ausgleich-1867", "title": "Österreichisch-Ungarischer Ausgleich", "short": "Ausgleich 1867", "start": "1867", "importance": 2,
-      "description": "Umwandlung des Kaisertums in die Doppelmonarchie Österreich-Ungarn; im selben Jahr erhielt Österreich mit der Dezemberverfassung Grundrechte.",
-      "place": { "name": "Budapest", "lat": 47.4979, "lon": 19.0402 }
-    },
-    {
-      "id": "staatsoper-1869", "title": "Eröffnung der Hofoper", "start": "1869-05-25", "importance": 4,
-      "description": "Erster großer Monumentalbau der Ringstraße, eröffnet mit Mozarts „Don Giovanni“.",
-      "place": { "name": "Staatsoper, Wien", "lat": 48.2031, "lon": 16.3692 }
-    },
-    {
-      "id": "weltausstellung-1873", "title": "Weltausstellung und Börsenkrach", "start": "1873-05-01", "end": "1873-11-02", "importance": 3,
-      "description": "Die Wiener Weltausstellung im Prater wurde vom Börsenkrach vom 9. Mai und einer Choleraepidemie überschattet.",
-      "place": { "name": "Prater, Wien", "lat": 48.2166, "lon": 16.3958 }
-    },
-    {
-      "id": "ringtheater-1881", "title": "Ringtheaterbrand", "start": "1881-12-08", "importance": 4,
-      "description": "Brandkatastrophe mit Hunderten Toten; Anlass für die Gründung der Wiener Rettungsgesellschaft und strenge Theatervorschriften.",
-      "place": { "name": "Schottenring, Wien", "lat": 48.2148, "lon": 16.3651 }
-    },
-    {
-      "id": "mayerling-1889", "title": "Tragödie von Mayerling", "start": "1889-01-30", "importance": 3,
-      "description": "Kronprinz Rudolf und Mary Vetsera starben im Jagdschloss Mayerling.",
-      "place": { "name": "Mayerling", "lat": 48.0464, "lon": 16.0989 }
-    },
-    {
-      "id": "gross-wien-1892", "title": "Eingemeindung der Vororte", "start": "1892-01-01", "importance": 4,
-      "description": "Durch die Eingemeindung der Vororte wuchs Wien auf 19 Bezirke und über 1,3 Millionen Einwohner.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "secession-1897", "title": "Gründung der Wiener Secession", "start": "1897-04-03", "importance": 3,
-      "description": "Junge Künstler um Gustav Klimt lösten sich vom Künstlerhaus: „Der Zeit ihre Kunst, der Kunst ihre Freiheit“.",
-      "place": { "name": "Secession, Wien", "lat": 48.2003, "lon": 16.3658 }
-    },
-    {
-      "id": "elisabeth-1898", "title": "Ermordung Kaiserin Elisabeths", "start": "1898-09-10", "importance": 3,
-      "description": "Die Kaiserin wurde in Genf von einem italienischen Anarchisten erstochen.",
-      "place": { "name": "Genf", "lat": 46.2044, "lon": 6.1432 }
-    },
-    {
-      "id": "wahlrecht-1907", "title": "Allgemeines Männerwahlrecht", "start": "1907", "importance": 3,
-      "description": "Erste Reichsratswahl nach dem allgemeinen und gleichen Wahlrecht für Männer.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "annexion-bosnien-1908", "title": "Annexion Bosnien-Herzegowinas", "start": "1908-10-06", "importance": 4,
-      "description": "Die Annexion löste die Bosnische Krise aus und verschärfte die Spannungen mit Serbien und Russland.",
-      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
-    },
-    {
-      "id": "sarajevo-1914", "title": "Attentat von Sarajevo", "start": "1914-06-28", "importance": 1,
-      "description": "Ermordung des Thronfolgers Franz Ferdinand und seiner Frau Sophie; die Kriegserklärung an Serbien am 28. Juli löste den Ersten Weltkrieg aus.",
-      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
-    },
-    {
-      "id": "republik-1918", "title": "Ausrufung der Republik Deutschösterreich", "short": "Republik 1918", "start": "1918-11-12", "importance": 1,
-      "description": "Nach dem Zerfall der Monarchie rief die Provisorische Nationalversammlung die Republik aus. Im selben Jahr wurde das Frauenwahlrecht eingeführt.",
-      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
-    },
-    {
-      "id": "saint-germain-1919", "title": "Vertrag von Saint-Germain", "start": "1919-09-10", "importance": 2,
-      "description": "Friedensvertrag der Siegermächte mit Österreich: Festlegung der Grenzen, Verbot des Anschlusses an Deutschland, Name „Republik Österreich“.",
-      "place": { "name": "Saint-Germain-en-Laye", "lat": 48.8989, "lon": 2.0938 }
-    },
-    {
-      "id": "bundesverfassung-1920", "title": "Bundes-Verfassungsgesetz", "short": "B-VG 1920", "start": "1920-10-01", "importance": 3,
-      "description": "Die von Hans Kelsen mitgestaltete Verfassung machte Österreich zum Bundesstaat; Wien wurde ein eigenes Bundesland.",
-      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
-    },
-    {
-      "id": "marchfeld-1278", "title": "Schlacht auf dem Marchfeld", "start": "1278-08-26", "importance": 1,
-      "description": "Rudolf I. besiegte bei Dürnkrut und Jedenspeigen König Ottokar II. von Böhmen, der fiel. Damit begann die 640-jährige Herrschaft der Habsburger in Österreich.",
-      "place": { "name": "Dürnkrut", "lat": 48.4733, "lon": 16.85 }
-    },
-    {
-      "id": "belehnung-1282", "title": "Belehnung der Söhne Rudolfs", "short": "Belehnung 1282", "start": "1282-12-27", "importance": 2,
-      "description": "Auf dem Augsburger Reichstag belehnte Rudolf I. seine Söhne Albrecht und Rudolf mit Österreich und der Steiermark.",
-      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
-    },
-    {
-      "id": "kaernten-krain-1335", "title": "Kärnten und Krain an Habsburg", "start": "1335-05-02", "importance": 3,
-      "description": "Kaiser Ludwig der Bayer belehnte die Habsburger mit Kärnten und Krain.",
-      "place": { "name": "Klagenfurt", "lat": 46.6249, "lon": 14.305 }
-    },
-    {
-      "id": "pest-wien-1349", "title": "Schwarzer Tod in Wien", "start": "1349", "importance": 3,
-      "description": "Die Pestwelle erreichte Wien; ein großer Teil der Bevölkerung starb.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "privilegium-maius", "title": "Privilegium maius", "start": "1358", "importance": 3,
-      "description": "Rudolf IV. ließ eine Urkundenfälschung anfertigen, die Österreich Sonderrechte und den Titel „Erzherzog“ zusprach; Friedrich III. bestätigte sie 1453.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "stephansdom-1359", "title": "Gotischer Neubau des Stephansdoms", "short": "Stephansdom 1359", "start": "1359-04-07", "importance": 2,
-      "description": "Rudolf IV. legte den Grundstein für den Ausbau des Langhauses im gotischen Stil.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "tirol-1363", "title": "Tirol kommt an Habsburg", "start": "1363-01-26", "importance": 2,
-      "description": "Margarete „Maultasch“ übergab Tirol an Rudolf IV.",
-      "place": { "name": "Bozen", "lat": 46.4983, "lon": 11.3548 }
-    },
-    {
-      "id": "neuberger-teilung-1379", "title": "Neuberger Teilung", "start": "1379-09-25", "importance": 3,
-      "description": "Albrecht III. und Leopold III. teilten die habsburgischen Länder in eine Albertinische und eine Leopoldinische Linie.",
-      "place": { "name": "Neuberg an der Mürz", "lat": 47.6667, "lon": 15.5833 }
-    },
-    {
-      "id": "sempach-1386", "title": "Schlacht bei Sempach", "start": "1386-07-09", "importance": 3,
-      "description": "Niederlage gegen die Eidgenossen; Herzog Leopold III. fiel. Habsburg verlor zunehmend seine Stammlande in der Schweiz.",
-      "place": { "name": "Sempach", "lat": 47.135, "lon": 8.1922 }
-    },
-    {
-      "id": "wiener-gesera-1421", "title": "Wiener Gesera", "start": "1420", "end": "1421-03-12", "importance": 3,
-      "description": "Unter Albrecht V. wurden die Wiener Juden vertrieben, enteignet und am 12. März 1421 über 200 von ihnen verbrannt.",
-      "place": { "name": "Judenplatz, Wien", "lat": 48.2116, "lon": 16.3693 }
-    },
-    {
-      "id": "steffl-1433", "title": "Vollendung des Südturms („Steffl“)", "short": "Steffl", "start": "1433-10", "importance": 3,
-      "description": "Mit 136 Metern einer der höchsten Kirchtürme seiner Zeit; Wahrzeichen Wiens.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "kaiserkroenung-1452", "title": "Kaiserkrönung Friedrichs III.", "start": "1452-03-19", "importance": 3,
-      "description": "Letzte Kaiserkrönung in Rom; zugleich Heirat mit Eleonore von Portugal.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
-    },
-    {
-      "id": "bistum-wien-1469", "title": "Wien wird Bistum", "start": "1469-01-18", "importance": 3,
-      "description": "Auf Betreiben Friedrichs III. wurde Wien (gemeinsam mit Wiener Neustadt) eigenes Bistum.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "burgundische-heirat-1477", "title": "Burgundische Heirat", "start": "1477-08-19", "importance": 2,
-      "description": "Maximilian heiratete Maria von Burgund – Grundlage für den Aufstieg Habsburgs zur Weltmacht („Bella gerant alii, tu felix Austria nube“).",
-      "place": { "name": "Gent", "lat": 51.0543, "lon": 3.7174 }
-    },
-    {
-      "id": "corvinus-wien-1485", "title": "Matthias Corvinus erobert Wien", "short": "Corvinus in Wien", "start": "1485-06-01", "end": "1490-04-06", "importance": 2,
-      "description": "Der ungarische König residierte bis zu seinem Tod 1490 in Wien; danach eroberte Maximilian die Stadt zurück.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "awarenkriege", "title": "Awarenkriege Karls des Großen", "start": "791", "end": "796", "importance": 3,
-      "description": "Die Franken zerschlugen das Reich der Awaren; im Donauraum entstand eine fränkische Grenzmark.",
-      "place": { "name": "Pannonien", "lat": 47.8, "lon": 16.5 }
-    },
-    {
-      "id": "erzbistum-salzburg-798", "title": "Salzburg wird Erzbistum", "start": "798-04-20", "importance": 2,
-      "description": "Papst Leo III. erhob Salzburg auf Betreiben Karls des Großen zum Erzbistum für den bairischen Raum.",
-      "place": { "name": "Salzburg", "lat": 47.7981, "lon": 13.0465 }
-    },
-    {
-      "id": "pressburg-907", "title": "Schlacht bei Pressburg", "start": "907-07-04", "importance": 3,
-      "description": "Schwere Niederlage des bairischen Heeres gegen die Ungarn; die karolingische Mark ging verloren.",
-      "place": { "name": "Pressburg (Bratislava)", "lat": 48.1486, "lon": 17.1077 }
-    },
-    {
-      "id": "lechfeld-955", "title": "Schlacht auf dem Lechfeld", "start": "955-08-10", "importance": 2,
-      "description": "Otto I. besiegte die Ungarn; danach wurde die Mark an der Donau neu errichtet.",
-      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
-    },
-    {
-      "id": "kaernten-976", "title": "Kärnten wird eigenes Herzogtum", "start": "976", "importance": 3,
-      "description": "Kärnten wurde von Bayern getrennt – das älteste Herzogtum auf österreichischem Boden.",
-      "place": { "name": "Karnburg", "lat": 46.6667, "lon": 14.3333 }
-    },
-    {
-      "id": "babenberger-976", "title": "Babenberger erhalten die Mark", "start": "976-07-21", "importance": 2,
-      "description": "Otto II. belehnte Leopold I. mit der Mark an der Donau.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 }
-    },
-    {
-      "id": "ostarrichi-996", "title": "Ostarrichi-Urkunde", "short": "Ostarrichi 996", "start": "996-11-01", "importance": 1,
-      "description": "Otto III. schenkte dem Bistum Freising Land in Neuhofen an der Ybbs „in der Gegend, die im Volksmund Ostarrichi heißt“ – die erste Nennung des Namens Österreich.",
-      "place": { "name": "Neuhofen an der Ybbs", "lat": 48.05, "lon": 14.8667 }
-    },
-    {
-      "id": "gurk-dom", "title": "Bau des Gurker Doms", "start": "~1140", "end": "~1200", "importance": 4,
-      "description": "Eine der bedeutendsten romanischen Kirchen Österreichs.",
-      "place": { "name": "Gurk", "lat": 46.875, "lon": 14.2917 }
-    },
-    {
-      "id": "klosterneuburg-1114", "title": "Gründung des Stifts Klosterneuburg", "start": "1114-06-12", "importance": 3,
-      "description": "Leopold III. legte den Grundstein; Klosterneuburg wurde seine Residenz.",
-      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 }
-    },
-    {
-      "id": "heiligenkreuz-1133", "title": "Gründung des Stifts Heiligenkreuz", "start": "1133", "importance": 4,
-      "description": "Zisterzienserabtei im Wienerwald, bis heute besteht dort ununterbrochen klösterliches Leben.",
-      "place": { "name": "Stift Heiligenkreuz", "lat": 48.0553, "lon": 16.1306 }
-    },
-    {
-      "id": "stephansdom-1147", "title": "Weihe der ersten Stephanskirche", "start": "1147", "importance": 3,
-      "description": "Die romanische Vorgängerkirche des Stephansdoms wurde geweiht; erhalten ist das Riesentor (um 1240).",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 }
-    },
-    {
-      "id": "privilegium-minus-1156", "title": "Privilegium minus", "short": "Privilegium minus", "start": "1156-09-17", "importance": 1,
-      "description": "Friedrich Barbarossa erhob die Mark Österreich zum Herzogtum mit besonderen Rechten; Heinrich Jasomirgott machte Wien zur Residenz.",
-      "place": { "name": "Regensburg", "lat": 49.0134, "lon": 12.1016 }
-    },
-    {
-      "id": "georgenberger-handfeste-1186", "title": "Georgenberger Handfeste", "start": "1186-08-17", "importance": 3,
-      "description": "Erbvertrag: Die Steiermark fiel 1192 an die Babenberger.",
-      "place": { "name": "Enns", "lat": 48.2125, "lon": 14.4756 }
-    },
-    {
-      "id": "loewenherz-1192", "title": "Gefangennahme Richard Löwenherz’", "short": "Richard Löwenherz", "start": "1192-12-21", "importance": 2,
-      "description": "Der englische König wurde bei Wien gefangen und in Dürnstein festgehalten; mit dem Lösegeld wurden Wiens Stadtmauer und Wiener Neustadt finanziert.",
-      "place": { "name": "Dürnstein", "lat": 48.3956, "lon": 15.5194 }
-    },
-    {
-      "id": "wiener-neustadt-1194", "title": "Gründung von Wiener Neustadt", "start": "1194", "importance": 3,
-      "description": "Grenzfestung gegen Ungarn, finanziert aus dem Lösegeld für Richard Löwenherz.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
-    },
-    {
-      "id": "wiener-stadtrecht-1221", "title": "Wiener Stadtrecht", "start": "1221-10-18", "importance": 3,
-      "description": "Leopold VI. verlieh Wien das Stadtrecht und das Stapelrecht.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "mongolen-1241", "title": "Mongolen an der österreichischen Grenze", "start": "1241", "end": "1242", "importance": 4,
-      "description": "Nach der Schlacht bei Liegnitz und dem Sieg über Ungarn streiften mongolische Verbände bis in die Gegend von Wiener Neustadt.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 }
-    },
-    {
-      "id": "leitha-1246", "title": "Schlacht an der Leitha", "short": "Ende der Babenberger", "start": "1246-06-15", "importance": 2,
-      "description": "Herzog Friedrich II. fiel – das Geschlecht der Babenberger erlosch. Es folgten Jahre der Herrenlosigkeit bis zu Ottokar II.",
-      "place": { "name": "Leitha", "lat": 47.9, "lon": 16.6 }
-    },
-    {
-      "id": "festspiele-1920", "title": "Erste Salzburger Festspiele", "start": "1920-08-22", "importance": 3,
-      "description": "Mit Hofmannsthals „Jedermann“ auf dem Domplatz begannen die Festspiele (gegründet mit Max Reinhardt und Richard Strauss).",
-      "place": { "name": "Domplatz, Salzburg", "lat": 47.7979, "lon": 13.0469 }
-    },
-    {
-      "id": "genfer-sanierung-1922", "title": "Genfer Sanierung", "start": "1922-10-04", "importance": 4,
-      "description": "Völkerbundanleihe gegen die Hyperinflation; 1925 folgte der Schilling.",
-      "place": { "name": "Genf", "lat": 46.2044, "lon": 6.1432 }
-    },
-    {
-      "id": "justizpalast-1927", "title": "Justizpalastbrand", "start": "1927-07-15", "importance": 2,
-      "description": "Nach einem Fehlurteil (Schattendorf) eskalierte eine Demonstration; die Polizei schoss, 89 Menschen starben.",
-      "place": { "name": "Justizpalast, Wien", "lat": 48.2071, "lon": 16.357 }
-    },
-    {
-      "id": "karl-marx-hof-1930", "title": "Karl-Marx-Hof", "start": "1930-10-12", "importance": 3,
-      "description": "Symbolbau des „Roten Wien“ und seines kommunalen Wohnbaus.",
-      "place": { "name": "Karl-Marx-Hof, Wien", "lat": 48.2492, "lon": 16.3653 }
-    },
-    {
-      "id": "creditanstalt-1931", "title": "Zusammenbruch der Creditanstalt", "start": "1931-05-11", "importance": 3,
-      "description": "Der Bankenkrach verschärfte die Weltwirtschaftskrise in Europa.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "februarkaempfe-1934", "title": "Februarkämpfe (Bürgerkrieg)", "short": "Februar 1934", "start": "1934-02-12", "end": "1934-02-15", "importance": 2,
-      "description": "Bewaffneter Aufstand des Republikanischen Schutzbundes gegen die Regierung Dollfuß; die Sozialdemokratie wurde verboten.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "staendestaat", "title": "Ständestaat (Austrofaschismus)", "short": "Ständestaat", "start": "1934-05-01", "end": "1938-03-12", "importance": 3,
-      "description": "Autoritäres Regime mit der Maiverfassung 1934 bis zum Anschluss.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "juliputsch-1934", "title": "Juliputsch", "start": "1934-07-25", "importance": 3,
-      "description": "Nationalsozialisten ermordeten Bundeskanzler Dollfuß; der Putsch scheiterte.",
-      "place": { "name": "Ballhausplatz, Wien", "lat": 48.2094, "lon": 16.3637 }
-    },
-    {
-      "id": "anschluss-1938", "title": "Anschluss an das Deutsche Reich", "short": "Anschluss 1938", "start": "1938-03-12", "importance": 1,
-      "description": "Einmarsch der Wehrmacht; Österreich hörte als Staat auf zu bestehen. Sofort setzten Verfolgung, Vertreibung und Beraubung der Juden und politischen Gegner ein.",
-      "place": { "name": "Heldenplatz, Wien", "lat": 48.2063, "lon": 16.3626 }
-    },
-    {
-      "id": "novemberpogrom-1938", "title": "Novemberpogrom in Wien", "start": "1938-11-09", "end": "1938-11-10", "importance": 2,
-      "description": "Fast alle Wiener Synagogen wurden zerstört, Tausende Juden verhaftet; über 65.000 österreichische Jüdinnen und Juden wurden in der Shoah ermordet.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "befreiung-wiens-1945", "title": "Befreiung Wiens", "start": "1945-04-13", "importance": 2,
-      "description": "Die Rote Armee befreite Wien; am 27. April wurde die Unabhängigkeit Österreichs proklamiert (Zweite Republik).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "besatzungszeit", "title": "Besatzungszeit", "start": "1945-04", "end": "1955-10-25", "importance": 3,
-      "description": "Österreich und Wien waren in vier Besatzungszonen geteilt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "staatsvertrag-1955", "title": "Staatsvertrag", "short": "Staatsvertrag 1955", "start": "1955-05-15", "importance": 1,
-      "description": "Im Belvedere unterzeichnet; Österreich erlangte seine volle Souveränität („Österreich ist frei!“).",
-      "place": { "name": "Belvedere, Wien", "lat": 48.1915, "lon": 16.3809 }
-    },
-    {
-      "id": "neutralitaet-1955", "title": "Immerwährende Neutralität", "short": "Neutralität", "start": "1955-10-26", "importance": 2,
-      "description": "Der Nationalrat beschloss das Neutralitätsgesetz; der 26. Oktober ist Nationalfeiertag.",
-      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 }
-    },
-    {
-      "id": "ungarnaufstand-1956", "title": "Flüchtlinge aus Ungarn", "start": "1956-11", "importance": 3,
-      "description": "Nach der Niederschlagung des Ungarnaufstands flohen rund 180.000 Menschen nach Österreich.",
-      "place": { "name": "Andau", "lat": 47.7742, "lon": 17.0331 }
-    },
-    {
-      "id": "gipfel-1961", "title": "Gipfeltreffen Kennedy–Chruschtschow", "short": "Wiener Gipfel 1961", "start": "1961-06-03", "end": "1961-06-04", "importance": 3,
-      "description": "Treffen der Supermächte in Wien.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "zwentendorf-1978", "title": "Volksabstimmung Zwentendorf", "start": "1978-11-05", "importance": 3,
-      "description": "Knappe Mehrheit gegen die Inbetriebnahme des fertigen Atomkraftwerks.",
-      "place": { "name": "Zwentendorf", "lat": 48.3519, "lon": 15.8833 }
-    },
-    {
-      "id": "uno-city-1979", "title": "UNO-City", "start": "1979-08-23", "importance": 4,
-      "description": "Wien wurde dritter Amtssitz der Vereinten Nationen.",
-      "place": { "name": "Vienna International Centre", "lat": 48.2349, "lon": 16.416 }
-    },
-    {
-      "id": "hainburg-1984", "title": "Besetzung der Hainburger Au", "start": "1984-12", "importance": 3,
-      "description": "Proteste verhinderten ein Donaukraftwerk; Geburtsstunde der Umweltbewegung und später des Nationalparks Donau-Auen.",
-      "place": { "name": "Hainburg", "lat": 48.1478, "lon": 16.9431 }
-    },
-    {
-      "id": "waldheim-1986", "title": "Waldheim-Affäre", "start": "1986", "importance": 3,
-      "description": "Die Debatte um Kurt Waldheims Kriegsvergangenheit führte zur Auseinandersetzung mit Österreichs Rolle im Nationalsozialismus.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "eiserner-vorhang-1989", "title": "Durchschneiden des Eisernen Vorhangs", "short": "Eiserner Vorhang", "start": "1989-06-27", "importance": 3,
-      "description": "Die Außenminister Mock und Horn durchtrennten bei Klingenbach den Grenzzaun zu Ungarn.",
-      "place": { "name": "Klingenbach", "lat": 47.75, "lon": 16.5333 }
-    },
-    {
-      "id": "eu-beitritt-1995", "title": "EU-Beitritt", "start": "1995-01-01", "importance": 2,
-      "description": "Nach einer Volksabstimmung (66,6 % Ja) trat Österreich der Europäischen Union bei.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "euro-2002", "title": "Einführung des Euro-Bargelds", "start": "2002-01-01", "importance": 3,
-      "description": "Der Euro ersetzte den Schilling.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "fluechtlinge-2015", "title": "Fluchtbewegung 2015", "start": "2015-09", "importance": 4,
-      "description": "Zehntausende Flüchtlinge kamen über Ungarn nach Österreich.",
-      "place": { "name": "Nickelsdorf", "lat": 47.9389, "lon": 17.0681 }
-    },
-    {
-      "id": "ibiza-2019", "title": "Ibiza-Affäre", "start": "2019-05-17", "importance": 4,
-      "description": "Ein heimlich gefilmtes Video führte zum Ende der Regierung und zur ersten Expertenregierung.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "covid-2020", "title": "Erster COVID-19-Lockdown", "start": "2020-03-16", "importance": 3,
-      "description": "Weitgehende Ausgangsbeschränkungen zur Eindämmung der Pandemie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "terroranschlag-2020", "title": "Terroranschlag in Wien", "start": "2020-11-02", "importance": 4,
-      "description": "Ein islamistischer Attentäter tötete in der Innenstadt vier Menschen.",
-      "place": { "name": "Seitenstettengasse, Wien", "lat": 48.2115, "lon": 16.3745 }
-    }
+    {"id":"wiener-fuerstentag-1515","title":"Wiener Fürstentag & Doppelhochzeit","start":"1515-07-22","importance":2,"description":"Im Stephansdom wurde die habsburgisch-jagiellonische Doppelhochzeit vereinbart und vollzogen. Sie legte die Grundlage für den späteren Erwerb Böhmens und Ungarns (1526).","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"wiener-stadtrecht-1517","title":"Neues Wiener Stadtrecht","start":"1517","importance":5,"description":"Das Stadtrecht Maximilians I. band den Bürgermeister stärker an den Landesfürsten.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"tod-maximilian-1519","title":"Tod Maximilians I. in Wels","start":"1519-01-12","importance":4,"description":"Nach seinem Tod kam es in Wien und den niederösterreichischen Ländern zu einem Machtkampf zwischen den Ständen und der landesfürstlichen Regierung.","place":{"name":"Wels","lat":48.1575,"lon":14.0289}},
+    {"id":"wormser-teilung-1521","title":"Wormser und Brüsseler Teilungsvertrag","start":"1521-04-28","end":"1522-02-07","importance":2,"description":"Karl V. überließ seinem Bruder Ferdinand die österreichischen Erblande. Damit entstand die österreichische Linie der Habsburger.","place":{"name":"Worms","lat":49.6341,"lon":8.3507}},
+    {"id":"wiener-neustaedter-blutgericht-1522","title":"Wiener Neustädter Blutgericht","start":"1522-08-11","importance":3,"description":"Ferdinand I. ließ führende Vertreter der ständischen Opposition hinrichten, darunter den Wiener Bürgermeister Martin Siebenbürger. Wiens städtische Autonomie wurde beschnitten.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246}},
+    {"id":"bauernkriege-1525","title":"Bauernkriege in Tirol und Salzburg","start":"1525-05","end":"1526-07","importance":3,"description":"Aufstände von Bauern und Bergknappen; in Tirol unter Michael Gaismair, der eine radikale „Landesordnung“ entwarf. Die Erhebungen wurden niedergeschlagen.","place":{"name":"Tirol / Salzburg","lat":47.5,"lon":12.5}},
+    {"id":"wiener-stadtordnung-1526","title":"Wiener Stadtordnung Ferdinands I.","start":"1526","importance":5,"description":"Die neue Stadtordnung unterstellte die Stadt weitgehend der landesfürstlichen Kontrolle.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"mohacs-1526","title":"Schlacht bei Mohács","start":"1526-08-29","importance":2,"description":"Niederlage Ungarns gegen die Osmanen, König Ludwig II. fiel. Aufgrund der Erbverträge von 1515 wurde Ferdinand I. König von Böhmen und (umstritten) Ungarn – Beginn der Donaumonarchie.","place":{"name":"Mohács","lat":45.9931,"lon":18.683}},
+    {"id":"osmanenbelagerung-1529","title":"Erste Wiener Osmanenbelagerung","start":"1529-09-27","end":"1529-10-14","importance":1,"description":"Das osmanische Heer unter Sultan Süleyman I. belagerte Wien. Die Verteidigung unter Niklas Graf Salm hielt stand, die Osmanen zogen ab.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Verteidiger":"Niklas Graf Salm","Angreifer":"Süleyman I."}},
+    {"id":"guens-1532","title":"Belagerung von Güns","start":"1532-08","importance":4,"description":"Die kleine Festung Güns (Kőszeg) hielt dem osmanischen Heer wochenlang stand; der Feldzug gegen Wien kam dadurch zum Erliegen.","place":{"name":"Güns (Kőszeg)","lat":47.3889,"lon":16.5408}},
+    {"id":"stadtbefestigung-1547","title":"Ausbau der Wiener Stadtbefestigung","start":"1547","end":"1566","importance":3,"description":"Nach der Belagerung von 1529 wurde Wien zur modernen Bastionsfestung ausgebaut. Wolmuet dokumentierte 1547 den Zustand in seinem Stadtplan.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"jesuiten-wien-1551","title":"Jesuiten kommen nach Wien","start":"1551","importance":4,"description":"Ferdinand I. holte die Jesuiten nach Wien; sie wurden zu Trägern der Gegenreformation und des Bildungswesens.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"schweizertor-1552","title":"Schweizertor der Hofburg","start":"1552","importance":5,"description":"Das Renaissance-Tor ist das älteste erhaltene Zeugnis des Hofburg-Ausbaus unter Ferdinand I.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655}},
+    {"id":"laenderteilung-1564","title":"Habsburgische Länderteilung","start":"1564-07-25","importance":2,"description":"Nach dem Tod Ferdinands I. wurden die Erblande unter seinen Söhnen geteilt: Maximilian II. (Österreich ob und unter der Enns), Ferdinand (Tirol, Vorlande) und Karl (Innerösterreich).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"hofreitschule-1565","title":"Spanische Hofreitschule erstmals erwähnt","start":"1565","importance":5,"description":"Erste Erwähnung eines „Spanischen Reitstalls“ in Wien – Vorläufer der Spanischen Hofreitschule.","place":{"name":"Wien","lat":48.2071,"lon":16.3664}},
+    {"id":"szigetvar-1566","title":"Belagerung von Szigetvár","start":"1566-08-06","end":"1566-09-08","importance":3,"description":"Nikolaus Zrinyi verteidigte die Festung bis zum Ausfall mit seiner Besatzung. Sultan Süleyman I. starb während der Belagerung.","place":{"name":"Szigetvár","lat":46.0486,"lon":17.8056}},
+    {"id":"religionskonzession-1568","title":"Religionskonzession Maximilians II.","start":"1568-08-18","importance":3,"description":"Maximilian II. gestattete Herren und Rittern in Niederösterreich die Ausübung des Augsburger Bekenntnisses auf ihren Besitzungen; 1571 durch die Religionsassekuration bestätigt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"neugebaeude-1568","title":"Bau des Schlosses Neugebäude","start":"1568","end":"1587","importance":4,"description":"Maximilian II. ließ östlich von Wien (heute Simmering) ein Lustschloss im Stil der Renaissance errichten; nach seinem Tod blieb es unvollendet.","place":{"name":"Simmering, Wien","lat":48.163,"lon":16.441}},
+    {"id":"brucker-libell-1578","title":"Brucker Libell","start":"1578","importance":4,"description":"Auf dem Landtag in Bruck an der Mur sicherte Erzherzog Karl II. den protestantischen Ständen Innerösterreichs Religionsfreiheit zu.","place":{"name":"Bruck an der Mur","lat":47.4106,"lon":15.2706}},
+    {"id":"lipica-1580","title":"Gründung des Gestüts Lipica","start":"1580","importance":5,"description":"Erzherzog Karl II. gründete im Karst das Hofgestüt, aus dem die Lipizzaner hervorgingen.","place":{"name":"Lipica","lat":45.6681,"lon":13.8828}},
+    {"id":"residenz-prag-1583","title":"Kaiserliche Residenz nach Prag verlegt","start":"1583","importance":3,"description":"Rudolf II. machte Prag zur Residenzstadt; Wien verlor bis 1612 die Funktion als Kaiserresidenz.","place":{"name":"Prag","lat":50.0905,"lon":14.4005}},
+    {"id":"uni-graz-1585","title":"Gründung der Universität Graz","start":"1585","importance":4,"description":"Von Erzherzog Karl II. als Jesuitenuniversität gegründet, als Instrument der Gegenreformation in Innerösterreich.","place":{"name":"Graz","lat":47.0707,"lon":15.4395}},
+    {"id":"erdbeben-1590","title":"Erdbeben von Neulengbach","start":"1590-09-15","importance":4,"description":"Eines der stärksten Erdbeben der österreichischen Geschichte; auch in Wien wurden zahlreiche Gebäude schwer beschädigt.","place":{"name":"Neulengbach","lat":48.1958,"lon":15.9064}},
+    {"id":"langer-tuerkenkrieg","title":"Langer Türkenkrieg","start":"1593","end":"1606-11-11","importance":2,"description":"Krieg zwischen den Habsburgern und dem Osmanischen Reich in Ungarn, beendet durch den Frieden von Zsitvatorok.","place":{"name":"Ungarn","lat":47.5,"lon":19}},
+    {"id":"bauernaufstand-ooe-1594","title":"Oberösterreichischer Bauernaufstand","start":"1594","end":"1597","importance":4,"description":"Aufstand gegen steigende Abgaben und gegenreformatorischen Druck, 1597 niedergeschlagen.","place":{"name":"Oberösterreich","lat":48.2,"lon":14}},
+    {"id":"gegenreformation-graz-1598","title":"Gegenreformation in Innerösterreich","start":"1598-09","importance":3,"description":"Erzherzog Ferdinand ließ die protestantischen Prediger und Lehrer aus Graz ausweisen. Johannes Kepler, Lehrer an der Grazer Stiftsschule, verließ Graz 1600.","place":{"name":"Graz","lat":47.0707,"lon":15.4395}},
+    {"id":"vertrag-lieben-1608","title":"Vertrag von Lieben („Bruderzwist“)","short":"Vertrag von Lieben","start":"1608-06-25","importance":4,"description":"Rudolf II. musste Österreich, Ungarn und Mähren an seinen Bruder Matthias abtreten.","place":{"name":"Lieben (Libeň), Prag","lat":50.1025,"lon":14.474}},
+    {"id":"prager-fenstersturz-1618","title":"Prager Fenstersturz","start":"1618-05-23","importance":2,"description":"Protestantische böhmische Stände warfen kaiserliche Statthalter aus der Prager Burg – Auslöser des Dreißigjährigen Krieges.","place":{"name":"Prager Burg","lat":50.091,"lon":14.4016}},
+    {"id":"weisser-berg-1620","title":"Schlacht am Weißen Berg","start":"1620-11-08","importance":2,"description":"Sieg der kaiserlich-ligistischen Truppen über die böhmischen Stände. Folge: Rekatholisierung Böhmens und Festigung der habsburgischen Herrschaft in den Erblanden.","place":{"name":"Bílá Hora, Prag","lat":50.0786,"lon":14.32}},
+    {"id":"bauernkrieg-ooe-1626","title":"Oberösterreichischer Bauernkrieg","start":"1626-05","end":"1626-11","importance":3,"description":"Aufstand gegen die bayerische Pfandherrschaft und die gewaltsame Gegenreformation, angeführt von Stefan Fadinger; vorausgegangen war 1625 das „Frankenburger Würfelspiel“.","place":{"name":"Oberösterreich","lat":48.2,"lon":14}},
+    {"id":"universitaet-salzburg-1622","title":"Gründung der Universität Salzburg","start":"1622","importance":4,"description":"Von Fürsterzbischof Paris Lodron als Benediktineruniversität gegründet.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"wallenstein-1634","title":"Ermordung Wallensteins","start":"1634-02-25","importance":3,"description":"Der kaiserliche Generalissimus Albrecht von Wallenstein wurde in Eger mit Billigung Ferdinands II. ermordet.","place":{"name":"Eger (Cheb)","lat":50.0796,"lon":12.3739}},
+    {"id":"schweden-vor-wien-1645","title":"Schwedische Truppen vor Wien","start":"1645","importance":4,"description":"Im Dreißigjährigen Krieg stießen schwedische Truppen unter Torstensson bis vor Wien vor (Eroberung der Wolfsschanze an der Donau).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"mogersdorf-1664","title":"Schlacht bei Mogersdorf","start":"1664-08-01","importance":3,"description":"Sieg eines kaiserlichen und Reichsheeres unter Montecuccoli über die Osmanen an der Raab im heutigen Burgenland.","place":{"name":"Mogersdorf","lat":46.9425,"lon":16.2306}},
+    {"id":"juden-vertreibung-1670","title":"Vertreibung der Juden aus Wien","start":"1670","importance":3,"description":"Leopold I. ließ die jüdische Gemeinde aus dem „Unteren Werd“ vertreiben; das Viertel wurde in „Leopoldstadt“ umbenannt.","place":{"name":"Leopoldstadt, Wien","lat":48.2167,"lon":16.3833}},
+    {"id":"universitaet-innsbruck-1669","title":"Gründung der Universität Innsbruck","start":"1669","importance":4,"description":"Leopold I. gründete die Universität, finanziert durch einen Aufschlag auf das Haller Salz.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041}},
+    {"id":"pest-1679","title":"Große Pest in Wien","start":"1679","importance":3,"description":"Eine der schwersten Pestepidemien Wiens; Leopold I. gelobte die Errichtung der Pestsäule am Graben.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"osmanenbelagerung-1683","title":"Zweite Wiener Osmanenbelagerung","short":"Osmanenbelagerung 1683","start":"1683-07-14","end":"1683-09-12","importance":1,"description":"Das osmanische Heer unter Großwesir Kara Mustafa belagerte Wien zwei Monate lang. Ein Entsatzheer unter dem polnischen König Jan III. Sobieski und Karl von Lothringen siegte am 12. September in der Schlacht am Kahlenberg.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Verteidiger":"Ernst Rüdiger von Starhemberg, Bürgermeister Liebenberg","Angreifer":"Kara Mustafa"}},
+    {"id":"grosser-tuerkenkrieg","title":"Großer Türkenkrieg","start":"1683","end":"1699-01-26","importance":2,"description":"Nach dem Entsatz Wiens eroberten kaiserliche Truppen Ungarn zurück (Ofen 1686). Im Frieden von Karlowitz fielen Ungarn, Siebenbürgen und Slawonien an die Habsburger.","place":{"name":"Ungarn","lat":47.5,"lon":19}},
+    {"id":"erstes-kaffeehaus-1685","title":"Erstes Wiener Kaffeehaus","start":"1685-01","importance":4,"description":"Johannes Diodato erhielt das Privileg zum Ausschank von Kaffee – Beginn der Wiener Kaffeehauskultur.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"akademie-1692","title":"Malerakademie Peter Strudels","start":"1692","importance":4,"description":"Peter Strudel gründete in Wien eine Akademie für Maler und Bildhauer, Vorläuferin der Akademie der bildenden Künste.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"pestsaeule-1693","title":"Weihe der Pestsäule am Graben","short":"Pestsäule","start":"1693-10-29","importance":4,"description":"Barockes Denkmal zur Erinnerung an die Pest von 1679, nach Entwürfen u. a. von Burnacini und Fischer von Erlach.","place":{"name":"Graben, Wien","lat":48.2086,"lon":16.37}},
+    {"id":"schoenbrunn-1696","title":"Baubeginn Schloss Schönbrunn","start":"1696","importance":3,"description":"Nach Plänen Fischer von Erlachs wurde für Joseph I. ein Jagd- und Lustschloss errichtet, später unter Maria Theresia ausgebaut.","place":{"name":"Schönbrunn, Wien","lat":48.1845,"lon":16.3122}},
+    {"id":"zenta-1697","title":"Schlacht bei Zenta","start":"1697-09-11","importance":3,"description":"Entscheidender Sieg Prinz Eugens über die Osmanen, der den Weg zum Frieden von Karlowitz ebnete.","place":{"name":"Zenta (Senta)","lat":45.9275,"lon":20.0772}},
+    {"id":"melk-1702","title":"Neubau des Stifts Melk","start":"1702","end":"1736","importance":3,"description":"Jakob Prandtauer errichtete für Abt Berthold Dietmayr das Benediktinerstift Melk als Gesamtkunstwerk des Barock.","place":{"name":"Stift Melk","lat":48.228,"lon":15.3317}},
+    {"id":"kuruzzen-1703","title":"Kuruzzenaufstand (Rákóczi)","short":"Kuruzzenaufstand","start":"1703","end":"1711-04-30","importance":4,"description":"Aufstand ungarischer Adeliger unter Franz II. Rákóczi gegen die Habsburger; Streifzüge bis vor Wien, beendet durch den Frieden von Sathmar.","place":{"name":"Ungarn","lat":47.5,"lon":19}},
+    {"id":"linienwall-1704","title":"Bau des Linienwalls","start":"1704","importance":5,"description":"Zum Schutz der Vorstädte vor den Kuruzzen wurde ein Erdwall um Wien angelegt – etwa der Verlauf des heutigen Gürtels.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"pragmatische-sanktion-1713","title":"Pragmatische Sanktion","start":"1713-04-19","importance":2,"description":"Hausgesetz Karls VI.: Unteilbarkeit der habsburgischen Länder und Erbrecht auch für Töchter – Grundlage der Herrschaft Maria Theresias.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655}},
+    {"id":"pest-1713","title":"Pest und Gelöbnis der Karlskirche","start":"1713","importance":4,"description":"Während der letzten großen Pestepidemie in Wien gelobte Karl VI. den Bau der Karlskirche (Baubeginn 1716).","place":{"name":"Karlskirche, Wien","lat":48.1982,"lon":16.3719}},
+    {"id":"rastatt-1714","title":"Frieden von Rastatt","start":"1714-03-07","importance":3,"description":"Beendete den Krieg zwischen Kaiser und Frankreich; Österreich erhielt die Spanischen Niederlande, Mailand, Neapel und Sardinien.","place":{"name":"Rastatt","lat":48.858,"lon":8.2036}},
+    {"id":"belvedere-1714","title":"Baubeginn des Belvedere","start":"1714","importance":4,"description":"Lukas von Hildebrandt begann für Prinz Eugen mit dem Unteren Belvedere; das Obere Belvedere folgte ab 1717.","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809}},
+    {"id":"belgrad-1717","title":"Prinz Eugen erobert Belgrad","short":"Belgrad 1717","start":"1717-08-16","importance":3,"description":"Höhepunkt des Türkenkriegs 1716–1718; im Frieden von Passarowitz (1718) erreichte die Habsburgermonarchie ihre größte Ausdehnung auf dem Balkan.","place":{"name":"Belgrad","lat":44.8176,"lon":20.4569}},
+    {"id":"karlskirche-bau","title":"Bau der Karlskirche","start":"1716","end":"1737","importance":4,"description":"Nach Plänen Johann Bernhard Fischer von Erlachs, vollendet von seinem Sohn.","place":{"name":"Karlskirche, Wien","lat":48.1982,"lon":16.3719}},
+    {"id":"erbfolgekrieg","title":"Österreichischer Erbfolgekrieg","start":"1740-12","end":"1748-10","importance":2,"description":"Preußen, Bayern und Frankreich bestritten Maria Theresias Erbe. Österreich behauptete sich, verlor aber Schlesien an Preußen.","place":{"name":"Schlesien","lat":50.8,"lon":17}},
+    {"id":"haugwitz-1749","title":"Haugwitzsche Staatsreform","start":"1749","importance":4,"description":"Trennung von Justiz und Verwaltung, Zentralisierung der Behörden – Beginn des modernen Beamtenstaats.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"siebenjaehriger-krieg-at","title":"Siebenjähriger Krieg","start":"1756-08","end":"1763-02-15","importance":3,"description":"Maria Theresias Versuch, Schlesien zurückzugewinnen, scheiterte; Sieg bei Kolin (1757).","place":{"name":"Böhmen / Sachsen","lat":50.5,"lon":14.5}},
+    {"id":"schulpflicht-1774","title":"Allgemeine Schulpflicht","start":"1774-12-06","importance":2,"description":"Die „Allgemeine Schulordnung“ Maria Theresias führte die sechsjährige Unterrichtspflicht ein.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"toleranzpatent-1781","title":"Toleranzpatent Josephs II.","start":"1781-10-13","importance":2,"description":"Gewährte Protestanten und Orthodoxen private Religionsausübung und bürgerliche Rechte; Juden folgten mit eigenen Toleranzpatenten.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"leibeigenschaft-1781","title":"Aufhebung der Leibeigenschaft","start":"1781-11-01","importance":3,"description":"Joseph II. hob die persönliche Leibeigenschaft in Böhmen und Mähren auf, später in weiteren Ländern.","place":{"name":"Böhmen","lat":50,"lon":14.5}},
+    {"id":"napoleon-wien-1805","title":"Napoleon besetzt Wien","start":"1805-11-13","importance":3,"description":"Erste französische Besetzung Wiens; kurz darauf Niederlage bei Austerlitz (2. Dezember 1805).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"kaisertum-1804","title":"Gründung des Kaisertums Österreich","start":"1804-08-11","importance":2,"description":"Franz II. nahm als Franz I. den Titel eines erblichen Kaisers von Österreich an.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"ende-hrr-1806","title":"Ende des Heiligen Römischen Reiches","start":"1806-08-06","importance":2,"description":"Franz II. legte die römisch-deutsche Kaiserkrone nieder; das über 800 Jahre alte Reich erlosch.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"aspern-1809","title":"Schlacht bei Aspern","start":"1809-05-21","end":"1809-05-22","importance":3,"description":"Erzherzog Karl brachte Napoleon die erste Niederlage in offener Feldschlacht bei; wenig später siegte Napoleon bei Wagram.","place":{"name":"Aspern, Wien","lat":48.2167,"lon":16.4833}},
+    {"id":"tiroler-aufstand-1809","title":"Tiroler Volksaufstand","start":"1809-04","end":"1809-11","importance":3,"description":"Andreas Hofer führte den Aufstand gegen die bayerische und französische Herrschaft; er wurde 1810 in Mantua hingerichtet.","place":{"name":"Bergisel, Innsbruck","lat":47.2475,"lon":11.4005}},
+    {"id":"wiener-kongress","title":"Wiener Kongress","start":"1814-09-18","end":"1815-06-09","importance":1,"description":"Neuordnung Europas nach den Napoleonischen Kriegen unter der Leitung Metternichs; Wien wurde zur Bühne der europäischen Diplomatie.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"maerzrevolution-1848","title":"Revolution 1848","start":"1848-03-13","end":"1848-10-31","importance":1,"description":"Erhebung von Studenten, Bürgern und Arbeitern: Sturz Metternichs, Aufhebung der Grunduntertänigkeit, erster Reichstag. Im Oktober wurde Wien militärisch zurückerobert.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"stadterweiterung-1857","title":"Abbruch der Stadtmauer und Bau der Ringstraße","short":"Ringstraße","start":"1857-12-20","importance":2,"description":"Franz Joseph ordnete die Schleifung der Basteien an; an ihrer Stelle entstand die Ringstraße mit ihren Prachtbauten.","place":{"name":"Ringstraße, Wien","lat":48.205,"lon":16.362}},
+    {"id":"koeniggraetz-1866","title":"Schlacht bei Königgrätz","start":"1866-07-03","importance":2,"description":"Niederlage gegen Preußen; Österreich schied aus dem Deutschen Bund aus.","place":{"name":"Königgrätz (Hradec Králové)","lat":50.2092,"lon":15.8328}},
+    {"id":"ausgleich-1867","title":"Österreichisch-Ungarischer Ausgleich","short":"Ausgleich 1867","start":"1867","importance":2,"description":"Umwandlung des Kaisertums in die Doppelmonarchie Österreich-Ungarn; im selben Jahr erhielt Österreich mit der Dezemberverfassung Grundrechte.","place":{"name":"Budapest","lat":47.4979,"lon":19.0402}},
+    {"id":"staatsoper-1869","title":"Eröffnung der Hofoper","start":"1869-05-25","importance":4,"description":"Erster großer Monumentalbau der Ringstraße, eröffnet mit Mozarts „Don Giovanni“.","place":{"name":"Staatsoper, Wien","lat":48.2031,"lon":16.3692}},
+    {"id":"weltausstellung-1873","title":"Weltausstellung und Börsenkrach","start":"1873-05-01","end":"1873-11-02","importance":3,"description":"Die Wiener Weltausstellung im Prater wurde vom Börsenkrach vom 9. Mai und einer Choleraepidemie überschattet.","place":{"name":"Prater, Wien","lat":48.2166,"lon":16.3958}},
+    {"id":"ringtheater-1881","title":"Ringtheaterbrand","start":"1881-12-08","importance":4,"description":"Brandkatastrophe mit Hunderten Toten; Anlass für die Gründung der Wiener Rettungsgesellschaft und strenge Theatervorschriften.","place":{"name":"Schottenring, Wien","lat":48.2148,"lon":16.3651}},
+    {"id":"mayerling-1889","title":"Tragödie von Mayerling","start":"1889-01-30","importance":3,"description":"Kronprinz Rudolf und Mary Vetsera starben im Jagdschloss Mayerling.","place":{"name":"Mayerling","lat":48.0464,"lon":16.0989}},
+    {"id":"gross-wien-1892","title":"Eingemeindung der Vororte","start":"1892-01-01","importance":4,"description":"Durch die Eingemeindung der Vororte wuchs Wien auf 19 Bezirke und über 1,3 Millionen Einwohner.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"secession-1897","title":"Gründung der Wiener Secession","start":"1897-04-03","importance":3,"description":"Junge Künstler um Gustav Klimt lösten sich vom Künstlerhaus: „Der Zeit ihre Kunst, der Kunst ihre Freiheit“.","place":{"name":"Secession, Wien","lat":48.2003,"lon":16.3658}},
+    {"id":"elisabeth-1898","title":"Ermordung Kaiserin Elisabeths","start":"1898-09-10","importance":3,"description":"Die Kaiserin wurde in Genf von einem italienischen Anarchisten erstochen.","place":{"name":"Genf","lat":46.2044,"lon":6.1432}},
+    {"id":"wahlrecht-1907","title":"Allgemeines Männerwahlrecht","start":"1907","importance":3,"description":"Erste Reichsratswahl nach dem allgemeinen und gleichen Wahlrecht für Männer.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"annexion-bosnien-1908","title":"Annexion Bosnien-Herzegowinas","start":"1908-10-06","importance":4,"description":"Die Annexion löste die Bosnische Krise aus und verschärfte die Spannungen mit Serbien und Russland.","place":{"name":"Sarajevo","lat":43.8563,"lon":18.4131}},
+    {"id":"sarajevo-1914","title":"Attentat von Sarajevo","start":"1914-06-28","importance":1,"description":"Ermordung des Thronfolgers Franz Ferdinand und seiner Frau Sophie; die Kriegserklärung an Serbien am 28. Juli löste den Ersten Weltkrieg aus.","place":{"name":"Sarajevo","lat":43.8563,"lon":18.4131}},
+    {"id":"republik-1918","title":"Ausrufung der Republik Deutschösterreich","short":"Republik 1918","start":"1918-11-12","importance":1,"description":"Nach dem Zerfall der Monarchie rief die Provisorische Nationalversammlung die Republik aus. Im selben Jahr wurde das Frauenwahlrecht eingeführt.","place":{"name":"Parlament, Wien","lat":48.2084,"lon":16.3583}},
+    {"id":"saint-germain-1919","title":"Vertrag von Saint-Germain","start":"1919-09-10","importance":2,"description":"Friedensvertrag der Siegermächte mit Österreich: Festlegung der Grenzen, Verbot des Anschlusses an Deutschland, Name „Republik Österreich“.","place":{"name":"Saint-Germain-en-Laye","lat":48.8989,"lon":2.0938}},
+    {"id":"bundesverfassung-1920","title":"Bundes-Verfassungsgesetz","short":"B-VG 1920","start":"1920-10-01","importance":3,"description":"Die von Hans Kelsen mitgestaltete Verfassung machte Österreich zum Bundesstaat; Wien wurde ein eigenes Bundesland.","place":{"name":"Parlament, Wien","lat":48.2084,"lon":16.3583}},
+    {"id":"marchfeld-1278","title":"Schlacht auf dem Marchfeld","start":"1278-08-26","importance":1,"description":"Rudolf I. besiegte bei Dürnkrut und Jedenspeigen König Ottokar II. von Böhmen, der fiel. Damit begann die 640-jährige Herrschaft der Habsburger in Österreich.","place":{"name":"Dürnkrut","lat":48.4733,"lon":16.85}},
+    {"id":"belehnung-1282","title":"Belehnung der Söhne Rudolfs","short":"Belehnung 1282","start":"1282-12-27","importance":2,"description":"Auf dem Augsburger Reichstag belehnte Rudolf I. seine Söhne Albrecht und Rudolf mit Österreich und der Steiermark.","place":{"name":"Augsburg","lat":48.3705,"lon":10.8978}},
+    {"id":"kaernten-krain-1335","title":"Kärnten und Krain an Habsburg","start":"1335-05-02","importance":3,"description":"Kaiser Ludwig der Bayer belehnte die Habsburger mit Kärnten und Krain.","place":{"name":"Klagenfurt","lat":46.6249,"lon":14.305}},
+    {"id":"pest-wien-1349","title":"Schwarzer Tod in Wien","start":"1349","importance":3,"description":"Die Pestwelle erreichte Wien; ein großer Teil der Bevölkerung starb.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"privilegium-maius","title":"Privilegium maius","start":"1358","importance":3,"description":"Rudolf IV. ließ eine Urkundenfälschung anfertigen, die Österreich Sonderrechte und den Titel „Erzherzog“ zusprach; Friedrich III. bestätigte sie 1453.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"stephansdom-1359","title":"Gotischer Neubau des Stephansdoms","short":"Stephansdom 1359","start":"1359-04-07","importance":2,"description":"Rudolf IV. legte den Grundstein für den Ausbau des Langhauses im gotischen Stil.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"tirol-1363","title":"Tirol kommt an Habsburg","start":"1363-01-26","importance":2,"description":"Margarete „Maultasch“ übergab Tirol an Rudolf IV.","place":{"name":"Bozen","lat":46.4983,"lon":11.3548}},
+    {"id":"neuberger-teilung-1379","title":"Neuberger Teilung","start":"1379-09-25","importance":3,"description":"Albrecht III. und Leopold III. teilten die habsburgischen Länder in eine Albertinische und eine Leopoldinische Linie.","place":{"name":"Neuberg an der Mürz","lat":47.6667,"lon":15.5833}},
+    {"id":"sempach-1386","title":"Schlacht bei Sempach","start":"1386-07-09","importance":3,"description":"Niederlage gegen die Eidgenossen; Herzog Leopold III. fiel. Habsburg verlor zunehmend seine Stammlande in der Schweiz.","place":{"name":"Sempach","lat":47.135,"lon":8.1922}},
+    {"id":"wiener-gesera-1421","title":"Wiener Gesera","start":"1420","end":"1421-03-12","importance":3,"description":"Unter Albrecht V. wurden die Wiener Juden vertrieben, enteignet und am 12. März 1421 über 200 von ihnen verbrannt.","place":{"name":"Judenplatz, Wien","lat":48.2116,"lon":16.3693}},
+    {"id":"steffl-1433","title":"Vollendung des Südturms („Steffl“)","short":"Steffl","start":"1433-10","importance":3,"description":"Mit 136 Metern einer der höchsten Kirchtürme seiner Zeit; Wahrzeichen Wiens.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"kaiserkroenung-1452","title":"Kaiserkrönung Friedrichs III.","start":"1452-03-19","importance":3,"description":"Letzte Kaiserkrönung in Rom; zugleich Heirat mit Eleonore von Portugal.","place":{"name":"Rom","lat":41.9022,"lon":12.4539}},
+    {"id":"bistum-wien-1469","title":"Wien wird Bistum","start":"1469-01-18","importance":3,"description":"Auf Betreiben Friedrichs III. wurde Wien (gemeinsam mit Wiener Neustadt) eigenes Bistum.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"burgundische-heirat-1477","title":"Burgundische Heirat","start":"1477-08-19","importance":2,"description":"Maximilian heiratete Maria von Burgund – Grundlage für den Aufstieg Habsburgs zur Weltmacht („Bella gerant alii, tu felix Austria nube“).","place":{"name":"Gent","lat":51.0543,"lon":3.7174}},
+    {"id":"corvinus-wien-1485","title":"Matthias Corvinus erobert Wien","short":"Corvinus in Wien","start":"1485-06-01","end":"1490-04-06","importance":2,"description":"Der ungarische König residierte bis zu seinem Tod 1490 in Wien; danach eroberte Maximilian die Stadt zurück.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"awarenkriege","title":"Awarenkriege Karls des Großen","start":"791","end":"796","importance":3,"description":"Die Franken zerschlugen das Reich der Awaren; im Donauraum entstand eine fränkische Grenzmark.","place":{"name":"Pannonien","lat":47.8,"lon":16.5}},
+    {"id":"erzbistum-salzburg-798","title":"Salzburg wird Erzbistum","start":"798-04-20","importance":2,"description":"Papst Leo III. erhob Salzburg auf Betreiben Karls des Großen zum Erzbistum für den bairischen Raum.","place":{"name":"Salzburg","lat":47.7981,"lon":13.0465}},
+    {"id":"pressburg-907","title":"Schlacht bei Pressburg","start":"907-07-04","importance":3,"description":"Schwere Niederlage des bairischen Heeres gegen die Ungarn; die karolingische Mark ging verloren.","place":{"name":"Pressburg (Bratislava)","lat":48.1486,"lon":17.1077}},
+    {"id":"lechfeld-955","title":"Schlacht auf dem Lechfeld","start":"955-08-10","importance":2,"description":"Otto I. besiegte die Ungarn; danach wurde die Mark an der Donau neu errichtet.","place":{"name":"Augsburg","lat":48.3705,"lon":10.8978}},
+    {"id":"kaernten-976","title":"Kärnten wird eigenes Herzogtum","start":"976","importance":3,"description":"Kärnten wurde von Bayern getrennt – das älteste Herzogtum auf österreichischem Boden.","place":{"name":"Karnburg","lat":46.6667,"lon":14.3333}},
+    {"id":"babenberger-976","title":"Babenberger erhalten die Mark","start":"976-07-21","importance":2,"description":"Otto II. belehnte Leopold I. mit der Mark an der Donau.","place":{"name":"Melk","lat":48.228,"lon":15.3317}},
+    {"id":"ostarrichi-996","title":"Ostarrichi-Urkunde","short":"Ostarrichi 996","start":"996-11-01","importance":1,"description":"Otto III. schenkte dem Bistum Freising Land in Neuhofen an der Ybbs „in der Gegend, die im Volksmund Ostarrichi heißt“ – die erste Nennung des Namens Österreich.","place":{"name":"Neuhofen an der Ybbs","lat":48.05,"lon":14.8667}},
+    {"id":"gurk-dom","title":"Bau des Gurker Doms","start":"~1140","end":"~1200","importance":4,"description":"Eine der bedeutendsten romanischen Kirchen Österreichs.","place":{"name":"Gurk","lat":46.875,"lon":14.2917}},
+    {"id":"klosterneuburg-1114","title":"Gründung des Stifts Klosterneuburg","start":"1114-06-12","importance":3,"description":"Leopold III. legte den Grundstein; Klosterneuburg wurde seine Residenz.","place":{"name":"Stift Klosterneuburg","lat":48.3053,"lon":16.3256}},
+    {"id":"heiligenkreuz-1133","title":"Gründung des Stifts Heiligenkreuz","start":"1133","importance":4,"description":"Zisterzienserabtei im Wienerwald, bis heute besteht dort ununterbrochen klösterliches Leben.","place":{"name":"Stift Heiligenkreuz","lat":48.0553,"lon":16.1306}},
+    {"id":"stephansdom-1147","title":"Weihe der ersten Stephanskirche","start":"1147","importance":3,"description":"Die romanische Vorgängerkirche des Stephansdoms wurde geweiht; erhalten ist das Riesentor (um 1240).","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731}},
+    {"id":"privilegium-minus-1156","title":"Privilegium minus","short":"Privilegium minus","start":"1156-09-17","importance":1,"description":"Friedrich Barbarossa erhob die Mark Österreich zum Herzogtum mit besonderen Rechten; Heinrich Jasomirgott machte Wien zur Residenz.","place":{"name":"Regensburg","lat":49.0134,"lon":12.1016}},
+    {"id":"georgenberger-handfeste-1186","title":"Georgenberger Handfeste","start":"1186-08-17","importance":3,"description":"Erbvertrag: Die Steiermark fiel 1192 an die Babenberger.","place":{"name":"Enns","lat":48.2125,"lon":14.4756}},
+    {"id":"loewenherz-1192","title":"Gefangennahme Richard Löwenherz’","short":"Richard Löwenherz","start":"1192-12-21","importance":2,"description":"Der englische König wurde bei Wien gefangen und in Dürnstein festgehalten; mit dem Lösegeld wurden Wiens Stadtmauer und Wiener Neustadt finanziert.","place":{"name":"Dürnstein","lat":48.3956,"lon":15.5194}},
+    {"id":"wiener-neustadt-1194","title":"Gründung von Wiener Neustadt","start":"1194","importance":3,"description":"Grenzfestung gegen Ungarn, finanziert aus dem Lösegeld für Richard Löwenherz.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246}},
+    {"id":"wiener-stadtrecht-1221","title":"Wiener Stadtrecht","start":"1221-10-18","importance":3,"description":"Leopold VI. verlieh Wien das Stadtrecht und das Stapelrecht.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"mongolen-1241","title":"Mongolen an der österreichischen Grenze","start":"1241","end":"1242","importance":4,"description":"Nach der Schlacht bei Liegnitz und dem Sieg über Ungarn streiften mongolische Verbände bis in die Gegend von Wiener Neustadt.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246}},
+    {"id":"leitha-1246","title":"Schlacht an der Leitha","short":"Ende der Babenberger","start":"1246-06-15","importance":2,"description":"Herzog Friedrich II. fiel – das Geschlecht der Babenberger erlosch. Es folgten Jahre der Herrenlosigkeit bis zu Ottokar II.","place":{"name":"Leitha","lat":47.9,"lon":16.6}},
+    {"id":"festspiele-1920","title":"Erste Salzburger Festspiele","start":"1920-08-22","importance":3,"description":"Mit Hofmannsthals „Jedermann“ auf dem Domplatz begannen die Festspiele (gegründet mit Max Reinhardt und Richard Strauss).","place":{"name":"Domplatz, Salzburg","lat":47.7979,"lon":13.0469}},
+    {"id":"genfer-sanierung-1922","title":"Genfer Sanierung","start":"1922-10-04","importance":4,"description":"Völkerbundanleihe gegen die Hyperinflation; 1925 folgte der Schilling.","place":{"name":"Genf","lat":46.2044,"lon":6.1432}},
+    {"id":"justizpalast-1927","title":"Justizpalastbrand","start":"1927-07-15","importance":2,"description":"Nach einem Fehlurteil (Schattendorf) eskalierte eine Demonstration; die Polizei schoss, 89 Menschen starben.","place":{"name":"Justizpalast, Wien","lat":48.2071,"lon":16.357}},
+    {"id":"karl-marx-hof-1930","title":"Karl-Marx-Hof","start":"1930-10-12","importance":3,"description":"Symbolbau des „Roten Wien“ und seines kommunalen Wohnbaus.","place":{"name":"Karl-Marx-Hof, Wien","lat":48.2492,"lon":16.3653}},
+    {"id":"creditanstalt-1931","title":"Zusammenbruch der Creditanstalt","start":"1931-05-11","importance":3,"description":"Der Bankenkrach verschärfte die Weltwirtschaftskrise in Europa.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"februarkaempfe-1934","title":"Februarkämpfe (Bürgerkrieg)","short":"Februar 1934","start":"1934-02-12","end":"1934-02-15","importance":2,"description":"Bewaffneter Aufstand des Republikanischen Schutzbundes gegen die Regierung Dollfuß; die Sozialdemokratie wurde verboten.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"staendestaat","title":"Ständestaat (Austrofaschismus)","short":"Ständestaat","start":"1934-05-01","end":"1938-03-12","importance":3,"description":"Autoritäres Regime mit der Maiverfassung 1934 bis zum Anschluss.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"juliputsch-1934","title":"Juliputsch","start":"1934-07-25","importance":3,"description":"Nationalsozialisten ermordeten Bundeskanzler Dollfuß; der Putsch scheiterte.","place":{"name":"Ballhausplatz, Wien","lat":48.2094,"lon":16.3637}},
+    {"id":"anschluss-1938","title":"Anschluss an das Deutsche Reich","short":"Anschluss 1938","start":"1938-03-12","importance":1,"description":"Einmarsch der Wehrmacht; Österreich hörte als Staat auf zu bestehen. Sofort setzten Verfolgung, Vertreibung und Beraubung der Juden und politischen Gegner ein.","place":{"name":"Heldenplatz, Wien","lat":48.2063,"lon":16.3626}},
+    {"id":"novemberpogrom-1938","title":"Novemberpogrom in Wien","start":"1938-11-09","end":"1938-11-10","importance":2,"description":"Fast alle Wiener Synagogen wurden zerstört, Tausende Juden verhaftet; über 65.000 österreichische Jüdinnen und Juden wurden in der Shoah ermordet.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"befreiung-wiens-1945","title":"Befreiung Wiens","start":"1945-04-13","importance":2,"description":"Die Rote Armee befreite Wien; am 27. April wurde die Unabhängigkeit Österreichs proklamiert (Zweite Republik).","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"besatzungszeit","title":"Besatzungszeit","start":"1945-04","end":"1955-10-25","importance":3,"description":"Österreich und Wien waren in vier Besatzungszonen geteilt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"staatsvertrag-1955","title":"Staatsvertrag","short":"Staatsvertrag 1955","start":"1955-05-15","importance":1,"description":"Im Belvedere unterzeichnet; Österreich erlangte seine volle Souveränität („Österreich ist frei!“).","place":{"name":"Belvedere, Wien","lat":48.1915,"lon":16.3809}},
+    {"id":"neutralitaet-1955","title":"Immerwährende Neutralität","short":"Neutralität","start":"1955-10-26","importance":2,"description":"Der Nationalrat beschloss das Neutralitätsgesetz; der 26. Oktober ist Nationalfeiertag.","place":{"name":"Parlament, Wien","lat":48.2084,"lon":16.3583}},
+    {"id":"ungarnaufstand-1956","title":"Flüchtlinge aus Ungarn","start":"1956-11","importance":3,"description":"Nach der Niederschlagung des Ungarnaufstands flohen rund 180.000 Menschen nach Österreich.","place":{"name":"Andau","lat":47.7742,"lon":17.0331}},
+    {"id":"gipfel-1961","title":"Gipfeltreffen Kennedy–Chruschtschow","short":"Wiener Gipfel 1961","start":"1961-06-03","end":"1961-06-04","importance":3,"description":"Treffen der Supermächte in Wien.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"zwentendorf-1978","title":"Volksabstimmung Zwentendorf","start":"1978-11-05","importance":3,"description":"Knappe Mehrheit gegen die Inbetriebnahme des fertigen Atomkraftwerks.","place":{"name":"Zwentendorf","lat":48.3519,"lon":15.8833}},
+    {"id":"uno-city-1979","title":"UNO-City","start":"1979-08-23","importance":4,"description":"Wien wurde dritter Amtssitz der Vereinten Nationen.","place":{"name":"Vienna International Centre","lat":48.2349,"lon":16.416}},
+    {"id":"hainburg-1984","title":"Besetzung der Hainburger Au","start":"1984-12","importance":3,"description":"Proteste verhinderten ein Donaukraftwerk; Geburtsstunde der Umweltbewegung und später des Nationalparks Donau-Auen.","place":{"name":"Hainburg","lat":48.1478,"lon":16.9431}},
+    {"id":"waldheim-1986","title":"Waldheim-Affäre","start":"1986","importance":3,"description":"Die Debatte um Kurt Waldheims Kriegsvergangenheit führte zur Auseinandersetzung mit Österreichs Rolle im Nationalsozialismus.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"eiserner-vorhang-1989","title":"Durchschneiden des Eisernen Vorhangs","short":"Eiserner Vorhang","start":"1989-06-27","importance":3,"description":"Die Außenminister Mock und Horn durchtrennten bei Klingenbach den Grenzzaun zu Ungarn.","place":{"name":"Klingenbach","lat":47.75,"lon":16.5333}},
+    {"id":"eu-beitritt-1995","title":"EU-Beitritt","start":"1995-01-01","importance":2,"description":"Nach einer Volksabstimmung (66,6 % Ja) trat Österreich der Europäischen Union bei.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"euro-2002","title":"Einführung des Euro-Bargelds","start":"2002-01-01","importance":3,"description":"Der Euro ersetzte den Schilling.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"fluechtlinge-2015","title":"Fluchtbewegung 2015","start":"2015-09","importance":4,"description":"Zehntausende Flüchtlinge kamen über Ungarn nach Österreich.","place":{"name":"Nickelsdorf","lat":47.9389,"lon":17.0681}},
+    {"id":"ibiza-2019","title":"Ibiza-Affäre","start":"2019-05-17","importance":4,"description":"Ein heimlich gefilmtes Video führte zum Ende der Regierung und zur ersten Expertenregierung.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"covid-2020","title":"Erster COVID-19-Lockdown","start":"2020-03-16","importance":3,"description":"Weitgehende Ausgangsbeschränkungen zur Eindämmung der Pandemie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"terroranschlag-2020","title":"Terroranschlag in Wien","start":"2020-11-02","importance":4,"description":"Ein islamistischer Attentäter tötete in der Innenstadt vier Menschen.","place":{"name":"Seitenstettengasse, Wien","lat":48.2115,"lon":16.3745}}
   ]
 }

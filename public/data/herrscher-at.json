@@ -1,428 +1,70 @@
 {
   "category": "herrscher-at",
   "items": [
-    {
-      "id": "maximilian-i-at", "title": "Maximilian I.", "start": "1493-08-19", "end": "1519-01-12", "importance": 1, "life": { "start": "1459-03-22", "end": "1519-01-12" },
-      "description": "Vereinigte nach dem Tod seines Vaters Friedrich III. alle habsburgischen Erbländer (Tirol bereits seit 1490).",
-      "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer", "Titel": "Erzherzog von Österreich" }
-    },
-    {
-      "id": "karl-v-at", "title": "Karl V.", "start": "1519-01-12", "end": "1521-04-28", "importance": 3, "life": { "start": "1500-02-24", "end": "1558-09-21" },
-      "description": "Erbte die österreichischen Länder und überließ sie im Wormser Vertrag (1521) und im Brüsseler Vertrag (1522) seinem Bruder Ferdinand.",
-      "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer" }
-    },
-    {
-      "id": "ferdinand-i-at", "title": "Ferdinand I.", "start": "1521-04-28", "end": "1564-07-25", "importance": 1, "life": { "start": "1503-03-10", "end": "1564-07-25" },
-      "description": "Landesfürst der österreichischen Erbländer, ab 1526 auch König von Böhmen und Ungarn. Verlegte die Residenz nach Wien und teilte testamentarisch die Länder unter seinen drei Söhnen auf.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "alle österreichischen Erbländer; ab 1526 Böhmen und Ungarn" }
-    },
-    {
-      "id": "maximilian-ii-at", "title": "Maximilian II. (Österreich ob u. unter der Enns)", "short": "Maximilian II.", "start": "1564-07-25", "end": "1576-10-12", "importance": 2, "life": { "start": "1527-07-31", "end": "1576-10-12" },
-      "description": "Erhielt bei der Länderteilung 1564 Österreich ob und unter der Enns (Ober- und Niederösterreich) sowie Böhmen und Ungarn.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Böhmen, Ungarn" }
-    },
-    {
-      "id": "ferdinand-ii-tirol", "title": "Ferdinand II. (Tirol)", "start": "1564-07-25", "end": "1595-01-24", "importance": 2, "life": { "start": "1529-06-14", "end": "1595-01-24" },
-      "description": "Erhielt 1564 Tirol und die Vorlande. Residierte in Innsbruck und auf Schloss Ambras, wo er eine berühmte Kunst- und Wunderkammer anlegte; verheiratet mit Philippine Welser.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich", "Geboren": "14. Juni 1529, Linz", "Gestorben": "24. Jänner 1595, Innsbruck" }
-    },
-    {
-      "id": "karl-ii-innerosterreich", "title": "Karl II. (Innerösterreich)", "start": "1564-07-25", "end": "1590-07-10", "importance": 2, "life": { "start": "1540-06-03", "end": "1590-07-10" },
-      "description": "Erhielt 1564 Innerösterreich mit Residenz Graz. Gründete 1585 die Universität Graz und förderte die Gegenreformation.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
-      "attributes": { "Herrschaftsgebiet": "Steiermark, Kärnten, Krain, Görz, Triest", "Geboren": "3. Juni 1540, Wien", "Gestorben": "10. Juli 1590, Graz" }
-    },
-    {
-      "id": "rudolf-ii-at", "title": "Rudolf II. (Österreich ob u. unter der Enns)", "short": "Rudolf II.", "start": "1576-10-12", "end": "1608-06-25", "importance": 2, "life": { "start": "1552-07-18", "end": "1612-01-20" },
-      "description": "Folgte seinem Vater in Ober- und Niederösterreich. Musste die Länder 1608 im Vertrag von Lieben an seinen Bruder Matthias abtreten.",
-      "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Böhmen, Ungarn" }
-    },
-    {
-      "id": "ferdinand-innerosterreich", "title": "Ferdinand (Innerösterreich)", "start": "1590-07-10", "end": "1619-03-20", "importance": 3, "life": { "start": "1578-07-09", "end": "1637-02-15" },
-      "description": "Sohn Karls II., der spätere Kaiser Ferdinand II.; bis 1596 unter Vormundschaft. Setzte ab 1598 die Gegenreformation in Innerösterreich konsequent durch. Das Enddatum markiert seine Nachfolge in den Gesamtländern 1619.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
-      "attributes": { "Herrschaftsgebiet": "Innerösterreich", "Geboren": "9. Juli 1578, Graz" }
-    },
-    {
-      "id": "maximilian-iii-tirol", "title": "Maximilian III. (Tirol)", "short": "Maximilian III.", "start": "1602", "end": "1618-11-02", "importance": 4, "life": { "start": "1558-10-12", "end": "1618-11-02" },
-      "description": "Der „Deutschmeister“ verwaltete Tirol und die Vorlande als Regent für das Haus Habsburg.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
-    },
-    {
-      "id": "matthias-at", "title": "Matthias", "start": "1608-06-25", "end": "1619-03-20", "importance": 3, "life": { "start": "1557-02-24", "end": "1619-03-20" },
-      "description": "Übernahm im Vertrag von Lieben (1608) von seinem Bruder Rudolf II. Österreich, Ungarn und Mähren.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "Nieder- und Oberösterreich, Ungarn, Mähren; ab 1611 Böhmen" }
-    },
-    {
-      "id": "ferdinand-ii-at", "title": "Ferdinand II.", "start": "1619-03-20", "end": "1637-02-15", "importance": 2, "life": { "start": "1578-07-09", "end": "1637-02-15" },
-      "description": "Vereinigte nach dem Tod des Matthias die österreichischen Länder wieder in einer Hand und setzte die Gegenreformation durch.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "alle österreichischen Länder (Tirol ab 1626 an Leopold V.)" }
-    },
-    {
-      "id": "leopold-v-tirol", "title": "Leopold V. (Tirol)", "short": "Leopold V.", "start": "1619", "end": "1632-09-13", "importance": 3, "life": { "start": "1586-10-09", "end": "1632-09-13" },
-      "description": "Bruder Ferdinands II.; ab 1619 Statthalter, ab 1626 Landesfürst von Tirol und den Vorlanden. Begründer der jüngeren Tiroler Linie.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
-    },
-    {
-      "id": "claudia-de-medici", "title": "Claudia de’ Medici (Tirol)", "short": "Claudia de’ Medici", "start": "1632-09-13", "end": "1646", "importance": 3, "life": { "start": "1604-06-04", "end": "1648-12-25" },
-      "description": "Witwe Leopolds V.; regierte Tirol als Vormünderin ihres Sohnes und hielt das Land weitgehend aus dem Dreißigjährigen Krieg heraus.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
-    },
-    {
-      "id": "ferdinand-iii-at", "title": "Ferdinand III.", "start": "1637-02-15", "end": "1657-04-02", "importance": 2, "life": { "start": "1608-07-13", "end": "1657-04-02" },
-      "description": "Landesfürst der österreichischen Länder (ohne Tirol) während der letzten Phase des Dreißigjährigen Krieges.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "österreichische Länder ohne Tirol, Böhmen, Ungarn" }
-    },
-    {
-      "id": "ferdinand-karl-tirol", "title": "Ferdinand Karl (Tirol)", "short": "Ferdinand Karl", "start": "1646", "end": "1662-12-30", "importance": 4, "life": { "start": "1628-05-17", "end": "1662-12-30" },
-      "description": "Sohn Leopolds V.; förderte in Innsbruck Oper und Theater (Comödihaus).",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
-    },
-    {
-      "id": "sigismund-franz-tirol", "title": "Sigismund Franz (Tirol)", "short": "Sigismund Franz", "start": "1662-12-30", "end": "1665-06-25", "importance": 5, "life": { "start": "1630-11-27", "end": "1665-06-25" },
-      "description": "Letzter Landesfürst der Tiroler Linie; mit seinem Tod fiel Tirol an Leopold I.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Herrschaftsgebiet": "Tirol, Vorderösterreich" }
-    },
-    {
-      "id": "leopold-i-at", "title": "Leopold I.", "start": "1657-04-02", "end": "1705-05-05", "importance": 1, "life": { "start": "1640-06-09", "end": "1705-05-05" },
-      "description": "Ab 1665 wieder Herr aller österreichischen Länder. Nach dem Sieg von 1683 und dem Großen Türkenkrieg kam ganz Ungarn an die Habsburger.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "österreichische Länder (Tirol ab 1665), Böhmen, Ungarn" }
-    },
-    {
-      "id": "joseph-i-at", "title": "Joseph I.", "start": "1705-05-05", "end": "1711-04-17", "importance": 3, "life": { "start": "1678-07-26", "end": "1711-04-17" },
-      "description": "Kurze Regierungszeit, geprägt vom Spanischen Erbfolgekrieg und dem Kuruzzenaufstand in Ungarn.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn" }
-    },
-    {
-      "id": "karl-vi-at", "title": "Karl VI.", "start": "1711-04-17", "end": "1740-10-20", "importance": 2, "life": { "start": "1685-10-01", "end": "1740-10-20" },
-      "description": "Erließ 1713 die Pragmatische Sanktion über die Unteilbarkeit der habsburgischen Länder und die weibliche Erbfolge.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Herrschaftsgebiet": "österreichische Länder, Böhmen, Ungarn, ab 1714 Spanische Niederlande, Mailand, Neapel" }
-    },
-    {
-      "id": "maria-theresia", "title": "Maria Theresia", "start": "1740-10-20", "end": "1780-11-29", "importance": 1,
-      "life": {"start": "1717-05-13", "end": "1780-11-29"},
-      "description": "Erbte dank der Pragmatischen Sanktion die habsburgischen Länder und verteidigte sie im Österreichischen Erbfolgekrieg. Ihre Reformen in Verwaltung, Heer und Schulwesen (Schulpflicht 1774) begründeten den modernen Staat.",
-      "place": { "name": "Schönbrunn, Wien", "lat": 48.1845, "lon": 16.3122 },
-      "attributes": { "Titel": "Erzherzogin von Österreich, Königin von Ungarn und Böhmen" }
-    },
-    {
-      "id": "joseph-ii-at", "title": "Joseph II.", "start": "1780-11-29", "end": "1790-02-20", "importance": 1,
-      "life": {"start": "1741-03-13", "end": "1790-02-20"},
-      "description": "Als Alleinherrscher erließ er Toleranzpatent, Aufhebung der Leibeigenschaft, Klosteraufhebungen und gründete das Allgemeine Krankenhaus – viele Reformen scheiterten am Widerstand.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Mitregent": "ab 1765" }
-    },
-    {
-      "id": "leopold-ii-at", "title": "Leopold II.", "start": "1790-02-20", "end": "1792-03-01", "importance": 3,
-      "life": {"start": "1747-05-05", "end": "1792-03-01"},
-      "description": "Beruhigte die nach Josephs Reformen aufgewühlten Länder durch Zugeständnisse an Stände und Ungarn.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 }
-    },
-    {
-      "id": "franz-ii-i-at", "title": "Franz II./I.", "start": "1792-03-01", "end": "1835-03-02", "importance": 1,
-      "life": {"start": "1768-02-12", "end": "1835-03-02"},
-      "description": "Ab 1804 als Franz I. erster Kaiser von Österreich. Prägte mit Staatskanzler Metternich nach dem Wiener Kongress das restaurative „System Metternich“ des Vormärz.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Titel": "ab 1804 Kaiser von Österreich" }
-    },
-    {
-      "id": "ferdinand-i-oesterreich", "title": "Ferdinand I. (Kaiser)", "short": "Ferdinand I.", "start": "1835-03-02", "end": "1848-12-02", "importance": 3,
-      "life": {"start": "1793-04-19", "end": "1875-06-29"},
-      "description": "„Der Gütige“; wegen Krankheit regierte faktisch die Staatskonferenz. Dankte im Revolutionsjahr 1848 zugunsten seines Neffen Franz Joseph ab.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Titel": "Kaiser von Österreich" }
-    },
-    {
-      "id": "franz-joseph-i", "title": "Franz Joseph I.", "start": "1848-12-02", "end": "1916-11-21", "importance": 1,
-      "life": {"start": "1830-08-18", "end": "1916-11-21"},
-      "description": "Fast 68 Jahre Kaiser: Neoabsolutismus, Ausgleich mit Ungarn (1867), Ringstraßenzeit und Gründerzeit, schließlich der Erste Weltkrieg. Verheiratet mit Elisabeth („Sisi“).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Titel": "Kaiser von Österreich, ab 1867 auch König von Ungarn (Österreich-Ungarn)" }
-    },
-    {
-      "id": "karl-i-oesterreich", "title": "Karl I. (Kaiser)", "short": "Karl I.", "start": "1916-11-21", "end": "1918-11-11", "importance": 2,
-      "life": {"start": "1887-08-17", "end": "1922-04-01"},
-      "description": "Letzter Kaiser von Österreich; bemühte sich vergeblich um einen Sonderfrieden. Verzichtete am 11. November 1918 auf jeden Anteil an den Staatsgeschäften.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Titel": "Kaiser von Österreich, König von Ungarn" }
-    },
-    {
-      "id": "karl-seitz-staatsoberhaupt", "title": "Karl Seitz (Staatsoberhaupt)", "short": "Karl Seitz", "start": "1919-03-05", "end": "1920-12-09", "importance": 3,
-      "life": {"start": "1869-09-04", "end": "1950-02-03"},
-      "description": "Als Präsident der Konstituierenden Nationalversammlung Staatsoberhaupt der jungen Republik Deutschösterreich; später Bürgermeister von Wien.",
-      "place": { "name": "Parlament, Wien", "lat": 48.2084, "lon": 16.3583 },
-      "attributes": { "Partei": "Sozialdemokratische Arbeiterpartei" }
-    },
-    {
-      "id": "michael-hainisch", "title": "Michael Hainisch", "start": "1920-12-09", "end": "1928-12-10", "importance": 3,
-      "life": {"start": "1858-08-15", "end": "1940-02-26"},
-      "description": "Erster Bundespräsident der Republik Österreich (parteilos).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "ottokar-ii", "title": "Ottokar II. Přemysl", "short": "Ottokar II.", "start": "1251", "end": "1276-11", "importance": 3,
-      "life": {"start": "~1232", "end": "1278-08-26"},
-      "description": "König von Böhmen; herrschte nach dem Aussterben der Babenberger über Österreich und die Steiermark. Fiel 1278 in der Schlacht auf dem Marchfeld gegen Rudolf I.",
-      "place": { "name": "Prag", "lat": 50.091, "lon": 14.4016 },
-      "attributes": { "Dynastie": "Přemysliden" }
-    },
-    {
-      "id": "rudolf-i-at", "title": "Rudolf I.", "start": "1276-11", "end": "1282-12-27", "importance": 2,
-      "life": {"start": "1218-05-01", "end": "1291-07-15"},
-      "description": "Übernahm nach dem Sieg über Ottokar die österreichischen Länder und belehnte 1282 seine Söhne – Beginn der habsburgischen Herrschaft in Österreich.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "albrecht-i-at", "title": "Albrecht I.", "start": "1282-12-27", "end": "1308-05-01", "importance": 2,
-      "life": {"start": "1255-07", "end": "1308-05-01"},
-      "description": "Erster habsburgischer Herzog von Österreich und Steiermark; setzte sich gegen Adel und Wiener Bürger durch.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "friedrich-der-schoene-at", "title": "Friedrich der Schöne", "start": "1308-05-01", "end": "1330-01-13", "importance": 3,
-      "life": {"start": "1289", "end": "1330-01-13"},
-      "description": "Herzog von Österreich, gemeinsam mit seinem Bruder Leopold I.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "albrecht-ii-at", "title": "Albrecht II. der Weise", "short": "Albrecht II.", "start": "1330-01-13", "end": "1358-07-20", "importance": 3,
-      "life": {"start": "1298-12-12", "end": "1358-07-20"},
-      "description": "Erwarb 1335 Kärnten und Krain; trotz Lähmung ein umsichtiger Landesherr.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "rudolf-iv", "title": "Rudolf IV. der Stifter", "short": "Rudolf IV.", "start": "1358-07-20", "end": "1365-07-27", "importance": 1,
-      "life": {"start": "1339-11-01", "end": "1365-07-27"},
-      "description": "Gründete die Universität Wien (1365), begann den gotischen Ausbau des Stephansdoms und ließ das Privilegium maius fälschen. Erwarb 1363 Tirol.",
-      "place": { "name": "Stephansdom, Wien", "lat": 48.2085, "lon": 16.3731 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "albrecht-iii", "title": "Albrecht III.", "start": "1365-07-27", "end": "1395-08-29", "importance": 3,
-      "life": {"start": "~1349", "end": "1395-08-29"},
-      "description": "Teilte 1379 im Neuberger Vertrag die Länder mit seinem Bruder Leopold III.; erhielt Österreich (Albertinische Linie).",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "ab 1379 Österreich ob und unter der Enns" }
-    },
-    {
-      "id": "leopold-iii", "title": "Leopold III.", "start": "1365-07-27", "end": "1386-07-09", "importance": 3,
-      "life": {"start": "1351-11-01", "end": "1386-07-09"},
-      "description": "Erhielt 1379 Steiermark, Kärnten, Krain, Tirol und die Vorlande (Leopoldinische Linie); fiel in der Schlacht bei Sempach gegen die Eidgenossen.",
-      "place": { "name": "Sempach", "lat": 47.135, "lon": 8.1922 },
-      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "ab 1379 Inner- und Vorderösterreich, Tirol" }
-    },
-    {
-      "id": "albrecht-iv", "title": "Albrecht IV.", "start": "1395-08-29", "end": "1404-09-14", "importance": 4,
-      "life": {"start": "1377-09-19", "end": "1404-09-14"},
-      "description": "Sohn Albrechts III.; starb früh, sein Sohn Albrecht V. war beim Tod erst sieben Jahre alt.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "ernst-der-eiserne", "title": "Ernst der Eiserne", "short": "Ernst", "start": "1406", "end": "1424-06-10", "importance": 4,
-      "life": {"start": "1377", "end": "1424-06-10"},
-      "description": "Herzog von Innerösterreich; Vater Friedrichs III.",
-      "place": { "name": "Graz", "lat": 47.0707, "lon": 15.4395 },
-      "attributes": { "Dynastie": "Habsburg", "Herrschaftsgebiet": "Steiermark, Kärnten, Krain" }
-    },
-    {
-      "id": "friedrich-iv-tirol", "title": "Friedrich IV. (Tirol)", "short": "Friedrich IV.", "start": "1406", "end": "1439-06-24", "importance": 3,
-      "life": {"start": "1382", "end": "1439-06-24"},
-      "description": "„Friedl mit der leeren Tasche“; verlor nach seiner Parteinahme für den Gegenpapst zeitweise seine Länder, festigte dann aber die Landesherrschaft in Tirol.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "albrecht-v", "title": "Albrecht V.", "start": "1404-09-14", "end": "1439-10-27", "importance": 2,
-      "life": {"start": "1397-08-10", "end": "1439-10-27"},
-      "description": "Herzog von Österreich, ab 1438 als Albrecht II. römisch-deutscher König sowie König von Ungarn und Böhmen.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "ladislaus-postumus", "title": "Ladislaus Postumus", "short": "Ladislaus", "start": "1440-02-22", "end": "1457-11-23", "importance": 4,
-      "life": {"start": "1440-02-22", "end": "1457-11-23"},
-      "description": "Nach dem Tod seines Vaters Albrecht V. geboren; stand bis 1452 unter der Vormundschaft Friedrichs III. Mit ihm erlosch die Albertinische Linie.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "sigmund-tirol", "title": "Sigmund der Münzreiche (Tirol)", "short": "Sigmund der Münzreiche", "start": "1446", "end": "1490-03-16", "importance": 3,
-      "life": {"start": "1427-10-26", "end": "1496-03-04"},
-      "description": "Ließ in Hall die ersten großen Silbermünzen prägen; trat Tirol 1490 an Maximilian I. ab.",
-      "place": { "name": "Innsbruck", "lat": 47.2692, "lon": 11.4041 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "friedrich-iii-at", "title": "Friedrich III. (V.)", "short": "Friedrich III.", "start": "1424-06-10", "end": "1493-08-19", "importance": 2,
-      "life": {"start": "1415-09-21", "end": "1493-08-19"},
-      "description": "Als Herzog Friedrich V. Herr Innerösterreichs, nach 1457 und 1463 auch Österreichs; residierte vor allem in Wiener Neustadt und Graz.",
-      "place": { "name": "Wiener Neustadt", "lat": 47.815, "lon": 16.246 },
-      "attributes": { "Dynastie": "Habsburg" }
-    },
-    {
-      "id": "leopold-i-babenberg", "title": "Leopold I. (Markgraf)", "short": "Leopold I.", "start": "976-07-21", "end": "994-07-10", "importance": 2,
-      "description": "Erster Babenberger; von Otto II. mit der Mark an der Donau belehnt. Residenz vermutlich in Melk.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "heinrich-i-babenberg", "title": "Heinrich I. (Markgraf)", "short": "Heinrich I.", "start": "994-07-10", "end": "1018-06-23", "importance": 4,
-      "description": "Sohn Leopolds I.; unter ihm fiel 996 die erste Nennung „Ostarrichi“.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "adalbert-babenberg", "title": "Adalbert der Siegreiche", "short": "Adalbert", "start": "1018", "end": "1055-05-26", "importance": 4,
-      "description": "Dehnte die Mark nach Osten bis an March und Leitha aus.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "ernst-babenberg", "title": "Ernst der Tapfere", "short": "Ernst", "start": "1055", "end": "1075-06-09", "importance": 5,
-      "description": "Fiel im Kampf gegen die Sachsen an der Unstrut.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "leopold-ii-babenberg", "title": "Leopold II. der Schöne", "short": "Leopold II.", "start": "1075-06-09", "end": "1095-10-12", "importance": 4,
-      "description": "Stellte sich im Investiturstreit auf die Seite des Papstes.",
-      "place": { "name": "Melk", "lat": 48.228, "lon": 15.3317 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "leopold-iii-babenberg", "title": "Leopold III. der Heilige", "short": "Leopold III.", "start": "1095-10-12", "end": "1136-11-15", "importance": 2,
-      "life": {"start": "1073", "end": "1136-11-15"},
-      "description": "Gründete die Stifte Klosterneuburg und Heiligenkreuz; 1485 heiliggesprochen, Landespatron von Niederösterreich und Wien.",
-      "place": { "name": "Stift Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "leopold-iv-babenberg", "title": "Leopold IV.", "start": "1136-11-15", "end": "1141-10-18", "importance": 5,
-      "description": "Erhielt zusätzlich das Herzogtum Bayern.",
-      "place": { "name": "Klosterneuburg", "lat": 48.3053, "lon": 16.3256 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "heinrich-jasomirgott", "title": "Heinrich II. Jasomirgott", "short": "Jasomirgott", "start": "1141-10-18", "end": "1177-01-13", "importance": 2,
-      "life": {"start": "~1112", "end": "1177-01-13"},
-      "description": "Erster Herzog von Österreich (Privilegium minus 1156); verlegte die Residenz nach Wien (Am Hof) und gründete das Schottenstift.",
-      "place": { "name": "Am Hof, Wien", "lat": 48.2106, "lon": 16.3677 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "leopold-v-babenberg", "title": "Leopold V. der Tugendhafte", "short": "Leopold V.", "start": "1177-01-13", "end": "1194-12-31", "importance": 3,
-      "life": {"start": "1157", "end": "1194-12-31"},
-      "description": "Nahm 1192 Richard Löwenherz gefangen; erwarb 1192 die Steiermark (Georgenberger Handfeste).",
-      "place": { "name": "Dürnstein", "lat": 48.3956, "lon": 15.5194 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "friedrich-i-babenberg", "title": "Friedrich I. der Katholische", "short": "Friedrich I.", "start": "1194-12-31", "end": "1198-04-16", "importance": 5,
-      "description": "Starb auf dem Kreuzzug.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "leopold-vi-babenberg", "title": "Leopold VI. der Glorreiche", "short": "Leopold VI.", "start": "1198-04-16", "end": "1230-07-28", "importance": 2,
-      "life": {"start": "1176", "end": "1230-07-28"},
-      "description": "Blütezeit der Babenberger: Wiener Stadtrecht (1221), Förderung von Handel und Minnesang.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "friedrich-ii-babenberg", "title": "Friedrich II. der Streitbare", "short": "Friedrich der Streitbare", "start": "1230-07-28", "end": "1246-06-15", "importance": 2,
-      "life": {"start": "~1211", "end": "1246-06-15"},
-      "description": "Letzter Babenberger; fiel in der Schlacht an der Leitha gegen die Ungarn.",
-      "place": { "name": "Wien", "lat": 48.2082, "lon": 16.3738 },
-      "attributes": { "Dynastie": "Babenberger" }
-    },
-    {
-      "id": "wilhelm-miklas", "title": "Wilhelm Miklas", "start": "1928-12-10", "end": "1938-03-13", "importance": 3,
-      "life": {"start": "1872-10-15", "end": "1956-03-20"},
-      "description": "Bundespräsident bis zum Anschluss; verweigerte bis zuletzt die Ernennung Seyß-Inquarts.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "karl-renner-bp", "title": "Karl Renner (Bundespräsident)", "short": "Karl Renner", "start": "1945-12-20", "end": "1950-12-31", "importance": 2,
-      "life": {"start": "1870-12-14", "end": "1950-12-31"},
-      "description": "Staatskanzler der provisorischen Regierung 1945, danach erster Bundespräsident der Zweiten Republik.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "theodor-koerner-bp", "title": "Theodor Körner (Bundespräsident)", "short": "Theodor Körner", "start": "1951-06-21", "end": "1957-01-04", "importance": 3,
-      "life": {"start": "1873-04-24", "end": "1957-01-04"},
-      "description": "Erster direkt vom Volk gewählter Bundespräsident.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "adolf-schaerf", "title": "Adolf Schärf", "start": "1957-05-22", "end": "1965-02-28", "importance": 3,
-      "life": {"start": "1890-04-20", "end": "1965-02-28"},
-      "description": "Bundespräsident, zuvor Vizekanzler und SPÖ-Vorsitzender.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "franz-jonas-bp", "title": "Franz Jonas (Bundespräsident)", "short": "Franz Jonas", "start": "1965-06-09", "end": "1974-04-24", "importance": 3,
-      "life": {"start": "1899-10-04", "end": "1974-04-24"},
-      "description": "Zuvor Bürgermeister von Wien.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "rudolf-kirchschlaeger", "title": "Rudolf Kirchschläger", "short": "Kirchschläger", "start": "1974-07-08", "end": "1986-07-08", "importance": 3,
-      "life": {"start": "1915-03-20", "end": "2000-03-30"},
-      "description": "Parteiloser Bundespräsident mit hohem Ansehen.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "kurt-waldheim", "title": "Kurt Waldheim", "short": "Waldheim", "start": "1986-07-08", "end": "1992-07-08", "importance": 3,
-      "life": {"start": "1918-12-21", "end": "2007-06-14"},
-      "description": "Zuvor UN-Generalsekretär; seine Wahl löste wegen seiner verschwiegenen Wehrmachtsvergangenheit die „Waldheim-Affäre“ aus.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "thomas-klestil", "title": "Thomas Klestil", "short": "Klestil", "start": "1992-07-08", "end": "2004-07-06", "importance": 3,
-      "life": {"start": "1932-11-04", "end": "2004-07-06"},
-      "description": "Bundespräsident; starb zwei Tage vor Ende seiner zweiten Amtszeit.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "heinz-fischer", "title": "Heinz Fischer", "start": "2004-07-08", "end": "2016-07-08", "importance": 3,
-      "description": "Bundespräsident für zwei Amtszeiten, zuvor Nationalratspräsident.",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    },
-    {
-      "id": "van-der-bellen", "title": "Alexander Van der Bellen", "short": "Van der Bellen", "start": "2017-01-26", "end": "2026-10", "importance": 3,
-      "description": "Bundespräsident seit 2017, 2022 wiedergewählt; im Amt (Stand Oktober 2026).",
-      "place": { "name": "Hofburg, Wien", "lat": 48.2066, "lon": 16.3655 },
-      "attributes": { "Amt": "Bundespräsident" }
-    }
+    {"id":"maximilian-i-at","title":"Maximilian I.","start":"1493-08-19","end":"1519-01-12","importance":1,"life":{"start":"1459-03-22","end":"1519-01-12"},"description":"Vereinigte nach dem Tod seines Vaters Friedrich III. alle habsburgischen Erbländer (Tirol bereits seit 1490).","attributes":{"Herrschaftsgebiet":"alle österreichischen Erbländer","Titel":"Erzherzog von Österreich"}},
+    {"id":"karl-v-at","title":"Karl V.","start":"1519-01-12","end":"1521-04-28","importance":3,"life":{"start":"1500-02-24","end":"1558-09-21"},"description":"Erbte die österreichischen Länder und überließ sie im Wormser Vertrag (1521) und im Brüsseler Vertrag (1522) seinem Bruder Ferdinand.","attributes":{"Herrschaftsgebiet":"alle österreichischen Erbländer"}},
+    {"id":"ferdinand-i-at","title":"Ferdinand I.","start":"1521-04-28","end":"1564-07-25","importance":1,"life":{"start":"1503-03-10","end":"1564-07-25"},"description":"Landesfürst der österreichischen Erbländer, ab 1526 auch König von Böhmen und Ungarn. Verlegte die Residenz nach Wien und teilte testamentarisch die Länder unter seinen drei Söhnen auf.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"alle österreichischen Erbländer; ab 1526 Böhmen und Ungarn"}},
+    {"id":"maximilian-ii-at","title":"Maximilian II. (Österreich ob u. unter der Enns)","short":"Maximilian II.","start":"1564-07-25","end":"1576-10-12","importance":2,"life":{"start":"1527-07-31","end":"1576-10-12"},"description":"Erhielt bei der Länderteilung 1564 Österreich ob und unter der Enns (Ober- und Niederösterreich) sowie Böhmen und Ungarn.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"Nieder- und Oberösterreich, Böhmen, Ungarn"}},
+    {"id":"ferdinand-ii-tirol","title":"Ferdinand II. (Tirol)","start":"1564-07-25","end":"1595-01-24","importance":2,"life":{"start":"1529-06-14","end":"1595-01-24"},"description":"Erhielt 1564 Tirol und die Vorlande. Residierte in Innsbruck und auf Schloss Ambras, wo er eine berühmte Kunst- und Wunderkammer anlegte; verheiratet mit Philippine Welser.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich","Geboren":"14. Juni 1529, Linz","Gestorben":"24. Jänner 1595, Innsbruck"}},
+    {"id":"karl-ii-innerosterreich","title":"Karl II. (Innerösterreich)","start":"1564-07-25","end":"1590-07-10","importance":2,"life":{"start":"1540-06-03","end":"1590-07-10"},"description":"Erhielt 1564 Innerösterreich mit Residenz Graz. Gründete 1585 die Universität Graz und förderte die Gegenreformation.","place":{"name":"Graz","lat":47.0707,"lon":15.4395},"attributes":{"Herrschaftsgebiet":"Steiermark, Kärnten, Krain, Görz, Triest","Geboren":"3. Juni 1540, Wien","Gestorben":"10. Juli 1590, Graz"}},
+    {"id":"rudolf-ii-at","title":"Rudolf II. (Österreich ob u. unter der Enns)","short":"Rudolf II.","start":"1576-10-12","end":"1608-06-25","importance":2,"life":{"start":"1552-07-18","end":"1612-01-20"},"description":"Folgte seinem Vater in Ober- und Niederösterreich. Musste die Länder 1608 im Vertrag von Lieben an seinen Bruder Matthias abtreten.","attributes":{"Herrschaftsgebiet":"Nieder- und Oberösterreich, Böhmen, Ungarn"}},
+    {"id":"ferdinand-innerosterreich","title":"Ferdinand (Innerösterreich)","start":"1590-07-10","end":"1619-03-20","importance":3,"life":{"start":"1578-07-09","end":"1637-02-15"},"description":"Sohn Karls II., der spätere Kaiser Ferdinand II.; bis 1596 unter Vormundschaft. Setzte ab 1598 die Gegenreformation in Innerösterreich konsequent durch. Das Enddatum markiert seine Nachfolge in den Gesamtländern 1619.","place":{"name":"Graz","lat":47.0707,"lon":15.4395},"attributes":{"Herrschaftsgebiet":"Innerösterreich","Geboren":"9. Juli 1578, Graz"}},
+    {"id":"maximilian-iii-tirol","title":"Maximilian III. (Tirol)","short":"Maximilian III.","start":"1602","end":"1618-11-02","importance":4,"life":{"start":"1558-10-12","end":"1618-11-02"},"description":"Der „Deutschmeister“ verwaltete Tirol und die Vorlande als Regent für das Haus Habsburg.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich"}},
+    {"id":"matthias-at","title":"Matthias","start":"1608-06-25","end":"1619-03-20","importance":3,"life":{"start":"1557-02-24","end":"1619-03-20"},"description":"Übernahm im Vertrag von Lieben (1608) von seinem Bruder Rudolf II. Österreich, Ungarn und Mähren.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"Nieder- und Oberösterreich, Ungarn, Mähren; ab 1611 Böhmen"}},
+    {"id":"ferdinand-ii-at","title":"Ferdinand II.","start":"1619-03-20","end":"1637-02-15","importance":2,"life":{"start":"1578-07-09","end":"1637-02-15"},"description":"Vereinigte nach dem Tod des Matthias die österreichischen Länder wieder in einer Hand und setzte die Gegenreformation durch.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"alle österreichischen Länder (Tirol ab 1626 an Leopold V.)"}},
+    {"id":"leopold-v-tirol","title":"Leopold V. (Tirol)","short":"Leopold V.","start":"1619","end":"1632-09-13","importance":3,"life":{"start":"1586-10-09","end":"1632-09-13"},"description":"Bruder Ferdinands II.; ab 1619 Statthalter, ab 1626 Landesfürst von Tirol und den Vorlanden. Begründer der jüngeren Tiroler Linie.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich"}},
+    {"id":"claudia-de-medici","title":"Claudia de’ Medici (Tirol)","short":"Claudia de’ Medici","start":"1632-09-13","end":"1646","importance":3,"life":{"start":"1604-06-04","end":"1648-12-25"},"description":"Witwe Leopolds V.; regierte Tirol als Vormünderin ihres Sohnes und hielt das Land weitgehend aus dem Dreißigjährigen Krieg heraus.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich"}},
+    {"id":"ferdinand-iii-at","title":"Ferdinand III.","start":"1637-02-15","end":"1657-04-02","importance":2,"life":{"start":"1608-07-13","end":"1657-04-02"},"description":"Landesfürst der österreichischen Länder (ohne Tirol) während der letzten Phase des Dreißigjährigen Krieges.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"österreichische Länder ohne Tirol, Böhmen, Ungarn"}},
+    {"id":"ferdinand-karl-tirol","title":"Ferdinand Karl (Tirol)","short":"Ferdinand Karl","start":"1646","end":"1662-12-30","importance":4,"life":{"start":"1628-05-17","end":"1662-12-30"},"description":"Sohn Leopolds V.; förderte in Innsbruck Oper und Theater (Comödihaus).","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich"}},
+    {"id":"sigismund-franz-tirol","title":"Sigismund Franz (Tirol)","short":"Sigismund Franz","start":"1662-12-30","end":"1665-06-25","importance":5,"life":{"start":"1630-11-27","end":"1665-06-25"},"description":"Letzter Landesfürst der Tiroler Linie; mit seinem Tod fiel Tirol an Leopold I.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Herrschaftsgebiet":"Tirol, Vorderösterreich"}},
+    {"id":"leopold-i-at","title":"Leopold I.","start":"1657-04-02","end":"1705-05-05","importance":1,"life":{"start":"1640-06-09","end":"1705-05-05"},"description":"Ab 1665 wieder Herr aller österreichischen Länder. Nach dem Sieg von 1683 und dem Großen Türkenkrieg kam ganz Ungarn an die Habsburger.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"österreichische Länder (Tirol ab 1665), Böhmen, Ungarn"}},
+    {"id":"joseph-i-at","title":"Joseph I.","start":"1705-05-05","end":"1711-04-17","importance":3,"life":{"start":"1678-07-26","end":"1711-04-17"},"description":"Kurze Regierungszeit, geprägt vom Spanischen Erbfolgekrieg und dem Kuruzzenaufstand in Ungarn.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"österreichische Länder, Böhmen, Ungarn"}},
+    {"id":"karl-vi-at","title":"Karl VI.","start":"1711-04-17","end":"1740-10-20","importance":2,"life":{"start":"1685-10-01","end":"1740-10-20"},"description":"Erließ 1713 die Pragmatische Sanktion über die Unteilbarkeit der habsburgischen Länder und die weibliche Erbfolge.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Herrschaftsgebiet":"österreichische Länder, Böhmen, Ungarn, ab 1714 Spanische Niederlande, Mailand, Neapel"}},
+    {"id":"maria-theresia","title":"Maria Theresia","start":"1740-10-20","end":"1780-11-29","importance":1,"life":{"start":"1717-05-13","end":"1780-11-29"},"description":"Erbte dank der Pragmatischen Sanktion die habsburgischen Länder und verteidigte sie im Österreichischen Erbfolgekrieg. Ihre Reformen in Verwaltung, Heer und Schulwesen (Schulpflicht 1774) begründeten den modernen Staat.","place":{"name":"Schönbrunn, Wien","lat":48.1845,"lon":16.3122},"attributes":{"Titel":"Erzherzogin von Österreich, Königin von Ungarn und Böhmen"}},
+    {"id":"joseph-ii-at","title":"Joseph II.","start":"1780-11-29","end":"1790-02-20","importance":1,"life":{"start":"1741-03-13","end":"1790-02-20"},"description":"Als Alleinherrscher erließ er Toleranzpatent, Aufhebung der Leibeigenschaft, Klosteraufhebungen und gründete das Allgemeine Krankenhaus – viele Reformen scheiterten am Widerstand.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Mitregent":"ab 1765"}},
+    {"id":"leopold-ii-at","title":"Leopold II.","start":"1790-02-20","end":"1792-03-01","importance":3,"life":{"start":"1747-05-05","end":"1792-03-01"},"description":"Beruhigte die nach Josephs Reformen aufgewühlten Länder durch Zugeständnisse an Stände und Ungarn.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
+    {"id":"franz-ii-i-at","title":"Franz II./I.","start":"1792-03-01","end":"1835-03-02","importance":1,"life":{"start":"1768-02-12","end":"1835-03-02"},"description":"Ab 1804 als Franz I. erster Kaiser von Österreich. Prägte mit Staatskanzler Metternich nach dem Wiener Kongress das restaurative „System Metternich“ des Vormärz.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Titel":"ab 1804 Kaiser von Österreich"}},
+    {"id":"ferdinand-i-oesterreich","title":"Ferdinand I. (Kaiser)","short":"Ferdinand I.","start":"1835-03-02","end":"1848-12-02","importance":3,"life":{"start":"1793-04-19","end":"1875-06-29"},"description":"„Der Gütige“; wegen Krankheit regierte faktisch die Staatskonferenz. Dankte im Revolutionsjahr 1848 zugunsten seines Neffen Franz Joseph ab.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Titel":"Kaiser von Österreich"}},
+    {"id":"franz-joseph-i","title":"Franz Joseph I.","start":"1848-12-02","end":"1916-11-21","importance":1,"life":{"start":"1830-08-18","end":"1916-11-21"},"description":"Fast 68 Jahre Kaiser: Neoabsolutismus, Ausgleich mit Ungarn (1867), Ringstraßenzeit und Gründerzeit, schließlich der Erste Weltkrieg. Verheiratet mit Elisabeth („Sisi“).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Titel":"Kaiser von Österreich, ab 1867 auch König von Ungarn (Österreich-Ungarn)"}},
+    {"id":"karl-i-oesterreich","title":"Karl I. (Kaiser)","short":"Karl I.","start":"1916-11-21","end":"1918-11-11","importance":2,"life":{"start":"1887-08-17","end":"1922-04-01"},"description":"Letzter Kaiser von Österreich; bemühte sich vergeblich um einen Sonderfrieden. Verzichtete am 11. November 1918 auf jeden Anteil an den Staatsgeschäften.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Titel":"Kaiser von Österreich, König von Ungarn"}},
+    {"id":"karl-seitz-staatsoberhaupt","title":"Karl Seitz (Staatsoberhaupt)","short":"Karl Seitz","start":"1919-03-05","end":"1920-12-09","importance":3,"life":{"start":"1869-09-04","end":"1950-02-03"},"description":"Als Präsident der Konstituierenden Nationalversammlung Staatsoberhaupt der jungen Republik Deutschösterreich; später Bürgermeister von Wien.","place":{"name":"Parlament, Wien","lat":48.2084,"lon":16.3583},"attributes":{"Partei":"Sozialdemokratische Arbeiterpartei"}},
+    {"id":"michael-hainisch","title":"Michael Hainisch","start":"1920-12-09","end":"1928-12-10","importance":3,"life":{"start":"1858-08-15","end":"1940-02-26"},"description":"Erster Bundespräsident der Republik Österreich (parteilos).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"ottokar-ii","title":"Ottokar II. Přemysl","short":"Ottokar II.","start":"1251","end":"1276-11","importance":3,"life":{"start":"~1232","end":"1278-08-26"},"description":"König von Böhmen; herrschte nach dem Aussterben der Babenberger über Österreich und die Steiermark. Fiel 1278 in der Schlacht auf dem Marchfeld gegen Rudolf I.","place":{"name":"Prag","lat":50.091,"lon":14.4016},"attributes":{"Dynastie":"Přemysliden"}},
+    {"id":"rudolf-i-at","title":"Rudolf I.","start":"1276-11","end":"1282-12-27","importance":2,"life":{"start":"1218-05-01","end":"1291-07-15"},"description":"Übernahm nach dem Sieg über Ottokar die österreichischen Länder und belehnte 1282 seine Söhne – Beginn der habsburgischen Herrschaft in Österreich.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"albrecht-i-at","title":"Albrecht I.","start":"1282-12-27","end":"1308-05-01","importance":2,"life":{"start":"1255-07","end":"1308-05-01"},"description":"Erster habsburgischer Herzog von Österreich und Steiermark; setzte sich gegen Adel und Wiener Bürger durch.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"friedrich-der-schoene-at","title":"Friedrich der Schöne","start":"1308-05-01","end":"1330-01-13","importance":3,"life":{"start":"1289","end":"1330-01-13"},"description":"Herzog von Österreich, gemeinsam mit seinem Bruder Leopold I.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"albrecht-ii-at","title":"Albrecht II. der Weise","short":"Albrecht II.","start":"1330-01-13","end":"1358-07-20","importance":3,"life":{"start":"1298-12-12","end":"1358-07-20"},"description":"Erwarb 1335 Kärnten und Krain; trotz Lähmung ein umsichtiger Landesherr.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"rudolf-iv","title":"Rudolf IV. der Stifter","short":"Rudolf IV.","start":"1358-07-20","end":"1365-07-27","importance":1,"life":{"start":"1339-11-01","end":"1365-07-27"},"description":"Gründete die Universität Wien (1365), begann den gotischen Ausbau des Stephansdoms und ließ das Privilegium maius fälschen. Erwarb 1363 Tirol.","place":{"name":"Stephansdom, Wien","lat":48.2085,"lon":16.3731},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"albrecht-iii","title":"Albrecht III.","start":"1365-07-27","end":"1395-08-29","importance":3,"life":{"start":"~1349","end":"1395-08-29"},"description":"Teilte 1379 im Neuberger Vertrag die Länder mit seinem Bruder Leopold III.; erhielt Österreich (Albertinische Linie).","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg","Herrschaftsgebiet":"ab 1379 Österreich ob und unter der Enns"}},
+    {"id":"leopold-iii","title":"Leopold III.","start":"1365-07-27","end":"1386-07-09","importance":3,"life":{"start":"1351-11-01","end":"1386-07-09"},"description":"Erhielt 1379 Steiermark, Kärnten, Krain, Tirol und die Vorlande (Leopoldinische Linie); fiel in der Schlacht bei Sempach gegen die Eidgenossen.","place":{"name":"Sempach","lat":47.135,"lon":8.1922},"attributes":{"Dynastie":"Habsburg","Herrschaftsgebiet":"ab 1379 Inner- und Vorderösterreich, Tirol"}},
+    {"id":"albrecht-iv","title":"Albrecht IV.","start":"1395-08-29","end":"1404-09-14","importance":4,"life":{"start":"1377-09-19","end":"1404-09-14"},"description":"Sohn Albrechts III.; starb früh, sein Sohn Albrecht V. war beim Tod erst sieben Jahre alt.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"ernst-der-eiserne","title":"Ernst der Eiserne","short":"Ernst","start":"1406","end":"1424-06-10","importance":4,"life":{"start":"1377","end":"1424-06-10"},"description":"Herzog von Innerösterreich; Vater Friedrichs III.","place":{"name":"Graz","lat":47.0707,"lon":15.4395},"attributes":{"Dynastie":"Habsburg","Herrschaftsgebiet":"Steiermark, Kärnten, Krain"}},
+    {"id":"friedrich-iv-tirol","title":"Friedrich IV. (Tirol)","short":"Friedrich IV.","start":"1406","end":"1439-06-24","importance":3,"life":{"start":"1382","end":"1439-06-24"},"description":"„Friedl mit der leeren Tasche“; verlor nach seiner Parteinahme für den Gegenpapst zeitweise seine Länder, festigte dann aber die Landesherrschaft in Tirol.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"albrecht-v","title":"Albrecht V.","start":"1404-09-14","end":"1439-10-27","importance":2,"life":{"start":"1397-08-10","end":"1439-10-27"},"description":"Herzog von Österreich, ab 1438 als Albrecht II. römisch-deutscher König sowie König von Ungarn und Böhmen.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"ladislaus-postumus","title":"Ladislaus Postumus","short":"Ladislaus","start":"1440-02-22","end":"1457-11-23","importance":4,"life":{"start":"1440-02-22","end":"1457-11-23"},"description":"Nach dem Tod seines Vaters Albrecht V. geboren; stand bis 1452 unter der Vormundschaft Friedrichs III. Mit ihm erlosch die Albertinische Linie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"sigmund-tirol","title":"Sigmund der Münzreiche (Tirol)","short":"Sigmund der Münzreiche","start":"1446","end":"1490-03-16","importance":3,"life":{"start":"1427-10-26","end":"1496-03-04"},"description":"Ließ in Hall die ersten großen Silbermünzen prägen; trat Tirol 1490 an Maximilian I. ab.","place":{"name":"Innsbruck","lat":47.2692,"lon":11.4041},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"friedrich-iii-at","title":"Friedrich III. (V.)","short":"Friedrich III.","start":"1424-06-10","end":"1493-08-19","importance":2,"life":{"start":"1415-09-21","end":"1493-08-19"},"description":"Als Herzog Friedrich V. Herr Innerösterreichs, nach 1457 und 1463 auch Österreichs; residierte vor allem in Wiener Neustadt und Graz.","place":{"name":"Wiener Neustadt","lat":47.815,"lon":16.246},"attributes":{"Dynastie":"Habsburg"}},
+    {"id":"leopold-i-babenberg","title":"Leopold I. (Markgraf)","short":"Leopold I.","start":"976-07-21","end":"994-07-10","importance":2,"description":"Erster Babenberger; von Otto II. mit der Mark an der Donau belehnt. Residenz vermutlich in Melk.","place":{"name":"Melk","lat":48.228,"lon":15.3317},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"heinrich-i-babenberg","title":"Heinrich I. (Markgraf)","short":"Heinrich I.","start":"994-07-10","end":"1018-06-23","importance":4,"description":"Sohn Leopolds I.; unter ihm fiel 996 die erste Nennung „Ostarrichi“.","place":{"name":"Melk","lat":48.228,"lon":15.3317},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"adalbert-babenberg","title":"Adalbert der Siegreiche","short":"Adalbert","start":"1018","end":"1055-05-26","importance":4,"description":"Dehnte die Mark nach Osten bis an March und Leitha aus.","place":{"name":"Melk","lat":48.228,"lon":15.3317},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"ernst-babenberg","title":"Ernst der Tapfere","short":"Ernst","start":"1055","end":"1075-06-09","importance":5,"description":"Fiel im Kampf gegen die Sachsen an der Unstrut.","place":{"name":"Melk","lat":48.228,"lon":15.3317},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"leopold-ii-babenberg","title":"Leopold II. der Schöne","short":"Leopold II.","start":"1075-06-09","end":"1095-10-12","importance":4,"description":"Stellte sich im Investiturstreit auf die Seite des Papstes.","place":{"name":"Melk","lat":48.228,"lon":15.3317},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"leopold-iii-babenberg","title":"Leopold III. der Heilige","short":"Leopold III.","start":"1095-10-12","end":"1136-11-15","importance":2,"life":{"start":"1073","end":"1136-11-15"},"description":"Gründete die Stifte Klosterneuburg und Heiligenkreuz; 1485 heiliggesprochen, Landespatron von Niederösterreich und Wien.","place":{"name":"Stift Klosterneuburg","lat":48.3053,"lon":16.3256},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"leopold-iv-babenberg","title":"Leopold IV.","start":"1136-11-15","end":"1141-10-18","importance":5,"description":"Erhielt zusätzlich das Herzogtum Bayern.","place":{"name":"Klosterneuburg","lat":48.3053,"lon":16.3256},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"heinrich-jasomirgott","title":"Heinrich II. Jasomirgott","short":"Jasomirgott","start":"1141-10-18","end":"1177-01-13","importance":2,"life":{"start":"~1112","end":"1177-01-13"},"description":"Erster Herzog von Österreich (Privilegium minus 1156); verlegte die Residenz nach Wien (Am Hof) und gründete das Schottenstift.","place":{"name":"Am Hof, Wien","lat":48.2106,"lon":16.3677},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"leopold-v-babenberg","title":"Leopold V. der Tugendhafte","short":"Leopold V.","start":"1177-01-13","end":"1194-12-31","importance":3,"life":{"start":"1157","end":"1194-12-31"},"description":"Nahm 1192 Richard Löwenherz gefangen; erwarb 1192 die Steiermark (Georgenberger Handfeste).","place":{"name":"Dürnstein","lat":48.3956,"lon":15.5194},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"friedrich-i-babenberg","title":"Friedrich I. der Katholische","short":"Friedrich I.","start":"1194-12-31","end":"1198-04-16","importance":5,"description":"Starb auf dem Kreuzzug.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"leopold-vi-babenberg","title":"Leopold VI. der Glorreiche","short":"Leopold VI.","start":"1198-04-16","end":"1230-07-28","importance":2,"life":{"start":"1176","end":"1230-07-28"},"description":"Blütezeit der Babenberger: Wiener Stadtrecht (1221), Förderung von Handel und Minnesang.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"friedrich-ii-babenberg","title":"Friedrich II. der Streitbare","short":"Friedrich der Streitbare","start":"1230-07-28","end":"1246-06-15","importance":2,"life":{"start":"~1211","end":"1246-06-15"},"description":"Letzter Babenberger; fiel in der Schlacht an der Leitha gegen die Ungarn.","place":{"name":"Wien","lat":48.2082,"lon":16.3738},"attributes":{"Dynastie":"Babenberger"}},
+    {"id":"wilhelm-miklas","title":"Wilhelm Miklas","start":"1928-12-10","end":"1938-03-13","importance":3,"life":{"start":"1872-10-15","end":"1956-03-20"},"description":"Bundespräsident bis zum Anschluss; verweigerte bis zuletzt die Ernennung Seyß-Inquarts.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"karl-renner-bp","title":"Karl Renner (Bundespräsident)","short":"Karl Renner","start":"1945-12-20","end":"1950-12-31","importance":2,"life":{"start":"1870-12-14","end":"1950-12-31"},"description":"Staatskanzler der provisorischen Regierung 1945, danach erster Bundespräsident der Zweiten Republik.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"theodor-koerner-bp","title":"Theodor Körner (Bundespräsident)","short":"Theodor Körner","start":"1951-06-21","end":"1957-01-04","importance":3,"life":{"start":"1873-04-24","end":"1957-01-04"},"description":"Erster direkt vom Volk gewählter Bundespräsident.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"adolf-schaerf","title":"Adolf Schärf","start":"1957-05-22","end":"1965-02-28","importance":3,"life":{"start":"1890-04-20","end":"1965-02-28"},"description":"Bundespräsident, zuvor Vizekanzler und SPÖ-Vorsitzender.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"franz-jonas-bp","title":"Franz Jonas (Bundespräsident)","short":"Franz Jonas","start":"1965-06-09","end":"1974-04-24","importance":3,"life":{"start":"1899-10-04","end":"1974-04-24"},"description":"Zuvor Bürgermeister von Wien.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"rudolf-kirchschlaeger","title":"Rudolf Kirchschläger","short":"Kirchschläger","start":"1974-07-08","end":"1986-07-08","importance":3,"life":{"start":"1915-03-20","end":"2000-03-30"},"description":"Parteiloser Bundespräsident mit hohem Ansehen.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"kurt-waldheim","title":"Kurt Waldheim","short":"Waldheim","start":"1986-07-08","end":"1992-07-08","importance":3,"life":{"start":"1918-12-21","end":"2007-06-14"},"description":"Zuvor UN-Generalsekretär; seine Wahl löste wegen seiner verschwiegenen Wehrmachtsvergangenheit die „Waldheim-Affäre“ aus.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"thomas-klestil","title":"Thomas Klestil","short":"Klestil","start":"1992-07-08","end":"2004-07-06","importance":3,"life":{"start":"1932-11-04","end":"2004-07-06"},"description":"Bundespräsident; starb zwei Tage vor Ende seiner zweiten Amtszeit.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"heinz-fischer","title":"Heinz Fischer","start":"2004-07-08","end":"2016-07-08","importance":3,"description":"Bundespräsident für zwei Amtszeiten, zuvor Nationalratspräsident.","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}},
+    {"id":"van-der-bellen","title":"Alexander Van der Bellen","short":"Van der Bellen","start":"2017-01-26","end":"2026-10","importance":3,"description":"Bundespräsident seit 2017, 2022 wiedergewählt; im Amt (Stand Oktober 2026).","place":{"name":"Hofburg, Wien","lat":48.2066,"lon":16.3655},"attributes":{"Amt":"Bundespräsident"}}
   ]
 }

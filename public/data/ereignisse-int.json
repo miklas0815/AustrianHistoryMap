@@ -1,551 +1,114 @@
 {
   "category": "ereignisse-int",
   "items": [
-    {
-      "id": "italienische-kriege", "title": "Italienische Kriege", "start": "1494", "end": "1559-04-03", "importance": 3,
-      "description": "Kriege um die Vorherrschaft in Italien, vor allem zwischen Frankreich und den Habsburgern; beendet durch den Frieden von Cateau-Cambrésis.",
-      "place": { "name": "Italien", "lat": 43.0, "lon": 12.0 }
-    },
-    {
-      "id": "petersdom-1506", "title": "Grundsteinlegung des neuen Petersdoms", "start": "1506-04-18", "importance": 4,
-      "description": "Papst Julius II. legte den Grundstein für den Neubau nach Plänen Bramantes. Der Ablasshandel zur Finanzierung wurde zu einem Auslöser der Reformation.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
-    },
-    {
-      "id": "sixtina-1508", "title": "Michelangelo malt die Sixtinische Decke", "start": "1508", "end": "1512", "importance": 5,
-      "description": "Deckenfresken der Sixtinischen Kapelle im Auftrag Papst Julius’ II.",
-      "place": { "name": "Vatikan", "lat": 41.9029, "lon": 12.4545 }
-    },
-    {
-      "id": "thesen-luther-1517", "title": "Luthers 95 Thesen", "start": "1517-10-31", "importance": 1,
-      "description": "Martin Luther veröffentlichte in Wittenberg seine Thesen gegen den Ablasshandel – Beginn der Reformation.",
-      "place": { "name": "Wittenberg", "lat": 51.8664, "lon": 12.6433 }
-    },
-    {
-      "id": "magellan-1519", "title": "Erste Weltumsegelung (Magellan/Elcano)", "start": "1519-09-20", "end": "1522-09-06", "importance": 2,
-      "description": "Die spanische Expedition unter Ferdinand Magellan umrundete erstmals die Erde; Magellan fiel 1521, Juan Sebastián Elcano führte die Fahrt zu Ende.",
-      "place": { "name": "Sanlúcar de Barrameda", "lat": 36.7781, "lon": -6.3515 }
-    },
-    {
-      "id": "sueleyman-1520", "title": "Süleyman I. wird Sultan", "start": "1520-09", "importance": 4,
-      "description": "Unter Süleyman dem Prächtigen erreichte das Osmanische Reich seine größte Machtentfaltung; er führte die Feldzüge gegen Ungarn und Wien.",
-      "place": { "name": "Istanbul", "lat": 41.0082, "lon": 28.9784 }
-    },
-    {
-      "id": "reichstag-worms-1521", "title": "Reichstag zu Worms", "start": "1521-01", "end": "1521-05", "importance": 2,
-      "description": "Luther verweigerte vor Karl V. den Widerruf; das Wormser Edikt verhängte die Reichsacht über ihn.",
-      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
-    },
-    {
-      "id": "tenochtitlan-1521", "title": "Eroberung Tenochtitláns", "start": "1521-08-13", "importance": 3,
-      "description": "Hernán Cortés eroberte die Hauptstadt der Azteken – Beginn der spanischen Kolonialherrschaft in Mexiko.",
-      "place": { "name": "Tenochtitlán (Mexiko-Stadt)", "lat": 19.4326, "lon": -99.1332 }
-    },
-    {
-      "id": "bauernkrieg-1524", "title": "Deutscher Bauernkrieg", "start": "1524", "end": "1526", "importance": 3,
-      "description": "Erhebungen von Bauern in weiten Teilen Süd- und Mitteldeutschlands, blutig niedergeschlagen (Schlacht bei Frankenhausen 1525).",
-      "place": { "name": "Süddeutschland", "lat": 48.8, "lon": 9.5 }
-    },
-    {
-      "id": "sacco-di-roma-1527", "title": "Sacco di Roma", "start": "1527-05-06", "importance": 4,
-      "description": "Plünderung Roms durch meuternde Truppen Karls V.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "confessio-augustana-1530", "title": "Confessio Augustana", "start": "1530-06-25", "importance": 4,
-      "description": "Das Augsburger Bekenntnis der lutherischen Reichsstände wurde auf dem Reichstag zu Augsburg verlesen.",
-      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
-    },
-    {
-      "id": "pizarro-1532", "title": "Pizarro nimmt Atahualpa gefangen", "start": "1532-11-16", "importance": 4,
-      "description": "In Cajamarca nahm Francisco Pizarro den Inka-Herrscher gefangen – Beginn der Eroberung des Inkareichs.",
-      "place": { "name": "Cajamarca", "lat": -7.1638, "lon": -78.5003 }
-    },
-    {
-      "id": "suprematsakte-1534", "title": "Suprematsakte in England", "start": "1534-11", "importance": 3,
-      "description": "Heinrich VIII. wurde Oberhaupt der Kirche von England – Bruch mit Rom.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "konzil-trient", "title": "Konzil von Trient", "start": "1545-12-13", "end": "1563-12-04", "importance": 1,
-      "description": "Reformkonzil der katholischen Kirche als Antwort auf die Reformation; Grundlage der Gegenreformation.",
-      "place": { "name": "Trient", "lat": 46.0679, "lon": 11.1211 }
-    },
-    {
-      "id": "schmalkaldischer-krieg", "title": "Schmalkaldischer Krieg", "start": "1546-07", "end": "1547-05", "importance": 4,
-      "description": "Karl V. besiegte den Bund der protestantischen Fürsten in der Schlacht bei Mühlberg (24. April 1547).",
-      "place": { "name": "Mühlberg/Elbe", "lat": 51.4333, "lon": 13.2167 }
-    },
-    {
-      "id": "augsburger-religionsfriede-1555", "title": "Augsburger Religionsfriede", "start": "1555-09-25", "importance": 1,
-      "description": "Reichsgesetz, das Lutheranern und Katholiken ein Nebeneinander im Reich erlaubte: „cuius regio, eius religio“.",
-      "place": { "name": "Augsburg", "lat": 48.3705, "lon": 10.8978 }
-    },
-    {
-      "id": "abdankung-karl-v-1556", "title": "Abdankung Karls V.", "start": "1556", "importance": 2,
-      "description": "Teilung des Habsburgerreichs in eine spanische Linie (Philipp II.) und eine österreichische Linie (Ferdinand I.).",
-      "place": { "name": "Brüssel", "lat": 50.8503, "lon": 4.3517 }
-    },
-    {
-      "id": "elisabeth-i-1558", "title": "Elisabeth I. wird Königin von England", "start": "1558-11-17", "importance": 4,
-      "description": "Beginn des „Elisabethanischen Zeitalters“ (bis 1603).",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "hugenottenkriege", "title": "Hugenottenkriege", "start": "1562", "end": "1598", "importance": 3,
-      "description": "Konfessionelle Bürgerkriege in Frankreich, beendet durch das Edikt von Nantes.",
-      "place": { "name": "Frankreich", "lat": 46.6, "lon": 2.4 }
-    },
-    {
-      "id": "achtzigjaehriger-krieg", "title": "Achtzigjähriger Krieg (Beginn)", "start": "1568", "end": "1648", "importance": 3,
-      "description": "Aufstand der Niederlande gegen die spanische Herrschaft; endete mit der Anerkennung der Republik im Westfälischen Frieden 1648.",
-      "place": { "name": "Niederlande", "lat": 52.1, "lon": 5.3 }
-    },
-    {
-      "id": "lepanto-1571", "title": "Seeschlacht von Lepanto", "start": "1571-10-07", "importance": 2,
-      "description": "Sieg der Heiligen Liga unter Don Juan de Austria über die osmanische Flotte.",
-      "place": { "name": "Golf von Patras", "lat": 38.25, "lon": 21.2 }
-    },
-    {
-      "id": "bartholomaeusnacht-1572", "title": "Bartholomäusnacht", "start": "1572-08-24", "importance": 3,
-      "description": "Massaker an Hugenotten in Paris und anderen französischen Städten.",
-      "place": { "name": "Paris", "lat": 48.8566, "lon": 2.3522 }
-    },
-    {
-      "id": "utrechter-union-1579", "title": "Utrechter Union", "start": "1579-01-23", "importance": 4,
-      "description": "Zusammenschluss der nördlichen niederländischen Provinzen gegen Spanien.",
-      "place": { "name": "Utrecht", "lat": 52.0907, "lon": 5.1214 }
-    },
-    {
-      "id": "plakkaat-1581", "title": "Unabhängigkeitserklärung der Niederlande", "start": "1581-07-26", "importance": 4,
-      "description": "Mit dem „Plakkaat van Verlatinghe“ sagten sich die Generalstaaten von Philipp II. los.",
-      "place": { "name": "Den Haag", "lat": 52.0705, "lon": 4.3007 }
-    },
-    {
-      "id": "gregorianischer-kalender-1582", "title": "Gregorianischer Kalender", "start": "1582-10-15", "importance": 3,
-      "description": "Papst Gregor XIII. führte die Kalenderreform ein: Auf den 4. folgte der 15. Oktober 1582. In den österreichischen Ländern wurde er 1583/84 übernommen.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "armada-1588", "title": "Untergang der Spanischen Armada", "start": "1588-07", "end": "1588-09", "importance": 2,
-      "description": "Die spanische Invasionsflotte gegen England scheiterte; Aufstieg Englands zur Seemacht.",
-      "place": { "name": "Ärmelkanal", "lat": 50.2, "lon": -1.0 }
-    },
-    {
-      "id": "edikt-nantes-1598", "title": "Edikt von Nantes", "start": "1598-04-13", "importance": 3,
-      "description": "Heinrich IV. gewährte den Hugenotten Religionsfreiheit und beendete die Hugenottenkriege.",
-      "place": { "name": "Nantes", "lat": 47.2184, "lon": -1.5536 }
-    },
-    {
-      "id": "giordano-bruno-1600", "title": "Hinrichtung Giordano Brunos", "start": "1600-02-17", "importance": 5,
-      "description": "Der Philosoph wurde von der Inquisition in Rom als Ketzer verbrannt.",
-      "place": { "name": "Rom, Campo de’ Fiori", "lat": 41.8956, "lon": 12.4722 }
-    },
-    {
-      "id": "voc-1602", "title": "Gründung der Niederländischen Ostindien-Kompanie", "short": "Ostindien-Kompanie", "start": "1602-03-20", "importance": 3,
-      "description": "Die VOC wurde zur ersten großen Aktiengesellschaft und zum Instrument des niederländischen Welthandels.",
-      "place": { "name": "Amsterdam", "lat": 52.3676, "lon": 4.9041 }
-    },
-    {
-      "id": "jamestown-1607", "title": "Gründung von Jamestown", "start": "1607-05", "importance": 4,
-      "description": "Erste dauerhafte englische Siedlung in Nordamerika.",
-      "place": { "name": "Jamestown, Virginia", "lat": 37.2096, "lon": -76.7774 }
-    },
-    {
-      "id": "dreissigjaehriger-krieg", "title": "Dreißigjähriger Krieg", "start": "1618-05-23", "end": "1648-10-24", "importance": 1,
-      "description": "Konfessioneller und machtpolitischer Krieg in Mitteleuropa mit verheerenden Folgen für die Bevölkerung; endete mit dem Westfälischen Frieden.",
-      "place": { "name": "Mitteleuropa", "lat": 50.5, "lon": 11.0 }
-    },
-    {
-      "id": "mayflower-1620", "title": "Landung der Mayflower", "start": "1620-11", "importance": 4,
-      "description": "Puritanische Siedler gründeten die Plymouth-Kolonie in Neuengland.",
-      "place": { "name": "Plymouth, Massachusetts", "lat": 41.9584, "lon": -70.6673 }
-    },
-    {
-      "id": "luetzen-1632", "title": "Schlacht bei Lützen", "start": "1632-11-16", "importance": 4,
-      "description": "Sieg der Schweden über Wallenstein; König Gustav II. Adolf fiel in der Schlacht.",
-      "place": { "name": "Lützen", "lat": 51.2569, "lon": 12.1383 }
-    },
-    {
-      "id": "englischer-buergerkrieg", "title": "Englischer Bürgerkrieg", "start": "1642-08", "end": "1651-09", "importance": 3,
-      "description": "Krieg zwischen König und Parlament; 1649 wurde Karl I. hingerichtet, England für einige Jahre Republik unter Cromwell.",
-      "place": { "name": "England", "lat": 52.5, "lon": -1.5 }
-    },
-    {
-      "id": "ludwig-xiv", "title": "Herrschaft Ludwigs XIV.", "short": "Ludwig XIV.", "start": "1643-05-14", "end": "1715-09-01", "importance": 2,
-      "description": "Der „Sonnenkönig“ machte Frankreich zur führenden Macht Europas und zum Hauptgegner der Habsburger; Versailles wurde Vorbild für Residenzen in ganz Europa.",
-      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
-    },
-    {
-      "id": "westfaelischer-friede-1648", "title": "Westfälischer Friede", "start": "1648-10-24", "importance": 1,
-      "description": "Friedensschlüsse von Münster und Osnabrück: Ende des Dreißigjährigen Krieges, Anerkennung der Niederlande und der Schweiz, Stärkung der Reichsstände gegenüber dem Kaiser.",
-      "place": { "name": "Münster", "lat": 51.9607, "lon": 7.6261 }
-    },
-    {
-      "id": "brand-london-1666", "title": "Großer Brand von London", "start": "1666-09", "importance": 5,
-      "description": "Ein mehrtägiger Brand zerstörte große Teile der Londoner Innenstadt.",
-      "place": { "name": "London", "lat": 51.5138, "lon": -0.0984 }
-    },
-    {
-      "id": "edikt-fontainebleau-1685", "title": "Edikt von Fontainebleau", "start": "1685-10-18", "importance": 4,
-      "description": "Ludwig XIV. widerrief das Edikt von Nantes; Hunderttausende Hugenotten flohen ins Ausland.",
-      "place": { "name": "Fontainebleau", "lat": 48.4047, "lon": 2.7016 }
-    },
-    {
-      "id": "glorious-revolution-1688", "title": "Glorious Revolution", "start": "1688", "end": "1689", "importance": 3,
-      "description": "Sturz Jakobs II. in England; die Bill of Rights (1689) begründete die parlamentarische Monarchie.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "grosser-nordischer-krieg", "title": "Großer Nordischer Krieg", "start": "1700", "end": "1721", "importance": 3,
-      "description": "Russland unter Peter dem Großen löste Schweden als Vormacht im Ostseeraum ab.",
-      "place": { "name": "Ostseeraum", "lat": 59.0, "lon": 22.0 }
-    },
-    {
-      "id": "spanischer-erbfolgekrieg", "title": "Spanischer Erbfolgekrieg", "start": "1701", "end": "1714", "importance": 2,
-      "description": "Nach dem Aussterben der spanischen Habsburger kämpften Österreich, England und die Niederlande gegen Frankreich um das spanische Erbe; Prinz Eugen wurde zum gefeierten Feldherrn.",
-      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 }
-    },
-    {
-      "id": "st-petersburg-1703", "title": "Gründung von St. Petersburg", "start": "1703-05-27", "importance": 4,
-      "description": "Peter der Große gründete die neue Hauptstadt als „Fenster nach Europa“.",
-      "place": { "name": "St. Petersburg", "lat": 59.9343, "lon": 30.3351 }
-    },
-    {
-      "id": "hoechstaedt-1704", "title": "Schlacht bei Höchstädt", "start": "1704-08-13", "importance": 4,
-      "description": "Sieg Prinz Eugens und Marlboroughs über Frankreich und Bayern – Wendepunkt im Spanischen Erbfolgekrieg.",
-      "place": { "name": "Höchstädt an der Donau", "lat": 48.6106, "lon": 10.5636 }
-    },
-    {
-      "id": "utrecht-1713", "title": "Frieden von Utrecht", "start": "1713-04-11", "importance": 3,
-      "description": "Ende des Spanischen Erbfolgekriegs für England und die Niederlande: Philipp V. (Bourbon) blieb König von Spanien; Grundlage des europäischen Gleichgewichts.",
-      "place": { "name": "Utrecht", "lat": 52.0907, "lon": 5.1214 }
-    },
-    {
-      "id": "lissabon-1755", "title": "Erdbeben von Lissabon", "start": "1755-11-01", "importance": 4,
-      "description": "Die Zerstörung Lissabons erschütterte den Optimismus der Aufklärung.",
-      "place": { "name": "Lissabon", "lat": 38.7223, "lon": -9.1393 }
-    },
-    {
-      "id": "siebenjaehriger-krieg", "title": "Siebenjähriger Krieg (weltweit)", "start": "1756", "end": "1763", "importance": 3,
-      "description": "Erster globaler Krieg der europäischen Mächte, auch in Nordamerika und Indien; Großbritannien wurde führende Kolonialmacht.",
-      "place": { "name": "Europa / Nordamerika", "lat": 50.0, "lon": 0.0 }
-    },
-    {
-      "id": "industrielle-revolution", "title": "Industrielle Revolution in Großbritannien", "short": "Industrielle Revolution", "start": "~1760", "end": "~1840", "importance": 2,
-      "description": "Übergang zur maschinellen Produktion mit Dampfkraft, Textilfabriken und Eisenbahnen.",
-      "place": { "name": "Manchester", "lat": 53.4808, "lon": -2.2426 }
-    },
-    {
-      "id": "polnische-teilungen", "title": "Polnische Teilungen", "start": "1772", "end": "1795", "importance": 4,
-      "description": "Russland, Preußen und Österreich teilten Polen-Litauen unter sich auf; Österreich erhielt Galizien.",
-      "place": { "name": "Warschau", "lat": 52.2297, "lon": 21.0122 }
-    },
-    {
-      "id": "unabhaengigkeit-usa-1776", "title": "Amerikanische Unabhängigkeitserklärung", "start": "1776-07-04", "importance": 1,
-      "description": "Die 13 Kolonien erklärten sich von Großbritannien unabhängig – mit der Begründung unveräußerlicher Menschenrechte.",
-      "place": { "name": "Philadelphia", "lat": 39.9489, "lon": -75.15 },
-      "attributes": { "Krieg": "Unabhängigkeitskrieg 1775–1783" }
-    },
-    {
-      "id": "franzoesische-revolution", "title": "Französische Revolution", "start": "1789-07-14", "end": "1799-11-09", "importance": 1,
-      "description": "Sturm auf die Bastille; Erklärung der Menschen- und Bürgerrechte, Ende der absoluten Monarchie. Marie Antoinette, Tochter Maria Theresias, wurde 1793 hingerichtet.",
-      "place": { "name": "Paris", "lat": 48.853, "lon": 2.3691 }
-    },
-    {
-      "id": "napoleonische-kriege", "title": "Napoleonische Kriege", "start": "1799-11-09", "end": "1815-06-18", "importance": 2,
-      "description": "Napoleon beherrschte Europa bis zu seiner Niederlage; Österreich verlor mehrfach Gebiete und kämpfte in wechselnden Koalitionen.",
-      "place": { "name": "Europa", "lat": 48.0, "lon": 8.0 }
-    },
-    {
-      "id": "waterloo-1815", "title": "Schlacht bei Waterloo", "start": "1815-06-18", "importance": 3,
-      "description": "Endgültige Niederlage Napoleons.",
-      "place": { "name": "Waterloo", "lat": 50.7148, "lon": 4.3996 }
-    },
-    {
-      "id": "kommunistisches-manifest", "title": "Kommunistisches Manifest", "start": "1848-02", "importance": 3,
-      "description": "Karl Marx und Friedrich Engels veröffentlichten ihre Programmschrift.",
-      "place": { "name": "London", "lat": 51.5074, "lon": -0.1278 }
-    },
-    {
-      "id": "krimkrieg", "title": "Krimkrieg", "start": "1853-10", "end": "1856-03-30", "importance": 4,
-      "description": "Krieg Russlands gegen das Osmanische Reich, Großbritannien und Frankreich; Österreichs Neutralität kostete es die russische Freundschaft.",
-      "place": { "name": "Krim", "lat": 44.95, "lon": 34.1 }
-    },
-    {
-      "id": "italien-einigung-1861", "title": "Gründung des Königreichs Italien", "start": "1861-03-17", "importance": 3,
-      "description": "Die italienische Einigung ging zulasten Österreichs, das 1859 die Lombardei und 1866 Venetien verlor.",
-      "place": { "name": "Turin", "lat": 45.0703, "lon": 7.6869 }
-    },
-    {
-      "id": "us-buergerkrieg", "title": "Amerikanischer Bürgerkrieg", "start": "1861-04-12", "end": "1865-05", "importance": 3,
-      "description": "Krieg zwischen Nord- und Südstaaten; endete mit der Abschaffung der Sklaverei.",
-      "place": { "name": "USA", "lat": 38.0, "lon": -78.0 }
-    },
-    {
-      "id": "suezkanal-1869", "title": "Eröffnung des Suezkanals", "start": "1869-11-17", "importance": 4,
-      "description": "Kaiser Franz Joseph nahm an der Eröffnung teil.",
-      "place": { "name": "Port Said", "lat": 31.2653, "lon": 32.3019 }
-    },
-    {
-      "id": "reichsgruendung-1871", "title": "Gründung des Deutschen Kaiserreichs", "start": "1871-01-18", "importance": 2,
-      "description": "Nach dem Deutsch-Französischen Krieg wurde in Versailles der preußische König zum Deutschen Kaiser ausgerufen – ohne Österreich („kleindeutsche Lösung“).",
-      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
-    },
-    {
-      "id": "berliner-kongress-1878", "title": "Berliner Kongress", "start": "1878-06-13", "end": "1878-07-13", "importance": 4,
-      "description": "Neuordnung des Balkans; Österreich-Ungarn erhielt die Verwaltung Bosnien-Herzegowinas.",
-      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
-    },
-    {
-      "id": "titanic-1912", "title": "Untergang der Titanic", "start": "1912-04-15", "importance": 5,
-      "description": "Der als unsinkbar geltende Ozeandampfer sank auf seiner Jungfernfahrt.",
-      "place": { "name": "Nordatlantik", "lat": 41.73, "lon": -49.95 }
-    },
-    {
-      "id": "erster-weltkrieg", "title": "Erster Weltkrieg", "start": "1914-07-28", "end": "1918-11-11", "importance": 1,
-      "description": "Mit der Kriegserklärung Österreich-Ungarns an Serbien begann der Weltkrieg, der rund 17 Millionen Tote forderte und die alten Monarchien zerstörte.",
-      "place": { "name": "Europa", "lat": 48.0, "lon": 10.0 }
-    },
-    {
-      "id": "oktoberrevolution-1917", "title": "Russische Oktoberrevolution", "start": "1917-11-07", "importance": 2,
-      "description": "Die Bolschewiki unter Lenin übernahmen die Macht in Russland.",
-      "place": { "name": "Petrograd", "lat": 59.9343, "lon": 30.3351 }
-    },
-    {
-      "id": "spanische-grippe", "title": "Spanische Grippe", "start": "1918", "end": "1920", "importance": 3,
-      "description": "Weltweite Grippepandemie mit zig Millionen Toten, darunter Egon Schiele.",
-      "place": { "name": "weltweit", "lat": 30.0, "lon": 0.0 }
-    },
-    {
-      "id": "versailles-1919", "title": "Vertrag von Versailles", "start": "1919-06-28", "importance": 2,
-      "description": "Friedensvertrag mit Deutschland; Gründung des Völkerbunds (1920).",
-      "place": { "name": "Versailles", "lat": 48.8049, "lon": 2.1204 }
-    },
-    {
-      "id": "marco-polo", "title": "Reisen Marco Polos", "start": "1271", "end": "1295", "importance": 4,
-      "description": "Der Venezianer reiste bis nach China; sein Reisebericht prägte das europäische Bild Asiens.",
-      "place": { "name": "Venedig", "lat": 45.4408, "lon": 12.3155 }
-    },
-    {
-      "id": "eidgenossenschaft-1291", "title": "Bund der Eidgenossen", "start": "1291-08", "importance": 4,
-      "description": "Uri, Schwyz und Unterwalden schlossen ein Bündnis – auch gegen habsburgische Ansprüche.",
-      "place": { "name": "Rütli", "lat": 46.9681, "lon": 8.5928 }
-    },
-    {
-      "id": "avignon", "title": "Päpste in Avignon", "start": "1309", "end": "1377", "importance": 4,
-      "description": "Die Päpste residierten fast 70 Jahre in Avignon unter französischem Einfluss.",
-      "place": { "name": "Avignon", "lat": 43.9493, "lon": 4.8055 }
-    },
-    {
-      "id": "hundertjaehriger-krieg", "title": "Hundertjähriger Krieg", "start": "1337", "end": "1453", "importance": 3,
-      "description": "Konflikt zwischen England und Frankreich; Jeanne d’Arc wendete 1429 das Blatt.",
-      "place": { "name": "Frankreich", "lat": 47.0, "lon": 2.0 }
-    },
-    {
-      "id": "schwarzer-tod", "title": "Schwarzer Tod", "start": "1347", "end": "1351", "importance": 1,
-      "description": "Die Pest tötete in wenigen Jahren rund ein Drittel der Bevölkerung Europas.",
-      "place": { "name": "Europa", "lat": 48.0, "lon": 10.0 }
-    },
-    {
-      "id": "goldene-bulle-1356", "title": "Goldene Bulle", "start": "1356-01-10", "importance": 2,
-      "description": "Reichsgesetz Karls IV., das die Königswahl durch sieben Kurfürsten regelte; die Habsburger waren nicht darunter.",
-      "place": { "name": "Nürnberg / Metz", "lat": 49.4521, "lon": 11.0767 }
-    },
-    {
-      "id": "abendlaendisches-schisma", "title": "Abendländisches Schisma", "start": "1378", "end": "1417", "importance": 4,
-      "description": "Zwei, zeitweise drei Päpste beanspruchten das Amt.",
-      "place": { "name": "Rom / Avignon", "lat": 43.0, "lon": 8.0 }
-    },
-    {
-      "id": "konstanz-1414", "title": "Konzil von Konstanz", "start": "1414-11-05", "end": "1418-04-22", "importance": 3,
-      "description": "Beendete das Schisma; der Prager Reformator Jan Hus wurde 1415 verbrannt.",
-      "place": { "name": "Konstanz", "lat": 47.6603, "lon": 9.1758 }
-    },
-    {
-      "id": "hussitenkriege", "title": "Hussitenkriege", "start": "1419", "end": "1436", "importance": 3,
-      "description": "Kriege in Böhmen nach dem Tod von Jan Hus; Hussitenheere zogen auch plündernd durch Österreich.",
-      "place": { "name": "Böhmen", "lat": 50.0, "lon": 14.5 }
-    },
-    {
-      "id": "konstantinopel-1453", "title": "Fall Konstantinopels", "start": "1453-05-29", "importance": 1,
-      "description": "Die Osmanen unter Mehmed II. eroberten Konstantinopel; Ende des Byzantinischen Reiches.",
-      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
-    },
-    {
-      "id": "rosenkriege", "title": "Rosenkriege", "start": "1455", "end": "1485", "importance": 5,
-      "description": "Thronkämpfe in England zwischen den Häusern Lancaster und York.",
-      "place": { "name": "England", "lat": 52.5, "lon": -1.5 }
-    },
-    {
-      "id": "granada-1492", "title": "Fall Granadas", "start": "1492-01-02", "importance": 4,
-      "description": "Ende der Reconquista auf der Iberischen Halbinsel.",
-      "place": { "name": "Granada", "lat": 37.1773, "lon": -3.5986 }
-    },
-    {
-      "id": "kolumbus-1492", "title": "Kolumbus erreicht Amerika", "start": "1492-10-12", "importance": 1,
-      "description": "Christoph Kolumbus landete auf einer Insel der Bahamas – Beginn der europäischen Kolonisierung Amerikas.",
-      "place": { "name": "Bahamas", "lat": 24.0, "lon": -74.5 }
-    },
-    {
-      "id": "vasco-da-gama-1498", "title": "Seeweg nach Indien", "start": "1498-05-20", "importance": 4,
-      "description": "Vasco da Gama erreichte Calicut um das Kap der Guten Hoffnung.",
-      "place": { "name": "Kozhikode (Calicut)", "lat": 11.2588, "lon": 75.7804 }
-    },
-    {
-      "id": "kaiserkroenung-800", "title": "Kaiserkrönung Karls des Großen", "short": "Kaiserkrönung 800", "start": "800-12-25", "importance": 1,
-      "description": "Papst Leo III. krönte Karl in Rom zum Kaiser – Erneuerung des weströmischen Kaisertums.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
-    },
-    {
-      "id": "wikinger", "title": "Wikingerzüge", "start": "793", "end": "1066", "importance": 4,
-      "description": "Skandinavische Seefahrer plünderten und besiedelten Küsten Europas.",
-      "place": { "name": "Nordsee", "lat": 56.0, "lon": 3.0 }
-    },
-    {
-      "id": "verdun-843", "title": "Vertrag von Verdun", "start": "843-08", "importance": 2,
-      "description": "Teilung des Frankenreichs unter den Enkeln Karls des Großen; Keimzelle Frankreichs und Deutschlands.",
-      "place": { "name": "Verdun", "lat": 49.1598, "lon": 5.3844 }
-    },
-    {
-      "id": "kaiserkroenung-962", "title": "Kaiserkrönung Ottos I.", "short": "Kaiserkrönung 962", "start": "962-02-02", "importance": 1,
-      "description": "Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums, das bis 1806 bestand.",
-      "place": { "name": "Rom", "lat": 41.9022, "lon": 12.4539 }
-    },
-    {
-      "id": "schisma-1054", "title": "Morgenländisches Schisma", "start": "1054-07-16", "importance": 2,
-      "description": "Bruch zwischen der lateinischen und der orthodoxen Kirche.",
-      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
-    },
-    {
-      "id": "hastings-1066", "title": "Schlacht bei Hastings", "start": "1066-10-14", "importance": 3,
-      "description": "Normannische Eroberung Englands.",
-      "place": { "name": "Hastings", "lat": 50.9126, "lon": 0.487 }
-    },
-    {
-      "id": "canossa-1077", "title": "Gang nach Canossa", "start": "1077-01", "importance": 2,
-      "description": "Heinrich IV. erwirkte durch Buße die Lösung vom Kirchenbann – Höhepunkt des Investiturstreits.",
-      "place": { "name": "Canossa", "lat": 44.5767, "lon": 10.4558 }
-    },
-    {
-      "id": "kreuzzuege", "title": "Kreuzzüge", "start": "1096", "end": "1291", "importance": 1,
-      "description": "Kriegszüge der lateinischen Christenheit ins Heilige Land; auch österreichische Herzöge nahmen teil.",
-      "place": { "name": "Jerusalem", "lat": 31.7683, "lon": 35.2137 }
-    },
-    {
-      "id": "wormser-konkordat-1122", "title": "Wormser Konkordat", "start": "1122-09-23", "importance": 3,
-      "description": "Beendete den Investiturstreit zwischen Kaiser und Papst.",
-      "place": { "name": "Worms", "lat": 49.6341, "lon": 8.3507 }
-    },
-    {
-      "id": "jerusalem-1187", "title": "Saladin erobert Jerusalem", "start": "1187-10-02", "importance": 4,
-      "description": "Auslöser des Dritten Kreuzzugs.",
-      "place": { "name": "Jerusalem", "lat": 31.7683, "lon": 35.2137 }
-    },
-    {
-      "id": "konstantinopel-1204", "title": "Plünderung Konstantinopels", "start": "1204-04-13", "importance": 4,
-      "description": "Der Vierte Kreuzzug eroberte und plünderte die byzantinische Hauptstadt.",
-      "place": { "name": "Konstantinopel", "lat": 41.0082, "lon": 28.9784 }
-    },
-    {
-      "id": "magna-carta-1215", "title": "Magna Carta", "start": "1215-06-15", "importance": 2,
-      "description": "Der englische König gestand dem Adel grundlegende Rechte zu – Meilenstein der Verfassungsgeschichte.",
-      "place": { "name": "Runnymede", "lat": 51.444, "lon": -0.565 }
-    },
-    {
-      "id": "liegnitz-1241", "title": "Mongolensturm", "start": "1241-04-09", "importance": 3,
-      "description": "Mongolische Heere siegten bei Liegnitz und Muhi; Mitteleuropa blieb nur durch ihren Rückzug verschont.",
-      "place": { "name": "Liegnitz (Legnica)", "lat": 51.207, "lon": 16.1553 }
-    },
-    {
-      "id": "interregnum", "title": "Interregnum", "start": "1254", "end": "1273-10-01", "importance": 3,
-      "description": "„Kaiserlose, schreckliche Zeit“ ohne allgemein anerkannten König, beendet durch die Wahl Rudolfs von Habsburg.",
-      "place": { "name": "Heiliges Römisches Reich", "lat": 50.0, "lon": 10.0 }
-    },
-    {
-      "id": "weltwirtschaftskrise-1929", "title": "Weltwirtschaftskrise", "start": "1929-10-24", "importance": 2,
-      "description": "Der Börsenkrach in New York stürzte die Welt in eine tiefe Depression.",
-      "place": { "name": "New York", "lat": 40.7069, "lon": -74.0113 }
-    },
-    {
-      "id": "machtergreifung-1933", "title": "NS-Machtübernahme in Deutschland", "start": "1933-01-30", "importance": 3,
-      "description": "Hitler wurde Reichskanzler.",
-      "place": { "name": "Berlin", "lat": 52.52, "lon": 13.405 }
-    },
-    {
-      "id": "zweiter-weltkrieg", "title": "Zweiter Weltkrieg", "start": "1939-09-01", "end": "1945-05-08", "importance": 1,
-      "description": "Mit über 60 Millionen Toten der verheerendste Krieg der Geschichte.",
-      "place": { "name": "Europa", "lat": 50.0, "lon": 15.0 }
-    },
-    {
-      "id": "holocaust", "title": "Holocaust (Shoah)", "start": "1941", "end": "1945", "importance": 1,
-      "description": "Systematischer Völkermord an rund sechs Millionen europäischen Juden sowie Verfolgung und Ermordung von Roma, Behinderten und politischen Gegnern.",
-      "place": { "name": "Auschwitz", "lat": 50.0343, "lon": 19.1784 }
-    },
-    {
-      "id": "hiroshima-1945", "title": "Atombomben auf Hiroshima und Nagasaki", "start": "1945-08-06", "importance": 2,
-      "description": "Erster und bisher einziger Einsatz von Atomwaffen im Krieg.",
-      "place": { "name": "Hiroshima", "lat": 34.3853, "lon": 132.4553 }
-    },
-    {
-      "id": "uno-1945", "title": "Gründung der Vereinten Nationen", "start": "1945-10-24", "importance": 3,
-      "description": "Die UNO-Charta trat in Kraft.",
-      "place": { "name": "New York", "lat": 40.7489, "lon": -73.968 }
-    },
-    {
-      "id": "kalter-krieg", "title": "Kalter Krieg", "start": "1947", "end": "1991", "importance": 2,
-      "description": "Systemkonflikt zwischen USA und Sowjetunion; Österreich lag als neutraler Staat an der Bruchlinie.",
-      "place": { "name": "Europa", "lat": 50.0, "lon": 15.0 }
-    },
-    {
-      "id": "israel-1948", "title": "Gründung Israels", "start": "1948-05-14", "importance": 3,
-      "description": "Unabhängigkeitserklärung des Staates Israel.",
-      "place": { "name": "Tel Aviv", "lat": 32.0853, "lon": 34.7818 }
-    },
-    {
-      "id": "roemische-vertraege-1957", "title": "Römische Verträge", "start": "1957-03-25", "importance": 3,
-      "description": "Gründung der Europäischen Wirtschaftsgemeinschaft.",
-      "place": { "name": "Rom", "lat": 41.9028, "lon": 12.4964 }
-    },
-    {
-      "id": "kubakrise-1962", "title": "Kubakrise", "start": "1962-10", "importance": 3,
-      "description": "Die Welt stand am Rand eines Atomkriegs.",
-      "place": { "name": "Kuba", "lat": 21.5, "lon": -79.0 }
-    },
-    {
-      "id": "mondlandung-1969", "title": "Mondlandung", "start": "1969-07-20", "importance": 2,
-      "description": "Neil Armstrong und Buzz Aldrin betraten als erste Menschen den Mond.",
-      "place": { "name": "Mond", "lat": 0.674, "lon": 23.472 }
-    },
-    {
-      "id": "mauerfall-1989", "title": "Fall der Berliner Mauer", "short": "Mauerfall", "start": "1989-11-09", "importance": 1,
-      "description": "Ende der Teilung Europas; die Staaten Ostmitteleuropas wurden frei.",
-      "place": { "name": "Berlin", "lat": 52.5163, "lon": 13.3777 }
-    },
-    {
-      "id": "ende-sowjetunion-1991", "title": "Auflösung der Sowjetunion", "start": "1991-12-26", "importance": 2,
-      "description": "Ende des Kalten Krieges.",
-      "place": { "name": "Moskau", "lat": 55.7558, "lon": 37.6173 }
-    },
-    {
-      "id": "jugoslawienkriege", "title": "Jugoslawienkriege", "start": "1991", "end": "2001", "importance": 3,
-      "description": "Kriege beim Zerfall Jugoslawiens, nahe der österreichischen Grenze.",
-      "place": { "name": "Sarajevo", "lat": 43.8563, "lon": 18.4131 }
-    },
-    {
-      "id": "nine-eleven", "title": "Terroranschläge vom 11. September", "short": "11. September", "start": "2001-09-11", "importance": 2,
-      "description": "Anschläge auf das World Trade Center und das Pentagon.",
-      "place": { "name": "New York", "lat": 40.7115, "lon": -74.0134 }
-    },
-    {
-      "id": "finanzkrise-2008", "title": "Weltfinanzkrise", "start": "2008-09-15", "importance": 3,
-      "description": "Der Zusammenbruch der Bank Lehman Brothers löste eine globale Wirtschaftskrise aus.",
-      "place": { "name": "New York", "lat": 40.7069, "lon": -74.0113 }
-    },
-    {
-      "id": "covid-pandemie", "title": "COVID-19-Pandemie", "start": "2020-03-11", "importance": 2,
-      "description": "Die WHO erklärte den Ausbruch zur Pandemie.",
-      "place": { "name": "weltweit", "lat": 30.0, "lon": 0.0 }
-    }
+    {"id":"italienische-kriege","title":"Italienische Kriege","start":"1494","end":"1559-04-03","importance":3,"description":"Kriege um die Vorherrschaft in Italien, vor allem zwischen Frankreich und den Habsburgern; beendet durch den Frieden von Cateau-Cambrésis.","place":{"name":"Italien","lat":43,"lon":12}},
+    {"id":"petersdom-1506","title":"Grundsteinlegung des neuen Petersdoms","start":"1506-04-18","importance":4,"description":"Papst Julius II. legte den Grundstein für den Neubau nach Plänen Bramantes. Der Ablasshandel zur Finanzierung wurde zu einem Auslöser der Reformation.","place":{"name":"Rom","lat":41.9022,"lon":12.4539}},
+    {"id":"sixtina-1508","title":"Michelangelo malt die Sixtinische Decke","start":"1508","end":"1512","importance":5,"description":"Deckenfresken der Sixtinischen Kapelle im Auftrag Papst Julius’ II.","place":{"name":"Vatikan","lat":41.9029,"lon":12.4545}},
+    {"id":"thesen-luther-1517","title":"Luthers 95 Thesen","start":"1517-10-31","importance":1,"description":"Martin Luther veröffentlichte in Wittenberg seine Thesen gegen den Ablasshandel – Beginn der Reformation.","place":{"name":"Wittenberg","lat":51.8664,"lon":12.6433}},
+    {"id":"magellan-1519","title":"Erste Weltumsegelung (Magellan/Elcano)","start":"1519-09-20","end":"1522-09-06","importance":2,"description":"Die spanische Expedition unter Ferdinand Magellan umrundete erstmals die Erde; Magellan fiel 1521, Juan Sebastián Elcano führte die Fahrt zu Ende.","place":{"name":"Sanlúcar de Barrameda","lat":36.7781,"lon":-6.3515}},
+    {"id":"sueleyman-1520","title":"Süleyman I. wird Sultan","start":"1520-09","importance":4,"description":"Unter Süleyman dem Prächtigen erreichte das Osmanische Reich seine größte Machtentfaltung; er führte die Feldzüge gegen Ungarn und Wien.","place":{"name":"Istanbul","lat":41.0082,"lon":28.9784}},
+    {"id":"reichstag-worms-1521","title":"Reichstag zu Worms","start":"1521-01","end":"1521-05","importance":2,"description":"Luther verweigerte vor Karl V. den Widerruf; das Wormser Edikt verhängte die Reichsacht über ihn.","place":{"name":"Worms","lat":49.6341,"lon":8.3507}},
+    {"id":"tenochtitlan-1521","title":"Eroberung Tenochtitláns","start":"1521-08-13","importance":3,"description":"Hernán Cortés eroberte die Hauptstadt der Azteken – Beginn der spanischen Kolonialherrschaft in Mexiko.","place":{"name":"Tenochtitlán (Mexiko-Stadt)","lat":19.4326,"lon":-99.1332}},
+    {"id":"bauernkrieg-1524","title":"Deutscher Bauernkrieg","start":"1524","end":"1526","importance":3,"description":"Erhebungen von Bauern in weiten Teilen Süd- und Mitteldeutschlands, blutig niedergeschlagen (Schlacht bei Frankenhausen 1525).","place":{"name":"Süddeutschland","lat":48.8,"lon":9.5}},
+    {"id":"sacco-di-roma-1527","title":"Sacco di Roma","start":"1527-05-06","importance":4,"description":"Plünderung Roms durch meuternde Truppen Karls V.","place":{"name":"Rom","lat":41.9028,"lon":12.4964}},
+    {"id":"confessio-augustana-1530","title":"Confessio Augustana","start":"1530-06-25","importance":4,"description":"Das Augsburger Bekenntnis der lutherischen Reichsstände wurde auf dem Reichstag zu Augsburg verlesen.","place":{"name":"Augsburg","lat":48.3705,"lon":10.8978}},
+    {"id":"pizarro-1532","title":"Pizarro nimmt Atahualpa gefangen","start":"1532-11-16","importance":4,"description":"In Cajamarca nahm Francisco Pizarro den Inka-Herrscher gefangen – Beginn der Eroberung des Inkareichs.","place":{"name":"Cajamarca","lat":-7.1638,"lon":-78.5003}},
+    {"id":"suprematsakte-1534","title":"Suprematsakte in England","start":"1534-11","importance":3,"description":"Heinrich VIII. wurde Oberhaupt der Kirche von England – Bruch mit Rom.","place":{"name":"London","lat":51.5074,"lon":-0.1278}},
+    {"id":"konzil-trient","title":"Konzil von Trient","start":"1545-12-13","end":"1563-12-04","importance":1,"description":"Reformkonzil der katholischen Kirche als Antwort auf die Reformation; Grundlage der Gegenreformation.","place":{"name":"Trient","lat":46.0679,"lon":11.1211}},
+    {"id":"schmalkaldischer-krieg","title":"Schmalkaldischer Krieg","start":"1546-07","end":"1547-05","importance":4,"description":"Karl V. besiegte den Bund der protestantischen Fürsten in der Schlacht bei Mühlberg (24. April 1547).","place":{"name":"Mühlberg/Elbe","lat":51.4333,"lon":13.2167}},
+    {"id":"augsburger-religionsfriede-1555","title":"Augsburger Religionsfriede","start":"1555-09-25","importance":1,"description":"Reichsgesetz, das Lutheranern und Katholiken ein Nebeneinander im Reich erlaubte: „cuius regio, eius religio“.","place":{"name":"Augsburg","lat":48.3705,"lon":10.8978}},
+    {"id":"abdankung-karl-v-1556","title":"Abdankung Karls V.","start":"1556","importance":2,"description":"Teilung des Habsburgerreichs in eine spanische Linie (Philipp II.) und eine österreichische Linie (Ferdinand I.).","place":{"name":"Brüssel","lat":50.8503,"lon":4.3517}},
+    {"id":"elisabeth-i-1558","title":"Elisabeth I. wird Königin von England","start":"1558-11-17","importance":4,"description":"Beginn des „Elisabethanischen Zeitalters“ (bis 1603).","place":{"name":"London","lat":51.5074,"lon":-0.1278}},
+    {"id":"hugenottenkriege","title":"Hugenottenkriege","start":"1562","end":"1598","importance":3,"description":"Konfessionelle Bürgerkriege in Frankreich, beendet durch das Edikt von Nantes.","place":{"name":"Frankreich","lat":46.6,"lon":2.4}},
+    {"id":"achtzigjaehriger-krieg","title":"Achtzigjähriger Krieg (Beginn)","start":"1568","end":"1648","importance":3,"description":"Aufstand der Niederlande gegen die spanische Herrschaft; endete mit der Anerkennung der Republik im Westfälischen Frieden 1648.","place":{"name":"Niederlande","lat":52.1,"lon":5.3}},
+    {"id":"lepanto-1571","title":"Seeschlacht von Lepanto","start":"1571-10-07","importance":2,"description":"Sieg der Heiligen Liga unter Don Juan de Austria über die osmanische Flotte.","place":{"name":"Golf von Patras","lat":38.25,"lon":21.2}},
+    {"id":"bartholomaeusnacht-1572","title":"Bartholomäusnacht","start":"1572-08-24","importance":3,"description":"Massaker an Hugenotten in Paris und anderen französischen Städten.","place":{"name":"Paris","lat":48.8566,"lon":2.3522}},
+    {"id":"utrechter-union-1579","title":"Utrechter Union","start":"1579-01-23","importance":4,"description":"Zusammenschluss der nördlichen niederländischen Provinzen gegen Spanien.","place":{"name":"Utrecht","lat":52.0907,"lon":5.1214}},
+    {"id":"plakkaat-1581","title":"Unabhängigkeitserklärung der Niederlande","start":"1581-07-26","importance":4,"description":"Mit dem „Plakkaat van Verlatinghe“ sagten sich die Generalstaaten von Philipp II. los.","place":{"name":"Den Haag","lat":52.0705,"lon":4.3007}},
+    {"id":"gregorianischer-kalender-1582","title":"Gregorianischer Kalender","start":"1582-10-15","importance":3,"description":"Papst Gregor XIII. führte die Kalenderreform ein: Auf den 4. folgte der 15. Oktober 1582. In den österreichischen Ländern wurde er 1583/84 übernommen.","place":{"name":"Rom","lat":41.9028,"lon":12.4964}},
+    {"id":"armada-1588","title":"Untergang der Spanischen Armada","start":"1588-07","end":"1588-09","importance":2,"description":"Die spanische Invasionsflotte gegen England scheiterte; Aufstieg Englands zur Seemacht.","place":{"name":"Ärmelkanal","lat":50.2,"lon":-1}},
+    {"id":"edikt-nantes-1598","title":"Edikt von Nantes","start":"1598-04-13","importance":3,"description":"Heinrich IV. gewährte den Hugenotten Religionsfreiheit und beendete die Hugenottenkriege.","place":{"name":"Nantes","lat":47.2184,"lon":-1.5536}},
+    {"id":"giordano-bruno-1600","title":"Hinrichtung Giordano Brunos","start":"1600-02-17","importance":5,"description":"Der Philosoph wurde von der Inquisition in Rom als Ketzer verbrannt.","place":{"name":"Rom, Campo de’ Fiori","lat":41.8956,"lon":12.4722}},
+    {"id":"voc-1602","title":"Gründung der Niederländischen Ostindien-Kompanie","short":"Ostindien-Kompanie","start":"1602-03-20","importance":3,"description":"Die VOC wurde zur ersten großen Aktiengesellschaft und zum Instrument des niederländischen Welthandels.","place":{"name":"Amsterdam","lat":52.3676,"lon":4.9041}},
+    {"id":"jamestown-1607","title":"Gründung von Jamestown","start":"1607-05","importance":4,"description":"Erste dauerhafte englische Siedlung in Nordamerika.","place":{"name":"Jamestown, Virginia","lat":37.2096,"lon":-76.7774}},
+    {"id":"dreissigjaehriger-krieg","title":"Dreißigjähriger Krieg","start":"1618-05-23","end":"1648-10-24","importance":1,"description":"Konfessioneller und machtpolitischer Krieg in Mitteleuropa mit verheerenden Folgen für die Bevölkerung; endete mit dem Westfälischen Frieden.","place":{"name":"Mitteleuropa","lat":50.5,"lon":11}},
+    {"id":"mayflower-1620","title":"Landung der Mayflower","start":"1620-11","importance":4,"description":"Puritanische Siedler gründeten die Plymouth-Kolonie in Neuengland.","place":{"name":"Plymouth, Massachusetts","lat":41.9584,"lon":-70.6673}},
+    {"id":"luetzen-1632","title":"Schlacht bei Lützen","start":"1632-11-16","importance":4,"description":"Sieg der Schweden über Wallenstein; König Gustav II. Adolf fiel in der Schlacht.","place":{"name":"Lützen","lat":51.2569,"lon":12.1383}},
+    {"id":"englischer-buergerkrieg","title":"Englischer Bürgerkrieg","start":"1642-08","end":"1651-09","importance":3,"description":"Krieg zwischen König und Parlament; 1649 wurde Karl I. hingerichtet, England für einige Jahre Republik unter Cromwell.","place":{"name":"England","lat":52.5,"lon":-1.5}},
+    {"id":"ludwig-xiv","title":"Herrschaft Ludwigs XIV.","short":"Ludwig XIV.","start":"1643-05-14","end":"1715-09-01","importance":2,"description":"Der „Sonnenkönig“ machte Frankreich zur führenden Macht Europas und zum Hauptgegner der Habsburger; Versailles wurde Vorbild für Residenzen in ganz Europa.","place":{"name":"Versailles","lat":48.8049,"lon":2.1204}},
+    {"id":"westfaelischer-friede-1648","title":"Westfälischer Friede","start":"1648-10-24","importance":1,"description":"Friedensschlüsse von Münster und Osnabrück: Ende des Dreißigjährigen Krieges, Anerkennung der Niederlande und der Schweiz, Stärkung der Reichsstände gegenüber dem Kaiser.","place":{"name":"Münster","lat":51.9607,"lon":7.6261}},
+    {"id":"brand-london-1666","title":"Großer Brand von London","start":"1666-09","importance":5,"description":"Ein mehrtägiger Brand zerstörte große Teile der Londoner Innenstadt.","place":{"name":"London","lat":51.5138,"lon":-0.0984}},
+    {"id":"edikt-fontainebleau-1685","title":"Edikt von Fontainebleau","start":"1685-10-18","importance":4,"description":"Ludwig XIV. widerrief das Edikt von Nantes; Hunderttausende Hugenotten flohen ins Ausland.","place":{"name":"Fontainebleau","lat":48.4047,"lon":2.7016}},
+    {"id":"glorious-revolution-1688","title":"Glorious Revolution","start":"1688","end":"1689","importance":3,"description":"Sturz Jakobs II. in England; die Bill of Rights (1689) begründete die parlamentarische Monarchie.","place":{"name":"London","lat":51.5074,"lon":-0.1278}},
+    {"id":"grosser-nordischer-krieg","title":"Großer Nordischer Krieg","start":"1700","end":"1721","importance":3,"description":"Russland unter Peter dem Großen löste Schweden als Vormacht im Ostseeraum ab.","place":{"name":"Ostseeraum","lat":59,"lon":22}},
+    {"id":"spanischer-erbfolgekrieg","title":"Spanischer Erbfolgekrieg","start":"1701","end":"1714","importance":2,"description":"Nach dem Aussterben der spanischen Habsburger kämpften Österreich, England und die Niederlande gegen Frankreich um das spanische Erbe; Prinz Eugen wurde zum gefeierten Feldherrn.","place":{"name":"Europa","lat":48,"lon":8}},
+    {"id":"st-petersburg-1703","title":"Gründung von St. Petersburg","start":"1703-05-27","importance":4,"description":"Peter der Große gründete die neue Hauptstadt als „Fenster nach Europa“.","place":{"name":"St. Petersburg","lat":59.9343,"lon":30.3351}},
+    {"id":"hoechstaedt-1704","title":"Schlacht bei Höchstädt","start":"1704-08-13","importance":4,"description":"Sieg Prinz Eugens und Marlboroughs über Frankreich und Bayern – Wendepunkt im Spanischen Erbfolgekrieg.","place":{"name":"Höchstädt an der Donau","lat":48.6106,"lon":10.5636}},
+    {"id":"utrecht-1713","title":"Frieden von Utrecht","start":"1713-04-11","importance":3,"description":"Ende des Spanischen Erbfolgekriegs für England und die Niederlande: Philipp V. (Bourbon) blieb König von Spanien; Grundlage des europäischen Gleichgewichts.","place":{"name":"Utrecht","lat":52.0907,"lon":5.1214}},
+    {"id":"lissabon-1755","title":"Erdbeben von Lissabon","start":"1755-11-01","importance":4,"description":"Die Zerstörung Lissabons erschütterte den Optimismus der Aufklärung.","place":{"name":"Lissabon","lat":38.7223,"lon":-9.1393}},
+    {"id":"siebenjaehriger-krieg","title":"Siebenjähriger Krieg (weltweit)","start":"1756","end":"1763","importance":3,"description":"Erster globaler Krieg der europäischen Mächte, auch in Nordamerika und Indien; Großbritannien wurde führende Kolonialmacht.","place":{"name":"Europa / Nordamerika","lat":50,"lon":0}},
+    {"id":"industrielle-revolution","title":"Industrielle Revolution in Großbritannien","short":"Industrielle Revolution","start":"~1760","end":"~1840","importance":2,"description":"Übergang zur maschinellen Produktion mit Dampfkraft, Textilfabriken und Eisenbahnen.","place":{"name":"Manchester","lat":53.4808,"lon":-2.2426}},
+    {"id":"polnische-teilungen","title":"Polnische Teilungen","start":"1772","end":"1795","importance":4,"description":"Russland, Preußen und Österreich teilten Polen-Litauen unter sich auf; Österreich erhielt Galizien.","place":{"name":"Warschau","lat":52.2297,"lon":21.0122}},
+    {"id":"unabhaengigkeit-usa-1776","title":"Amerikanische Unabhängigkeitserklärung","start":"1776-07-04","importance":1,"description":"Die 13 Kolonien erklärten sich von Großbritannien unabhängig – mit der Begründung unveräußerlicher Menschenrechte.","place":{"name":"Philadelphia","lat":39.9489,"lon":-75.15},"attributes":{"Krieg":"Unabhängigkeitskrieg 1775–1783"}},
+    {"id":"franzoesische-revolution","title":"Französische Revolution","start":"1789-07-14","end":"1799-11-09","importance":1,"description":"Sturm auf die Bastille; Erklärung der Menschen- und Bürgerrechte, Ende der absoluten Monarchie. Marie Antoinette, Tochter Maria Theresias, wurde 1793 hingerichtet.","place":{"name":"Paris","lat":48.853,"lon":2.3691}},
+    {"id":"napoleonische-kriege","title":"Napoleonische Kriege","start":"1799-11-09","end":"1815-06-18","importance":2,"description":"Napoleon beherrschte Europa bis zu seiner Niederlage; Österreich verlor mehrfach Gebiete und kämpfte in wechselnden Koalitionen.","place":{"name":"Europa","lat":48,"lon":8}},
+    {"id":"waterloo-1815","title":"Schlacht bei Waterloo","start":"1815-06-18","importance":3,"description":"Endgültige Niederlage Napoleons.","place":{"name":"Waterloo","lat":50.7148,"lon":4.3996}},
+    {"id":"kommunistisches-manifest","title":"Kommunistisches Manifest","start":"1848-02","importance":3,"description":"Karl Marx und Friedrich Engels veröffentlichten ihre Programmschrift.","place":{"name":"London","lat":51.5074,"lon":-0.1278}},
+    {"id":"krimkrieg","title":"Krimkrieg","start":"1853-10","end":"1856-03-30","importance":4,"description":"Krieg Russlands gegen das Osmanische Reich, Großbritannien und Frankreich; Österreichs Neutralität kostete es die russische Freundschaft.","place":{"name":"Krim","lat":44.95,"lon":34.1}},
+    {"id":"italien-einigung-1861","title":"Gründung des Königreichs Italien","start":"1861-03-17","importance":3,"description":"Die italienische Einigung ging zulasten Österreichs, das 1859 die Lombardei und 1866 Venetien verlor.","place":{"name":"Turin","lat":45.0703,"lon":7.6869}},
+    {"id":"us-buergerkrieg","title":"Amerikanischer Bürgerkrieg","start":"1861-04-12","end":"1865-05","importance":3,"description":"Krieg zwischen Nord- und Südstaaten; endete mit der Abschaffung der Sklaverei.","place":{"name":"USA","lat":38,"lon":-78}},
+    {"id":"suezkanal-1869","title":"Eröffnung des Suezkanals","start":"1869-11-17","importance":4,"description":"Kaiser Franz Joseph nahm an der Eröffnung teil.","place":{"name":"Port Said","lat":31.2653,"lon":32.3019}},
+    {"id":"reichsgruendung-1871","title":"Gründung des Deutschen Kaiserreichs","start":"1871-01-18","importance":2,"description":"Nach dem Deutsch-Französischen Krieg wurde in Versailles der preußische König zum Deutschen Kaiser ausgerufen – ohne Österreich („kleindeutsche Lösung“).","place":{"name":"Versailles","lat":48.8049,"lon":2.1204}},
+    {"id":"berliner-kongress-1878","title":"Berliner Kongress","start":"1878-06-13","end":"1878-07-13","importance":4,"description":"Neuordnung des Balkans; Österreich-Ungarn erhielt die Verwaltung Bosnien-Herzegowinas.","place":{"name":"Berlin","lat":52.52,"lon":13.405}},
+    {"id":"titanic-1912","title":"Untergang der Titanic","start":"1912-04-15","importance":5,"description":"Der als unsinkbar geltende Ozeandampfer sank auf seiner Jungfernfahrt.","place":{"name":"Nordatlantik","lat":41.73,"lon":-49.95}},
+    {"id":"erster-weltkrieg","title":"Erster Weltkrieg","start":"1914-07-28","end":"1918-11-11","importance":1,"description":"Mit der Kriegserklärung Österreich-Ungarns an Serbien begann der Weltkrieg, der rund 17 Millionen Tote forderte und die alten Monarchien zerstörte.","place":{"name":"Europa","lat":48,"lon":10}},
+    {"id":"oktoberrevolution-1917","title":"Russische Oktoberrevolution","start":"1917-11-07","importance":2,"description":"Die Bolschewiki unter Lenin übernahmen die Macht in Russland.","place":{"name":"Petrograd","lat":59.9343,"lon":30.3351}},
+    {"id":"spanische-grippe","title":"Spanische Grippe","start":"1918","end":"1920","importance":3,"description":"Weltweite Grippepandemie mit zig Millionen Toten, darunter Egon Schiele.","place":{"name":"weltweit","lat":30,"lon":0}},
+    {"id":"versailles-1919","title":"Vertrag von Versailles","start":"1919-06-28","importance":2,"description":"Friedensvertrag mit Deutschland; Gründung des Völkerbunds (1920).","place":{"name":"Versailles","lat":48.8049,"lon":2.1204}},
+    {"id":"marco-polo","title":"Reisen Marco Polos","start":"1271","end":"1295","importance":4,"description":"Der Venezianer reiste bis nach China; sein Reisebericht prägte das europäische Bild Asiens.","place":{"name":"Venedig","lat":45.4408,"lon":12.3155}},
+    {"id":"eidgenossenschaft-1291","title":"Bund der Eidgenossen","start":"1291-08","importance":4,"description":"Uri, Schwyz und Unterwalden schlossen ein Bündnis – auch gegen habsburgische Ansprüche.","place":{"name":"Rütli","lat":46.9681,"lon":8.5928}},
+    {"id":"avignon","title":"Päpste in Avignon","start":"1309","end":"1377","importance":4,"description":"Die Päpste residierten fast 70 Jahre in Avignon unter französischem Einfluss.","place":{"name":"Avignon","lat":43.9493,"lon":4.8055}},
+    {"id":"hundertjaehriger-krieg","title":"Hundertjähriger Krieg","start":"1337","end":"1453","importance":3,"description":"Konflikt zwischen England und Frankreich; Jeanne d’Arc wendete 1429 das Blatt.","place":{"name":"Frankreich","lat":47,"lon":2}},
+    {"id":"schwarzer-tod","title":"Schwarzer Tod","start":"1347","end":"1351","importance":1,"description":"Die Pest tötete in wenigen Jahren rund ein Drittel der Bevölkerung Europas.","place":{"name":"Europa","lat":48,"lon":10}},
+    {"id":"goldene-bulle-1356","title":"Goldene Bulle","start":"1356-01-10","importance":2,"description":"Reichsgesetz Karls IV., das die Königswahl durch sieben Kurfürsten regelte; die Habsburger waren nicht darunter.","place":{"name":"Nürnberg / Metz","lat":49.4521,"lon":11.0767}},
+    {"id":"abendlaendisches-schisma","title":"Abendländisches Schisma","start":"1378","end":"1417","importance":4,"description":"Zwei, zeitweise drei Päpste beanspruchten das Amt.","place":{"name":"Rom / Avignon","lat":43,"lon":8}},
+    {"id":"konstanz-1414","title":"Konzil von Konstanz","start":"1414-11-05","end":"1418-04-22","importance":3,"description":"Beendete das Schisma; der Prager Reformator Jan Hus wurde 1415 verbrannt.","place":{"name":"Konstanz","lat":47.6603,"lon":9.1758}},
+    {"id":"hussitenkriege","title":"Hussitenkriege","start":"1419","end":"1436","importance":3,"description":"Kriege in Böhmen nach dem Tod von Jan Hus; Hussitenheere zogen auch plündernd durch Österreich.","place":{"name":"Böhmen","lat":50,"lon":14.5}},
+    {"id":"konstantinopel-1453","title":"Fall Konstantinopels","start":"1453-05-29","importance":1,"description":"Die Osmanen unter Mehmed II. eroberten Konstantinopel; Ende des Byzantinischen Reiches.","place":{"name":"Konstantinopel","lat":41.0082,"lon":28.9784}},
+    {"id":"rosenkriege","title":"Rosenkriege","start":"1455","end":"1485","importance":5,"description":"Thronkämpfe in England zwischen den Häusern Lancaster und York.","place":{"name":"England","lat":52.5,"lon":-1.5}},
+    {"id":"granada-1492","title":"Fall Granadas","start":"1492-01-02","importance":4,"description":"Ende der Reconquista auf der Iberischen Halbinsel.","place":{"name":"Granada","lat":37.1773,"lon":-3.5986}},
+    {"id":"kolumbus-1492","title":"Kolumbus erreicht Amerika","start":"1492-10-12","importance":1,"description":"Christoph Kolumbus landete auf einer Insel der Bahamas – Beginn der europäischen Kolonisierung Amerikas.","place":{"name":"Bahamas","lat":24,"lon":-74.5}},
+    {"id":"vasco-da-gama-1498","title":"Seeweg nach Indien","start":"1498-05-20","importance":4,"description":"Vasco da Gama erreichte Calicut um das Kap der Guten Hoffnung.","place":{"name":"Kozhikode (Calicut)","lat":11.2588,"lon":75.7804}},
+    {"id":"kaiserkroenung-800","title":"Kaiserkrönung Karls des Großen","short":"Kaiserkrönung 800","start":"800-12-25","importance":1,"description":"Papst Leo III. krönte Karl in Rom zum Kaiser – Erneuerung des weströmischen Kaisertums.","place":{"name":"Rom","lat":41.9022,"lon":12.4539}},
+    {"id":"wikinger","title":"Wikingerzüge","start":"793","end":"1066","importance":4,"description":"Skandinavische Seefahrer plünderten und besiedelten Küsten Europas.","place":{"name":"Nordsee","lat":56,"lon":3}},
+    {"id":"verdun-843","title":"Vertrag von Verdun","start":"843-08","importance":2,"description":"Teilung des Frankenreichs unter den Enkeln Karls des Großen; Keimzelle Frankreichs und Deutschlands.","place":{"name":"Verdun","lat":49.1598,"lon":5.3844}},
+    {"id":"kaiserkroenung-962","title":"Kaiserkrönung Ottos I.","short":"Kaiserkrönung 962","start":"962-02-02","importance":1,"description":"Beginn des später „Heiliges Römisches Reich“ genannten Kaisertums, das bis 1806 bestand.","place":{"name":"Rom","lat":41.9022,"lon":12.4539}},
+    {"id":"schisma-1054","title":"Morgenländisches Schisma","start":"1054-07-16","importance":2,"description":"Bruch zwischen der lateinischen und der orthodoxen Kirche.","place":{"name":"Konstantinopel","lat":41.0082,"lon":28.9784}},
+    {"id":"hastings-1066","title":"Schlacht bei Hastings","start":"1066-10-14","importance":3,"description":"Normannische Eroberung Englands.","place":{"name":"Hastings","lat":50.9126,"lon":0.487}},
+    {"id":"canossa-1077","title":"Gang nach Canossa","start":"1077-01","importance":2,"description":"Heinrich IV. erwirkte durch Buße die Lösung vom Kirchenbann – Höhepunkt des Investiturstreits.","place":{"name":"Canossa","lat":44.5767,"lon":10.4558}},
+    {"id":"kreuzzuege","title":"Kreuzzüge","start":"1096","end":"1291","importance":1,"description":"Kriegszüge der lateinischen Christenheit ins Heilige Land; auch österreichische Herzöge nahmen teil.","place":{"name":"Jerusalem","lat":31.7683,"lon":35.2137}},
+    {"id":"wormser-konkordat-1122","title":"Wormser Konkordat","start":"1122-09-23","importance":3,"description":"Beendete den Investiturstreit zwischen Kaiser und Papst.","place":{"name":"Worms","lat":49.6341,"lon":8.3507}},
+    {"id":"jerusalem-1187","title":"Saladin erobert Jerusalem","start":"1187-10-02","importance":4,"description":"Auslöser des Dritten Kreuzzugs.","place":{"name":"Jerusalem","lat":31.7683,"lon":35.2137}},
+    {"id":"konstantinopel-1204","title":"Plünderung Konstantinopels","start":"1204-04-13","importance":4,"description":"Der Vierte Kreuzzug eroberte und plünderte die byzantinische Hauptstadt.","place":{"name":"Konstantinopel","lat":41.0082,"lon":28.9784}},
+    {"id":"magna-carta-1215","title":"Magna Carta","start":"1215-06-15","importance":2,"description":"Der englische König gestand dem Adel grundlegende Rechte zu – Meilenstein der Verfassungsgeschichte.","place":{"name":"Runnymede","lat":51.444,"lon":-0.565}},
+    {"id":"liegnitz-1241","title":"Mongolensturm","start":"1241-04-09","importance":3,"description":"Mongolische Heere siegten bei Liegnitz und Muhi; Mitteleuropa blieb nur durch ihren Rückzug verschont.","place":{"name":"Liegnitz (Legnica)","lat":51.207,"lon":16.1553}},
+    {"id":"interregnum","title":"Interregnum","start":"1254","end":"1273-10-01","importance":3,"description":"„Kaiserlose, schreckliche Zeit“ ohne allgemein anerkannten König, beendet durch die Wahl Rudolfs von Habsburg.","place":{"name":"Heiliges Römisches Reich","lat":50,"lon":10}},
+    {"id":"weltwirtschaftskrise-1929","title":"Weltwirtschaftskrise","start":"1929-10-24","importance":2,"description":"Der Börsenkrach in New York stürzte die Welt in eine tiefe Depression.","place":{"name":"New York","lat":40.7069,"lon":-74.0113}},
+    {"id":"machtergreifung-1933","title":"NS-Machtübernahme in Deutschland","start":"1933-01-30","importance":3,"description":"Hitler wurde Reichskanzler.","place":{"name":"Berlin","lat":52.52,"lon":13.405}},
+    {"id":"zweiter-weltkrieg","title":"Zweiter Weltkrieg","start":"1939-09-01","end":"1945-05-08","importance":1,"description":"Mit über 60 Millionen Toten der verheerendste Krieg der Geschichte.","place":{"name":"Europa","lat":50,"lon":15}},
+    {"id":"holocaust","title":"Holocaust (Shoah)","start":"1941","end":"1945","importance":1,"description":"Systematischer Völkermord an rund sechs Millionen europäischen Juden sowie Verfolgung und Ermordung von Roma, Behinderten und politischen Gegnern.","place":{"name":"Auschwitz","lat":50.0343,"lon":19.1784}},
+    {"id":"hiroshima-1945","title":"Atombomben auf Hiroshima und Nagasaki","start":"1945-08-06","importance":2,"description":"Erster und bisher einziger Einsatz von Atomwaffen im Krieg.","place":{"name":"Hiroshima","lat":34.3853,"lon":132.4553}},
+    {"id":"uno-1945","title":"Gründung der Vereinten Nationen","start":"1945-10-24","importance":3,"description":"Die UNO-Charta trat in Kraft.","place":{"name":"New York","lat":40.7489,"lon":-73.968}},
+    {"id":"kalter-krieg","title":"Kalter Krieg","start":"1947","end":"1991","importance":2,"description":"Systemkonflikt zwischen USA und Sowjetunion; Österreich lag als neutraler Staat an der Bruchlinie.","place":{"name":"Europa","lat":50,"lon":15}},
+    {"id":"israel-1948","title":"Gründung Israels","start":"1948-05-14","importance":3,"description":"Unabhängigkeitserklärung des Staates Israel.","place":{"name":"Tel Aviv","lat":32.0853,"lon":34.7818}},
+    {"id":"roemische-vertraege-1957","title":"Römische Verträge","start":"1957-03-25","importance":3,"description":"Gründung der Europäischen Wirtschaftsgemeinschaft.","place":{"name":"Rom","lat":41.9028,"lon":12.4964}},
+    {"id":"kubakrise-1962","title":"Kubakrise","start":"1962-10","importance":3,"description":"Die Welt stand am Rand eines Atomkriegs.","place":{"name":"Kuba","lat":21.5,"lon":-79}},
+    {"id":"mondlandung-1969","title":"Mondlandung","start":"1969-07-20","importance":2,"description":"Neil Armstrong und Buzz Aldrin betraten als erste Menschen den Mond.","place":{"name":"Mond","lat":0.674,"lon":23.472}},
+    {"id":"mauerfall-1989","title":"Fall der Berliner Mauer","short":"Mauerfall","start":"1989-11-09","importance":1,"description":"Ende der Teilung Europas; die Staaten Ostmitteleuropas wurden frei.","place":{"name":"Berlin","lat":52.5163,"lon":13.3777}},
+    {"id":"ende-sowjetunion-1991","title":"Auflösung der Sowjetunion","start":"1991-12-26","importance":2,"description":"Ende des Kalten Krieges.","place":{"name":"Moskau","lat":55.7558,"lon":37.6173}},
+    {"id":"jugoslawienkriege","title":"Jugoslawienkriege","start":"1991","end":"2001","importance":3,"description":"Kriege beim Zerfall Jugoslawiens, nahe der österreichischen Grenze.","place":{"name":"Sarajevo","lat":43.8563,"lon":18.4131}},
+    {"id":"nine-eleven","title":"Terroranschläge vom 11. September","short":"11. September","start":"2001-09-11","importance":2,"description":"Anschläge auf das World Trade Center und das Pentagon.","place":{"name":"New York","lat":40.7115,"lon":-74.0134}},
+    {"id":"finanzkrise-2008","title":"Weltfinanzkrise","start":"2008-09-15","importance":3,"description":"Der Zusammenbruch der Bank Lehman Brothers löste eine globale Wirtschaftskrise aus.","place":{"name":"New York","lat":40.7069,"lon":-74.0113}},
+    {"id":"covid-pandemie","title":"COVID-19-Pandemie","start":"2020-03-11","importance":2,"description":"Die WHO erklärte den Ausbruch zur Pandemie.","place":{"name":"weltweit","lat":30,"lon":0}}
   ]
 }

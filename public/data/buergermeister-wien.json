@@ -1,10 +1,7 @@
 {
   "category": "buergermeister-wien",
   "note": "Amtszeiten nach der Liste der Bürgermeister von Wien (Wikipedia) und dem Wien Geschichte Wiki. Bis ins 16. Jahrhundert sind meist nur Jahre überliefert, im Mittelalter oft nur Erst- und Letztnennungen im Amt; die Amtszeiten sind hier vereinfacht als Kalenderjahre angegeben. Einzelne Jahre sind in der Literatur umstritten.",
-  "sources": [
-    "https://de.wikipedia.org/wiki/Liste_der_B%C3%BCrgermeister_von_Wien",
-    "https://www.geschichtewiki.wien.gv.at/Liste_der_Wiener_B%C3%BCrgermeister"
-  ],
+  "sources": ["https://de.wikipedia.org/wiki/Liste_der_B%C3%BCrgermeister_von_Wien","https://www.geschichtewiki.wien.gv.at/Liste_der_Wiener_B%C3%BCrgermeister"],
   "items": [
     {"id":"bgm-konrad-poll-1282","title":"Konrad Poll","start":"1282","end":"1282","importance":3,"description":"Erster urkundlich genannter Bürgermeister Wiens (1282), kurz nach dem Beginn der habsburgischen Herrschaft.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
     {"id":"bgm-heinrich-hansgraf-1285","title":"Heinrich Hansgraf","start":"1285","end":"1285","importance":4,"place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
