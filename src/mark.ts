@@ -11,9 +11,13 @@ export const isLine = (m: Mark) => m[0] === m[1];
 /** Ab dieser Auflösung wird die Markierung monatsgenau beschriftet. */
 const MONTH_PX_PER_YEAR = 40;
 
-function formatTime(t: number, pxPerYear: number): string {
-  // Kleine Toleranz (max. ~4 Tage): ein Klick genau auf „1914“ soll nicht als 1913 gelten.
-  t += Math.min(0.5 / pxPerYear, 0.01);
+/**
+ * `side` +1 für den Beginn, −1 für das Ende eines Abschnitts. Kleine Toleranz (max. ~4 Tage):
+ * Ein Beginn genau auf „1914“ soll nicht als 1913 gelten, und ein Ende genau am Jahreswechsel
+ * 1520.0 (Zeitraum bis einschließlich 1519) nicht als 1520.
+ */
+function formatTime(t: number, pxPerYear: number, side: 1 | -1): string {
+  t += side * Math.min(0.5 / pxPerYear, 0.01);
   const year = Math.floor(t);
   if (pxPerYear < MONTH_PX_PER_YEAR) return formatYear(year);
   const month = Math.min(11, Math.floor((t - year) * 12));
@@ -21,14 +25,19 @@ function formatTime(t: number, pxPerYear: number): string {
 }
 
 export function formatMark(m: Mark, pxPerYear: number): string {
-  const a = formatTime(m[0], pxPerYear);
-  const b = formatTime(m[1], pxPerYear);
+  if (isLine(m)) return formatTime(m[0], pxPerYear, 1);
+  const a = formatTime(m[0], pxPerYear, 1);
+  const b = formatTime(m[1], pxPerYear, -1);
   return a === b ? a : `${a} – ${b}`;
 }
 
-/** Liegt ein Eintrag (Zeitpunkt oder Zeitraum [t0, t1)) ganz oder teilweise in der Markierung? */
+/**
+ * Liegt ein Eintrag (Zeitraum [t0, t1)) ganz oder teilweise in der Markierung? Was genau an
+ * der Grenze endet oder beginnt (z. B. die vorige Epoche), zählt nicht dazu.
+ */
 export function overlapsMark(it: { t0: number; t1: number }, m: Mark): boolean {
-  return it.t0 <= m[1] && it.t1 >= m[0];
+  if (isLine(m)) return it.t0 <= m[0] && it.t1 > m[0];
+  return it.t0 < m[1] && it.t1 > m[0];
 }
 
 export function parseMark(text: string | null): Mark | undefined {

@@ -102,10 +102,11 @@ export function layoutLanes(input: LayoutInput): Lane[] {
         const labelEnd = reignHidden ? p.placed.labelX + measure(p.placed.label, p.placed.bold) : -Infinity;
         p.extent = [Math.min(p.extent[0], Math.max(life[0], 0)), Math.max(p.extent[1], life[1], labelEnd)];
       }
-      // Aneinandergrenzende Balken (z. B. aufeinanderfolgende Amtszeiten) dürfen sich in
-      // einer Zeile berühren; nach einer Beschriftung bleibt etwas Abstand.
+      // Aneinandergrenzende Balken (z. B. aufeinanderfolgende Amtszeiten oder Epochen) dürfen
+      // sich in einer Zeile berühren (beim Zeichnen bleibt eine 1-px-Fuge); nach einer
+      // Beschriftung bleibt etwas Abstand. Halbe Pixel Rundung zählen noch als „berühren“.
       const endsWithText = p.placed.label !== '' && !p.placed.labelInside;
-      const span: [number, number] = [p.extent[0], p.extent[1] + (endsWithText || item.isPoint ? ROW_GAP : 1)];
+      const span: [number, number] = [p.extent[0] + 0.5, p.extent[1] + (endsWithText || item.isPoint ? ROW_GAP : 0)];
       let row = rows.findIndex((used) => used.every(([a, b]) => span[1] <= a || span[0] >= b));
       if (row === -1) {
         row = rows.length;

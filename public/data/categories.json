@@ -1,5 +1,7 @@
 {
   "categories": [
+    {"id": "epochen", "name": "Epochen", "color": "#3A3A3A", "file": "epochen.json", "description": "Große Abschnitte der österreichischen Geschichte."},
+    {"id": "kunstepochen", "name": "Kunstepochen", "color": "#8E6BBF", "file": "kunstepochen.json", "description": "Stilepochen der Kunst und Architektur in Österreich."},
     {"id": "herrscher-hrr", "name": "Röm.-dt. Kaiser & Könige", "color": "#A97C14", "file": "herrscher-hrr.json", "description": "Oberhäupter des Heiligen Römischen Reiches bis 1806 (Regierungszeit, blass: Lebenszeit)."},
     {"id": "herrscher-at", "name": "Herrscher Österreich", "color": "#C8102E", "file": "herrscher-at.json", "description": "Landesfürsten der österreichischen Länder, ab 1804 Kaiser von Österreich, ab 1918 Staatsoberhäupter der Republik (Regierungszeit, blass: Lebenszeit)."},
     {"id": "kanzler-at", "name": "Kanzler Österreich", "color": "#00838F", "file": "kanzler-at.json", "description": "Haus-, Hof- und Staatskanzler, Reichskanzler, Staats- und Bundeskanzler (Amtszeit, blass: Lebenszeit)."},

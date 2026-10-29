@@ -8,12 +8,17 @@ describe('Markierung', () => {
     expect(formatMark([1683.7, 1683.7], 100)).toBe('Sep. 1683');
     expect(formatMark([1914.01, 1914.05], 10)).toBe('1914');
     expect(formatMark([1913.998, 1918.5], 5)).toBe('1914 – 1918');
+    // Zeitraum bis einschließlich 1519 endet bei 1520.0
+    expect(formatMark([1250, 1520], 5)).toBe('1250 – 1519');
   });
 
   it('erkennt Überschneidungen', () => {
     expect(overlapsMark({ t0: 1910, t1: 1915 }, [1914, 1918])).toBe(true);
     expect(overlapsMark({ t0: 1919, t1: 1919.1 }, [1914, 1918])).toBe(false);
     expect(overlapsMark({ t0: 1683.7, t1: 1683.71 }, [1683.7, 1683.7])).toBe(true);
+    // angrenzende Epochen zählen nicht dazu
+    expect(overlapsMark({ t0: 1520, t1: 1600 }, [1600, 1770])).toBe(false);
+    expect(overlapsMark({ t0: 1770, t1: 1815 }, [1600, 1770])).toBe(false);
   });
 
   it('liest und schreibt die URL-Form', () => {

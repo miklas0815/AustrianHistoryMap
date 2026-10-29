@@ -1,6 +1,6 @@
 # Österreichische Geschichte – Zeitleiste
 
-Interaktive Zeitleiste mit auswählbaren Kategorien (Herrscher, Kanzler, Persönlichkeiten in
+Interaktive Zeitleiste mit auswählbaren Kategorien (Epochen, Kunstepochen, Herrscher, Kanzler, Persönlichkeiten in
 Österreich und international, Wiener Bürgermeister, Baumeister, Bildhauer, Maler,
 Komponisten & Musiker, Schriftsteller, technologische Neuerungen, Ereignisse in
 Österreich und international). Zoomen blendet je nach
@@ -30,7 +30,9 @@ Datenbestand: 768–2020 (von Karl dem Großen bis in die Gegenwart).
   außerhalb treten blass zurück, die Statuszeile zählt die Einträge darin. Entfernen
   mit „×“ an der Beschriftung oder Esc. Die Markierung steht im Link (`mark=…`) und
   erscheint auch im PDF/JPEG
-- **Klick auf einen Eintrag**: Details mit Ort, Wikipedia-Suche und Kartenlink
+- **Klick auf einen Eintrag**: markiert dessen Zeitraum über alle Kategorien (wie eine
+  Markierung auf der Zeitachse; mit den Epochen-Kategorien sieht man so alles aus einer
+  Epoche) und zeigt Details mit Ort, Wikipedia-Suche und Kartenlink
 - **PDF / JPEG**: speichert genau die aktuelle Ansicht mit Titel und Datum;
   Hoch- oder Querformat richtet sich nach der Ausrichtung
 - **Link**: kopiert eine URL, die diese Ansicht wiederherstellt

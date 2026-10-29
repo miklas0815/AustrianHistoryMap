@@ -137,7 +137,8 @@ export function renderTimeline(svg: SVGSVGElement, o: RenderOptions): number {
         el('rect', {
           x: p.x0,
           y: barY,
-          width: Math.max(p.x1 - p.x0, 3),
+          // 1 px Fuge, damit aneinander anschließende Zeiträume unterscheidbar bleiben.
+          width: Math.max(p.x1 - p.x0 - 1, 3),
           height: BAR_H,
           rx: 3,
           fill: color,

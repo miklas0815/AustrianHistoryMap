@@ -37,6 +37,17 @@ describe('layoutLanes', () => {
     expect(lane.rows).toBe(2);
   });
 
+  it('setzt direkt aneinander anschließende Zeiträume in dieselbe Zeile', () => {
+    const epochs = [
+      toItem({ id: 'e1', title: 'Gotik', start: '1500', end: '1519', importance: 1 }, 'c'),
+      toItem({ id: 'e2', title: 'Renaissance', start: '1520', end: '1526-08-28', importance: 1 }, 'c'),
+      toItem({ id: 'e3', title: 'Barock', start: '1526-08-29', end: '1560', importance: 1 }, 'c'),
+    ];
+    const [lane] = layoutLanes({ ...base, items: epochs, maxImportance: 1 });
+    expect(lane.placed.map((p) => p.row)).toEqual([0, 0, 0]);
+    expect(lane.rows).toBe(1);
+  });
+
   it('blendet unbedeutende Einträge aus und zählt sie', () => {
     const [lane] = layoutLanes({ ...base, maxImportance: 3 });
     expect(lane.placed.map((p) => p.item.id)).not.toContain('d');

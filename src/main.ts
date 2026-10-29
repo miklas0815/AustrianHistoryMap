@@ -133,7 +133,8 @@ function markStatus(groups: { placed: { item: Item }[] }[]): string {
   const m = state.mark;
   if (!m || isLine(m)) return '';
   const n = groups.reduce((a, g) => a + g.placed.filter((p) => overlapsMark(p.item, m)).length, 0);
-  return ` · markiert ${markLabel()}: ${n} Einträge`;
+  const sel = itemMark && m === itemMark && state.sel ? itemsById.get(state.sel) : undefined;
+  return ` · markiert ${sel ? `„${sel.short ?? sel.title}“ (${markLabel()})` : markLabel()}: ${n} Einträge`;
 }
 
 function renderVerticalView(cats: Category[]): void {
@@ -662,12 +663,28 @@ function setupMarkDrag(): void {
   });
 }
 
-function showDetail(it: Item | undefined): void {
+/**
+ * Markierung, die durch Anklicken eines Eintrags entstanden ist. Sie verschwindet mit dem
+ * Detailfenster wieder, eine von Hand gesetzte Markierung dagegen nicht.
+ */
+let itemMark: Mark | undefined;
+
+/** Zeitraum eines Eintrags als Markierung; Zeitpunkte als Linie an der Raute. */
+const markOf = (it: Item): Mark => (it.isPoint ? [it.t0, it.t0] : [it.t0, it.t1]);
+
+/** `markIt`: den Zeitraum des Eintrags über alle Kategorien markieren (Klick auf einen Eintrag). */
+function showDetail(it: Item | undefined, markIt = true): void {
   state.sel = it?.id;
   if (!it) {
+    if (itemMark && state.mark === itemMark) state.mark = undefined;
+    itemMark = undefined;
     detailEl.hidden = true;
     scheduleRender();
     return;
+  }
+  if (markIt) {
+    itemMark = markOf(it);
+    state.mark = itemMark;
   }
   const cat = data.categories.find((c) => c.id === it.category)!;
   const node = (tag: string, text?: string, cls?: string) => {
@@ -901,7 +918,14 @@ async function main(): Promise<void> {
 
   const initial = { from: state.from, to: state.to };
   showRange(Math.max(initial.from, extent[0]), Math.min(initial.to, extent[1]));
-  if (state.sel && itemsById.has(state.sel)) showDetail(itemsById.get(state.sel));
+  if (state.sel && itemsById.has(state.sel)) {
+    // Eine Markierung aus dem Link hat Vorrang; sonst wie beim Anklicken den Zeitraum markieren.
+    const it = itemsById.get(state.sel)!;
+    const fromLink = state.mark;
+    showDetail(it, !fromLink);
+    const own = markOf(it);
+    if (fromLink && Math.abs(fromLink[0] - own[0]) < 0.01 && Math.abs(fromLink[1] - own[1]) < 0.01) itemMark = state.mark;
+  }
   else state.sel = undefined;
 
   const relayout = () => {
