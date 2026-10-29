@@ -142,6 +142,7 @@
     {"id":"fluechtlinge-2015","title":"Fluchtbewegung 2015","start":"2015-09","importance":4,"description":"Zehntausende Flüchtlinge kamen über Ungarn nach Österreich.","place":{"name":"Nickelsdorf","lat":47.9389,"lon":17.0681}},
     {"id":"ibiza-2019","title":"Ibiza-Affäre","start":"2019-05-17","importance":4,"description":"Ein heimlich gefilmtes Video führte zum Ende der Regierung und zur ersten Expertenregierung.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
     {"id":"covid-2020","title":"Erster COVID-19-Lockdown","start":"2020-03-16","importance":3,"description":"Weitgehende Ausgangsbeschränkungen zur Eindämmung der Pandemie.","place":{"name":"Wien","lat":48.2082,"lon":16.3738}},
-    {"id":"terroranschlag-2020","title":"Terroranschlag in Wien","start":"2020-11-02","importance":4,"description":"Ein islamistischer Attentäter tötete in der Innenstadt vier Menschen.","place":{"name":"Seitenstettengasse, Wien","lat":48.2115,"lon":16.3745}}
+    {"id":"terroranschlag-2020","title":"Terroranschlag in Wien","start":"2020-11-02","importance":4,"description":"Ein islamistischer Attentäter tötete in der Innenstadt vier Menschen.","place":{"name":"Seitenstettengasse, Wien","lat":48.2115,"lon":16.3745}},
+    {"id":"1-donauregulierung","title":"1. Donauregulierung","start":"1870","end":"1875","importance":3,"description":"In den 1870er Jahren wurde im Zuge der Ersten Wiener Donauregulierung der heutige Hauptstrom angelegt, der sogenannte Donaudurchstich;","place":{"name":"Wien"},"sources":["https://de.wikipedia.org/wiki/Wiener_Donauregulierung"]}
   ]
 }
