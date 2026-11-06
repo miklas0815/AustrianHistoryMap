@@ -82,6 +82,19 @@ beim nächsten Deploy überschrieben.
 Es wird nur statisches Hosting benötigt – kein PHP, keine Datenbank. Die mitgelieferte
 `.htaccess` sorgt dafür, dass Browser nach einem Update sofort die neue Fassung laden.
 
+## Zugriffsstatistik (GoatCounter)
+
+Seitenaufrufe werden mit [GoatCounter](https://www.goatcounter.com) gezählt: ohne Cookies,
+ohne fremdes Skript (ein Bildaufruf an `https://<code>.goatcounter.com/count`, siehe
+`src/analytics.ts`), daher ohne Cookie-Banner. Gezählt werden Aufrufe der Zeitleiste sowie
+PDF-/JPEG-Export und „Link kopieren“ als Ereignisse – nicht aber Zoomen oder Verschieben,
+die Redaktionsseite, die Vorschau aus der Redaktion und Aufrufe von `localhost`.
+
+- Konto-Code in `src/analytics.ts` bei `GOATCOUNTER_CODE` eintragen (leer = keine Zählung).
+- Eigene Besuche ausschließen: auf der Redaktionsseite „eigene Besuche auf diesem Gerät nicht
+  zählen“ anhaken (gilt pro Browser/Gerät).
+- Die Statistik selbst steht unter `https://<code>.goatcounter.com`.
+
 ## Daten pflegen
 
 ### Redaktionsseite

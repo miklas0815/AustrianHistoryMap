@@ -3,6 +3,7 @@
 
 import './editor.css';
 import { PREVIEW_KEY, fetchJson, type Category, type CategoryFile, type PreviewData, type RawItem } from '../data';
+import { GOATCOUNTER_CODE, isCountingDisabledHere, setCountingDisabledHere } from '../analytics';
 import { DATE_HINT, dateKey, slugify, validateItem } from '../validate';
 import { DATA_DIR, GitHub, REPO } from './github';
 import {
@@ -715,6 +716,14 @@ function setup(): void {
   });
   setupLogin();
   setupSave();
+  // Eigene Besuche nicht in der Zugriffsstatistik zählen (gilt für diesen Browser).
+  const skip = $<HTMLInputElement>('skip-count');
+  skip.checked = isCountingDisabledHere();
+  skip.closest('label')!.hidden = !GOATCOUNTER_CODE;
+  skip.addEventListener('change', () => {
+    setCountingDisabledHere(skip.checked);
+    toast(skip.checked ? 'Ihre Besuche der Zeitleiste auf diesem Gerät werden nicht mehr gezählt.' : 'Ihre Besuche auf diesem Gerät werden wieder gezählt.');
+  });
 }
 
 setup();

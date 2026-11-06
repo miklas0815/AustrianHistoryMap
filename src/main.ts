@@ -1,5 +1,6 @@
 import './style.css';
 import { scaleLinear } from 'd3-scale';
+import { countEvent, countPageview } from './analytics';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, type D3ZoomEvent, type ZoomBehavior } from 'd3-zoom';
 import { itemSpan, loadDataset, loadPreview, type Category, type Dataset, type Item } from './data';
@@ -870,15 +871,18 @@ function setupControls(): void {
   });
 
   const pdfButton = $<HTMLButtonElement>('export-pdf');
+  pdfButton.addEventListener('click', () => countEvent('export-pdf', 'PDF-Export'));
   pdfButton.addEventListener('click', () =>
     runExport(pdfButton, (svg) => exportPdf(svg, exportFileBase() + '.pdf', $<HTMLSelectElement>('pdf-format').value as PdfFormat)),
   );
   const jpegButton = $<HTMLButtonElement>('export-jpeg');
+  jpegButton.addEventListener('click', () => countEvent('export-jpeg', 'JPEG-Export'));
   jpegButton.addEventListener('click', () =>
     runExport(jpegButton, (svg) => exportImage(svg, exportFileBase() + '.jpg', 'image/jpeg')),
   );
   const linkButton = $<HTMLButtonElement>('copy-link');
   linkButton.addEventListener('click', async () => {
+    countEvent('link-kopiert', 'Link kopiert');
     history.replaceState(null, '', serializeViewState(state));
     try {
       await navigator.clipboard.writeText(location.href);
@@ -893,6 +897,7 @@ function setupControls(): void {
 // ---------- Start ----------
 
 async function main(): Promise<void> {
+  countPageview();
   try {
     const preview = state.preview ? loadPreview() : null;
     data = preview ?? (await loadDataset());
