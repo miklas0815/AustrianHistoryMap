@@ -3,7 +3,7 @@
 // (Parameter siehe https://www.goatcounter.com/code/pixel).
 
 /** GoatCounter-Code = Name des Kontos, also <code>.goatcounter.com. Leer = keine Zählung. */
-export const GOATCOUNTER_CODE = '';
+export const GOATCOUNTER_CODE = 'miklas0815';
 
 /** Gleicher Schlüssel wie im offiziellen count.js: „t“ = dieses Gerät nicht zählen. */
 export const SKIP_KEY = 'skipgc';
